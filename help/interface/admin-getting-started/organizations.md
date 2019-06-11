@@ -1,0 +1,74 @@
+---
+description: 瞭解組織以及將解決方案帳戶連結至 Experience Cloud。
+keywords: 核心服務
+seo-description: 瞭解組織以及將解決方案帳戶連結至 Experience Cloud。
+seo-title: 組織和帳戶連結
+solution: 'Marketing Cloud '
+title: 組織和帳戶連結
+uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397 aa
+translation-type: tm+mt
+source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+
+---
+
+
+# 組織和帳戶連結
+
+瞭解管理組織並將解決方案帳戶連結至Experience Cloud。
+
+<!-- accounts-experience-cloud.xml -->
+
+## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
+
+*組織*是可讓管理員設定群組及使用者，以及控制 Experience Cloud 中單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。最常見的組織就是您的公司名稱。不過，公司可以有許多組織。
+
+此外，您可能必須找出自己的組織 ID 以便做為支援用途。您可以使用 **[!UICONTROL 「組織」]功能表確認自己所在的組織是否正確，或者切換組織。**
+
+![步驟結果](assets/organization-switch.png)
+
+## 找出組織 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+**組織ID** 是與您布建Experience Cloud公司相關聯的ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。
+
+若要檢視組織ID，請導覽至Experience Cloud登陸頁面，或按一下( ![](assets/menu-icon.png))，然後按一下 **[!UICONTROL 「管理]**」。您可以在「Experience [!UICONTROL Cloud] 」頁面或 [!UICONTROL 「管理] 」頁面的「快速入門」底部找到組織ID。
+
+![](assets/administration-page.png)
+
+## 將解決方案帳戶連結至 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+
+一般來說，Experience Cloud 管理員會授予解決方案和服務的存取權。在極少數的情況下，您可能必須將解決方案憑證連結至 Adobe ID。
+
+1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
+1. 使用您的 Adobe ID 或 Enterprise ID 登入。
+1. 按一下解決方案選擇器。( ![](assets/menu-icon.png))。
+
+   ![](assets/solutions-active.png)
+
+   系統會將您有權存取的解決方案標上顏色。
+1. 按一下所需的解決方案。
+
+   ![](assets/analytics-link-accounts.png)
+
+   如果您隸屬於適用的群組 (且具備解決方案權限)，但尚未將帳戶憑證連結至 Adobe ID，系統就會顯示這類訊息。
+1. 按一下 **[!UICONTROL 「連結帳戶]**」，然後提供您的認證。
+
+## 指定預設機構和登陸頁面 {#concept_6A191B42A9874A9780882903BA18F071}
+
+您可指定在登入時使用的預設組織和登陸頁面。
+
+在您的個人檔案中，按一下 **[!UICONTROL 編輯設定檔]**。
+
+![](assets/edit-profile.png)
+
+在「預設組織和著陸頁面」下方，您可以自訂登入體驗。
+
+![](assets/default-organization.png)
+
+## 帳戶連結問題疑難排解 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
+
+帳戶連結相關問題的協助。
+
+通常帳戶連結會失敗，是因為 Adobe ID 連結至前一個使用者。帳戶連結失敗時，您可以:
+
+* [聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+* 在問題待解決之際，您仍可使用標準登入存取解決方案。
