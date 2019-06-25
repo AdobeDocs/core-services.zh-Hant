@@ -1,33 +1,33 @@
 ---
-description: Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
+description: Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 keywords: 客戶屬性
-seo-description: Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
-seo-title: 常見問題、限制和最佳做法
+seo-description: Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
+seo-title: 常見問題、限制和最佳作法
 solution: Experience Cloud
-title: 常見問題、限制和最佳做法
-uuid: e93eb531-23c7-4d75-92e8-75699f58546a58546a
-translation-type: tm+mt
+title: 常見問題、限制和最佳作法
+uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+translation-type: ht
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
 
 
-# 常見問題、限制和最佳做法
+# 常見問題、限制和最佳作法
 
-Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
+Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 
 
-## 最佳做法和限制 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## 最佳作法和限制{#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 客戶屬性使用指南和限制。
 
 | 問題 | 說明 |
 |--- |--- |
 | 客戶屬性訂閱限制 | 升級至 Analytics Premium 後，您必須等待 24 小時才可使用其他屬性。在這段期間，您可能會看到已達到屬性訂閱上限錯誤。 |
-| 自訂 Analytics ID (s.visitorID) | 使用s. visitorID是識別Analytics中使用者的方法。不過使用 ID 服務匯出或匯入的 Analytics 資料整合，在訪客的識別方式為 s.visitorID 時無法正常運作。<br>這種狀況包括但不限於共用受眾、Analytics for Target (A4T) 和客戶屬性。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
+| 自訂 Analytics ID (s.visitorID) | 使用  s.visitorID 是一種可讓您在 Analytics 中辨識使用者的方法。不過使用 ID 服務匯出或匯入的 Analytics 資料整合，在訪客的識別方式為 s.visitorID 時無法正常運作。<br>這種狀況包括但不限於共用受眾、Analytics for Target (A4T) 和客戶屬性。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
 | Analytics 的字元長度限制 | 建立 Analytics 訂閱時，已上傳檔案的欄位長度會遭到截斷，僅能顯示 255 個字元。 |
 
-## 客戶屬性常見問題 {#section_E47866EEA83348E09FE43CEC5E44C461}
+## 客戶屬性常見問題{#section_E47866EEA83348E09FE43CEC5E44C461}
 
 <table id="table_88631069013B408EBB0A810657662B36"> 
  <thead> 
@@ -47,7 +47,7 @@ Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>取得佈建。 </p> <p>如果您是 <b>Analytics</b> 客戶，Adobe 會為您佈建客戶屬性。如果您只使用 <b>Target</b> 而且沒有 Analytics，則須聯絡客戶服務，請他們幫您佈建核心服務。 </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>與您的 CRM 團隊討論。找出適用於 Analytics 和整個 Experience Cloud 中所需的客戶資料種類。 </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>實作核心服務。 </p> <p>請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 快速入門-啓用核心服務的解決方案，</a> 以瞭解如何最新化核心服務實作的步驟。(請參閱同步客戶 ID 做為重要資訊一節) </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>實作核心服務。 </p> <p>請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 快速入門 - 啟用核心服務的解決方案</a>，瞭解為核心服務導入最新實作方式的相關步驟。(請參閱同步客戶 ID 做為重要資訊一節) </p> </li> 
     </ol> <p> <b>附註:</b> 有關實作核心服務的管理員常見問題集可在<a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">此處</a>取得。 </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: 強烈建議 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> 必要。 </li> 
-     </ul> </p> <p>使用 ID 服務可提升功能，開啟一道使用最新 Experience Cloud 功能的方便之門，包括即時受眾、Target 最新化、Analytics 整合、視訊心率追蹤。 </p> <p>如需詳細資訊，請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服務 - 如何啟用解決方案</a>。 </p> <p> <b>注意</b>： <span class="term"> Experience Cloud ID服務</span> 是舊稱為 <span class="term"> Analytics訪客ID服務的現代化實作</span>。 </p> </td> 
+     </ul> </p> <p>使用 ID 服務可提升功能，開啟一道使用最新 Experience Cloud 功能的方便之門，包括即時受眾、Target 最新化、Analytics 整合、視訊心率追蹤。 </p> <p>如需詳細資訊，請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服務 - 如何啟用解決方案</a>。 </p> <p> <b>附註</b>: <span class="term">Experience Cloud ID 服務</span>是前身為 <span class="term">Analytics 訪客 ID 服務</span>的最新化實作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶屬性功能與 Adobe Audience Manager 有何關係? </p> </td> 
@@ -95,7 +95,7 @@ Analytics 和 Target 中的客戶屬性 FAQ 和最佳做法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target)</b> 從客戶屬性上傳資料至 Adobe Target 是否能延長 Target 訪客設定檔期限? </p> </td> 
-   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
+   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://marketing.adobe.com/resources/help/zh_TW/target/?f=c_visitor_profile_lifetime" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (僅限 Target)</b> 從客戶 ID 辨別出訪客後，我可以立即鎖定上傳至客戶屬性中的資料嗎? </p> </td> 
