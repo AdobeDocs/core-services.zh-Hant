@@ -1,20 +1,20 @@
 ---
-description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳做法。
-keywords: 客戶屬性；核心服務
-seo-description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳做法。
-seo-title: 隱私權考量-客戶屬性
+description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
+keywords: 客戶屬性;核心服務
+seo-description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
+seo-title: 隱私權考量 - 客戶屬性
 solution: Experience Cloud
-title: 隱私權考量-客戶屬性
-uuid: 5666dc4e-55fa-4196-9985-cf530 clib9247
-translation-type: tm+mt
+title: 隱私權考量 - 客戶屬性
+uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
 
 
-# 隱私權考量-客戶屬性
+# 隱私權考量 - 客戶屬性
 
-針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳做法。
+針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
 
 
 <!-- <p>https://wiki.corp.adobe.com/display/omtrplatform/Visitor+Enrichment+and+privacy#VisitorEnrichmentandprivacy-INFORMATIONASSOCIATIONOPTIONS </p> -->
@@ -34,7 +34,7 @@ Adobe 提供工具讓廣告商收集造訪其網站或使用其應用程式之�
 
 Adobe 瞭解這類行銷和廣告決策可能隱含消費者隱私，因此 Adobe 用內建隱私權控制來幫助廣告商符合其消費者的期望。Adobe 建議廣告商謹慎思考哪些資訊適合用於行銷目的，以及廣告商在什麼情況下有權使用這些資訊。
 
-**最佳實務**
+**最佳作法**
 
 要上傳 PII 至 Adobe Analytics 或 Target 時，Adobe 建議客戶先將 PII 進行雜湊處理再上傳至 Adobe。混雜的資訊仍可用於分析或行銷目的。提醒您，Adobe 禁止廣告商將醫療記錄、金融帳戶資訊及未成年人相關資訊等敏感個人資訊，傳送給 Adobe Analytics 和 Target。
 
