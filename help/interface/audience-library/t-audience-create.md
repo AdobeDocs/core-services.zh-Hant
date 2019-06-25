@@ -2,23 +2,23 @@
 description: 瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
 keywords: 核心服務
 seo-description: 瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
-seo-title: 建立對象
+seo-title: 建立受眾
 solution: Experience Cloud
-title: 建立對象
-uuid: 7e622539-296e-4ff3-93b0-ec1 c08 b35429
-translation-type: tm+mt
+title: 建立受眾
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
 
 
-# 建立對象
+# 建立受眾
 
 瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
 
 本文幫助您瞭解如何:
 
-* 建立對象
+* 建立受眾
 * 建立規則
 * 使用規則定義複合受眾
 
@@ -31,17 +31,16 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 >[!NOTE]
 >
->在指定時段的資料收集完成後，就會完全定義觀眾。
-以下範例解說如何建立複合受眾的規則。此受眾的組成成員:
+>在指定期間的資料收集完成後，就能完全定義受眾。以下範例解說如何建立複合受眾的規則。此受眾的組成成員:
 
 * 「家庭與花園」區隔，從頁面資料、或原始分析資料衍生而來。
-* Chrome和Safari使用者是從 [!DNL Adobe Analytics][發佈](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) 到的區段衍生 [!DNL Experience Cloud]而來。
+* 從[發佈](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區隔衍生出的 Chrome 和 Safari 使用者。
 
 
    ![](assets/audience_create.png)
 
-1. 在此 [!DNL Experience Cloud]中，按一下 **[!UICONTROL 「人物]** &gt; **[!UICONTROL 對象庫]**」。
-1. 在 [!UICONTROL 「對象] 」頁面上按一下 **[!UICONTROL 「新增]**」。 ![](assets/add_icon_small.png)
+1. 在 [!DNL Experience Cloud] 中，按一下 **[!UICONTROL People]** &gt; **[!UICONTROL 受眾程式庫]**。
+1. 在[!UICONTROL 受眾]頁面上，按一下 **[!UICONTROL 新增]**。 ![](assets/add_icon_small.png)
 
 ![步驟結果](assets/audience_create_new.png)
 
@@ -52,32 +51,32 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
    >[!NOTE]
    >
-   >由於快取，Analytics中已刪除的報表套裝需要12小時的時間，Experience Cloud才會顯示刪除。
+   >由於快取關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。
 
-* **[!UICONTROL Experience Cloud：]** 來源資料衍生自 [!DNL Experience Cloud] 來源。例如，這可以是您在 [!DNL Analytics] 中建立的受眾區段資料，或是 [!DNL Audience Manager] 中的資料。
+* **[!UICONTROL :]** 從 [!DNL Experience Cloud]Experience Cloud 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的受眾區段資料，或是 [!DNL Audience Manager] 中的資料。
 
 1. 定義受眾規則:
 
 >[!NOTE]
 >
->定義觀眾規則時，您應瞭解實施變數。
+>定義受眾規則時，您應該瞭解您的實作變數。
 
-在 [!UICONTROL 規則]下，定義 *`Home & Garden`* 屬性選擇：
+在[!UICONTROL 規則]底下，定義 *`Home & Garden`* 屬性選取項目:
 
 * **[!UICONTROL 屬性來源:]** 原始 Analytics 資料
 * **[!UICONTROL 報表套裝:]** 報表套裝 31
-* Dimension= **[!UICONTROL Store(Merch)(v6)]** &gt; **[!UICONTROL 等於]** &gt; **[!UICONTROL 家庭與花園]**
+* 維度 = **[!UICONTROL 商店 (商品) (v6)]** &gt; **[!UICONTROL 等於]** &gt; **[!UICONTROL 家庭與花園]**
 
    ![](assets/home_garden.png)
 
-   *Chrome和Safari訪客* 是從Analytics共用的觀眾區隔：
+   *Chrome 和 Safari 訪客*是從 Analytics 共用的受眾區隔:
 
 * **[!UICONTROL 屬性來源:]** Experience Cloud
 * **[!UICONTROL 維度:]** Chrome 與 Safari 訪客
 
    ![](assets/chrome_safari.png)
 
-   為了比較，您可以新增 *OR* 規則來查看網站區域的所有訪客，例如「中庭與家俱」。
+   若要比較，您可以新增 *OR* 規則來查看網站區段 (例如中庭與家具) 的所有訪客。
 
    ![](assets/audiences_rule_patio.png)
 
@@ -93,6 +92,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 完成指定期間的資料收集後，圓圈會結合以顯示定義的受眾。
 
-1. 定義規則後，按一下 **[!UICONTROL 「儲存]**」。
+1. 定義規則後，請按一下 **[!UICONTROL 儲存]**。
 
 儲存受眾後，即可供其他解決方案使用。例如，您可以在 Target 活動中加入共用受眾。
