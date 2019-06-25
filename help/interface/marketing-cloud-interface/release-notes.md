@@ -5,8 +5,8 @@ seo-description: Experience Cloud 介面的功能、發行說明和已知問題�
 seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
-uuid: fcff cc6-e587-4fb2-9a75-261d4 ec7 d4
-translation-type: tm+mt
+uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,9 +18,9 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+如需涵蓋所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。
 
-## 發行版本19.1.1-2019年月17日
+## 發行版本 19.1.1 - 2019 年 1 月 17 日
 
 * 修正說明搜尋無法傳回結果的問題。(MCUI-1670)
 * 修正並改善觸發器中的 eVar 管理。(MCUI-6400)
@@ -64,7 +64,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 資產改良 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud 資產中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud 資產運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local"> Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 資產中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud 資產運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶連結改良 </p> </td> 
@@ -79,7 +79,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-如果您透過 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 啓動]** 介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至Experience Cloud(Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
+如果您透過 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 啟用]** 介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
 
 ## 發行版本 16.1 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -100,9 +100,9 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 >[!NOTE]
 >
->Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 將[終止支援](https://www.microsoft.com//zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
-## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
+## 發行版本 15.10 - 2015 年 10 月 14 日{#section_68123833D3634BD3A473C12862BF9606}
 
 **已知問題**
 
@@ -119,7 +119,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 修正客戶屬性中先前已知的問題: 變更顯示名稱時，造成內容感知錯誤的編輯結構頁面。(MAC-25589、AN-103834)
 
-## 發行版本 15.7 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
+## 發行版本 15.7 - 2015 年 7 月 22 日{#section_2683A152176944E48EF6C943892975B7}
 
 * 修正無法在 Analytics 報表中更新「檢視/編輯結構」頁面中 (位於客戶屬性中) 指定之屬性說明的問題。(MAC-25985)
 
@@ -135,11 +135,11 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 已知問題導致在 Audience Manager 中自動產生重複的帳戶，並將這些帳戶自動連結至使用者的 Experience Cloud 身分。如果您嘗試在連結至帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議您在導覽至 Audience Manager 之前，先將 Audience Manager 帳戶連結至 Experience Cloud。(MAC-25640)
 
-## 發行版本 15.6.1 - 2015 年 6 月 11日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## 發行版本 15.6.1 - 2015 年 6 月 11日{#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
-無可用資訊
+無可用的資訊
 
-## 修訂版 15.5.1 - 2015 年 5 月 13 日 {#section_EF197410964E40D294D0D8024738CFBA}
+## 發行版本 15.5.1 - 2015 年 5 月 13 日 {#section_EF197410964E40D294D0D8024738CFBA}
 
 <table id="table_14E7B35E06C84A258A21D09691B58354"> 
  <thead> 
@@ -162,10 +162,10 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 </table>
 
 * 已修正妨礙客戶屬性與某些客戶同步的問題。
-* 已修正妨礙[「Adobe Target 產品文件」](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)頁面以日文顯示的問題。
+* 已修正 [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 頁面無法顯示日文版本的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
-## 修訂版 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
+## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
 <table id="table_3A6FBAE36558425A803B078150862C92"> 
  <thead> 
@@ -207,7 +207,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客設定檔</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的受眾區隔。 </p> <p>請參閱 <a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> 客戶屬性</a> 產品文件。 </p> <p> 如需有關將解決方案現代化至核心服務的詳細資訊，請參閱 <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 啓用核心服務的解決方案</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客設定檔</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的受眾區隔。 </p> <p>請參閱<a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需最新化核心服務解決方案的相關資訊，請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">啟用核心服務的解決方案</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -251,7 +251,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 修正「[!UICONTROL 建立新受眾]」頁面的「[!UICONTROL 規則]」下方無法顯示「新增」(加號) 圖示的問題。
 * 改善 Internet Explorer 9 的 Experience Cloud 介面支援。
 
-## 發行版本 15.1.1 - 2015 年 1 月 15 日 {#section_F1A352E928AF432E94CC0A289C345184}
+## 發行版本 15.1.1 - 2015 年 1 月 15 日{#section_F1A352E928AF432E94CC0A289C345184}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -283,7 +283,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者的 Experience Cloud 卡片上未顯示來自 Media Optimizer 的連結。
 * 有些管理員使用者在接受加入 Experience Cloud 的邀請後，無法順利連結帳戶。
 * 多名使用者同時使用 Experience Cloud 介面時，會導致介面效能下滑。
-* 部分使用者可以刪除過時資產，而不會收到錯誤通知。
+* 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 部分使用者使用同一個 Adobe ID，同時登入兩個瀏覽器時發生問題。
 * 刪除 Creative Cloud 使用者後，有些使用者無法重新新增該 Creative Cloud 使用者至共用資料夾。
 * 從 Experience Cloud 共用資料夾至 Creative Cloud 時，有些使用者會遇到通知延遲的問題。
@@ -291,12 +291,12 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 共用的對象已啟用後，有些使用者無法在 Analytics 報表套裝中建立對象。
 * 有些使用者可能無法上傳資產至展示板。
 
-## 發行版本 14.11.1 - 2014 年 11 月 13 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
+## 發行版本 14.11.1 - 2014 年 11 月 13 日{#section_A6CF1D4F27B9496892A89C983EB39102}
 
 已知問題:
 
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
-* 有些 [!DNL .png] 檔案無法呈現在卡片上。
+* 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 有些使用者可能無法上傳資產至展示板。
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
 * 管理員必須登出再登入，才能查看「帳戶設定」中進行的變更。
@@ -304,7 +304,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
 * Adobe Experience Manager 對 Creative Cloud 同步無法運作。
 
-## 發行版本 14.10.1 - 2014 年 10 月 16 日 {#section_E3A0F4423B814707AA3745E083500835}
+## 發行版本 14.10.1 - 2014 年 10 月 16 日{#section_E3A0F4423B814707AA3745E083500835}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -334,7 +334,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 **已知問題**
 
 * 有些使用者可能無法上傳資產至展示板。
-* 有些 [!DNL .png] 檔案無法呈現在卡片上。
+* 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
 * 有些使用者可能無法從 PDF 建立資訊卡並將其分享至展示板。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
@@ -356,7 +356,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 有些使用者可能無法上傳資產至展示板。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
-* 有些 [!DNL .png] 檔案無法呈現在卡片上。
+* 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
 * 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
@@ -385,12 +385,12 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
 * 有些使用者可能無法從 PDF 建立資訊卡並將其分享至展示板。
 * 有些使用者可能無法上傳資產至展示板。
-* 有些使用者無法登入 [!DNL Target][!DNL Experience Cloud]。
-* 部分Audience Manager使用者無法登入 [!DNL Experience Cloud]。
+* 有些使用者可能無法從 [!DNL Target] 登入 [!DNL Experience Cloud]。
+* 有些 Audience Manager 的使用者無法登入 [!DNL Experience Cloud]。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
-* 從中刪除的檔案 [!DNL Experience Cloud] 無法從中刪除 [!DNL Digital Asset Management]。
+* 從 [!DNL Experience Cloud] 中刪除的檔案並不會從 [!DNL Digital Asset Management] 中刪除。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
-* 有些 [!DNL .png] 檔案無法呈現在卡片上。
+* 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
 * 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
@@ -401,9 +401,9 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-* 從中刪除的檔案 [!DNL Experience Cloud] 無法從中刪除 [!DNL Digital Asset Management]。
+* 從 [!DNL Experience Cloud] 中刪除的檔案並不會從 [!DNL Digital Asset Management] 中刪除。
 * 有些 [!UICONTROL Exchange] 使用者顯示在評論中的名稱是長字串 ID，而非其名稱
-* 有些 [!DNL .png] 檔案無法呈現在卡片上
+* 有些 [!DNL .png] 檔案無法呈現在資訊卡上
 * 上載檔案允許的檔案類型比拖放方法更多。為獲得最佳成果，請使用 [!UICONTROL Assets] 進行上載。
 * 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
 * [!DNL Exchange] 使用者必須清除 Cookie 才能獲得更好的使用體驗。
@@ -417,7 +417,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 尚無報告。
 
-## 發行版本 14.6.1 - 2014 年 6 月 19日 {#marketing_cloud_interface}
+## 發行版本 14.6.1 - 2014 年 6 月 19日{#marketing_cloud_interface}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -433,15 +433,15 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 「受眾」中的<span class="wintitle">「儲存」</span>按鈕 </p> </td> 
-   <td colname="col2"> <p>當您建立對象時，「建立新對象」頁面上的「 <span class="wintitle"> 儲存</span><span class="wintitle"></span> 」按鈕現在會停用，直到所有必要欄位完成為止。 <!--MAC-19712 -->
- </p> </td> 
+   <td colname="col2"> <p>現在，當您建立受眾時，<span class="wintitle">建立新受眾</span>頁面上的<span class="wintitle">儲存</span>按鈕要在您填妥所有必要欄位之後才會停用。 
+     <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **已知問題**
 
-* 從中刪除的檔案 [!DNL Experience Cloud] 無法從中刪除 [!DNL Digital Asset Management]。
+* 從 [!DNL Experience Cloud] 中刪除的檔案並不會從 [!DNL Digital Asset Management] 中刪除。
 * 上載檔案允許的檔案類型比拖放方法更多。為求最佳結果，使用 Assets 執行上載。
 * 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
@@ -469,7 +469,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受眾 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">受眾」</span></p> <p> 您可以使用類似於處理區隔的方式，在<span class="wintitle">「受眾」</span>建立、編輯及管理受眾。例如，您可以在報表與分析中建立區隔，然後共用至 <span class="wintitle">「Experience Cloud </span><span class="wintitle">受眾」</span>。共用後，您便可將受眾用於 <span class="keyword">Adobe Target</span> 中的促銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>注意：若要在Target中啓用請求，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">受眾」</span></p> <p> 您可以使用類似於處理區隔的方式，在<span class="wintitle">「受眾」</span>建立、編輯及管理受眾。例如，您可以在報表與分析中建立區隔，然後共用至 <span class="wintitle">「Experience Cloud </span><span class="wintitle">受眾」</span>。共用後，您便可將受眾用於 <span class="keyword">Adobe Target</span> 中的促銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>附註: 若要提出 Target 啟用請求，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -488,8 +488,8 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **修正**
 
-* [!DNL Experience Cloud] 未連結 [!DNL Adobe Target]至。[!DNL Adobe Target] 如果登入可用於多 [!DNL Target] 部伺服器，就會發生此問題。
-* [!DNL Adobe Media Optimizer] 不會在使用者建立時自動建立使用者 [!DNL Experience Cloud]。
+* [!DNL Experience Cloud] 未連結至 [!DNL Adobe Target]。如果可在多個 [!DNL Adobe Target] 伺服器上使用 [!DNL Target] 登入，則會發生此問題。
+* 在 [!DNL Adobe Media Optimizer] 中建立使用者後，[!DNL Experience Cloud] 不會自動建立使用者。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
 * 無法點按資產卡片檢視上的「註解」連結。
 * 對資產新增自訂標籤後，便無法再保留其他中繼資料變更。
@@ -499,12 +499,12 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 登入期間未選取 **[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出。**
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 登入 [!DNL Experience Cloud] 的時間超過一秒鐘。
-* 對於某些使用者，請刪除 [!DNL Experience Cloud] 無法同步的檔案 [!DNL Digital Asset Management]。
+* 針對某些使用者，從 [!DNL Experience Cloud] 刪除檔案並不會與 [!DNL Digital Asset Management] 同步。
 * 只有在瀏覽器停用 15 分鐘後使用者才會登出。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 某些使用者在 Internet Explorer 10 中體驗的視覺配置，可能比在其他瀏覽器上的體驗差。
 
-## 修訂版 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -537,17 +537,17 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 無法點按資產卡片檢視上的「註解」連結。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
 * 登入 [!DNL Experience Cloud] 所需的時間超過一秒。
-* 共用的資料 [!DNL Media Optimizer] 在中呈現 [!DNL Experience Cloud]錯誤。
-* 在 [!DNL Media Optimizer] 建立使用者時，Adobe不會自動建立使用者 [!DNL Experience Cloud]。
-* [!DNL Experience Cloud][!DNL Adobe Target][!DNL Adobe Target] 如果登入可用於多 [!DNL Target] 個伺服器，則無法連結至。
+* 自 [!DNL Media Optimizer] 共用的資料在 [!DNL Experience Cloud] 中的呈現方式有誤。
+* 在 [!DNL Media Optimizer] 中建立使用者後，Adobe [!DNL Experience Cloud] 不會自動建立使用者。
+* 如果 [!DNL Experience Cloud] 登入資訊可用於多個 [!DNL Adobe Target] 伺服器，則無法將 [!DNL Adobe Target] 連結到 [!DNL Target]
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，可能會導致介面速度變慢。
-* [!DNL Search&Promote] 無法從 [!UICONTROL 「組織與產品存取」] 頁面存取連結。
-* [!DNL Adobe Media Optimizer] 模擬卡片無法正確呈現。
-* 套用至趨勢報表的篩選器不 [!DNL Analytics] 會套用至卡片中的卡片 [!DNL Experience Cloud]。
+* 無法從[!UICONTROL 組織及產品存取]頁面使用 [!DNL Search&Promote] 連結。
+* [!DNL Adobe Media Optimizer] 模擬卡片未正確呈現。
+* 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 套用至 Analytics 趨勢報表的篩選器沒有套用至 Experience Cloud 中的卡片。
 * 無法將某些 Excel 或 CSV 檔案上傳到留言板。
 * 某些使用者可能無法將其受眾管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
-* 部分使用者在共用 [!DNL Analytics] 區段時可能發生錯誤 [!DNL Experience Cloud]。
+* 有些使用者在 [!DNL Analytics] 中共用 [!DNL Experience Cloud] 區段時遇到錯誤。
 * 有些使用者無法深入檢視 [!UICONTROL Asset Selector] 的子資料夾。
 * 某些使用者無法分享 [!DNL Experience Cloud] 中的 AdLens 小工具。
 
@@ -558,7 +558,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 **修正**
 
 * 新增移除頭像圖片的功能。
-* 修正無法取消連結 [!DNL Adobe Media Optimizer] 帳戶的問題。
+* 修正讓您無法取消連結 [!DNL Adobe Media Optimizer] 帳戶的問題。
 
 **已知問題**
 
@@ -569,23 +569,23 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 無法點按資產卡片檢視上的「註解」連結。
 * 多名使用者同時使用 Experience Cloud 介面時，可能會導致介面速度變慢。
-* 如果 [!DNL Adobe Target][!DNL Adobe Target] 登入可用於多個Target伺服器，則無法連結Experience Cloud。
+* 如果 [!DNL Adobe Target] 登入資訊可用於多個 Target 伺服器，則無法將 Experience Cloud 連結到 [!DNL Adobe Target]
 * 登入 Experience Cloud 所需的時間超過一秒。
 * 對資產新增自訂標記後，便無法再保留其他中繼資料變更。
 * 在 Experience Cloud 中建立使用者後，[!DNL Adobe Media Optimizer] 不會自動建立使用者。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
-* 從 [!DNL Media Optimizer] Experience Cloud共用的資料呈現錯誤。
+* 自 [!DNL Media Optimizer] 共用的資料在 Experience Cloud 中的呈現方式有誤。
 * 無法分享 Flickr 影像。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 Experience Cloud 中的卡片。
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
 * 無法從[!DNL Search&Promote]「組織和產品存取」[!UICONTROL 使用 ] 連結。
 * 使用者必須重新整理控制面板，才能讓已刪除的卡片從視圖中消失。
 * 無法將某些 Excel 或 CSV 檔案上傳到留言板。
-* [!DNL Adobe Media Optimizer] 模擬卡片無法正確呈現。
+* [!DNL Adobe Media Optimizer] 模擬卡片未正確呈現。
 * 無法在卡片上呈現某些 PNG 檔案。
 * 無法提交測試意見。
 
-## 發行版本 14.2.1 - 2014 年 2 月 24 日 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## 發行版本 14.2.1 - 2014 年 2 月 24 日{#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
