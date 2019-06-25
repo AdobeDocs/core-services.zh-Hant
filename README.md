@@ -1,6 +1,6 @@
 ---
 source-git-commit: de9a84581dd3f52e1f76f39105bcb89e849b6230
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 貢獻文章
@@ -13,13 +13,13 @@ translation-type: tm+mt
 
 ## 關於您對 Adobe 內容的貢獻
 
-請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe 文件貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 貢獻方式取決於您的身分和您要貢獻的變更類型:
 
 ### 微幅變更
 
-若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的 **「編輯」** 連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的 **「編輯」** 連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe 文件貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 由 Adobe 員工提出重大變更
 
-如果您是Adobe Experience [!UICONTROL Cloud] 解決方案產品團隊的技術撰稿人、方案經理或開發人員，而且您的工作是貢獻或製作技術文章，則應使用私人存放庫 `https://git.corp.adobe.com/AdobeDocs`。
+若您是 [!UICONTROL Adobe Experience Cloud] 解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用 `https://git.corp.adobe.com/AdobeDocs` 的私人存放庫。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -41,14 +41,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群貢獻者可使用 GitHub UI 進行基本編輯或建立存放庫複本，提交重要貢獻。
 
-如需詳細資訊，請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+如需詳細資訊，請參閱 [Adobe 文件貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 ## 如何使用 Markdown 設定主題格式
 
 此存放庫中的所有文章皆使用 GitHub 精選的 Markdown 語言撰寫而成。若不熟悉 Markdown，請參閱:
 
 * [Markdown 基本介紹](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [列印版 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可列印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
