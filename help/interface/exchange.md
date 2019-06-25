@@ -2,17 +2,17 @@
 description: Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、第三方應用程式和報表。
 keywords: 核心服務
 seo-description: Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、第三方應用程式和報表。
-seo-title: Exchange 市集
+seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange 市集
-uuid: 73db5cc5-5fb2-43a2-a164-5cca9 e9 a206
-translation-type: tm+mt
+title: Exchange Marketplace
+uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
 
 
-# Exchange 市集
+# Exchange Marketplace
 
 Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、第三方應用程式和報表。
 
