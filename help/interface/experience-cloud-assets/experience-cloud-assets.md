@@ -5,7 +5,7 @@ seo-title: 資產
 solution: Experience Cloud
 title: 資產
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -25,7 +25,7 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 * **[!DNL Social]**: 發佈至社交屬性、Facebook、Twitter、LinkedIn、Google+
 * **[!DNL Target]**: 建立 A/B 測試和多變數測試的體驗。
-* **[!DNL Media Optimizer]**：跨不同通道和宣傳活動開發廣告單位
+* **[!DNL Media Optimizer]**: 開發跨不同頻道和促銷活動的廣告單位
 * **[!DNL Campaign]**: 將資產放入電子郵件新聞稿和促銷活動。
 
 在 [!UICONTROL Experience Cloud 資產]中，您可以:
@@ -47,13 +47,13 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 ## 存取工具列 {#section_EC2E401D225148818F3753248556BE6B}
 
-導覽至資產(或資產目錄)，然後按一下 **[!UICONTROL 「選取]**」。
+導覽至所需資產 (或資產目錄)，然後按一下 **[!UICONTROL 選取]**。
 
 工具列可讓您快速存取各種功能，包括搜尋、時間表、保留、編輯、注釋以及下載。
 
 ![](assets/asset-tools.png)
 
-## 編輯資產 {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## 編輯資產{#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 編輯資產時系統會啟用下列各項功能:
 
@@ -69,23 +69,23 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 ![](assets/asset-search.png)
 
-## 註解資產 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## 為資產加上注釋 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
 按一下「**[!UICONTROL 注釋]」，在影像上畫圓或箭頭，以及在資產上加入注釋，供同事檢閱。**
 
 ![](assets/assets-annotate.png)
 
-## 將資產分享至您的動態消息 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+## 與資訊源共用資產 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users.
+從工具列按一下 **[!UICONTROL 共用]**，以[資訊源](../feed.md#concept_9256B8768A294009A777282DD8719213)的形式與其他 Experience Cloud 使用者共用資產。
 
 ![](assets/assets-share-card.png)
 
 共用會顯示在您的資訊源頁面以及您已與其共用資訊卡的使用者頁面上。
 
-## 檢視全螢幕資產並縮放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## 檢視全螢幕資產，以及縮放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-按一下 **[!UICONTROL 「檢視]** &gt; **[!UICONTROL 影像]** 」以檢視完整資產影像並啓用縮放。
+按一下 **[!UICONTROL 檢視]** &gt; **[!UICONTROL 影像]** 可檢視完整資產影像並啟用縮放。
 
 ![](assets/asset-zoom.png)
 
@@ -93,14 +93,14 @@ Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../fe
 
 使用屬性、清單檢視以及欄檢視在資訊卡檢視之間選擇，更輕鬆找到您的資產。
 
-按一下 **[!UICONTROL 「檢視]** &gt; **[!UICONTROL 屬性]** 」可檢視資產屬性：
+按一下 **[!UICONTROL 檢視]** &gt; **[!UICONTROL 屬性]** 以檢視資產屬性:
 
 ![](assets/asset-properties.png)
 
-## 執行使用狀況報告 {#section_15D782FFB8D74CF4A735116CC03AD902}
+## 執行使用情況報表 {#section_15D782FFB8D74CF4A735116CC03AD902}
 
 可查看使用者人數、已使用的儲存空間，以及資產總計。
 
-按一下 **[!UICONTROL 「工具]** &gt; **[!UICONTROL 報表]** &gt; **[!UICONTROL 使用狀況報表」]**
+按一下 **[!UICONTROL 工具]** &gt; **[!UICONTROL 報表]** &gt; **[!UICONTROL 使用情況報表]**
 
 ![](assets/assets-usage-report.png)
