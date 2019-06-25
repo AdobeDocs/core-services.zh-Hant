@@ -1,18 +1,18 @@
 ---
 description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
-keywords: 資產共用；Creative Cloud；核心服務
+keywords: 資產共用;Creative Cloud;核心服務
 seo-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
-seo-title: 使用Creative Cloud分享Experience Cloud資料夾和資產
+seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
-title: 使用Creative Cloud分享Experience Cloud資料夾和資產
-uuid: 2bb002a6-e08 e-402b-8df0-beaturek21 ab74490
-translation-type: tm+mt
+title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
+uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
 
 
-# 使用Creative Cloud分享Experience Cloud資料夾和資產
+# 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 
 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
 
@@ -24,18 +24,18 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 * 增加企業安全性
 * 創意人員和行銷人員可輕鬆共用、儲存及傳送檔案
 
-Creative Cloud 使用者必須先進入 Experience Cloud 的白名單，才能夠存取資產。請參閱 [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
+Creative Cloud 使用者必須先進入 Experience Cloud 的白名單，才能夠存取資產。請參閱[管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
 
-## 關於使用Adobe Target共用資產 {#section_B7CD64CAB35D43A4B12957B304072DC9}
+## 關於 Adobe Target 的資產共用 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
 在 [!DNL Adobe Target] 中建立活動時，當在內容庫中交換影像時可以使用共用的影像資產。
 
-請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)內容庫[!DNL Target]。
+請參閱 [!DNL Target] 說明中的[內容庫](https://marketing.adobe.com/resources/help/zh_TW/target/?f=c_manage_content)。
 
-## 關於Adobe Social的資產共用 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
+## 關於 Adobe Social 的資產共用 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
 
 在 [!DNL Adobe Social] 中，可以使用[!UICONTROL 「發佈者」]中的[!UICONTROL 「資產選取器」]插入共用影像資產。您可以搜尋資料夾、瀏覽至資料夾，然後將資產附加到 Facebook 或 Twitter 貼文。
 
-請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)發佈者頁面[!DNL Social]。
+請參閱 [!DNL Social] 說明中的[發佈者頁面](https://marketing.adobe.com/resources/help/zh_TW/social/?f=c_pub_publisher)。
 
 共用的資料夾和資產會自動在各 Cloud 之間同步化。
