@@ -5,8 +5,8 @@ seo-description: 瞭解如何登入 Admin Console 以及管理 Experience Cloud 
 seo-title: 管理 Experience Cloud 使用者和產品
 solution: 'Marketing Cloud '
 title: 管理 Experience Cloud 使用者和產品
-uuid: aea4e4c3-f543-4e8 d-b553-d838418477 d6
-translation-type: tm+mt
+uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 >[!IMPORTANT]
 >
->管理控制台中的使用者提供新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，有助於補充所有 Adobe 雲端產品的[企業版管理指南](https://helpx.adobe.com/enterprise/managing/user-guide.html)之資訊。
+>Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，有助於補充所有 Adobe 雲端產品的[企業版管理使用手冊](/content/help/tw/zh-Hant/enterprise/managing/user-guide.html)之資訊。
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
-瞭解Experience Cloud使用者管理中的最新功能。
+瞭解 Experience Cloud 使用者管理中的最新功能。
 
 
 ## 登入 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
@@ -45,22 +45,22 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 **若要登入 Admin Console**
 
 1. 導覽至 [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#)。
-1. 輸入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
+1. 輸入您的 [Adobe ID 或 Enterprise ID](/content/help/tw/zh-Hant/enterprise/help/identity.html) 及密碼。
 
 
-或者，從Experience Cloud功能表( ![](assets/menu-icon.png))中，按一下 **[!UICONTROL 「管理]** &gt; **[!UICONTROL 啓動管理控制台]**」。
+或者，從 Experience Cloud 功能表 ( ![](assets/menu-icon.png)) 按一下 **[!UICONTROL 管理]** &gt; **[!UICONTROL 啟動 Admin Console]**。
 
 **相關說明**
 
-Creative Cloud 和 Document Cloud 的[管理員使用手冊](https://helpx.adobe.com/enterprise/using/users.html)。某些資訊與 Experience Cloud 使用者管理相關，例如[管理身份類型](https://helpx.adobe.com/enterprise/help/identity.html)。
+適用於 Creative Cloud 和 Document Cloud 的[管理指南](/content/help/tw/zh-Hant/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理有關，例如[管理身分類型](/content/help/tw/zh-Hant/enterprise/help/identity.html)。
 
 [登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)以管理密碼、組織和通知。
 
-## 產品設定檔和群組 {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## 產品設定檔和群組{#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 加入產品設定檔改變了解決方案產品和服務過往的管理方式 (透過群組)。在 Admin Console 中，權限依據產品設定檔 (即您可以指派至使用者的產品和服務群組) 來劃分。
 
-例如在 Analytics 中，您可以設定報表工具集合，例如 Analysis Workspace 和 Report Builder 以及報表套裝、量度、維度等等。您可以將使用者新增至設定檔，藉此授與他們權限。請參閱 [將 Analytics 存取權指派至產品設定檔](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+例如在 Analytics 中，您可以設定報表工具集合，例如 Analysis Workspace 和 Report Builder 以及報表套裝、量度、維度等等。您可以將使用者新增至設定檔，藉此授與他們權限。請參閱[將 Analytics 存取權指派至產品設定檔](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **相關說明**
 
@@ -76,51 +76,51 @@ Creative Cloud 和 Document Cloud 的[管理員使用手冊](https://helpx.adobe
 
 Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳戶從 Analytics 使用者管理移轉到 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-帳戶移轉功能會分階段向客戶推出。當您將現有使用者帳戶從 **[!UICONTROL 「管理工具]** &gt; **[!UICONTROL 使用者管理」移轉]** 至「管理控制台」時，Adobe會通知並協助您。
+帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從 **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理]** 將現有使用者帳戶移轉到 Admin Console。
 
 移轉後，使用者可以在 [marketing.adobe.com](https://marketing.adobe.com) 使用他們的 Adobe ID (或 Enterprise ID) 登入，並針對其 Experience Cloud 解決方案和服務進行驗證。如果使用者嘗試透過舊版登入頁面 ([!DNL my.omniture.com] 和 [!DNL sc.omniture.com]) 登入，則會被重新導向至 [!DNL marketing.adobe.com]。
 
 **相關說明**
 
-[Analytics 使用者 ID 移轉](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Analytics 使用者 ID 移轉](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/)
 
-## Target-產品描述檔與工作區 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Target - 產品設定檔與工作區 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Target 中，工作區即產品設定檔，可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
 
 請參閱:
-* [企業使用者權限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
-* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise 使用者權限](https://marketing.adobe.com/resources/help/zh_TW/target/target/property_channel.html)
+* [管理產品和設定檔](/content/help/tw/zh-Hant/enterprise/using/manage-products-and-profiles.html)
+* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](/content/help/tw/zh-Hant/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 
 
 
-## 促銷活動-產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
+## 促銷活動 - 產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 行銷活動中的*租用戶*在 Admin Console 的產品頁面上會顯示為*產品*。
 
 *安全性群組*會顯示為產品設定檔。
 
-如需安全群組的相關資訊，以及指派使用者至安全性群組，請參閱 [管理群組和使用者](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) 。
+若要瞭解安全性群組以及如何將使用者指派給安全性群組，請參閱[管理群組和使用者](/content/help/tw/zh-Hant/campaign/standard/administration/using/managing-groups-and-users.html)
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
 「Launch，由 Adobe 提供」會顯示在 Admin Console 的產品頁面上。您可以在 Launch 產品設定檔上包含其他解決方案和核心服務。
 
-如需有關「管理控制台」中使用者權限的詳細資訊，並設定「啓動」特定選項，請參閱 [使用者管理](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) ，包括指派個人檔案權限。
+若要瞭解 Admin Console 中的使用者權限以及如何設定 Launch 專用選項 (包括指派權限給設定檔)，請參閱[使用者管理](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/launch/user-management.html)。
 
 ## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 邀請使用者加入動態標籤管理，並指派使用者角色與新增使用者至群組。
 
-如需如何邀請使用者前往動態標籤管理並指派使用者角色並新增使用者至群組的資訊，請參閱 [使用者和權限](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) 。
+若要瞭解如何邀請使用者加入動態標籤管理，並為群組指派使用者角色及新增使用者，請參閱[使用者與權限](https://marketing.adobe.com/resources/help/zh_TW/dtm/users.html)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 AlgoModel)。
 
-請參閱 [Audience Manager說明](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) 中的管理。
+請參閱 Audience Manager 說明中的[管理](https://marketing.adobe.com/resources/help/zh_TW/aam/c_administration.html)。
 
 ## 管理 Experience Cloud 產品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -128,16 +128,16 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 當您邀請使用者加入組織時，您可以向使用者授與產品和產品設定檔的存取權。您也可以委派有限的管理權限給使用者。同樣的，您可以建立使用者群組，然後新增群組至產品設定檔以啟用存取權。
 
-1. 在 [「管理控制台](https://adminconsole.adobe.com/enterprise/)」中，按一下 **[!UICONTROL 「產品]**」。
-1. 按一下 **[!UICONTROL 「新增描述檔]**」。
-1. 設定描述檔詳細資訊，然後按「下一步 **[!UICONTROL 」]**。
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，按一下 **[!UICONTROL 產品]**。
+1. 按一下 **[!UICONTROL 新增設定檔]**。
+1. 設定設定檔的詳細資料，然後按一下 **[!UICONTROL 下一步]**。
 1. 按一下 **[!UICONTROL 完成]**。
 
 您可以在以下地方找到更多說明:
 
-* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 請參閱 Target 說明中的[企業使用者權限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)以瞭解更多資訊。
-* 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和設定檔](/content/help/tw/zh-Hant/enterprise/using/manage-products-and-profiles.html)
+* Target 說明中的 [Enterprise 使用者權限](https://marketing.adobe.com/resources/help/zh_TW/target/target/property_channel.html)以取得詳細資訊。
+* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](/content/help/tw/zh-Hant/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
@@ -146,8 +146,8 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 例如，您可以建立含有多個 Analytics 工具 ([!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 及 [!UICONTROL Report Builder]) 的產品設定檔、具有特定量度和維度 (包括 eVar) 之權限，並具有區段或計算量度建立等功能。
 
-1. 登入 [Admin Console](https://adminconsole.adobe.com/enterprise)**，然後按一下[!UICONTROL 「產品」]**(或按一下您的產品名稱)。
-1. 在產品描述檔中，然後按一下 **[!UICONTROL 「權限]** 」(僅供管理員使用)。
+1. 登入 [Admin Console](https://adminconsole.adobe.com/enterprise)，然後按一下 **[!UICONTROL 產品]** (或按一下您的產品名稱)。
+1. 然後，在產品設定檔中，按一下 **[!UICONTROL 權限]** (僅限管理員使用)。
 1. 設定設定檔的權限:
 
 
@@ -157,7 +157,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 | 量度 | 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 |
 | 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 |
 | 報表套裝工具 | 為網頁服務、報表套裝管理、工具和報告及控制面板項目啟用使用者權限。 |
-| Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。自訂管理控制台類別中的公司設定已移至Analytics工具。 |
+| Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。來自自訂管理控制台類別的公司設定已移至分析工具。 |
 
 
 
@@ -176,10 +176,10 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 使用這些角色可同時委派管理能力給其他人，但又無需提供過多功能給他們。
 
-1. 在管理控制台中，按一下 **[!UICONTROL 使用者]**，然後按一下使用者的名稱。
-1. 按一下 **[!UICONTROL 「編輯管理權限]**」。
+1. 在 Admin Console 中，按一下 **[!UICONTROL 使用者]**，然後按一下使用者的姓名。
+1. 按一下 **[!UICONTROL 編輯管理權限]**。
 1. 設定使用者的管理權限。
-1. 按一下 **[!UICONTROL 「下一步]** 」以檢閱設定，然後按一下 **[!UICONTROL 「儲存]**」。
+1. 按一下 **[!UICONTROL 下一步]** 以檢閱設定，然後按一下 **[!UICONTROL 儲存]**。
 
 ## 支援的瀏覽器和系統需求 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
@@ -189,7 +189,7 @@ Experience Cloud 中支援的瀏覽器。
 <!-- browsers.xml -->
 **Experience Cloud 核心服務**
 
-* Microsoft 的最新 Internet Explorer。(Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，Adobe 將不修正針對這些特定版本 Internet Explorer 所回報的問題。)
+* Microsoft 的最新 Internet Explorer。(Microsoft 已[終止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，Adobe 將不修正針對這些特定版本 Internet Explorer 所回報的問題。)
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
@@ -197,11 +197,11 @@ Experience Cloud 中支援的瀏覽器。
 
 **解決方案和產品需求**
 
-* [Analysis Workspace 和 Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (包括 Adobe Social)
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analysis Workspace 和 Reports &amp; Analytics](https://marketing.adobe.com/resources/help/zh_TW/sc/user/requirements.html) (包含 Adobe Social)
+* [Report Builder](https://marketing.adobe.com/resources/help/zh_TW/arb/?f=system_requirements)
+* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/zh_TW/dsc/index.html?f=c_sys_reqs)
+* [Data Workbench](https://marketing.adobe.com/resources/help/zh_TW/insight/install/?f=c_Data_Workbench_Client_install)
+* [Adobe Target](https://marketing.adobe.com/resources/help/zh_TW/target/ov/?f=r_supported_browsers)
+* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/zh_TW/aam/?f=c_supported_browsers)
+* [Adobe Campaign Standard](/content/help/tw/zh-Hant/campaign/standard/start/using/compatible-browsers.html)
+* [Adobe Campaign Classic](/content/help/tw/zh-Hant/campaign/kb/compatibility-matrix.html)
