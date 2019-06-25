@@ -1,51 +1,51 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 說明
 
-**注意：此頁面(或任何讀我. md頁面)將不會發佈至客戶對應文件**
+**附註: 此頁面 (或任何 readme.md 頁面) 不會發佈至面對客戶的文件**
 
-## 目錄目錄
+## 目錄
 
-+ `TOC.md` goot of the user guide provides the topic of the tries that are contained in the guide for this solution.
-+ 每個使用手冊都會有專屬 `TOC.md`的，您可以視需要排列所有頁面/主題。
-+ 所有使用者指南的第一頁都是 `overview.md`。
++ `TOC.md` 位於使用手冊的根目錄，提供使用手冊中所包含適用於此解決方案的主題組織。
++ 每個使用手冊都有各自的獨特 `TOC.md`，您可以視需要排序所有頁面/主題。
++ 所有使用手冊的第一頁都是 `overview.md`。
 
-## 使用者指引
+## 使用手冊
 
-+ 使用者指南簡介稱為 `overview.md`
-+ 使用手冊中的每個主題都有專屬的目錄。
-   + 如果指南中有名為 *「實施」*的主題，對應的目錄就是 `/implementation`
-+ 所有影像資產都會儲存在 `/assets` 使用者指南的根目錄中。
-   + `/assets` 目錄中的所有影像都會本地化。
-   + `/no-localize` 目錄中的任何影像都不會本土化(讓人意外！)。這可用來確保loc版本中的特定資產不必要重現。
++ 我們將使用手冊的簡介稱為 `overview.md`
++ 使用手冊中的每個主題都有各自的獨立目錄。
+   + 如果使用手冊中有一個名為*實作*的主題，對應目錄為 `/implementation`
++ 所有影像資產都會儲存在使用手冊根目錄的 `/assets`。
+   + `/assets` 目錄中的所有影像都會翻譯。
+   + `/no-localize` 目錄中的任何影像都不會翻譯 (令人驚訝!)。這可用來確保在 loc 版本中特定資產不會不必要地重現。
 
-## 使用者指南層級中繼資料
+## 使用手冊層級中繼資料
 
-+ 描述使用手冊的中繼資料會儲存 `TOC.md`在此中。其中包括:
-   + 產品-產品/功能名稱。
-   + 雲端-此產品所屬的雲端。
-   + 對象-目標指南的對象或原型。
-   + 使用者指南-使用者指南名稱。
++ 說明使用手冊的中繼資料會儲存在 `TOC.md` 中。其中包括:
+   + 產品 - 產品/功能名稱。
+   + 雲端 - 此產品屬於的雲端。
+   + 受眾 - 使用手冊鎖定目標的受眾或原型。
+   + 使用手冊 - 使用手冊名稱。
 
 ## 頁面層級中繼資料
 
-+ 描述文件所需的中繼資料會儲存為每個頁面的一部分。其中包括:
-   + title-頁面標題。
-   + description- page說明。
-   + seo-title- seo替代標題。
-   + seo-description-用於SEO用途的替代標題。
-   + short-title-(選用欄位)。
-   + 索引-是/否-頁面會由Adobe的搜尋平台索引。
-   + 翻譯-是/否-此頁面將會本地化。
-   + 版本(主要用於AEM和Campaign)，以標示產品版本。
-   + private-feature-package-主要用於AEM。
-   + beta版-此產品是否為測試版？
-   + 重新導向-可用來建立必要的參考至新頁面。
-   + doc-type：參考(預設)/疑難排解/開發人員/教學課程/kb/白皮書。
++ 說明文件所需的中繼資料會儲存為每個個別頁面的一部分。其中包括:
+   + 標題 - 頁面標題。
+   + 說明 - 頁面說明。
+   + seo-title - seo 替代標題。
+   + seo-description - SEO 用途的替代標題。
+   + short-title - (選填欄位)。
+   + 索引 - 是 / 否 - 頁面是否會根據 Adobe 的搜尋平台編製索引。
+   + 翻譯 - 是 / 否 - 此頁面是否會翻譯。
+   + 版本 - 主要用於 AEM 和 Campaign，表示產品的版本。
+   + private-feature-pack - 主要用於 AEM。
+   + beta - 產品是否為 Beta 測試版?
+   + 重新導向 - 可視需要用來建立新頁面的參照。
+   + doc-type: 參照 (預設) / 疑難排解 / 開發人員 / 教學課程 / kb / 白皮書。
 
 ## 更多資訊
 
-如需更多發佈指示、樣式指南、範例和其他資源，請造訪 [協作文件回購](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+如需更多發佈說明、風格指南、範例及其他資源，請造訪[共同作業文件存放庫](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
