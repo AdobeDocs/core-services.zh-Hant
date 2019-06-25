@@ -3,8 +3,8 @@ description: 瞭解如何將一個或多個報表套裝對應至組織。
 seo-description: 瞭解如何將一個或多個報表套裝對應至組織。
 seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
-uuid: b983d5a6-b3 d0-4137-ac53-bc5681 d3 e58 b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -28,21 +28,21 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 按一下 **[!UICONTROL 「Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應」]**
+1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**
 
    您也可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
-1. 若要查看具有每個報表套裝存取權的登入公司，請按一下 **[!UICONTROL 「登入公司]**」。
+1. 若要查看可存取每個報表套裝的登入公司資訊，請按一下 **[!UICONTROL 只有登入公司能看見]**。
 
    此檢視模式的目的在於協助您在對應上做出明智的決策。
 
 1. 按一下報表套裝旁邊 **[!UICONTROL 「已對應組織」]欄中的下拉式清單，並選取您要對應的組織。**
 
-   請參閱下一節，以瞭解選取Experience Cloud組織的秘訣。
+   如需選取 Experience Cloud 組織的相關秘訣，請參閱下一節。
 
-## 將多個報告套裝對應至組織 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
+## 將多個報表套裝對應至組織 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 按一下 **[!UICONTROL 「Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**」。
+1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**。
 
    您也可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
@@ -50,11 +50,11 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
    ![](assets/rs-mapping-multiple.png)
 
-1. 選取組織(Outdoors Inc，在此範例中)，然後按一下 **[!UICONTROL 「選擇]**」。
+1. 選取組織 (在此範例中為 Outdoors Inc)，然後按一下 **[!UICONTROL 選取]**。
 
-   請參閱下一節，以瞭解選取Experience Cloud組織的秘訣。
+   如需選取 Experience Cloud 組織的相關秘訣，請參閱下一節。
 
-1. 按一下 **[!UICONTROL 「儲存對應]**」。
+1. 按一下 **[!UICONTROL 儲存對應]**。
 
 ## 選取 Experience Cloud 組織的秘訣 {#mapping-tips}
 
@@ -62,7 +62,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **我應該選擇哪個組織?**
 
-如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試並驗證 Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
+如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試及驗證 Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/mcvid-test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
 
 如果訪客 ID 服務尚未在為報表套裝收集資料的網站上部署，而您希望在日後部署 Experience Cloud 訪客 ID 服務，您需要確認您的部署與報表套裝對應工具中所選擇的組織相同。
 
@@ -90,7 +90,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **如果我不認識其中一個報表套裝下拉式清單中的某些組織，這時該怎麼辦?**
 
-清單會顯示您的報表套裝可以對應至的所有*可能*組織，甚至您無權映射至所有這些報表套裝。如果您不確定報表套裝是否應對應至清單上其中一個顯示灰色的組織，請洽詢貴組織的 Experience Cloud 管理員以做出最適當的選擇。
+清單會顯示您報表套裝可對應的所有*可能*組織，即使您並未擁有這些報表套裝的權限。如果您不確定報表套裝是否應對應至清單上其中一個顯示灰色的組織，請洽詢貴組織的 Experience Cloud 管理員以做出最適當的選擇。
 
 **如果我不認識「只有登入公司能看見」欄中列出的某些報表套裝的登入公司，這時該怎麼辦?**
 
@@ -106,7 +106,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **如果我只知道 Experience Cloud 組織的組織 ID，這時該怎麼辦? 我要如何查詢組織 ID 的名稱?**
 
-您可以在[組織和帳戶設定](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)中找到您的組織名稱。
+您可以在[組織和帳戶設定](https://marketing.adobe.com/resources/help/zh_TW/mcloud/?f=organizations)中找到組織名稱。
 
 **我在「已對應資料」欄中看到一個日期。這資料由誰進行對應?**
 
