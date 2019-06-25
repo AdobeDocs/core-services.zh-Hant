@@ -5,8 +5,8 @@ seo-description: 有關 Experience Cloud 管理員的常見問題和答案。
 seo-title: 常見問題集
 solution: Experience Cloud
 title: 常見問題集
-uuid: 3ed0b4eb-690f-4c14-a31 c-0cc1118 fb3 b
-translation-type: tm+mt
+uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
+translation-type: ht
 source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 **我該如何確認自己的解決方案已啟用做為核心服務?**
 
-如果未為核心服務布建實作，請參閱 [啓用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中說明如何：
+如果尚未針對核心服務佈建實作，請參閱[啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何:
 
 
 1. [加入 Experience Cloud 並成為管理員](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新推出的 [Launch，由 Adobe 提供](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)) 實作 Experience Cloud ID 服務。
+1. [使用動態標籤管理員](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新推出的 [Experience Platform Launch](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/launch/)) 實施 Experience Cloud ID 服務
 1. [將報表套裝對應至 Experience Cloud 組織](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 最新化 Analytics AppMeasurement 代碼](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(僅限 Target) 最新化 Adobe Target 實作](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -33,7 +33,7 @@ source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 
 
-如需進一步的協助，請 [聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+如需更多協助，請[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)。
 
 **Adobe 會向公司收取 Experience Cloud 的使用費嗎?**
 
@@ -45,7 +45,7 @@ Experience Cloud 介面提供的功能可為公司帶來新價值。它也將逐
 
 **如何解決我對移轉公司的疑慮?**
 
-[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)。
 
 **什麼是*`provisioning`*?**
 
@@ -58,17 +58,17 @@ Experience Cloud 中的佈建意思是:
 
 **我該如何管理使用者和產品設定檔?**
 
-* 相關說明請參閱 [Admin Console 使用指南](https://helpx.adobe.com/enterprise/administering/user-guide.html)。
+* 如需說明，請參閱 [Admin Console 使用手冊](/content/help/tw/zh-Hant/enterprise/administering/user-guide.html)。
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要事項:** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)，瞭解如何將使用者 ID 從 Analytics 管理工具遷移至 Admin Console。
+* **重要:** 若為 Analytics 管理員，請參閱[在 Admin Console 中管理 Analytics 使用者](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉到 Admin Console。
 
 **如果有人無法登入 Experience Cloud，我該怎麼做?**
 
 Admin Console 管理員可授予使用者存取權。使用者會收到內含登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
 
 **使用者可以前往哪裡管理帳戶連結?**
 
@@ -78,19 +78,19 @@ Admin Console 管理員可授予使用者存取權。使用者會收到內含登
 
 **我該如何管理使用者帳戶設定檔和組織?**
 
-請參閱 [管理使用者帳戶](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
+請參閱[管理使用者帳戶](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
 **什麼是組織?**
 
 *組織*是可讓管理員設定群組及使用者，以及控制 Experience Cloud 中單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。最常見的組織就是您的公司名稱。不過，公司可以有許多組織。
 
-**我可以在哪裡找到我的IMS組織ID？**
+**在哪裡可以找到我的 IMS 組織 ID?**
 
-請參閱 [尋找您的組織ID](organizations.md)。
+請參閱[找出組織 ID](organizations.md)。
 
-組織ID會顯示在Experience Cloud登陸頁面和 [管理控制台著陸頁面](https://adminconsole.adobe.com)上。
+組織 ID 會顯示在 Experience Cloud 登陸頁面和 [Admin Console 登陸頁面](https://adminconsole.adobe.com) 上。
 
-或者，管理員也可以登入 Admin Console (導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) 尋找特定的組織，您可以透過網址找出自己的 IMS 組織 ID。
+或者，管理員也可以登入 Admin Console (導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) 尋找特定的組織，在 URL 即可看見您的 IMS 組織 ID。
 
 舉例來說，在以下網址中:
 
@@ -106,7 +106,7 @@ ID 是:
 
 **什麼是 Adobe ID?**
 
-請參閱[身分類型](https://helpx.adobe.com/enterprise/help/identity.html)。
+請參閱[身分類型](/content/help/tw/zh-Hant/enterprise/help/identity.html)。
 
 **我可以替我的使用者連結解決方案帳戶嗎?**
 
@@ -118,4 +118,4 @@ Adobe Social 產品可與 Analytics 搭配販售。因此，若您有 Analytics�
 
 **如何與 Experience Cloud 共用報告或促銷活動?**
 
-Analytics報表或Target促銷活動是您可以在 [動態消息中共用的資產範例](../feed.md#concept_9256B8768A294009A777282DD8719213)。
+Analytics 報表或 Target 促銷活動是您可在[資訊源](../feed.md#concept_9256B8768A294009A777282DD8719213)中共用的資產範例。
