@@ -70,5 +70,5 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 通常帳戶連結會失敗，是因為 Adobe ID 連結至前一個使用者。帳戶連結失敗時，您可以:
 
-* [聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)。
+* [聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 * 在問題待解決之際，您仍可使用標準登入存取解決方案。
