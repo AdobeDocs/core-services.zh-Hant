@@ -58,6 +58,6 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 相關說明:
 
-* [Creative Cloud 說明 - 管理和同步檔案](/content/help/tw/zh-Hant/creative-cloud/help/sync-files.html)
-* [Creative Cloud 說明 - 與其他人共同合作](/content/help/tw/zh-Hant/creative-cloud/help/collaboration.html)
-* [Creative Cloud 說明 - 共同合作常見問題集](/content/help/tw/zh-Hant/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 說明 - 管理和同步檔案](https://helpx.adobe.com/tw/creative-cloud/help/sync-files.html)
+* [Creative Cloud 說明 - 與其他人共同合作](https://helpx.adobe.com/tw/creative-cloud/help/collaboration.html)
+* [Creative Cloud 說明 - 共同合作常見問題集](https://helpx.adobe.com/tw/creative-cloud/help/collaboration-faq.html)
