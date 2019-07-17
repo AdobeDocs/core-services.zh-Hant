@@ -123,7 +123,7 @@ TechOps 會審查您的合約保證，判斷適合的受管理基礎結構、增
 
 **管理使用者和群組**
 
-使用者管理是在 [Adobe Admin Console](/content/help/tw/zh-Hant/enterprise/help/aedash.html) (產品連結) 中執行。
+使用者管理是在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/help/aedash.html) (產品連結) 中執行。
 
 您可以在 Adobe Admin Console 中建立的群組和解決方案群組 (例如 Adobe Analytics) 之間設定 1:1 對應。之後，新增至已對應 Admin Console 群組的使用者都會自動建立 Analytics 解決方案帳戶，並連結至該使用者的 Adobe ID。(現有使用者必須手動連結自己的解決方案帳戶憑證，才能透過 Experience Cloud 登入存取解決方案)。
 

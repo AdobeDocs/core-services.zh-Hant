@@ -33,7 +33,7 @@ source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 
 
-如需更多協助，請[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)。
+如需更多協助，請[聯絡 Adobe 支援](https://helpx.adobe.com/tw/contact/enterprise-support.html)。
 
 **Adobe 會向公司收取 Experience Cloud 的使用費嗎?**
 
@@ -45,7 +45,7 @@ Experience Cloud 介面提供的功能可為公司帶來新價值。它也將逐
 
 **如何解決我對移轉公司的疑慮?**
 
-[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)。
+[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 
 **什麼是*`provisioning`*?**
 
@@ -58,7 +58,7 @@ Experience Cloud 中的佈建意思是:
 
 **我該如何管理使用者和產品設定檔?**
 
-* 如需說明，請參閱 [Admin Console 使用手冊](/content/help/tw/zh-Hant/enterprise/administering/user-guide.html)。
+* 如需說明，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/tw/enterprise/administering/user-guide.html)。
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
@@ -68,7 +68,7 @@ Experience Cloud 中的佈建意思是:
 
 Admin Console 管理員可授予使用者存取權。使用者會收到內含登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](/content/help/tw/zh-Hant/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
 
 **使用者可以前往哪裡管理帳戶連結?**
 
@@ -106,7 +106,7 @@ ID 是:
 
 **什麼是 Adobe ID?**
 
-請參閱[身分類型](/content/help/tw/zh-Hant/enterprise/help/identity.html)。
+請參閱[身分類型](https://helpx.adobe.com/tw/enterprise/help/identity.html)。
 
 **我可以替我的使用者連結解決方案帳戶嗎?**
 

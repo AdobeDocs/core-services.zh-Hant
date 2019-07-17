@@ -52,7 +52,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ## 什麼是解決方案? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-下列資訊簡述解決方案內容，並提供相關說明連結。您也可以參閱[使用個案良方](/content/help/tw/zh-Hant/marketing-cloud/how-to/use-cases.html)，協助您展開數位行銷工作流程。
+下列資訊簡述解決方案內容，並提供相關說明連結。您也可以參閱[使用個案良方](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)，協助您展開數位行銷工作流程。
 
 ![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/zh_TW/reference/)
 
@@ -83,11 +83,11 @@ Social 提供代管式、訂閱型解決方案，協助您達成社交媒體目�
 
 [Social 快速入門](https://marketing.adobe.com/resources/help/zh_TW/social/c_gs.html)
 
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](/content/help/tw/zh-Hant/support/experience-manager/6-3.html)
+![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-3.html)
 
 Adobe Experience Manager 做為內容管理解決方案，可讓您輕鬆管理您網站、行動應用程式、社群和表單的資產與內容。
 
-如需說明，請參閱 [Adobe Experience Manager 6.3](/content/help/tw/zh-Hant/support/experience-manager/6-3.html)。
+如需說明，請參閱 [Adobe Experience Manager 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)。
 
 ![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://marketing.adobe.com/resources/help/zh_TW/aam/)
 
@@ -97,7 +97,7 @@ Adobe Audience Manager 做為資料管理平台，可幫您建立獨一無二的
 
 Adobe Advertising Cloud 為程式化的廣告購買解決方案。可幫助您根據預算，找到並預測廣告頻道的最佳組合，然後將內容自動提供給您的受眾。
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](/content/help/tw/zh-Hant/support/campaign.html)
+![](assets/mc_campaign_32.png) [Adobe Campaign](https://helpx.adobe.com/support/campaign.html)
 
 Adobe Campaign 可讓您規劃、展現及衡量所有您線上和離線頻道的行銷活動。還有助於提高生產力以及將相關的體驗提供給您的客戶。
 

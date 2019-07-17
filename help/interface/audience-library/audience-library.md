@@ -37,7 +37,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 解決方法 | 說明 |
 |--- |--- |
-| Experience Cloud 受眾 | 使用[受眾程式庫](../audience-library/audience-library.md) 介面以原生方式建立、管理和共用受眾。您可以:<ul><li>使用原始分析屬性以使用即時受眾</li><li>結合受眾以建立複合受眾，加入即時和歷史資料</li><li>請參閱估計之受眾規模的圖形檢視</li></ul><br>如需您要建立哪種受眾類型的相關建議，請參閱: [Experience Cloud 受眾](/content/help/tw/zh-Hant/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| Experience Cloud 受眾 | 使用[受眾程式庫](../audience-library/audience-library.md) 介面以原生方式建立、管理和共用受眾。您可以:<ul><li>使用原始分析屬性以使用即時受眾</li><li>結合受眾以建立複合受眾，加入即時和歷史資料</li><li>請參閱估計之受眾規模的圖形檢視</li></ul><br>如需您要建立哪種受眾類型的相關建議，請參閱: [Experience Cloud 受眾](https://helpx.adobe.com/tw/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | Analytics | 在區隔中，您可以建立區隔，組合區隔與報表套裝，然後[發佈區段至 Experience Cloud](../audience-library/audience-library.md)。發佈區隔會顯示在[受眾](../audience-library/audience-library.md)頁面上。受眾也可作為 Adobe Target 提供之促銷活動體驗以及 Audience Manager 中的目標受眾。從 Analytics 中共用受眾後，且選擇在啟用的行銷活動中使用時，會將過去 90 天符合區隔定義準則的所有訪客設定檔傳送至 Experience Cloud 受眾服務平台。重要: 您必須將透過 Analytics 共用的對象數量限制為 20，以避免額外的程序延誤。透過 Analytics 與 Experience Cloud 共用的受眾不能超過 2,000 萬個不重複的成員。另外，由於快取關係，Experience Cloud 會在 12 小時之後才顯示 Analytics 中刪除的報表套裝資訊。 |
 | Mobile Services | 使用[裝置類型](https://marketing.adobe.com/resources/help/zh_TW/mobile/?f=reports_devices)中的放射環狀視覺效果來分析行動流量。 |
 | Target | [ID 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)會將訪客 ID 與資料整合為單一、可採取動作的設定檔，以便在各個解決方案中使用。[發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊會在 Adobe Analytics 區隔建立程序期間顯示，勾選後該區隔將可供 Adobe Target 的自訂受眾程式庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換度量和受眾區隔來建立行銷活動。 |
@@ -56,7 +56,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 | 說明 | 資源 |
 |--- |--- |
 | 找不到受眾嗎? | 請確認您已完成佈建。請參閱[快速入門 - 啟用核心服務的解決方案](../core-services/core-services.md)。<br>按一下[此處](https://www.adobe.com/go/audiences)，申請存取設定檔與受眾 (整合佈建表單)。 |
-| 使用個案 | 如需有關該使用哪個解決方案的詳細指引，請前往知識庫中的[受眾建立選項](/content/help/tw/zh-Hant/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 使用個案 | 如需有關該使用哪個解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://helpx.adobe.com/tw/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 論壇 | [受眾論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是可取得受眾說明的額外資源。 |
 
 

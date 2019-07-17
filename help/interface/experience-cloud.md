@@ -50,10 +50,10 @@ Experience Cloud 隸屬於 Adobe 的整合式數位行銷解決方案和服務�
 
 ## 社群資源和部落格
 
-* [Experience Cloud 學習與支援](/content/help/tw/zh-Hant/support/experience-cloud.html)
+* [Experience Cloud 學習與支援](https://helpx.adobe.com/tw/support/experience-cloud.html)
 * [Experience 聯盟](https://landing.adobe.com/experience-league/)
-* [聯絡支援](/content/help/tw/zh-Hant/contact/enterprise-support.ec.html)
+* [聯絡支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 * [Experience Cloud 社群](https://forums.adobe.com/community/experience-cloud)
-* [Adobe 訓練與教學課程](/content/help/tw/zh-Hant/learning.html?promoid=KAUDK)
+* [Adobe 訓練與教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)
 * [Adobe 客戶體驗部落格](https://theblog.adobe.com/customer-experience/) (部落格)
 * [核心服務概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (部落格)
