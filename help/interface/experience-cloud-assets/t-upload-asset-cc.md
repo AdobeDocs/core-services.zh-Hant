@@ -14,7 +14,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 # 從 Creative Cloud 瀏覽器上傳資產至共用資料夾
 
-如需 Creative Cloud 說明，請參閱 [https://helpx.adobe.com/tw/creative-cloud/help/sync-files.html](/content/help/tw/zh-Hant/creative-cloud/help/sync-files.html)。
+如需 Creative Cloud 說明，請參閱 [https://helpx.adobe.com/tw/creative-cloud/help/sync-files.html](https://helpx.adobe.com/tw/creative-cloud/help/sync-files.html)。
 
 1. 啟動 [!DNL Creative Cloud] 瀏覽器，導覽至 [!UICONTROL Creative Cloud「檔案」]。
 1. 開啟共用資料夾。
