@@ -52,7 +52,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ## 什麼是解決方案? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-下列資訊簡述解決方案內容，並提供相關說明連結。您也可以參閱[使用個案良方](/content/help/tw/zh-Hant/marketing-cloud/how-to/use-cases.html)，協助您展開數位行銷工作流程。
+下列資訊簡述解決方案內容，並提供相關說明連結。您也可以參閱[使用個案良方](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)，協助您展開數位行銷工作流程。
 
 ![](assets/mc_analytics_32.png) [Adobe Analytics](https://marketing.adobe.com/resources/help/zh_TW/reference/)
 
