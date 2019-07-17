@@ -42,9 +42,9 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console 基本概念](/content/help/tw/zh-Hant/marketing-cloud/how-to/first-time-setup.html) | 瞭解您在開始使用 Experience 解決方案時所需採取的初始步驟。 |
-| [設定身分](/content/help/tw/zh-Hant/enterprise/using/set-up-identity.html) | 定義和設定用於驗證使用者的身分辨識系統。 |
-| [使用者管理](/content/help/tw/zh-Hant/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
+| [Admin Console 基本概念](https://helpx.adobe.com/tw/marketing-cloud/how-to/first-time-setup.html) | 瞭解您在開始使用 Experience 解決方案時所需採取的初始步驟。 |
+| [設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | 定義和設定用於驗證使用者的身分辨識系統。 |
+| [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
 | [啟動 Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console 是管理整個組織中 Adobe 使用者和產品權益的中央位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
 | [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud 資產讓行銷人員可以使用 Creative Cloud 與設計師及其他創作者共用與同步資料夾，並進行共同作業。您可以在這裡管理已核准與組織共同作業的 Creative Cloud 使用者。 |
 | [對應您的報表套裝](../core-services/core-services.md) | (僅限 Analytics) Experience Cloud 核心服務與組織相關，而非個別報表套裝。若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。(此工作是實作 Experience Cloud 並成為管理員[啟用核心服務的 Analytics](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
