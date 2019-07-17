@@ -18,7 +18,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ## 針對上傳的允許檔案類型 {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-可以上傳的檔案類型包括大部分影像、文件、多媒體。如需有關 [!DNL Experience Cloud] 資產中的檔案格式資訊，請參閱[支援的格式](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html)。
+可以上傳的檔案類型包括大部分影像、文件、多媒體。如需有關 [!DNL Experience Cloud] 資產中的檔案格式資訊，請參閱[支援的格式](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-supported-formats.html)。
 
 ## 檔案大小限制 {#section_410ED8E24DBD4136830AE679C6B10D88}
 
