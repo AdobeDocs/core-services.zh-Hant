@@ -31,7 +31,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 >[!IMPORTANT]
 >
->Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，有助於補充所有 Adobe 雲端產品的[企業版管理使用手冊](/content/help/tw/zh-Hant/enterprise/managing/user-guide.html)之資訊。
+>Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，有助於補充所有 Adobe 雲端產品的[企業版管理使用手冊](https://helpx.adobe.com/enterprise/managing/user-guide.html)之資訊。
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -45,14 +45,14 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 **若要登入 Admin Console**
 
 1. 導覽至 [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#)。
-1. 輸入您的 [Adobe ID 或 Enterprise ID](/content/help/tw/zh-Hant/enterprise/help/identity.html) 及密碼。
+1. 輸入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/tw/enterprise/help/identity.html) 及密碼。
 
 
 或者，從 Experience Cloud 功能表 ( ![](assets/menu-icon.png)) 按一下 **[!UICONTROL 管理]** &gt; **[!UICONTROL 啟動 Admin Console]**。
 
 **相關說明**
 
-適用於 Creative Cloud 和 Document Cloud 的[管理指南](/content/help/tw/zh-Hant/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理有關，例如[管理身分類型](/content/help/tw/zh-Hant/enterprise/help/identity.html)。
+適用於 Creative Cloud 和 Document Cloud 的[管理指南](https://helpx.adobe.com/tw/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理有關，例如[管理身分類型](https://helpx.adobe.com/tw/enterprise/help/identity.html)。
 
 [登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)以管理密碼、組織和通知。
 
@@ -90,8 +90,8 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 請參閱:
 * [Enterprise 使用者權限](https://marketing.adobe.com/resources/help/zh_TW/target/target/property_channel.html)
-* [管理產品和設定檔](/content/help/tw/zh-Hant/enterprise/using/manage-products-and-profiles.html)
-* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](/content/help/tw/zh-Hant/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
+* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 
 
@@ -102,7 +102,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 *安全性群組*會顯示為產品設定檔。
 
-若要瞭解安全性群組以及如何將使用者指派給安全性群組，請參閱[管理群組和使用者](/content/help/tw/zh-Hant/campaign/standard/administration/using/managing-groups-and-users.html)
+若要瞭解安全性群組以及如何將使用者指派給安全性群組，請參閱[管理群組和使用者](https://helpx.adobe.com/tw/campaign/standard/administration/using/managing-groups-and-users.html)
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -135,9 +135,9 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 您可以在以下地方找到更多說明:
 
-* [管理產品和設定檔](/content/help/tw/zh-Hant/enterprise/using/manage-products-and-profiles.html)
+* [管理產品和設定檔](https://marketing.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
 * Target 說明中的 [Enterprise 使用者權限](https://marketing.adobe.com/resources/help/zh_TW/target/target/property_channel.html)以取得詳細資訊。
-* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](/content/help/tw/zh-Hant/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 影片: [如何在 Adobe Admin Console 中設定 Target 工作區](https://marketing.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
@@ -203,5 +203,5 @@ Experience Cloud 中支援的瀏覽器。
 * [Data Workbench](https://marketing.adobe.com/resources/help/zh_TW/insight/install/?f=c_Data_Workbench_Client_install)
 * [Adobe Target](https://marketing.adobe.com/resources/help/zh_TW/target/ov/?f=r_supported_browsers)
 * [Adobe Audience Manager](https://marketing.adobe.com/resources/help/zh_TW/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](/content/help/tw/zh-Hant/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](/content/help/tw/zh-Hant/campaign/kb/compatibility-matrix.html)
+* [Adobe Campaign Standard](https://marketing.adobe.com/tw//campaign/standard/start/using/compatible-browsers.html)
+* [Adobe Campaign Classic](https://marketing.adobe.com/tw/campaign/kb/compatibility-matrix.html)
