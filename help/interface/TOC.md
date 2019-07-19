@@ -3,8 +3,8 @@ audience: 使用者
 user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com/tw/
 index: true
-translation-type: ht
-source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
+translation-type: tm+mt
+source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [內嵌內容](admin-getting-started/oembed.md)
 + 啟用 {#activation}
    + [啟用概述](activation/activation.md)
-   + [Launch 使用手冊](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/launch/)
-   + [DTM 使用手冊](https://marketing.adobe.com/resources/help/zh_TW/dtm/)
+   + [啓動使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM使用者指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + 資產 {#assets}
    + [資產概述](experience-cloud-assets/experience-cloud-assets.md)
@@ -59,7 +59,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [資訊源](feed.md)
-+ [Mobile Services](https://marketing.adobe.com/resources/help/zh_TW/mobile/)
++ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + 更多資源 {#more-resources}
    + [論壇](https://forums.adobe.com/community/experience-cloud)
    + [術語](terms.md)
