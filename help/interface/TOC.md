@@ -3,7 +3,7 @@ audience: 使用者
 user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com/tw/
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
@@ -27,8 +27,8 @@ source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
    + [內嵌內容](admin-getting-started/oembed.md)
 + 啟用 {#activation}
    + [啟用概述](activation/activation.md)
-   + [啓動使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM使用者指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM 使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + 資產 {#assets}
    + [資產概述](experience-cloud-assets/experience-cloud-assets.md)
