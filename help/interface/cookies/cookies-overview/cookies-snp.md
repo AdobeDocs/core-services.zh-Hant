@@ -1,15 +1,15 @@
 ---
-description: Search&Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
-keywords: Cookie；隱私權
-seo-description: Search&Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
+description: Search&Promote 使用 Cookie 來了解及預測訪客的搜尋意圖。
+keywords: Cookie;隱私
+seo-description: Search&Promote 使用 Cookie 來了解及預測訪客的搜尋意圖。
 seo-title: Search 和 Promote Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud, Analytics, Target, Social
 title: Search 和 Promote Cookie
-uuid: 65df24e0-0564-4dc2-b652-9fd9 db57 d23 f
+uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 # Search 和 Promote Cookie{#search-and-promote-cookies}
 
-Search&amp;Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
+Search&amp;Promote 使用 Cookie 來了解及預測訪客的搜尋意圖。
 
 ## Cookie 名稱: vsrecentsearches {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
