@@ -1,15 +1,15 @@
 ---
-description: Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入瞭解客戶情緒的有用資訊。
-keywords: Cookie；隱私權
-seo-description: Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入瞭解客戶情緒的有用資訊。
+description: Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入了解客戶情緒的有用資訊。
+keywords: Cookie;隱私
+seo-description: Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入了解客戶情緒的有用資訊。
 seo-title: Survey Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud, Analytics, Target, Social
 title: Survey Cookie
-uuid: e57d9b58-3c62-463a-ad52-e2 a0 e2 ee1
+uuid: e57d9b58-3c62-463a-ad52-e2a0de2e1ee1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 # Survey Cookie{#survey-cookies}
 
-Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入瞭解客戶情緒的有用資訊。
+Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來深入了解客戶情緒的有用資訊。
 
 * [Cookie 名稱: s_sv_sid](../cookies-overview/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie 名稱: s_sv_s1](../cookies-overview/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
@@ -30,7 +30,7 @@ Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來�
 | 儲存資訊 | 儲存唯一號碼以確保用於在瀏覽器內轉譯調查的 JavaScript 檔案能適當快取。 |
 | 過期 | 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期。 |
 
-## Cookie 名稱: s_sv_s1 {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+## Cookie 名稱: s_sv_s1{#section-14ad50dfcd7342f9ac80283b1f0d3400}
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -57,7 +57,7 @@ Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來�
  </tbody> 
 </table>
 
-## Cookie 名稱: s_sv_p1 {#section-05d1c52c478541609f4a18a9c1eb032f}
+## Cookie 名稱: s_sv_p1{#section-05d1c52c478541609f4a18a9c1eb032f}
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -88,5 +88,5 @@ Survey 使用 Cookie 來區別不同瀏覽器的請求，以及儲存可用來�
 
 >[!NOTE]
 >
->如果要儲存在s_ sv_ s或s_ sv_ p中的資訊太大，則會將它分割並儲存在其他Cookie中，視需要將其分割並儲存在其他Cookie中，例如s_ sv_ p2、s_ sv_ p2、s_ sv_ p3等。
+>如果要儲存在 s_sv_s1 或 s_sv_p1 中的資訊過大，系統會視情況分割資訊，將資訊儲存在 s_sv_s2、s_sv_s3 或 s_sv_p2、s_sv_p3 等其他 Cookie 中。
 
