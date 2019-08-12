@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: adobe
 archtype: 終端使用者
 user-guide: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -25,4 +25,4 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
    + [Target Cookie](cookies-overview/cookies-target.md)
 + [啟用瀏覽器 Cookie 的隱私權設定](browser-cookie-settings.md)
 + [第三方 Cookie 支援的變更如何影響客戶](cookies-thirdparty.md)
-+ [聯絡與法律資訊](contact-and-legal.md)
++ [連絡方式與法律資訊](contact-and-legal.md)
