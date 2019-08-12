@@ -1,15 +1,15 @@
 ---
 description: Data Workbench 使用 Cookie 來即時分析迅速變遷的大量資料。
-keywords: Cookie；隱私權
+keywords: Cookie;隱私
 seo-description: Data Workbench 使用 Cookie 來即時分析迅速變遷的大量資料。
 seo-title: Data Workbench Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud, Analytics, Target, Social
 title: Data Workbench Cookie
-uuid: c15013f4-c47 d-4950-aa19-be9 fd25 cd5 f
+uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
