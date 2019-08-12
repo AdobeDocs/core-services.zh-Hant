@@ -1,15 +1,15 @@
 ---
 description: 將封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。
-keywords: Cookie；隱私權
+keywords: Cookie;隱私
 seo-description: 將封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。
 seo-title: 啟用瀏覽器 Cookie 的隱私權設定
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud, Analytics, Target, Social
 title: 啟用瀏覽器 Cookie 的隱私權設定
-uuid: f6a56e8b-b021-49db-8eb4-6c14 af0 c7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
@@ -21,15 +21,15 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 若使用者封鎖其瀏覽器 Cookie 設定內的所有 Cookie，則此設定讓您可尊重其停用 Analytics 處理的意願。
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. 導覽至&#x200B;**[!UICONTROL 「管理工具]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 隱私設定」]**。
+1. 啟用&#x200B;**[!UICONTROL 「隱私設定」]** (適用於桌面或行動瀏覽器)。
 
    啟用此功能時，若使用者將瀏覽器設定為封鎖所有 Cookie，則從桌面瀏覽器收集的資料將從 Analytics 報表中排除。如果 Adobe 無法辨認該瀏覽器，則資料將納入 Analytics 報表。
 
 >[!IMPORTANT]
 >
->請注意，許多行動應用程式(例如Facebook或Twitter的應用程式瀏覽器)可能會顯示為標準行動瀏覽器，但不允許所有Cookie。啟用此功能將排除 Analytics 報表中的高比例行動流量。
+>請注意，許多行動應用程式 (例如 Facebook 或 Twitter 內建的應用程式瀏覽器) 或許看似是一般行動瀏覽器，但並未允許所有 Cookie。啟用此功能將排除 Analytics 報表中的高比例行動流量。
 
 **關於瀏覽器隱私權設定**
 
