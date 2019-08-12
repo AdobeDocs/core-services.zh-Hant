@@ -1,15 +1,15 @@
 ---
 description: Data Connectors 使用 Cookie 來將多個廣告頻道中最佳化的促銷活動和轉換效能量度提供給廣告商。
-keywords: Cookie；隱私權
+keywords: Cookie;隱私
 seo-description: Data Connectors 使用 Cookie 來將多個廣告頻道中最佳化的促銷活動和轉換效能量度提供給廣告商。
 seo-title: Data Connectors Cookie
-solution: Marketing Cloud、Analytics、Target、Social
+solution: Marketing Cloud, Analytics, Target, Social
 title: Data Connectors Cookie
-uuid: 5d27ba66-e640-4513-bec-69e8502 de941
+uuid: 5d27ba66-e640-4513-befc-69e8502de941
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 ---
