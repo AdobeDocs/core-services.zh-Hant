@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -33,18 +33,14 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
 
 較新的 AS3 檢視器並未執行工作階段持續性。
 
-* [Cookie 名稱: VatLogin.jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Cookie 名稱: s7js.flyout.InfoMessage.displayed.state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Cookie 名稱: s7js.flyout.InfoMessage.displayed_idx.ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
-
-## Cookie 名稱: VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
+**Cookie 名稱: VatLogin.jsp**
 
 | 屬性 | 說明 |
 |---|---|
 | 儲存資訊 | 設定作業 Cookie。內嵌於 IPS ImageServer (IS、IR 及 SWF/外觀和視訊內容) 的 AuthFilter 使用 Cookie 來取得存取授權。如果 Cookie 存在的話，它便會允許 HTTP 請求通過，否則會傳回未經授權。 |
 | 過期 | 此 Cookie 為作業 Cookie。Scene7 IPS [!DNL web.xml] 將目前的作業過期時間設定為 45 分鐘。 |
 
-## Cookie 名稱: s7js.flyout.InfoMessage.displayed<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+**Cookie名稱：s7js. flyout. InfoMessage. displayed`assetId`. state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +61,7 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
  </tbody> 
 </table>
 
-## Cookie 名稱: s7js.flyout.InfoMessage.displayed<assetId>_idx<id>.ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+**Cookie名稱：s7js. flyout. InfoMessage. displayed`assetId`_ idx`id`. ant**
 
 舊式 DHTML 檢視器使用瀏覽器 Cookie 來儲存狀態資訊和自黏便箋資料。多重畫面 DHTML 彈出式視窗亦會使用這些 Cookie 來使訊息指標隸屬於特定作業。
 
