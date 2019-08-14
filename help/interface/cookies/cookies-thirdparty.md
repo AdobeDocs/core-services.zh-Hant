@@ -9,8 +9,8 @@ uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -23,12 +23,8 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 
 **Adobe Analytics 和 Target**
 
-<!--
-Test
--->
-
 * 使用第一方執行的客戶大致上維持不受影響。
-* 未使用第一方實作的客戶可以實作[訪客 ID 服務](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/?f=visid_service)，將 ID Cookie 儲存為第一方 Cookie，如此便不需使用第一方實作。
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 **Adobe Experience Manager**
 
