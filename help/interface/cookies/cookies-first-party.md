@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的
 
 * Experience Platform ID服務。ID服務可使用JavaScript在第一方上下文中設定Cookie。
 * 您公司DNS伺服器上的DNS項目。
-* 如果您的網站使用通訊 `https://` 協定而有安全頁面，而您未使用Experience Platform ID Service，則可與Adobe合作取得SSL憑證，以實施第一方Cookie
+* 如果您的網站使用通訊 `https:` 協定而有安全頁面，而您未使用Experience Platform ID Service，則可與Adobe合作取得SSL憑證，以實施第一方Cookie
 
 SSL憑證簽發程序通常會造成混淆和浪費。因此，Adobe與業界領先認證授權機構Digicert(CA)建立合作關係，並開發了一個整合程序，供這些憑證的購買和管理自動化。
 
