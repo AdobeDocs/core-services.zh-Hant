@@ -9,8 +9,8 @@ uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+translation-type: tm+mt
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -36,10 +36,3 @@ source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
 法律和法規已表示使用者封鎖 Cookies 的動作等同於使用者退出個人資料建立的動作。啟用此功能時，若使用者將瀏覽器設定為封鎖所有 Cookie，則從桌面瀏覽器收集的資料將從 Analytics 報表中排除。如果 Adobe 無法辨認網路瀏覽器，則資料將納入 Analytics 報表。
 
 世界各地的立法者已於指導原則與協定中聲明，Cookie 瀏覽器設定是使用者偏好選擇退出設定資料的跡象。具體而言，這些立法者已聲明封鎖第三方 Cookie 的瀏覽器設定是第三方 (跨不同網站) 追蹤的退出要求，而封鎖所有 Cookie 是適用於所有追蹤的退出要求。雖然伺服器端識別碼 (例如 IP 位址或使用者代理程式) 可能是繞過 Cookie 瀏覽器設定的理想選項，但有些立法者將此視為使用者用以規避的選擇。
-
-<!--
-<p>Awaiting content from Vinay May 20 2015 </p>
-<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
-<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
--->
-
