@@ -4,7 +4,7 @@ user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com/tw/
 index: true
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
    + [Scene Cookie](cookies/cookies-s7.md)
    + [搜尋和促銷Cookie](cookies/cookies-snp.md)
-   + [調查Cookie](cookies/cookies-survey.md)
    + [Target Cookie](cookies/cookies-target.md)
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
