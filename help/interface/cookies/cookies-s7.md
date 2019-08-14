@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 ---
 
@@ -33,9 +33,9 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
 
 較新的 AS3 檢視器並未執行工作階段持續性。
 
-* [Cookie 名稱: VatLogin.jsp](../cookies-overview/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Cookie 名稱: s7js.flyout.InfoMessage.displayed.state](../cookies-overview/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Cookie 名稱: s7js.flyout.InfoMessage.displayed_idx.ant](../cookies-overview/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [Cookie 名稱: VatLogin.jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
+* [Cookie 名稱: s7js.flyout.InfoMessage.displayed.state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [Cookie 名稱: s7js.flyout.InfoMessage.displayed_idx.ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## Cookie 名稱: VatLogin.jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
