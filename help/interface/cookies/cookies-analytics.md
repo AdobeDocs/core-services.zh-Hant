@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
@@ -30,139 +30,47 @@ Adobe Analytics 使用 Cookie 來區別不同瀏覽器的請求，並儲存可�
 * [Cookie 名稱: s_fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [外掛程式設定的 Cookie](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Analytics 說明內有更多關於[第一方 Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html) 的詳細資訊。
+Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/cookies-first-party.md) 的詳細資訊。
 
 ## Cookie 名稱: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-<table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>說明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p> 包含 Experience Cloud ID (ECID) 或 MID 副本。MID 儲存在遵循此語法 (s_ecid=MCMID|&lt;ECID&gt;) 的機碼值組中 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p>僅限 CNAME 客戶。不適用於第三方情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p>45 位元組 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 屬性 | 說明 |
+|--- |--- |
+| 儲存資訊 | 包含 Experience Cloud ID (ECID) 或 MID 副本。MID儲存在遵循此語法的機碼值配對中，s_ ecid= MCMID | <ECID> |
+| 過期 | 2 年 |
+| 使用狀況 | 此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 |
+| 位置 | 僅限 CNAME 客戶。不適用於第三方藍本。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 |
+| 大小 | 45 位元組 |
 
 ## Cookie 名稱: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
-<table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>說明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 由 JavaScript 代碼設定並讀取，可確定是否啟用了 Cookie (只需設為「True」)  </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 所有帳戶只有一個 Cookie </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 儲存在頁面的網域上 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 4 位元組 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 屬性 | 說明 |
+|--- |--- |
+| 儲存資訊 | 該 Cookie 由 JavaScript 代碼設定並讀取，可確定是否啟用了 Cookie (只需設為「True」)  |
+| 過期 | 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期 |
+| 使用狀況 | 所有帳戶只有一個 Cookie |
+| 位置 | 該 Cookie 儲存在頁面的網域上 |
+| 大小 | 4 位元組 |
 
 ## Cookie 名稱: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
-<table id="table_05EEB54B5EA2409DB1D071FD1484E8F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>說明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 由 JavaScript 代碼設定並讀取 (當啟用 ClickMap 功能時)，其包含使用者先前所點按連結之相關資訊 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 所有帳戶只有一個 Cookie </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 儲存在頁面的網域上 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 因頁面 URL 大小而異，但通常為 100-200 位元組 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 屬性 | 說明 |
+|--- |--- |
+| 儲存資訊 | 該 Cookie 由 JavaScript 代碼設定並讀取 (當啟用 ClickMap 功能時)，其包含使用者先前所點按連結之相關資訊 |
+| 過期 | 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期 |
+| 使用狀況 | 所有帳戶只有一個 Cookie |
+| 位置 | 該 Cookie 儲存在頁面的網域上 |
+| 大小 | 視頁面URL大小而定，但通常為100-200位元組 |
 
 ## Cookie 名稱: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
-<table id="table_774F04AA9E3847D9AE7803520B5AAAE3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>說明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p> 獨特訪客 ID 時間/日期戳記 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p> 2 年 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客   </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 系統會將此 Cookie 儲存在影像請求的網域中。如果您正在使用第三方 Cookie，通常會儲存在 2O7.net 中；如果正在使用第一方 Cookie，則會儲存在您的網域中。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 44 位元組 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 屬性 | 說明 |
+|--- |--- |
+| 儲存資訊 | 獨特訪客 ID 時間/日期戳記 |
+| 過期 | 2 年 |
+| 使用狀況 | 該 Cookie 用於識別獨特訪客   |
+| 位置 | 系統會將此 Cookie 儲存在影像請求的網域中。如果您正在使用第三方 Cookie，通常會儲存在 2O7.net 中；如果正在使用第一方 Cookie，則會儲存在您的網域中。 |
+| 大小 | 44 位元組 |
 
 >[!NOTE]
 >
@@ -170,36 +78,13 @@ Analytics 說明內有更多關於[第一方 Cookie](https://marketing.adobe.com
 
 ## Cookie 名稱: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
-<table id="table_B0EDB50677D14A86A1BFB7CCAAE95C88"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>屬性 </p> </th> 
-   <th colname="col2" class="entry"> <p>說明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p> 後援唯一訪客 ID 時間/日期戳記 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p>5 年 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客  如果標準的 <span class="codeph">s_vi</span> Cookie 因第三方 Cookie 限制而無法取用。不適用於使用第一方 Cookie 的執行。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 此 Cookie 儲存於您的網域，作為第一方 Cookie。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 33 位元組 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 屬性 | 說明 |
+|--- |--- |
+| 儲存資訊 | 後援唯一訪客 ID 時間/日期戳記 |
+| 過期 | 5 年 |
+| 使用狀況 | 該 Cookie 用於識別獨特訪客  如果標準的 s_vi Cookie 因第三方 Cookie 限制而無法取用。不適用於使用第一方 Cookie 的執行。 |
+| 位置 | 此 Cookie 儲存於您的網域，作為第一方 Cookie。 |
+| 大小 | 33 位元組 |
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
