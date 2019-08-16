@@ -39,9 +39,12 @@ Adobe Managed Certificate Program可讓您免費為第一方Cookie實施新的�
 
 以下是如何為第一方Cookie實施新的第一方SSL憑證：
 
-1. 填寫 [第一方Cookie請求表單](/help/interface/cookies/assets/FPC_Request_Form.xlsx) 並開立票證，並向客戶服務要求在Adobe Managed Program上設定第一方Cookie。每個欄位在文件中都有範例解說。
+1. 填寫 ![申請表格](assets/FPC_Request_Form.xlsx) 並開立票證，並向客戶服務要求在Adobe Managed Program上設定第一方Cookie。每個欄位在文件中都有範例解說。
 
-1. 建立CNAME記錄(請參閱下面的指示)。在收到票證時，FPSSL專員應該提供您一組CNAME記錄。這些記錄必須在您公司的DNS伺服器上設定，Adobe才能代表您購買憑證。CNAME類似下列： **安全** -例如，主機名稱 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。**不安全** -例如，主機名稱 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
+1. 建立CNAME記錄(請參閱下面的指示)。在收到票證時，FPSSL專員應該提供您一組CNAME記錄。這些記錄必須在您公司的DNS伺服器上設定，Adobe才能代表您購買憑證。CNAME與下列類似。
+
+* **安全** -例如，主機名稱 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。
+* **不安全** -例如，主機名稱 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
 
 1. 當這些CNAME就位時，Adobe將會與Digicert搭配使用，在Adobe的生產伺服器上購買並安裝憑證。如果您有現有實施，應考慮「訪客移轉」以維護現有訪客。將憑證推送至Adobe的生產環境後，您就可以將追蹤伺服器變數更新為新主機名稱。也就是說，如果網站不安全(https)，請更新 `s.trackingServer`。如果網站是安全的(https)，請更新這兩 `s.trackingServer` 個和 `s.trackingServerSecure` 變數。
 
@@ -106,9 +109,9 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 在您的網站上編輯程式碼以使用第一方Cookie之前，請先完成這些必要條件：
 
-* 要求SSL憑證，如上述Adobe Managed Certificate Program實施步驟中所述。
-* 建立CNAME記錄(請參閱上文)。
-* Ping the hostname name(請參閱上文)。
+* 如Adobe Managed Certificate Program的實施步驟所述，請求SSL憑證。
+* 建立CNAME記錄。
+* Ping the hostname.
 
 確認您的主機名稱回應並轉送至Adobe資料收集伺服器後，您就可以變更實施，指向您自己的資料收集主機名稱。
 
@@ -116,7 +119,6 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 1. 如果您要更新程式碼版本，請將整個 `s_code.js/AppMeasurement.js` 檔案取代為較新版本，並取代任何外掛程式或自訂 (如果有的話)。**或者，**&#x200B;如果您只想更新與第一方Cookie相關的程式碼，請找出s. trackingServer和s. trackingServerSecure(如果使用SSL)變數，並將它們指向您新的資料收集主機名稱。Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 將更新的核心JavaScript檔案上傳至您的網站。
-
 1. 如果您要從長期實施移至第一方Cookie，或變更為不同的第一方系列主機名稱，建議您將訪客從上一個網域移轉至新網域。
 
 請參閱 [Analytics實施指南中的訪客移轉](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 。
