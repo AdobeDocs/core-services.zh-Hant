@@ -4,31 +4,31 @@ user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com/tw/
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
 
 # 核心服務使用手冊 {#interface}
 
-+ [Experience Cloud 和核心服務說明](experience-cloud.md)
++ [Experience Cloud和核心服務說明](experience-cloud.md)
 + 關於核心服務 {#about-core-services}
    + [核心服務概述](core-services-landing.md)
    + [啟用核心服務的解決方案](core-services/core-services.md)
    + [將報表套裝對應至組織](core-services/report-suite-mapping.md)
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
 + [Experience Cloud 整合](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [Cookokies總覽](cookies/cookies-privacy.md)
-   + [第一方Cookie](cookies/cookies-first-party.md)
++ Experience Cloud Cookie {#ec-cookies}
+   + [Cookie 概述](cookies/cookies-privacy.md)
+   + [第一方 Cookie](cookies/cookies-first-party.md)
    + [Analytics Cookie](cookies/cookies-analytics.md)
    + [Audience Manager Cookie](cookies/cookies-am.md)
-   + [資料連接器Cookie](cookies/cookies-dc.md)
-   + [資料工作台Cookie](cookies/cookies-insight.md)
+   + [Data Connectors Cookie](cookies/cookies-dc.md)
+   + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [Scene Cookie](cookies/cookies-s7.md)
-   + [搜尋和促銷Cookie](cookies/cookies-snp.md)
+   + [Scene7 Cookie](cookies/cookies-s7.md)
+   + [Search 和 Promote Cookie](cookies/cookies-snp.md)
    + [Target Cookie](cookies/cookies-target.md)
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [更新結構](attributes/t-update-schema.md)
    + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
 + 發行說明 {#release-notes}
-   + [Experience Cloud 的新功能](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [資訊源](feed.md)
