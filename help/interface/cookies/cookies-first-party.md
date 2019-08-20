@@ -13,21 +13,21 @@ source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 ---
 
 
-# 關於第一方Cookie
+# 關於第一方 Cookie
 
 Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自 Adobe 所經營的網域，稱為第三方 Cookie。
 
-許多瀏覽器和反間諜軟體應用程式旨在拒絕和刪除第三方Cookie，包括用於Analytics資料收集的Cookie。若要規避瀏覽器和程式所施加的追蹤限制，您可以實施第一方Cookie。
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要避免追蹤功能受瀏覽器和程式限制，您可以實作第一方 Cookie。
 
-有兩個選項可用來實施第一方Cookie
+實作第一方 Cookie 有兩種選項
 
-* Experience Platform ID服務。ID服務可使用JavaScript在第一方上下文中設定Cookie。
-* 您公司DNS伺服器上的DNS項目。
-* 如果您的網站使用通訊 `https:` 協定而有安全頁面，而您未使用Experience Platform ID Service，則可與Adobe合作取得SSL憑證，以實施第一方Cookie
+* Experience Platform ID 服務。ID 服務可使用 JavaScript 在第一方情境中設定 Cookie。
+* 公司 DNS 伺服器上的 DNS 項目。
+* 如果您的網站是使用 `https:` 通訊協定的安全頁面，但未使用 Experience Platform ID 服務，您可透過 Adobe 取得 SSL 憑證，實作第一方 Cookie
 
-SSL憑證簽發程序通常會造成混淆和浪費。因此，Adobe與業界領先認證授權機構Digicert(CA)建立合作關係，並開發了一個整合程序，供這些憑證的購買和管理自動化。
+SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領先的憑證授權機構 (CA) DigiCert 建立合作關係，並開發出整合程序，將憑證的購買和管理作業自動化。
 
-在您的許可下，我們將與我們的CA合作，為您核發、部署和管理新的SHA-2SSL憑證。Adobe將繼續管理此憑證，並確保意外到期、撤銷或安全性顧慮不會危及貴組織安全收集的可用性。
+取得您的許可後，我們就會與我們的 CA 合作，為您核發、部署及管理新的 SHA-2 SSL 憑證。Adobe 會繼續管理此憑證，並確保未預期的過期、撤銷或安全性疑慮等問題不會影響貴組織安全收集資料的相關作業。
 
 ## Adobe Managed Certificate Program
 
@@ -39,12 +39,9 @@ Adobe Managed Certificate Program可讓您免費為第一方Cookie實施新的�
 
 以下是如何為第一方Cookie實施新的第一方SSL憑證：
 
-1. 填寫 ![申請表格](assets/FPC_Request_Form.xlsx) 並開立票證，並向客戶服務要求在Adobe Managed Program上設定第一方Cookie。每個欄位在文件中都有範例解說。
+1. 填寫 [第一方Cookie請求表單](/help/interface/cookies/assets/FPC_Request_Form.xlsx) 並開立票證，並向客戶服務要求在Adobe Managed Program上設定第一方Cookie。每個欄位在文件中都有範例解說。
 
-1. 建立CNAME記錄(請參閱下面的指示)。在收到票證時，FPSSL專員應該提供您一組CNAME記錄。這些記錄必須在您公司的DNS伺服器上設定，Adobe才能代表您購買憑證。CNAME與下列類似。
-
-* **安全** -例如，主機名稱 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。
-* **不安全** -例如，主機名稱 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
+1. 建立CNAME記錄(請參閱下面的指示)。在收到票證時，FPSSL專員應該提供您一組CNAME記錄。這些記錄必須在您公司的DNS伺服器上設定，Adobe才能代表您購買憑證。CNAME類似下列： **安全** -例如，主機名稱 `smetrics.example.com` 指向： `example.com.ssl.d1.omtrdc.net`。**不安全** -例如，主機名稱 `metrics.example.com` 指向： `example.com.d1.omtrdc.net`。
 
 1. 當這些CNAME就位時，Adobe將會與Digicert搭配使用，在Adobe的生產伺服器上購買並安裝憑證。如果您有現有實施，應考慮「訪客移轉」以維護現有訪客。將憑證推送至Adobe的生產環境後，您就可以將追蹤伺服器變數更新為新主機名稱。也就是說，如果網站不安全(https)，請更新 `s.trackingServer`。如果網站是安全的(https)，請更新這兩 `s.trackingServer` 個和 `s.trackingServerSecure` 變數。
 
@@ -109,9 +106,9 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 在您的網站上編輯程式碼以使用第一方Cookie之前，請先完成這些必要條件：
 
-* 如Adobe Managed Certificate Program的實施步驟所述，請求SSL憑證。
-* 建立CNAME記錄。
-* Ping the hostname.
+* 要求SSL憑證，如上述Adobe Managed Certificate Program實施步驟中所述。
+* 建立CNAME記錄(請參閱上文)。
+* Ping the hostname name(請參閱上文)。
 
 確認您的主機名稱回應並轉送至Adobe資料收集伺服器後，您就可以變更實施，指向您自己的資料收集主機名稱。
 
@@ -119,6 +116,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 1. 如果您要更新程式碼版本，請將整個 `s_code.js/AppMeasurement.js` 檔案取代為較新版本，並取代任何外掛程式或自訂 (如果有的話)。**或者，**&#x200B;如果您只想更新與第一方Cookie相關的程式碼，請找出s. trackingServer和s. trackingServerSecure(如果使用SSL)變數，並將它們指向您新的資料收集主機名稱。Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 將更新的核心JavaScript檔案上傳至您的網站。
+
 1. 如果您要從長期實施移至第一方Cookie，或變更為不同的第一方系列主機名稱，建議您將訪客從上一個網域移轉至新網域。
 
 請參閱 [Analytics實施指南中的訪客移轉](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 。
