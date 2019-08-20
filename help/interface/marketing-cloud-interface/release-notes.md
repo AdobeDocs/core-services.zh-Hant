@@ -6,8 +6,8 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+translation-type: tm+mt
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,9 +18,25 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需涵蓋所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。
+如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+
+## 月-2019年
+
+* 修正 Experience Cloud 登入時的重大問題，這會導致部分使用者從工作階段登出。(MCUI-6908)
+* 更新 Experience Cloud 登入機制，以改善效能並減少延遲。(MCUI-6854、MCUI-6869、MCUI-6883)
+* 更新介面外觀。(MCUI-6861、MCUI-6911、MCUI-6862)
+* 修正 Experience Cloud [!UICONTROL Triggers] 的問題，此問題會導致錯誤詮釋 _Like_ 子句 (位於 [!UICONTROL Trigger] 定義中)。(MCUI-6611)
+
+## 2019年月
+
+* 更新應用程式切換器，將 Marketo 加入 Experience Cloud 解決方案套件，並更新 Experience Platform 品牌。(MCUI-6529)
+* 更新 Experience Cloud 首頁，將導覽連結加入「摘要」和「管理」頁面。(MCUI-6682)
+* 修正正確使用「like」子句的[!UICONTROL 「觸發」]定義問題。(MCUI-6611)
+* 改善「客戶屬性」，提供更優質的登入「訂閱」服務體驗。(MCUI-6519)
 
 ## 發行版本 19.1.1 - 2019 年 1 月 17 日
+
+**注意:** 自 2019 年 3 月起，Experience Cloud 介面將不再支援 Internet Explorer 11。
 
 * 修正說明搜尋無法傳回結果的問題。(MCUI-1670)
 * 修正並改善觸發器中的 eVar 管理。(MCUI-6400)
@@ -52,6 +68,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 已修正無法對來自 Assets on Demand 到 Experience Cloud 資訊源共用的資產顯示縮圖的問題。(MAC-29955)
 
+
 ## 發行版本 16.2 - 2016 年 2 月 18 日 {#section_D9610373116C4D77A38F67815C725EA3}
 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
@@ -79,7 +96,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-如果您透過 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 啟用]** 介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
+如果您透過 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 啟用]**&#x200B;介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
 
 ## 發行版本 16.1 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -100,9 +117,9 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 >[!NOTE]
 >
->Microsoft 將[終止支援](https://www.microsoft.com//zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
-## 發行版本 15.10 - 2015 年 10 月 14 日{#section_68123833D3634BD3A473C12862BF9606}
+## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
 **已知問題**
 
@@ -119,7 +136,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 修正客戶屬性中先前已知的問題: 變更顯示名稱時，造成內容感知錯誤的編輯結構頁面。(MAC-25589、AN-103834)
 
-## 發行版本 15.7 - 2015 年 7 月 22 日{#section_2683A152176944E48EF6C943892975B7}
+## 發行版本 15.7 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
 
 * 修正無法在 Analytics 報表中更新「檢視/編輯結構」頁面中 (位於客戶屬性中) 指定之屬性說明的問題。(MAC-25985)
 
@@ -135,7 +152,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 已知問題導致在 Audience Manager 中自動產生重複的帳戶，並將這些帳戶自動連結至使用者的 Experience Cloud 身分。如果您嘗試在連結至帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議您在導覽至 Audience Manager 之前，先將 Audience Manager 帳戶連結至 Experience Cloud。(MAC-25640)
 
-## 發行版本 15.6.1 - 2015 年 6 月 11日{#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## 發行版本 15.6.1 - 2015 年 6 月 11日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 無可用的資訊
 
@@ -162,7 +179,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 </table>
 
 * 已修正妨礙客戶屬性與某些客戶同步的問題。
-* 已修正 [Adobe Target 製品ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 頁面無法顯示日文版本的問題。
+* 已修正妨礙[「Adobe Target 產品文件」](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)頁面以日文顯示的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
 ## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -251,7 +268,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 修正「[!UICONTROL 建立新受眾]」頁面的「[!UICONTROL 規則]」下方無法顯示「新增」(加號) 圖示的問題。
 * 改善 Internet Explorer 9 的 Experience Cloud 介面支援。
 
-## 發行版本 15.1.1 - 2015 年 1 月 15 日{#section_F1A352E928AF432E94CC0A289C345184}
+## 發行版本 15.1.1 - 2015 年 1 月 15 日 {#section_F1A352E928AF432E94CC0A289C345184}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -291,7 +308,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 共用的對象已啟用後，有些使用者無法在 Analytics 報表套裝中建立對象。
 * 有些使用者可能無法上傳資產至展示板。
 
-## 發行版本 14.11.1 - 2014 年 11 月 13 日{#section_A6CF1D4F27B9496892A89C983EB39102}
+## 發行版本 14.11.1 - 2014 年 11 月 13 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 已知問題:
 
@@ -304,7 +321,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
 * Adobe Experience Manager 對 Creative Cloud 同步無法運作。
 
-## 發行版本 14.10.1 - 2014 年 10 月 16 日{#section_E3A0F4423B814707AA3745E083500835}
+## 發行版本 14.10.1 - 2014 年 10 月 16 日 {#section_E3A0F4423B814707AA3745E083500835}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -340,7 +357,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
+* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用  連結。
 
 ## 發行版本 14.9.1 - 2014 年 9 月 18 日 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
@@ -358,7 +375,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
+* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用  連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
 
 ## 發行版本 14.8.1 - 2014 年 8 月 21 日 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
@@ -392,7 +409,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
+* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用  連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
 
 ## 發行版本 14.7.1 - 2014 年 7 月 24 日 {#section_B22D4F830756463DB27BB4D508D9ADD5}
@@ -405,7 +422,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 有些 [!UICONTROL Exchange] 使用者顯示在評論中的名稱是長字串 ID，而非其名稱
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上
 * 上載檔案允許的檔案類型比拖放方法更多。為獲得最佳成果，請使用 [!UICONTROL Assets] 進行上載。
-* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
+* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用  連結。
 * [!DNL Exchange] 使用者必須清除 Cookie 才能獲得更好的使用體驗。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，可能會導致介面速度變慢。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
@@ -417,7 +434,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 尚無報告。
 
-## 發行版本 14.6.1 - 2014 年 6 月 19日{#marketing_cloud_interface}
+## 發行版本 14.6.1 - 2014 年 6 月 19日 {#marketing_cloud_interface}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -443,7 +460,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 從 [!DNL Experience Cloud] 中刪除的檔案並不會從 [!DNL Digital Asset Management] 中刪除。
 * 上載檔案允許的檔案類型比拖放方法更多。為求最佳結果，使用 Assets 執行上載。
-* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用 [!UICONTROL ] 連結。
+* 無法從「[!DNL Search&Promote]組織及產品存取」頁面使用  連結。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 某些使用者無法將其受眾管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
 * 15 分鐘無活動，系統就會將您登出。此外，您從某個位置登出後，系統會將您登出 Experience Cloud。
@@ -496,7 +513,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 刪除影像時，如果該影像用於 Adobe Target Essentials，則資產不會發出警告。
 * 多名使用者同時使用 [!UICONTROL Experience Cloud] 介面時，會導致介面效能下降。
 * 刪除 [!UICONTROL Experience Cloud 資產]中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
-* 登入期間未選取 **[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出。**
+* 登入期間未選取&#x200B;**[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出。**
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 登入 [!DNL Experience Cloud] 的時間超過一秒鐘。
 * 針對某些使用者，從 [!DNL Experience Cloud] 刪除檔案並不會與 [!DNL Digital Asset Management] 同步。
@@ -504,7 +521,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 某些使用者在 Internet Explorer 10 中體驗的視覺配置，可能比在其他瀏覽器上的體驗差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -530,7 +547,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 對資產新增自訂標記後，便無法再保留其他中繼資料變更。
 * 使用者必須重新整理控制面板，才能讓已刪除的卡片從視圖中消失。
-* 登入期間未選取 **[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出**
+* 登入期間未選取&#x200B;**[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出**
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 刪除影像時，如果該影像用於 [!UICONTROL ，則]資產[!DNL Adobe Target Essentials]不會發出警告。
@@ -565,7 +582,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 刪除 Experience Cloud 資產中的影像時，如果該影像用於 Adobe Target Essentials，系統不會發出警告。
 * 從 [!DNL Analytics] 重新整理卡片有時會導致擴充卡片出現空白圖表。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
-* 何時*`Remember me`*未於登入期間加以選取，系統會在 15 分鐘後將使用者登出。
+* When *`Remember me`* is not selected during login, the user will be logged out after 15 minutes.
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 無法點按資產卡片檢視上的「註解」連結。
 * 多名使用者同時使用 Experience Cloud 介面時，可能會導致介面速度變慢。
@@ -585,7 +602,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 無法在卡片上呈現某些 PNG 檔案。
 * 無法提交測試意見。
 
-## 發行版本 14.2.1 - 2014 年 2 月 24 日{#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## 發行版本 14.2.1 - 2014 年 2 月 24 日 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
