@@ -6,8 +6,8 @@ seo-title: 驗證結構
 solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 * **[!UICONTROL FTP 設定:]** [透過 FTP 上傳資料](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
-* **[!UICONTROL ID 查閱:]** 輸入您的 [!DNL .csv] 中的客戶 ID (CID) 以查閱該 ID 的 Experience Cloud 資訊。在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用:
+* **[!UICONTROL ID 查閱:]** 輸入您的 `.csv` 中的客戶 ID (CID) 以查閱該 ID 的 Experience Cloud 資訊。在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用:
 
    * **[!UICONTROL MCID (Experience Cloud ID):]** 顯示您是否使用最新的 Experience Cloud ID 服務。如果您正在 MCID 服務中，但此處未列出 ID，則 Experience Cloud 尚未收到該 CID 的別名。這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
@@ -51,9 +51,9 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，您也可以透過 FTP 上傳資料。您為每一屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根目錄中。資料必須是 .csv 格式，並另有一個 .fin 檔案用以指出上傳完成
 
-您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 [!DNL Analytics] 說明中的[客戶屬性報表](https://marketing.adobe.com/resources/help/zh_TW/reference/?f=reports_customer_attributes)。
+您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 說明中的[客戶屬性報告](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)。[!DNL Analytics]
 
-* **[!UICONTROL 屬性:]** 從上傳之 [!DNL .csv] 檔案讀取的屬性資料。
+* **[!UICONTROL 屬性:]** 從上傳之 `.csv` 檔案讀取的屬性資料。
 
 * **[!UICONTROL 類型:]** 資料類型，例如:
 
@@ -66,7 +66,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 
 
-* **[!UICONTROL 顯示名稱:]** 好記的屬性名稱。例如，您可能會將*客戶年齡*屬性變更為*客戶加入時間*。
+* **[!UICONTROL 顯示名稱:]** 好記的屬性名稱。例如，您可能會將&#x200B;*客戶年齡*&#x200B;屬性變更為&#x200B;*客戶加入時間*。
 
 * **[!UICONTROL 說明:]** 好記的屬性說明。
 
