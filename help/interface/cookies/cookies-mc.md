@@ -9,7 +9,7 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -54,7 +54,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
 
 **Cookie 名稱: AMCV_###@AdobeOrg**
 
-[Experience Platform ID服務](https://docs.adobe.com/content/help/en/id-service/using/home.html) 使用JavaScript在目前網站的網域 `AMCV_###@AdobeOrg` 上，將獨特訪客ID儲存在 `###` 代表隨機字元字串的Cookie中。例如, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`.也請參閱 [Cookie 和 ID 服務](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+[Experience Platform ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.translate.html)會使用 JavaScript 將不重複的訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。另請參閱 [Cookie 和 ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/cookies.translate.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -74,7 +74,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客   </p> </td> 
+   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客    </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
