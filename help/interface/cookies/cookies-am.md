@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -66,7 +66,7 @@ Audience Manager 仰賴幾個簡單的 Cookie 來執行不同功能。這些功�
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> Cookie 包含資料提供者的名稱或 ID，以及直立線符號分隔字串格式的 UNIX UTC 時間戳記。在這些範例中，<i>斜體字</i>代表變數預留位置。 </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">舊樣式: <span class="codeph"> <span class="varname"> 資料提供者名稱 </span>-1490307822097| <span class="varname"> 資料提供者名稱 </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新樣式: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>也請參閱下方的 dextp 資料語法。 </p> </td> 
   </tr> 
