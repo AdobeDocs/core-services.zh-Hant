@@ -9,30 +9,30 @@ uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# 第三方Cookie支援的變更如何影響客戶{#how-changes-to-third-party-cookie-support-impacts-customers}
+# 第三方 Cookie 支援的變更會如何影響客戶{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
 
-下列清單概述第三方 Cookie 支援如何影響目前 Adobe Experience Cloud 解決方案的執行:
+下列清單概述第三方 Cookie 支援如何影響目前 Adobe Experience Cloud 解決方案的實作:
 
-## Adobe Analytics和Adobe Target
+## Adobe Analytics 和 Adobe Target
 
-* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* 使用[第一方實作](/help/interface/cookies/cookies-first-party.md)的客戶大致上不受影響。
+* 若客戶未使用第一方實作，可實作 [Experience Platform ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.translate.html)，將 ID Cookie 儲存為第一方 Cookie，如此便不需使用第一方實作。
 
 ## Adobe Experience Manager
 
-* 由於Adobe Experience Manager完全在客戶的網域內運作，所以與第三方Cookie的互動降至最低，因此不會影響到任何影響。
+* 由於 Adobe Experience Manager 全於客戶網域內運作，與第三方 Cookie 的互動極少，所以幾乎不受影響。
 
 ## Adobe Social
 
-* 只要客戶擁有最新版的代碼，Social 就不受影響。
+* 只要客戶擁有最新版的程式碼，Social 就不受影響。
 
 ## Adobe Advertising Cloud
 
