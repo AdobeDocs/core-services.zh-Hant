@@ -9,7 +9,7 @@ uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
 | 儲存資訊 | 設定作業 Cookie。內嵌於 IPS ImageServer (IS、IR 及 SWF/外觀和視訊內容) 的 AuthFilter 使用 Cookie 來取得存取授權。如果 Cookie 存在的話，它便會允許 HTTP 請求通過，否則會傳回未經授權。 |
 | 過期 | 此 Cookie 為作業 Cookie。Scene7 IPS [!DNL web.xml] 將目前的作業過期時間設定為 45 分鐘。 |
 
-**Cookie名稱：s7js. flyout. InfoMessage. displayed`assetId`. state**
+**Cookie 名稱: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
  </tbody> 
 </table>
 
-**Cookie名稱：s7js. flyout. InfoMessage. displayed`assetId`_ idx`id`. ant**
+**Cookie 名稱: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 舊式 DHTML 檢視器使用瀏覽器 Cookie 來儲存狀態資訊和自黏便箋資料。多重畫面 DHTML 彈出式視窗亦會使用這些 Cookie 來使訊息指標隸屬於特定作業。
 
