@@ -6,7 +6,7 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,16 +18,16 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+如需涵蓋所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。
 
-## 月-2019年
+## 2019 年 8 月版
 
 * 修正 Experience Cloud 登入時的重大問題，這會導致部分使用者從工作階段登出。(MCUI-6908)
 * 更新 Experience Cloud 登入機制，以改善效能並減少延遲。(MCUI-6854、MCUI-6869、MCUI-6883)
 * 更新介面外觀。(MCUI-6861、MCUI-6911、MCUI-6862)
 * 修正 Experience Cloud [!UICONTROL Triggers] 的問題，此問題會導致錯誤詮釋 _Like_ 子句 (位於 [!UICONTROL Trigger] 定義中)。(MCUI-6611)
 
-## 2019年月
+## 2019 年 4 月版
 
 * 更新應用程式切換器，將 Marketo 加入 Experience Cloud 解決方案套件，並更新 Experience Platform 品牌。(MCUI-6529)
 * 更新 Experience Cloud 首頁，將導覽連結加入「摘要」和「管理」頁面。(MCUI-6682)
@@ -117,7 +117,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 >[!NOTE]
 >
->Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 將[終止支援](https://www.microsoft.com//zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
 ## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -129,24 +129,17 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 ## 發行版本 15.9 - 2015 年 9 月 10 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * 修正上傳客戶屬性資料時，造成短暫逾時的 Audience Manager API 效能問題。(MAC-26305)
-
 * 修正讓使用者無法在訂閱中新增高達 200 位客戶屬性的問題。(MAC-26188)
-
 * 已修正無法在 Analytic 區隔共用受眾的問題。這個問題會顯示「收集資料中」(0 個受眾)。若要避免此問題，Adobe 建議將區隔大小保持在每個區隔 50k 受眾成員以下。(MAC-25788)
-
 * 修正客戶屬性中先前已知的問題: 變更顯示名稱時，造成內容感知錯誤的編輯結構頁面。(MAC-25589、AN-103834)
 
-## 發行版本 15.7 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
+## 發行版本 15.7 - 2015 年 7 月 22 日{#section_2683A152176944E48EF6C943892975B7}
 
 * 修正無法在 Analytics 報表中更新「檢視/編輯結構」頁面中 (位於客戶屬性中) 指定之屬性說明的問題。(MAC-25985)
-
 * 已修正無法針對上傳的資產轉譯縮圖的問題。(MAC-25863)
-
 * 已修正在 Reports &amp; Analytics 中建立的新區隔無法使用於 Experience Cloud Audiences 的問題。(MAC-25817)
-
-* 已修正讓適用對象無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
+* 已修正讓適用受眾無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
 * 新增客戶屬性中的多位元組字元支援。(MAC-25552)
-
 
 **已知問題**
 
@@ -170,7 +163,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側導覽功能表已更新，並重新排列以提供使用者存取所有核心服務和解決方案。顯著的變更包含: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">此<span class="term">觀眾程式庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">對象</span>下方。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">此<span class="term">觀眾程式庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">受眾</span>下方。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">此 <span class="term">Exchange</span> 功能表選取項目從「說明」下拉式功能表移動至左側導覽邊欄。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解決方案</span>已移除。您可以從導覽邊欄的下半部啟動所有解決方案。 </li> 
     </ul> </td> 
@@ -179,7 +172,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 </table>
 
 * 已修正妨礙客戶屬性與某些客戶同步的問題。
-* 已修正妨礙[「Adobe Target 產品文件」](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)頁面以日文顯示的問題。
+* 已修正 [Adobe Target 產品文件](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 頁面無法顯示日文版本的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
 ## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -210,7 +203,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 **已知問題**
 
 * 動態標籤管理組織與 Experience Cloud 之間的連結及取消連結功能，不適用於新建的 Experience Cloud 組織。我們正在修正此問題，並在五月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入動態標籤管理時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
-* 一個已知問題是對象無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
+* 一個已知問題是受眾無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
 
 ## 發行版本 15.3.2 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -305,7 +298,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 刪除 Creative Cloud 使用者後，有些使用者無法重新新增該 Creative Cloud 使用者至共用資料夾。
 * 從 Experience Cloud 共用資料夾至 Creative Cloud 時，有些使用者會遇到通知延遲的問題。
 * 有些使用者在 Experience Cloud 和 Creative Cloud 之間共用資料夾時遇到問題。
-* 共用的對象已啟用後，有些使用者無法在 Analytics 報表套裝中建立對象。
+* 共用的受眾已啟用後，有些使用者無法在 Analytics 報表套裝中建立受眾。
 * 有些使用者可能無法上傳資產至展示板。
 
 ## 發行版本 14.11.1 - 2014 年 11 月 13 日 {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -582,7 +575,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 刪除 Experience Cloud 資產中的影像時，如果該影像用於 Adobe Target Essentials，系統不會發出警告。
 * 從 [!DNL Analytics] 重新整理卡片有時會導致擴充卡片出現空白圖表。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
-* When *`Remember me`* is not selected during login, the user will be logged out after 15 minutes.
+* 若未於登入期間選取 *`Remember me`*，系統會在 15 分鐘後將使用者登出。
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 無法點按資產卡片檢視上的「註解」連結。
 * 多名使用者同時使用 Experience Cloud 介面時，可能會導致介面速度變慢。
@@ -628,5 +621,5 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 修正分享的 [!DNL Analytics] 報表無法套用區隔篩選器的問題。
 * 修正在並未連結解決方案帳戶的情況下，解決方案在[!UICONTROL 「Experience Cloud 解決方案」]頁面上卻顯示為已連結的問題。
-* 修正 [!DNL Adobe Target]**亞洲客戶無法點按連結頁面上[!UICONTROL 「繼續前往 Experience Cloud」]按鈕的問題。**
+* 修正 [!DNL Adobe Target] 亞洲客戶無法點按連結頁面上&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**&#x200B;按鈕的問題。
 * 修正無法分享 Youtube 影片的問題。
