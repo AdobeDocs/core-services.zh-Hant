@@ -6,7 +6,7 @@ seo-title: 建立客戶屬性來源及上傳資料檔案
 solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # 建立客戶屬性來源及上傳資料檔案
 
-建立客戶屬性來源(CSV和FIN檔案)並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
+建立客戶屬性來源 (CSV 和 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
 
 ## 客戶屬性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 
 1. 在 [!DNL Experience Cloud] 中，按一下功能表 ![](assets/menu-icon.png) 圖示。
-1. 按 **[!DNL Experience Platform]**&#x200B;一下 **[!UICONTROL 「人員]** &gt; **[!UICONTROL 客戶屬性]**」。
+1. 在 **[!DNL Experience Platform]**&#x200B;底下，按一下&#x200B;**[!UICONTROL 「人物]** &gt; **[!UICONTROL 客戶屬性」]**。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
@@ -94,9 +94,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
       別名 ID 要符合您設定額外客戶 ID 值的特定區域。例如:
 
-      * **動態標籤管理：** 別名ID與「客戶設定」下的 ** 「 [!UICONTROL 客戶設定]」下的「整合 [代碼」值相符](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) 。
+      * **動態標籤管理:** 別名 ID 對應至 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/zh_TW/dtm/?f=macid)工具的[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客 API:**&#x200B;別名 ID 要符合可用來與每位訪客關聯的額外[客戶 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)。
+      * **訪客 API:** 別名 ID 對應至您可與每個訪客建立關聯的其他[客戶 ID](https://marketing.adobe.com/resources/help/zh_TW/mcvid/?f=mcvid_customer_ids)。
 
          例如，下列位置中的 *"crm_id"*:
 
@@ -106,14 +106,14 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
          ```
 
 
-      * **iOS：** 別名ID對應至visitorSyncIdentifiers中的 *「idType」*[：識別碼](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)。
+      * **iOS:** 別名 ID 對應至 [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/?f=methods) 中的&#x200B;*"idType"*。
 
          例如:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:**&#x200B;別名 ID 要符合&#x200B;*SyncIdentifiers* 中的「 [idType」](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)。
+      * **Android:** 別名 ID 對應至 [syncIdentifiers](https://marketing.adobe.com/resources/help/zh_TW/mobile/android/?f=methods) 中的 *"idType"*。
 
          例如:
 
@@ -175,7 +175,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 **啟動屬性來源**
 
-在 [!UICONTROL 建立新[或編輯]客戶屬性來源] 頁面上，找到[!UICONTROL 啟動]標題，然後按一下&#x200B;**[!UICONTROL 啟用]**。
+在[!UICONTROL 「建立新[或編輯]客戶屬性來源頁面」]上，找到[!UICONTROL 「啟動」]標題，然後按一下&#x200B;**[!UICONTROL 「啟用」]**。
 
 ![步驟結果](assets/activate_attribute_source.png)
 
@@ -183,7 +183,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 現在透過 
 <keyword>
-Adobe Analytics 
+Adobe Analytics
 </keyword>等解決方案中提供的資料，您可以根據資料製作報表、分析，以及在行銷活動中採取適當行動。
 
 以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區隔顯示 Photoshop Lightroom 的訂閱者中最常啟動 Photoshop 產品的人。
@@ -192,12 +192,12 @@ Adobe Analytics
 
 您在 Experience Cloud 發佈區隔時，Experience Cloud 受眾和 Audience Manager 即可使用該區隔。
 
-如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報告](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)。
+如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報表](https://marketing.adobe.com/resources/help/zh_TW/reference/?f=reports_customer_attributes)。
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 Target 中，您可在建立受眾時，從「訪客資料」區段選取客戶屬性。清單中的所有客戶屬性都有 [!DNL crs.] 前置字元。視需要將這些屬性與其他資料屬性結合，以建立對象。
+在 Target 中，您可在建立受眾時，從「訪客資料」區段選取客戶屬性。清單中的所有客戶屬性都有 [!DNL crs.] 前置字元。視需要將這些屬性與其他資料屬性結合，以建立受眾。
 
 ![](assets/crs-add-attribute-target.png)
 
-請參閱 Target 說明中的[建立新受眾](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)。
+請參閱 Target 說明中的[建立新受眾](https://marketing.adobe.com/resources/help/zh_TW/target/target/?f=t_creating_a_new_audience)。
