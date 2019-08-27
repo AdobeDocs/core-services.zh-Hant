@@ -6,7 +6,7 @@ seo-title: 客戶屬性
 solution: Experience Cloud
 title: 客戶屬性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## 概述
 
-若要找到 [!UICONTROL 客戶屬性] ，請導覽至 **[!DNL Experience Platform]** 「 **[!UICONTROL 人員]** &gt; **[!UICONTROL 客戶屬性」]**
+若要找到[!UICONTROL 客戶屬性]，請導覽至&#x200B;**「[!DNL Experience Platform]** &gt; **[!UICONTROL 人物]** &gt; **[!UICONTROL 客戶屬性」]**
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
@@ -36,7 +36,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **目標 mbox:**&#x200B;必須有 mbox.js 58 版或以上版本才能使用客戶屬性。
 
 
-   請參閱 [Mbox.js 實作](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)。
+   請參閱 [Mbox.js 實作](https://marketing.adobe.com/resources/help/zh_TW/target/ov/t_mbox_download.html)。
 
 * **at.js:** 任何版本。
 
