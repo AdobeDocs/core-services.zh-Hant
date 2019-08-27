@@ -6,7 +6,7 @@ seo-title: 建立受眾
 solution: Experience Cloud
 title: 建立受眾
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，按一下&#x200B;**[!UICONTROL 「人物]** &gt; **[!UICONTROL 受眾程式庫」]**。
 1. 在[!UICONTROL 受眾]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![](assets/add_icon_small.png)
 
 ![步驟結果](assets/audience_create_new.png)
