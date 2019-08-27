@@ -6,7 +6,7 @@ seo-title: 驗證結構
 solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，您也可以透過 FTP 上傳資料。您為每一屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根目錄中。資料必須是 .csv 格式，並另有一個 .fin 檔案用以指出上傳完成
 
-您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 說明中的[客戶屬性報告](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)。[!DNL Analytics]
+您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 [!DNL Analytics] 說明中的[客戶屬性報表](https://marketing.adobe.com/resources/help/zh_TW/reference/?f=reports_customer_attributes)。
 
 * **[!UICONTROL 屬性:]** 從上傳之 `.csv` 檔案讀取的屬性資料。
 
