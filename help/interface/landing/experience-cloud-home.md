@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud解決方案的說明與產品文件。
 description: Adobe Experience Cloud解決方案的說明與產品文件。
 seo-description: Experience Cloud說明
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 381ce8d571d2a8e76052ab159239f5240e9bef38
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud的說明與產品文件。
 
 ![Analytics](assets\mc_analytics_32.png) **Analytics說明**
 
-* [Analytics 說明首頁](/help/landing/home.md)
+* [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
 * [管理](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
 * [實施](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
@@ -40,7 +40,7 @@ Adobe Experience Cloud的說明與產品文件。
 
 ![Audience Manager](assets\mc_analytics_32.png) **Audience Manager說明**
 
-* Audience Manager
+* [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * Audience Manager管理員
 
 ![Target](assets\mc_target_32.png) **Target說明**
