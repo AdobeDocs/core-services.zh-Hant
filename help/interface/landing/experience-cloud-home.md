@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud解決方案的說明與產品文件。
 description: Adobe Experience Cloud解決方案的說明與產品文件。
 seo-description: Experience Cloud說明
 translation-type: tm+mt
-source-git-commit: 2231240b6697d95ad448cb21c55368ecbe13a517
+source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Experience Cloud的說明與產品文件。
 **觀眾管理員說明**
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* Audience Manager管理員
+* [Audience Manager管理員](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
 **Target說明**
 
