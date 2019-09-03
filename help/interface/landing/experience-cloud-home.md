@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud解決方案的說明與產品文件。
 description: Adobe Experience Cloud解決方案的說明與產品文件。
 seo-description: Experience Cloud說明
 translation-type: tm+mt
-source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
+source-git-commit: 786ef462c1c3be516f4047c56c0c4a41c31e4212
 
 ---
 
@@ -13,7 +13,9 @@ source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 Adobe Experience Cloud的說明與產品文件。
 
-## ![](assets/experience_cloud_appicon_32.png) Experience Cloud說明
+![Experience Cloud 說明](assets/experience_cloud_appicon_32.png)
+
+## Experience Cloud 說明
 
 * [Experience Cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (所有產品)
 * [Experience Cloud介面與核心服務說明](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -24,6 +26,8 @@ Adobe Experience Cloud的說明與產品文件。
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+
+![分析說明](assets/mc_analytics_32.png)
 
 ## 分析說明
 
@@ -38,28 +42,40 @@ Adobe Experience Cloud的說明與產品文件。
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
+![觀眾管理員說明](assets/mc_audiencemanager_32.png)
+
 ## 觀眾管理員說明
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
 * [Audience Manager管理員](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
+
+![Target說明](assets/mc_target_32.png)
 
 ## Target說明
 
 * [Target版本注意事項](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
+![Experience Manager說明](assets/mc_experiencemanager_32.png)
+
 ## Experience Manager說明
 
 * [Experience Manager學習與支援](https://helpx.adobe.com/support/experience-manager.html)
+
+![促銷活動說明](assets/mc_campaign_32.png)
 
 ## 促銷活動說明
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
+![Primetime說明](assets/primetime_app_32.png)
+
 ## Primetime說明
 
 * [Primetime說明](http://help.adobe.com/en_US/primetime/)
+
+![Advertising Cloud說明](assets/advertisingcloud_appicon_32.png)
 
 ## Advertising Cloud說明
 
