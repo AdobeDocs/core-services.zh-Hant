@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud解決方案的說明與產品文件。
 description: Adobe Experience Cloud解決方案的說明與產品文件。
 seo-description: Experience Cloud說明
 translation-type: tm+mt
-source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
+source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 Adobe Experience Cloud的說明與產品文件。
 
-![](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloud說明
+## ![](assets/experience_cloud_appicon_32.png) Experience Cloud說明
 
 * [Experience Cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (所有產品)
 * [Experience Cloud介面與核心服務說明](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
