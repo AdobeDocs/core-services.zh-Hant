@@ -1,21 +1,19 @@
 ---
-title: Experience Cloud產品文件
-seo-title: Adobe Experience Cloud解決方案的說明與產品文件。
-description: Adobe Experience Cloud解決方案的說明與產品文件。
-seo-description: Experience Cloud說明
+title: Experience Cloud 產品文件
+seo-title: Adobe Experience Cloud 中解決方案的說明與產品文件。
+description: Adobe Experience Cloud 中解決方案的說明與產品文件。
+seo-description: Experience Cloud 說明
 translation-type: tm+mt
-source-git-commit: 786ef462c1c3be516f4047c56c0c4a41c31e4212
+source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
 
 ---
 
 
-# Adobe Experience Cloud產品文件
+# Adobe Experience Cloud 產品文件
 
-Adobe Experience Cloud的說明與產品文件。
+Adobe Experience Cloud 的說明與產品文件。
 
-![Experience Cloud 說明](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloud 說明
+## ![Experience Cloud說明](assets/experience_cloud_appicon_32.png) Experience Cloud說明
 
 * [Experience Cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (所有產品)
 * [Experience Cloud介面與核心服務說明](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
@@ -27,9 +25,7 @@ Adobe Experience Cloud的說明與產品文件。
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-![分析說明](assets/mc_analytics_32.png)
-
-## 分析說明
+## ![Analytics說明](assets/mc_analytics_32.png) 分析說明
 
 * [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -42,46 +38,34 @@ Adobe Experience Cloud的說明與產品文件。
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-![觀眾管理員說明](assets/mc_audiencemanager_32.png)
-
-## 觀眾管理員說明
+## ![Audience Manager說明](assets/mc_audiencemanager_32.png) Audience Manager說明
 
 * [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/)
-* [Audience Manager管理員](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
+* [Audience Manager 管理員](https://marketing.adobe.com/resources/help/en_US/aam/admin/index.html)
 
-![Target說明](assets/mc_target_32.png)
-
-## Target說明
+## ![Target Help](assets/mc_target_32.png) Target說明
 
 * [Target版本注意事項](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-![Experience Manager說明](assets/mc_experiencemanager_32.png)
-
-## Experience Manager說明
+## ![Experience Manager說明](assets/mc_experiencemanager_32.png) Experience Manager說明
 
 * [Experience Manager學習與支援](https://helpx.adobe.com/support/experience-manager.html)
 
-![促銷活動說明](assets/mc_campaign_32.png)
-
-## 促銷活動說明
+## ![促銷活動說明](assets/mc_campaign_32.png) 促銷活動說明
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-![Primetime說明](assets/primetime_app_32.png)
+## ![Primetime說明](assets/primetime_app_32.png) Primetime說明
 
-## Primetime說明
+* [Primetime 說明](http://help.adobe.com/en_US/primetime/)
 
-* [Primetime說明](http://help.adobe.com/en_US/primetime/)
+## ![Advertising Cloud說明](assets/advertisingcloud_appicon_32.png) Advertising Cloud說明
 
-![Advertising Cloud說明](assets/advertisingcloud_appicon_32.png)
+按一下任何頁面上方的&#x200B;**「協助」**&#x200B;圖示 (?) 即可取得 Advertising Cloud 的說明。
 
-## Advertising Cloud說明
-
-Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) 。
-
-## 其他Experience Cloud資源
+## 其他 Experience Cloud 資源
 
 * [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [社群論壇](https://forums.adobe.com/community/experience-cloud)
