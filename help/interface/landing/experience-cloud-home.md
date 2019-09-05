@@ -4,7 +4,7 @@ seo-title: Adobe Experience Cloud 中解決方案的說明與產品文件。
 description: Adobe Experience Cloud 中解決方案的說明與產品文件。
 seo-description: Experience Cloud 說明
 translation-type: tm+mt
-source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
+source-git-commit: f920b588fc76ad04a46b01657f9a78e1a84a1efb
 
 ---
 
@@ -12,6 +12,12 @@ source-git-commit: 20837ba5fe7e455fae11c60d77e5f998d3fe4861
 # Adobe Experience Cloud 產品文件
 
 Adobe Experience Cloud 的說明與產品文件。
+
+## 發行說明、影片和社群論壇
+
+* 訂閱 [「優先產品更新](https://www.adobe.com/subscription/priority-product-update.html) 」，每月接收發行說明。
+* 產品影片：產品影片可從 [Adobe 影片學習](https://helpx.adobe.com/experience-cloud/tutorials.html)中取得。
+* Experience League：造訪 [Adobe Experience League](https://landing.adobe.com/experience-league/) 以進行引導式學習。
 
 ## ![Experience Cloud說明](assets/experience_cloud_appicon_32.png) Experience Cloud說明
 
