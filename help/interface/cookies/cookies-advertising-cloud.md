@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>顯示廣告點擊的 ID 和時間戳記 (格式為 yyyymdd) </p> </td> 
+   <td colname="col2"> <p>顯示廣告點擊的 ID 和時間戳記 (格式為 yyyymdd)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>過期 </p> </td> 
-   <td colname="col2"> <p>15 分鐘/p&gt; </p> </td> 
+   <td colname="col2"> <p>15 分鐘</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用狀況 </p> </td> 
@@ -50,6 +50,39 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
+## Cookie 名稱: _tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 屬性 </th> 
+   <th colname="col2" class="entry"> 說明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col2"> <p>使用 Advertising Cloud DSP 追蹤的廣告參與編碼 ID 和時間戳記 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col2"> <p>1 年 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col2"> <p>此第三方 Cookie 會一併儲存使用者參與和廣告，例如「最近一次於 2016 年 6 月 30 日觀看廣告 xyz123」 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>位置 </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>大小 </p> </td> 
+   <td colname="col2"> <p>變數；資料經過編碼，通常少於 1 KB </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Cookie 名稱: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>瀏覽者 ID、瀏覽者最後造訪廣告商網站的時間戳記和瀏覽者最後一次的搜尋點擊，以及在使用者點擊廣告時建立的 ef_ id/p&gt; </p> </td> 
+   <td colname="col2"> <p>衝浪ID、衝浪者最後造訪廣告商網站的時間戳記和衝浪者最後的搜尋點擊，以及使用者點擊廣告時建立的ef_ id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>過期 </p> </td> 
@@ -216,37 +249,3 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
  </tbody> 
 </table>
-
-## Cookie 名稱: _tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 屬性 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>使用 Advertising Cloud DSP 追蹤的廣告參與編碼 ID 和時間戳記 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
-   <td colname="col2"> <p>1 年 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
-   <td colname="col2"> <p>此第三方 Cookie 會一併儲存使用者參與和廣告，例如「最近一次於 2016 年 6 月 30 日觀看廣告 xyz123」 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>位置 </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>大小 </p> </td> 
-   <td colname="col2"> <p>變數；資料經過編碼，通常少於 1 KB </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
