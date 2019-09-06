@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
+source-git-commit: b6950426a81f22757387b297f349377d34865842
 
 ---
 
@@ -16,6 +16,39 @@ source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 # Advertising Cloud Cookie{#advertising-cloud-cookies}
 
 Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
+
+## Cookie名稱：id_ adcloud
+
+<table id="id_adcloud"> 
+<thead> 
+<tr> 
+<th colname="col1" class="entry"> 屬性 </th> 
+<th colname="col2" class="entry"> 說明 </th> 
+</tr> 
+</thead>
+<tbody> 
+<tr> 
+<td colname="col1"> <p>儲存資訊 </p> </td> 
+<td colname="col2"> <p>衝浪訪客ID </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>過期 </p> </td> 
+<td colname="col2"> <p>91天 </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>使用狀況 </p> </td> 
+<td colname="col2"> <p>Cookie設定在第一方網域中，但尚未使用 </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>位置 </p> </td> 
+<td colname="col2"> <p>廣告商的頂層網域 (例如 example.com) </p> </td> 
+</tr> 
+<tr> 
+<td colname="col1"> <p>大小 </p> </td> 
+<td colname="col2"> <p>16 位元組 </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 ## Cookie 名稱: _lcc
 
