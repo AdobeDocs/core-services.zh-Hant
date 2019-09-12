@@ -7,7 +7,7 @@ uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 
-## Cookie名稱：id_ adcloud
+## Cookie 名稱: id_adcloud
 
 <table id="id_adcloud"> 
 <thead> 
@@ -29,15 +29,15 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
 <tbody> 
 <tr> 
 <td colname="col1"> <p>儲存資訊 </p> </td> 
-<td colname="col2"> <p>衝浪訪客ID </p> </td> 
+<td colname="col2"> <p>瀏覽者 ID </p> </td> 
 </tr> 
 <tr> 
-<td colname="col1"> <p>過期 </p> </td> 
-<td colname="col2"> <p>91天 </p> </td> 
+<td colname="col1"> <p>有效期限 </p> </td> 
+<td colname="col2"> <p>91 天 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>使用狀況 </p> </td> 
-<td colname="col2"> <p>Cookie設定在第一方網域中，但尚未使用 </p> </td> 
+<td colname="col2"> <p>第一方網域已設定 Cookie，但尚未使用 </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>位置 </p> </td> 
@@ -65,7 +65,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>顯示廣告點擊的 ID 和時間戳記 (格式為 yyyymdd)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>15 分鐘</p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>使用 Advertising Cloud DSP 追蹤的廣告參與編碼 ID 和時間戳記 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>1 年 </p> </td> 
   </tr> 
   <tr> 
@@ -128,10 +128,10 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>衝浪ID、衝浪者最後造訪廣告商網站的時間戳記和衝浪者最後的搜尋點擊，以及使用者點擊廣告時建立的ef_ id</p> </td> 
+   <td colname="col2"> <p>瀏覽者 ID、瀏覽者最後造訪廣告商網站的時間戳記、瀏覽者最後一次的搜尋點擊，以及在使用者點擊廣告時建立的 ef_ id</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>瀏覽器和瀏覽者 ID </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>工作階段 ID </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>瀏覽器關閉時 </p> </td> 
   </tr> 
   <tr> 
@@ -265,7 +265,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie名稱：id_ adcloud
+## Cookie 名稱: id_adcloud
 
 <table> 
  <thead> 
@@ -295,15 +295,15 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>衝浪訪客ID </p> </td> 
+   <td colname="col2"> <p>瀏覽者 ID </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>過期 </p> </td> 
-   <td colname="col2"> <p>91天 </p> </td> 
+   <td colname="col1"> <p>有效期限 </p> </td> 
+   <td colname="col2"> <p>91 天 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用狀況 </p> </td> 
-   <td colname="col2"> <p>Cookie設定在第一方網域中，但尚未使用 </p> </td> 
+   <td colname="col2"> <p>第一方網域已設定 Cookie，但尚未使用 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
