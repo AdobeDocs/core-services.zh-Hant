@@ -6,7 +6,7 @@ seo-title: 關於客戶屬性的資料檔案和資料來源
 solution: Experience Cloud
 title: 關於客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗號分隔值的檔案 (例如以 Excel 建立的檔案)。這是包含客戶屬性資料的檔案。 </p> <p> <b></b> 命名要求：請確定副檔名不包含任何空白字元或下列任何字元"。"、"。."、"/"、":" </p> </td> 
+   <td colname="col2"> <p>逗號分隔值的檔案 (例如以 Excel 建立的檔案)。這是包含客戶屬性資料的檔案。 </p> <p> <b>命名規定:</b> 請確認檔案名稱的附檔名不含任何空格及「.」、「..」、「/」、「:」等字元。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -81,7 +81,7 @@ CSV 檔案必須遵守以下格式:
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶 ID 欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是唯一客戶 ID。所使用的 ID 應該對應至傳遞給 Experience Cloud ID 服務的 ID。 </p> <p>對於 Analytics，此為儲存在 prop 或 eVar 中的 ID。 </p> <p>對於 Target，此為 setCustomerID 值。(請參閱 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics &amp; Target - 同步化客戶 ID </a>) </p> <p> 此客戶 ID 是 CRM 在資料庫中使用的每個人的唯一識別碼。其餘的欄則是來自您的 CRM 的屬性。您將選擇要上傳幾個屬性。 </p> <p>建議欄標題使用好記且好讀的名稱，但這並不是硬性規定。當您在上傳後驗證結構時，可以將好記的名稱對應到上傳的列和欄。 </p> <p> <b>關於客戶 ID</b> </p> <p>通常企業會使用 CRM 系統的客戶 ID。這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此 ID 也用於上傳至 Experience Cloud 之 CRM 檔案中的索引鍵。所謂的<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的好記名稱，用於儲存別名資料。系統會傳送別名至此資料存放區 (透過 setCustomerIDs)。CRM 檔案會套用至該資料存放區的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是唯一客戶 ID。所使用的 ID 應該對應至傳遞給 Experience Cloud ID 服務的 ID。 </p> <p>對於 Analytics，此為儲存在 prop 或 eVar 中的 ID。 </p> <p>對於 Target，此為 setCustomerID 值。(請參閱 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics &amp; Target - 同步化客戶 ID </a>) </p> <p> 此客戶 ID 是 CRM 在資料庫中使用的每個人的唯一識別碼。其餘的欄則是來自您的 CRM 的屬性。您將選擇要上傳幾個屬性。 </p> <p>建議欄標題使用好記且好讀的名稱，但這並不是硬性規定。當您在上傳後驗證結構時，可以將好記的名稱對應到上傳的列和欄。 </p> <p> <b>關於客戶 ID</b> </p> <p>通常企業會使用 CRM 系統的客戶 ID。這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此 ID 也用於上傳至 Experience Cloud 之 CRM 檔案中的索引鍵。所謂的<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的好記名稱，用於儲存別名資料。系統會傳送別名至此資料存放區 (透過 setCustomerIDs)。CRM 檔案會套用至該資料存放區的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://marketing.adobe.com/resources/help/zh_TW/mcvid/mcvid-authenticated-state.html" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>隨後的標題和欄 </p> </td> 
@@ -160,7 +160,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids))。
+(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://marketing.adobe.com/resources/help/zh_TW/mcvid/?f=mcvid_customer_ids)。)
 
 在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人物]** &gt; **[!UICONTROL 客戶屬性]**&#x200B;中:
 
