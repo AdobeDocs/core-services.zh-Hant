@@ -4,7 +4,7 @@ user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com/tw/
 product: 核心服務
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
@@ -43,8 +43,8 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [內嵌內容](admin-getting-started/oembed.md)
 + 啟用 {#activation}
    + [啟用概述](activation/activation.md)
-   + [啟動使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [DTM使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [DTM 使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + 資產 {#assets}
    + [資產概述](experience-cloud-assets/experience-cloud-assets.md)
@@ -71,7 +71,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [更新結構](attributes/t-update-schema.md)
    + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
 + 發行說明 {#release-notes}
-   + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [資訊源](feed.md)
