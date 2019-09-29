@@ -6,7 +6,7 @@ seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,12 +30,12 @@ Creative Cloud 使用者必須先進入 Experience Cloud 的白名單，才能�
 
 在 [!DNL Adobe Target] 中建立活動時，當在內容庫中交換影像時可以使用共用的影像資產。
 
-請參閱 [!DNL Target] 說明中的[內容庫](https://marketing.adobe.com/resources/help/zh_TW/target/?f=c_manage_content)。
+請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)內容庫[!DNL Target]。
 
 ## 關於 Adobe Social 的資產共用 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
 
 在 [!DNL Adobe Social] 中，可以使用[!UICONTROL 「發佈者」]中的[!UICONTROL 「資產選取器」]插入共用影像資產。您可以搜尋資料夾、瀏覽至資料夾，然後將資產附加到 Facebook 或 Twitter 貼文。
 
-請參閱 [!DNL Social] 說明中的[發佈者頁面](https://marketing.adobe.com/resources/help/zh_TW/social/?f=c_pub_publisher)。
+請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)發佈者頁面[!DNL Social]。
 
 共用的資料夾和資產會自動在各 Cloud 之間同步化。
