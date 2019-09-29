@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 升級至 Analytics Premium 和 Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 Analytics Premium 可讓您:
 
 * 存取 250 個轉換變數 (eVar)
-* [行動應用程式分析](https://marketing.adobe.com/resources/help/zh_TW/mobile/)
+* [行動應用程式分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
 * 資料工作台 (視覺資料查詢、規則型歸因、跨頻道分析)
 
 
@@ -55,9 +55,9 @@ Analytics Premium 可讓您:
 
 | 產品 | 升級 |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[貢獻分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/)</li><li>[客戶屬性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (高達 200 個)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[貢獻分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[客戶屬性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (高達 200 個)</li></ul> |
 | Data Workbench | <ul><li>演算法歸因</li><li>預先建立工作區</li></ul> |
-| Analytics 平台 | [即時資料流](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1)   (原始資料、控制面板、觸發器) |
+| Analytics 平台 | [即時資料流](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1) (原始資料、控制面板、觸發器) |
 
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
@@ -66,12 +66,12 @@ Analytics Premium 可讓您:
 
 | 產品 | 升級 |
 |---|---|
-| Reports &amp; Analytics | [貢獻分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/) |
+| Reports &amp; Analytics | [貢獻分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
 | Data Workbench | 受眾資格和預測行銷的預先建立工作區。 |
 | Analytics 平台 | 即時資料流 (控制面板和觸發器) |
 
 
-## Customer 360{#section_3B2AC245388248688067DC9A48957AFB}
+## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 升級至 Customer 360 可提供 [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)，再加上:
 
@@ -86,7 +86,7 @@ Analytics Premium 可讓您:
 
 進階歸因提供 [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) 的存取，再加上資料工作台中的演算法歸因 (25% 伺服器呼叫容量)。
 
-## 資料工作台需求{#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## 資料工作台需求 {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 獲支援的使用者可以寄送電子郵件至 `dwb@adobe.com`，要求更新所有用戶端授權以符合 Premium。這可啟用演算法歸因等功能。
 
@@ -94,26 +94,26 @@ TechOps 會審查您的合約保證，判斷適合的受管理基礎結構、增
 
 內部部署執行的所有軟體都必須停用。其中包括感應器，這表示您必須確保能透過 Analytics 標記進行適當追蹤。
 
-**Premium 完整版** 和 **進階歸因**
+**Premium 完整版**&#x200B;和&#x200B;**進階歸因**
 
-有關預先建立的範本中的規則型歸因，請參閱: [規則型歸因](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_rules_attrib)。
+對於預先建立範本中的規則型歸因，請參閱: [規則型歸因](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)。
 
-若為演算法歸因，請參閱[最適合的歸因](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_attrib_algorithmic)
+對於演算法歸因，請參閱: [最適歸因](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)
 
 **Predictive Intelligence**
 
 資料工作台中的 Predictive intelligence 包括下列視覺效果:
 
-* [受眾傾向得分](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_visitor_propensity)
-* [訪客叢集](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_visitor_cluster)
-* [相互關聯分析](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_correlation_analysis)
+* [受眾傾向得分](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
+* [訪客叢集](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
+* [關聯分析](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
 
 
-**Customer 360** 和 **進階歸因**
+**Customer 360** 和&#x200B;**進階歸因**
 
-若要查看預先建立的範本中的 Analytics 規則型歸因，請前往[規則型歸因](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_rules_attrib)。
+請參閱[規則型歸因](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib)中，預先建立範本的 Analytics 規則型歸因。
 
-若要查看演算法歸因範本，請前往[最適合的歸因](https://marketing.adobe.com/resources/help/zh_TW/insight/client/?f=c_attrib_algorithmic)。
+請參閱[最適歸因](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)中的演算法歸因。.
 
 ## Experience Cloud - 管理使用者和產品 {#section_6471C54454024301B2E0B687F79F6738}
 
@@ -123,7 +123,7 @@ TechOps 會審查您的合約保證，判斷適合的受管理基礎結構、增
 
 **管理使用者和群組**
 
-使用者管理是在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/help/aedash.html) (產品連結) 中執行。
+您可以在 [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (產品連結) 中管理使用者。
 
 您可以在 Adobe Admin Console 中建立的群組和解決方案群組 (例如 Adobe Analytics) 之間設定 1:1 對應。之後，新增至已對應 Admin Console 群組的使用者都會自動建立 Analytics 解決方案帳戶，並連結至該使用者的 Adobe ID。(現有使用者必須手動連結自己的解決方案帳戶憑證，才能透過 Experience Cloud 登入存取解決方案)。
 
