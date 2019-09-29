@@ -1,6 +1,6 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # 說明
@@ -17,7 +17,7 @@ translation-type: ht
 
 + 我們將使用手冊的簡介稱為 `overview.md`
 + 使用手冊中的每個主題都有各自的獨立目錄。
-   + 如果使用手冊中有一個名為*實作*的主題，對應目錄為 `/implementation`
+   + 如果使用手冊中有一個名為&#x200B;*實作*&#x200B;的主題，對應目錄為 `/implementation`
 + 所有影像資產都會儲存在使用手冊根目錄的 `/assets`。
    + `/assets` 目錄中的所有影像都會翻譯。
    + `/no-localize` 目錄中的任何影像都不會翻譯 (令人驚訝!)。這可用來確保在 loc 版本中特定資產不會不必要地重現。
