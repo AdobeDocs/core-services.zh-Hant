@@ -6,7 +6,7 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需涵蓋所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。
+如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
 
 ## 2019 年 8 月版
 
@@ -117,7 +117,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 >[!NOTE]
 >
->Microsoft 將[終止支援](https://www.microsoft.com//zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
 ## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -133,7 +133,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 已修正無法在 Analytic 區隔共用受眾的問題。這個問題會顯示「收集資料中」(0 個受眾)。若要避免此問題，Adobe 建議將區隔大小保持在每個區隔 50k 受眾成員以下。(MAC-25788)
 * 修正客戶屬性中先前已知的問題: 變更顯示名稱時，造成內容感知錯誤的編輯結構頁面。(MAC-25589、AN-103834)
 
-## 發行版本 15.7 - 2015 年 7 月 22 日{#section_2683A152176944E48EF6C943892975B7}
+## 發行版本 15.7 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
 
 * 修正無法在 Analytics 報表中更新「檢視/編輯結構」頁面中 (位於客戶屬性中) 指定之屬性說明的問題。(MAC-25985)
 * 已修正無法針對上傳的資產轉譯縮圖的問題。(MAC-25863)
@@ -172,7 +172,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 </table>
 
 * 已修正妨礙客戶屬性與某些客戶同步的問題。
-* 已修正 [Adobe Target 產品文件](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) 頁面無法顯示日文版本的問題。
+* 已修正妨礙[「Adobe Target 產品文件」](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)頁面以日文顯示的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
 ## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
