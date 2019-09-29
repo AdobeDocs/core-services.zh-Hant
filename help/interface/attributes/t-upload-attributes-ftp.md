@@ -6,7 +6,7 @@ seo-title: 選用 - 透過 FTP 上傳資料檔案
 solution: Experience Cloud
 title: 選用 - 透過 FTP 上傳資料檔案
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 上傳檔案至客戶屬性 FTP 網站可透過 FTP 或 SFTP 完成。
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來連結 SFTP，詳情請參閱[此處](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/ftp/?f=ftp_sftp_cert_auth)說明。
+* 您可以使用者名稱/密碼或以無密碼與 SFTP 連線，如[此處](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth)所述。
 
 
 
