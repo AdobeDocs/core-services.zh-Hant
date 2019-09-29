@@ -6,7 +6,7 @@ seo-title: 常見問題、限制和最佳作法
 solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 
 
-## 最佳作法和限制{#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## 最佳作法和限制 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 客戶屬性使用指南和限制。
 
@@ -27,7 +27,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 | 自訂 Analytics ID (s.visitorID) | 使用  s.visitorID 是一種可讓您在 Analytics 中辨識使用者的方法。不過使用 ID 服務匯出或匯入的 Analytics 資料整合，在訪客的識別方式為 s.visitorID 時無法正常運作。<br>這種狀況包括但不限於共用受眾、Analytics for Target (A4T) 和客戶屬性。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
 | Analytics 的字元長度限制 | 建立 Analytics 訂閱時，已上傳檔案的欄位長度會遭到截斷，僅能顯示 255 個字元。 |
 
-## 客戶屬性常見問題{#section_E47866EEA83348E09FE43CEC5E44C461}
+## 客戶屬性常見問題 {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 <table id="table_88631069013B408EBB0A810657662B36"> 
  <thead> 
@@ -82,7 +82,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target)</b> 我是否能結合客戶屬性資料和共用的受眾資料來建立超級受眾? </p> </td> 
-   <td colname="col2"> <p>否。共用的受眾資料已經是建立完畢的受眾。 </p> </td> 
+   <td colname="col2"> <p>不會。共用的受眾資料已經是建立完畢的受眾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target) </b>客戶屬性功能與 Target 大量設定檔 API 有何差異? </p> </td> 
@@ -95,11 +95,11 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target)</b> 從客戶屬性上傳資料至 Adobe Target 是否能延長 Target 訪客設定檔期限? </p> </td> 
-   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://marketing.adobe.com/resources/help/zh_TW/target/?f=c_visitor_profile_lifetime" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
+   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (僅限 Target)</b> 從客戶 ID 辨別出訪客後，我可以立即鎖定上傳至客戶屬性中的資料嗎? </p> </td> 
-   <td colname="col2"> <p>是。 </p> <p>在對 Target 進行的伺服器呼叫後，由於此呼叫包含 mbox 第三方 ID，因此所有客戶屬性資料都可供使用。 </p> </td> 
+   <td colname="col2"> <p>是. </p> <p>在對 Target 進行的伺服器呼叫後，由於此呼叫包含 mbox 第三方 ID，因此所有客戶屬性資料都可供使用。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
