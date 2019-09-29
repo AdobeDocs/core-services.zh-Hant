@@ -5,7 +5,7 @@ seo-title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 solution: Experience Cloud
 title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -30,7 +30,7 @@ DNS 預先擷取會自動搭配網頁上的靜態內嵌連結使用，這意味�
 
 ## DNS 預先擷取代碼範例 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-以下範例顯示如何為不同的 [!DNL Experience Cloud] 解決方案和服務產生 DNS 預先擷取調用次數。部分預先擷取的調用次數需要提供您的 [!DNL Adobe] 組織 ID 或追蹤伺服器資訊。在以下範例中，*斜體*代碼表示變數的預留位置。您可以使用自己的 [!DNL Adobe] 合作夥伴 ID、客戶代碼或追蹤伺服器資訊等等來取代該代碼。
+以下範例顯示如何為不同的 [!DNL Experience Cloud] 解決方案和服務產生 DNS 預先擷取調用次數。部分預先擷取的調用次數需要提供您的 [!DNL Adobe] 組織 ID 或追蹤伺服器資訊。在以下範例中，*斜體*&#x200B;代碼表示變數的預留位置。您可以使用自己的 [!DNL Adobe] 合作夥伴 ID、客戶代碼或追蹤伺服器資訊等等來取代該代碼。
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
