@@ -6,7 +6,7 @@ seo-title: 管理 Creative Cloud 使用者
 solution: Experience Cloud
 title: 管理 Creative Cloud 使用者
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -20,8 +20,8 @@ Experience Cloud 提供管理工具來管理核准的 Creative Cloud 使用者�
 >
 >您必須是管理員才能執行此程序。
 
-1. 在 Experience Cloud 中，按一下 **[!UICONTROL 管理]** &gt; **[!UICONTROL 管理 Creative Cloud 共同作業人員]**。
+1. 在 Experience Cloud 中，按一下&#x200B;**[!UICONTROL 管理]** &gt; **[!UICONTROL 管理 Creative Cloud 共同作業人員]**。
 1. 按一下 **[!UICONTROL Creative Cloud 資產共用]**。
-1. 按一下 **[!UICONTROL 新增使用者]**。 ![](assets/mac_add_icon.png)
+1. 按一下&#x200B;**[!UICONTROL 新增使用者]**。 ![](assets/mac_add_icon.png)
 1. 輸入電子郵件、顯示名稱、標題，並選擇性新增顯示圖片。
-1. 按一下 **[!UICONTROL 建立]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
