@@ -6,7 +6,7 @@ seo-title: 資訊源
 solution: Experience Cloud
 title: 資訊源
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -23,12 +23,12 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 資訊源設定包括:
 
 * **主題: 全部 \&lt;組織名稱\&gt;:** 顯示與您共用的所有貼文，以及您有存取權的所有貼文。
-* **管理主題:** 可讓您關注、取消關注或建議主題。此外，管理員可以批准、拒絕、停用以及建立主題。
-* **新增貼文:** 建立群組成員看得到的貼文。
+* **管理主題:**&#x200B;可讓您關注、取消關注或建議主題。此外，管理員可以批准、拒絕、停用以及建立主題。
+* **新增貼文:**&#x200B;建立群組成員看得到的貼文。
 * **所有貼文:** 檢視您的資訊源中的所有貼文。
-* **我的貼文:** 僅檢視您的貼文。
-* **提及次數:** 檢視提及您或您的群組的貼文。
-* **我的最愛:** 檢視您標示為我的最愛的貼文。
+* **我的貼文:**&#x200B;僅檢視您的貼文。
+* **提及次數:**&#x200B;檢視提及您或您的群組的貼文。
+* **我的最愛:**&#x200B;檢視您標示為我的最愛的貼文。
 
 ## 與資訊源共用 Analytics 專案 {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
 
@@ -36,10 +36,10 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 以您的 Adobe ID [登入](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) Experience Cloud。
 
-1. 導覽至 Reports &amp; Analytics，然後[建立專案](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/freeform_overview.html)。
+1. 導覽至 Reports &amp; Analytics，然後[建立專案](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html)。
 
-1. 按一下 **[!UICONTROL 更多]** &gt; **[!UICONTROL 共用]**。
+1. 按一下&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 共用]**。
 
    ![](assets/share_report.png)
 
-1. 在共用視窗中新增收件者，然後按一下 **[!UICONTROL 共用]**。
+1. 在共用視窗中新增收件者，然後按一下&#x200B;**[!UICONTROL 共用]**。
