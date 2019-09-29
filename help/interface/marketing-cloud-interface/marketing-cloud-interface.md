@@ -6,7 +6,7 @@ seo-title: Experience Cloud 的新功能
 solution: Experience Cloud
 title: Experience Cloud 的新功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -53,7 +53,7 @@ Experience Cloud 的新功能和更新的概述。
 
 * 修正使用 Federated ID 存取 Workspace 連結時導致空白畫面的問題。(CORE - 11620)
 
-## 2018 年 5 月 10 日{#section_498AF78DA17C4720AA0F32B51493E550}
+## 2018 年 5 月 10 日 {#section_498AF78DA17C4720AA0F32B51493E550}
 
 [!DNL Adobe Experience Cloud] 介面中的新功能和修正。
 
@@ -73,13 +73,13 @@ Experience Cloud 的新功能和更新的概述。
 
 許多與排程維護作業/產品更新相關的維護通知並未列在電子郵件通知摘要中。我們正在處理這項問題，以確保電子郵件摘要中包含所有維護通知。
 
-## 2017 年 8 月 8 日{#section_2313A875454044F490B418506DD24593}
+## 2017 年 8 月 8 日 {#section_2313A875454044F490B418506DD24593}
 
 | 功能 | 說明 |
 |--- |--- |
 | 通知 - 精細設定 | 您可以啟用產品和解決方案事件與活動的通知，包括[「客戶屬性」](../attributes/attributes.md)上傳活動的相關通知。        |
 | 通知 – 維護通知 | 在「通知」設定中，您可以啟用產品和解決方案的維護通知。 |
-| Experience Cloud 解決方案的 Admin Console | Experience Cloud 新客戶可開始使用 Admin Console，Admin Console 可供您集中管理全組織的 Adobe 權益。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe 會在需要進行移轉時與您 (系統管理員) 聯絡。<br>若為 Analytics 管理員，請參閱 [Analytics 移轉](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/)。 |
+| Experience Cloud 解決方案的 Admin Console | Experience Cloud 新客戶可開始使用 Admin Console，Admin Console 可供您集中管理全組織的 Adobe 權益。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe 會在需要進行移轉時與您 (系統管理員) 聯絡。<br>Analytics 管理員請參閱 [Analytics 移轉](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 |
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
