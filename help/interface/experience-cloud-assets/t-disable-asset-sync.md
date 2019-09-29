@@ -6,7 +6,7 @@ seo-title: 停用共用資料夾的同步化
 solution: Experience Cloud
 title: 停用共用資料夾的同步化
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 開啟 Windows「檔案總管」。
 
-1. 在我的最愛下，以滑鼠右鍵按一下 **[!UICONTROL Creative Cloud Files]** 資料夾，然後按一下 **[!UICONTROL 選取共用資料夾以同步]**。
+1. 在我的最愛下，以滑鼠右鍵按一下 **[!UICONTROL Creative Cloud Files]** 資料夾，然後按一下&#x200B;**[!UICONTROL 選取共用資料夾以同步]**。
 
    ![](assets/select_sync_folders.png)
 
@@ -35,7 +35,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 1. 導覽至您的使用者資料夾。
 
-1. 按住 Ctrl 並按一下 **[!UICONTROL Creative Cloud Files]** 資料夾，然後按一下 **[!UICONTROL 選取共用資料夾以同步]**。
+1. 按住 Ctrl 並按一下 **[!UICONTROL Creative Cloud Files]** 資料夾，然後按一下&#x200B;**[!UICONTROL 選取共用資料夾以同步]**。
 
    ![](assets/select_sync_folders_mac.png)
 
