@@ -6,7 +6,7 @@ seo-title: 觸發器
 solution: 'Marketing Cloud '
 title: 觸發器
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ## 觸發器概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*觸發器*能讓您識別、定義及監控重要的客戶行為，然後產生跨解決方案的交流，重新與訪客互動。您可以在即時決策和個人化中使用觸發器。
+*觸發器*&#x200B;能讓您識別、定義及監控重要的客戶行為，然後產生跨解決方案的交流，重新與訪客互動。您可以在即時決策和個人化中使用觸發器。
 
 * 針對被丟棄的購物車或產品已移除的丟棄購物車設定快速再行銷
 * 未完成表格和申請單
@@ -42,12 +42,12 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 >
 >目前存在 100 個觸發器的技術限制。
 
-1. 在 Experience Cloud 中，按一下 ![](assets/menu-icon.png)，然後按一下 **[!UICONTROL 啟用]**。
-1. 尋找[!UICONTROL 觸發器]卡片，然後按一下 **[!UICONTROL 啟動]**。
+1. 在 Experience Cloud 中，按一下 ![](assets/menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 啟用]**。
+1. 尋找[!UICONTROL 觸發器]卡片，然後按一下&#x200B;**[!UICONTROL 啟動]**。
 
    ![步驟結果](assets/activation-triggers.png)
 
-1. 按一下 **[!UICONTROL 新增觸發器]**，然後指定觸發器的類型:
+1. 按一下&#x200B;**[!UICONTROL 新增觸發器]**，然後指定觸發器的類型:
 
    ![步驟結果](assets/add-trigger.png)
 
@@ -57,7 +57,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 名稱 | 此觸發器的好記名稱。 |
    | 說明 | 此觸發器的說明、您將如何使用它等等。 |
-   | 報表套裝 | 用於此觸發器的Analytics [報表套裝](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/report-suites.html)。此設定會識別要使用的報表資料。 |
+   | 報表套裝 | 用於此觸發器的 Analytics [報表套裝](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。此設定會識別要使用的報表資料。 |
    | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是:<ul><li>造訪必須包括:  新增購物車 (量度) 和存在。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則。)</li><li>造訪不得包括:  結帳。</li><li>無動作達下列時間後觸發: 10 分鐘。</li><li>包括中繼資料: 可讓您新增與訪客的行為相關的特定行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以根據您判斷對規則來說很重要的準則，在容器內或容器之間指定 Any、And 或 Or 邏輯。 |
    | 容器 | 容器是您設定及儲存可定義觸發器的規則、條件或篩選器的位置。如果您多個事件同時發生，請將它們放在相同的容器中。這表示每個容器是在點擊層級獨立處理。例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
    | 在下列時間之後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
@@ -66,8 +66,8 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
    ![步驟結果](assets/propensity-scoring.png)
 
-1. 按一下 **[!UICONTROL 儲存]**。
-1. 在 [!DNL Adobe Campaign] 中，將觸發器用於[即時再行銷](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html)。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### 範例觸發器
 
@@ -79,7 +79,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 **反向連結觸發器**
 
-當具有男鞋的產品和 Facebook 反向連結的點擊進入時，下列觸發器會發動。針對要在相同點擊中評估的這兩個準則 (*產品*和*反向連結*)，應該將它們新增至相同的容器。
+當具有男鞋的產品和 Facebook 反向連結的點擊進入時，下列觸發器會發動。針對要在相同點擊中評估的這兩個準則 (*產品*&#x200B;和&#x200B;*反向連結*)，應該將它們新增至相同的容器。
 
 ![](assets/fb-boots-promo.png)
 
@@ -99,7 +99,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 * 識別適當的丟棄購物車客戶，並將其活動對應至適當的訊息。
 * 透過知道哪些客戶將會以及將不會回訪來增加營收。
 
-## 傾向得分的值{#section_CA99874A25434CC0BF01D0DA61608889}
+## 傾向得分的值 {#section_CA99874A25434CC0BF01D0DA61608889}
 
 您可以執行資料探索以識別資料中存在的隱藏行為或模式。具體而言，傾向得分有助於使用更具焦點和目標的方式 (而不是簡單的劃分或篩選) 來識別一組類似客戶。此外，傾向得分可讓您設定預測性功能，以識別公司的高價值客戶的行為。
 
