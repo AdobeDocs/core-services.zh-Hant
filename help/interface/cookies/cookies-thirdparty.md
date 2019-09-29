@@ -9,7 +9,7 @@ uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 ## Adobe Analytics 和 Adobe Target
 
 * 使用[第一方實作](/help/interface/cookies/cookies-first-party.md)的客戶大致上不受影響。
-* 若客戶未使用第一方實作，可實作 [Experience Platform ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.translate.html)，將 ID Cookie 儲存為第一方 Cookie，如此便不需使用第一方實作。
+* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
 ## Adobe Experience Manager
 
