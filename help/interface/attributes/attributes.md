@@ -6,7 +6,7 @@ seo-title: 客戶屬性
 solution: Experience Cloud
 title: 客戶屬性
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -36,7 +36,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 * **目標 mbox:**&#x200B;必須有 mbox.js 58 版或以上版本才能使用客戶屬性。
 
 
-   請參閱 [Mbox.js 實作](https://marketing.adobe.com/resources/help/zh_TW/target/ov/t_mbox_download.html)。
+   請參閱 [Mbox.js 實作](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)。
 
 * **at.js:** 任何版本。
 
