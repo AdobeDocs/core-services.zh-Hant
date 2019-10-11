@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 關於客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗號分隔值的檔案 (例如以 Excel 建立的檔案)。這是包含客戶屬性資料的檔案。 </p> <p> <b>命名規定:</b> 請確認檔案名稱的附檔名不含任何空格及「.」、「..」、「/」、「:」等字元。 </p> </td> 
+   <td colname="col2"> <p>逗號分隔值的檔案 (例如以 Excel 建立的檔案)。這是包含客戶屬性資料的檔案。 </p> <p> <b>命名需求:</b>請確定檔案的副檔名不含空格。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
