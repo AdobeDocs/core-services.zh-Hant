@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target) </b>客戶屬性功能與 Target 大量設定檔 API 有何差異? </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">大量設定檔 API</a> 可以透過 API 以個別或大量的方式直接更新 Target 設定檔。其功能類似於客戶屬性，但有下列幾點重要差異: </p> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">大量設定檔 API</a> 可以透過 API 以個別或大量的方式直接更新 Target 設定檔。其功能類似於客戶屬性，但有下列幾點重要差異: </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">設定檔 API 是 REST API 呼叫，而客戶屬性使用 FTP。 </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">Target 的設定檔 API 只會傳送資料給 Target，而非整個 Experience Cloud。 </li> 
@@ -95,7 +95,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(僅限 Target)</b> 從客戶屬性上傳資料至 Adobe Target 是否能延長 Target 訪客設定檔期限? </p> </td> 
-   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
+   <td colname="col2"> <p>是。請參閱 Adobe Target 說明中的<a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">訪客設定檔期限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (僅限 Target)</b> 從客戶 ID 辨別出訪客後，我可以立即鎖定上傳至客戶屬性中的資料嗎? </p> </td> 
