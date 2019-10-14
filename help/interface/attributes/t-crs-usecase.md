@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -94,9 +94,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
       別名 ID 要符合您設定額外客戶 ID 值的特定區域。例如:
 
-      * **** 動態標籤管理：別名ID對應於 *Experience Cloud ID服務工* 具中「客戶設定」下的 [!UICONTROL 「整合代碼」值][](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) 。
+      * **** 動態標籤管理：別名ID對應於 *Experience Cloud ID服務工* 具中「客戶設定」下的 [!UICONTROL 「整合代碼」值][](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) 。
 
-      * **訪客 API:**&#x200B;別名 ID 要符合可用來與每位訪客關聯的額外[客戶 ID](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids)。
+      * **訪客 API:**&#x200B;別名 ID 要符合可用來與每位訪客關聯的額外[客戶 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)。
 
          例如，下列位置中的 *"crm_id"*:
 
@@ -106,14 +106,14 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
          ```
 
 
-      * **** iOS:別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的"idType"](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)。
+      * **** iOS:別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的"idType"](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
          例如:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:**&#x200B;別名 ID 要符合 *syncIdentifiers中* 的 ["idType"](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods)。
+      * **Android:**&#x200B;別名 ID 要符合 *syncIdentifiers中* 的 ["idType"](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
 
          例如:
 
@@ -175,7 +175,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 **啟動屬性來源**
 
-在 [!UICONTROL 建立新[或編輯]客戶屬性來源] 頁面上，找到[!UICONTROL 啟動]標題，然後按一下&#x200B;**[!UICONTROL 啟用]**。
+在[!UICONTROL 「建立新[或編輯]客戶屬性來源頁面」]上，找到[!UICONTROL 「啟動」]標題，然後按一下&#x200B;**[!UICONTROL 「啟用」]**。
 
 ![步驟結果](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ Adobe Analytics
 
 您在 Experience Cloud 發佈區隔時，Experience Cloud 受眾和 Audience Manager 即可使用該區隔。
 
-如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報告](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)。
+如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報告](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)。
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ Adobe Analytics
 
 ![](assets/crs-add-attribute-target.png)
 
-請參閱 Target 說明中的[建立新受眾](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience)。
+請參閱 Target 說明中的[建立新受眾](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)。
