@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 共用 Experience Cloud 資產資料夾
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -49,8 +49,8 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。使用共用資產的其他方法包括:
 
-* 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。請參閱[發佈者頁面](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)。
-* 在 [ 的](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)內容庫[!DNL Adobe Target]中載入或交換資產以用於活動中的影像。
+* 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
