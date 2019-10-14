@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 術語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: c50c0e49f87bb03b36354bc2fba162e043f7e948
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: c50c0e49f87bb03b36354bc2fba162e043f7e948
 | 功能 | 無特殊用法。 | 在 Experience Cloud 中，功能是指解決方案 (或產品) 中的功能。例如，「行銷 Reports &amp; Analytics」是 Analytics 解決方案中的功能。 |
 | 管道 | 在 Creative Cloud 中，管道可能是儲存不同資訊類型的灰階影像。這些是資訊頻道和顏色頻道。 | 在 Experience Cloud 中，管道是位置的屬性或促銷活動中的活動。<br>在 Analytics 中，行銷頻道通常用於提供訪客如何到達網站的分析 (例如透過電子郵件促銷活動)。<br>例如:<ul><li>電子郵件</li><li>顯示廣告</li><li>社交網路</li><li>付費搜尋</li><li>免費搜尋</li><li>反向連結網域</li></ul> |
 | 共同合作與共用 | 您可以在 Adobe Experience Manager (AEM)「資產」中將資產與 Experience Cloud 和 Adobe Creative Cloud 共用。 | 在 Experience Cloud 中，您可以使用[資訊源](feed.md)來建立貼文及[共用資產](experience-cloud-assets/experience-cloud-assets.md)。 |
-| 上下文 | 通常是指因應選擇或執行之工作而出現的選單或資訊。 | 上下文說明訪客與數位屬性的目前互動詳細情形。上下文的範例包括其滑鼠位置、表單欄位的狀態、購物車的價值或正在使用的裝置。<br>動態標籤管理](https://marketing.adobe.com/resources/help/zh_TW/dtm/dtm_home.html) 提供現今市面上最健全的上下文偵測和服務啟用功能，並提供設定檔和受眾服務的上下文元件。 |
+| 上下文 | 通常是指因應選擇或執行之工作而出現的選單或資訊。 | 上下文說明訪客與數位屬性的目前互動詳細情形。上下文的範例包括其滑鼠位置、表單欄位的狀態、購物車的價值或正在使用的裝置。<br>動態標籤管理](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)提供現今市場上最強穩的上下文偵測與服務啟動功能，並提供設定檔與觀眾服務的上下文元件。 |
 | 內容 | 在 Creative Cloud 中，內容是指頁面上的文字和影像。這個詞在 Creative 和 Experience Clouds 中的用法相似。 | 在 Experience Cloud 中，內容是指可用於支援特定目標之促銷活動中的行銷內容。<br>內容用於特定位置，並可由資產組成。內容可以結構化 (如產品資訊) 也可以非結構化 (如行動應用程式的網頁或畫面)。<br>例如:<ul><li>網頁</li><li>橫幅廣告</li><li>狀態更新</li><li>意見</li><li>文字廣告</li><li>產品資訊</li><li>產品評論</li><li>表格資料</li><li>搜尋索引中的文件</li><li>社交貼文</li><li>文章</li><li>出版品</li></ul> |
 | 資訊源 | Creative Cloud 首頁類似於 Experience Cloud 資訊源。<br>首頁是桌面用戶端，可定義為在您的 Creative Cloud 帳戶中發生的所有活動的彙總。活動包括安裝及更新軟體、字體、Behance 上的任何活動，以及所有與上傳檔案相關之活動。 | 在 Experience Cloud 中，資訊源是您所建立、其他使用者與您共用或來自 Adobe Experience Cloud 解決方案之資訊卡的匯總。<br>當您首次登入 Experience Cloud 時，資訊源可能會是空白。當您建立展示板和資訊卡，以及其他使用者與您共用內容時，動態消息會自動填入以協助您和您的團隊成員獲得最新狀態。<br>請參閱[資訊源](feed.md)。 |
 | 連結 | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在 Experience Cloud 中，連結通常是指將不同的解決方案帳戶連接至介面。<br>請參閱[組織和帳戶連結](admin-getting-started/organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指檔案位置或已開啟影像或文件上的位置。 | 在 Experience Cloud 中，位置是向受眾顯示內容 (且可進行互動) 的地方。位置和內容之間的關聯可以是靜態的，也可以根據促銷活動規則加以動態管理。位置永遠屬於特定的頻道，此頻道決定如何傳送內容，以及如何蒐集度量。<br>例如:<ul><li>網站</li><li>屬性 (社交)</li><li>顯示庫存</li><li>登陸頁面</li><li>行動應用程式</li><li>槽 (視訊)</li></ul> |
-| 量度 | 不常用在 Creative Cloud。 | 關鍵概念與目標的匯總數。在 Analytics 中，度量是有關訪客活動的量化資訊，例如檢視、點進、重新載入、平均逗留時間、件數、訂購、收入等。請參閱[度量說明](https://marketing.adobe.com/resources/help/en_US/reference/?f=metrics)。 |
+| 量度 | 不常用在 Creative Cloud。 | 關鍵概念與目標的匯總數。在 Analytics 中，度量是有關訪客活動的量化資訊，例如檢視、點進、重新載入、平均逗留時間、件數、訂購、收入等。請參閱[度量說明](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html)。 |
 | 組織 | 不常用在 Creative Cloud。 | 組織是可讓管理員設定使用者及產品，以及控制 Experience Cloud 中單一登入的 Experience Cloud 實體。最常見的情況是組織為帳務處理公司。 |
 | 產品組合 | 多個檔案或資產的組合。 | 促銷活動的容器。 |
 | 產品設定檔 | 請參閱[管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。 | 如果某位使用者擁有產品或服務的使用權，則產品設定檔中必須包含該使用者。產品管理員可以將產品設定檔與您購買的方案建立關聯，藉此將授權指派至產品設定檔。<br>單一使用者可隸屬於多個產品設定檔，每個設定檔都可授予該使用者不同的授權。單一使用者最終擁有的資格會包括每個產品設定檔授予該使用者的所有授權。 |
