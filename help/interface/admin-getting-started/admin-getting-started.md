@@ -7,7 +7,7 @@ solution: 'Marketing Cloud '
 title: 管理 Experience Cloud 使用者和產品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # 管理 Experience Cloud 使用者和產品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 瞭解 Experience Cloud 使用者管理中的最新功能。
 
-
 ## 登入 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 管理員不再於解決方案中管理使用者。現在，管理員會透過 Admin Console 進行 Experience Cloud 的使用者和產品管理。
@@ -46,7 +32,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. 輸入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
-
 
 或者，從 Experience Cloud 功能表 ( ![](assets/menu-icon.png)) 按一下&#x200B;**[!UICONTROL 管理]** &gt; **[!UICONTROL 啟動 Admin Console]**。
 
@@ -93,16 +78,13 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 * [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## 促銷活動 - 產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
 行銷活動中的&#x200B;*租用戶*&#x200B;在 Admin Console 的產品頁面上會顯示為&#x200B;*產品*。
 
 *安全性群組*&#x200B;會顯示為產品設定檔。
 
-See Managing groups and users for information about security groups and assigning users to security groups.[](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html)
+有關安 [全組和將用戶分配給安全組的資訊](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) ，請參閱管理組和用戶。
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -120,7 +102,7 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 AlgoModel)。
 
-See Administration in Audience Manager help.[](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html)
+請參 [閱Audience](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) manager說明中的管理。
 
 ## 管理 Experience Cloud 產品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -139,7 +121,6 @@ See Administration in Audience Manager help.[](https://marketing.adobe.com/resou
 * 請參閱 Target 說明中的[企業使用者權限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)以瞭解更多資訊。
 * 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 將 Analytics 報表存取權 (報表套裝、量度、維度等等) 指派至產品設定檔。
@@ -150,7 +131,6 @@ See Administration in Audience Manager help.[](https://marketing.adobe.com/resou
 1. 然後，在產品設定檔中，按一下&#x200B;**[!UICONTROL 權限]** (僅限管理員使用)。
 1. 設定設定檔的權限:
 
-
 | 元素 | 說明 |
 |--- |--- |
 | 報表套裝 | 對特定報表套裝啟用權限。 |
@@ -159,12 +139,8 @@ See Administration in Audience Manager help.[](https://marketing.adobe.com/resou
 | 報表套裝工具 | 為網頁服務、報表套裝管理、工具和報告及控制面板項目啟用使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。來自自訂管理控制台類別的公司設定已移至分析工具。 |
 
-
-
 ## 委派管理角色給使用者 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 在 Admin Console 中，您可以將有限的管理權限委派給組織的其他使用者。受委派角色可讓使用者管理一般使用者的軟體存取權、提供存取部署功能，以及支援委派。
 
 例如，您可以:
@@ -172,7 +148,6 @@ See Administration in Audience Manager help.[](https://marketing.adobe.com/resou
 * 可讓您的創意總監授與 Creative Cloud 的存取權。
 * 可讓您的行銷總監授予 Experience Cloud 的存取權。
 * 將這兩個角色分開，可避免他們干涉彼此的職責。
-
 
 使用這些角色可同時委派管理能力給其他人，但又無需提供過多功能給他們。
 
@@ -185,8 +160,6 @@ See Administration in Audience Manager help.[](https://marketing.adobe.com/resou
 
 Experience Cloud 中支援的瀏覽器。
 
-
-<!-- browsers.xml -->
 **Experience Cloud 核心服務**
 
 * Microsoft 的最新 Internet Explorer。(Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，Adobe 將不修正針對這些特定版本 Internet Explorer 所回報的問題。)
@@ -194,14 +167,8 @@ Experience Cloud 中支援的瀏覽器。
 * Mozilla Firefox
 * Apple Safari
 
-
 **解決方案和產品需求**
 
-* [Analysis Workspace 和 Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (包括 Adobe Social)
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) （包括Adobe Social）
+* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
