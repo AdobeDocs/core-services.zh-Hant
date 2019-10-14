@@ -5,7 +5,7 @@ seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -106,7 +106,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **如果我只知道 Experience Cloud 組織的組織 ID，這時該怎麼辦? 我要如何查詢組織 ID 的名稱?**
 
-您可以在[組織和帳戶設定](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations)中找到您的組織名稱。
+您可以在[組織和帳戶設定](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)中找到您的組織名稱。
 
 **我在「已對應資料」欄中看到一個日期。這資料由誰進行對應?**
 
