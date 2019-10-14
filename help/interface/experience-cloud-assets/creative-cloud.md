@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -28,14 +28,6 @@ Creative Cloud 使用者必須先進入 Experience Cloud 的白名單，才能�
 
 ## 關於 Adobe Target 的資產共用 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-在 [!DNL Adobe Target] 中建立活動時，當在內容庫中交換影像時可以使用共用的影像資產。
+When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content)內容庫[!DNL Target]。
-
-## 關於 Adobe Social 的資產共用 {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
-
-在 [!DNL Adobe Social] 中，可以使用[!UICONTROL 「發佈者」]中的[!UICONTROL 「資產選取器」]插入共用影像資產。您可以搜尋資料夾、瀏覽至資料夾，然後將資產附加到 Facebook 或 Twitter 貼文。
-
-請參閱 [ 說明中的](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher)發佈者頁面[!DNL Social]。
-
-共用的資料夾和資產會自動在各 Cloud 之間同步化。
+請參 [閱說明中](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) 的選 [!DNL Target] 件庫。
