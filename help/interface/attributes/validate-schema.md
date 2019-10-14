@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。會根據這些設定建立結構。結構是用於驗證未來所有上傳至此資料來源的資料。這個對應程序不會修改原始資料。
 
-
 >[!NOTE]
 >
 >在驗證後更新結構會刪除客戶屬性。請參閱[更新結構 (也會刪除屬性)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
-
 
 **[!UICONTROL 客戶屬性來源]** &gt; **[!UICONTROL 建立新的客戶屬性來源]** &gt; **[!UICONTROL 檢視/編輯結構]**
 
@@ -44,14 +42,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    * **[!UICONTROL AVID (Analytics 訪客 ID):]** 顯示您是否使用 prop 或 eVar 上傳 CID。如果將這些 ID 傳遞至 Experience Cloud，這裡會顯示任何與您輸入的 CID 相關聯的訪客 ID。
 
-
-
-
-
-
 在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，您也可以透過 FTP 上傳資料。您為每一屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根目錄中。資料必須是 .csv 格式，並另有一個 .fin 檔案用以指出上傳完成
 
-您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 說明中的[客戶屬性報告](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes)。[!DNL Analytics]
+您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。如需詳細資訊，請參閱 說明中的[客戶屬性報告](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)。[!DNL Analytics]
 
 * **[!UICONTROL 屬性:]** 從上傳之 `.csv` 檔案讀取的屬性資料。
 
@@ -63,12 +56,6 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
    * **數字:** 最多可有兩位小數。
 
-
-
-
 * **[!UICONTROL 顯示名稱:]** 好記的屬性名稱。例如，您可能會將&#x200B;*客戶年齡*&#x200B;屬性變更為&#x200B;*客戶加入時間*。
 
 * **[!UICONTROL 說明:]** 好記的屬性說明。
-
-
-
