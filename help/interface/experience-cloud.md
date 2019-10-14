@@ -1,61 +1,114 @@
 ---
-description: Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。
+description: Adobe Experience cloud的自助說明、產品檔案和技術檔案。 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。
 keywords: 核心服務
-seo-description: Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。
-seo-title: Experience Cloud 與核心服務說明
-solution: Experience Cloud
+seo-description: 本頁提供Experience cloud的自助說明、產品檔案和技術檔案。
+seo-title: Adobe Experience cloud和核心服務說明及產品檔案。
+solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
-# Experience Cloud 與核心服務說明
+# Experience cloud和核心服務產品檔案
 
-Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。
+本頁提供Adobe Experience cloud解決方案與服務的自助、支援、技術與產品檔案。 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。
 
-如需存取所有解決方案說明，請參閱 [Experience Cloud 產品文件](landing/experience-cloud-home.md)。
+## 發行說明和社群資源
 
-![](assets/experience-cloud-core-services.png)
+發行說明、影片、社群論壇及支援：
 
-## 核心服務產品文件
+* [Experience cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有產品
+* [優先產品更新](https://www.adobe.com/subscription/priority-product-update.html) -訂閱以每月收到發行說明)
+* [Adobe 影片教學](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 引導式學習
+* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [社群論壇](https://forums.adobe.com/community/experience-cloud)
+* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
+* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe客戶體驗部落格](https://theblog.adobe.com/customer-experience/) （部落格）
+* [核心服務概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (部落格)
 
-| 服務 | 說明 |
-|--- |--- |
-| [啟用](activation/activation.md) | 啟動是核心服務，可讓您實作和部署 Experience Cloud 解決方案，其功能包括:<ul><li>[Launch，由Adobe](https://docs.adobelaunch.com/) （最新的標籤管理解決方案）推出</li><li>[動態標籤管理](https://marketing.adobe.com/resources/help/en_US/dtm/)</li><li>[觸發器](activation/triggers.md)</li><li>[Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/)</li><li>[Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)</li></ul> |
-| [管理](admin-getting-started/admin-getting-started.md) | 管理 Experience Cloud 使用者權益和產品設定檔。 |
-| [資產](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在解決方案間共用的行銷資產。 |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | 利用最完善的擴充功能、指令碼等等，擴展您的 Adobe Experience Cloud 功能。利用搜尋列加以探索，或依產品或應用程式類型排序。 |
-| [資訊源](feed.md) | 使用您的 Experience Cloud 摘要直接與他人共用或發佈資產和 Analytics 中的報表。 |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services 將整個 Adobe Marketing Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與行動應用程式的互動。 |
-| [人員](audience-library/audience-library.md) | 在受眾程式庫中，您可以建立受眾、結合現有受眾以建立複合受眾，並檢視所有共用受眾。<br>在[客戶屬性](attributes/attributes.md)中，您也可以將企業客戶資料上傳至 Experience Cloud。 |
+## ![Experience cloud說明](assets/experience_cloud_appicon_32.png) Experience cloud和核心服務說明
 
-## 管理與啟用
+個人檔案、觀眾、客戶屬性、Experience Cloud ID服務、Adobe mobile等相關說明：
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [受眾](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [資產](experience-cloud-assets/experience-cloud-assets.md)
+* [客戶屬性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
+* [動態標籤管理](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
+* [資訊源](feed.md)
+* [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+
+### 管理與啟用
+
+使用者和產品管理：
 
 * [使用者和產品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [啟用核心服務的解決方案](core-services/core-services.md)
 * [常見問題集](admin-getting-started/admin-getting-started.md)
 * [組織和帳戶連結](admin-getting-started/organizations.md)
-* [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * [整合](marketing-cloud-integrations.md)
-* [將 Adobe Target 與 Experience Cloud 整合](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+* [將 Adobe Target 與 Experience Cloud 整合](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud 隱私權及安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud中的設定檔管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （部落格）
 * [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 發行說明
+## ![Analytics說明](assets/mc_analytics_32.png) Analytics說明
 
-* [Experience Cloud 的新功能](marketing-cloud-interface/marketing-cloud-interface.md#concept_9A4370BD59744928BDC9F87E978798B3)
-* [發行說明 - 累積修正](marketing-cloud-interface/release-notes.md#concept_F5C9FF69A5B44395BB5FA0552F4E9175)
+網路分析、行銷和跨通道分析、歸因和預測性分析：
 
-## 社群資源和部落格
+* [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+* [工具](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [管理](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [實施](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [元件](https://docs.adobe.com/content/help/en/analytics/components/home.html)
+* [匯出](https://docs.adobe.com/content/help/en/analytics/export/home.html)
+* [匯入](https://docs.adobe.com/content/help/en/analytics/import/home.html)
+* [整合](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [連絡支援](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Experience Cloud 社群](https://forums.adobe.com/community/experience-cloud)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe客戶體驗部落格](https://theblog.adobe.com/customer-experience/) （部落格）
-* [核心服務概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (部落格)
+## ![Audience Manager說明](assets/mc_audiencemanager_32.png) Audience manager說明
+
+資料管理平台、受眾細分、受眾見解、即時行動：
+
+* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+
+## ![Target說明](assets/mc_target_32.png) Target說明
+
+A/B和多變數測試、全通道個人化、人工智慧驅動的自動化和規模：
+
+* [Target版本注意事項](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+
+## ![Experience Manager說明](assets/mc_experiencemanager_32.png) Experience Manager說明
+
+內容管理系統、數位資產管理、數位註冊與表單、受管理服務：
+
+* [Experience Manager學習與支援](https://helpx.adobe.com/support/experience-manager.html)
+
+## ![促銷活動說明](assets/mc_campaign_32.png) 「促銷活動說明」
+
+電子郵件行銷，客戶歷程，全通道行銷：
+
+* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## ![Advertising cloud說明](assets/advertisingcloud_appicon_32.png) Advertising cloud說明
+
+需求端平台、搜尋行銷管理、電視廣告、創意管理。
+
+按一下任何頁面上方的&#x200B;**「協助」**&#x200B;圖示 (?)即可取得 Advertising Cloud 的說明。
+
+## ![Primetime說明](assets/primetime_app_32.png) Primetime說明
+
+* [Primetime 說明](http://help.adobe.com/en_US/primetime/)
