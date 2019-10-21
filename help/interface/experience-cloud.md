@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 * [Experience cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有產品
 * [優先產品更新](https://www.adobe.com/subscription/priority-product-update.html) -訂閱以每月收到發行說明)
-* [Adobe 影片教學](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe 影片教學](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 引導式學習
 * [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [社群論壇](https://forums.adobe.com/community/experience-cloud)
@@ -84,8 +84,8 @@ source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ## ![促銷活動說明](assets/mc_campaign_32.png) 「促銷活動說明」
 
-* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Campaign Standard: [文件](https://helpx.adobe.com/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic: [文件](https://helpx.adobe.com/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Advertising cloud說明](assets/advertisingcloud_appicon_32.png) Advertising cloud說明
 
