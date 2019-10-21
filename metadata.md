@@ -7,10 +7,10 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
 getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
 tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
+tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: ef7f3ea5f42cef8d254080cc33994f4607cfed88
 
 ---
 
