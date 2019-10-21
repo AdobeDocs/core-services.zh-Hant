@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 | 使用狀況 | 該 Cookie 用於識別獨特訪客    如果標準的 s_vi Cookie 因第三方 Cookie 限制而無法取用。不適用於使用第一方 Cookie 的執行。 |
 | 位置 | 此 Cookie 儲存於您的網域，作為第一方 Cookie。 |
 | 大小 | 33 位元組 |
+
+## Cookie標幟
+
+下表說明Analytics cookie的旗標：
+
+| Cookie（設定者） | httpOnly | 安全 | SameSite |
+|--- |--- |--- |--- |
+| s_vi（http回應） | 無 | 是，當SameSite為「無」且連線使用HTTPS時 | 使用CNAME時，預設為"Lax"。 使用2o7.net或omtrdc.net時為"None"。 |
+| s_ecid（http回應） | 無 | 無 | "Lax" |
+| s_fid(Javascript) | 無 | 無 | 取消設定 |
+| s_cc(Javascript) | 無 | 無 | 取消設定 |
+| s_sq(Javascript) | 無 | 無 | 取消設定 |
+
+*注意：如果使用單一CNAME來追蹤多個網域或屬性，SameSite應設為「無」。 如需變更Analytics cookie設定的協助，請連絡客戶服務。*
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
