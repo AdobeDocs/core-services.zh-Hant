@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 術語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 | 產品設定檔 | 請參閱[管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)。 | 如果某位使用者擁有產品或服務的使用權，則產品設定檔中必須包含該使用者。產品管理員可以將產品設定檔與您購買的方案建立關聯，藉此將授權指派至產品設定檔。<br>單一使用者可隸屬於多個產品設定檔，每個設定檔都可授予該使用者不同的授權。單一使用者最終擁有的資格會包括每個產品設定檔授予該使用者的所有授權。 |
 | 排程 | 可意指 Adobe Story 中一連串的場景，或是 ColdFusion 中排定的工作。 | 在 Experience Cloud 中，排程是指啟動促銷活動、管道和活動的開始日期 (年、月、日) 與結束日期。活動排程的詳細程度可以到達分鐘。變更排程會建立資訊卡。<br>例如:<ul><li>促銷活動排程</li><li>頻道排程</li><li>活動排程</li></ul> |
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。登入此網站的人皆可以共用。 |
-| 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Analytics、Social、Target 等產品。<br>請參閱關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)。 |
+| 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Analytics、Social、Target 等產品。<br>[請參閱關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md). |
