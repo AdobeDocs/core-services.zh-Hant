@@ -4,11 +4,8 @@ seo-description: Advertising Cloud 使用 Cookie 將廣告參與事件對應至�
 seo-title: Advertising Cloud Cookie
 title: Advertising Cloud Cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
