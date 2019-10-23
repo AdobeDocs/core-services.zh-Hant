@@ -6,11 +6,8 @@ seo-title: Analytics Cookie
 solution: Marketing Cloud, Analytics, Target, Social
 title: Analytics Cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 
 | 屬性 | 說明 |
 |--- |--- |
-| 儲存資訊 | 包含 Experience Cloud ID (ECID) 或 MID 副本。MID 儲存在遵循語法 s_ecid=MCMID 的機碼值組中 | <ECID> |
+| 儲存資訊 | 包含 Experience Cloud ID (ECID) 或 MID 副本。MID 儲存在遵循語法 s_ecid=MCMID 的機碼值組中 | `<ECID>` |
 | 有效期限 | 2 年 |
 | 使用狀況 | 此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 |
 | 位置 | 僅限 CNAME 客戶。不適用於第三方情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 |
@@ -56,7 +53,7 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 
 | 屬性 | 說明 |
 |--- |--- |
-| 儲存資訊 | 該 Cookie 由 JavaScript 代碼設定並讀取 (當啟用 ClickMap 功能時)，其包含使用者先前所點按連結之相關資訊 |
+| 儲存資訊 | 當ClickMap功能或Activity map功能啟用時，JavaScript程式碼會設定並讀取此Cookie;它包含使用者點按之前連結的相關資訊 |
 | 過期 | 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期 |
 | 使用狀況 | 所有帳戶只有一個 Cookie |
 | 位置 | 該 Cookie 儲存在頁面的網域上 |
@@ -69,7 +66,7 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 | 儲存資訊 | 獨特訪客 ID 時間/日期戳記 |
 | 過期 | 2 年 |
 | 使用狀況 | 該 Cookie 用於識別獨特訪客     |
-| 位置 | 系統會將此 Cookie 儲存在影像請求的網域中。如果您正在使用第三方 Cookie，通常會儲存在 2O7.net 中；如果正在使用第一方 Cookie，則會儲存在您的網域中。 |
+| 位置 | 此Cookie會儲存在影像要求的網域中——通常是2o7.net或omtrdc.net下的客戶特定子網域（如果您使用第三方Cookie，或您的網域使用第一方Cookie）。 |
 | 大小 | 44 位元組 |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 | 屬性 | 說明 |
 |--- |--- |
 | 儲存資訊 | 後援唯一訪客 ID 時間/日期戳記 |
-| 過期 | 5 年 |
-| 使用狀況 | 該 Cookie 用於識別獨特訪客    如果標準的 s_vi Cookie 因第三方 Cookie 限制而無法取用。不適用於使用第一方 Cookie 的執行。 |
+| 有效期限 | 2 年 |
+| 使用狀況 | 該 Cookie 用於識別獨特訪客    如果標準的 `s_vi` Cookie 因第三方 Cookie 限制而無法取用。不適用於使用第一方 Cookie 的執行。 |
 | 位置 | 此 Cookie 儲存於您的網域，作為第一方 Cookie。 |
 | 大小 | 33 位元組 |
 
@@ -90,15 +87,15 @@ Analytics 說明內有更多關於[第一方 Cookie](/help/interface/cookies/coo
 
 下表說明Analytics cookie的旗標：
 
-| Cookie（設定者） | httpOnly | 安全 | SameSite |
+| Cookie (設定者) | httpOnly | 安全 | SameSite |
 |--- |--- |--- |--- |
-| s_vi（http回應） | 無 | 是，當SameSite為「無」且連線使用HTTPS時 | 使用CNAME時，預設為"Lax"。 使用2o7.net或omtrdc.net時為"None"。 |
+| s_vi（http回應） | 無 | 是 當SameSite為「無」且連線使用HTTPS時 | 使用CNAME時，預設為"Lax"。 使用2o7.net或omtrdc.net時為"None"。 |
 | s_ecid（http回應） | 無 | 無 | "Lax" |
 | s_fid(Javascript) | 無 | 無 | 取消設定 |
 | s_cc(Javascript) | 無 | 無 | 取消設定 |
 | s_sq(Javascript) | 無 | 無 | 取消設定 |
 
-*注意：如果使用單一CNAME來追蹤多個網域或屬性，SameSite應設為「無」。 如需變更Analytics cookie設定的協助，請連絡客戶服務。*
+>[!NOTE] 如果使用單一CNAME來追蹤多個網域或屬性，SameSite應設為「無」 `s_vi`。 如需變更Analytics cookie設定的協助，請連絡客戶服務。
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
