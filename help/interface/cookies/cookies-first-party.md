@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 1. 填寫[第一方 Cookie 請求表單](/help/interface/cookies/assets/FPC_Request_Form.xlsx)並請客戶服務開立支援工單，要求在 Adobe Managed Program 上設定第一方 Cookie。每個欄位在文件中都有範例解說。
 
-1. 建立 CNAME 記錄 (請參閱下方說明)。收到支援工單時，FPSSL 專員會提供您一組 CNAME 記錄。請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAME 如下: **安全** - 例如，主機名稱 `smetrics.example.com` 指向: `example.com.ssl.d1.omtrdc.net`。**不安全** - 例如，主機名稱 `metrics.example.com` 指向: `example.com.d1.omtrdc.net`。
+1. 建立 CNAME 記錄 (請參閱下方說明)。收到票證後，客戶服務代表應提供您一對CNAME記錄。 請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAME 如下: **安全** - 例如，主機名稱 `smetrics.example.com` 指向: `example.com.ssl.d1.omtrdc.net`。**不安全** - 例如，主機名稱 `metrics.example.com` 指向: `example.com.d1.omtrdc.net`。
 
 1. 這些 CNAME 設定完成時，Adobe 會與 DigiCert 合作，購買憑證並安裝到 Adobe 的生產伺服器。如果您已有實作，可考慮使用「移轉訪客」來保留現有訪客。在 Adobe 的生產環境將憑證上線後，您就可以將追蹤伺服器變數更新為新主機名稱。換句話說，如果網站不安全 (https)，請更新 `s.trackingServer`。如果網站安全 (https)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
 
