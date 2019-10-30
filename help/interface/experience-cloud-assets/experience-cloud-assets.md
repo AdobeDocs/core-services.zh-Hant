@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 資產
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 ![](assets/assets-annotate.png)
 
 ## 與資訊源共用資產 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**自2019年11月01日起將不再支援Experience cloud摘要，2019年12月前將不再支援。**
 
 從工具列按一下&#x200B;**[!UICONTROL 共用]**，以[資訊源](../feed.md#concept_9256B8768A294009A777282DD8719213)的形式與其他 Experience Cloud 使用者共用資產。
 
