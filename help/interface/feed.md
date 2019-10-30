@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: 資訊源
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # 資訊源
+
+**自2019年11月01日起將不再支援Experience cloud摘要，2019年12月前將不再支援。**
 
 瞭解如何使用 Experience Cloud 資訊源直接共用或發佈資產和 Analytics 報表給其他人。
 
@@ -31,6 +33,8 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 * **我的最愛:**&#x200B;檢視您標示為我的最愛的貼文。
 
 ## 與資訊源共用 Analytics 專案 {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**自2019年11月01日起將不再支援Experience cloud摘要，2019年12月前將不再支援。**
 
 您可以將 [!UICONTROL Reports &amp; Analytics] 提供的報告與 Experience Cloud 資訊源共用。
 
