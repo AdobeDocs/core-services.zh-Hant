@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
+source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 ---
 
@@ -21,12 +21,12 @@ source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
 ## 發行說明和社群資源
 
 * [Experience cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有產品
+* [說明首頁- Experience cloud學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
 * [優先產品更新](https://www.adobe.com/subscription/priority-product-update.html) -訂閱以每月收到發行說明)
 * [Adobe 影片教學](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 引導式學習
 * [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [社群論壇](https://forums.adobe.com/community/experience-cloud)
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
 * [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Adobe客戶體驗部落格](https://theblog.adobe.com/customer-experience/) （部落格）
 * [核心服務概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (部落格)
