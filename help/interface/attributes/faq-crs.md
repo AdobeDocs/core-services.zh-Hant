@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
 
 ---
 
@@ -52,13 +52,17 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我可以使用多少個客戶屬性? </p> </td> 
-   <td colname="col2"> <p>您可以上傳數百欄 <span class="filepath">.csv</span> 至客戶屬性服務。但是，在設定訂閱項目和選取屬性時，將有以下欄數限制 (視您擁有的解決方案而定): </p> <p> 
-     <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 總計 3 個 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 每一報表套裝 200 個 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard:</b> 5 個 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium:</b> 200 個 </li> 
-     </ul> </p> </td> 
+   <td colname="col2"> <p>您可以上傳數百欄 <span class="filepath">.csv</span> 至客戶屬性服務。不過，在設定訂閱和選取屬性時，會根據您擁有的解決方案，套用下列限制（每個報表套裝）:</p> <p> 
+     <ul>
+     <li>Foundation: 0 個</li>
+     <li>Select: 3 個</li>
+     <li>Prime: 15 個</li>
+     <li>Ultimate: 200 個</li>
+     <li>Standard 版: 共 3 個</li>
+     <li>Premium:200</li>
+     <li>Target Standard: 5 個</li>
+     <li>Target Premium: 200 個</li></ul>
+     </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>一定要移轉至 Experience Cloud ID 服務嗎? </p> </td> 
@@ -103,4 +107,3 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   </tr> 
  </tbody> 
 </table>
-
