@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向的 CNAME。例如:
 
 * **SSL 主機名稱**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
 * **非 SSL 主機名稱**:`metrics.mysite.com`
-* **非 SSL CNAME**:`mysite.com.d1.sc.omtrdc.net`
+* **非 SSL CNAME**:`mysite.com.sc.omtrdc.net`
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
