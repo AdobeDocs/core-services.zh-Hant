@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方案所使用的訪客 ID。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方案所使用的訪客 ID。
 seo-title: Experience Cloud Cookie
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此Cookie的目的是允許第一方狀態中持續的ID追蹤，並在AMCV cookie過期時用作參考ID。 請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -51,7 +51,9 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
 
 **Cookie 名稱: AMCV_###@AdobeOrg**
 
-The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. 例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`。也請參閱 [Cookie 和 ID 服務](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters, such as `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+
+也請參閱 [Cookie 和 ID 服務](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
