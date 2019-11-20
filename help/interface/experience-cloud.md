@@ -1,38 +1,36 @@
 ---
 description: Adobe Experience cloud的自助說明、產品檔案和技術檔案。 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。
-keywords: 核心服務
+keywords: core services
 seo-description: 本頁提供Experience cloud的自助說明、產品檔案和技術檔案。
 seo-title: Adobe Experience cloud和核心服務說明及產品檔案。
 solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
+source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 
 ---
 
 
-# Experience cloud和核心服務產品檔案
+# Experience Cloud 和核心服務產品檔案
 
 ![Experience Cloud](assets/banner.png)
 
 本頁提供Adobe Experience cloud解決方案與服務的自助、支援、技術與產品檔案。 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。Experience Cloud 也是直覺式介面，能夠讓您迅速存取自己的雲端解決方案和核心服務。
 
-## 發行說明和社群資源
+## 你想學什麼？
 
-* [Experience cloud發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) -所有產品
-* [說明首頁- Experience cloud學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [優先產品更新](https://www.adobe.com/subscription/priority-product-update.html) -訂閱以每月收到發行說明)
-* [Adobe 影片教學](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Adobe Experience League](https://landing.adobe.com/experience-league/) —— 引導式學習
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [社群論壇](https://forums.adobe.com/community/experience-cloud)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Adobe客戶體驗部落格](https://theblog.adobe.com/customer-experience/) （部落格）
+* [發行說明和產品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloud的新增功能，並訂閱以取得更新
+* [實作核心服務的教學課程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -探索有關核心服務的影片和教學課程
+* [Experience League的專家協助](https://landing.adobe.com/experience-league/) -向專家和社群取得引導式學習
+* [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) -與Adobe互動，以確保您充分運用我們的產品
+* [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀Experience cloud部落格
+* [所有產品的說明](https://helpx.adobe.com/support/experience-cloud.html) -瀏覽Experience cloud學習與支援的說明
+* [客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
+
+## 核心服務產品檔案
+
 * [核心服務概述](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (部落格)
-
-## Experience Cloud 與核心服務說明
-
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [受眾](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [資產](experience-cloud-assets/experience-cloud-assets.md)
