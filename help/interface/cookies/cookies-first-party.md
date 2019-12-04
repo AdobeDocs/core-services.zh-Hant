@@ -1,33 +1,36 @@
 ---
 description: Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
 seo-title: First-Party Cookies
-solution: Experience Cloud、Analytics
+solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # 關於第一方 Cookie
 
-Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自 Adobe 所經營的網域，稱為第三方 Cookie。
+Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些源自Adobe代管網域的無害Cookie稱為第三方Cookie。
 
-許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要避免追蹤功能受瀏覽器和程式限制，您可以實作第一方 Cookie。
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要支援您追蹤訪客與網站的互動方式，您可以實作第一方Cookie。
 
 實作第一方 Cookie 有兩種選項
 
 * Experience Platform ID 服務。ID 服務可使用 JavaScript 在第一方情境中設定 Cookie。
-* 公司 DNS 伺服器上的 DNS 項目。
-* 如果您的網站是使用 `https:` 通訊協定的安全頁面，但未使用 Experience Platform ID 服務，您可透過 Adobe 取得 SSL 憑證，實作第一方 Cookie
+* 您公司DNS伺服器上的DNS項目，以設定Adobe代管網域的CNAME別名。 請注意，雖然使用CNAME的Adobe產品支援各種不同，但在所有情況下，CNAME都會用來為特定客戶建立受信任的第一方端點，並歸該客戶所有。 如果該客戶控制多個網域，他們可能會使用單一CNAME端點來追蹤跨網域的使用者，但由於這需要CNAME網域以外所有網域的協力廠商Cookie，因此當協力廠商Cookie遭到封鎖時，就無法運作，因此不建議使用。 Adobe CNAME永遠不會用於追蹤不同客戶所擁有網域中的個人或裝置。
+
+即使將第一個選項與Experience Cloud ID服務搭配使用，Apple的ITP也會讓第一方Cookie短暫存在，因此最好搭配第二個選項使用。
+
+對於使用CNAME的第二個選項，如果您的網站有使用通訊協定的安全頁面，您可以與 `https:` Adobe合作取得SSL憑證，以實作第一方Cookie。 Adobe強烈建議您只使用HTTPS來收集資料，因為我們將於2020年下半年停止支援HTTP收集。
 
 SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領先的憑證授權機構 (CA) DigiCert 建立合作關係，並開發出整合程序，將憑證的購買和管理作業自動化。
 
-取得您的許可後，我們就會與我們的 CA 合作，為您核發、部署及管理新的 SHA-2 SSL 憑證。Adobe 會繼續管理此憑證，並確保未預期的過期、撤銷或安全性疑慮等問題不會影響貴組織安全收集資料的相關作業。
+取得您的許可後，我們就會與我們的 CA 合作，為您核發、部署及管理新的 SHA-2 SSL 憑證。Adobe將繼續管理此憑證，並確保意外到期、撤銷或安全性顧慮不會威脅貴組織安全收集的可用性。
 
 ## Adobe Managed Certificate Program
 
@@ -51,7 +54,7 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 ### 維護和更新
 
-SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。實作即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若希望 Adobe 續約您的主機名稱，需由一名支援的使用者代表回覆 Adobe 的電子郵件，並說明您的組織打算繼續使用該即將到期的主機名稱來收集資料。如此一來，Adobe 就會自動購買並安裝新憑證。
+SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。實作即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若要讓Adobe續約您的主機名稱，一位受支援的使用者必須回覆Adobe寄出的電子郵件，並指出您打算繼續使用即將到期的主機名稱來收集資料。 如此一來，Adobe 就會自動購買並安裝新憑證。
 
 ### 常見問題
 
@@ -106,7 +109,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件:
 
-* 如上方 Adobe Managed Certificate Program「實作步驟」所述，要求取得 SSL 憑證。
+* 請求SSL憑證，請遵循上述Adobe管理認證程 *式* 「實作」 *區段中的步驟。*
 * 建立 CNAME 記錄 (請參閱上方)。
 * 偵測主機名稱 (請參閱上方)。
 
