@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
+source-git-commit: 23a181998da438d775233235300845febf9c22c6
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
 * [Experience League的專家協助](https://landing.adobe.com/experience-league/) -向專家和社群取得引導式學習
 * [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) -與Adobe互動，以確保您充分運用我們的產品
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀Experience cloud部落格
-* [所有產品的說明](https://helpx.adobe.com/support/experience-cloud.html) -瀏覽Experience cloud學習與支援的說明
+* [所有Experience cloud解決方案的產品檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -瀏覽Experience cloud學習與支援的說明
 * [客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
 
 ## 核心服務產品檔案
