@@ -8,18 +8,18 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
+source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
 
 ---
 
 
 # 關於第一方 Cookie
 
-Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些源自Adobe代管網域的無害Cookie稱為第三方Cookie。
+Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的Cookie源自Adobe代管的網域，稱為第三方Cookie。
 
 許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要支援您追蹤訪客與網站的互動方式，您可以實作第一方Cookie。
 
-實作第一方 Cookie 有兩種選項
+實作第一方Cookie有兩個選項：
 
 * Experience Platform ID 服務。ID 服務可使用 JavaScript 在第一方情境中設定 Cookie。
 * 您公司DNS伺服器上的DNS項目，以設定Adobe代管網域的CNAME別名。 請注意，雖然使用CNAME的Adobe產品支援各種不同，但在所有情況下，CNAME都會用來為特定客戶建立受信任的第一方端點，並歸該客戶所有。 如果該客戶控制多個網域，他們可能會使用單一CNAME端點來追蹤跨網域的使用者，但由於這需要CNAME網域以外所有網域的協力廠商Cookie，因此當協力廠商Cookie遭到封鎖時，就無法運作，因此不建議使用。 Adobe CNAME永遠不會用於追蹤不同客戶所擁有網域中的個人或裝置。
@@ -64,7 +64,7 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 | **Adobe 如何為網域購買憑證?** | 唯有當您將指定的主機名稱 (例如 smetrics.example.com) 指向 Adobe 擁有的主機名稱時，才能購買憑證。基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
 | **我可以要求撤銷憑證嗎?** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
 | **此憑證是否會使用 SHA-2 加密?** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
-| **這是否會產生額外費用?** | 不會，Adobe 目前免費提供此服務給所有現有 Analytics 客戶。 |
+| **這是否會產生額外費用?** | 否。Adobe目前免費為所有Adobe數位體驗客戶提供此服務。 |
 
 ## 建立 CNAME 記錄
 
@@ -79,7 +79,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
->[!N注意:] Experience Cloud 訪客 ID 服務也提供設定 CNAME 的其他方法，以協助啟用第一方 Cookie。
+>[!N] 注意：Experience cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
 
 ## 偵測主機名稱
 
@@ -103,7 +103,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!N注意:] 如果您是使用 `https:// protocol`，偵測作業只會在 FPC 專員指定的上傳日期後回應。此外，請在更新實作前，確實偵測安全主機名稱和不安全主機名稱，確定兩者皆能正常運作。
+>[!N注意:] 如果您是使用 `https:// protocol`，偵測作業只會在 FPC 專員指定的上傳日期後回應。此外，請務必ping安全主機名稱和非安全主機名稱，以確保兩者皆正確運作，然後再更新實作。
 
 ## 更新實作程式碼
 
@@ -111,7 +111,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 * 請求SSL憑證，請遵循上述Adobe管理認證程 *式* 「實作」 *區段中的步驟。*
 * 建立 CNAME 記錄 (請參閱上方)。
-* 偵測主機名稱 (請參閱上方)。
+* Ping主機名（請參閱上面）。
 
 確認主機名稱會回應並將資料轉寄給 Adobe 資料收集伺服器後，您就可以變更實作，指向您自己的資料收集主機名稱。
 
