@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件:
 
-* 請求SSL憑證，請遵循上述Adobe管理認證程 *式* 「實作」 *區段中的步驟。*
+* 請求SSL憑證，請遵循 *Adobe Managed Certificate Program的「實作* 」區段中所述的 [步驟](#adobe-managed-certificate-program)。
 * 建立 CNAME 記錄 (請參閱上方)。
 * Ping主機名（請參閱上面）。
 
