@@ -1,13 +1,13 @@
 ---
 description: 瞭解 Adobe Experience Cloud 中可用的解決方案和整合的核心服務。
-keywords: 整合
+keywords: integrations
 seo-description: 瞭解 Adobe Experience Cloud 中可用的解決方案和整合的核心服務。
 seo-title: Experience Cloud 整合
 solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud 是一組全面性而出眾的整合式解決方案，建
 
 * 在 Experience Cloud 中佈建您的公司。
 * 讓自己成為管理員.
-* [實作 Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* [實作 Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
 * 透過 DTM 最新化您的 Analytics 和 Target 實作.
 * 開始使用核心服務.
 
@@ -33,19 +33,19 @@ Adobe Experience Cloud 是一組全面性而出眾的整合式解決方案，建
 * 啟用 - 動態標籤管理或 Experience Platform Launch
 * Analytics
 * Target
-* [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* [Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ## Experience Cloud ID 服務 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Help: [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+Help: [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決方案中的訪客。此 ID 可以取代各項服務的 ID 產生代碼，例如 Analytics、Audience Manager、Target、影片心率及其他 Experience Cloud 解決方案或功能。
 
 **適用的解決方案或服務**
 
-* [Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html)
-* [Target](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dwb.html)
+* [Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-analytics.html)
+* [Target](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-target.html)
+* [Data Workbench](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-dwb.html)
 
 ## 受眾 {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -59,8 +59,8 @@ ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* Adobe Target 中的[活動](https://marketing.adobe.com/resources/help/en_US/target/target/c_activities.html)
-* Audience Manager 中的[區隔](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html)
+* Adobe Target 中的[活動](https://docs.adobe.com/content/help/en/target/using/activities/activities.html)
+* Audience Manager 中的[區隔](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
 * [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm) (需要登入)
 
 ## 客戶屬性 {#section_6A9EA6847F654F129381869E5016626C}
@@ -71,12 +71,12 @@ ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* Analytics: [客戶屬性報表](https://marketing.adobe.com/resources/help/en_US/reference/reports_customer_attributes.html)
-* Target: 設定 Target 客戶屬性的[訂閱](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html)
+* Analytics: [客戶屬性報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Target: 設定 Target 客戶屬性的[訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html)
 
 ## Experience Cloud 資產 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-Help: [Share Experience Cloud Folders with Creative Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)
+Help: [Share Experience Cloud Folders with Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
 
 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。
 
@@ -89,7 +89,7 @@ Help: [Share Experience Cloud Folders with Creative Cloud](https://marketing.ado
 
 ## Analytics - 在 Analytics 中進行 AEM 資產報告 {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
-Help: [AEM Assets reporting in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
+Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 啟用 Analytics，收集資產的曝光次數與點擊次數 (由 AEM 資產分析提供的資產)。
 
@@ -100,24 +100,24 @@ Help: [AEM Assets reporting in Analytics](https://marketing.adobe.com/resources/
 
 ## Audience Manager 整合 {#section_8FEFE1746E26416EB7E73095BBAD5345}
 
-[Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_integration.html) (整合首頁)
+[Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 在 Audience Manager 中處理 Experience Cloud 解決方案或其他外部系統的資料。
 
 **適用的解決方案或服務**
 
 * [Analytics伺服器端轉送](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)
-* [Send Audience Manager Segments to Analytics](https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html)
+* [傳送Audience manager區段至Analytics](https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html)
 * [Target 資料整合](https://marketing.adobe.com/resources/help/en_US/aam/aam-target-integration.html)
 
 ## 啟用 {#section_A23510A2D57842F6BAD043650C06DE42}
 
-Help: [Getting Started](https://docs.adobelaunch.com/getting-started)
+說明：快 [速入門](https://docs.adobelaunch.com/getting-started)
 
 使用 Experience Cloud 啟用解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. 使用 [Launch](https://docs.adobelaunch.com) 或 [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) ，在您的頁面上插入可啟動 [](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) Adobe Experience cloud解決方案的程式碼。
-1. 使用 [Adobe Cloud Platform Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/) 來測試您的實作。
+1. Use [Launch](https://docs.adobelaunch.com) or [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. 使用 [Adobe Cloud Platform Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/) 測試您的實施。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
 
