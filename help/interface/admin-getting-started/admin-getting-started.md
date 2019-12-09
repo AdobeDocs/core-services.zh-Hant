@@ -1,13 +1,13 @@
 ---
 description: 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。
-keywords: 核心服務
+keywords: core services
 seo-description: 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。
 seo-title: 管理 Experience Cloud 使用者和產品
-solution: 'Marketing Cloud '
+solution: Marketing Cloud
 title: 管理 Experience Cloud 使用者和產品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -63,18 +63,18 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從&#x200B;**[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
 
-移轉後，使用者可以在 [marketing.adobe.com](https://marketing.adobe.com) 使用他們的 Adobe ID (或 Enterprise ID) 登入，並針對其 Experience Cloud 解決方案和服務進行驗證。如果使用者嘗試透過舊版登入頁面 ([!DNL my.omniture.com] 和 [!DNL sc.omniture.com]) 登入，則會被重新導向至 [!DNL marketing.adobe.com]。
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 如果使用者嘗試透過舊版登入頁面 ([!DNL my.omniture.com] 和 [!DNL sc.omniture.com]) 登入，則會被重新導向至 [!DNL experiencecloud.adobe.com]。
 
 **相關說明**
 
-[Analytics 使用者 ID 移轉](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Analytics 使用者 ID 移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 產品設定檔與工作區 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Target 中，工作區即產品設定檔，可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
 
 請參閱:
-* [企業使用者權限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 「Launch，由 Adobe 提供」會顯示在 Admin Console 的產品頁面上。您可以在 Launch 產品設定檔上包含其他解決方案和核心服務。
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 邀請使用者加入動態標籤管理，並指派使用者角色與新增使用者至群組。
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 AlgoModel)。
 
-請參 [閱Audience](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) manager說明中的管理。
+請參 [閱Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) manager說明中的管理。
 
 ## 管理 Experience Cloud 產品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 您可以在以下地方找到更多說明:
 
 * [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 請參閱 Target 說明中的[企業使用者權限](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)以瞭解更多資訊。
+* 請參閱 Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)以瞭解更多資訊。
 * 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
