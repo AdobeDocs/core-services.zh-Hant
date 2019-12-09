@@ -1,13 +1,13 @@
 ---
 description: 瞭解如何使用 Experience Cloud 資訊源直接共用或發佈資產和 Analytics 報表給其他人。
-keywords: 核心服務
+keywords: core services
 seo-description: 瞭解如何使用 Experience Cloud 資訊源直接共用或發佈資產和 Adobe Analytics 報表給其他人。
 seo-title: 資訊源
 solution: Experience Cloud
 title: 資訊源
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 1. 以您的 Adobe ID [登入](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) Experience Cloud。
 
-1. 導覽至 Reports &amp; Analytics，然後[建立專案](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html)。
+1. 導覽至 Reports &amp; Analytics，然後[建立專案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html)。
 
 1. 按一下&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 共用]**。
 
