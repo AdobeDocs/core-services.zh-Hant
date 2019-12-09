@@ -1,13 +1,13 @@
 ---
 description: 如何設定 Experience Cloud 觸發器。
-keywords: 整合;觸發器
+keywords: integrations;Triggers
 seo-description: 如何設定 Experience Cloud 觸發器。
 seo-title: 觸發器
-solution: 'Marketing Cloud '
+solution: Marketing Cloud
 title: 觸發器
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
    |--- |--- |
    | 名稱 | 此觸發器的好記名稱。 |
    | 說明 | 此觸發器的說明、您將如何使用它等等。 |
-   | 報表套裝 | 用於此觸發器的 Analytics [報表套裝](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。此設定會識別要使用的報表資料。 |
+   | 報表套裝 | 用於此觸發器的 Analytics [報表套裝](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html)。此設定會識別要使用的報表資料。 |
    | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是:<ul><li>造訪必須包括:  新增購物車 (量度) 和存在。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則。)</li><li>造訪不得包括:  結帳。</li><li>無動作達下列時間後觸發: 10 分鐘。</li><li>包括中繼資料: 可讓您新增與訪客的行為相關的特定行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以根據您判斷對規則來說很重要的準則，在容器內或容器之間指定 Any、And 或 Or 邏輯。 |
    | 容器 | 容器是您設定及儲存可定義觸發器的規則、條件或篩選器的位置。如果您多個事件同時發生，請將它們放在相同的容器中。這表示每個容器是在點擊層級獨立處理。例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
    | 在下列時間之後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
