@@ -1,6 +1,6 @@
 ---
 description: 管理員可瞭解升級至 Analytics Premium 的需求以及期望，以及何處提供 Experience Cloud 管理員的相關說明。
-keywords: 升級
+keywords: upgrading
 seo-description: 管理員可瞭解升級至 Analytics Premium 的需求以及期望，以及何處提供 Experience Cloud 管理員的相關說明。
 seo-title: 升級至 Analytics Premium 和 Experience Cloud
 solution: Experience Cloud
@@ -8,7 +8,7 @@ title: 升級至 Analytics Premium 和 Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 Analytics Premium 可讓您:
 
 * 存取 250 個轉換變數 (eVar)
-* [行動應用程式分析](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [行動應用程式分析](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * 資料工作台 (視覺資料查詢、規則型歸因、跨頻道分析)
 
 >[!NOTE]
@@ -81,9 +81,9 @@ TechOps 會審查您的合約保證，判斷適合的受管理基礎結構、增
 
 假設您已按照[快速入門 - 啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中的實作最新化進行作業，Analytics Standard 和 Premium 使用者即可使用 Experience Cloud 和核心服務。(該程序可協助您導入最新的實作方式，並可讓您成為 Experience Cloud 的管理員)。
 
-加入 Experience Cloud 後，您就能在 [!DNL marketing.adobe.com] 透過 Experience Cloud 登入，並開始使用核心服務 (包括客戶屬性、受眾和行動應用程式分析)。
+加入 Experience Cloud 後，您就能在 [!DNL experiencecloud.adobe.com] 透過 Experience Cloud 登入，並開始使用核心服務 (包括客戶屬性、受眾和行動應用程式分析)。
 
-**管理使用者和群組**
+### 管理使用者和群組
 
 您可以在 [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (產品連結) 中管理使用者。
 
