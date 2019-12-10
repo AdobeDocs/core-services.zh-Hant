@@ -5,7 +5,7 @@ seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 * 將 Experience Cloud 組織設為報表套裝的主要組織。
 * 不要變更能存取報表套裝的使用者 (每位使用者的存取權仍然由 Adobe Analytics 登入帳戶所決定)
 
-
 **需求**
 
 您必須是登入公司的 Analytics 管理員，且該公司擁有要對應之報表套裝的存取權。此外，此帳戶必須[連結至 Experience Cloud 組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)，才能將報表套裝對應至該組織。
@@ -29,8 +28,6 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**
-
-   您也可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
 1. 若要查看可存取每個報表套裝的登入公司資訊，請按一下&#x200B;**[!UICONTROL 只有登入公司能看見]**。
 
@@ -43,8 +40,6 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 ## 將多個報表套裝對應至組織 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**。
-
-   您也可以使用[直接 URL](https://audience.marketing.adobe.com/rsmapping/ui.html)。
 
 1. 選取您要對應的報表套裝。
 
@@ -62,7 +57,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **我應該選擇哪個組織?**
 
-如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試並驗證 Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
+如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試並驗證 Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
 
 如果訪客 ID 服務尚未在為報表套裝收集資料的網站上部署，而您希望在日後部署 Experience Cloud 訪客 ID 服務，您需要確認您的部署與報表套裝對應工具中所選擇的組織相同。
 
