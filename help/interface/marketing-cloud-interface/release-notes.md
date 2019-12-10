@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 介面的功能、發行說明和已知問題。
-keywords: 核心服務
+keywords: core services
 seo-description: Experience Cloud 介面的功能、發行說明和已知問題。
 seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
 
 ## 2019 年 8 月版
 
@@ -172,7 +172,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 </table>
 
 * 已修正妨礙客戶屬性與某些客戶同步的問題。
-* 已修正妨礙[「Adobe Target 產品文件」](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/)頁面以日文顯示的問題。
+* 已修正妨礙[「Adobe Target 產品文件」](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)頁面以日文顯示的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
 ## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -356,7 +356,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **修正和改良**
 
-* 現在，當您導覽至 [!DNL marketing.adobe.com] 時，您感受到的登入體驗將會與 Adobe Creative Cloud 的登入一致。
+* 現在，當您導覽至 [!DNL experiencecloud.adobe.com] 時，您感受到的登入體驗將會與 Adobe Creative Cloud 的登入一致。
 * 現在，在「管理組織」頁面中，每個解決方案的連結體驗一致 (在收到邀請後)。
 
 **已知問題**
