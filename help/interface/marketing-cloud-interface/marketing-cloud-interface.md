@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 的新功能和更新的概述。
-keywords: 核心服務
+keywords: core services
 seo-description: Experience Cloud 的新功能和更新的概述。
 seo-title: Experience Cloud 的新功能
 solution: Experience Cloud
 title: Experience Cloud 的新功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud 的新功能和更新的概述。
 
 * 修正部分環境阻擋佈建新租用戶的問題。(CORE - 15509)
 
-* 修正透過 [!DNL marketing.adobe.com] 而非 [!DNL experiencecloud.adobe.com] (安全) 存取 [!DNL http] 時將使用者重新導向至 [!DNL https] 的問題。(CORE - 15587)
+* 修正透過 [!DNL experiencecloud.adobe.com] 而非 [!DNL experiencecloud.adobe.com] (安全) 存取 [!DNL http] 時將使用者重新導向至 [!DNL https] 的問題。(CORE - 15587)
 
 * 修正部分新租用戶通知遭封鎖的問題。(CORE - 15240)
 
@@ -79,7 +79,7 @@ Experience Cloud 的新功能和更新的概述。
 |--- |--- |
 | 通知 - 精細設定 | 您可以啟用產品和解決方案事件與活動的通知，包括[「客戶屬性」](../attributes/attributes.md)上傳活動的相關通知。        |
 | 通知 – 維護通知 | 在「通知」設定中，您可以啟用產品和解決方案的維護通知。 |
-| Experience Cloud 解決方案的 Admin Console | Experience Cloud 新客戶可開始使用 Admin Console，Admin Console 可供您集中管理全組織的 Adobe 權益。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe 會在需要進行移轉時與您 (系統管理員) 聯絡。<br>Analytics 管理員請參閱 [Analytics 移轉](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 |
+| Experience Cloud 解決方案的 Admin Console | Experience Cloud 新客戶可開始使用 Admin Console，Admin Console 可供您集中管理全組織的 Adobe 權益。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe 會在需要進行移轉時與您 (系統管理員) 聯絡。<br>Analytics 管理員請參閱 [Analytics 移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)。 |
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
