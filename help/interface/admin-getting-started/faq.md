@@ -1,13 +1,13 @@
 ---
 description: 有關 Experience Cloud 管理員的常見問題和答案。
-keywords: 核心服務
+keywords: core services
 seo-description: 有關 Experience Cloud 管理員的常見問題和答案。
 seo-title: 常見問題集
 solution: Experience Cloud
 title: 常見問題集
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
 
 
 1. [加入 Experience Cloud 並成為管理員](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新推出的 [Launch，由 Adobe 提供](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)) 實作 Experience Cloud ID 服務。
+1. [使用 Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新推出的 [Launch，由 Adobe 提供](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)) 實作 Experience Cloud ID 服務。
 1. [將報表套裝對應至 Experience Cloud 組織](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 最新化 Analytics AppMeasurement 代碼](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(僅限 Target) 最新化 Adobe Target 實作](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -62,7 +62,7 @@ Experience Cloud 中的佈建意思是:
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要事項:** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)，瞭解如何將使用者 ID 從 Analytics 管理工具遷移至 Admin Console。
+* **重要事項:** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)，瞭解如何將使用者 ID 從 Analytics 管理工具遷移至 Admin Console。
 
 **如果有人無法登入 Experience Cloud，我該怎麼做?**
 
@@ -82,7 +82,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到內含登
 
 **什麼是組織?**
 
-*組織*&#x200B;是可讓管理員設定群組及使用者，以及控制 Experience Cloud 中單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。最常見的組織就是您的公司名稱。不過，公司可以有許多組織。
+** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。最常見的組織就是您的公司名稱。不過，公司可以有許多組織。
 
 **在哪裡可以找到我的 IMS 組織 ID?**
 
