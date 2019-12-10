@@ -1,13 +1,13 @@
 ---
 description: 發佈 Analytics 受眾區隔到 Experience Cloud 和 Adobe Target，以利進行受眾促銷活動。
-keywords: 核心服務
+keywords: core services
 seo-description: 發佈 Analytics 受眾區隔到 Experience Cloud 和 Adobe Target，以利進行受眾促銷活動。
 seo-title: 發佈 Analytics 受眾區隔
 solution: Experience Cloud
 title: 發佈 Analytics 受眾區隔
 uuid: 4201dc22-4b79-457c-a614-949bba087617
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 發佈 Analytics 受眾區隔到 Experience Cloud 和 Adobe Target，以利進行受眾促銷活動。
 
-1. 在 Analytics 中[建立一個區段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)。
+1. 在 Analytics 中[建立一個區段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
 1. 在區段產生器中，啓用&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud]** 選項。
 
    ![](assets/ec_audience_example.png)
