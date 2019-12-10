@@ -1,13 +1,13 @@
 ---
 description: 實作 Experience Cloud 並成為管理員。此程序可針對客戶屬性和對象等核心服務功能，將您的解決方案現代化。
-keywords: 核心服務;客戶屬性
+keywords: core services;customer attributes
 seo-description: 實作 Experience Cloud 並成為管理員。此程序可針對客戶屬性和對象等核心服務功能，將您的解決方案現代化。
 seo-title: 啟用核心服務的 Experience Cloud 解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png)最實化實作，並取得已佈建的管理員。
 
@@ -116,11 +116,11 @@ Adobe 建議您針對 Analytics 和 Target，將[客戶 ID](https://docs.adobe.c
 
 在每個已知客戶 ID 的 [!DNL Analytics] 伺服器呼叫上皆必須設定客戶 ID。
 
-**行動 SDK**
+### 行動 SDK
 
 如需如何 *在Android和* iOS [](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) Mobile應用程式中設定其他客戶ID的語法範例，請參閱「Experience Cloud ID服務」一節。
 
-**啟用歷史資料的屬性**
+### 啟用歷史資料的屬性
 
 訪客登入後，即可使用客戶屬性資料。如果您尚未實作最新的 Experience Cloud ID 服務，而且過去都用 prop 或 eVar 追蹤客戶 ID，則可以要求傳送歷史登入至 Experience Cloud 的程序。此程序讓您可以立即開始使用客戶屬性。
 
