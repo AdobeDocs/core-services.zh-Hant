@@ -1,13 +1,13 @@
 ---
 description: Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
-keywords: 客戶屬性
+keywords: customer attributes
 seo-description: Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 seo-title: 常見問題、限制和最佳作法
 solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: b8363f024a09e07d26f6c0d0255e2675f7ef1a9a
+source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
 
 ---
 
@@ -24,6 +24,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 | 問題 | 說明 |
 |--- |--- |
 | 客戶屬性訂閱限制 | 升級至 Analytics Premium 後，您必須等待 24 小時才可使用其他屬性。在這段期間，您可能會看到已達到屬性訂閱上限錯誤。 |
+| 每日頻率上傳限制 | 最佳做法是每天不更新客戶屬性一次以上。 Adobe建議您至少等候24小時，以上傳其他客戶個人檔案資料檔案（針對同一組個人檔案）。 |
 | 自訂 Analytics ID (s.visitorID) | 使用  s.visitorID 是一種可讓您在 Analytics 中辨識使用者的方法。不過使用 ID 服務匯出或匯入的 Analytics 資料整合，在訪客的識別方式為 s.visitorID 時無法正常運作。<br>這種狀況包括但不限於共用受眾、Analytics for Target (A4T) 和客戶屬性。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
 | Analytics 的字元長度限制 | 建立 Analytics 訂閱時，已上傳檔案的欄位長度會遭到截斷，僅能顯示 255 個字元。 |
 
