@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -19,6 +19,10 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+
+## 2020年1月至1月
+
+* 「動態消息」頁面已於2019年12月過時。 請參閱產品中的淘汰通知。(MCUI-10039)
 
 ## 2019 年 8 月版
 
@@ -96,7 +100,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-如果您透過 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 啟用]**&#x200B;介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
+如果您透過&#x200B;**[!UICONTROL 「Experience Cloud]**>**[!UICONTROL &#x200B;啟用」]**介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，則無法登入動態標籤管理。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
 
 ## 發行版本 16.1 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -444,6 +448,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
   <tr> 
    <td colname="col1"> <p> 「受眾」中的<span class="wintitle">「儲存」</span>按鈕 </p> </td> 
    <td colname="col2"> <p>現在，當您建立受眾時，<span class="wintitle">建立新受眾</span>頁面上的<span class="wintitle">儲存</span>按鈕要在您填妥所有必要欄位之後才會停用。 
+      
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -506,7 +511,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 刪除影像時，如果該影像用於 Adobe Target Essentials，則資產不會發出警告。
 * 多名使用者同時使用 [!UICONTROL Experience Cloud] 介面時，會導致介面效能下降。
 * 刪除 [!UICONTROL Experience Cloud 資產]中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
-* 登入期間未選取&#x200B;**[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出。**
+* 登入期間未選取&#x200B;**[!UICONTROL 記住我]**時，使用者將在 15 分鐘後登出。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 登入 [!DNL Experience Cloud] 的時間超過一秒鐘。
 * 針對某些使用者，從 [!DNL Experience Cloud] 刪除檔案並不會與 [!DNL Digital Asset Management] 同步。
@@ -540,7 +545,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 對資產新增自訂標記後，便無法再保留其他中繼資料變更。
 * 使用者必須重新整理控制面板，才能讓已刪除的卡片從視圖中消失。
-* 登入期間未選取&#x200B;**[!UICONTROL 記住我]時，使用者將在 15 分鐘後登出**
+* 登入期間未選取&#x200B;**[!UICONTROL 記住我]**時，使用者將在 15 分鐘後登出
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 刪除影像時，如果該影像用於 [!UICONTROL ，則]資產[!DNL Adobe Target Essentials]不會發出警告。
@@ -621,5 +626,5 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 修正分享的 [!DNL Analytics] 報表無法套用區隔篩選器的問題。
 * 修正在並未連結解決方案帳戶的情況下，解決方案在[!UICONTROL 「Experience Cloud 解決方案」]頁面上卻顯示為已連結的問題。
-* 修正 [!DNL Adobe Target] 亞洲客戶無法點按連結頁面上&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**&#x200B;按鈕的問題。
+* 修正 [!DNL Adobe Target] 亞洲客戶無法點按連結頁面上&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**按鈕的問題。
 * 修正無法分享 Youtube 影片的問題。
