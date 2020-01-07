@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 | 問題 | 說明 |
 |--- |--- |
 | 客戶屬性訂閱限制 | 升級至 Analytics Premium 後，您必須等待 24 小時才可使用其他屬性。在這段期間，您可能會看到已達到屬性訂閱上限錯誤。 |
+| 同一裝置上多次登入 | 當使用客戶屬性將客戶個人檔案上傳至資料來源時，Adobe建議使用共用相同裝置的使用者（亦即相同的Experience Cloud ID）。 這麼做可能會導致ECID服務（此服務在裝置上持續存在）在相同的Experience Cloud ID下連結多個使用者，造成非預期的結果 [!DNL Target]。 **** 注意：對於Mobile,ECID在安裝Mobile應用程式後是永久的，您必須重新安裝應用程式才能產生新的ECID。 若是網頁，則會在清除瀏覽器Cookie後產生新的ECID。 |
 | 每日頻率上傳限制 | Adobe建議您每天只更新一次客戶屬性。 您至少必須等待24小時，才能為同一組個人檔案上傳另一個客戶個人檔案資料檔案。 |
-| 自訂 Analytics ID (s.visitorID) | 使用  s.visitorID 是一種可讓您在 Analytics 中辨識使用者的方法。不過使用 ID 服務匯出或匯入的 Analytics 資料整合，在訪客的識別方式為 s.visitorID 時無法正常運作。<br>這種狀況包括但不限於共用受眾、Analytics for Target (A4T) 和客戶屬性。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
+| Custom Analytics ID (`s.visitorID`) | 在 Analytics 中，使用 `s.visitorID` 來設定客戶 ID 是辨識使用者的方法。不過，當使用 `s.visitorID.`<br>This includes（但不限於）共用觀眾、Analytics for Target(A4T)和客戶屬性來識別訪客時，使用ID服務匯出或匯入Analytics資料的整合將無法運作。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
 | Analytics 的字元長度限制 | 建立 Analytics 訂閱時，已上傳檔案的欄位長度會遭到截斷，僅能顯示 255 個字元。 |
 
 ## 客戶屬性常見問題 {#section_E47866EEA83348E09FE43CEC5E44C461}
