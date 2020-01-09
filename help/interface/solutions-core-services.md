@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 關於 Experience Cloud 中的新雲端名稱
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
 
 ---
 
@@ -114,6 +114,10 @@ Adobe Primetime 是多螢幕電視平台，可協助播放單位為任何受眾�
 | [啟用](activation/activation.md) | 標籤管理系統 (「Launch，由 Adobe 提供」及動態標籤管理)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
 | [管理](admin-getting-started/admin-getting-started.md) | 管理您所有 Adobe 雲端和解決方案的使用者與產品權益。 |
 | [資產](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆集中儲存、同步和共用所有數位資產，節省時間並提供更一致的客戶體驗。 |
+| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch 是新一代 Adobe 標籤管理功能。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 |
+| [歷程協調](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與Experience platform整合的應用程式服務。 |
+| [定位服務](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service(Location Service)是地理位置服務，可讓具備位置感知的行動應用程式使用豐富且簡單易用的SDK介面，加上有彈性的興趣點資料庫(POI)，來瞭解位置環境。 |
+| 選件 | 選件管理功能可協助您在 Experience Cloud 的所有頻道間建立及管理選件，並做出適當決策。 |
 | [Exchange](exchange.md) | 透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴展元件。 |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services 將整個 Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與行動應用程式的互動。 |
 | People | 連結 Experience Cloud 解決方案中的 Adobe 和非 Adobe 資料，即可全盤掌握各個客戶。瞭解他們在各接觸點進行互動時最在乎的事情。從不熟悉的造訪裝置中認出熟悉的消費者。將群組使用者分散至不同的受眾類別，以取得更好的鎖定行銷成果。<br>[受眾](audience-library/audience-library.md) - 將不同的客戶類型分類為不同受眾，然後在所有 Marketing Cloud 解決方案間共用這些受眾。<br>[客戶屬性](attributes/attributes.md) - 能讓您連結起在 Marketing Cloud 外部收集之客戶資訊的受眾擴充。<br>[裝置圖形](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 與全球最知名品牌協同合作，找出陌生裝置背後的熟悉消費者。(僅限測試版的 Marketing Cloud Device Co-op 會員使用。) |
