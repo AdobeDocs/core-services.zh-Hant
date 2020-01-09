@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -115,7 +115,3 @@ ID 是:
 **我的公司沒有 Social，為什麼我可以看到它?**
 
 Adobe Social 產品可與 Analytics 搭配販售。因此，若您有 Analytics，就會看到此解決方案，但除非您有購買，否則無法存取它。
-
-**如何與 Experience Cloud 共用報告或促銷活動?**
-
-Analytics 報表或 Target 促銷活動是您可在[資訊源](../feed.md#concept_9256B8768A294009A777282DD8719213)中共用的資產範例。
