@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 資產
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -71,23 +71,23 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 ## 為資產加上注釋 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-按一下「**[!UICONTROL 注釋]」，在影像上畫圓或箭頭，以及在資產上加入注釋，供同事檢閱。**
+按一下「**[!UICONTROL 注釋]**」，在影像上畫圓或箭頭，以及在資產上加入注釋，供同事檢閱。
 
 ![](assets/assets-annotate.png)
 
-## 與資訊源共用資產 {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-**自2019年11月01日起將不再支援Experience cloud摘要，2019年12月前將不再支援。**
+**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
 
-從工具列按一下&#x200B;**[!UICONTROL 共用]**，以[資訊源](../feed.md#concept_9256B8768A294009A777282DD8719213)的形式與其他 Experience Cloud 使用者共用資產。
+Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
 
-![](assets/assets-share-card.png)
+![](assets/assets-share-card.png) 
 
-共用會顯示在您的資訊源頁面以及您已與其共用資訊卡的使用者頁面上。
+Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
 
 ## 檢視全螢幕資產，以及縮放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-按一下&#x200B;**[!UICONTROL 檢視]** &gt; **[!UICONTROL 影像]**&#x200B;可檢視完整資產影像並啟用縮放。
+按一下「**[!UICONTROL 檢視]**>**[!UICONTROL &#x200B;影像]**」可檢視完整資產影像並啟用縮放。
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +95,7 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 使用屬性、清單檢視以及欄檢視在資訊卡檢視之間選擇，更輕鬆找到您的資產。
 
-按一下&#x200B;**[!UICONTROL 檢視]** &gt; **[!UICONTROL 屬性]**&#x200B;以檢視資產屬性:
+按一下「**[!UICONTROL 檢視]**>**[!UICONTROL &#x200B;屬性]**」以檢視資產屬性:
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +103,6 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 可查看使用者人數、已使用的儲存空間，以及資產總計。
 
-按一下&#x200B;**[!UICONTROL 工具]** &gt; **[!UICONTROL 報表]** &gt; **[!UICONTROL 使用情況報表]**
+按一下「**[!UICONTROL 工具]**>**[!UICONTROL &#x200B;報表]** > **[!UICONTROL 使用情況報表]**」
 
 ![](assets/assets-usage-report.png)
