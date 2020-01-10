@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a5978f89b6a0b877bbc5a248bf8b68d03aa51127
 
 ---
 
@@ -68,6 +68,13 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
    + [設定訂閱](attributes/subscription.md)
    + [更新結構](attributes/t-update-schema.md)
    + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
++ 選件管理 {#offer-management}
+   + [選件管理快速入門](offer-management/getting-started.md)
+   + [選件管理工作流程](offer-management/offer-management-workflow.md)
+   + [選件](offer-management/offers.md)
+   + [標籤](offer-management/labels.md)
+   + [位置](offer-management/placements.md)
+   + [促銷活動](offer-management/campaign.md)
 + Experience cloud發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
