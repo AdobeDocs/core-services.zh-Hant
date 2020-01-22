@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
   <tr> 
    <td colname="col1"> <p> <b> (僅限 Target)</b> 從客戶 ID 辨別出訪客後，我可以立即鎖定上傳至客戶屬性中的資料嗎? </p> </td> 
    <td colname="col2"> <p>是. </p> <p>在對 Target 進行的伺服器呼叫後，由於此呼叫包含 mbox 第三方 ID，因此所有客戶屬性資料都可供使用。 </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> （僅限Target）</b> 「同步狀態」欄代表哪些檔案在「客戶屬性來源」中上傳？ </p> </td> 
+   <td colname="col2"> <p> 按一下特定屬性檔案的「同步狀態」圖示，即可檢視Target所發佈和同步的記錄數。 「同步%」是一個即時度量，可指定在Target中同步的設定檔%。 </p> <p> <b></b> 注意：屬性與Target同步可能需要24小時。 </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
