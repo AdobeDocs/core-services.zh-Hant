@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
@@ -20,12 +20,12 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ## 你想學什麼？
 
+* [所有Experience cloud解決方案的產品檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -瀏覽Experience cloud學習與支援的說明
 * [發行說明和產品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience cloud的新增功能，並訂閱以取得更新
 * [實作核心服務的教學課程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -探索有關核心服務的影片和教學課程
 * [Experience League的專家協助](https://landing.adobe.com/experience-league/) -向專家和社群取得引導式學習
 * [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) -與Adobe互動，以確保您充分運用我們的產品
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀Experience cloud部落格
-* [所有Experience cloud解決方案的產品檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -瀏覽Experience cloud學習與支援的說明
 * [客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
 
 ## 核心服務產品檔案
