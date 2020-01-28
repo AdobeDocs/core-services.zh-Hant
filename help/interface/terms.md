@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 術語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: cb161cae8999c0fcbbdca711a82ae5f670d66eb1
+source-git-commit: 5b249be1769d6f10fae68340f0a28082e389e9bd
 
 ---
 
@@ -27,6 +27,7 @@ Experience cloud使用者的術語參考，以及這些術語在Creative cloud�
 | 消費者ID | 無特殊用法。 | Device Co-op會員用來識別人員的ID。 此數字由品牌指派，通常在CRM系統中維護。 **** 注意：此ID不應與setCustomerID _s_(將消費者ID傳送至Experience cloud的 [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/about-id-service.html) 函式呼叫)混淆。 |
 | 內容 | 在 Creative Cloud 中，內容是指頁面上的文字和影像。這個詞在 Creative 和 Experience Clouds 中的用法相似。 | 在 Experience Cloud 中，內容是指可用於支援特定目標之促銷活動中的行銷內容。<br>內容用於特定位置，並可由資產組成。內容可以結構化 (如產品資訊) 也可以非結構化 (如行動應用程式的網頁或畫面)。<br>例如:<ul><li>網頁</li><li>橫幅廣告</li><li>狀態更新</li><li>意見</li><li>文字廣告</li><li>產品資訊</li><li>產品評論</li><li>表格資料</li><li>搜尋索引中的文件</li><li>社交貼文</li><li>文章</li><li>出版品</li></ul> |
 | 控制面板 | 無特殊用法。 | 在單一檢視中呈現多個關鍵量度的資料視覺化集合。 |
+| 資料使用實施 | 無特殊用法。 | 由系統（解決方案、應用程式、服務、SDK、API等）制定和定義的政策、系統設計、實務和程式，以使用資料使用中繼資料，讓資料使用符合Adobe公司隱私權政策、合約考量和一般隱私權原則。 |
 | Device Co-op | 無特殊用法。 | 一群品牌同意分享消費者使用之裝置的資料，以便在不同裝置間更好地識別個人，並提供更有意義、更一致的體驗。 |
 | 連結 | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在 Experience Cloud 中，連結通常是指將不同的解決方案帳戶連接至介面。<br>請參閱[組織和帳戶連結](admin-getting-started/organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指檔案位置或已開啟影像或文件上的位置。 | 在 Experience Cloud 中，位置是向受眾顯示內容 (且可進行互動) 的地方。位置和內容之間的關聯可以是靜態的，也可以根據促銷活動規則加以動態管理。位置永遠屬於特定的頻道，此頻道決定如何傳送內容，以及如何蒐集度量。<br>例如:<ul><li>網站</li><li>屬性 (社交)</li><li>顯示庫存</li><li>登陸頁面</li><li>行動應用程式</li><li>槽 (視訊)</li></ul> |
