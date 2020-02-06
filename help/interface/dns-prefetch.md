@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ DNS 預先擷取會自動搭配網頁上的靜態內嵌連結使用，這意味�
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID 服務:** `<link rel="dns-prefetch" href="//fast. *`請在此處插入合作夥伴 ID`*.demdex.net">`
+* **** Experience Cloud ID服務：在此 `<link rel="dns-prefetch" href="//fast. *`插入合作夥伴ID`*.demdex.net">`
 
 * **動態標籤管理員** (DTM): 不需要。網頁載入時便會提供 DTM 連結。
 
