@@ -5,7 +5,7 @@ seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 瞭解如何將一個或多個報表套裝對應至組織。
 
-Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心服務) 與組織相關，而非個別的報表套裝。若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。對應程序:
+Experience cloud服務（例如Experience Cloud ID服務和People核心服務）與組織相關聯，而非個別報表套裝。 若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。對應程序:
 
 * 將 Experience Cloud 組織設為報表套裝的主要組織。
 * 不要變更能存取報表套裝的使用者 (每位使用者的存取權仍然由 Adobe Analytics 登入帳戶所決定)
@@ -27,19 +27,19 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
 
 1. 若要查看可存取每個報表套裝的登入公司資訊，請按一下&#x200B;**[!UICONTROL 只有登入公司能看見]**。
 
    此檢視模式的目的在於協助您在對應上做出明智的決策。
 
-1. 按一下報表套裝旁邊&#x200B;**[!UICONTROL 「已對應組織」]欄中的下拉式清單，並選取您要對應的組織。**
+1. 按一下報表套裝旁邊&#x200B;**[!UICONTROL 「已對應組織」]**&#x200B;欄中的下拉式清單，並選取您要對應的組織。
 
    如需選取 Experience Cloud 組織的相關秘訣，請參閱下一節。
 
 ## 將多個報表套裝對應至組織 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 按一下 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝對應]**。
+1. 按一下&#x200B;**[!UICONTROL 「Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝對應」]**。
 
 1. 選取您要對應的報表套裝。
 
@@ -57,7 +57,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID 服務及「People」核心�
 
 **我應該選擇哪個組織?**
 
-如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試並驗證 Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. 您可以透過[測試並驗證 Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html)中的指示，來尋找由訪客 ID 服務使用的組織 ID。
 
 如果訪客 ID 服務尚未在為報表套裝收集資料的網站上部署，而您希望在日後部署 Experience Cloud 訪客 ID 服務，您需要確認您的部署與報表套裝對應工具中所選擇的組織相同。
 
