@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 啟用
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 請參閱 [Launch，由 Adobe 提供](https://docs.adobelaunch.com/getting-started)。
 
-## 動態標籤管理 {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-若要啟動動態標籤管理，請按一下&#x200B;**[!UICONTROL 「啟動」]，然後傳送要求給 Adobe 佈建團隊。**&#x200B;您應該會在一至兩個工作天內收到登入認證。
+若要啟動動態標籤管理，請按一下&#x200B;**[!UICONTROL 「啟動」]**，然後傳送要求給 Adobe 佈建團隊。您應該會在一至兩個工作天內收到登入認證。
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -40,7 +40,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服務的實作指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID 服務可啟用各 Experience Cloud 解決方案的核心功能 (包括客戶屬性、受眾共用和觸發器)。Adobe 強烈建議實施 ID 服務並利用這些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID服務可跨Experience cloud解決方案啟用核心功能（包括客戶屬性、觀眾分享和觸發器）。 Adobe 強烈建議實施 ID 服務並利用這些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 動態標籤管理產品文件 </a> </p> </td> 
@@ -69,7 +69,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 Adobe Campaign 中使用觸發器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 推出與觸發器核心服務的整合。這項核心服務可讓商務使用者根據擷取的線上行為資料，在 Adobe Analytics 中輕鬆定義觸發器。一旦定義了觸發器，將可在 Adobe Campaign 中使用它來支援可促進參與和轉換的再行銷訊息。這項立即可用的功能將允許行銷人員根據線上活動 (例如丟棄購物車、頁面檢視、觀看的視訊等等)，在適當的時間觸發再行銷訊息。 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新Trigger服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義了觸發器，將可在 Adobe Campaign 中使用它來支援可促進參與和轉換的再行銷訊息。這項立即可用的功能將允許行銷人員根據線上活動 (例如丟棄購物車、頁面檢視、觀看的視訊等等)，在適當的時間觸發再行銷訊息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
