@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: 登入及管理個人資料設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # 登入及管理個人資料設定
 
-只要登入 Experience Cloud (而非登入單一解決方案)，就會針對您擁有的所有解決方案和核心服務啟用單一登入。瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
+登入Experience Cloud（而非登入單一解決方案）可讓您對擁有的所有解決方案和服務進行單一登入。 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 
 <!-- t_sign_in.xml -->
 
