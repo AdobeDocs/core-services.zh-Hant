@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -71,7 +71,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: 強烈建議 </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> 必要。 </li> 
-     </ul> </p> <p>使用 ID 服務可提升功能，開啟一道使用最新 Experience Cloud 功能的方便之門，包括即時受眾、Target 最新化、Analytics 整合、視訊心率追蹤。 </p> <p>如需詳細資訊，請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服務 - 如何啟用解決方案</a>。 </p> <p> <b>附註</b>: <span class="term">Experience Cloud ID 服務</span>是前身為 <span class="term">Analytics 訪客 ID 服務</span>的最新化實作。 </p> </td> 
+     </ul> </p> <p>使用 ID 服務可提升功能，開啟一道使用最新 Experience Cloud 功能的方便之門，包括即時受眾、Target 最新化、Analytics 整合、視訊心率追蹤。 </p> <p>如需詳細資訊，請參閱<a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">核心服務 - 如何啟用解決方案</a>。 </p> <p> <b>注意</b>:Experience Cloud <span class="term"> ID服務</span> ，是舊稱 <span class="term"> Analytics訪客ID服務的現代化實作</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶屬性功能與 Adobe Audience Manager 有何關係? </p> </td> 
@@ -111,5 +111,17 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
    <td colname="col2"> <p> 按一下特定屬性檔案的「同步狀態」圖示，即可檢視Target所發佈和同步的記錄數。 「同步%」是一個即時度量，可指定在Target中同步的設定檔%。 </p> <p> <b></b> 注意：屬性與Target同步可能需要24小時。 </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> 檔案上傳量度在「客戶屬性來源」中代表什麼？ </p> </td>
+	<td colname="col2"> <p> 您可以透過下列度量的協助，檢查上傳至「客戶屬性」的屬性狀態： </p>
+		<ul>
+			<li> <b> 記錄：屬 </b> 性檔案中的記錄數。 </li>
+			<li> <b> 新記錄：屬 </b> 性檔案中存在的新記錄數。 </li>
+			<li> <b> 更新記錄：在 </b> 「客戶屬性」中已存在且檔案中具有更新值的記錄數。 </li>
+			<li> <b> 所有資料（記錄）:成 </b> 功上傳至客戶屬性的記錄總數。 </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
