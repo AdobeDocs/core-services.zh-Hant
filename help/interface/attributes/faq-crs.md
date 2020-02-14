@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題、限制和最佳作法
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 5028e1c4a2b5d9d0c225e2bbb36ef2c5a91c5ad9
+source-git-commit: 670ceb31b40250215d47857102a09c9dfecfb131
 
 ---
 
@@ -40,7 +40,7 @@ Analytics 和 Target 中的客戶屬性常見問題集和最佳作法。
 | **(僅限 Analytics)**&#x200B;這項功能與 Analytics Premium 提供的有何差異? | 在過去，有意結合客戶屬性資料與 Analytics 資料的客戶，十分依賴此功能的資料工作台工具。客戶屬性提供客戶屬性做為 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder 中的維度和度量，將此功能開放給更廣大的受眾。Analytics Standard 的客戶將可存取客戶屬性，但可使用的功能有限。Analytics Premium 的客戶則可使用完整功能。 |
 | **(僅限 Target)** 我是否能為客戶預先載入或上傳 Target 中不曾出現的資料嗎? | 是。訪客第一次向 Taget 提出要求時，系統會從「客戶屬性」擷取現有的相關資料，並使用此資料進行鎖定。**附註:** 如果訪客是第一次與 Target 互動，則擷取此資料可能需花費 20 分鐘。 |
 | **(僅限 Target)** 我是否能結合客戶屬性資料和共用的受眾資料來建立超級受眾? | 不會。共用的受眾資料已經是建立完畢的受眾。 |
-| **(僅限 Target)**&#x200B;客戶屬性功能與 Target 大量設定檔 API 有何差異? | 大量設定檔 API 可以透過 API 以個別或大量的方式直接更新 Target 設定檔。其功能類似於客戶屬性，但有下列幾點重要差異: <ul><li>設定檔 API 是 REST API 呼叫，而客戶屬性使用 FTP。 </li><li>Target 的設定檔 API 只會傳送資料給 Target，而非整個 Experience Cloud。 </li><li>客戶屬性提供簡單介面，用於建立和管理此外部資料。 </li></ul> |
+| **(僅限 Target)**&#x200B;客戶屬性功能與 Target 大量設定檔 API 有何差異? | 大量設定檔 API 可以透過 API 以個別或大量的方式直接更新 Target 設定檔。其功能類似於客戶屬性，但有下列幾點重要差異:<ul><li>設定檔 API 是 REST API 呼叫，而客戶屬性使用 FTP。</li><li>Target 的設定檔 API 只會傳送資料給 Target，而非整個 Experience Cloud。</li><li>客戶屬性提供簡單介面，用於建立和管理此外部資料。 | </li></ul> |
 | **(僅限 Target)** 從客戶屬性上傳資料至 Adobe Target 是否能延長 Target 訪客設定檔期限? | 是。請參閱 Adobe Target 說明中的[訪客設定檔期限](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html)。 |
 | **(僅限 Target)** 從客戶 ID 辨別出訪客後，我可以立即鎖定上傳至客戶屬性中的資料嗎? | 是。在對 Target 進行的伺服器呼叫後，由於此呼叫包含 mbox 第三方 ID，因此所有客戶屬性資料都可供使用。 |
 | **（僅限Target）** 「同步狀態」欄 **** 對於「客戶屬性來源」中上傳的檔案代表什麼？ | 按一下特定屬性檔案的「同步狀態」圖示，即可檢視Target所發佈和同步的記錄數。 `Sync %` 是一個即時度量，它指定在Target中同步的設定檔百分比。<br> **** 注意：屬性與Target同步可能需要24小時。 |
