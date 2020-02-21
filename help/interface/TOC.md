@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 3595229c176bf4999ed149377adfeb55efc80071
+source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 3595229c176bf4999ed149377adfeb55efc80071
    + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
    + [管理 Experience Cloud 使用者和產品](admin-getting-started/admin-getting-started.md)
-   + [管理工具](admin-getting-started/admin-tool.md)
+   + [管理工具](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
