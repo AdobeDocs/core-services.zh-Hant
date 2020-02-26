@@ -6,7 +6,7 @@ seo-title: 檢視Experience cloud使用者和使用者詳細資訊
 solution: Experience Cloud
 title: '檢視Experience cloud使用者和使用者詳細資訊 '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者
 | [!UICONTROL 電子郵件] | 與使用者關聯的電子郵件地址。 列可以排序A->Z、Z->A。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的識別類型。 篩選可套用至檢視特定ID類型。 如需詳 [細資訊，請參閱](https://helpx.adobe.com/enterprise/using/identity.html) 「管理身分類型」。 |
 | [!UICONTROL 解決方案] | 使用者可存取的Experience cloud解決方案摘要。 您可以套用篩選器，以縮小具有特定解決方案存取權的使用者清單。 |
-| [!UICONTROL 上次登入] | 最近使用者登入Experience cloud的時間和日期。 此欄可依遞增或遞減日期排序。 <br> **** 重要：上次登入資料不會保留超過日期值前30天的時間，因此使用者可能沒有上次登入的相關資訊。 [!UICONTROL 截止(DATE)] -使用者的上次登入資料會保留365天。 您可以使用這項資訊來檢視Experience cloud中的目前登入活動，但不能對非作用中帳戶採取動作。 此外，最近建立的使用者可能沒有最後一次登入狀態。 |
+| [!UICONTROL 上次登入] | 最近使用者登入Experience cloud的時間和日期。 此欄可依遞增或遞減日期排序。 <br> **** 重要：自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊旨在顯示Experience cloud中的目前登入活動，而非建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
