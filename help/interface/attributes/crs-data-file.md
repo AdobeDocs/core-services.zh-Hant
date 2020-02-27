@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 關於客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -133,7 +133,7 @@ CSV 檔案必須遵守以下格式:
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性繫結至 Analytics 中的基礎訪客資料。因此，在 Analytics 中該訪客資料的整個期限內，客戶屬性都會關聯至該訪客。這包括在客戶首次登入前發生的行為。 </p> <p> 如果您使用資料倉庫回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID 服務，則資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客戶屬性繫結至 Analytics 中的基礎訪客資料。因此，在 Analytics 中該訪客資料的整個期限內，客戶屬性都會關聯至該訪客。這包括在客戶首次登入前發生的行為。 </p> <p> 如果您使用資料倉庫回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用Experience Cloud ID服務，資料會系結至以Experience Cloud ID(MID)為基礎的post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料饋送 </p> </td> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html))。
 
-在 **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL 人物]** &gt; **[!UICONTROL 客戶屬性]**&#x200B;中:
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 使用與以上的客戶 ID 對應的唯一別名 ID 建立兩個客戶屬性來源。使用這個方法可以傳送相同的參考 ID 給多個客戶屬性來源
