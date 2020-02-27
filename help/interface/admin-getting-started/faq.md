@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 
 1. [加入 Experience Cloud 並成為管理員](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新推出的 [Launch，由 Adobe 提供](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)) 實作 Experience Cloud ID 服務。
+1. [使用動態標籤管理器](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新的 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))實作Experience Cloud ID服務
 1. [將報表套裝對應至 Experience Cloud 組織](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 最新化 Analytics AppMeasurement 代碼](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(僅限 Target) 最新化 Adobe Target 實作](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
