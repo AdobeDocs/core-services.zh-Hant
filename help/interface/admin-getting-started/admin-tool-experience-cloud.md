@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# 在管理工具中檢視Experience cloud使用者
+# Experience cloud管理工具
 
-管理員可以在「管理工具」中檢視所有Experience cloud使用者及其詳細資料的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取權、角色和上次存取的資訊。** (注**&#x200B;意：使用者和產品管理是在 [Admin Console中設定](admin-getting-started.md)。)
+Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者的可排序和可篩選清單。 每個使用者詳細資料頁面都包含使用者產品存取權、角色和上次存取資訊的重要詳細資料。  
 
 1. Log in to `https://experience.adobe.com/.`
 
@@ -85,7 +85,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 | 元素 | 說明 |
 |---------|----------|
 | [!UICONTROL 產品] | 與產品設定檔相關聯的產品名稱。 |
-| [!UICONTROL Instance] | 與產品和產品設定檔相關聯的例項名稱（例如登入公司或租用戶）。 |
-| [!UICONTROL Product Profile] | 產品設定檔的唯一名稱。 |
+| [!UICONTROL 例項] | 與產品和產品設定檔相關聯的例項名稱（例如登入公司或租用戶）。 |
+| [!UICONTROL 產品設定檔] | 產品設定檔的唯一名稱。 |
 | [!UICONTROL 由群組指派] | 將使用者與產品設定檔相關聯的使用者群組名稱。 空白結果表示使用者是直接指派給產品描述檔，而非透過群組。 |
 | [!UICONTROL 產品角色] | 產品配置檔案中用戶的角色分配。 目前，這項資訊僅適用於Target產品設定檔。 |
