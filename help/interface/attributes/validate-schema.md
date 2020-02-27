@@ -1,13 +1,13 @@
 ---
 description: 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。會根據這些設定建立結構。結構是用於驗證未來所有上傳至此資料來源的資料。這個對應程序不會修改原始資料。
-keywords: 客戶屬性;核心服務
+keywords: customer attributes;core services
 seo-description: 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。會根據這些設定建立結構。結構是用於驗證未來所有上傳至此資料來源的資料。這個對應程序不會修改原始資料。
 seo-title: 驗證結構
 solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 >
 >在驗證後更新結構會刪除客戶屬性。請參閱[更新結構 (也會刪除屬性)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
-**[!UICONTROL 客戶屬性來源]** &gt; **[!UICONTROL 建立新的客戶屬性來源]** &gt; **[!UICONTROL 檢視/編輯結構]**
+**[!UICONTROL 客戶屬性來源]** > **[!UICONTROL 建立新的客戶屬性來源]** > **[!UICONTROL 檢視/編輯結構]**
 
 ![](assets/view_edit_schema.png)
 
@@ -32,11 +32,11 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 * **[!UICONTROL 檢視/編輯結構:]** 將顯示名稱對應至屬性資料，如下一個步驟所述。
 
-* **[!UICONTROL FTP 設定:]** [透過 FTP 上傳資料](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+* **[!UICONTROL FTP 設定:]**[ 透過 FTP 上傳資料](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
 * **[!UICONTROL ID 查閱:]** 輸入您的 `.csv` 中的客戶 ID (CID) 以查閱該 ID 的 Experience Cloud 資訊。在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用:
 
-   * **[!UICONTROL MCID (Experience Cloud ID):]** 顯示您是否使用最新的 Experience Cloud ID 服務。如果您正在 MCID 服務中，但此處未列出 ID，則 Experience Cloud 尚未收到該 CID 的別名。這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
+   * **** MCID(Experience Cloud ID):顯示您是否使用最新的Experience Cloud ID服務。 如果您正在 MCID 服務中，但此處未列出 ID，則 Experience Cloud 尚未收到該 CID 的別名。這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
    * **[!UICONTROL CID (客戶 ID):]** 與此 CID 關聯的屬性。如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
 
