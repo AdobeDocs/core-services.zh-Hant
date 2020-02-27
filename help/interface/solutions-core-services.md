@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 關於 Experience Cloud 中的新雲端名稱
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -59,9 +59,9 @@ source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
 如何開始使用 Analytics:
 
 1. 使用 [Adobe Analytics 快速入門](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)中所述的步驟，建立自己的第一個 Analytics 報表套裝 (資料儲存庫)。
-1. 接下來，利用 [Launch，由 Adobe 提供](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)來部署 Analytics 代碼。
+1. 然後，使用 [Experience Platform Launch部署Analytics程式碼](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)。
 
-Experience Platform Launch 是新一代的標籤管理功能，可讓您輕鬆部署及管理所有分析、行銷和廣告標籤。
+Experience Platform Launch is the next-generation of tag management and gives you a simple way to deploy and manage all the analytics, marketing, and advertising tags.
 
 另請參閱:
 
@@ -111,7 +111,7 @@ Adobe Primetime 是多螢幕電視平台，可協助播放單位為任何受眾�
 
 | 核心服務 | 說明 |
 |--- |--- |
-| [啟用](activation/activation.md) | 標籤管理系統 (「Launch，由 Adobe 提供」及動態標籤管理)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
+| [啟用](activation/activation.md) | 標籤管理系統（Experience Platform Launch和動態標籤管理）。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
 | [管理](admin-getting-started/admin-getting-started.md) | 管理您所有 Adobe 雲端和解決方案的使用者與產品權益。 |
 | [資產](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆集中儲存、同步和共用所有數位資產，節省時間並提供更一致的客戶體驗。 |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch 是新一代 Adobe 標籤管理功能。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 |
