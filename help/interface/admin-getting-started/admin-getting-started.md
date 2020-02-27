@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -88,7 +88,7 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-「Launch，由 Adobe 提供」會顯示在 Admin Console 的產品頁面上。您可以在Launch產品設定檔中加入其他解決方案和服務。
+「體驗平台啟動」會顯示在「管理控制台」的「產品」頁面上。 您可以在Launch產品設定檔中加入其他解決方案和服務。
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -168,7 +168,7 @@ Experience cloud支援的瀏覽器包括：
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器 (例如 [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支援 [!DNL Safari])。
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(例如 [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支援 [!DNL Safari])。
 
 **解決方案和產品需求**
 
