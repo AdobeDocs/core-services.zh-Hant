@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
 + [Experience Cloud 整合](marketing-cloud-integrations.md)
 + Experience Cloud Cookie {#ec-cookies}
-   + [Experience Cloud cookie總覽](cookies/cookies-privacy.md)
+   + [Experience Cloud cookies overview](cookies/cookies-privacy.md)
    + [Experience cloud中的第一方Cookie](cookies/cookies-first-party.md)
    + [Analytics Cookie](cookies/cookies-analytics.md)
    + [Audience Manager Cookie](cookies/cookies-am.md)
@@ -33,8 +33,8 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
-   + [管理 Experience Cloud 使用者和產品](admin-getting-started/admin-getting-started.md)
-   + [管理工具](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Manage Experience Cloud users and products (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [檢視Experience cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
@@ -46,7 +46,7 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + Experience Cloud assets {#assets}
-   + [Experience cloud資產總覽](experience-cloud-assets/experience-cloud-assets.md)
+   + [Experience Cloud assets overview](experience-cloud-assets/experience-cloud-assets.md)
    + [與 Creative Cloud 共用 Experience Cloud 資料夾和資產](experience-cloud-assets/creative-cloud.md)
    + [管理 Creative Cloud 使用者](experience-cloud-assets/t-admin-add-cc-user.md)
    + [共用 Experience Cloud 資產資料夾](experience-cloud-assets/t-share-creative-cloud.md)
@@ -70,7 +70,7 @@ source-git-commit: 5212c12572bda2261b877f2033569cdb2eb90e27
    + [更新結構](attributes/t-update-schema.md)
    + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
 + 選件管理 {#offer-management}
-   + [選件管理快速入門](offer-management/getting-started.md)
+   + [Getting started with Offer Management](offer-management/getting-started.md)
    + [選件管理工作流程](offer-management/offer-management-workflow.md)
    + [選件](offer-management/offers.md)
    + [標籤](offer-management/labels.md)
