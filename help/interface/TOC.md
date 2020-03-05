@@ -11,7 +11,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # 核心服務使用手冊 {#interface}
 
-+ [Experience cloud和核心服務產品檔案](experience-cloud.md)
++ [Experience Cloud和核心服務產品檔案](experience-cloud.md)
 + 關於核心服務 {#about-core-services}
    + [核心服務概述](core-services-landing.md)
    + [啟用核心服務的解決方案](core-services/core-services.md)
@@ -19,8 +19,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
 + [Experience Cloud 整合](marketing-cloud-integrations.md)
 + Experience Cloud Cookie {#ec-cookies}
-   + [Experience Cloud cookies overview](cookies/cookies-privacy.md)
-   + [Experience cloud中的第一方Cookie](cookies/cookies-first-party.md)
+   + [Experience Cloud Cookie總覽](cookies/cookies-privacy.md)
+   + [Experience Cloud中的第一方Cookie](cookies/cookies-first-party.md)
    + [Analytics Cookie](cookies/cookies-analytics.md)
    + [Audience Manager Cookie](cookies/cookies-am.md)
    + [Data Connectors Cookie](cookies/cookies-dc.md)
@@ -33,8 +33,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
-   + [Manage Experience Cloud users and products (Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [檢視Experience cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [管理Experience Cloud使用者和產品(Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [檢視Experience Cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
@@ -46,7 +46,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + Experience Cloud assets {#assets}
-   + [Experience Cloud assets overview](experience-cloud-assets/experience-cloud-assets.md)
+   + [Experience Cloud資產總覽](experience-cloud-assets/experience-cloud-assets.md)
    + [與 Creative Cloud 共用 Experience Cloud 資料夾和資產](experience-cloud-assets/creative-cloud.md)
    + [管理 Creative Cloud 使用者](experience-cloud-assets/t-admin-add-cc-user.md)
    + [共用 Experience Cloud 資產資料夾](experience-cloud-assets/t-share-creative-cloud.md)
@@ -55,11 +55,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [停用共用資料夾的同步化](experience-cloud-assets/t-disable-asset-sync.md)
    + [針對共用的資料檔案需求](experience-cloud-assets/assets-file-reqs.md)
    + [共用資料夾的行為](experience-cloud-assets/asset-behavior.md)
-+ Experience cloud中的受眾 {#audiences}
++ Experience Cloud中的受眾 {#audiences}
    + [受眾概述](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
-+ Experience cloud中的客戶屬性 {#customer-attributes}
++ Experience Cloud中的客戶屬性 {#customer-attributes}
    + [客戶屬性概述](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
@@ -70,13 +70,13 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [更新結構](attributes/t-update-schema.md)
    + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
 + 選件管理 {#offer-management}
-   + [Getting started with Offer Management](offer-management/getting-started.md)
+   + [選件管理快速入門](offer-management/getting-started.md)
    + [選件管理工作流程](offer-management/offer-management-workflow.md)
    + [選件](offer-management/offers.md)
    + [標籤](offer-management/labels.md)
    + [位置](offer-management/placements.md)
    + [促銷活動](offer-management/campaign.md)
-+ Experience cloud發行說明 {#release-notes}
++ Experience Cloud發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
