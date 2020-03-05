@@ -1,10 +1,10 @@
 ---
-description: 瞭解Experience cloud管理工具，以檢視所有Experience cloud使用者的可排序和可篩選清單。
+description: 瞭解Experience Cloud管理工具，以檢視所有Experience Cloud使用者的可排序和可篩選清單。
 keywords: core services
-seo-description: 瞭解Experience cloud管理工具，以檢視所有Experience cloud使用者的可排序和可篩選清單。
-seo-title: 檢視Experience cloud使用者和使用者詳細資訊
+seo-description: 瞭解Experience Cloud管理工具，以檢視所有Experience Cloud使用者的可排序和可篩選清單。
+seo-title: 檢視Experience Cloud使用者和使用者詳細資訊
 solution: Experience Cloud
-title: '檢視Experience cloud使用者和使用者詳細資訊 '
+title: '檢視Experience Cloud使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
 source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
@@ -12,15 +12,15 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Experience cloud管理工具
+# 在管理工具中檢視Experience Cloud使用者
 
-Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者的可排序和可篩選清單。 每個使用者詳細資料頁面都包含使用者產品存取權、角色和上次存取資訊的重要詳細資料。  
+管理員可以在「管理工具」中檢視所有Experience Cloud使用者及其詳細資料的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。 (注&#x200B;**意：** 使用者和產品管理是在 [Admin Console中設定](admin-getting-started.md)。)
 
 1. Log in to `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在Experience cloud首頁，按一下「管 **[!UICONTROL 理工具」。]**
+1. 在Experience Cloud首頁，按一下「管 **[!UICONTROL 理工具」。]**
 
    (或者，在首頁URL中，您可以將 _home__取代。_)
 
@@ -28,7 +28,7 @@ Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者
 
 ## 「用戶」頁
 
-此頁面顯示您組織中可存取Experience cloud的使用者完整清單。 它提供解決方案權益和上次登入的相關資訊。 您可以搜尋、排序和篩選使用者清單的自訂檢視。
+此頁面顯示您組織中可存取Experience Cloud的使用者完整清單。 它提供解決方案權益和上次登入的相關資訊。 您可以搜尋、排序和篩選使用者清單的自訂檢視。
 
 ![](assets/admin-tool-users.png)
 
@@ -37,8 +37,8 @@ Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者
 | [!UICONTROL 名稱] | 使用者的名字和姓氏。 您可以將此列從A排序為Z,Z排序為A。 按一下使用者名稱，以檢視有關該使用者的詳細資訊。 |
 | [!UICONTROL 電子郵件] | 與使用者關聯的電子郵件地址。 列可以排序A->Z、Z->A。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的識別類型。 篩選可套用至檢視特定ID類型。 如需詳 [細資訊，請參閱](https://helpx.adobe.com/enterprise/using/identity.html) 「管理身分類型」。 |
-| [!UICONTROL 解決方案] | 使用者可存取的Experience cloud解決方案摘要。 您可以套用篩選器，以縮小具有特定解決方案存取權的使用者清單。 |
-| [!UICONTROL 上次登入] | 最近使用者登入Experience cloud的時間和日期。 此欄可依遞增或遞減日期排序。 <br> **** 重要：自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊旨在顯示Experience cloud中的目前登入活動，而非建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL 解決方案] | 使用者可存取的Experience Cloud解決方案摘要。 您可以套用篩選器，以縮小具有特定解決方案存取權的使用者清單。 |
+| [!UICONTROL 上次登入] | 最近使用者登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。 <br> **重要：** 自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊旨在顯示Experience Cloud中的目前登入活動，而非建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -76,7 +76,7 @@ Experience cloud管理工具可讓管理員檢視所有Experience cloud使用者
 
 ## 解決方案摘要
 
-本節顯示使用者可存取的Experience cloud解決方案摘要。 包括產品管理角色（如果適用）
+本節顯示使用者可存取的Experience Cloud解決方案摘要。 包括產品管理角色（如果適用）
 
 ## 詳細的產品訪問清單
 
