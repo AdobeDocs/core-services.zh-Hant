@@ -14,7 +14,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # 啟用
 
-Activation includes the latest tag management product called Experience Platform Launch, Dynamic Tag Management (DTM), and Triggers.
+啟動包含最新的標籤管理產品，稱為Experience Platform Launch、動態標籤管理(DTM)和觸發器。
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -40,7 +40,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服務的實作指南 </a> </p> </td> 
-   <td colname="col2"> <p>Adobe 強烈建議實施 ID 服務並利用這些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID服務可跨Experience Cloud解決方案啟用核心功能（包括客戶屬性、觀眾分享和觸發器）。 Adobe 強烈建議實施 ID 服務並利用這些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 動態標籤管理產品文件 </a> </p> </td> 
@@ -69,7 +69,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr> 
   <tr> 
    <td colname="col1"> <p>在 Adobe Campaign 中使用觸發器 </p> </td> 
-   <td colname="col2"> <p> 一旦定義了觸發器，將可在 Adobe Campaign 中使用它來支援可促進參與和轉換的再行銷訊息。這項立即可用的功能將允許行銷人員根據線上活動 (例如丟棄購物車、頁面檢視、觀看的視訊等等)，在適當的時間觸發再行銷訊息。 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新觸發器服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義了觸發器，將可在 Adobe Campaign 中使用它來支援可促進參與和轉換的再行銷訊息。這項立即可用的功能將允許行銷人員根據線上活動 (例如丟棄購物車、頁面檢視、觀看的視訊等等)，在適當的時間觸發再行銷訊息。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
