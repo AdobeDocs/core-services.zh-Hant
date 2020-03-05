@@ -1,7 +1,7 @@
 ---
-description: 瞭解登入Admin Console、管理Experience cloud使用者權限和產品設定檔，以及瀏覽器支援。
+description: 瞭解登入Admin Console、管理Experience Cloud使用者權限和產品設定檔，以及瀏覽器支援。
 keywords: core services
-seo-description: 瞭解登入Admin Console、管理Experience cloud使用者權限和產品設定檔，以及瀏覽器支援。
+seo-description: 瞭解登入Admin Console、管理Experience Cloud使用者權限和產品設定檔，以及瀏覽器支援。
 seo-title: 管理 Experience Cloud 使用者和產品
 solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
@@ -14,7 +14,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 # 管理 Experience Cloud 使用者和產品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-瞭解登入Admin Console、管理Experience cloud使用者權限和產品設定檔，以及瀏覽器支援。
+瞭解登入Admin Console、管理Experience Cloud使用者權限和產品設定檔，以及瀏覽器支援。
 
 >[!IMPORTANT]
 >
@@ -102,7 +102,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 AlgoModel)。
 
-請參 [閱Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) manager說明中的管理。
+請參 [閱Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager說明中的管理。
 
 ## 管理 Experience Cloud 產品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -160,7 +160,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 Experience Cloud 中支援的瀏覽器。
 
-Experience cloud支援的瀏覽器包括：
+Experience Cloud支援的瀏覽器包括：
 
 * [!DNL Microsoft Edge] (Microsoft已 [停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9和10。 有鑑於此，Adobe 將不修正針對這些特定版本 Internet Explorer 所回報的問題。)
 * [!DNL Google Chrome]
