@@ -61,7 +61,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 1. 使用 [Adobe Analytics 快速入門](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)中所述的步驟，建立自己的第一個 Analytics 報表套裝 (資料儲存庫)。
 1. 然後，使用 [Experience Platform Launch部署Analytics程式碼](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)。
 
-Experience Platform Launch is the next-generation of tag management and gives you a simple way to deploy and manage all the analytics, marketing, and advertising tags.
+Experience Platform Launch是新一代的標籤管理，提供您簡單的方式來部署及管理所有分析、行銷和廣告標籤。
 
 另請參閱:
 
@@ -115,7 +115,7 @@ Adobe Primetime 是多螢幕電視平台，可協助播放單位為任何受眾�
 | [管理](admin-getting-started/admin-getting-started.md) | 管理您所有 Adobe 雲端和解決方案的使用者與產品權益。 |
 | [資產](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆集中儲存、同步和共用所有數位資產，節省時間並提供更一致的客戶體驗。 |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |  Launch 是新一代 Adobe 標籤管理功能。Launch 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告標籤功能，以便支援相關客戶體驗。 |
-| [歷程協調](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與Experience platform整合的應用程式服務。 |
+| [歷程協調](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與Experience Platform整合的應用程式服務。 |
 | [定位服務](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service(Location Service)是地理位置服務，可讓具備位置感知的行動應用程式使用豐富且簡單易用的SDK介面，加上有彈性的興趣點資料庫(POI)，來瞭解位置環境。 |
 | 選件 | 選件管理功能可協助您在 Experience Cloud 的所有頻道間建立及管理選件，並做出適當決策。 |
 | [Exchange](exchange.md) | 透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴展元件。 |
