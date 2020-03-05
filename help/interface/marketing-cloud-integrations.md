@@ -24,7 +24,7 @@ Adobe Experience Cloud 是一組全面性而出眾的整合式解決方案，建
 
 * 在 Experience Cloud 中佈建您的公司。
 * 讓自己成為管理員.
-* [Implement the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* [實作Experience Cloud ID服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
 * 透過 DTM 最新化您的 Analytics 和 Target 實作.
 * 開始使用核心服務.
 
@@ -107,7 +107,7 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 **適用的解決方案或服務**
 
 * [Analytics伺服器端轉送](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-* [Send Audience Manager Segments to Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [傳送Audience Manager區段至Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
 * [Target 資料整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 
 ## 啟用 {#section_A23510A2D57842F6BAD043650C06DE42}
