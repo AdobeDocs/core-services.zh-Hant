@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 資產
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 使用資產可增進一致性和品牌法規遵循，並加速上市時間。您可以簡化解決方案中的工作流程:
 
-* **[!DNL Social]**: 發佈至社交屬性、Facebook、Twitter、LinkedIn、Google+
+* **[!DNL Social]** : 發佈至社交屬性、Facebook、Twitter、LinkedIn、Google+
 * **[!DNL Target]**: 建立 A/B 測試和多變數測試的體驗。
 * **[!DNL Media Optimizer]**: 開發跨不同頻道和促銷活動的廣告單位
 * **[!DNL Campaign]**: 將資產放入電子郵件新聞稿和促銷活動。
@@ -35,7 +35,6 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 * [編輯資產](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [搜尋資產](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [注釋資產](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
-* [與資訊源共用資產](../experience-cloud-assets/experience-cloud-assets.md#section_2CD53A99600D4A3D9AA82C3CDA666E6B)
 * [檢視全螢幕資產，以及縮放](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [檢視資產屬性](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [執行使用情況報表](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -75,19 +74,9 @@ Experience Cloud「資產」提供單一集中的儲存庫，存放您可以在�
 
 ![](assets/assets-annotate.png)
 
-<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
-
-**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
-
-Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
-
-![](assets/assets-share-card.png) 
-
-Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
-
 ## 檢視全螢幕資產，以及縮放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-按一下「**[!UICONTROL 檢視]**>**[!UICONTROL &#x200B;影像]**」可檢視完整資產影像並啟用縮放。
+按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 影像]**」可檢視完整資產影像並啟用縮放。
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +84,7 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 使用屬性、清單檢視以及欄檢視在資訊卡檢視之間選擇，更輕鬆找到您的資產。
 
-按一下「**[!UICONTROL 檢視]**>**[!UICONTROL &#x200B;屬性]**」以檢視資產屬性:
+按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 屬性]**」以檢視資產屬性:
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +92,6 @@ Sharing displays the image on your Feed page and with whomever you have shared t
 
 可查看使用者人數、已使用的儲存空間，以及資產總計。
 
-按一下「**[!UICONTROL 工具]**>**[!UICONTROL &#x200B;報表]** > **[!UICONTROL 使用情況報表]**」
+按一下「**[!UICONTROL 工具]** > **[!UICONTROL 報表]** > **[!UICONTROL 使用情況報表]**」
 
 ![](assets/assets-usage-report.png)
