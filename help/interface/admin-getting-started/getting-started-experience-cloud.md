@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 登入及管理個人資料設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
    Experience Cloud 管理員可能會協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
 
-1. 在資訊源頁面 (或預設的登陸頁面) 中，按一下選取器圖示 ![](assets/menu-icon.png) 來存取下拉式功能表。
+1. 在您的著陸頁面上，按一下選取器 ![](assets/menu-icon.png) 圖示以存取下拉式功能表。
 
    ![](assets/experience-cloud-core-services.png)
 
