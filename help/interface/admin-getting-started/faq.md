@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 如果尚未針對核心服務佈建實作，請參閱[啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何:
 
-
 1. [加入 Experience Cloud 並成為管理員](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用動態標籤管理器](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (或新的 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))實作Experience Cloud ID服務
 1. [將報表套裝對應至 Experience Cloud 組織](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 1. [確認核心服務實作](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理使用者和產品](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [開始使用核心服務](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 如需進一步的協助，請 [聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
@@ -47,7 +43,7 @@ Experience Cloud 介面提供的功能可為公司帶來新價值。它也將逐
 
 [聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
 
-**什麼是&#x200B;*`provisioning`*?**
+**什麼是布&#x200B;_建？_**
 
 Experience Cloud 中的佈建意思是:
 
