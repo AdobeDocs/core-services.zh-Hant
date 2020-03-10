@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 1. 這些 CNAME 設定完成時，Adobe 會與 DigiCert 合作，購買憑證並安裝到 Adobe 的生產伺服器。如果您已有實作，可考慮使用「移轉訪客」來保留現有訪客。在 Adobe 的生產環境將憑證上線後，您就可以將追蹤伺服器變數更新為新主機名稱。換句話說，如果網站不安全 (https)，請更新 `s.trackingServer`。如果網站安全 (https)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
 
-1. 偵測主機名稱 (請參閱下方)。
+1. 驗證主機名稱轉送（請參閱下面）。
 
 1. 更新實作程式碼 (請參閱下方)。
 
@@ -79,15 +79,29 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
->[!N] 注意：Experience cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
+>[!N注意：] Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
 
-## 偵測主機名稱
+## 驗證主機名轉發
 
-偵測主機名稱，以確保資料能正確轉寄。所有主機名稱都必須回應偵測，防止資料遺失。
+在瀏覽器中，按一下 <https://sstats.adobe.com/_check>。
 
-正確設定 CNAME 記錄，且 Adobe 確認安裝憑證後，請開啓命令提示字元並偵測您的主機名稱。以 `mysite.com` 為例: `ping metrics.mysite.com`
+您應該會看到 `SUCCESS` 傳回。 如果尚未購買憑證，您會看到錯誤。
 
-如果一切設定順利，系統會傳回以下畫面:
+您也可以將 [!DNL curl] 命令行工具用於驗證：
+
+1. 如果使用 [!DNL Windows]，請安裝curl(<https://curl.haxx.se/windows/>)。
+1. 如果CNAME仍需要憑證，請在命 `curl -k https://sstats.adobe.com/_check` 令列中輸入。
+1. 如果證書已完成，請鍵入 `curl https://sstats.adobe.com/_check`。
+
+您應該會看到 `SUCCESS` 傳回。
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,11 +113,11 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-如果 CNAME 記錄未正確設定或未啟用，則會傳回以下畫面:
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!N注意:] 如果您是使用 `https:// protocol`，偵測作業只會在 FPC 專員指定的上傳日期後回應。此外，請務必ping安全主機名稱和非安全主機名稱，以確保兩者皆正確運作，然後再更新實作。
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## 更新實作程式碼
 
@@ -111,7 +125,7 @@ Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, A
 
 * 請求SSL憑證，請遵循 *Adobe Managed Certificate Program的「實作* 」區段中所述的 [步驟](#adobe-managed-certificate-program)。
 * 建立 CNAME 記錄 (請參閱上方)。
-* Ping主機名（請參閱上面）。
+* 驗證主機名稱（請參閱上文）。
 
 確認主機名稱會回應並將資料轉寄給 Adobe 資料收集伺服器後，您就可以變更實作，指向您自己的資料收集主機名稱。
 
