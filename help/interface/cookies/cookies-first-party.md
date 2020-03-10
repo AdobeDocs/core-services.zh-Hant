@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
+source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
 
 ---
 
@@ -26,7 +26,7 @@ Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的
 
 即使將第一個選項與Experience Cloud ID服務搭配使用，Apple的ITP也會讓第一方Cookie短暫存在，因此最好搭配第二個選項使用。
 
-對於使用CNAME的第二個選項，如果您的網站有使用通訊協定的安全頁面，您可以與 `https:` Adobe合作取得SSL憑證，以實作第一方Cookie。 Adobe強烈建議您只使用HTTPS來收集資料，因為我們將於2020年下半年停止支援HTTP收集。
+對於使用CNAME的第二個選項，如果您的網站有使用HTTPS通訊協定的安全頁面，您可以與Adobe合作取得SSL憑證，以實作第一方Cookie。 Adobe強烈建議您只使用HTTPS來收集資料，因為我們將於2020年下半年停止支援HTTP收集。
 
 SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領先的憑證授權機構 (CA) DigiCert 建立合作關係，並開發出整合程序，將憑證的購買和管理作業自動化。
 
@@ -44,13 +44,21 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 1. 填寫[第一方 Cookie 請求表單](/help/interface/cookies/assets/FPC_Request_Form.xlsx)並請客戶服務開立支援工單，要求在 Adobe Managed Program 上設定第一方 Cookie。每個欄位在文件中都有範例解說。
 
-1. 建立 CNAME 記錄 (請參閱下方說明)。收到票證後，客戶服務代表應提供您一對CNAME記錄。 請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAME 如下: **安全** - 例如，主機名稱 `smetrics.example.com` 指向: `example.com.ssl.d1.omtrdc.net`。**不安全** - 例如，主機名稱 `metrics.example.com` 指向: `example.com.d1.omtrdc.net`。
+1. 建立 CNAME 記錄 (請參閱下方說明)。
 
-1. 這些 CNAME 設定完成時，Adobe 會與 DigiCert 合作，購買憑證並安裝到 Adobe 的生產伺服器。如果您已有實作，可考慮使用「移轉訪客」來保留現有訪客。在 Adobe 的生產環境將憑證上線後，您就可以將追蹤伺服器變數更新為新主機名稱。換句話說，如果網站不安全 (https)，請更新 `s.trackingServer`。如果網站安全 (https)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
+   收到票證後，客戶服務代表應提供您一對CNAME記錄。 請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAMES將類似於：
 
-1. 驗證主機名稱轉送（請參閱下面）。
+   **Secure** —— 例如，主機名指 `smetrics.example.com` 向： `example.com.ssl.d1.omtrdc.net`。
 
-1. 更新實作程式碼 (請參閱下方)。
+   **不安全** - 例如，主機名稱 `metrics.example.com` 指向: `example.com.d1.omtrdc.net`。
+
+1. 這些 CNAME 設定完成時，Adobe 會與 DigiCert 合作，購買憑證並安裝到 Adobe 的生產伺服器。
+
+   如果您有現有的實作，則應考慮訪客移轉，以維護現有訪客。 將憑證即時推送至Adobe的生產環境後，您可以將追蹤伺服器變數更新為新的主機名稱。 Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+
+1. [驗證主機名稱轉送](#validate) （請參閱下面）。
+
+1. [更新實作代碼](#update) （請參閱下文）。
 
 ### 維護和更新
 
@@ -79,47 +87,36 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
->[!N注意：] Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
+>[!N注意：]
+>Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
 
-## 驗證主機名轉發
+## 驗證主機名轉發 {#validate}
 
-在瀏覽器中，按一下 <https://sstats.adobe.com/_check>。
+您可以使用驗證主機名 <https://sstats.adobe.com/_check>。 如果您已設定CNAME並安裝憑證，則可使用瀏覽器進行驗證。 不過，如果未安裝憑證，您會看到安全性警告。
 
-您應該會看到 `SUCCESS` 傳回。 如果尚未購買憑證，您會看到錯誤。
+**使用捲曲進行驗證**
 
-您也可以將 [!DNL curl] 命令行工具用於驗證：
+Adobe建議從 [!DNL curl] 命令列使用。 (如果您在Windows上，則需要從以下位置 [!DNL curl] 安裝： <https://curl.haxx.se/windows/>)
 
-1. 如果使用 [!DNL Windows]，請安裝curl(<https://curl.haxx.se/windows/>)。
-1. 如果CNAME仍需要憑證，請在命 `curl -k https://sstats.adobe.com/_check` 令列中輸入。
-1. 如果證書已完成，請鍵入 `curl https://sstats.adobe.com/_check`。
+如果您有CNAME但未安裝憑證，請執行：回`curl -k https://sstats.adobe.com/_check`應： `SUCCESS`
 
-您應該會看到 `SUCCESS` 傳回。
+(注&#x200B;**意：** 此值 `-k` 將禁用安全警告。)
 
-<!-- ## Ping the hostname
+如果您已設定CNAME且已安裝憑證，請執行：回`curl https://sstats.adobe.com/_check`應：成功
 
-Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+**使用nslookup進行驗證**
 
-After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+您可以使用nslookup進行驗證。 以 `mysite.com` 為例:
 
-If everything is successfully set up, it will return something similar to the following:
+開啟命令提示符並鍵入 `nslookup metrics.mysite.com`
 
-```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
-Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
+如果一切皆已成功設定，您會看到類似下列的回訪：
 
-Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
-```
+nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.com地址： 10.50.112.247
 
-If the CNAME records are not correctly set up or not active, it will return the following:
+非權威答案：名稱：   metrics.mysite.com地址： 64.136.20.37
 
-`Ping request could not find the host. Please check the name and try again.`
-
->[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
-
-## 更新實作程式碼
+## 更新實作程式碼 {#update}
 
 編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件:
 
