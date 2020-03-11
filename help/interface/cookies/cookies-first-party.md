@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
+source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
 
 ---
 
@@ -114,18 +114,22 @@ Adobe建議從命令列使 [用[!DNL](https://curl.haxx.se/)curl]。 (使[!DNL W
 
 ### 驗證使用 [!DNL nslookup]
 
-您可以用 `nslookup` 於驗證。 以 `mysite.com`示例，開啟命令提示符並鍵入 `nslookup metrics.mysite.com`
+您可以用 `nslookup` 於驗證。 以 `sstats.adobe.com`示例，開啟命令提示符並鍵入 `nslookup sstats.adobe.com`
 
 如果一切皆已成功設定，您會看到類似下列的回訪：
 
 ```
-nslookup metrics.mysite.com
-Server:  hiodsibxvip01.corp.adobe.com
-Address:  10.50.112.247
+nslookup sstats.adobe.com
+Server:             10.30.7.247
+Address:     10.30.7.247#53
 
-Non-authoritative answer:
-Name:    metrics.mysite.com
-Address:  64.136.20.37
+sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.218.180.161
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 52.39.8.230
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.187.216.46
 ```
 
 ## 更新實作程式碼 {#update}
