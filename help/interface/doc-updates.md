@@ -7,14 +7,14 @@ solution: Experience Cloud
 title: 文件更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 6f7a1a91174e18f8c4eec17d7a1868660e3a9429
+source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 ---
 
 
 # 文件更新 - Experience Cloud
 
-Experience Cloud 說明的更新資訊。
+Experience Cloud產品檔案更新的相關資訊。
 
 **已更新：2020年3月10日**
 
