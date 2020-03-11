@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,29 +92,41 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 ## 驗證主機名轉發 {#validate}
 
-您可以使用驗證主機名 <https://sstats.adobe.com/_check>。 如果您已設定CNAME並安裝憑證，則可使用瀏覽器進行驗證。 不過，如果未安裝憑證，您會看到安全性警告。
+下列方法可供驗證：
 
-**使用捲曲進行驗證**
+**瀏覽器驗證**
 
-Adobe建議從 [!DNL curl] 命令列使用。 (如果您在Windows上，則需要從以下位置 [!DNL curl] 安裝： <https://curl.haxx.se/windows/>)
+如果您已設定CNAME並安裝憑證，則可使用瀏覽器進行驗證：
+
+<https://sstats.adobe.com/_check>。
+
+注意：如果未安裝憑證，您會看到安全性警告。
+
+**驗證使用[!DNL curl]**
+
+Adobe建議從命令列使 [用[!DNL](https://curl.haxx.se/)curl]。 (使[!DNL Windows] 用者可從以下 [!DNL curl] 位置安裝： <https://curl.haxx.se/windows/>)
 
 如果您有CNAME但未安裝憑證，請執行：回`curl -k https://sstats.adobe.com/_check`應： `SUCCESS`
 
-(注&#x200B;**意：** 此值 `-k` 將禁用安全警告。)
+(此值 `-k` 會停用安全性警告。)
 
-如果您已設定CNAME且已安裝憑證，請執行：回`curl https://sstats.adobe.com/_check`應：成功
+如果您已設定CNAME且已安裝憑證，請執行：回`curl https://sstats.adobe.com/_check`應： `SUCCESS`
 
-**使用nslookup進行驗證**
+**驗證使用[!DNL nslookup]**
 
-您可以使用nslookup進行驗證。 以 `mysite.com` 為例:
-
-開啟命令提示符並鍵入 `nslookup metrics.mysite.com`
+您可以用 `nslookup` 於驗證。 以 `mysite.com`示例，開啟命令提示符並鍵入 `nslookup metrics.mysite.com`
 
 如果一切皆已成功設定，您會看到類似下列的回訪：
 
-nslookup metrics.mysite.comServer: hiodsibxvip01.corp.adobe.com地址： 10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-非權威答案：名稱：   metrics.mysite.com地址： 64.136.20.37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## 更新實作程式碼 {#update}
 
