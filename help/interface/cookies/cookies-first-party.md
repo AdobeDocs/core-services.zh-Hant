@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
+source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
 
 ---
 
@@ -94,15 +94,15 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 下列方法可供驗證：
 
-**瀏覽器驗證**
+### 使用瀏覽器驗證
 
 如果您已設定CNAME並安裝憑證，則可使用瀏覽器進行驗證：
 
-<https://sstats.adobe.com/_check>。
+`https://sstats.adobe.com/_check`
 
-注意：如果未安裝憑證，您會看到安全性警告。
+**注意：** 如果未安裝憑證，您會看到安全性警告。
 
-**驗證使用[!DNL curl]**
+### 驗證使用 [!DNL curl]
 
 Adobe建議從命令列使 [用[!DNL](https://curl.haxx.se/)curl]。 (使[!DNL Windows] 用者可從以下 [!DNL curl] 位置安裝： <https://curl.haxx.se/windows/>)
 
@@ -112,7 +112,7 @@ Adobe建議從命令列使 [用[!DNL](https://curl.haxx.se/)curl]。 (使[!DNL W
 
 如果您已設定CNAME且已安裝憑證，請執行：回`curl https://sstats.adobe.com/_check`應： `SUCCESS`
 
-**驗證使用[!DNL nslookup]**
+### 驗證使用 [!DNL nslookup]
 
 您可以用 `nslookup` 於驗證。 以 `mysite.com`示例，開啟命令提示符並鍵入 `nslookup metrics.mysite.com`
 
