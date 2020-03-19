@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 客戶屬性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
+source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
 
 ---
 
@@ -36,7 +36,7 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 * **客戶屬性** 需要Adobe Target [!DNL at.js] （任何版本） [!DNL mbox.js] 或58版或更新版本。
 
 
-   請參 [閱如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html或 [Mbox.js實施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
+   請參 [閱如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js實施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
