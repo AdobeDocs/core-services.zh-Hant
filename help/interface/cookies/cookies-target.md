@@ -1,13 +1,13 @@
 ---
 description: Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和促銷活動與訪客的關聯性較強。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和促銷活動與訪客的關聯性較強。
 seo-title: Target Cookie
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Target Cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和促銷�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie 持續時間 </p> </td> 
-   <td colname="col2"> <p>Cookie 會從訪客上一次登入開始，在訪客的瀏覽器中繼續存在兩個星期。您無法變更 Cookie 持續時間。 </p> </td> 
+   <td colname="col2"> <p>自訪客上次登入後兩年，Cookie仍會留在訪客的瀏覽器上。 您無法變更 Cookie 持續時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
