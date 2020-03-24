@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 
 ---
 
@@ -16,9 +16,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 瞭解登入Admin Console、管理Experience Cloud使用者權限和產品設定檔，以及瀏覽器支援。
 
+<!-- Beginning April 16, 2020, new organizations created in the Admin Console will block Adobe ID (type 1) identity types. Starting 16 Apr 2020 , newly created orgs will block the addition of Adobe ID/Type1 accounts.Migration for Orgs that have CCE/DX overlapping contracts will happen starting on  26 Apr 2020 (Gov't & Commercial Orgs) (~600 Orgs) Majority of EC customers will be migrated after July 2020. (~15k Orgs)https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
+
 >[!IMPORTANT]
 >
->Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，有助於補充所有 Adobe 雲端產品的[企業版管理指南](https://helpx.adobe.com/enterprise/managing/user-guide.html)之資訊。
+>Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -26,26 +28,26 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ## 登入 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-管理員不再於解決方案中管理使用者。現在，管理員會透過 Admin Console 進行 Experience Cloud 的使用者和產品管理。
+管理員不再管理解決方案中的使用者。 Experience Cloud的使用者和產品管理現在會在Admin Console中進行。
 
-**若要登入 Admin Console**
+**若要登入Admin Console**
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. 輸入您的 [Adobe ID 或 Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
+1. 輸入 [您的Adobe ID或Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
 
-或者，從 Experience Cloud 功能表 (![](assets/menu-icon.png)) 按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 啟動 Admin Console」]**。
+Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **相關說明**
 
-Creative Cloud 和 Document Cloud 的[管理員使用手冊](https://helpx.adobe.com/enterprise/using/users.html)。某些資訊與 Experience Cloud 使用者管理相關，例如[管理身份類型](https://helpx.adobe.com/enterprise/help/identity.html)。
+[Creative Cloud和Document Cloud的管理使用指南](https://helpx.adobe.com/enterprise/using/users.html) 。 有些資訊與Experience Cloud使用者管理相關，例如管 [理身分類型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
-[登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)以管理密碼、組織和通知。
+[登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) ，以管理密碼、組織和通知。
 
 ## 產品設定檔和群組 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-加入產品設定檔改變了解決方案產品和服務過往的管理方式 (透過群組)。在 Admin Console 中，權限依據產品設定檔 (即您可以指派至使用者的產品和服務群組) 來劃分。
+產品設定檔的新增，標誌著解決方案產品與服務先前的管理方式（使用群組）有所轉變。 在「管理控制台」中，權限是以產品設定檔為基礎，而產品設定檔是您可指派給使用者的產品和服務群組。
 
-例如在 Analytics 中，您可以設定報表工具集合，例如 Analysis Workspace 和 Report Builder 以及報表套裝、量度、維度等等。您可以將使用者新增至設定檔，藉此授與他們權限。請參閱[將 Analytics 存取權指派至產品設定檔](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+例如，在Analytics中，您可以設定報告工具的集合，例如分析工作區和報告建立工具，以及報告套裝、量度、維度等。 您可以透過將使用者新增至描述檔，來授與產品描述檔的權限。 See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **相關說明**
 
@@ -61,28 +63,28 @@ Creative Cloud 和 Document Cloud 的[管理員使用手冊](https://helpx.adobe
 
 Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳戶從 Analytics 使用者管理移轉到 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並會協助您從&#x200B;**[!UICONTROL 「管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
+帳戶移轉功能會分階段向客戶推出。Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). 如果使用者嘗試透過舊版登入頁面 ([!DNL my.omniture.com] 和 [!DNL sc.omniture.com]) 登入，則會被重新導向至 [!DNL experiencecloud.adobe.com]。
 
 **相關說明**
 
-[Analytics 使用者 ID 移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+[Analytics使用者ID移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - 產品設定檔與工作區 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-在 Target 中，工作區即產品設定檔，可讓組織將特定一組使用者指派至特定一組屬性。工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
+在Target中，工作區是產品設定檔。 它可讓組織指派一組特定使用者給一組特定屬性。 工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
 
 請參閱:
 * [企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* 影片：如 [何在Adobe Admin Console中設定目標工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 促銷活動 - 產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
-行銷活動中的&#x200B;*租用戶*&#x200B;在 Admin Console 的產品頁面上會顯示為&#x200B;*產品*。
+「促 *銷活動* 」中的租用戶會在「管 *理控制台產品* 」頁面中顯示為產品。
 
-*安全性群組*&#x200B;會顯示為產品設定檔。
+*安全性群組* (Security group)會顯示為產品設定檔。
 
 有關安 [全組和將用戶分配給安全組的資訊](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) ，請參閱管理組和用戶。
 
@@ -90,7 +92,7 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 「體驗平台啟動」會顯示在「管理控制台」的「產品」頁面上。 您可以在Launch產品設定檔中加入其他解決方案和服務。
 
-See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+如需 [Admin Console中使用者權限的相關資訊](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) ，請參閱使用者管理，並設定啟動特定選項，包括指派設定檔的權限。
 
 ## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -100,26 +102,26 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 AlgoModel)。
+建立Audience Manager使用者並將其指派給群組。 您也可以檢視限制（特徵、區段、目的地和AlgoModel）。
 
 請參 [閱Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager說明中的管理。
 
 ## 管理 Experience Cloud 產品 {#task_16335111C52D40E9BAC73D0699584DBF}
 
-建立產品設定檔並將其指派至權限群組。
+建立產品描述檔並將其指派給權限群組。
 
-當您邀請使用者加入組織時，您可以向使用者授與產品和產品設定檔的存取權。您也可以委派有限的管理權限給使用者。同樣的，您可以建立使用者群組，然後新增群組至產品設定檔以啟用存取權。
+當您邀請使用者加入組織時，您可讓使用者存取產品和產品設定檔。 您也可以委派有限的管理權限給使用者。 同樣地，您也可以建立使用者群組，然後將群組新增至產品設定檔以啟用存取權。
 
-1. 按一下 [Admin Console](https://adminconsole.adobe.com/enterprise/) 的&#x200B;**[!UICONTROL 「產品」]**。
+1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
 1. 按一下&#x200B;**[!UICONTROL 新增設定檔]**。
 1. 設定設定檔的詳細資料，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 1. 按一下&#x200B;**[!UICONTROL 完成]**。
 
-您可以在以下地方找到更多說明:
+如需更多協助，請參閱：
 
-* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 請參閱 Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)以瞭解更多資訊。
-* 影片: [如何在 Adobe Admin Console 設定 Target 工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [Target說明中的「企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) 」，以取得詳細資訊。
+* 影片：如 [何在Adobe Admin Console中設定目標工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -127,29 +129,29 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 例如，您可以建立含有多個 Analytics 工具 ([!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 及 [!UICONTROL Report Builder]) 的產品設定檔、具有特定量度和維度 (包括 eVar) 之權限，並具有區段或計算量度建立等功能。
 
-1. 登入 [Admin Console](https://adminconsole.adobe.com/enterprise)，然後按一下&#x200B;**[!UICONTROL 「產品」]**(或按一下您的產品名稱)。
+1. Sign in to the [Admin Console](https://adminconsole.adobe.com/enterprise), then click **[!UICONTROL Products]** (or click your product name).
 1. 然後，在產品設定檔中，按一下&#x200B;**[!UICONTROL 權限]** (僅限管理員使用)。
 1. 設定設定檔的權限:
 
 | 元素 | 說明 |
 |--- |--- |
-| 報表套裝 | 對特定報表套裝啟用權限。 |
-| 量度 | 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 |
-| 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 |
-| 報表套裝工具 | 為網頁服務、報表套裝管理、工具和報告及控制面板項目啟用使用者權限。 |
+| 報表套裝 | 啟用特定報表套裝的權限。 |
+| 量度 | 啟用流量、轉換、自訂事件、解決方案事件、內容感知等的權限。 |
+| 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。 |
+| 報表套裝工具 | 啟用網站服務、報表套裝管理、工具與報表及控制面板項目的使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。來自自訂管理控制台類別的公司設定已移至分析工具。 |
 
 ## 委派管理角色給使用者 {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-在 Admin Console 中，您可以將有限的管理權限委派給組織的其他使用者。受委派角色可讓使用者管理一般使用者的軟體存取權、提供存取部署功能，以及支援委派。
+在「管理控制台」中，您可以將有限的管理權限委派給組織中的其他人。 委派角色可讓使用者管理對使用者的軟體存取權、提供存取部署功能，並可當成支援委派。
 
-例如，您可以:
+例如，您可以：
 
-* 可讓您的創意總監授與 Creative Cloud 的存取權。
-* 可讓您的行銷總監授予 Experience Cloud 的存取權。
-* 將這兩個角色分開，可避免他們干涉彼此的職責。
+* 允許您的創意主管授與Creative Cloud的存取權。
+* 允許您的行銷主管授與Experience Cloud的存取權。
+* 將這兩個角色分開，這樣它們就不能超越彼此的角色。
 
-使用這些角色可同時委派管理能力給其他人，但又無需提供過多功能給他們。
+使用這些角色，您可以同時將管理委派給其他人，而不必提供超出其所需的功能。
 
 1. 在 Admin Console 中，按一下&#x200B;**[!UICONTROL 使用者]**，然後按一下使用者的姓名。
 1. 按一下&#x200B;**[!UICONTROL 編輯管理權限]**。
@@ -158,11 +160,11 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## 支援的瀏覽器和系統需求 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
-Experience Cloud 中支援的瀏覽器。
+Experience Cloud中支援的瀏覽器。
 
 Experience Cloud支援的瀏覽器包括：
 
-* [!DNL Microsoft Edge] (Microsoft已 [停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9和10。 有鑑於此，Adobe 將不修正針對這些特定版本 Internet Explorer 所回報的問題。)
+* [!DNL Microsoft Edge] (Microsoft已 [停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9和10。 因此，Adobe不會修正針對這些特定版本Internet Explorer所回報的問題。)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
