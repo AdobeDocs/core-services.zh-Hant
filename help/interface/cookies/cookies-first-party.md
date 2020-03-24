@@ -8,7 +8,7 @@ title: First-Party Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
 >[!N注意：]
+>
 >Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
 
 ## 驗證主機名轉發 {#validate}
@@ -100,7 +101,9 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 `https://sstats.adobe.com/_check`
 
-**注意：** 如果未安裝憑證，您會看到安全性警告。
+>[!N注意：]
+>
+>如果未安裝憑證，您會看到安全性警告。
 
 ### 驗證使用 [!DNL curl]
 
