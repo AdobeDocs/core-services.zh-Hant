@@ -5,7 +5,7 @@ seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 瞭解如何將一個或多個報表套裝對應至組織。
 
-Experience cloud服務（例如Experience Cloud ID服務和People核心服務）與組織相關聯，而非個別報表套裝。 若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。對應程序:
+Experience Cloud服務（例如Experience Cloud ID服務和People核心服務）與組織相關聯，而非個別報表套裝。 若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。對應程序:
 
 * 將 Experience Cloud 組織設為報表套裝的主要組織。
 * 不要變更能存取報表套裝的使用者 (每位使用者的存取權仍然由 Adobe Analytics 登入帳戶所決定)
@@ -63,19 +63,23 @@ If the Experience Cloud ID Service is currently deployed on the report suite, en
 
 **為什麼有些組織顯示灰色?**
 
-迠代表您沒有足夠權限對應至顯示灰色的報表套裝。考量下列範例:![](assets/rs-mapping.png)此圖表中，藍色圖例表示管理權限，灰線表示可見性。
+迠代表您沒有足夠權限對應至顯示灰色的報表套裝。考量下列範例:
+
+![](assets/rs-mapping.png)
+
+此圖表中，藍色圖例表示管理權限，灰線表示可見性。
 
 這位使用者擁有兩個 Experience Cloud 組織的存取權，他執行下列事項:
 
-* 將他在 chapek Analytics 登入公司的管理員帳戶連結至其 Chapek Corp Experience Cloud 組織帳戶。
-* 將他在 doohan Analytics 登入公司的非管理員帳戶連結至其 Chapek Corp Experience Cloud 組織帳戶。
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * 將他在 nigel Analytics 登入公司的非管理員帳戶連結至其 Nigel Inc Experience Cloud 組織帳戶。
 
 以下幾點列出了此使用者可以對這些報表套裝執行的對應動作，以及無法執行的對應動作:
 
-* 由於使用者是已連結 Analytics 登入公司 (chapek) 的管理員，而其帳戶已連結至他的組織，因此 Chapek-prod 報表套裝可對應至 Chapek Corp 組織。
-* 由於使用者並非可以檢視此報表套裝之登入公司的管理員，因此使用者無法連結 Nigel-prod 報表套裝。
-* 由於此使用者是連接至 Experience Cloud 組織的登入公司管理員，因此 Doohan-prod 報表套裝可以對應至 Chapek Corp (請注意他並非 doohan Analytics 登入公司的管理員)。請務必注意，doohan-prod 報表套裝同樣可以對應至 Nigel Inc Experience Cloud 組織，即使此使用者無法執行該對應。在此情況下，清單上會出現兩個 Experience Cloud 組織，但 Nigel Inc 會顯示灰色。進行對應前，此使用者應洽詢 nigel 登入公司的管理員，以判斷最合適的對應組織。如果您選取的組織與報表套裝原本建立的組織不同，UI 則會顯示「可能會發生衝突」的警告。
+* [!UICONTROL Chapek-prod] report suite可以映射至 [!UICONTROL Chapek] Corp org，因為此使用者是連結Analytics登入公司([!UICONTROL chapek])的管理員，且其帳戶連結至此組織。
+* [!UICONTROL 由於使用者並非可以檢視此報表套裝之登入公司的管理員，因此使用者無法連結 Nigel-prod 報表套裝。]
+* [!UICONTROL Doohan-prod] Report Suite可映射至 [!UICONTROL Chapek Corp] ，因為此使用者是連結至Experience Cloud組織的登入公司([!UICONTROL chapek])的管理員（請注意，他並非Doohan Analytics登入公司的管理員）。 It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. 進行對應前，此使用者應洽詢 nigel 登入公司的管理員，以判斷最合適的對應組織。如果您選取的組織與報表套裝原本建立的組織不同，UI 則會顯示「可能會發生衝突」的警告。
 
 ## 常問的問題 {#section_099E485805994C929FF9C9F75219BEE1}
 
