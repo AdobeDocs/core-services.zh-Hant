@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 啟用核心服務的解決方案
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Users that are added to the [!UICONTROL Customer Attributes] group will see the 
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL 人員] > [!UICONTROl客戶屬性]
+### [!UICONTROL 人員] >客 [!UICONTROL 戶屬性]
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
