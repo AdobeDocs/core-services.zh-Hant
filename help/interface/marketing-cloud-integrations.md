@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -22,10 +22,10 @@ Adobe Experience Cloud 是一組全面性而出眾的整合式解決方案，建
 
 作業方式說明:
 
-* 在 Experience Cloud 中佈建您的公司。
-* 讓自己成為管理員.
+* 在Experience Cloud中布建您的公司。
+* 讓您成為管理員。
 * [實作Experience Cloud ID服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
-* 透過 DTM 最新化您的 Analytics 和 Target 實作.
+* 透過DTM最 [!DNL Analytics] 新化 [!DNL Target] 您和實作。
 * 開始使用核心服務.
 
 解決方案或服務:
@@ -39,19 +39,19 @@ Adobe Experience Cloud 是一組全面性而出眾的整合式解決方案，建
 
 Help: [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
-ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決方案中的訪客。此 ID 可以取代各項服務的 ID 產生代碼，例如 Analytics、Audience Manager、Target、影片心率及其他 Experience Cloud 解決方案或功能。
+ID服務提供通用、永續性的ID，可識別Experience Cloud所有解決方案中的訪客。 它可取代Analytics、Audience Manager、Adobe Target、視訊心率和其他Experience Cloud解決方案或功能等服務的ID產生程式碼。
 
 **適用的解決方案或服務**
 
-* [Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-analytics.html)
-* [Target](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-target.html)
-* [Data Workbench](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-dwb.html)
+* [Adobe Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-analytics.html)
+* [Adobe Target](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-target.html)
+* [[!UICONTROL Data Workbench]](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-dwb.html)
 
 ## 受眾 {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
 說明: [受眾](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-在 Experience Cloud 受眾程式庫中建立及管理受眾。您可以建立受眾，或從各種來源衍生出受眾，例如:
+在Experience Cloud觀眾程式庫中建立和管理觀眾。 您可以建立受眾，或從各種來源衍生出受眾，例如:
 
 * 在 [!DNL Experience Cloud] 中建立新的受眾。
 * 從 [!DNL Analytics] 區隔發佈至 [!DNL Experience Cloud]。
@@ -59,9 +59,9 @@ ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* Adobe Target 中的[活動](https://docs.adobe.com/content/help/en/target/using/activities/activities.html)
-* Audience Manager 中的[區隔](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
-* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm) (需要登入)
+* [Adobe Target 中的活動](https://docs.adobe.com/content/help/en/target/using/activities/activities.html)
+* [Audience](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) Manager中的細分
+* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm) （需要登入）
 
 ## 客戶屬性 {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -71,21 +71,21 @@ ID 服務提供永久性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* Analytics: [客戶屬性報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
-* Target: 設定 Target 客戶屬性的[訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html)
+* Adobe Analytics:客 [戶屬性報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Adobe Target:設定Adobe Target的客 [戶屬](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 性訂閱
 
 ## Experience Cloud 資產 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-Help: [Share Experience Cloud Folders with Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
+說明：與 [Creative Cloud共用Experience Cloud資料夾](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。
+在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（如和）中 [!DNL Social] 使用 [!DNL Target]。
 
 **適用的解決方案或服務**
 
-* Experience Cloud
-* Creative Cloud
-* Target
-* 社交
+* [!DNL Experience Cloud]
+* [!DNL Creative Cloud]
+* [!DNL Target]
+* [!DNL Social]
 
 ## Analytics - 在 Analytics 中進行 AEM 資產報告 {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
@@ -95,8 +95,8 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 
 **適用的解決方案或服務**
 
-* Analytics
-* Experience Manager
+* [!DNL Analytics]
+* [!DNL Experience Manager]
 
 ## Audience Manager 整合 {#section_8FEFE1746E26416EB7E73095BBAD5345}
 
@@ -108,7 +108,7 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 
 * [Analytics伺服器端轉送](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
 * [傳送Audience Manager區段至Analytics](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
-* [Target 資料整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* [Adobe Arget Data Integration](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 
 ## 啟用 {#section_A23510A2D57842F6BAD043650C06DE42}
 
@@ -126,24 +126,24 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 * [Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
 * [Audience Manager](https://docs.adobe.com/content/help/en/dtm/using/tools/audiencemgmt.html)
 * [Media Optimizer](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)
-* [Target](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)
-* [MAC ID 服務](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html)
-* [尼爾森市調追蹤](https://docs.adobe.com/content/help/en/dtm/using/tools/nielsen.html)
+* [Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html)
+* [MAC ID服務](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html)
+* [Nielsen追蹤](https://docs.adobe.com/content/help/en/dtm/using/tools/nielsen.html)
 
-## Target {#section_739716AB6022424CBC38724CDED10701}
+## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Help: [Integrating Adobe Target with the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+說明：將 [Adobe Target與Experience Cloud整合](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 
 將 Adobe Target 與 Adobe Analytics 及其他 Experience Cloud 解決方案整合後，即可在上述兩個解決方案中使用相同的資料、受眾、屬性及度量。
 
 **適用的解決方案或服務**
 
-* 客戶屬性: 設定 Target 客戶屬性的[訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html)
-* Experience Cloud 受眾: [Experience Cloud 受眾程式庫](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
-* Analytics: [Adobe Analytics 作為 Adobe Target 的報表來源](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
-* 動態標籤管理: [使用 DTM 實作 Adobe Target 的最佳實務](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
-* Audience Manager: [將 Target 資料與 Adobe Audience Manager 整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* Campaign: [將 Target 與 Campaign 整合](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* 客戶屬性：設定Adobe Target的客 [戶屬](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 性訂閱
+* Experience Cloud觀眾： [Experience Cloud觀眾程式庫](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* 動態標籤管理：使 [用DTM實作Adobe Target的最佳實務](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Audience Manager:與 [Adobe Audience Manager整合Adobe Target資料](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* 促銷活動：整 [合Adobe Target與Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
 ## Experience Manager 整合 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
@@ -154,22 +154,22 @@ Help: [Integrating Adobe Target with the Experience Cloud](https://docs.adobe.co
 **適用的解決方案或服務**
 
 * [Analytics](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/sitecatalyst.html)
-* [Analytics 與外部提供者](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/external-providers.html)
+* [Analytics與外部提供者](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/external-providers.html)
 * [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 * [Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/creative-cloud.html)
 * [Audience Manager](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/audiencemanager.html)
 * [促銷活動](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign.html)
 * [動態標籤管理](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/dtm.html)
 * [Scene7](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7.html)
-* [Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target/target-configuring.html)
-* [第三方服務](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/third-party-services.html) (Data Connectors)
+* [Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target/target-configuring.html)
+* [協力廠商服務](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/third-party-services.html) （資料連接器）
 * [擴充功能](https://docs.adobe.com/docs/en/aem/6-2/develop/extending.html)
 
 ## Experience Manager – 資產 {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
 Help: [Configuring AEM Assets integration with Experience Cloud and Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
 
-將 Adobe Experience Manager (AEM) Assets 內的資產同步至 Adobe Creative Cloud，或反過來。您也可以將資產同步至 Experience Cloud，或者反向操作。您可以透過 Experience Cloud 設定此同步作業。
+將Adobe Experience Manager(AEM)Assets中的資產與Adobe Creative Cloud同步，反之亦然。 您也可以將資產與Experience Cloud同步，反之亦然。 您可以透過Experience Cloud設定此同步。
 
 **適用的解決方案或服務**
 
@@ -179,16 +179,16 @@ Help: [Configuring AEM Assets integration with Experience Cloud and Creative Clo
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (login required): [Integration with Adobe Experience Cloud Solutions and Core Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+說明（需要登入）:與Adobe [Experience Cloud解決方案和核心服務整合](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **適用的解決方案或服務**
 
 **Analytics:** 可以每天傳送網站互動和轉換資料至 Media Optimizer，以供其改善廣告和建立報表。此外，Media Optimizer 亦可每天傳送搜尋引擎和社交網路流量資料至 Analytics，以供其 Reports &amp; Analytics、Report Builder 及 Ad Hoc Analysis 功能建立報表。
 
-**Dynamic Tag Manager:**&#x200B;您可以[使用 Dynamic Tag Manager 建立 Media Optimizer 像素轉換追蹤標籤](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)和第三方追蹤標籤，以供您的搜尋、社交及廣告登陸頁面使用·(您也可以直接在 Media Optimizer 中建立 Media Optimizer 標籤)。
+**動態標籤管理器：** 您可以 [使用「動態標籤管理器」為您的搜尋、社交和顯示廣告登陸頁面建立Media Optimizer像素轉換追蹤標籤](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)，以及協力廠商追蹤標籤。 (您也可以直接在 Media Optimizer 中建立 Media Optimizer 標籤)。
 
-**Experience Cloud 受眾:** (可管理顯示內容的廣告商) 您可以使用任何 [Adobe Experience Cloud 受眾](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)作為顯示廣告的鎖定目標。系統會自動使用您在 Adobe Experience Cloud 建立的受眾和您已發佈至 Adobe Experience Cloud 的 Analytics 受眾；您也可以使用 Audience Manager 的受眾 (必須先在 Media Optimizer 帳戶中設為允許使用)。請聯絡帳戶管理員，以瞭解如何存取 Adobe Experience Cloud、其 Profiles &amp; Audiences 核心服務，以及 Media Optimizer 和 Adobe Experience Cloud 受眾初始設定的詳細資訊。**注意:** 如果您也有使用 Adobe Target，則您發佈至 Adobe Experience Cloud 的所有受眾，也可供 Target 中的活動使用。
+**Experience Cloud觀眾：** （具有顯示管理功能的廣告商）您可以將任何 [](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud觀眾用作顯示廣告的目標。 您可以自動使用您在Adobe Experience Cloud中建立的觀眾和您發佈至Adobe Experience Cloud的Analytics觀眾，而且當Media Optimizer帳戶設定為允許時，您也可以使用Audience Manager的觀眾。 如需有關存取Adobe Experience Cloud及其「設定檔與觀眾」核心服務，以及Media Optimizer與Adobe Experience Cloud觀眾之間初始設定的詳細資訊，請連絡您的客戶經理。 **注意：** 如果您也使用Adobe Target，您發佈至Adobe Experience Cloud的觀眾也可以在Adobe Target中進行活動。
 
-**Experience Cloud 資產:** (可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer ](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) 才能存取 Adobe Experience Cloud 資產。如需有關存取 Adobe Experience Cloud 的資訊，請聯絡帳戶管理員。
+**Experience Cloud 資產:** (可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。You must be [logged in to Media Optimizer through Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) to access your Adobe Experience Cloud assets. 如需有關存取 Adobe Experience Cloud 的資訊，請聯絡帳戶管理員。
 
-**Experience Cloud 通知:** 從每頁頂部的通知連結中，您可以檢視搜尋測試版警示範本產生的所有警示，以及 Adobe Experience Cloud 系統更新、貼文、提及和共用的資產。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer ](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) 才可以存取通知。如需有關存取 Adobe Experience Cloud 的資訊，請聯絡帳戶管理員。
+**Experience Cloud 通知:** 從每頁頂部的通知連結中，您可以檢視搜尋測試版警示範本產生的所有警示，以及 Adobe Experience Cloud 系統更新、貼文、提及和共用的資產。You must be [logged in to Media Optimizer through Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) to access your notifications. 如需有關存取 Adobe Experience Cloud 的資訊，請聯絡帳戶管理員。
