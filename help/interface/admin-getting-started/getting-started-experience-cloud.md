@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: 登入及管理個人資料設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -42,13 +42,13 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console 基本概念](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 瞭解您在開始使用 Experience 解決方案時所需採取的初始步驟。 |
-| [設定身分](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定義和設定用於驗證使用者的身分辨識系統。 |
+| [Admin Console基本說明](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 瞭解開始使用Experience Cloud解決方案所需的初始步驟。 |
+| [設定身分](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定義並設定身分系統，以驗證您的使用者。 |
 | [使用者管理](https://helpx.adobe.com/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
-| [啟動 Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console 是管理整個組織中 Adobe 使用者和產品權益的中央位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
-| [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud 資產讓行銷人員可以使用 Creative Cloud 與設計師及其他創作者共用與同步資料夾，並進行共同作業。您可以在這裡管理已核准與組織共同作業的 Creative Cloud 使用者。 |
-| [對應您的報表套裝](../core-services/core-services.md) | (僅限 Analytics) Experience Cloud 核心服務與組織相關，而非個別報表套裝。若要確保這些服務能正確運作，每個 Analytics 報表套裝都必須對應至組織。(此工作是實作 Experience Cloud 並成為管理員[啟用核心服務的 Analytics](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
-| [組織 ID](../admin-getting-started/organizations.md) | *組織 ID* 位於管理頁面的底部。該 ID 是您佈建的 Experience Cloud 公司之相關 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |
+| [啟動Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console是管理整個組織中Adobe使用者和產品權益的中央位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
+| [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud資產可讓行銷人員使用Creative Cloud與設計人員共用、同步資料夾，以及與其他創意資產協作。 您可以在此處管理已核准與您的組織協作的Creative Cloud使用者。 |
+| [對應您的報表套裝](../core-services/core-services.md) | （僅限Analytics）Experience Cloud核心服務與組織相關聯，而非個別報表套裝。 為確保這些服務正常運作，每個Analytics報表套裝都必須對應至組織。 (此工作是更廣泛工作流程的一部分，可 [讓Analytics適用於核心服務](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
+| [組織 ID](../admin-getting-started/organizations.md) | 「 *管理* 」頁面底部有「組織ID」。 此ID是您布建之Experience Cloud公司的關聯ID。 此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |
 
 ## 登入 Experience Cloud (使用者) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -58,7 +58,7 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 1. 向管理員確認您的[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)已佈建在 Experience Cloud 中。
 
 
-1. 導覽至 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
+1. Navigate to the [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. 按一下&#x200B;**[!UICONTROL 使用 Adobe ID 登入]**。
 
    Experience Cloud 管理員可能會協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
@@ -83,17 +83,17 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ## 啟用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-取得系統更新、維護通知、貼文、提及和共用資產的相關通知 (透過電子郵件或在產品內提供)。您也可以指定要收到相關通知的產品和解決方案，客戶屬性上傳狀態也包括在內。
+取得系統更新、維護通知、貼文、提及次數及共用資產的通知（透過電子郵件或產品內容）。 您也可以指定您要通知的產品和解決方案，包括客戶屬性的上傳狀態。
 
 若要導覽至通知，請按一下&#x200B;**[!UICONTROL 通知]**&#x200B;圖示 ![](assets/notifications-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示  ![](assets/icon_edit_board.png)。
 
-您可根據對您重要的訊息類型來排序通知，以及搜尋通知。您也可以:
+您可以根據對您而言重要的訊息類型來排序通知，並搜尋通知。 您也可以：
 
-* 根據對您重要的訊息類型來排序。
+* 依您重要的訊息類型排序。
 * 搜尋通知。
 
 
-**如何啟用通知**
+**若要啟用通知**
 
 ![](assets/notifications-admin.png)
 
@@ -103,7 +103,7 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
  <li id="li_03D33D3228884CECA371B58656B2F3E7">Guided analysis shared </li> 
  <li id="li_DCF710F89317487B8DAA86CC05C694CA">Scheduled report failure </li> 
 </ul> 
-<p> <b>Target</b> </p> 
+<p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
 <p> <b>Media Optimizer</b> </p> 
 <p>Performance alerts </p> 
@@ -115,7 +115,7 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## 管理個人資料和密碼 {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## 管理設定檔和密碼 {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 您可以編輯自己的 Experience Cloud 個人資料、指定預設的組織和登陸頁面等。
 
@@ -126,22 +126,22 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
    ![](assets/edit-profile.png)
 1. 按一下&#x200B;**[!UICONTROL 編輯個人資料]**。
 
-   在「個人資料與密碼」頁面的「個人詳細資料」底下，填妥相關欄位並選取所需選項。
+   在「設定檔與密碼」頁面上，填妥「個人詳細資料」下的欄位與選項。
 
-## 復原密碼 {#task_46541A2806164CB1A4AE8239604E4EB1}
+## 恢復密碼 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. 瀏覽至解決方案的登入頁面。
 1. 按一下&#x200B;**[!UICONTROL 忘記密碼]**。
 
    重設解決方案密碼應該能解決 Experience Cloud 帳戶的密碼連結問題。
 
-   Adobe Analytics 使用者請導覽至 [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html)。
+   For Adobe Analytics users, navigate to [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## 使用直接連結以設定解決方案的登入方式 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-您可以選擇使用 Experience Cloud 介面提供的驗證登入解決方案的特定頁面。
+或者，您可以使用Experience Cloud介面提供的驗證，登入解決方案中的特定頁面。
 
-### URL 範本
+### URL範本
 
 `https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
 
@@ -153,8 +153,8 @@ source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 >
 >您必須先對任一 URL 進行編碼，才能將其傳遞到 `destURL` 參數(Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
-| 參數 | 說明 | 範例 | 必要/選用 |
+| 參數 | 說明 | 範例 | 必要／可選 |
 |--- |--- |--- |--- |
-| tenantId | 使用者應用於登入的租用戶名稱。 | aem62tenant | 可選 |
-| destURL | 使用者將前往之網站的完整 URL。 | https://sc.omniture.com/x/1_7xxzf | 可選 |
-| solutionname | destURL 參數擁有者之 MAC 解決方案的名稱，用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如: 如果 URL 含有作為社交用的 solutionname，而提供的 destURL 為分析用 URL，則即便使用者沒有分析的存取權，也將重新導向至該 URL。MAC「不會」確認 destURL 的擁有者是否與解決方案名稱同步 | analytics | 若已使用 destURL 參數，則為必填。 |
+| tenantId | 使用者應登入的租用戶名稱。 | aem62tenant | 可選 |
+| destURL | 使用者應前往之地的完整URL。 | https://sc.omniture.com/x/1_7xxzf | 可選 |
+| solutionname | destURL參數擁有者的MAC解決方案名稱。 用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如：如果URL包含social的解決方案名稱，而提供的destURL是分析URL，則即使使用者沒有分析的存取權，仍會將其重新導向至URL。 MAC不會驗證destURL的擁有者是否與解決方案名稱同步。 | analytics | 若使用destURL參數，則此為必要項。 |
