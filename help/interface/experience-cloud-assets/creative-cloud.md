@@ -1,13 +1,13 @@
 ---
-description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Social和Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
+description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Adobe Social和Adobe Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Social和Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
+seo-description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Adobe Social和Adobe Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
 seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
