@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [Scene7 Cookie](cookies/cookies-s7.md)
-   + [Search 和 Promote Cookie](cookies/cookies-snp.md)
-   + [Target Cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] Cookie](cookies/cookies-s7.md)
+   + [[!DNL搜尋和促銷] Cookie](cookies/cookies-snp.md)
+   + [[!DNL目標] Cookie](cookies/cookies-target.md)
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
-   + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
+   + [對協力廠商Cookie支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
    + [管理Experience Cloud使用者和產品(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [檢視Experience Cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
@@ -39,7 +39,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Experience Cloud啟動 {#activation}
    + [啟用概述](activation/activation.md)
    + [Launch 使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
