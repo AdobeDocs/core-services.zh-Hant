@@ -1,18 +1,18 @@
 ---
 description: 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
 seo-title: 第三方 Cookie 支援的變更如何影響客戶
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: 第三方 Cookie 支援的變更如何影響客戶
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# 第三方 Cookie 支援的變更會如何影響客戶{#how-changes-to-third-party-cookie-support-impacts-customers}
+# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
 
@@ -35,18 +35,17 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 * 搜尋:
 
-   * 若搜尋是根據 Adobe Analytics 資料而最佳化，則受到的影響和 Adobe Analytics 相同。
-   * 轉換資料的收集應不受影響。
+   * 如果搜尋是根據Adobe Analytics資料最佳化，則會以與Adobe Analytics相同的方式影響搜尋。
+   * 轉換資料的收集不應受影響。
 
-* 顯示內容:
+* 顯示:
 
-   * 現今重新行銷的顯示內容全取決於第三方 Cookie 的使用。
-   * 顯示內容也大多取決於不同廣告網路 Cookie 同步化的可用性。
-   * 整體影響不得而知。然而，以第一點看來，顯示內容受到的影響比其他服務還多。
-   * 我們內部正努力研究，同時也與的廣告合作夥伴一同評估廣告投放所受影響的全部範圍。
+   * 今天的顯示再行銷完全取決於第三方Cookie的使用。
+   * 顯示還嚴重依賴於各種廣告網路Cookie的可用性，以進行同步。
+   * 整體影響未知。 但是，在第一點，顯示受到的影響比其他服務更大。
+   * 我們正與廣告合作夥伴進行內部合作，以評估廣告投放的整體影響。
 
 * 社交:
 
-   * 對 Facebook market­place 廣告並未造成影響。
-   * 對 Facebook Exchange (FBX) 造成的影響與對顯示廣告傳送造成的影響相同。
-
+   * 對Facebook市集廣告沒有影響。
+   * Facebook Exchange(FBX)將受到與顯示廣告傳送相同的影響。
