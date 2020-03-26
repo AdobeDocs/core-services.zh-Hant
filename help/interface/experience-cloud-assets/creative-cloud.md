@@ -1,30 +1,30 @@
 ---
-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
-keywords: 資產共用;Creative Cloud;核心服務
-seo-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
+description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Social和Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
+keywords: asset sharing;Creative Cloud;core services
+seo-description: 在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Social和Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
 seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同合作、註解共用資產，以及在 Experience Cloud 解決方案 (如 Social、Target) 中使用資產。共用資料夾必須來自 Experience Cloud。
+在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、註解共用資產，並在Experience Cloud解決方案（例如Adobe Social和Adobe Target）中使用這些資產。 共用資料夾必須源自Experience Cloud。
 
 ## 共用的優點 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
-* 簡化創意生產的審閱、核准、發佈階段工作流程
-* 花費較少時間管理多個位置的處理中檔案和版本
-* 更有效率地追蹤和管理創意資產
-* 增加企業安全性
-* 創意人員和行銷人員可輕鬆共用、儲存及傳送檔案
+* 簡化審核、核准和發佈階段的創意製作工作流程
+* 在多個位置管理處理中的檔案和版本的時間減少
+* 更有效率地追蹤及管理創意資產
+* 體驗提升企業安全性
+* 在創意人員與行銷人員之間輕鬆分享、儲存和傳送檔案
 
-Creative Cloud 使用者必須先進入 Experience Cloud 的白名單，才能夠存取資產。請參閱[管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
+在Creative Cloud使用者取用資產之前，他們必須加入Experience Cloud的白名單。 See [Manage Creative Cloud users](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
 
 ## 關於 Adobe Target 的資產共用 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
