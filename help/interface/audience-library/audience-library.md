@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 受眾
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 | Experience Cloud 受眾 | 使用[受眾程式庫](../audience-library/audience-library.md) 介面以原生方式建立、管理和共用受眾。您可以：<ul><li>使用原始分析屬性使用即時觀眾</li><li>結合觀眾以建立複合觀眾，加入即時和歷史資料</li><li>檢視預計觀眾大小的圖形檢視</li></ul><br>如需您要建立何種對象類型的建議，請參閱： [Experience Cloud觀眾](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | Analytics | 在區段中，您可以建立區段、將其與報表套裝結合，然 [後將區段發佈至Experience Cloud](../audience-library/audience-library.md)。 發佈區隔會顯示在[受眾](../audience-library/audience-library.md)頁面上。受眾也可作為 Adobe Target 提供之促銷活動體驗以及 Audience Manager 中的目標受眾。Once an audience is shared from Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. 共用觀眾的限制已提高至75個。 從Analytics分享給Experience Cloud的觀眾不能超過2000萬個獨特成員。 此外，由於快取，Analytics中刪除的報表套裝需要12小時才能在Experience Cloud中顯示刪除。 |
 | Mobile Services | 使用「裝置類型」報表中的散射環視覺化 [!UICONTROL 分析行動流量] 。 |
-| Target | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. [發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊會在 Adobe Analytics 區隔建立程序期間顯示，勾選後該區隔將可供 Adobe Target 的自訂受眾程式庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換度量和受眾區隔來建立行銷活動。 |
+| [!DNL Target] | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. [發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊會在 Adobe Analytics 區隔建立程序期間顯示，勾選後該區隔將可供 Adobe Target 的自訂受眾程式庫使用。A segment created in Analytics or Audience Manager can be used for activities in  [!DNL Target].  例如，您可以根據 Analytics 中建立的 Analytics 轉換度量和受眾區隔來建立行銷活動。 |
 | Audience Manager | Audience Manager區段中提供共用的觀眾。 Audience Manager 原本就可使用所有的 Experience Cloud 受眾，提供:<ul><li>內建自動化功能，瞭解解決方案工作流程中共用和使用這些功能的方式</li><li>離站目的地</li><li>相似模型</li></ul> |
 | 促銷活動 | <ul><li>從不同的 Adobe Experience Cloud 解決方案匯入共用受眾至 Adobe Campaign。</li><li>以共用觀眾的形式匯出收件者清單。 這些共用觀眾可用於您使用的不同Adobe Experience Cloud解決方案。</li></ul> |
 | Media Optimizer | 使用對象做為目標。 |
 
 >[!IMPORTANT]
 >
->一旦訪客符合從Analytics共用的觀眾資格，該資訊在Target、Ad Cloud和Campaign Standard中可操作之前會有4-8小時的延遲。
+>Once a visitor qualifies for the audience shared from Analytics, there is a 4-8 hour delay before that information is actionable in [!DNL Target], Ad Cloud, and Campaign Standard.
 
 ## 更多說明 - 問題、指南和使用個案 {#section_C7F151644D8A45F7B6FC54F58845635D}
 
