@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: '檢視Experience Cloud使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 |---|---|
 | [!UICONTROL 名稱] | 使用者的名字和姓氏。 您可以將此列從A排序為Z,Z排序為A。 按一下使用者名稱，以檢視有關該使用者的詳細資訊。 |
 | [!UICONTROL 電子郵件] | 與使用者關聯的電子郵件地址。 列可以排序A->Z、Z->A。 |
-| [!UICONTROL ID 類型] | 使用者帳戶的識別類型。 篩選可套用至檢視特定ID類型。 如需詳 [細資訊，請參閱](https://helpx.adobe.com/enterprise/using/identity.html) 「管理身分類型」。 |
+| [!UICONTROL ID類型] | 使用者帳戶的識別類型。 篩選可套用至檢視特定ID類型。 如需詳 [細資訊，請參閱](https://helpx.adobe.com/enterprise/using/identity.html) 「管理身分類型」。 |
 | [!UICONTROL 解決方案] | 使用者可存取的Experience Cloud解決方案摘要。 您可以套用篩選器，以縮小具有特定解決方案存取權的使用者清單。 |
 | [!UICONTROL 上次登入] | 最近使用者登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。 <br> **重要：** 自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊旨在顯示Experience Cloud中的目前登入活動，而非建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
@@ -68,10 +68,10 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 * 使用者頭像和系統管理員徽章（如果適用）
 * 名稱
-* 「電子郵件」
+* 電子郵件
 * 使用者名稱（Federated ID帳戶的使用者名稱可能與電子郵件地址不同）
-* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
-* 國家
+* [ID類型](https://helpx.adobe.com/enterprise/using/identity.html)
+* 國家／地區
 * 上次登入
 
 ## 解決方案摘要
@@ -88,4 +88,4 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 | [!UICONTROL 例項] | 與產品和產品設定檔相關聯的例項名稱（例如登入公司或租用戶）。 |
 | [!UICONTROL 產品設定檔] | 產品設定檔的唯一名稱。 |
 | [!UICONTROL 由群組指派] | 將使用者與產品設定檔相關聯的使用者群組名稱。 空白結果表示使用者是直接指派給產品描述檔，而非透過群組。 |
-| [!UICONTROL 產品角色] | 產品配置檔案中用戶的角色分配。 目前，這項資訊僅適用於Target產品設定檔。 |
+| [!UICONTROL 產品角色] | 產品配置檔案中用戶的角色分配。 目前，這項資訊僅適用於Adobe Target產品設定檔。 |
