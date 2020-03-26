@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [Analytics使用者ID移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target - 產品設定檔與工作區 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-在Target中，工作區是產品設定檔。 它可讓組織指派一組特定使用者給一組特定屬性。 工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
+在Adobe Target中，工作區是產品設定檔。 它可讓組織指派一組特定使用者給一組特定屬性。 工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
 
 請參閱:
 * [企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 影片：如 [何在Adobe Admin Console中設定目標工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 影片：如 [何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 促銷活動 - 產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 如需更多協助，請參閱：
 
 * [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Target說明中的「企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) 」，以取得詳細資訊。
-* 影片：如 [何在Adobe Admin Console中設定目標工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Adobe Target說明中的「企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) 」，以取得詳細資訊。
+* 影片：如 [何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 |--- |--- |
 | 報表套裝 | 啟用特定報表套裝的權限。 |
 | 量度 | 啟用流量、轉換、自訂事件、解決方案事件、內容感知等的權限。 |
-| 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。 |
+| 維度 | 在精細的層級自訂使用者存取權，包括eVar、流量報表、解決方案報表和路徑報表。 |
 | 報表套裝工具 | 啟用網站服務、報表套裝管理、工具與報表及控制面板項目的使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。來自自訂管理控制台類別的公司設定已移至分析工具。 |
 
@@ -185,7 +185,7 @@ Experience Cloud支援的瀏覽器包括：
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(例如 [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支援 [!DNL Safari])。
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **解決方案和產品需求**
 
