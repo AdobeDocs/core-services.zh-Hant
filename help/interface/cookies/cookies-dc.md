@@ -1,13 +1,13 @@
 ---
 description: Data Connectors 使用 Cookie 來將多個廣告頻道中最佳化的促銷活動和轉換效能量度提供給廣告商。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: Data Connectors 使用 Cookie 來將多個廣告頻道中最佳化的促銷活動和轉換效能量度提供給廣告商。
 seo-title: Data Connectors Cookie
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Data Connectors Cookie
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -19,14 +19,14 @@ Data Connectors 使用 Cookie 來將多個廣告頻道中最佳化的促銷活�
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Cookie 名稱 </th> 
+   <th colname="col1" class="entry"> Cookie名稱 </th> 
    <th colname="col2" class="entry"> 資訊 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>integration_id </p> </td> 
-   <td colname="col2"> <p>讓 Data Connectors 記住上一個使用的整合。 </p> </td> 
+   <td colname="col2"> <p>讓資料連接器記住上次使用的整合。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
