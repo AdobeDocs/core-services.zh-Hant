@@ -1,13 +1,13 @@
 ---
 description: Scene7 使用 Cookie 來儲存用於將動態媒體傳送給瀏覽器的有用資訊。
-keywords: Cookie;隱私
+keywords: cookies;privacy
 seo-description: Scene7 使用 Cookie 來儲存用於將動態媒體傳送給瀏覽器的有用資訊。
 seo-title: Scene7 Cookie
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Scene7 Cookie
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,26 +16,26 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 Scene7 使用 Cookie 來儲存用於將動態媒體傳送給瀏覽器的有用資訊。
 
-Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用。
+Scene7會將資訊儲存在本機，以供某些舊版AS2 Flash檢視器使用。
 
-針對 AS2 檢視器，Cookie:
+對於AS2檢視器，Cookie:
 
-* 追蹤使用者的工作階段狀態，例如目前頁面和檢視影像、目前縮放程度等等。
-* 確定從使用者前一工作階段至今經歷了多久時間。檢視器使用此資訊決定是否要繼續前一工作階段，或是開始新的工作階段。此項資訊也同樣傳送至 Scene7 伺服器，但未受到使用。
+* 追蹤使用者的工作階段狀態，例如目前檢視的頁面和影像、目前的縮放等級。
+* 確定自使用者上一個作業開始至今的時間。 檢視器會使用這項資訊來決定是否繼續先前的作業或啟動新的作業。 這項資訊也會傳送至Scene7伺服器，但不會使用。
 
-對於 AS2 Flash eCatalog 檢視器，Cookie:
+對於AS2 Flash eCatalog檢視器，Cookie:
 
-* 儲存使用者產生的內容 (最顯眼的內容由使用者輸入在 ecatalog 檢視器的「自黏便箋」功能中)。此內容在使用者重新開始一個工作階段時會重新儲存。
-* 當使用者發送電子郵件與另一名使用者共用 ecatalog 時，第二 AS2 檢視器項目符號內的自黏便箋內容即被複製到我們的伺服器以提供給收件者。當收件者開始檢視器工作階段時，自黏便箋內容即從伺服器被擷取並複製到 Cookie。此功能極少用到，所以不會到期，而過舊的內容也不會被移除。此時，它會無限期持續存留在伺服器上。
+* 儲存使用者產生的內容（最引人注意的是使用者在Ecatalog檢視器的「註解」功能中輸入的內容）。 當使用者繼續作業時，會還原此內容。
+* 當使用者發出電子郵件以與其他使用者共用對話方塊時，第二個AS2檢視器項目符號的便條紙內容會複製到我們的伺服器，以提供給收件者。 當收件者啟動檢視器工作階段時，便條紙內容會從伺服器擷取並複製至Cookie。 此功能很少使用，因此不會過期，且不會移除過時內容。 此時，它會無限期地在伺服器上持續存在。
 
-較新的 AS3 檢視器並未執行工作階段持續性。
+較新的AS3檢視器不會實作作業持續性。
 
 **Cookie 名稱: VatLogin.jsp**
 
 | 屬性 | 說明 |
 |---|---|
-| 儲存資訊 | 設定作業 Cookie。內嵌於 IPS ImageServer (IS、IR 及 SWF/外觀和視訊內容) 的 AuthFilter 使用 Cookie 來取得存取授權。如果 Cookie 存在的話，它便會允許 HTTP 請求通過，否則會傳回未經授權。 |
-| 過期 | 此 Cookie 為作業 Cookie。Scene7 IPS [!DNL web.xml] 將目前的作業過期時間設定為 45 分鐘。 |
+| 儲存的資訊 | 設定工作階段Cookie。 內嵌在IPS ImageServer（IS、IR以及SWF/外觀和視訊內容）中的AuthFilter會使用Cookie進行存取授權。 如果存在，則允許HTTP請求通過。 否則，它會傳回未授權內容。 |
+| 過期 | 此Cookie是作業Cookie。 Scene7 IPS [!DNL web.xml] 將目前的作業過期時間設定為 45 分鐘。 |
 
 **Cookie 名稱: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
@@ -48,19 +48,19 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 儲存資訊 </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; 是檢視器使用之資產的名稱。 </p> </td> 
+   <td colname="col1"> 儲存的資訊 </td> 
+   <td colname="col2"> <p>&lt;assetId&gt;是檢視器使用的資產名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 過期 </td> 
-   <td colname="col2"> 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期。 </td> 
+   <td colname="col2"> 此Cookie是作業Cookie，在瀏覽器關閉時過期。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Cookie 名稱: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
-舊式 DHTML 檢視器使用瀏覽器 Cookie 來儲存狀態資訊和自黏便箋資料。多重畫面 DHTML 彈出式視窗亦會使用這些 Cookie 來使訊息指標隸屬於特定作業。
+舊版DHTML檢視器會使用瀏覽器Cookie來儲存狀態資訊和註解資料。 多螢幕DHTML彈出畫面也會使用它們，讓訊息指示器作業特定。
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -71,12 +71,12 @@ Scene7 將資訊儲存在本機，以供部分舊版 AS2 Flash 檢視器使用�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 儲存資訊 </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; 是檢視器使用之資產的名稱，而 &lt;id&gt; 則是以 0 為基礎的自黏便箋索引。 </p> </td> 
+   <td colname="col1"> 儲存的資訊 </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt;是檢視器使用的資產名稱，而&lt;id&gt;是以0為基礎的嚴格附註索引。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 過期 </td> 
-   <td colname="col2"> 該 Cookie 是作業 Cookie，關閉瀏覽器後即過期。 </td> 
+   <td colname="col2"> 此Cookie是作業Cookie，在瀏覽器關閉時過期。 </td> 
   </tr> 
  </tbody> 
 </table>
