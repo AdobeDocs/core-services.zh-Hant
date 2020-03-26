@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -17,16 +17,16 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ## 瞭解 DNS 預先擷取 {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-瀏覽器會利用 DNS 預先擷取自動將網頁連結的網域名稱解析為其相應的 IP 位址。瀏覽器載入網頁時便會開始預先擷取程序。例如，您的網頁含有連結至 `www.adobe.com` 的可點按連結。瀏覽器載入此網頁時，它會透過 [DNS 系統](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。DNS 預先擷取會在訪客點選該連結或按鈕前，先將網域名稱解析為 IP 位址，有助改善網頁效能。DNS 預先擷取是一個對使用者透明的程序。
+瀏覽器使用DNS預回遷功能，自動將網頁上連結的網域名稱解析為其對應的IP位址。 預回遷過程會在瀏覽器載入網頁時啟動。 例如，您的網頁含有連結至 `www.adobe.com` 的可點按連結。When a browser loads this page, it uses the [DNS system](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) to look up the linked domain name and resolve it to a corresponding numeric IP address. DNS預回遷有助於改善頁面效能，因為網域名稱已解析為IP位址，網站訪客點按該連結或按鈕。 DNS預取程式對用戶是透明的。
 
 ## DNS 預先擷取和 Adobe Experience Cloud 解決方案 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS 預先擷取會自動搭配網頁上的靜態內嵌連結使用，這意味著自動 DNS 預先擷取並不會搭配不同的 [!UICONTROL Experience Cloud] 解決方案和服務使用，因為:
+DNS預取可自動與頁面上的靜態內嵌連結搭配運作。 這也意味著自動DNS預取不適用於不同的 [!UICONTROL Experience Cloud解決方案和服務] ，因為：
 
-* 網頁載入時，每個 Experience Cloud 解決方案或服務都會以動態方式產生 DNS 調用次數。
-* 在產生這些調用次數之前，瀏覽器無法將網域名稱解析為 IP 位址。
+* 每個Experience Cloud解決方案或服務會在頁面載入時動態產生DNS呼叫。
+* 在進行這些呼叫之前，瀏覽器無法將域名解析為IP地址。
 
-然而，您可以透過 Experience Cloud 解決戶案手動實施 DNS 預先擷取。做法是將 HTML `<dns-prefetch>` 標籤新增至網頁代碼的 `<head>` 區段，如下所示。若正確實施，DNS 預先擷取便有助於節省數毫秒的網頁載時間。
+不過，您可以使用Experience Cloud解決方案手動實作DNS預回遷。 做法是將 HTML `<dns-prefetch>` 標籤新增至網頁代碼的 `<head>` 區段，如下所示。若正確實施，DNS 預先擷取便有助於節省數毫秒的網頁載時間。
 
 ## DNS 預先擷取代碼範例 {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
@@ -38,7 +38,7 @@ DNS 預先擷取會自動搭配網頁上的靜態內嵌連結使用，這意味�
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **** Experience Cloud ID服務：在此 `<link rel="dns-prefetch" href="//fast. *`插入合作夥伴ID`*.demdex.net">`
+* **Experience Cloud ID服務：** 在此 `<link rel="dns-prefetch" href="//fast. *`插入合作夥伴ID`*.demdex.net">`
 
 * **動態標籤管理員** (DTM): 不需要。網頁載入時便會提供 DTM 連結。
 
@@ -48,9 +48,9 @@ DNS 預先擷取會自動搭配網頁上的靜態內嵌連結使用，這意味�
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **Target:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
 >[!MORE_LIKE_THIS]
 >
->* [DNS 預先擷取](https://www.chromium.org/developers/design-documents/dns-prefetching)
+>* [DNS預取](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
