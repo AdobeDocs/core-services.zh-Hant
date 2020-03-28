@@ -5,9 +5,9 @@ seo-description: 瞭解登入Admin Console、管理Experience Cloud使用者權�
 seo-title: 管理 Experience Cloud 使用者和產品
 solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
-uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
+index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 <!-- ### Business ID type
 
-Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management while increasing the flexibility of Creative Cloud storage usage among your team (if applicable). Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs (owned by your organization).
 
-If you're an existing Creative Cloud for enterprise or teams customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
+If you're an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
 
-Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
 What to do
 
@@ -45,7 +45,7 @@ What to do
 
 管理員不再管理解決方案中的使用者。 Experience Cloud的使用者和產品管理現在會在Admin Console中進行。
 
-**若要登入Admin Console**
+若要登入Admin Console:
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. 輸入 [您的Adobe ID或Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
@@ -117,7 +117,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-建立Audience Manager使用者並將其指派給群組。 您也可以檢視限制（特徵、區段、目的地和AlgoModel）。
+建立Audience Manager使用者並將其指派給群組。 您也可以檢視限制(特徵、區段、目的地 [!DNL AlgoModel]和)。
 
 請參 [閱Audience](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) Manager說明中的管理。
 
@@ -177,8 +177,6 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 Experience Cloud中支援的瀏覽器。
 
-Experience Cloud支援的瀏覽器包括：
-
 * [!DNL Microsoft Edge] (Microsoft已 [停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9和10。 因此，Adobe不會修正針對這些特定版本Internet Explorer所回報的問題。)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
@@ -187,7 +185,7 @@ Experience Cloud支援的瀏覽器包括：
 
 **注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
-**解決方案和產品需求**
+### 解決方案和產品需求
 
 * [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
