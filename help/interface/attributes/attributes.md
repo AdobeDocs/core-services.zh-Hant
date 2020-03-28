@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: 客戶屬性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # 客戶屬性
-
-## 概述
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 ![](assets/custom_reports.png)
 
 ## 上傳客戶屬性的先決條件 {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **解決方案啟用:** [啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
@@ -34,7 +31,6 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
    加入客戶屬性群組的使用者可在 Experience Cloud 介面的左邊看到[!UICONTROL 「客戶屬性」]選單項目.
 
 * **客戶屬性** 需要Adobe Target [!DNL at.js] （任何版本） [!DNL mbox.js] 或58版或更新版本。
-
 
    請參 [閱如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js實施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
@@ -59,4 +55,4 @@ After you create the data file, you can upload it to the customer attribute sour
 | 解決方法 | 優點和使用案例 |
 |--- |--- |
 | Adobe Analytics  | 行銷人員和分析師可以瞭解：<ul><li>對金級客戶最有效的線上促銷活動。</li><li>金級客戶所搜尋的產品與白金級客戶所搜尋的產品。</li><li>網站重新設計是否對舊客戶的轉換率有正面影響。</li><li>低存留值的客戶會在我的網站上研究哪些產品。</li></ul> |
-| Adobe Target | 屬性資料可讓Adobe Target使用者：<ul><li>顯示忠誠會籍會員的特別折扣和優惠。</li><li>向您的奢侈品客戶推薦更昂貴的產品。</li><li>對於已收到電子郵件的客戶，請在通常保留給電子郵件註冊的空間顯示追加銷售優惠</li></ul> |
+| Adobe Target | 屬性資料可讓Adobe Target使用者：<ul><li>顯示忠誠會籍會員的特別折扣和優惠。</li><li>向您的奢侈品客戶推薦更昂貴的產品。</li><li>對於已收到電子郵件的客戶，請在通常保留給電子郵件註冊的空間顯示向上銷售優惠</li></ul> |
