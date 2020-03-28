@@ -5,9 +5,8 @@ seo-description: 在Experience Cloud和Creative Cloud之間共用資料夾和資
 seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
-uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
