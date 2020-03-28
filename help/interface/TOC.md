@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # 核心服務使用手冊 {#interface}
 
 + [Experience Cloud和核心服務產品檔案](experience-cloud.md)
-+ 關於核心服務 {#about-core-services}
++ Experience Cloud的核心服務 {#about-core-services}
    + [核心服務概述](core-services-landing.md)
    + [啟用核心服務的解決方案](core-services/core-services.md)
    + [將報表套裝對應至組織](core-services/report-suite-mapping.md)
@@ -33,7 +33,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [對協力廠商Cookie支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
-   + [管理Experience Cloud使用者和產品(Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [管理Experience Cloud使用者身分識別和產品(Admin Console)](admin-getting-started/admin-getting-started.md)
    + [檢視Experience Cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
