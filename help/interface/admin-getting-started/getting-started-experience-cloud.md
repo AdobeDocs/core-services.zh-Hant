@@ -1,26 +1,20 @@
 ---
 description: 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 seo-title: 登入及管理個人資料設定
-solution: Marketing Cloud
-title: 登入及管理個人資料設定
+solution: Experience Cloud
+title: 登入並管理您的Experience Cloud設定檔設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# 登入及管理個人資料設定
+# 登入並管理您的Experience Cloud設定檔設定
 
-登入Experience Cloud（而非登入單一解決方案）可讓您對擁有的所有解決方案和服務進行單一登入。 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+登入Experience Cloud（而非登入單一解決方案）可讓您對擁有的所有解決方案和服務進行單一登入。 此說明說明如何登入Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 
 >[!IMPORTANT]
 >
