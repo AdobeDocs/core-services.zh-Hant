@@ -8,14 +8,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Adobe選件管理 {#section_07CBD4C01F4049A5A19781737D2DCD35}
 
-[!UICONTROL 選件管理功能可協助您在 Experience Cloud 的所有頻道間建立及管理選件，並做出適當決策。]它可做為集中式選件目錄，讓您將資格規則和多個內容與每個選件物件建立 _關聯。_ 您可以跨通道和位置發佈這些優惠，並在每次互動中為每位客戶提供最佳優惠。 這些功能可讓您以始終如一且協調一致的方式，持續向客戶提供最佳優惠。
+[!UICONTROL 選件管理] ，可跨Experience Cloud的所有通道提供選件建立、管理和決策。 它可做為集中式選件目錄，讓您將資格規則和多個內容與每個選件物件建立 _關聯。_ 您可以跨通道和位置發佈這些優惠，並在每次互動中為每位客戶提供最佳優惠。 這些功能可讓您以始終如一且協調一致的方式，持續向客戶提供最佳優惠。
 
 優點包括：
 
@@ -30,19 +30,19 @@ source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
 
 1. 請聯絡Adobe以取得布建。
 
-   Experience cloud組織必須有Campaign Standard的例項。 Adobe也可以在Campaign中啟用一項功能，讓您在電子郵件中建立選件活動。
+   Experience Cloud組織必須有Campaign Standard的例項。 Adobe也可以在Campaign中啟用一項功能，讓您在電子郵件中建立選件活動。
 
-1. 從Experience cloud導覽功能表，按一下解決方案選擇器，然後按一下選 **[!UICONTROL 件]**。
+1. 從Experience Cloud導覽功能表，按一下解決方案選擇器，然後按一下選 **[!UICONTROL 件]**。
 
    ![](assets/access-offers.png)
 
-   若要存取Campaign Standard中的選件，請按一下電子 **[!UICONTROL 郵件範本中]**的選件圖示。
+   若要存取Campaign Standard中的選件，請按一下電子 **[!UICONTROL 郵件範本中]** 的選件圖示。
 
    ![](assets/campaign-add-offer.png)
 
-   在Marketing cloud和Adobe Campaign帳戶中看到這兩個項目後，您便已使用開始使用的必要功能進行設定。
+   在Marketing Cloud和Adobe Campaign帳戶中看到這兩個項目後，您便已使用開始使用的必要功能進行設定。
 
-## 使用者與權限 {#concept_81F0ABB07ACC49E099EDCD87AA0436E1}
+## Users and Permissions {#concept_81F0ABB07ACC49E099EDCD87AA0436E1}
 
 管理員可在「管理控制台」 [!UICONTROL 中將使用者新增至] 「選件管理」。 系統會傳送電子郵件邀請給新使用者，並附上存取產品的指示。 在新增使用者後，您可以調整其權限，讓他們存取整個選件管理中的不 [!UICONTROL 同功能]。
 
@@ -62,7 +62,7 @@ source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
 
 1. 按一下您的程&#x200B;**[!UICONTROL 式(例如]**「選件」)。
 
-1. 在「產品 [!UICONTROL 配置檔案] 」頁面上，單 **[!UICONTROL 擊「新建配置檔案」]**。
+1. 在「產品 [!UICONTROL 描述檔] 」頁面上，按一 **[!UICONTROL 下「新描述檔」]**。
 
 1. 輸入產品描述檔的名稱和說明，然後按一下「完 **[!UICONTROL 成]**」。
 
@@ -78,9 +78,9 @@ source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
 | 刪除選件 | 提供使用者刪除選件的存取權。 |
 | 核准選件 | 讓使用者能夠核准選件。 如果有任何選件需要核准，具有此權限的使用者在登入選件管理時，將會看到通知。 如果使用者同時擁有此權限和建立和編 _輯選件權限_ ，他可以在單一工作流程中建立和核准選件。 |
 | 封存選件 | 讓使用者能夠封存選件。 |
-| 建立標籤 | 讓使用者能夠在「標籤」標籤中建立標籤，並在選件建立畫面中內嵌標籤。 若未取得此權限，使用者在建立選件時，只能選擇預先建立的選件。 |
+| 建立標籤 | 讓使用者能夠在「標籤」標籤中建立標籤，並在選件建立畫面中內嵌標籤。 若未取得此權限，使用者在建立選件時，將只能選取預先建立的選件。 |
 | 編輯標籤 | 讓使用者能夠在「標籤」索引標籤中編輯標籤。 |
 | 刪除標籤 | 讓使用者能夠刪除「標籤」索引標籤中的標籤。 |
 | 建立位置 | 讓使用者能夠在「位置」索引標籤中建立位置。 |
 | 編輯位置 | 讓使用者能夠編輯「位置」索引標籤中的位置。 |
-| 刪除位置 | 讓使用者能夠刪除「位置」索引標籤中的位置。 **** 注意：只能刪除選件活動中未使用的位置。 |
+| 刪除位置 | 讓使用者能夠刪除「位置」索引標籤中的位置。 **注意：** 只能刪除選件活動中未使用的位置。 |
