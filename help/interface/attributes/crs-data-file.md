@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 關於客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 客戶屬性是專為處理每天的一些檔案所設計。為減緩大量小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## 允許的檔案類型和命名需求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
  </tbody> 
 </table>
 
-
 ## 屬性資料檔案的需求 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **範例CSV**
 
 CSV檔案必須符合下列格式：
-
-範例CSV:
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ CSV檔案必須符合下列格式：
  </tbody> 
 </table>
 
-
 ## 運用多個資料來源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 建立、修改或刪除客戶屬性來源時，ID開始與新資料來源同步約需一小時的延遲。
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-使用與上述客戶ID對應的唯一別名ID，建立兩個客戶屬性來源。 使用此方法可將相同的參考ID傳送至多個客戶屬性來源
+使用與上述客戶ID對應的唯一別名ID，建立兩個客戶屬性來源。 使用此方法可將相同的參考ID傳送至多個客戶屬性來源。
