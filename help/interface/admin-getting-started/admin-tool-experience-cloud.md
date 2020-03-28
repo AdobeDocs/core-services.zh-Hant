@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: '檢視Experience Cloud使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ## 解決方案摘要
 
-本節顯示使用者可存取的Experience Cloud解決方案摘要。 包括產品管理角色（如果適用）
+本節顯示使用者可存取的Experience Cloud解決方案摘要。 包含產品管理角色（如果適用）。
 
 ## 詳細的產品訪問清單
 
