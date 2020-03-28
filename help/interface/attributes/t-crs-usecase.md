@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    ![步驟結果](assets/04_crs_usecase.png)
 1. 在[!UICONTROL 「編輯客戶屬性來源」]頁面，設定以下欄位:
 
-
    * **[!UICONTROL 名稱:]** 好記的資料屬性來源名稱。若為 [!DNL Adobe Target]，屬性名稱不得包含空格。如果傳遞了包含空格的屬性，[!DNL Target] 會忽略該屬性。其他不支援的字元包括: `< , >, ', "`.
 
    * **[!UICONTROL 說明:]** (選用) 資料屬性來源的說明。
@@ -97,18 +96,15 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
          例如，下列位置中的 *&quot;crm_id&quot;*:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** 別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的&quot;idType&quot;](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** 別名ID對應於 *syncIdentifiers中的* 「 [idType」](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
 
@@ -119,15 +115,12 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
          請參閱[運用多個資料來源](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名 ID 欄位和客戶 ID 的資料處理相關資訊。
    * **[!UICONTROL 檔案上傳:]** 您可以拖放 `.csv` 資料檔案，或透過 FTP 上傳資料(使用 FTP 還需要 `.fin` 檔案)。請參閱[透過 FTP 上傳資料](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
-
       >[!IMPORTANT]
       >
       >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
 
 
       上傳檔案後，表格資料會顯示在此頁 [!UICONTROL 面的「檔案上傳] 」標題下。 您可以驗證結構、設定訂閱或設定FTP。
-
-
 
       **檔案上傳圖**
 
@@ -138,13 +131,6 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    * **[!UICONTROL 已將別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID:]** 顯示有多少個 ID 已將別名傳送至 Experience Cloud 訪客 ID。
 
    * **[!UICONTROL 具有高別名數之客戶提供的 ID:]** 顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的ID很可能不代表個人，而代表某種共用登入。 系統會將與這些ID相關的屬性分發給500個最新別名的Experience Cloud訪客ID，直到別名計數達到10,000。 到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 ## (選用) 更新結構 (刪除屬性) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 如何在結構中刪除屬性及取代屬性。
-
 
 1. 在[!UICONTROL 編輯客戶屬性來源]頁面上，移除 **[!UICONTROL Target]** 或 **[!UICONTROL Analytics]** 訂閱 (位於[!UICONTROL 設定訂閱]底下)。
 1. [上傳含有更新欄位的新資料檔案](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)。
@@ -183,7 +168,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 Adobe Analytics
 </keyword>等解決方案中提供的資料，您可以根據資料製作報表、分析，以及在行銷活動中採取適當行動。
 
-以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區隔顯示 Photoshop Lightroom 的訂閱者中最常啟動 Photoshop 產品的人。
+以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Adobe Analytics
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 Target 中，您可在建立受眾時，從「訪客資料」區段選取客戶屬性。清單中的所有客戶屬性都有 [!DNL crs.] 前置字元。視需要將這些屬性與其他資料屬性結合，以建立受眾。
+在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。清單中的所有客戶屬性都有 [!DNL crs.] 前置字元。視需要將這些屬性與其他資料屬性結合，以建立受眾。
 
 ![](assets/crs-add-attribute-target.png)
 
