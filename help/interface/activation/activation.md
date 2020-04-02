@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 啟用
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 ---
 
@@ -24,7 +24,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-若要啟動動態標籤管理，請按一下&#x200B;**[!UICONTROL 「啟動」]**，然後傳送要求給 Adobe 佈建團隊。您應該會在一至兩個工作天內收到登入認證。
+若要啟動動態標籤管理，請按一下&#x200B;**[!UICONTROL 「啟動」]**，然後傳送要求給 Adobe 佈建團隊。您應在一至兩個工作天內收到登入認證。
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -44,12 +44,12 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 動態標籤管理產品文件 </a> </p> </td> 
-   <td colname="col2"> <p>深入瞭解有關使用動態標籤管理部署 Experience Cloud 解決方案。 </p> </td> 
+   <td colname="col2"> <p>進一步瞭解如何使用動態標籤管理來部署Experience Cloud解決方案。 </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-如果需要實作「動態標籤管理」的協助，我們鼓勵您連絡客戶經理，以取得 Adobe Global Services 供應項目或實作合作夥伴產品的資訊。歡迎您隨時透過 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 使用 #DTM 標記與我們聯絡。
+如果您想要實作動態標籤管理的協助，建議您聯絡客戶經理，以取得有關Adobe全球服務方案或實作合作夥伴方案的資訊。 Please also feel free to contact us at [@AdobeExpCare](https://twitter.com/AdobeExpCare) with hashtag #DTM.
 
 ## Experience Cloud 觸發器 {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
@@ -58,20 +58,20 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 任務 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
+   <th colname="col1" class="entry"> 任務 </th>
+   <th colname="col2" class="entry"> 說明 </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> 建立 Experience Cloud 觸發器 </a> </p> </td> 
-   <td colname="col2"> <p> 使用 Adobe Analytics 資料來建立 Experience Cloud 觸發器的逐步指示。 </p> <p>Experience Cloud 觸發器可於 Adobe Campaign 中使用。 </p> </td> 
-  </tr> 
+   <td colname="col2"> <p> 使用Adobe Analytics資料建立Experience Cloud觸發器的逐步指示。 </p> <p>Experience Cloud觸發器可用於Adobe Campaign。 </p> </td>
+  </tr>
   <tr> 
-   <td colname="col1"> <p>在 Adobe Campaign 中使用觸發器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新觸發器服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義了觸發器，將可在 Adobe Campaign 中使用它來支援可促進參與和轉換的再行銷訊息。這項立即可用的功能將允許行銷人員根據線上活動 (例如丟棄購物車、頁面檢視、觀看的視訊等等)，在適當的時間觸發再行銷訊息。 </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col1"> <p>在Adobe Campaign中使用觸發器 </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新Trigger服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義觸發器，Adobe Campaign中就會提供它，以支援可推動參與和轉化的再行銷訊息。 此全新的立即可用功能可讓行銷人員根據線上事件（例如購物車放棄、頁面檢視、觀看的視訊等），在適當的時間觸發再行銷訊息。 </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 
