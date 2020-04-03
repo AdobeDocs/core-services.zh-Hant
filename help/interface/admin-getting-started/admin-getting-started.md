@@ -24,18 +24,18 @@ source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
 
 瞭解 Experience Cloud 使用者管理中的最新功能。
 
-### 商業ID類型
+<!-- ### Business ID type
 
-Adobe正在推出名為 _Business ID的身分類型_。 此身分類型可改善使用者和產品管理的控制，同時提高團隊中Creative Cloud儲存空間使用的彈性（如果適用）。 Adobe會將所有用於商業用途的Adobe ID（由個人擁有）移轉至新的企業商業ID（由您的組織擁有）。
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-如果您是Experience Cloud的現有客戶，Adobe會將您Admin Console上所有具有Adobe ID的使用者移轉至Business ID。 如果您是新的企業或團隊客戶，您將使用下列其中一種可用身分類型新增使用者至Admin Console:Business ID、Enterprise ID或Federated ID。
+If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
-<!-- Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM -->
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
-該做什麼
+What to do
 
-* 您的使用者在將帳戶移轉至Type2e之前，必須接受使用條款(TOU)變更。
-* 屬於多個組織的使用者在登入工作流程中可能會看到「描述檔選擇」畫面，而且需要選取正確的畫面。 這可確保他們登入正確的組織。 （如果使用者在移轉之前是多個組織的成員，則可能有多個描述檔可供選擇。）
+* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### 管理工具
 
