@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 關於 Experience Cloud 中的新雲端名稱
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 
 每個雲端的最新雲端名稱和解決方案如下:
 
-![](assets/experience_cloud_appicon_32.png) [Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
 
 取代 *Marketing Cloud*，成為所有 Adobe 數位體驗解決方案和服務的上層雲端名稱。
 
@@ -29,7 +29,7 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 >
 >您可繼續在先前較廣泛的 *Marketing Cloud* 內容中查看其參考說明，直到所有解決方案介面皆已將品牌重塑為 *Enterprise Cloud*。
 
-![](assets/marketingcloud_32.png)[Marketing Cloud ](https://www.adobe.com/marketing-cloud.html)
+[Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
 
 包含下列解決方案：
 
@@ -39,14 +39,14 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 * Adobe Primetime
 * Adobe Social
 
-![](assets/analyticscloud_appicon_32.png) [Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
+[Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
 
 包含下列解決方案：
 
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
+[Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
 
 包含Media Optimizer和TubeMogul。
 
@@ -54,7 +54,7 @@ source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
 
 下列資訊簡述解決方案內容，並提供相關說明連結。[也提供使用案例配方](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) ，以協助您處理數位行銷工作流程。
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 如何開始使用 Analytics:
 
@@ -68,7 +68,7 @@ Experience Platform Launch是新一代的標籤管理，提供您簡單的方式
 * [我該使用哪種 Analytics 產品? ](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
 * [Analytics 產品比較和需求](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+[Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 Adobe Target已與Analytics和其他Experience Cloud核心服務整合。 實用的快速入門主題：
 
@@ -77,29 +77,25 @@ Adobe Target已與Analytics和其他Experience Cloud核心服務整合。 實用
 * [管理員入門](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
 * [使用Analytics做為Adobe Target的報表來源](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
-
-Social提供代管、訂閱型解決方案，協助您達成社交媒體目標並改善策略與效能。 您可以透過能夠監聽、發佈和分析社交的完整平台，來管理社交行銷。
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+[Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Adobe Experience Manager 做為內容管理解決方案，可讓您輕鬆管理您網站、行動應用程式、社群和表單的資產與內容。
 
 如需 [說明，請參閱Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) 。
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+[Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 Adobe Audience Manager 做為資料管理平台，可幫您建立獨一無二的訪客個人資料，您就能夠挖掘並鎖定每一個頻道上最具價值的客戶區隔。
 
-![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+[Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud 為程式化的廣告購買解決方案。可幫助您根據預算，找到並預測廣告頻道的最佳組合，然後將內容自動提供給您的受眾。
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
+[Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Adobe Campaign可讓您跨所有線上及線下通道規劃、傳遞及衡量宣傳活動。 還有助於提高生產力以及將相關的體驗提供給您的客戶。
 
-![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
+[Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
 Adobe Primetime是多螢幕電視平台，可協助廣播商建立針對任何觀眾個人化的精彩電視和電影體驗。
 
