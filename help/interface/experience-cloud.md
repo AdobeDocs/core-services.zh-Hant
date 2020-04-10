@@ -7,12 +7,12 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
-# Experience Cloud 和核心服務產品檔案
+# Experience Cloud 核心服務產品檔案
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
@@ -21,26 +21,26 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 ## 你想學什麼？
 
 * [所有Experience Cloud解決方案的產品檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) -瀏覽Experience Cloud學習與支援的說明
-* [發行說明和產品更新](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Experience Cloud的新增功能，並訂閱以取得更新
+* [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud的新增功能，並訂閱以取得更新
 * [實作核心服務的教學課程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) -探索有關核心服務的影片和教學課程
 * [Experience League的專家協助](https://landing.adobe.com/experience-league/) -向專家和社群取得引導式學習
 * [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) -與Adobe互動，以確保您充分運用我們的產品
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀Experience Cloud部落格
-* [客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
+* [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
 
 ## 核心服務產品文件
 
 * [核心服務概觀](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （部落格）
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [受眾](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
+* [受眾](對象https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html)
 * [資產](experience-cloud-assets/experience-cloud-assets.md)
-* [客戶屬性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
-* [動態標籤管理](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
+* [動態標籤管理](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID 服務](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Cloud ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## 管理與啟用
@@ -50,7 +50,7 @@ source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 * [常見問題集](admin-getting-started/admin-getting-started.md)
 * [組織和帳戶連結](admin-getting-started/organizations.md)
 * [整合](marketing-cloud-integrations.md)
-* [將Adobe Target與Experience Cloud整合](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [將Adobe Target與Experience Cloud整合](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
 * [Experience Cloud 隱私權及安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Adobe Experience Cloud中的設定檔管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) （部落格）
 * [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
