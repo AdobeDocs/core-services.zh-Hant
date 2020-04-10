@@ -1,10 +1,10 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: 核心服務使用手冊
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
@@ -41,8 +41,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud啟動 {#activation}
    + [啟用概述](activation/activation.md)
-   + [Launch 使用指南](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Launch 使用指南](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)
+   + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
    + [觸發器](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Experience Cloud資產總覽](experience-cloud-assets/experience-cloud-assets.md)
@@ -76,10 +76,10 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [位置](offer-management/placements.md)
    + [促銷活動](offer-management/campaign.md)
 + Experience Cloud發行說明 {#release-notes}
-   + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
++ [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 + 更多資源 {#more-resources}
    + [論壇](https://forums.adobe.com/community/experience-cloud)
    + [術語](terms.md)
