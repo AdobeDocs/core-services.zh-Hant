@@ -32,7 +32,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 * [核心服務概觀](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （部落格）
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
-* [受眾](對象https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html)
+* [受眾](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
 * [資產](experience-cloud-assets/experience-cloud-assets.md)
 * [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
