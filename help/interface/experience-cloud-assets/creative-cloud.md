@@ -6,7 +6,7 @@ seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -29,4 +29,4 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-請參 [閱說明中](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) 的選 [!DNL Target] 件庫。
+請參 [閱說明中](https://docs.adobe.com/help/zh-Hant/target/using/experiences/offers/manage-content.html) 的選 [!DNL Target] 件庫。
