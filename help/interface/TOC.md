@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: 核心服務使用手冊
+user-guide-title: Experience Cloud介面使用指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # 核心服務使用手冊 {#interface}
 
-+ [Experience Cloud和核心服務產品檔案](experience-cloud.md)
++ [Experience Cloud和產品檔案](experience-cloud.md)
 + Experience Cloud的核心服務 {#about-core-services}
    + [核心服務概述](core-services-landing.md)
    + [啟用核心服務的解決方案](core-services/core-services.md)
@@ -74,7 +74,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [選件](offer-management/offers.md)
    + [標籤](offer-management/labels.md)
    + [位置](offer-management/placements.md)
-   + [促銷活動](offer-management/campaign.md)
+   + [Campaign](offer-management/campaign.md)
 + Experience Cloud發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
