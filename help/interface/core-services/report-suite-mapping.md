@@ -5,7 +5,7 @@ seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 瞭解如何將一個或多個報表套裝對應至組織。
 
-Experience Cloud服務（例如Experience Cloud ID服務和People核心服務）與組織相關聯，而非個別報表套裝。 為確保這些服務正常運作，每個Analytics報表套裝都必須對應至組織。 映射過程：
+Experience Cloud服務(例如Experience Cloud ID服務和 [!UICONTROL People])與組織相關聯，而非個別報表套裝。 為確保這些服務正常運作，每個Analytics報表套裝都必須對應至組織。 映射過程：
 
 * 將Experience Cloud組織設為報表套裝的主要組織。
 * 不會變更誰可以存取報表套裝（存取權仍由每個使用者的Adobe Analytics登入帳戶決定）
@@ -105,7 +105,7 @@ The list shows you all the *possible* organizations your report suite could be m
 
 ### 如果我只知道Experience Cloud組織的組織ID，該怎麼辦？ 我要如何查詢組織 ID 的名稱?
 
-您可以在「組織和帳戶設定」中 [找到您的組織名稱](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
+您可以在「組織和帳戶設定」中 [找到您的組織名稱](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html)。
 
 ### 我在「已映射日期」欄中看到日期。 那是誰做的地圖？
 
