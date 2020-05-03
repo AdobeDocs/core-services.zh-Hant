@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution: Core Services
-solution-title: 核心服務
+solution: Experience Platform
+solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
@@ -11,7 +11,7 @@ tutorials-title: 教學課程
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
 
 metadata.md 檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊 TOC.md 檔案。如果您想變更任何使用手冊的 metadata.md 內容，可以在任何 TOC.md 檔案中進行更改。
 
-| 中繼資料 | 作用 |
+| 中繼資料您應留意但不影響分數的問題。 | 作用 |
 |--- |--- |
 | solution-title | 在文章標題中作為連結使用 |
 | solution-hub-url | 開啟 helpx 中樞頁面 |
