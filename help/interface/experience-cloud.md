@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -28,11 +28,10 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀Experience Cloud部落格
 * [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) -聯絡Adobe客戶服務
 
-## 核心服務產品文件
+## Experience Platform產品檔案
 
-* [核心服務概觀](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) （部落格）
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
-* [受眾](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
+* [受眾](對象https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html)
 * [資產](experience-cloud-assets/experience-cloud-assets.md)
 * [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
