@@ -132,14 +132,14 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-說明： [將Adobe Target與Experience Cloud整合對象](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html)
+說明： [將Adobe Target與Experience Cloud整合](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
 
 將 Adobe Target 與 Adobe Analytics 及其他 Experience Cloud 解決方案整合後，即可在上述兩個解決方案中使用相同的資料、受眾、屬性及度量。
 
 **適用的解決方案或服務**
 
 * 客戶屬性： 設定Adobe Target的客 [戶屬](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 性訂閱
-* Experience Cloud觀眾： [Experience Cloud觀眾程式庫對象](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html)
+* Experience Cloud觀眾： [Experience Cloud觀眾程式庫](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
 * 動態標籤管理： [使用DTM實作Adobe Target的最佳實務](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
 * Audience Manager: [Adobe Target資料與Adobe Audience Manager整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
@@ -187,7 +187,7 @@ Help: [Configuring AEM Assets integration with Experience Cloud and Creative Clo
 
 **動態標籤管理器：** 您可以 [使用「動態標籤管理器」為您的搜尋、社交和顯示廣告登陸頁面建立Media Optimizer像素轉換追蹤標籤](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)，以及協力廠商追蹤標籤。 (您也可以直接在 Media Optimizer 中建立 Media Optimizer 標籤)。
 
-**Experience Cloud觀眾：** （具有顯示管理功能的廣告商）您可以將任何對象 [](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audience-library.html) Adobe Experience Cloud觀眾用作顯示廣告的目標。 您可以自動使用您在Adobe Experience Cloud中建立的觀眾和您發佈至Adobe Experience Cloud的Analytics觀眾，而且當Media Optimizer帳戶設定為允許時，您也可以使用Audience Manager的觀眾。 如需有關存取Adobe Experience Cloud和設定檔與觀眾，以及Media Optimizer與Adobe Experience Cloud觀眾之間初始設定的詳細資訊，請連絡您的客戶經理。 **注意：** 如果您也使用Adobe Target，您發佈至Adobe Experience Cloud的觀眾也可以在Adobe Target中進行活動。
+**Experience Cloud觀眾：** （具有顯示管理功能的廣告商）您可以將任何 [](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html) Adobe Experience Cloud觀眾用作顯示廣告的目標。 您可以自動使用您在Adobe Experience Cloud中建立的觀眾和您發佈至Adobe Experience Cloud的Analytics觀眾，而且當Media Optimizer帳戶設定為允許時，您也可以使用Audience Manager的觀眾。 如需有關存取Adobe Experience Cloud和設定檔與觀眾，以及Media Optimizer與Adobe Experience Cloud觀眾之間初始設定的詳細資訊，請連絡您的客戶經理。 **注意：** 如果您也使用Adobe Target，您發佈至Adobe Experience Cloud的觀眾也可以在Adobe Target中進行活動。
 
 **Experience Cloud 資產:** (可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。You must be [logged in to Media Optimizer through Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) to access your Adobe Experience Cloud assets. 如需有關存取 Adobe Experience Cloud 的資訊，請聯絡帳戶管理員。
 
