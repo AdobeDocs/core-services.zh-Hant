@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 啟用
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 部署和管理提供客戶經驗必需的相關分析、行鎖和廣告標記。
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+See [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -39,11 +42,11 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
    <td colname="col2"> <p> 使用 Adobe 動態標籤管理來新增 Adobe Analytics 的逐步指示 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服務的實作指南 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID 服務的實作指南 </a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID服務可跨Experience Cloud解決方案啟用核心功能（包括客戶屬性、觀眾分享和觸發器）。 Adobe 強烈建議實施 ID 服務並利用這些功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> 動態標籤管理產品文件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html" format="https" scope="external"> 動態標籤管理產品文件 </a> </p> </td> 
    <td colname="col2"> <p>進一步瞭解如何使用動態標籤管理來部署Experience Cloud解決方案。 </p> </td>
   </tr> 
  </tbody> 
@@ -69,7 +72,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
   </tr>
   <tr> 
    <td colname="col1"> <p>在Adobe Campaign中使用觸發器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新Trigger服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義觸發器，Adobe Campaign中就會提供它，以支援可推動參與和轉化的再行銷訊息。 此全新的立即可用功能可讓行銷人員根據線上事件（例如購物車放棄、頁面檢視、觀看的視訊等），在適當的時間觸發再行銷訊息。 </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7引入與全新觸發器服務的整合。 這項服務可讓商業使用者根據Adobe Analytics中擷取的線上行為資料，輕鬆定義觸發器。 一旦定義觸發器，Adobe Campaign中就會提供它，以支援可推動參與和轉化的再行銷訊息。 此全新的立即可用功能可讓行銷人員根據線上事件（例如購物車放棄、頁面檢視、觀看的視訊等），在適當的時間觸發再行銷訊息。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -79,4 +82,4 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 適用於 Chrome 的 Adobe Experience Cloud Debugger 擴充功能會檢查您的網頁，協助您找出有關 Experience Cloud 解決方案實作方式的問題。
 
-如需 [說明，請參閱Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) Debugger。
+如需 [說明，請參閱Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html) Debugger。
