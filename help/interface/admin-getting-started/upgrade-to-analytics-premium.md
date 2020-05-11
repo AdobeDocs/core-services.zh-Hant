@@ -8,7 +8,10 @@ title: 升級至 Analytics Premium 和 Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 40%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 Analytics Premium提供您：
 
 * 存取250個轉換變數(eVar)
-* [行動應用程式分析](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [行動應用程式分析](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 * 資料工作台 (視覺資料查詢、規則型歸因、跨頻道分析)
 
 >[!NOTE]
@@ -41,9 +44,9 @@ Analytics Premium提供您：
 
 | 產品 | 升級 |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[貢獻分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[客戶屬性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (高達 200 個)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[客戶屬性](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (高達 200 個)</li></ul> |
 | Data Workbench | <ul><li>演算法歸因</li><li>預先建立的工作區</li></ul> |
-| Analytics平台 | [即時串流](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) （原始資料、控制面板、觸發器） |
+| Analytics Platform | [即時串流](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) （原始資料、控制面板、觸發器） |
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -51,9 +54,9 @@ Analytics Premium提供您：
 
 | 產品 | 升級 |
 |---|---|
-| Reports &amp; Analytics | [貢獻分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 受眾資格和預測性行銷的預先建立工作區。 |
-| Analytics平台 | 即時串流（控制面板和觸發器） |
+| Analytics Platform | 即時串流（控制面板和觸發器） |
 
 ## 客戶360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -63,7 +66,7 @@ Analytics Premium提供您：
 |--- |--- |
 | [客戶屬性](../attributes/attributes.md) | 客戶屬性 (分析和區隔共用) |
 | Data Workbench | <ul><li>衍生客戶屬性</li><li>預先建立的受眾探索工作區</li></ul> |
-| Analytics平台 | [客戶屬性](../attributes/attributes.md) |
+| Analytics Platform | [客戶屬性](../attributes/attributes.md) |
 
 ## 進階歸因 {#section_9E4986A8389946CCAA7D003268343296}
 
@@ -81,7 +84,7 @@ TechOps將審查您的合約承諾，並確定適當的受管理基礎架構、�
 
 假設您已按照[快速入門 - 啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中的實作最新化進行作業，Analytics Standard 和 Premium 使用者即可使用 Experience Cloud 和核心服務。(該程序可協助您導入最新的實作方式，並可讓您成為 Experience Cloud 的管理員)。
 
-加入 Experience Cloud 後，您就能在 [!DNL experiencecloud.adobe.com] 透過 Experience Cloud 登入，並開始使用核心服務 (包括客戶屬性、受眾和行動應用程式分析)。
+After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
 
 ### 管理使用者和群組
 
