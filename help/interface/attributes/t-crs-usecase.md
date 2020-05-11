@@ -1,13 +1,16 @@
 ---
 description: 建立客戶屬性來源及上傳資料。
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: 建立客戶屬性來源及上傳資料。
 seo-title: 建立客戶屬性來源及上傳資料檔案
 solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 66%
 
 ---
 
@@ -28,8 +31,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 啟動資料來源後，您可以:
 
-* [在 Adobe Analytics 中使用客戶屬性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [在 Adobe Target 中使用客戶屬性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [在Adobe Analytics中使用客戶屬性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [在Adobe Target中使用客戶屬性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
@@ -90,9 +93,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
       別名ID對應於您設定其他客戶ID值的特定區域。 例如:
 
-      * **動態標籤管理：** 別名ID對應於 *Experience Cloud ID服務工* 具中「客戶設定」下的 [!UICONTROL 「整合代碼」值][](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) 。
+      * **動態標籤管理：** 別名ID對應於 *Experience Cloud ID服務工* 具中「客戶設定」下的 [!UICONTROL 「整合代碼」值][](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html) 。
 
-      * **訪客API:** 別名ID與您可與每位訪 [客建立關聯的](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 其他客戶ID相對應。
+      * **訪客API:** 別名ID與您可與每位訪 [客建立關聯的](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) 其他客戶ID相對應。
 
          例如，下列位置中的 *&quot;crm_id&quot;*:
 
@@ -100,13 +103,13 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** 別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的&quot;idType&quot;](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+      * **iOS:** 別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的&quot;idType&quot;](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** 別名ID對應於 *syncIdentifiers中的* 「 [idType」](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)。
+      * **Android:** 別名ID對應於 *syncIdentifiers中的* 「 [idType」](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html)。
 
          例如:
 
@@ -161,7 +164,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ![步驟結果](assets/activate_attribute_source.png)
 
-## 在 Adobe Analytics 中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 現在透過 
 <keyword>
@@ -172,13 +175,13 @@ Adobe Analytics
 
 ![](assets/08_crs_usecase.png)
 
-您在 Experience Cloud 發佈區隔時，Experience Cloud 受眾和 Audience Manager 即可使用該區隔。
+當您將區段發佈至Experience Cloud時，Experience Cloud觀眾和Audience Manager中就會提供此區段。
 
 如需詳 [細資訊，請參閱Analytics說明中的](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 「客戶屬性報表」。
 
-## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。清單中的所有客戶屬性都有 [!DNL crs.] 前置字元。視需要將這些屬性與其他資料屬性結合，以建立受眾。
+在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。All Customer Attributes will have the prefix [!DNL crs.] in the list. 視需要將這些屬性與其他資料屬性結合，以建立受眾。
 
 ![](assets/crs-add-attribute-target.png)
 
