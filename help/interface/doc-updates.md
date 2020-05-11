@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 文件更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 70%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
 
 Experience Cloud產品檔案更新的相關資訊。
 
-**已更新：2020年3月10日**
+**已更新： 2020年3月10日**
 
 更新 [第一方Cookie區段中](cookies/cookies-first-party.md#validate) ，驗證主機名稱轉送。
 
-**已更新：2020年2月20日**
+**已更新： 2020年2月20日**
 
 已新 [增檢視Experience Cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)。
 
@@ -30,7 +33,7 @@ Experience Cloud產品檔案更新的相關資訊。
 
 **更新日期: 20118 年 6 月 8 日**
 
-更新[關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，提供有關如何上傳多個檔案的資訊。
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **更新日期: 2018 年 6 月 6 日**
 
@@ -74,7 +77,7 @@ Experience Cloud產品檔案更新的相關資訊。
 
 **更新日期: 2015 年 1 月 15 日**
 
-現在，新增的 Experience Cloud 使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和評論。請參閱[資產共用](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
+新增的Experience Cloud使用者現在可以將資料夾共用至Creative Cloud，並在兩個Cloud間同步資產和注釋。 請參閱 [資產共用](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68)。
 
 **更新日期: 2014 年 7 月 17 日**
 
