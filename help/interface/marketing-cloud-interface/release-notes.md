@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '3809'
+ht-degree: 58%
 
 ---
 
@@ -132,14 +135,14 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## 發行版本 15.9 - 2015 年 9 月 10 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* 修正Audience Manager API效能問題，此問題會在上傳客戶屬性資料時造成間歇性逾時。 (MAC-26305)
-* 修正使用者無法將多達200個客戶屬性新增至訂閱的問題。 (MAC-26188)
+* 修正Audience Manager API效能問題，此問題會在上傳「客戶屬性」資料時造成間歇性逾時。 (MAC-26305)
+* 修正使用者無法將最多200個客戶屬性新增至訂閱的問題。 (MAC-26188)
 * 修正無法從Analytics區段共用觀眾的「觀眾程式庫」問題。 此問題會顯示「收集資料」（0個觀眾）。 為避免此問題，Adobe建議將區段大小保持在每個區段50,000名受眾成員以下。 (MAC-25788)
 * 修正「客戶屬性——編輯結構」頁面上，在變更顯示名稱時造成內容感知錯誤的先前已知問題。 (MAC-25589、AN-103834)
 
 ## Release 15.7 - July 22 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* 修正Analytics報表中無法更新在「檢視／編輯結構描述」頁面（在客戶屬性中）上指定的屬性說明的問題。 (MAC-25985)
+* 修正Analytics報表中無法更新在「檢視／編輯結構」頁面（在「客戶屬性」中）上指定的屬性說明的問題。 (MAC-25985)
 * 已修正無法為已上傳資產呈現縮圖的問題。 (MAC-25863)
 * 修正在報告與分析中建立的新區段無法在Experience Cloud觀眾中使用的問題。 (MAC-25817)
 * 已修正讓適用受眾無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
@@ -176,7 +179,7 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </tbody> 
 </table>
 
-* 已修正妨礙客戶屬性與某些客戶同步的問題。
+* 修正「客戶屬性」無法同步某些客戶的問題。
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的評論中使用日文字的問題。
 
