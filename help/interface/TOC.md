@@ -4,7 +4,10 @@ user-guide-title: Experience Cloud介面使用指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
@@ -27,9 +30,9 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] Cookie](cookies/cookies-s7.md)
-   + [[!DNL搜尋和促銷] Cookie](cookies/cookies-snp.md)
-   + [[!DNL目標] Cookie](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
+   + [[!DNL Target] cookie](cookies/cookies-target.md)
    + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
    + [對協力廠商Cookie支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
@@ -67,7 +70,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [驗證結構](attributes/validate-schema.md)
    + [設定訂閱](attributes/subscription.md)
    + [更新結構](attributes/t-update-schema.md)
-   + [隱私權考量 - 客戶屬性](attributes/privacy-mac.md)
+   + [隱私權考量——客戶屬性](attributes/privacy-mac.md)
 + 選件管理 {#offer-management}
    + [選件管理快速入門](offer-management/getting-started.md)
    + [選件管理工作流程](offer-management/offer-management-workflow.md)
