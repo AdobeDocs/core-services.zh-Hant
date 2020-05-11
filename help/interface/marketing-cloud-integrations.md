@@ -8,6 +8,9 @@ title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+workflow-type: tm+mt
+source-wordcount: '1521'
+ht-degree: 41%
 
 ---
 
@@ -141,7 +144,7 @@ Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en
 * 客戶屬性： 設定Adobe Target的客 [戶屬](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 性訂閱
 * Experience Cloud觀眾： [Experience Cloud觀眾程式庫](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
-* 動態標籤管理： [使用DTM實作Adobe Target的最佳實務](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* 動態標籤管理： [使用DTM實作Adobe Target的最佳實務](https://docs.adobe.com/content/help/zh-Hant/dtm/implementing/overview.html)
 * Audience Manager: [Adobe Target資料與Adobe Audience Manager整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * 促銷活動： [將Adobe Target與Campaign整合](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
