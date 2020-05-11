@@ -1,18 +1,21 @@
 ---
 description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
-seo-title: 隱私權考量 - 客戶屬性
+seo-title: 隱私權考量——客戶屬性
 solution: Experience Cloud
-title: 隱私權考量 - 客戶屬性
+title: 隱私權考量——客戶屬性
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 10%
 
 ---
 
 
-# 隱私權考量 - 客戶屬性
+# 隱私權考量——客戶屬性
 
 針對 Adobe Experience Cloud 中已上傳及使用的個人身份資訊 (PII) 的考量事項和最佳作法。
 
