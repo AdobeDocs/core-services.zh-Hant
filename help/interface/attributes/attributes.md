@@ -1,20 +1,23 @@
 ---
-description: 上傳客戶屬性至 Experience Cloud 的概述和先決條件。
-keywords: core services;customer attributes
-seo-description: 上傳客戶屬性至 Experience Cloud 的概述和先決條件。
+description: 將客戶屬性上傳至Experience Cloud的概述和必要條件。
+keywords: core services;Customer Attributes
+seo-description: 將客戶屬性上傳至Experience Cloud的概述和必要條件。
 seo-title: 客戶屬性
 solution: Experience Cloud
 title: 客戶屬性
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 28%
 
 ---
 
 
 # 客戶屬性
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+導覽至 **[!DNL Experience Platform]** >人 **[!UICONTROL 員]** >客 **[!UICONTROL 戶屬性]**
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
@@ -22,17 +25,17 @@ To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platfo
 
 ## 上傳客戶屬性的先決條件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **解決方案啟用:** [啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
+* **解決方案啟用：** [啟用您的Experience Platform服務解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
-* **群組成員資格:** 若要上傳客戶屬性資料，使用者必須成為以下群組成員:    客戶 [屬性群組](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 您也必須屬於Adobe Analytics群組或Adobe Target群組。
+* **群組成員資格:** 若要上傳客戶屬性資料，使用者必須成為以下群組成員:    [客戶屬性群組](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。 您也必須屬於Adobe Analytics群組或Adobe Target群組。
 
-   若想知道您的公司是否有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應該登入 [!DNL Experience Cloud]。Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. 如果&#x200B;*客戶屬性*&#x200B;顯示為其中一個群組，您就可以開始了。
+   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [!DNL Experience Cloud]. Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. 如果&#x200B;*客戶屬性*&#x200B;顯示為其中一個群組，您就可以開始了。
 
    加入客戶屬性群組的使用者可在 Experience Cloud 介面的左邊看到[!UICONTROL 「客戶屬性」]選單項目.
 
-* **客戶屬性** 需要Adobe Target [!DNL at.js] （任何版本） [!DNL mbox.js] 或58版或更新版本。
+* **客戶屬性** 需要Adobe Target [!DNL at.js] （任何版本）或 [!DNL mbox.js] 58版或更新版本。
 
-   請參 [閱如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js實施](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
+   請參 [閱如何部署at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) 或 [Mbox.js實施](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
