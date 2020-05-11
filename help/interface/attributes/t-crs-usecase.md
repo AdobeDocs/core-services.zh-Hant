@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 66%
+source-wordcount: '1177'
+ht-degree: 63%
 
 ---
 
@@ -28,23 +28,18 @@ ht-degree: 66%
 1. [驗證結構](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [設定訂閱及啟動屬性來源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 啟動資料來源後，您可以:
 
 * [在Adobe Analytics中使用客戶屬性](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [在Adobe Target中使用客戶屬性](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派至客戶屬性的產品設定檔 (客戶屬性 - 預設存取。( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
+>若要存取此功能，必須將使用者指派至客戶屬性的產品設定檔 (客戶屬性 - 預設存取。導覽至「 **[!UICONTROL 管理]** >管 **[!UICONTROL 理控制台]** > **[!UICONTROL 產品]**」。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
->解決方案群組會籍也是必要的。
+>若要使用「客戶屬性」功能，使用者也必須屬於解決方案層級的群組(Analytics或 [!DNL Target])。
 
-若要使用「客戶屬性」功能，使用者必須在使用者管理中隸屬於「Adobe 客戶屬性」群組以及解決方案等級的群組 (Analytics 或 [!DNL Target]).
-
-請參閱[使用者和群組](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## 建立資料檔案 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ ht-degree: 66%
 
 1. 建立 `.csv`.
 
-
    >[!NOTE]
    >
    >在程序後面的步驟中，您將以拖放 `.csv` 的方式上傳檔案。不過，如果您[透過 FTP 上傳](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，則另外還需要一個與 `.csv` 同名的 `.fin` 檔案。
-
-
 
    企業客戶資料檔案範例:
 
