@@ -1,13 +1,16 @@
 ---
-description: 實作Experience Cloud並成為管理員。 此程式會針對客戶屬性和受眾等功能，將您的解決方案最新化。
-keywords: core services;customer attributes
-seo-description: 實作Experience Cloud並成為管理員。 此程式會針對客戶屬性和受眾等功能，將您的解決方案最新化。
+description: 實作Experience Cloud並成為管理員。 此程式會針對「客戶屬性」和「受眾」等功能，將您的解決方案最新化。
+keywords: core services;Customer Attributes
+seo-description: 實作Experience Cloud並成為管理員。 此程式會針對「客戶屬性」和「受眾」等功能，將您的解決方案最新化。
 seo-title: 啟用核心服務的 Experience Cloud 解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 27%
 
 ---
 
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >所有Analytics客戶都已布建核心服務，例如客戶屬性。 如果您還不是 Analytics 客戶，請聯絡客戶服務，請他們幫您進行佈建。
+   >所有Analytics客戶都已布建核心服務，例如「客戶屬性」。 如果您還不是 Analytics 客戶，請聯絡客戶服務，請他們幫您進行佈建。
 
 ## 步驟 6.確認核心服務實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
