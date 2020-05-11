@@ -2,7 +2,7 @@
 title: 對通用資料保護法規的客戶屬性支援
 description: 對通用資料保護法規的客戶屬性支援
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 對通用資料保護法規的客戶屬性支援
 
-本頁說明客戶屬性如何支援一般資料保護規則(GDPR)。
+本頁介紹客戶屬性如何支援通用資料保護規則(GDPR)。
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Adobe Experience Cloud是Adobe代表其客戶收到和儲存的任何個人資料的資料處理者。 身為資料掌控者，您可以代表您決定Adobe Experience Cloud處理和儲存的個人資料。
 
-本檔案說明客 [!UICONTROL 戶屬性] ，如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支援您資料主體的GDPR資料存取和刪除權限。
+本檔案說明客 [!UICONTROL 戶屬性] (Customer Attributes)如何使用Adobe Experience Platform隱私服務API和隱私服務UI支援您資料主體的GDPR資料存取和刪除權。
 
 如需有關GDPR對您企業的意義的詳細資訊，請參 [閱GDPR和您的企業](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
-## 傳送客戶屬性要求的必 [!UICONTROL 要設定]
+## 傳送客戶屬性請求的必 [!UICONTROL 要設定]
 
 若要要求存取和刪除客戶屬 [!UICONTROL 性的資料]，您必須：
 
