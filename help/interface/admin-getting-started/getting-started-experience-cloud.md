@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 登入並管理您的Experience Cloud設定檔設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 48%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console基本說明](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | 瞭解開始使用Experience Cloud解決方案所需的初始步驟。 |
-| [設定身分](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定義並設定身分系統，以驗證您的使用者。 |
-| [使用者管理](https://helpx.adobe.com/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
+| [Admin Console基本說明](https://helpx.adobe.com/tw/marketing-cloud/how-to/first-time-setup.html) | 瞭解開始使用Experience Cloud解決方案所需的初始步驟。 |
+| [設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | 定義並設定身分系統，以驗證您的使用者。 |
+| [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
 | [啟動Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console是管理整個組織中Adobe使用者和產品權益的中央位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
 | [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud資產可讓行銷人員使用Creative Cloud與設計人員共用、同步資料夾，以及與其他創意資產協作。 您可以在此處管理已核准與您的組織協作的Creative Cloud使用者。 |
 | [對應您的報表套裝](../core-services/core-services.md) | （僅限Analytics）Experience Cloud核心服務與組織相關聯，而非個別報表套裝。 為確保這些服務正常運作，每個Analytics報表套裝都必須對應至組織。 (此工作是更廣泛工作流程的一部分，可 [讓Analytics適用於核心服務](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C))。 |
@@ -151,4 +154,4 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 |--- |--- |--- |--- |
 | tenantId | 使用者應登入的租用戶名稱。 | aem62tenant | 可選 |
 | destURL | 使用者應前往之地的完整URL。 | https://sc.omniture.com/x/1_7xxzf | 可選 |
-| solutionname | destURL參數擁有者的MAC解決方案名稱。 用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如：如果URL包含social的解決方案名稱，而提供的destURL是分析URL，則即使使用者沒有分析的存取權，仍會將其重新導向至URL。 MAC不會驗證destURL的擁有者是否與解決方案名稱同步。 | analytics | 若使用destURL參數，則此為必要項。 |
+| solutionname | destURL參數擁有者的MAC解決方案名稱。 用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如： 如果URL包含social的解決方案名稱，而提供的destURL是分析URL，則即使使用者沒有分析的存取權，仍會將其重新導向至URL。 MAC不會驗證destURL的擁有者是否與解決方案名稱同步。 | analytics | 若使用destURL參數，則此為必要項。 |
