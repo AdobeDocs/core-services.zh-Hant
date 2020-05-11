@@ -1,13 +1,16 @@
 ---
 description: 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。會根據這些設定來建立結構。 此架構用於驗證將來上傳至此資料來源的所有資料。 此映射過程不會更改原始資料。
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。會根據這些設定來建立結構。 此架構用於驗證將來上傳至此資料來源的所有資料。 此映射過程不會更改原始資料。
 seo-title: 驗證結構
 solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 51%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 >[!NOTE]
 >
->在驗證後更新結構會刪除客戶屬性。請參閱[更新結構 (也會刪除屬性)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
+>驗證後更新結構會刪除客戶屬性。 請參閱[更新結構 (也會刪除屬性)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
 **[!UICONTROL 客戶屬性來源]** >建 **[!UICONTROL 立新客戶屬性來源]** >檢 **[!UICONTROL 視／編輯結構]**
 
