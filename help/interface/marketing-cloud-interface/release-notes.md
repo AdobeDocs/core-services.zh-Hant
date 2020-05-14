@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '3809'
-ht-degree: 58%
+source-wordcount: '3929'
+ht-degree: 59%
 
 ---
 
@@ -22,6 +22,22 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 如需所有解決方案的發行說明，請參 [閱Experience Cloud發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
+
+## 2020年4月至4月
+
+* 淘汰 Experience Cloud[!UICONTROL 「摘要」]頁面。(EXC-8505)
+* Experience Cloud 登入頁面更新，反映新的品牌元素。(EXC-10747)
+
+## 2020年2月至2月
+
+| 功能 | 說明 |
+| -----------| ---------- |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
+
+**修正**
+
+* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他設定檔狀態。(MCUI-10231)
+* **觸發核心服務：**&#x200B;由於鮮少使用，建立「放棄」類型觸發時的傾向分數「30 天內回訪的可能性」現已移除。(MCUI-10056)
 
 ## 2020年1月至1月
 
