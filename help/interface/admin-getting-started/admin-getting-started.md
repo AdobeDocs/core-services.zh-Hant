@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 index: true
 translation-type: tm+mt
-source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
+source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
 
 >[!IMPORTANT]
 >
->Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
+>Admin Console 中的使用者管理引進了新的詞語、介面和導覽。下列資訊說明了這些變更，並提供額外說明資源的連結，This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -48,13 +51,13 @@ What to do
 若要登入Admin Console:
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. 輸入 [您的Adobe ID或Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) 和密碼。
+1. 輸入 [您的Adobe ID或Enterprise ID](https://helpx.adobe.com/tw/enterprise/help/identity.html) 和密碼。
 
 Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **相關說明**
 
-[Creative Cloud和Document Cloud的管理使用指南](https://helpx.adobe.com/enterprise/using/users.html) 。 有些資訊與Experience Cloud使用者管理相關，例如管 [理身分類型](https://helpx.adobe.com/enterprise/help/identity.html)。
+[Creative Cloud和Document Cloud的管理使用指南](https://helpx.adobe.com/tw/enterprise/using/users.html) 。 有些資訊與Experience Cloud使用者管理相關，例如管 [理身分類型](https://helpx.adobe.com/tw/enterprise/help/identity.html)。
 
 [登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) ，以管理密碼、組織和通知。
 
@@ -84,16 +87,16 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 **相關說明**
 
-[Analytics使用者ID移轉](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+[Analytics使用者ID移轉](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在Adobe Target中，工作區是產品設定檔。 它可讓組織指派一組特定使用者給一組特定屬性。 工作區有許多地方皆與 Adobe Analytics 報表套裝相似。
 
 請參閱:
-* [企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* 影片：如 [何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)
+* [管理產品和個人檔案](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
+* 影片： [如何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 促銷活動 - 產品設定檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -108,6 +111,12 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 「體驗平台啟動」會顯示在「管理控制台」的「產品」頁面上。 您可以在Launch產品設定檔中加入其他解決方案和服務。
 
 如需 [Admin Console中使用者權限的相關資訊](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) ，請參閱使用者管理，並設定啟動特定選項，包括指派設定檔的權限。
+
+## Experience Manager 雲端服務
+
+Adobe企業客戶在Adobe管理控制台中以IMS組織的形式呈現。 這是Adobe客戶用來管理其使用者和群組產品權益的入口網站。 AEM客戶可使用Adobe Admin Console來管理其產品權益以及AEM雲端服務的IMS驗證。
+
+See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
 
 ## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -134,9 +143,9 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 如需更多協助，請參閱：
 
-* [管理產品和個人檔案](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Adobe Target說明中的「企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) 」，以取得詳細資訊。
-* 影片：如 [何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和個人檔案](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
+* [Adobe Target說明中的「企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html) 」，以取得詳細資訊。
+* 影片： [如何在Adobe Admin Console中設定Adobe Target工作區](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -183,10 +192,10 @@ Experience Cloud中支援的瀏覽器。
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(For example, [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html) does not support [!DNL Safari].)
 
 ### 解決方案和產品需求
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html)
