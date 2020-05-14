@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud介面使用指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -62,10 +62,10 @@ ht-degree: 68%
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
 + Experience Cloud中的客戶屬性 {#customer-attributes}
-   + [客戶屬性概述](attributes/attributes.md)
+   + [客戶屬性概觀](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
-   + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
+   + [建立客戶屬性來源並上傳資料檔案](attributes/t-crs-usecase.md)
    + [選用 - 透過 FTP 上傳資料檔案](attributes/t-upload-attributes-ftp.md)
    + [驗證結構](attributes/validate-schema.md)
    + [設定訂閱](attributes/subscription.md)
