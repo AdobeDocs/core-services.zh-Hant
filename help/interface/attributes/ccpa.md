@@ -2,7 +2,7 @@
 title: California Consumer Privacy Act的客戶屬性支援
 description: California Consumer Privacy Act的客戶屬性支援
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # California Consumer Privacy Act的客戶屬性支援
 
-本頁說明 [!UICONTROL 客戶屬性] 對加州消費者隱私法(CCPA)的支援。
+本頁說明 [!UICONTROL 客戶屬性對] California Consumer Privacy Act(CCPA)的支援。
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ CCPA是加州的新隱私權法，自2020年1月1日起生效。 CCPA為加州�
 
 Adobe Experience Cloud是您的服務供應商，可協助您的企業履行CCPA規定的義務，此義務適用於使用Experience Cloud產品和服務，包括管理存取和刪除個人資訊的要求。
 
-本檔案說明客 [!UICONTROL 戶屬性] ，如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI支援您資料主體的CCPA資料存取和刪除權限。
+本檔案說明「客 [!UICONTROL 戶屬性] 」如何使用Adobe Experience Platform Privacy Service API和「隱私服務」UI支援您資料主體的CCPA資料存取和刪除權限。
 
 如需CCPA專用Adobe隱私權服務的詳細資訊，請參閱 [Adobe隱私權中心](https://www.adobe.com/privacy/ccpa.html)。
 
-## 傳送客戶屬性要求的必 [!UICONTROL 要設定]
+## 傳送客戶屬性請求的必 [!UICONTROL 要設定]
 
 若要要求存取和刪除客戶屬 [!UICONTROL 性的資料]，您必須：
 
