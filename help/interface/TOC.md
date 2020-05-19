@@ -4,10 +4,10 @@ user-guide-title: Experience Cloud介面使用指南
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 65%
+source-wordcount: '361'
+ht-degree: 67%
 
 ---
 
@@ -73,13 +73,6 @@ ht-degree: 65%
    + [支援通用資料保護法規](attributes/gdpr.md)
    + [支援加州消費者隱私權法案](attributes/ccpa.md)
    + [隱私權考量——客戶屬性](attributes/privacy-mac.md)
-+ 選件管理 {#offer-management}
-   + [選件管理快速入門](offer-management/getting-started.md)
-   + [選件管理工作流程](offer-management/offer-management-workflow.md)
-   + [選件](offer-management/offers.md)
-   + [標籤](offer-management/labels.md)
-   + [位置](offer-management/placements.md)
-   + [Campaign](offer-management/campaign.md)
 + Experience Cloud發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
