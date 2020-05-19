@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 文件更新 - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 70%
+source-wordcount: '251'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 70%
 # 文件更新 - Experience Cloud
 
 Experience Cloud產品檔案更新的相關資訊。
+
+**已更新： 2020年5月19日**
+
+詳細的選件管理檔案。
+
+**已更新： 2020年5月15日**
+
+新增下列頁面：
+
+* [支援通用資料保護法規](attributes/gdpr.md)
+* [支援加州消費者隱私權法案](attributes/ccpa.md)
 
 **已更新： 2020年3月10日**
 
