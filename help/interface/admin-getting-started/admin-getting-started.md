@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 index: true
 translation-type: tm+mt
-source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1455'
 ht-degree: 35%
 
 ---
@@ -116,7 +116,7 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 Adobe企業客戶在Adobe管理控制台中以IMS組織的形式呈現。 這是Adobe客戶用來管理其使用者和群組產品權益的入口網站。 AEM客戶可使用Adobe Admin Console來管理其產品權益以及AEM雲端服務的IMS驗證。
 
-See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -169,7 +169,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 在「管理控制台」中，您可以將有限的管理權限委派給組織中的其他人。 委派角色可讓使用者管理對使用者的軟體存取權、提供存取部署功能，並可當成支援委派。
 
-例如，您可以：
+例如，您可以:
 
 * 允許您的創意主管授與Creative Cloud的存取權。
 * 允許您的行銷主管授與Experience Cloud的存取權。
@@ -197,5 +197,5 @@ Experience Cloud中支援的瀏覽器。
 ### 解決方案和產品需求
 
 * [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html)
-* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html)
