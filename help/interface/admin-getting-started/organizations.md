@@ -6,8 +6,11 @@ seo-title: 組織和帳戶連結
 solution: Marketing Cloud
 title: 組織和帳戶連結
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。通常，組織就是您的公司名稱。 但是，公司可以有許多組織。
+** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
-此外，您可能需要找到組織ID以利支援。 您可以使用&#x200B;**[!UICONTROL 「組織」]**&#x200B;功能表確認自己所在的組織是否正確，或者切換組織。
+此外，您可能需要找到組織 ID 以方便支援。您可以使用&#x200B;**[!UICONTROL 「組織」]**&#x200B;功能表確認自己所在的組織是否正確，或者切換組織。
 
 ![步驟結果](assets/organization-switch.png)
 
@@ -34,7 +37,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## 將解決方案帳戶連結至 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-通常，Experience Cloud管理員會授與解決方案和服務的存取權。 在少數情況下，您可能需要將解決方案認證連結至Adobe ID。
+通常 Experience Cloud 管理員會授予解決方案和服務的存取權。少數情況下，您可能需要將解決方案憑證連結至 Adobe ID。
 
 1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
@@ -64,9 +67,9 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## 帳戶連結問題疑難排解 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-說明帳戶連結產生的問題。
+帳戶連結所產生問題的說明。
 
-通常，帳戶連結會失敗，因為Adobe ID已連結至先前的使用者。 當帳戶連結失敗時，您可以：
+通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡Adobe支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+* [聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 * 在問題待解決之際，您仍可使用標準登入存取解決方案。
