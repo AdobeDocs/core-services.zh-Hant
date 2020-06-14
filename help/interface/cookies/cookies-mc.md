@@ -6,8 +6,11 @@ seo-title: Experience Cloud Cookie
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方案所使用的訪客 ID。
 
-**Cookie 名稱: s_ecid**
+**Cookie 名稱：s_ecid**
 
 <table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
  <thead> 
@@ -32,11 +35,11 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p>2年 </p> </td> 
+   <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此Cookie的目的是允許第一方狀態中持續的ID追蹤，並在AMCV Cookie過期時用作參考ID。 請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許以第一方狀態進行永久性 ID 追蹤，並在 AMCV Cookie 過期時作為參考 ID 使用。請在此查看 AMCV Cookie，以瞭解詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -49,11 +52,11 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
  </tbody> 
 </table>
 
-**Cookie 名稱: AMCV_###@AdobeOrg**
+**Cookie 名稱：AMCV_###@AdobeOrg**
 
-The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters, such as `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+另請參閱 [Cookie 和 ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -65,11 +68,11 @@ See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p> Experience Cloud解決方案使用的獨特訪客ID。 </p> </td> 
+   <td colname="col2"> <p> Experience Cloud 解決方案使用的不重複訪客 ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p> 2年 </p> </td> 
+   <td colname="col2"> <p> 2 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
@@ -77,11 +80,11 @@ See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p> 此Cookie會儲存在網站的網域（而非影像要求的網域）。 </p> </td> 
+   <td colname="col2"> <p> 此 Cookie 會儲存在網站的網域中 (而非影像請求的網域)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
-   <td colname="col2"> <p> 視情況而定，大部分客戶可預期此Cookie的長度約為200位元組。 </p> </td> 
+   <td colname="col2"> <p> 視情況而異，大部分客戶可預期此 Cookie 的長度約為 200 位元組。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
