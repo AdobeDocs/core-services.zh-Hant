@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Experience Cloud介面使用指南
+user-guide-title: Experience Cloud 介面使用手冊
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
@@ -8,48 +8,48 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # 核心服務使用手冊 {#interface}
 
-+ [Experience Cloud和產品檔案](experience-cloud.md)
-+ Experience Cloud的核心服務 {#about-core-services}
++ [Experience Cloud 與產品文件](experience-cloud.md)
++ Experience Cloud 的核心服務 {#about-core-services}
    + [核心服務概述](core-services-landing.md)
    + [啟用核心服務的解決方案](core-services/core-services.md)
    + [將報表套裝對應至組織](core-services/report-suite-mapping.md)
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
 + [Experience Cloud 整合](marketing-cloud-integrations.md)
 + Experience Cloud Cookie {#ec-cookies}
-   + [Experience Cloud Cookie總覽](cookies/cookies-privacy.md)
-   + [Experience Cloud中的第一方Cookie](cookies/cookies-first-party.md)
+   + [Experience Cloud Cookie 概述](cookies/cookies-privacy.md)
+   + [Experience Cloud 中的第一方 Cookie](cookies/cookies-first-party.md)
    + [Analytics Cookie](cookies/cookies-analytics.md)
    + [Audience Manager Cookie](cookies/cookies-am.md)
    + [Data Connectors Cookie](cookies/cookies-dc.md)
    + [Data Workbench Cookie](cookies/cookies-insight.md)
    + [Experience Cloud Cookie](cookies/cookies-mc.md)
    + [Advertising Cloud Cookie](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
-   + [[!DNL Target] cookie](cookies/cookies-target.md)
-   + [啟用瀏覽器 Cookie 的隱私權設定](cookies/browser-cookie-settings.md)
-   + [對協力廠商Cookie支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
+   + [[!DNL Scene7] Cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] Cookie](cookies/cookies-snp.md)
+   + [[!DNL Target] Cookie](cookies/cookies-target.md)
+   + [啟用瀏覽器 Cookie 的隱私設定](cookies/browser-cookie-settings.md)
+   + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
-   + [管理Experience Cloud使用者身分識別和產品(Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [檢視Experience Cloud使用者詳細資訊（管理工具）](admin-getting-started/admin-tool-experience-cloud.md)
+   + [管理 Experience Cloud 使用者身分和產品 (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [檢視 Experience Cloud 使用者詳細資訊 (Admin Console)](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
    + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud啟動 {#activation}
-   + [啟用概述](activation/activation.md)
-   + [Launch 使用指南](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)
-   + [動態標籤管理員使用指南](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
-   + [觸發器](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Experience Cloud資產總覽](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud Activation {#activation}
+   + [Activation 概述](activation/activation.md)
+   + [Launch 使用手冊](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)
+   + [動態標籤管理器使用手冊](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
+   + [Triggers](activation/triggers.md)
++ Experience Cloud 資產 {#assets}
+   + [Experience Cloud 資產概述](experience-cloud-assets/experience-cloud-assets.md)
    + [與 Creative Cloud 共用 Experience Cloud 資料夾和資產](experience-cloud-assets/creative-cloud.md)
    + [管理 Creative Cloud 使用者](experience-cloud-assets/t-admin-add-cc-user.md)
    + [共用 Experience Cloud 資產資料夾](experience-cloud-assets/t-share-creative-cloud.md)
@@ -58,11 +58,11 @@ ht-degree: 67%
    + [停用共用資料夾的同步化](experience-cloud-assets/t-disable-asset-sync.md)
    + [針對共用的資料檔案需求](experience-cloud-assets/assets-file-reqs.md)
    + [共用資料夾的行為](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud中的受眾 {#audiences}
++ Experience Cloud 中的受眾 {#audiences}
    + [受眾概述](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud中的客戶屬性 {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [客戶屬性概觀](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
@@ -74,7 +74,7 @@ ht-degree: 67%
    + [支援通用資料保護法規](attributes/gdpr.md)
    + [支援加州消費者隱私權法案](attributes/ccpa.md)
    + [隱私權考量——客戶屬性](attributes/privacy-mac.md)
-+ Experience Cloud發行說明 {#release-notes}
++ Experience Cloud 發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
