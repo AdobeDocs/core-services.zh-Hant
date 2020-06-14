@@ -7,30 +7,33 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+workflow-type: ht
+source-wordcount: '1461'
+ht-degree: 100%
 
 ---
 
 
 # 關於第一方 Cookie
 
-Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的Cookie源自Adobe代管的網域，稱為第三方Cookie。
+Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自由 Adobe 託管的網域，稱之為第三方 Cookie。
 
-許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要支援您追蹤訪客與網站的互動方式，您可以實作第一方Cookie。
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要支援您追蹤訪客與網站互動的方式，您可以實作第一方 Cookie。
 
-實作第一方Cookie有兩個選項：
+實作第一方 Cookie 有兩種選項：
 
-* Experience Platform ID 服務。ID 服務可使用 JavaScript 在第一方情境中設定 Cookie。
-* 您公司DNS伺服器上的DNS項目，以設定Adobe代管網域的CNAME別名。 請注意，雖然使用CNAME的Adobe產品支援各種不同，但在所有情況下，CNAME都會用來為特定客戶建立受信任的第一方端點，並歸該客戶所有。 如果該客戶控制多個網域，他們可能會使用單一CNAME端點來追蹤跨網域的使用者，但由於這需要CNAME網域以外所有網域的協力廠商Cookie，因此當協力廠商Cookie遭到封鎖時，就無法運作，因此不建議使用。 Adobe CNAME永遠不會用於追蹤不同客戶所擁有網域中的個人或裝置。
+* Experience Platform ID Service。ID Service 可使用 JavaScript 在第一方情境中設定 Cookie。
+* 貴公司 DNS 伺服器上的 DNS 項目，用於設定 Adobe 所託管網域的 CNAME 別名。請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。如果該客戶控制著多個網域，他們可能會使用單一 CNAME 端點來追蹤跨其網域的使用者，但這需要 CNAME 網域以外的所有網域使用第三方 Cookie，如此一來，當第三方 Cookie 遭到封鎖就會無法運作，因此不建議使用。Adobe CNAME 永遠不會用於追蹤跨不同客戶所擁有網域中的個人或裝置。
 
-即使將第一個選項與Experience Cloud ID服務搭配使用，Apple的ITP也會讓第一方Cookie短暫存在，因此最好搭配第二個選項使用。
+即使將第一個選項與 Experience Cloud ID Service 搭配使用，Apple 的 ITP 也會讓第一方 Cookie 短暫有效，因此最好搭配第二個選項使用。
 
-對於使用CNAME的第二個選項，如果您的網站有使用HTTPS通訊協定的安全頁面，您可以與Adobe合作取得SSL憑證，以實作第一方Cookie。 Adobe強烈建議您只使用HTTPS來收集資料，因為我們將於2020年下半年停止支援HTTP收集。
+針對使用 CNAME 的第二個選項，如果您的網站具有使用 HTTPS 通訊協定的安全頁面，您可以與 Adobe 合作取得 SSL 憑證以實作第一方 Cookie。Adobe 強烈建議您只使用 HTTPS 來資料收集，因為我們將於 2020 年下半年停止支援以 HTTP 收集。
 
 SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領先的憑證授權機構 (CA) DigiCert 建立合作關係，並開發出整合程序，將憑證的購買和管理作業自動化。
 
-取得您的許可後，我們就會與我們的 CA 合作，為您核發、部署及管理新的 SHA-2 SSL 憑證。Adobe將繼續管理此憑證，並確保意外到期、撤銷或安全性顧慮不會威脅貴組織安全收集的可用性。
+取得您的許可後，我們就會與我們的 CA 合作，為您核發、部署及管理新的 SHA-2 SSL 憑證。Adobe 會繼續管理此憑證，並確保未預期的過期、撤銷或安全性疑慮等問題不會影響貴組織安全收集資料的相關作業。
 
 ## Adobe Managed Certificate Program
 
@@ -46,23 +49,23 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 1. 建立 CNAME 記錄 (請參閱下方說明)。
 
-   收到票證後，客戶服務代表應提供您一對CNAME記錄。 請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAMES將類似於：
+   收到支援工單時，客戶服務代表會提供您一組 CNAME 記錄。請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAMES 將類似於以下內容：
 
-   **Secure** —— 例如，主機名指 `smetrics.example.com` 向： `example.com.ssl.d1.omtrdc.net`。
+   **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.ssl.d1.omtrdc.net`。
 
-   **不安全** - 例如，主機名稱 `metrics.example.com` 指向: `example.com.d1.omtrdc.net`。
+   **不安全** - 例如，主機名稱 `metrics.example.com` 指向：`example.com.d1.omtrdc.net`。
 
 1. 這些 CNAME 設定完成時，Adobe 會與 DigiCert 合作，購買憑證並安裝到 Adobe 的生產伺服器。
 
-   如果您有現有的實作，則應考慮訪客移轉，以維護現有訪客。 將憑證即時推送至Adobe的生產環境後，您可以將追蹤伺服器變數更新為新的主機名稱。 Meaning, if the site is not secure (HTTP), update the `s.trackingServer`. If the site is secure (HTTPS), update both `s.trackingServer` and `s.trackingServerSecure` variables.
+   如果您已有實作，可考慮將訪客移轉以保留現有的訪客。在 Adobe 的生產環境中將憑證上線後，您就可以將追蹤伺服器變數更新為新主機名稱。換句話說，如果網站不安全 (HTTP)，請更新 `s.trackingServer`。如果網站安全 (HTTPS)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
 
-1. [驗證主機名稱轉送](#validate) （請參閱下面）。
+1. [驗證主機名稱轉送](#validate) (請參閱下文)。
 
-1. [更新實作代碼](#update) （請參閱下文）。
+1. [更新實作程式碼](#update) (請參閱下文)。
 
 ### 維護和更新
 
-SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。實作即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若要讓Adobe續約您的主機名稱，一位受支援的使用者必須回覆Adobe寄出的電子郵件，並指出您打算繼續使用即將到期的主機名稱來收集資料。 如此一來，Adobe 就會自動購買並安裝新憑證。
+SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。實作即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若希望 Adobe 續約您的主機名稱，需由一名支援的使用者代表回覆 Adobe 的電子郵件，並說明貴組織打算繼續使用該即將到期的主機名稱來收集資料。如此一來，Adobe 就會自動購買並安裝新憑證。
 
 ### 常見問題
 
@@ -72,13 +75,13 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 | **Adobe 如何為網域購買憑證?** | 唯有當您將指定的主機名稱 (例如 smetrics.example.com) 指向 Adobe 擁有的主機名稱時，才能購買憑證。基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
 | **我可以要求撤銷憑證嗎?** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
 | **此憑證是否會使用 SHA-2 加密?** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
-| **這是否會產生額外費用?** | 否。Adobe目前免費為所有Adobe數位體驗客戶提供此服務。 |
+| **這是否會產生額外費用?** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
 
 ## 建立 CNAME 記錄
 
 您組織的網路營運團隊應建立新 CNAME 記錄，以設定 DNS 伺服器。每個主機名稱都會將資料轉寄給 Adobe 的資料收集伺服器。
 
-FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向的 CNAME。例如:
+FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向的 CNAME。例如：
 
 * **SSL 主機名稱**:`smetrics.mysite.com`
 * **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
@@ -89,37 +92,41 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 >[!N注意：]
 >
->Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式，但由於最近Apple ITP變更，因此即使使用Experience Cloud ID服務，仍建議您分配CNAME。
+>Experience Cloud 訪客 ID 服務提供設定 CNAME 以啟用第一方 Cookie 的替代方式，但由於最近 Apple ITP 變更，因此即便有使用 Experience Cloud ID Service，仍建議您配置 CNAME。
 
-## 驗證主機名轉發 {#validate}
+## 驗證主機名稱轉送 {#validate}
 
-下列方法可供驗證：
+下列方法可用於進行驗證：
 
-### 使用瀏覽器驗證
+### 使用瀏覽器進行驗證
 
-如果您已設定CNAME並安裝憑證，則可使用瀏覽器進行驗證：
+如果您已設定 CNAME 且已安裝憑證，便可使用瀏覽器進行驗證：
 
 `https://sstats.adobe.com/_check`
 
 >[!N注意：]
 >
->如果未安裝憑證，您會看到安全性警告。
+>如果未安裝憑證，系統會顯示安全性警告。
 
-### 驗證使用 [!DNL curl]
+### 使用 [!DNL curl] 進行驗證
 
-Adobe建議從命令列使 [用[!DNL](https://curl.haxx.se/)curl]。 (使[!DNL Windows] 用者可從以下 [!DNL curl] 位置安裝： <https://curl.haxx.se/windows/>)
+Adobe 建議從命令列使用 [!DNL [curl](https://curl.haxx.se/)] 。([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)
 
-如果您有CNAME但未安裝憑證，請執行：回`curl -k https://sstats.adobe.com/_check`應： `SUCCESS`
+如果您已設定 CNAME 但未安裝憑證，請執行：
+`curl -k https://sstats.adobe.com/_check`
+回應：`SUCCESS`
 
-(此值 `-k` 會停用安全性警告。)
+(`-k` 值會停用安全性警告。)
 
-如果您已設定CNAME且已安裝憑證，請執行：回`curl https://sstats.adobe.com/_check`應： `SUCCESS`
+如果您已設定 CNAME 且已安裝憑證，請執行：
+`curl https://sstats.adobe.com/_check`
+回應：`SUCCESS`
 
-### 驗證使用 [!DNL nslookup]
+### 使用 [!DNL nslookup] 進行驗證
 
-您可以用 `nslookup` 於驗證。 以 `sstats.adobe.com`示例，開啟命令提示符並鍵入 `nslookup sstats.adobe.com`
+您可以使用 `nslookup` 進行驗證。以 `sstats.adobe.com` 為例，開啟命令提示並輸入 `nslookup sstats.adobe.com`
 
-如果一切皆已成功設定，您會看到類似下列的回訪：
+如果一切皆設定成功，您會看到系統傳回類似下列的內容：
 
 ```
 nslookup sstats.adobe.com
@@ -139,9 +146,9 @@ Address: 54.187.216.46
 
 編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件:
 
-* 請求SSL憑證，請遵循 *Adobe Managed Certificate Program的「實作* 」區段中所述的 [步驟](#adobe-managed-certificate-program)。
+* 依照 [Adobe Managed Certificate Program](#adobe-managed-certificate-program) 的&#x200B;*實作*&#x200B;一節中所述步驟操作，請求 SSL 憑證。
 * 建立 CNAME 記錄 (請參閱上方)。
-* 驗證主機名稱（請參閱上文）。
+* 驗證主機名稱 (請參閱上文)。
 
 確認主機名稱會回應並將資料轉寄給 Adobe 資料收集伺服器後，您就可以變更實作，指向您自己的資料收集主機名稱。
 
@@ -152,6 +159,6 @@ Address: 54.187.216.46
 
 1. 如果您要從長期實作改為第一方 Cookie，或變更成其他第一方收集主機名稱，建議您將訪客從舊有網域移轉到新網域。
 
-請參 [閱Analytics實作指南](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) 中的訪客移轉。
+請參閱「Analytics 實作指南」中的[訪客移轉](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/visitor-identification.html)。
 
 在您上傳 JavaScript 檔案後，系統就會執行第一方 Cookie 資料收集所需的所有設定。建議您在接下來幾小時監控 Analytics 報告，以確認系統能繼續正常收集資料。如果未正常運作，請確認前述所有步驟均已完成，並推派組織的任何一名支援使用者連絡客戶服務。
