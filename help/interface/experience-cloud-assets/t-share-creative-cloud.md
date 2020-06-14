@@ -6,8 +6,11 @@ seo-title: 共用 Experience Cloud 資產資料夾
 solution: Experience Cloud
 title: 共用 Experience Cloud 資產資料夾
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -33,13 +36,13 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 1. 若要存取資料夾內容，按一下&#x200B;**[!UICONTROL 開啟資料夾]** (或&#x200B;**[!UICONTROL 在網頁上檢視]**)。
 
    ![步驟結果](assets/creative_cloud_open_folder.png)
-1. 繼續操作，在共用資產上新增評論:
+1. 繼續操作，在共用資產上新增註解：
 
-   在 Creative Cloud 中，您可以在影像中按一下，然後按&#x200B;**[!UICONTROL 「活動」]**&#x200B;在影像上新增評論。評論會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
+   在 Creative Cloud 中，您可以在影像中按一下，然後按&#x200B;**[!UICONTROL 「活動」]**&#x200B;在影像上新增註解。註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
 
    ![](assets/asset_comment_cc.png)
 
-   在Experience Cloud中，按一下影像，然後按一下時間線圖示，在影像上新增註解。 注釋會同步到Creative Cloud和Experience Cloud中的資產。
+   在 Experience Cloud 中，按一下影像，然後按一下時間線圖示，即可在影像上新增註解。註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
 
    ![](assets/asset_comment_mac.png)
 
@@ -52,7 +55,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 使用共用資產的其他方法包括:
 
 * 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
-* 在活動中的影像中，載入或 [交換選件庫](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html)[!DNL Adobe Target] 中的資產。
+* 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://docs.adobe.com/help/zh-Hant/target/using/experiences/offers/manage-content.html)裡的資產。
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
@@ -60,6 +63,6 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 相關說明:
 
-* [Creative Cloud說明——管理和同步檔案](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Creative Cloud說明——與他人協作](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud說明——協作常見問答集](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 說明 - 管理和同步檔案](https://helpx.adobe.com/tw/creative-cloud/help/sync-creative-cloud-files.html)
+* [Creative Cloud 說明 - 與他人共同作業](https://helpx.adobe.com/tw/creative-cloud/help/collaboration.html)
+* [Creative Cloud 說明 - 共同作業常見問題集](https://helpx.adobe.com/tw/creative-cloud/help/collaboration-faq.html)
