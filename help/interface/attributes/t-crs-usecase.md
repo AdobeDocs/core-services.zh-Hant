@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 63%
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派至客戶屬性的產品設定檔 (客戶屬性 - 預設存取。導覽至「 **[!UICONTROL 管理]** >管 **[!UICONTROL 理控制台]** > **[!UICONTROL 產品]**」。 If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>若要存取此功能，必須將使用者指派至客戶屬性的產品設定檔 (客戶屬性 - 預設存取。Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
 >若要使用「客戶屬性」功能，使用者也必須屬於解決方案層級的群組(Analytics或 [!DNL Target])。
 
@@ -43,7 +43,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
 ## 建立資料檔案 {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-此資料是來自您CRM的企業客戶資料。 資料可能包含產品的訂閱者資料，包括成員ID、已授權產品、最常啟動的產品等。
+此資料是來自您 CRM 的企業客戶資料。資料可能包含產品的訂閱者資料，包括成員 ID、已授權產品、最常啟動的產品等。
 
 1. 建立 `.csv`.
 
@@ -64,10 +64,10 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
 >[!IMPORTANT]
 >
->建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
+>建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
 
 1. 在 [!DNL Experience Cloud] 中，按一下功能表 ![](assets/menu-icon.png) 圖示。
-1. Under **[!DNL Experience Platform]**, click **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
+1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
@@ -81,29 +81,29 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
    * **[!UICONTROL 說明:]** (選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID:]** 代表客戶屬性資料的來源，如特定 CRM 系統。唯一 ID 用於客戶屬性來源代碼。此 ID 應是唯一、小寫、無空格。在Experience Cloud UI中客戶屬性來源的「別名ID」欄位中輸入的值，應與從實作傳入的值（不論是透過動態標籤管理或Mobile SDK的JavaScript傳入）相符。
+   * **[!UICONTROL 別名 ID:]** 代表客戶屬性資料的來源，如特定 CRM 系統。唯一 ID 用於客戶屬性來源代碼。此 ID 應是唯一、小寫、無空格。在 Experience Cloud UI 中，針對客戶屬性來源在「別名 ID」欄位中輸入的值，應與從實作傳入的值相符 (不論是透過 Dynamic Tag Management 還是 Mobile SDK 的 JavaScript 傳入)。
 
-      別名ID對應於您設定其他客戶ID值的特定區域。 例如:
+      別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **動態標籤管理：** 別名ID對應於 *Experience Cloud ID服務工* 具中「客戶設定」下的 [!UICONTROL 「整合代碼」值][](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html) 。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客API:** 別名ID與您可與每位訪 [客建立關聯的](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) 其他客戶ID相對應。
+      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html)。
 
-         例如，下列位置中的 *&quot;crm_id&quot;*:
+         例如，下列位置中的&#x200B;*「crm_id」*：
 
          ```
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** 別名ID對應 *於visitorSyncIdentifiers:identifiers*[中的&quot;idType&quot;](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
+      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html) 中的&#x200B;*「idType」*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** 別名ID對應於 *syncIdentifiers中的* 「 [idType」](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html)。
+      * **Android：**&#x200B;別名 ID 對應於 [syncIdentifiers](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html) 中的&#x200B;*「idType」*。
 
-         例如:
+         例如：
 
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
@@ -115,7 +115,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
       >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
 
 
-      上傳檔案後，表格資料會顯示在此頁 [!UICONTROL 面的「檔案上傳] 」標題下。 您可以驗證結構、設定訂閱或設定FTP。
+      上傳檔案後，表格資料會顯示在此頁面上的[!UICONTROL 檔案上傳]標題底下。您可以驗證結構、設定訂閱或設定 FTP。
 
       **檔案上傳圖**
 
@@ -125,7 +125,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
    * **[!UICONTROL 已將別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID:]** 顯示有多少個 ID 已將別名傳送至 Experience Cloud 訪客 ID。
 
-   * **[!UICONTROL 具有高別名數之客戶提供的 ID:]** 顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的ID很可能不代表個人，而代表某種共用登入。 系統會將與這些ID相關的屬性分發給500個最新別名的Experience Cloud訪客ID，直到別名計數達到10,000。 到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
+   * **[!UICONTROL 具有高別名數之客戶提供的 ID:]** 顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
 
 
 
@@ -146,7 +146,7 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 
 ## 設定訂閱及啟動屬性來源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-設定訂閱可設定Experience Cloud和解決方案之間的資料流。 啟動屬性來源可讓資料流向已訂閱的解決方案。 您上傳的客戶記錄會與您網站或應用程式傳入的ID訊號相符。
+設定訂閱可設定 Experience Cloud 和解決方案之間的資料流。啟動屬性來源可讓資料流向已訂閱的解決方案。您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -163,18 +163,18 @@ See [Manage Experience Cloud users and products](../admin-getting-started/admin-
 Adobe Analytics
 </keyword>等解決方案中提供的資料，您可以根據資料製作報表、分析，以及在行銷活動中採取適當行動。
 
-以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
+以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
 ![](assets/08_crs_usecase.png)
 
 當您將區段發佈至Experience Cloud時，Experience Cloud觀眾和Audience Manager中就會提供此區段。
 
-如需詳 [細資訊，請參閱Analytics說明中的](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) 「客戶屬性報表」。
+如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報表](https://docs.adobe.com/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-customer-attributes.translate.html)。
 
 ## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可在建立對象時，從訪客資料區段選取客戶屬性。All Customer Attributes will have the prefix [!DNL crs.] in the list. 視需要將這些屬性與其他資料屬性結合，以建立受眾。
+在 [!DNL Target] 中，您可在建立受眾時，從訪客資料區段選取客戶屬性。All Customer Attributes will have the prefix [!DNL crs.] in the list. 視需要將這些屬性與其他資料屬性結合，以建立受眾。
 
 ![](assets/crs-add-attribute-target.png)
 
-請參 [閱說明中的建立新](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) 觀 [!DNL Target] 眾。
+請參閱 [!DNL Target] 說明中的[建立新受眾](https://docs.adobe.com/content/help/zh-Hant/target/using/audiences/create-audiences/audiences.translate.html)。
