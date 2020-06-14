@@ -1,39 +1,39 @@
 ---
 description: 瞭解Adobe Experience Cloud使用者和產品管理、人員（觀眾和客戶屬性）、歷程協調、優惠、地點、Experience Platform Launch和行動服務。
 seo-description: 瞭解Adobe Experience Cloud使用者和產品管理、人員（觀眾和客戶屬性）、優惠、Experience Platform Launch和行動服務。
-seo-title: Experience Cloud核心服務和使用者管理
+seo-title: Experience Cloud 核心服務和使用者管理
 solution: Experience Cloud
-title: 關於Experience Cloud核心服務
+title: 關於 Experience Cloud 核心服務
 index: true
 translation-type: tm+mt
 source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 26%
+ht-degree: 79%
 
 ---
 
 
-# 關於Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# 關於 Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud服務包括 [!UICONTROL 人員] （觀眾和客戶屬性）、優惠、Experience Platform Launch和行動服務。 您也可以存取Experience Cloud中有關使用者和產品管理的說明。
+Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services. 您也可以存取 Experience Cloud 中有關使用者和產品管理的說明。
 
-若要在Experience Cloud中存取這些服務，請按一下「 **[!UICONTROL Experience Platform]** 」功能表 ![](assets/menu-icon.png)。
+若要在 Experience Cloud 中存取這些服務，請按一下 **[!UICONTROL Experience Platform]** 功能表 ![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
-Adobe Experience Platform 可將整個企業的資料和內容標準化，並集中管理。Experience Platform開發人 [!UICONTROL 員的產品檔案] ，位於 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)。
+Adobe Experience Platform 可將整個企業的資料和內容標準化，並集中管理。[!UICONTROL Experience Platform] 開發人員的產品文件位於 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)。
 
-本說明說明下列產品和服務：
+本說明介紹下列產品和服務：
 
 | 核心服務 | 說明 |
 |--- |--- |
-| [啟用](activation/activation.md) | 標籤管理系統（Experience Platform Launch和動態標籤管理）。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
-| [管理](admin-getting-started/admin-getting-started.md) | 管理您所有Adobe雲端和解決方案的使用者和產品權益。 |
-| [資產](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆將您的所有數位資產儲存、同步並共用在集中位置，以節省時間並提供更一致的客戶體驗。 |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) | [!UICONTROL Experience Platform Launch 是新一代 Adobe 標籤管理功能。][!UICONTROL Experience Platform Launch] 為客戶提供簡單的方式，部署和管理所有必要的分析、行銷和廣告標籤，為相關客戶體驗提供動力。 |
-| [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與Experience Platform整合的應用程式服務。 |
-| [位置服務](https://docs.adobe.com/content/help/zh-Hant/places/using/home.translate.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service)是地理位置服務，可讓具備位置感知功能的行動應用程式使用豐富且簡單易用的SDK介面，加上有彈性的興趣點資料庫(POI)，來瞭解位置環境。 |
+| [Activation](activation/activation.md) | 標籤管理系統 (Experience Platform Launch 和 Dynamic Tag Management)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
+| [Administration](admin-getting-started/admin-getting-started.md) | 管理您所有 Adobe 雲端和解決方案的使用者和產品權限。 |
+| [Assets](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆在集中位置儲存、同步和共用您所有的數位資產，以節省時間並提供更一致的客戶體驗。 |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) | [!UICONTROL Experience Platform Launch 是新一代 Adobe 標籤管理功能。][!UICONTROL Experience Platform Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告整合功能，以便支援相關客戶體驗。 |
+| [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。[!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
+| [Location Service](https://docs.adobe.com/content/help/zh-Hant/places/using/home.translate.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) 是一項地理位置服務，可讓具備位置感知功能的行動應用程式使用豐富且簡單易用的 SDK 介面，搭配有彈性的興趣點資料庫 (POI) 來瞭解位置環境。 |
 | [Exchange](exchange.md) | 透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴展元件。 |
 | [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html) | Adobe Mobile Services 將整個 Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與行動應用程式的互動。 |
-| People | 在您的Experience Cloud解決方案中連結Adobe和非Adobe資料，以建立個別客戶的完整視圖。 瞭解客戶在接觸點間互動時，最重要的事項。 當熟悉的消費者從陌生的裝置造訪時，可辨識他們。 甚至將使用者群組至「對象」，以便有針對性地進行行銷。<br>[觀眾](audience-library/audience-library.md) -將不同類型的客戶分類為「觀眾」，然後跨Marketing Cloud解決方案共用這些觀眾。<br>[客戶屬性](attributes/attributes.md) -可讓您連結在Marketing Cloud以外收集的消費者資訊的受眾擴充。<br>[裝置圖表](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) -與全球最受歡迎的品牌協作，以識別陌生裝置背後的熟悉消費者。 (僅限測試版的 Marketing Cloud Device Co-op 會員使用。) |
+| People | 連結您 Experience Cloud 解決方案中的 Adobe 和非 Adobe 資料，以便建立個別客戶的完整檢視。瞭解客戶在不同接觸點互動時認為最重要的事項。熟悉的消費者從陌生的裝置造訪時可辨識他們。甚至將使用者群組至「對象」，以便有針對性地進行行銷。<br>[觀眾](audience-library/audience-library.md) -將不同類型的客戶分類為「觀眾」，然後跨Marketing Cloud解決方案共用這些觀眾。<br>[客戶屬性](attributes/attributes.md) -可讓您連結在Marketing Cloud以外收集的消費者資訊的受眾擴充。<br>[裝置圖](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - 與全球最受歡迎的品牌共同合作，認出不熟悉的造訪裝置背後的熟悉消費者。(僅限測試版的 Marketing Cloud Device Co-op 會員使用。) |
