@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 37%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 37%
 
 上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
 
-您需要存取CRM或企業提供的類似資料。 上傳至 Experience Cloud 的資料必須是 `.csv` 檔案。如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
+您需要存取企業的 CRM 或類似資料。上傳至 Experience Cloud 的資料必須是 `.csv` 檔案。如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
 客戶屬性是專為處理每天的一些檔案所設計。為減緩大量小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
@@ -35,7 +35,7 @@ ht-degree: 37%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>逗號分隔值檔案（例如在Excel中建立的檔案）。 此檔案包含客戶屬性資料。 </p> <p> <b>命名要求：</b> 請確定副檔名不包含空格。 </p> </td> 
+   <td colname="col2"> <p>逗號分隔值檔案 (例如在 Excel 中建立的檔案)。此檔案包含客戶屬性資料。 </p> <p> <b>命名需求：</b>請確定副檔名不包含空格。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -50,9 +50,9 @@ ht-degree: 37%
 
 ## 屬性資料檔案的需求 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
-**範例CSV**
+**範例 CSV**
 
-CSV檔案必須符合下列格式：
+CSV 檔案必須符合下列格式：
 
 ![](assets/cvs.png)
 
@@ -60,7 +60,7 @@ CSV檔案必須符合下列格式：
 
 ![](assets/csv_txt.png)
 
-**准則**
+**準則**
 
 <table id="table_A9849CC9AA784763921DE057F0F61515"> 
  <thead> 
@@ -72,51 +72,51 @@ CSV檔案必須符合下列格式：
  <tbody> 
   <tr> 
    <td colname="col1"> <p>拖放 </p> </td> 
-   <td colname="col2"> <p>拖放檔案應小於100 MB。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
+   <td colname="col2"> <p>拖放檔案應小於 100 MB。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>客戶ID欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是唯一的客戶ID。 使用的ID應該對應至傳遞至Experience Cloud ID服務的ID。 </p> <p>對於Analytics,ID會儲存在prop或eVar中。 </p> <p>若為Target，則為setCustomerID值。 (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> 此客戶ID是您的CRM對資料庫中每個人使用的唯一識別碼。 其餘欄是來自您CRM的屬性。 您將選擇要上傳的屬性數。 </p> <p>建議欄標題使用好記、可讀的名稱，但不是必要名稱。 在上載後驗證架構時，可以將好記名稱映射到上載的行和列。 </p> <p> <b>關於客戶ID</b> </p> <p>通常，企業會使用CRM系統的客戶ID。 這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此ID也會用作上傳至Experience Cloud之CRM檔案的索引鍵。 An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. 系統會傳送別名至此資料存放區（透過setCustomerIDs）。 CRM檔案會套用至該資料儲存區中的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
+   <td colname="col1"> <p>客戶 ID 欄 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若使用 Target，則為 setCustomerID 值。(請參閱 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 與 Adobe Target - 同步客戶 ID </a>) </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶 ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此 ID 也會當作上傳至 Experience Cloud 之 CRM 檔案的索引鍵。<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區 (透過 setCustomerIDs)。CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
    <td colname="col2"> <p>後續標題應代表每個屬性的名稱。 </p> <p> 這些欄應包含來自CRM的客戶屬性。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>屬性限制 </p> </td> 
-   <td colname="col2"> <p>您可以上傳數百欄 <span class="filepath">.csv</span> 至 Experience Cloud 的客戶屬性服務。不過，在設定訂閱和選取屬性時，會根據您擁有的解決方案，套用下列限制： </p> <p> 
+   <td colname="col1"> <p>屬性數限制 </p> </td> 
+   <td colname="col2"> <p>您可以上傳數百欄 <span class="filepath">.csv</span> 至 Experience Cloud 的客戶屬性服務。但是在設定訂閱與選取屬性時，系統將套用以下欄數限制 (視您擁有的解決方案而定)： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 總計 </li> 
-      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 每個報表套裝200個 </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200 </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：共 3 個 </li> 
+      <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每一報表套裝 200 個 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard：</b>5 個 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium：</b>200 個 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>列限制 </p> </td> 
-   <td colname="col2"> <p>列數沒有已知限制。 </p> </td> 
+   <td colname="col1"> <p>列數限制 </p> </td> 
+   <td colname="col2"> <p>列數並無已知限制。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>欄限制 </p> </td> 
-   <td colname="col2"> <p>為實用，請將欄數限制在200欄左右。 </p> </td> 
+   <td colname="col1"> <p>欄數限制 </p> </td> 
+   <td colname="col2"> <p>為顧及實用性，請將欄數限制在 200 欄左右。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>字元限制 </p> </td> 
-   <td colname="col2"> <p>建立Analytics訂閱時，已上傳檔案的欄位長度會截斷為255。 </p> </td> 
+   <td colname="col1"> <p>字元數限制 </p> </td> 
+   <td colname="col2"> <p>建立 Analytics 訂閱時，會將已上傳檔案的欄位長度截斷為 255。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>FTP准則和大小限制 </p> </td> 
+   <td colname="col1"> <p>FTP 准則和大小限制 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
       <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP 的檔案大小上限為每次上傳 4 GB。 </li> 
       <li>檔案大小下限為每次上傳 10 MB。 </li>
       <li>您可以每隔半小時上傳一個檔案。 </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> 您應將 <span class="filepath">.csv</span> (和 <span class="filepath">.fin</span>) 檔案拖放到 FTP 網站的根目錄中。 </li> 
-     </ul> </p> <p> <p>重要: FTP 帳戶的允許空間總計為 40 GB。您有責任刪除已處理的檔案。 </p> </p> </td> 
+     </ul> </p> <p> <p>重要：FTP 帳戶的允許空間總計為 40 GB。您有責任刪除已處理的檔案。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>檔案需求 </p> </td> 
-   <td colname="col2"> <p> 每個屬性來源應包含相同數目的逗號分隔欄位。 </p> <p> 包含分行、雙引號或逗號的欄位必須加上引號。 </p> <p> 欄位中的雙引號字元必須使用反斜線(\)逸出。 </p> <p> 空白欄會儲存為 <span class="term"> null </span>。 </p> </td> 
+   <td colname="col2"> <p> 每個屬性來源都應包含相同數目的逗號分隔欄位。 </p> <p> 包含分行符號、雙引號或逗號的欄位必須加上引號。 </p> <p> 欄位中的雙引號字元必須使用反斜線 (\) 逸出。 </p> <p> 空白欄會儲存為 <span class="term"> null </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
@@ -124,26 +124,26 @@ CSV檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
-   <td colname="col2"> <p>對於日本，UTF-8為強制性。 </p> </td> 
+   <td colname="col2"> <p>在日本，需強制使用 UTF-8。 </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會系結至Analytics中的基礎訪客資料。 因此，在Analytics中該訪客描述檔的整個生命週期中，客戶屬性都會與該訪客相關聯。 這包括客戶首次登入前發生的行為。 </p> <p> 如果您使用資料倉庫回填方法，資料會系結至以Analytics ID(AID)為基礎的post_visid_high/low。 如果您使用Experience Cloud ID服務，資料會系結至以Experience Cloud ID(MID)為基礎的post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客戶屬性會繫結至 Analytics 中的基礎訪客設定檔。因此，在Analytics中該訪客描述檔的整個生命週期中，客戶屬性都會與該訪客相關聯。 這包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>資料饋送 </p> </td> 
-   <td colname="col2"> <p>資料饋送中無法使用客戶屬性。 </p> </td> 
+   <td colname="col1"> <p>資料摘要 </p> </td> 
+   <td colname="col2"> <p>資料摘要中無法使用客戶屬性。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 運用多個資料來源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-建立、修改或刪除客戶屬性來源時，ID開始與新資料來源同步約需一小時的延遲。
+建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。
 
-每個客戶屬性來源的別名ID必須是唯一的。 如果您有多個資料來源使用相同的ID，則應依下列方式設定：
+每個客戶屬性來源的別名 ID 不能重複。如果您有多個資料來源使用相同的 ID，則應依照下列方式設定：
 
-**在VisitorAPI.js或動態標籤管理中的Experience Cloud ID工具中：**
+**在 VisitorAPI.js 中或 Dynamic Tag Management 的 Experience Cloud ID 工具中：**
 
 設定兩個客戶 ID 以便對應至適當的資料來源:
 
@@ -154,8 +154,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(See [Customer IDs and Authentication States](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) for more information.)
+(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html)。)
 
-In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
+在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**&#x200B;中：
 
-使用與上述客戶ID對應的唯一別名ID，建立兩個客戶屬性來源。 使用此方法可將相同的參考ID傳送至多個客戶屬性來源。
+使用與上述客戶ID對應的唯一別名ID，建立兩個客戶屬性來源。 使用此方法可將相同的參考 ID 傳送至多個客戶屬性來源。
