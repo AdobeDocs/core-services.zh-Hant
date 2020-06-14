@@ -6,8 +6,11 @@ seo-title: 停用共用資料夾的同步化
 solution: Experience Cloud
 title: 停用共用資料夾的同步化
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -22,17 +25,17 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ## Windows
 
-1. 開啟Windows檔案總管。
+1. 開啟 Windows 檔案總管。
 
 1. 在我的最愛下，以滑鼠右鍵按一下 **[!UICONTROL Creative Cloud Files]** 資料夾，然後按一下&#x200B;**[!UICONTROL 選取共用資料夾以同步]**。
 
    ![](assets/select_sync_folders.png)
 
-1. 取消選擇您不想同步的任何資料夾。
+1. 取消選取您不想同步的任何資料夾。
 
 ## Mac OS
 
-1. 開啟Finder視窗。
+1. 開啟 Finder 視窗。
 
 1. 導覽至您的使用者資料夾。
 
@@ -40,6 +43,6 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
    ![](assets/select_sync_folders_mac.png)
 
-1. 取消選擇您不想同步的任何資料夾。
+1. 取消選取您不想同步的任何資料夾。
 
-   同步化資料夾的檔案夾名稱旁有核取標籤。
+   已同步資料夾的資料夾名稱旁會有一個勾選記號。
