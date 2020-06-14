@@ -4,8 +4,11 @@ seo-description: Advertising Cloud 使用 Cookie 將廣告參與事件對應至�
 seo-title: Advertising Cloud Cookie
 title: Advertising Cloud Cookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 
-## Cookie 名稱: _lcc
+## Cookie 名稱：_lcc
 
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
@@ -25,7 +28,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>顯示廣告點擊的 ID 和時間戳記 (格式為 yyyymdd)</p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: _tmae
+## Cookie 名稱：_tmae
 
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
@@ -58,7 +61,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>使用 Advertising Cloud DSP 追蹤的廣告參與編碼 ID 和時間戳記 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +83,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: adcloud
+## Cookie 名稱：adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
  <thead> 
@@ -91,8 +94,8 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
-   <td colname="col2"> <p>瀏覽者上次瀏覽廣告商網站和瀏覽者上次搜尋點按的時間戳記，以及使用者點按廣告時建立的ef_id</p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
+   <td colname="col2"> <p>瀏覽者上次造訪廣告商網站的時間戳記、瀏覽者上次的搜尋點擊，以及使用者點擊廣告時建立的 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
@@ -100,7 +103,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用狀況 </p> </td> 
-   <td colname="col2"> <p>將瀏覽者 ID 與相關對象區段和轉換建立關聯的第一方 Cookie </p> <p> 參考瀏覽者上次造訪的相關資訊，可避免向 Adobe 伺服器送出不必要的請求，進而最佳化頁面載入時間。 </p> <p>上次搜尋點擊的相關資訊有助於判斷轉換事件是由點擊還是觀看率 (因曝光但無點擊所產生的轉換) 所產生。 </p> </td> 
+   <td colname="col2"> <p>將瀏覽者 ID 與相關受眾區段和轉換建立關聯的第一方 Cookie </p> <p> 參考瀏覽者上次造訪的相關資訊，可避免向 Adobe 伺服器送出不必要的請求，進而最佳化頁面載入時間。 </p> <p>上次搜尋點擊的相關資訊有助於判斷轉換事件是由點擊還是觀看率 (因曝光但無點擊所產生的轉換) 所產生。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -113,7 +116,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: ev_sync_*
+## Cookie 名稱：ev_sync_*
 
 (Ev_sync_ax、ev_sync_bk、ev_sync_dd、ev_sync_fs、ev_sync_ix、ev_sync_nx、ev_sync_ox、ev_sync_pm、ev_sync_rc、ev_sync_tm、ev_sync_yh)
 
@@ -126,7 +129,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
@@ -148,7 +151,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: everest_g_v2
+## Cookie 名稱：everest_g_v2
 
 <table id="table_04043292A43B41B69EAF17AF4E217C69"> 
  <thead> 
@@ -159,7 +162,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>瀏覽器和瀏覽者 ID </p> </td> 
   </tr> 
   <tr> 
@@ -181,7 +184,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: everest_session_v2
+## Cookie 名稱：everest_session_v2
 
 <table id="table_1A3AE4CA71304ADB943CB1F64BE695F5"> 
  <thead> 
@@ -192,7 +195,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>工作階段 ID </p> </td> 
   </tr> 
   <tr> 
@@ -214,7 +217,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: ev_tm
+## Cookie 名稱：ev_tm
 
 <table id="table_6C4D9DCFA4BF4FB2BD445E027550955F"> 
  <thead> 
@@ -225,7 +228,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
@@ -247,7 +250,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱: id_adcloud
+## Cookie 名稱：id_adcloud
 
 <table> 
  <thead> 
@@ -258,7 +261,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>儲存資訊 </p> </td> 
+   <td colname="col1"> <p>儲存的資訊 </p> </td> 
    <td colname="col2"> <p>瀏覽者 ID </p> </td> 
   </tr> 
   <tr> 
