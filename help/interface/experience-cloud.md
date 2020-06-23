@@ -6,22 +6,22 @@ seo-title: Adobe Experience Cloud 和核心服務說明及產品文件。
 solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 介面產品說明檔案
+# Experience Cloud介面產品文件
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
 本頁提供 Adobe Experience Cloud 解決方案與服務的自助說明、支援、以及技術與產品文件。Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
-## 你想瞭解什麼？
+## 你想了解什麼？
 
 * [所有 Experience Cloud 解決方案的產品文件](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud 的新功能，以及訂閱以取得更新
@@ -29,13 +29,13 @@ ht-degree: 99%
 * [Experience League 的專家協助](https://landing.adobe.com/experience-league/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用我們的產品
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀 Experience Cloud 部落格
-* [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) - 聯絡 Adobe 客戶服務
+* [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) - 連絡 Adobe 客戶服務
 
 ## Experience Platform 產品文件
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 * [受眾](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
-* [資產](experience-cloud-assets/experience-cloud-assets.md)
+* [Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
 * [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
