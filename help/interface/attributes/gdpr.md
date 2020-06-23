@@ -1,70 +1,70 @@
 ---
-title: 對通用資料保護法規的客戶屬性支援
-description: 對通用資料保護法規的客戶屬性支援
-translation-type: tm+mt
+title: 一般資料保護規範的客戶屬性支援
+description: 一般資料保護規範的客戶屬性支援
+translation-type: ht
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 對通用資料保護法規的客戶屬性支援
+# 一般資料保護規範的客戶屬性支援
 
-本頁介紹客戶屬性如何支援通用資料保護規則(GDPR)。
+本頁面說明客戶屬性如何支援一般資料保護規範 (GDPR)。
 
 >[!IMPORTANT]
 >
->本檔案內容並非法律建議或用來取代法律建議。 請洽詢您的法律顧問，以取得有關GDPR的建議。
+>本文件的內容並非法律建議，且宗旨並非取代專業的法律建議。如需 GDPR 的相關建議，請諮詢法律顧問。
 
-2018 [年5月](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html)25日生效的《通用資料保護條例》賦予歐盟(EU)境內所有個人（資料主體）個人資料的控制權。 它還簡化了國際業務的監管環境。 本法適用於在處理個人資料時向歐盟境內的個人提供商品或服務、監控其行為或收集個人資料的所有企業（資料掌控者），不論資料掌控者的營業地點為何。
+2018 年 5 月 25 日生效的[一般資料保護規範](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。此外，也簡化國際業務的監管環境。針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
 
-Adobe Experience Cloud是Adobe代表其客戶收到和儲存的任何個人資料的資料處理者。 身為資料掌控者，您可以代表您決定Adobe Experience Cloud處理和儲存的個人資料。
+Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。身為資料控管方，您可以決定要由 Adobe Experience Cloud 代表您處理和儲存哪些個人資料。
 
-本檔案說明客 [!UICONTROL 戶屬性] (Customer Attributes)如何使用Adobe Experience Platform隱私服務API和隱私服務UI支援您資料主體的GDPR資料存取和刪除權。
+本文件說明[!UICONTROL 客戶屬性]如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 GDPR 資料和刪除權限。
 
-如需有關GDPR對您企業的意義的詳細資訊，請參 [閱GDPR和您的企業](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
+如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
-## 傳送客戶屬性請求的必 [!UICONTROL 要設定]
+## 傳送[!UICONTROL 客戶屬性]請求的必要設定
 
-若要要求存取和刪除客戶屬 [!UICONTROL 性的資料]，您必須：
+若要申請存取和刪除[!UICONTROL 客戶屬性]的資料，請先完成以下事項：
 
 1. 識別下列項目：
 
-   * IMS組織ID
-   * 您要對之採取行動之CRS資料來源的別名ID
-   * 您要處理之設定檔的CRM ID
-   IMS組織ID是附加有@AdobeOrg的24個字元英數字串。 如果您的行銷團隊或內部Adobe系統管理員不知道您組織的IMS組織ID，請聯絡Adobe客戶服務，來信請寄至gdprsupport@adobe.com。 您將需要IMS組織ID，才能將請求提交至隱私權API。
+   * IMS 組織 ID
+   * 您要對其採取動作之 CRS 資料來源的別名 ID
+   * 您要對其採取動作之設定檔的 CRM ID
+   IMS 組織 ID 是 24 個字元的英數字串，通常會加上 @AdobeOrg。如果您的行銷團隊或內部 Adobe 系統管理員不知道您組織的 IMS 組織 ID，請寄信至 gdprsupport@adobe.com 與 Adobe 客戶服務團隊連絡。您需先取得 IMS 組織 ID，才能向隱私權 API 提交請求。
 
-1. 在隱 [!UICONTROL 私權服務]，您可以將存取和刪除請求提交至客戶屬性，並檢查現有請求的狀態。
+1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
 
-## 客戶屬性 [!UICONTROL JSON請求中的必] 要欄位值
+## [!UICONTROL 客戶屬性] JSON 請求中的必填欄位值
 
-「公司上下文」:
+&quot;company context&quot;：
 
-* &quot;namespace&quot;: **imsOrgID**
-* 「值」: &lt;*您的IMS組織ID值*>
+* &quot;namespace&quot;：**imsOrgID**
+* &quot;value&quot;：&lt;*您的 IMS 組織 ID 值*>
 
-「使用者」:
+&quot;users&quot;：
 
-* &quot;key&quot;: &lt;*通常是客戶名稱*>
+* &quot;key&quot;：&lt;*通常是客戶名稱*>
 
-* 「動作」: 存 **取** 或刪 **除**
+* &quot;action&quot;：**存取**&#x200B;或&#x200B;**刪除**
 
-* &quot;用戶ID&quot;:
+* &quot;user IDs&quot;：
 
-   * &quot;namespace&quot;: &lt;*CRS資料來源的別名ID*>
+   * &quot;namespace&quot;：&lt;*CRS 資料來源的別名 ID*>
 
-   * 「類型」: **integrationCode**
+   * &quot;type&quot;：**integrationCode**
 
-   * 「值」: &lt;*CRM ID*>
+   * &quot;value&quot;：&lt;*CRM ID*>
 
-* 「包含」: **CRS** （此為套用至要求的Adobe產品）
+* &quot;include&quot;：**CRS** (適用於此請求的 Adobe 產品)
 
-* 「規章」: **gdpr** （此為適用於要求的隱私權規定）
+* &quot;regulation&quot;：**gdpr** (適用於此請求的隱私權法規)
 
-## JSON請求範例
+## JSON 請求範例
 
 ```
 {
@@ -96,7 +96,7 @@ Adobe Experience Cloud是Adobe代表其客戶收到和儲存的任何個人資�
 }
 ```
 
-## 針對存取請求傳回的資料欄位
+## 針對存取請求所傳回的資料欄位
 
 ```
 attributes:
