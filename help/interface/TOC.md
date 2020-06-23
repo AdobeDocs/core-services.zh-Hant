@@ -4,11 +4,11 @@ user-guide-title: Experience Cloud 介面使用手冊
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 88%
 + Experience Cloud Activation {#activation}
    + [Activation 概述](activation/activation.md)
    + [Launch 使用手冊](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)
-   + [動態標籤管理器使用手冊](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
+   + [Dynamic Tag Manager 使用手冊](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud 資產 {#assets}
    + [Experience Cloud 資產概述](experience-cloud-assets/experience-cloud-assets.md)
@@ -62,18 +62,18 @@ ht-degree: 88%
    + [受眾概述](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
-   + [客戶屬性概觀](attributes/attributes.md)
++ Experience Cloud 中的客戶屬性 {#customer-attributes}
+   + [客戶屬性概述](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
-   + [建立客戶屬性來源並上傳資料檔案](attributes/t-crs-usecase.md)
+   + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
    + [選用 - 透過 FTP 上傳資料檔案](attributes/t-upload-attributes-ftp.md)
    + [驗證結構](attributes/validate-schema.md)
    + [設定訂閱](attributes/subscription.md)
    + [更新結構](attributes/t-update-schema.md)
-   + [支援通用資料保護法規](attributes/gdpr.md)
-   + [支援加州消費者隱私權法案](attributes/ccpa.md)
-   + [隱私權考量——客戶屬性](attributes/privacy-mac.md)
+   + [支援一般資料保護規範](attributes/gdpr.md)
+   + [支援加州消費者隱私法](attributes/ccpa.md)
+   + [隱私考量 - 客戶屬性](attributes/privacy-mac.md)
 + Experience Cloud 發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
