@@ -6,11 +6,11 @@ seo-title: 選用 - 透過 FTP 上傳資料檔案
 solution: Experience Cloud
 title: 選用 - 透過 FTP 上傳資料檔案
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
+>請先詳閱[上傳客戶屬性的資料檔案需求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，再上傳檔案。
 
-可透過FTP或SFTP將檔案上傳至客戶屬性FTP網站。
+您可透過 FTP 或 SFTP 將檔案上傳至客戶屬性 FTP 網站。
 
 * 您需要支援 SFTP 連線的用戶端。
 * 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://docs.adobe.com/help/zh-Hant/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所說明。
@@ -44,4 +44,4 @@ ht-degree: 85%
 
    如果上傳成功，兩個檔案都會移至名為 **processed** 的資料夾。
 
-   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
+   請參閱[上傳客戶屬性的資料檔案需求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，以了解檔案名稱和結構的重要資訊。
