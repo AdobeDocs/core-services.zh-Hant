@@ -1,23 +1,23 @@
 ---
-description: 上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
+description: 上傳客戶屬性至 Experience Cloud 的資料檔案需求和多個資料來源。
 keywords: Customer Attributes;core services
-seo-description: 上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
+seo-description: 上傳客戶屬性至 Experience Cloud 的資料檔案需求和多個資料來源。
 seo-title: 關於客戶屬性的資料檔案和資料來源
 solution: Experience Cloud
 title: 關於客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1218'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # 關於客戶屬性的資料檔案和資料來源
 
-上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
+上傳客戶屬性至 Experience Cloud 的資料檔案需求和多個資料來源。
 
 您需要存取企業的 CRM 或類似資料。上傳至 Experience Cloud 的資料必須是 `.csv` 檔案。如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
@@ -39,11 +39,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(必要) <span class="filepath">.fin</span> 檔案會告訴系統您已完成上傳資料。<span class="filepath">.fin</span> 檔案的名稱必須和 <span class="filepath">.csv</span> 檔案的名稱相同。 </p> <p>Adobe 建議您建立副檔名為 <span class="filepath">.fin</span> 的空白文字檔。空白檔案可節省空間和上傳時間。 </p> <p> <p>注意:<span class="filepath">.fin</span> 檔案上傳後不可重新命名。<span class="filepath">.fin</span> 檔案必須另外上傳，且不能將先前上傳的檔案重新命名。 </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). 這一點優於其他 Adobe FTP 型服務，後者擷取資料的頻率較低 (大約每一小時一次)。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
+   <td colname="col2"> <p>(必要) <span class="filepath">.fin</span> 檔案會告訴系統您已完成上傳資料。<span class="filepath">.fin</span> 檔案的名稱必須和 <span class="filepath">.csv</span> 檔案的名稱相同。 </p> <p>Adobe 建議您建立副檔名為 <span class="filepath">.fin</span> 的空白文字檔。空白檔案可節省空間和上傳時間。 </p> <p> <p>注意：<span class="filepath">.fin</span>檔案上傳後不可重新命名。<span class="filepath">.fin</span> 檔案必須另外上傳，且不能將先前上傳的檔案重新命名。 </p> </p> <p>您以客戶屬性 FTP 上傳 <span class="filepath">.fin</span> 檔案後，系統會迅速擷取資料 (約一分鐘內)。這一點優於其他 Adobe FTP 型服務，後者擷取資料的頻率較低 (大約每一小時一次)。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> 或 <span class="filepath">.zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath">.gz</span> (gzip) 或 <span class="filepath">.zip</span> - 適用於壓縮檔。<span class="filepath">.zip</span> 檔案的封存不可包含超過一個檔案。 </p> <p> <b>命名需求:</b><span class="filepath">.zip</span> 或 <span class="filepath">.gz</span> 的名稱應該與 <span class="filepath">.csv</span> 的名稱相同。例如，若您的 <span class="filepath">.csv</span> 檔案是 <span class="filepath">crm_small.csv</span>，則 <span class="filepath">.zip</span> 檔案應該是 <span class="filepath">crm_small.csv.zip</span>。 </p> <p>.fin 檔案的名稱必須和 .csv 檔案的名稱相同。 </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">.gz</span> (gzip) 或 <span class="filepath">.zip</span> - 適用於壓縮檔。<span class="filepath">.zip</span> 檔案的封存不可包含超過一個檔案。 </p> <p> <b>命名需求：</b><span class="filepath">.zip</span> 或 <span class="filepath">.gz</span> 的名稱應該與 <span class="filepath">.csv</span> 的名稱相同。例如，若您的 <span class="filepath">.csv</span> 檔案是 <span class="filepath">crm_small.csv</span>，則 <span class="filepath">.zip</span> 檔案應該是 <span class="filepath">crm_small.csv.zip</span>。 </p> <p>.fin 檔案的名稱必須和 .csv 檔案的名稱相同。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
-   <td colname="col2"> <p>後續標題應代表每個屬性的名稱。 </p> <p> 這些欄應包含來自CRM的客戶屬性。 </p> </td> 
+   <td colname="col2"> <p>後續標題應代表每個屬性的名稱。 </p> <p> 這些欄應包含 CRM 的客戶屬性。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>屬性數限制 </p> </td> 
@@ -120,7 +120,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可以檢查先前檔案何時已移至客戶屬性FTP帳戶內已處理或失敗的資料夾，以監控此檔案。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都完全處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可查看上一個檔案是在何時移至客戶屬性 FTP 帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都完全處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -128,7 +128,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至 Analytics 中的基礎訪客設定檔。因此，在Analytics中該訪客描述檔的整個生命週期中，客戶屬性都會與該訪客相關聯。 這包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客戶屬性會繫結至 Analytics 中的基礎訪客設定檔。因此在 Analytics 中，該訪客設定檔的整個生命週期中，客戶屬性都會與該訪客相關聯。這包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 
@@ -145,7 +145,7 @@ CSV 檔案必須符合下列格式：
 
 **在 VisitorAPI.js 中或 Dynamic Tag Management 的 Experience Cloud ID 工具中：**
 
-設定兩個客戶 ID 以便對應至適當的資料來源:
+設定兩個客戶 ID 以便對應至適當的資料來源：
 
 ```
 Visitor.setCustomerIDs({ 
@@ -154,8 +154,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html)。)
+(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html))。
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**&#x200B;中：
 
-使用與上述客戶ID對應的唯一別名ID，建立兩個客戶屬性來源。 使用此方法可將相同的參考 ID 傳送至多個客戶屬性來源。
+使用與上述客戶 ID 對應的不重複別名 ID，建立兩個客戶屬性來源。此方法可將相同的參考 ID 傳送至多個客戶屬性來源。
