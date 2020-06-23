@@ -6,11 +6,11 @@ seo-title: 術語
 solution: Experience Cloud
 title: 術語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1474'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 詞語 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | 資產 | 在 Creative Cloud 中，資產通常是影像檔案。<br>資產可以是 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案。 | 在 Experience Cloud 中，資產是可以多次轉譯且可以有子資產的數位文件、圖片、視訊或音訊。例如：<ul><li>檔案</li><li>文件</li><li>影像</li><li>影片</li><li>音訊片段</li><li>簡報</li><li>影像範本</li><li>影片範本</li></ul> |
-| 屬性 |  | 符合某[區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)資格的人有哪些共同點。(類似 Audience Manager 中的[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/aam-glossary.translate.html#s-t)。) |
-| 受眾 | 在 Creative Cloud 中，受眾可能是觀看影片的使用者。 | 在Experience Cloud中，「觀眾」是我們可在促銷活動中鎖定的人員集合。<br>受眾的成員資格是根據一組針對訪客上下文的規則決定，或是根據固定清單。例如，電子郵件訂閱者的清單或 Facebook 群組中的成員。<br>在 [Experience Cloud Audiences](audience-library/audience-library.md)中，建立和管理「觀眾」類似於建立和使用區段，再加上可與Experience Cloud共用的功能。<br>**Adobe **<br>Target在Adobe Target中，「對象」先前稱為區段。<br>**Adobe**<br> Analytics在Analytics中，「觀眾」可視為網站的訪客。 您可以建立受眾區隔並將受眾發佈至 Experience Cloud。 |
+| 屬性 |  | 符合某[區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)資格的人有哪些共同點(類似 Audience Manager 中的[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/aam-glossary.translate.html#s-t))。 |
+| 受眾 | 在 Creative Cloud 中，受眾可能是觀看影片的使用者。 | 在 Experience Cloud 中，受眾則是我們可以在行銷活動中鎖定的對象集合。<br>受眾的成員資格是根據一組針對訪客上下文的規則決定，或是根據固定清單。例如，電子郵件訂閱者的清單或 Facebook 群組中的成員。<br>在 [Experience Cloud Audiences](audience-library/audience-library.md) 中建立和管理受眾類似於建立及使用區段，只是額外加上可與 Experience Cloud 共用受眾的功能。<br>**Adobe Target **<br>Adobe Target 中的受眾原稱為區段。<br>**Adobe Analytics**<br> Analytics 中的受眾可視為網站訪客。您可以建立受眾區隔並將受眾發佈至 Experience Cloud。 |
 | 行銷活動 | 在 Creative Cloud 中，行銷活動可視為使用 Creative Cloud 影像資產的行銷活動。 | 在 Experience Cloud 中，行銷活動會決定要向受眾顯示哪些內容，也會決定內容的顯示位置及時間。行銷活動具有特定目標，並以量度追蹤。<br>執行行銷活動需要訪客的上下文符合行銷活動中的規則集，並根據位置頻道的技術限制來傳送內容。<br>在 Adobe Target 中，行銷活動和活動是同義詞。 |
 | 管道 | 在 Creative Cloud 中，管道可能是儲存不同資訊類型的灰階影像。這些是資訊頻道和顏色頻道。 | 在 Experience Cloud 中，管道是位置的屬性或行銷活動中的活動。<br>在 Analytics 中，行銷頻道通常用於提供訪客如何到達網站的分析 (例如透過電子郵件行銷活動)。<br>例如：<ul><li>電子郵件</li><li>顯示廣告</li><li>社交網路</li><li>付費搜尋</li><li>免費搜尋</li><li>反向連結網域</li></ul> |
 | 內容 | 通常是指與所選項目或所執行任務相關的功能表或可用資訊。 | 上下文說明訪客與數位屬性的目前互動詳細情形。上下文的範例包括其滑鼠位置、表單欄位的狀態、購物車的價值或正在使用的裝置。<br>Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html) 提供現今市面上最穩健的內容偵測和服務啟動功能，並提供設定檔和受眾服務的內容相關元件。 |
@@ -44,5 +44,5 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 排程 | 可指稱 Adobe Story 中的一系列場景，或是 ColdFusion 中的排程任務。 | 在 Experience Cloud 中，排程是指啟動行銷活動、管道和活動的開始日期 (年、月、日) 與結束日期。活動排程的粒度小至分鐘。變更排程會建立資訊卡。<br>例如：<ul><li>行銷活動排程</li><li>管道排程</li><li>活動排程</li></ul> |
 | 區段 | 不適用 | 一組規則的輸出，用於判斷受眾的資格。在 Analytics 中，[區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)可選擇性用來定義可傳遞至 Experience Cloud 的受眾。<br>在 Audience Manager 中，區段是[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/traits/traits-overview.html)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。已登入網站的使用者可使用共用功能。 |
-| 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。<br>[請參閱關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md). |
+| 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。<br>請參閱[關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)。 |
 | 特徵 | 不適用 | 索引鍵值組，例如 color=blue。在 Audience Manager 中，[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/traits/traits-overview.html)會用於建立區段。 |
