@@ -6,11 +6,11 @@ seo-title: Activation
 solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,16 +43,16 @@ Activation 包括名為 Experience Platform Launch、Dynamic Tag Management (DTM
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Experience Cloud ID Service 的實作指南 </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID服務可跨Experience Cloud解決方案啟用核心功能（包括客戶屬性、觀眾分享和觸發器）。 Adobe 強烈建議實作 ID 服務並利用這些功能。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID Service 可跨 Experience Cloud 解決方案啟用核心功能 (包括客戶屬性、受眾共用和觸發器)。Adobe 強烈建議實作 ID 服務並利用這些功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management 產品文件 </a> </p> </td> 
-   <td colname="col2"> <p>進一步瞭解如何使用 Dynamic Tag Management 來部署 Experience Cloud 解決方案。 </p> </td>
+   <td colname="col2"> <p>進一步了解如何使用 Dynamic Tag Management 來部署 Experience Cloud 解決方案。 </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-如果您需要有關實作 Dynamic Tag Management 的協助，建議您聯絡客戶經理，取得有關 Adobe 全球服務產品項目或實作合作夥伴產品項目的資訊。歡迎您隨時透過 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 使用 #DTM 主題標籤與我們聯絡。
+如果您需要有關實作 Dynamic Tag Management 的協助，建議您連絡客戶經理，取得有關 Adobe 全球服務產品項目或實作合作夥伴產品項目的資訊。歡迎您隨時透過 [@AdobeExpCare](https://twitter.com/AdobeExpCare) 使用 #DTM 主題標籤與我們連絡。
 
 ## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
