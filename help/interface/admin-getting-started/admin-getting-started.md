@@ -1,23 +1,23 @@
 ---
-description: 瞭解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
+description: 了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
 keywords: core services
-seo-description: 瞭解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
+seo-description: 了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
 seo-title: 管理 Experience Cloud 使用者和產品
 solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # 管理 Experience Cloud 使用者和產品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-瞭解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
+了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
-瞭解 Experience Cloud 使用者管理中的最新功能。
+了解 Experience Cloud 使用者管理中的最新功能。
 
 <!-- ### Business ID type
 
@@ -114,15 +114,15 @@ Experience Platform Launch 會顯示在 Admin Console 的「產品」頁面上�
 
 ## Experience Manager 雲端服務
 
-Adobe企業客戶在Adobe管理控制台中以IMS組織的形式呈現。 這是Adobe客戶用來管理其使用者和群組產品權益的入口網站。 AEM客戶可使用Adobe Admin Console來管理其產品權益以及AEM雲端服務的IMS驗證。
+Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客戶可使用此入口網站管理使用者和群組的產品權益。AEM 客戶可使用 Adobe Admin Console 管理其產品權益以及 AEM 雲端服務的 IMS 驗證。
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+請參閱 [AEM 雲端服務的 IMS 支援](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
 
-## 動態標籤管理 {#section_3A41CF2BD5994B9891537D063571D4ED}
+## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 邀請使用者加入 Dynamic Tag Management，並指派使用者角色與新增使用者至群組。
 
-若要瞭解如何邀請使用者加入 Dynamic Tag Management，及為群組指派使用者角色及新增使用者，請參閱[使用者與權限](https://docs.adobe.com/content/help/zh-Hant/dtm/using/admin/users.html)。
+若要了解如何邀請使用者加入 Dynamic Tag Management，及為群組指派使用者角色及新增使用者，請參閱[使用者與權限](https://docs.adobe.com/content/help/zh-Hant/dtm/using/admin/users.html)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
