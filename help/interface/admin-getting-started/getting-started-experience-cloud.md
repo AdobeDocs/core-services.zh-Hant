@@ -1,16 +1,16 @@
 ---
-description: 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
+description: 了解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 keywords: core services, sign in to Experience Cloud
-seo-description: 瞭解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
+seo-description: 了解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 seo-title: 登入及管理設定檔設定
 solution: Experience Cloud
 title: 登入及管理 Experience Cloud 設定檔設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->管理員，請參閱[管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)，瞭解最新的使用者和產品管理相關資訊。
+>管理員，請參閱[管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)，了解最新的使用者和產品管理相關資訊。
 
 ## 登入 Experience Cloud (管理員) {#task_034FC955031347F3B02B686A09801A08}
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
    ![](assets/admin-link.png)
 
-   如果未顯示&#x200B;**[!UICONTROL 管理]**&#x200B;連結，則表示您並非所顯示之[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (在此範例中為 Adobe Corp) 的 Experience Cloud 管理員。如需建立管理員身分方面的相關協助，請聯絡客戶服務或貴公司目前的 Experience Cloud 管理員。
+   如果未顯示&#x200B;**[!UICONTROL 管理]**&#x200B;連結，則表示您並非所顯示之[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (在此範例中為 Adobe Corp) 的 Experience Cloud 管理員。如需建立管理員身分方面的相關協助，請連絡客戶服務或貴公司目前的 Experience Cloud 管理員。
 1. 按一下&#x200B;**[!UICONTROL 管理]**。
 
    ![](assets/admin-landing.png)
@@ -39,9 +39,9 @@ ht-degree: 97%
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console 基本需知](https://helpx.adobe.com/tw/marketing-cloud/how-to/first-time-setup.html) | 瞭解開始使用 Experience Cloud 解決方案所需的初始步驟。 |
+| [Admin Console 基本需知](https://helpx.adobe.com/tw/marketing-cloud/how-to/first-time-setup.html) | 了解開始使用 Experience Cloud 解決方案所需的初始步驟。 |
 | [設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | 定義並設定身分系統，用於驗證您的使用者。 |
-| [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 瞭解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
+| [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 了解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
 | 按一下[啟動 Admin Console](../admin-getting-started/admin-getting-started.md)。 | Admin Console 是管理整個組織中 Adobe 使用者和產品權限的集中位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
 | [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets 可讓行銷人員使用 Creative Cloud 來與設計人員和其他創意資產共用、同步資料夾及進行共同作業。您可以在這裡管理獲核准與貴組織共同作業的 Creative Cloud 使用者。 |
 | [對應您的報表套裝](../core-services/core-services.md) | (僅限 Analytics) Experience Cloud 核心服務會與一個組織建立關聯，而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。(此工作是[讓 Analytics 可使用核心服務](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)的更廣泛工作流程的一部分)。 |
@@ -80,9 +80,9 @@ ht-degree: 97%
 
 ## 啟用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。您也可以指定您要通知的產品和解決方案，包括客戶屬性的上傳狀態。
+取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。您也可以指定要接收哪些產品和解決方案的通知，包括客戶屬性的上傳狀態。
 
-若要導覽至通知，請按一下&#x200B;**[!UICONTROL 通知]**&#x200B;圖示 ![](assets/notifications-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示  ![](assets/icon_edit_board.png)。
+若要導覽至通知，請按一下&#x200B;**[!UICONTROL 通知]**&#x200B;圖示 ![](assets/notifications-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示 ![](assets/icon_edit_board.png)。
 
 您可以根據對您而言重要的訊息類型來排序通知，也可搜尋通知。您也可以：
 
@@ -116,7 +116,7 @@ ht-degree: 97%
 
 您可以編輯自己的 Experience Cloud 個人資料、指定預設的組織和登陸頁面等。
 
-1. [登入 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. [登入 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985)。
 
 1. 在 Experience Cloud 功能表中，按一下您的個人資料圖片。
 
