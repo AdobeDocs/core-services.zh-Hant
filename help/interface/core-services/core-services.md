@@ -1,23 +1,23 @@
 ---
-description: 實作 Experience Cloud 並成為管理員。此程式會針對「客戶屬性」和「受眾」等功能，將您的解決方案最新化。
+description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
 keywords: core services;Customer Attributes
-seo-description: 實作 Experience Cloud 並成為管理員。此程式會針對「客戶屬性」和「受眾」等功能，將您的解決方案最新化。
+seo-description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
 seo-title: 啟用核心服務的 Experience Cloud 解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # 啟用核心服務的解決方案
 
-針對現有客戶，瞭解如何最新化解決方案實作並實作Experience Cloud，讓您能夠使用客戶屬性和受眾等功能。 若要完成此作業，您將需：
+針對現有客戶，了解如何導入最新的解決方案實作及實作 Experience Cloud，讓您能使用客戶屬性和受眾等功能。若要完成此作業，您將需：
 
 1. [加入 Experience Cloud 並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [實作 Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -44,7 +44,7 @@ ht-degree: 96%
 ![](assets/step2_icon.png)最實化實作，並取得已佈建的管理員。
 
 1. 請依照下文[「部署 [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)」中的步驟操作。
-1. 請聯絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
+1. 請連絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
 
 ![](assets/step3_icon.png)[!UICONTROL  在 Admin Console 中管理使用者和產品]。
 
@@ -75,7 +75,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->在企業和解決方案群組對應後，新使用者會自動產生連結。(系統會自動建立解決方案憑證並連結至其 Adobe ID。)
+>在企業和解決方案群組對應後，新使用者會自動產生連結(系統會自動建立解決方案憑證並連結至其 Adobe ID)。
 
 以下各節將說明如何導入最新實作。導入最新實作以啟用 Experience Cloud 中的核心服務。
 
@@ -83,7 +83,7 @@ ht-degree: 96%
 
 [!UICONTROL Experience Cloud ID Service] 提供的通用 ID 可用於跨解決方案整合。它提供跨網域訪客身分識別，以及根據透過[!UICONTROL 客戶屬性]上傳的 CRM 資料跨裝置/瀏覽器鎖定目標和個人化的路徑。
 
-啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://docs.adobe.com/content/help/zh-Hant/launch/using/implement/solutions/idservice-save.translate.html)，或透過 [!UICONTROL Dynamic Tag Management] 中的 ECID 工具，為 Analytics 和 Adobe Target 自動啟用。(強烈建議使用 Experience Platform Launch。)
+啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://docs.adobe.com/content/help/zh-Hant/launch/using/implement/solutions/idservice-save.translate.html)，或透過 [!UICONTROL Dynamic Tag Management] 中的 ECID 工具，為 Analytics 和 Adobe Target 自動啟用(強烈建議使用 Experience Platform Launch)。
 
 ![](assets/menu-activation-shell.png)
 
@@ -107,7 +107,7 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.
 
 訪客在您的網站上進行驗證或以其他方式識別自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。然後，您可以使用適當的函數呼叫，將客戶 ID 同步至 Experience Cloud。此同步會將訪客的 CRM 客戶 ID 儲存在 Experience Cloud 中，並啟動該客戶的屬性以用於 Experience Cloud。
 
-例如，假設在 CRM 系統中 Bob 的 Customer ID 為 `52mc210tr42`。當您的網站驗證 Bob 時，您必須在頁面上公開此 ID，然後以下述方法之一使用此 ID 進行同步化:
+例如，假設在 CRM 系統中 Bob 的 Customer ID 為 `52mc210tr42`。當您的網站驗證 Bob 時，您必須在頁面上公開此 ID，然後以下述方法之一使用此 ID 進行同步化：
 
 * 使用訪客 ID 服務呼叫 `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})`。或,
 * 在 prop 或 eVar 中填入 *`Customer ID (52mc210tr42)`*。
@@ -120,9 +120,9 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.
 
 ### 啟用歷史資料的屬性
 
-訪客登入後，即可使用客戶屬性資料。如果您尚未實作最新的 Experience Cloud ID Service，而且過去一直在 prop 或 eVar 中追蹤客戶 ID，您可以請求將歷史登入資料傳送至 Experience Cloud 的程序。此程式可讓您立即開始使用客戶屬性。
+訪客登入後，即可使用客戶屬性資料。如果您尚未實作最新的 Experience Cloud ID Service，而且過去一直在 prop 或 eVar 中追蹤客戶 ID，您可以請求將歷史登入資料傳送至 Experience Cloud 的程序。此程序可讓您立即開始使用客戶屬性。
 
-請聯絡客戶服務以啟用歷史資料。
+請連絡客戶服務以啟用歷史資料。
 
 ## 步驟 3.將報表套裝對應至 Experience Cloud 組織 {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
@@ -146,7 +146,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
    >[!IMPORTANT]
    >
-   >所有Analytics客戶都已布建核心服務，例如「客戶屬性」。 如果您還不是 Analytics 客戶，請聯絡客戶服務，請他們幫您進行佈建。
+   >所有 Analytics 客戶皆已佈建完成，可使用客戶屬性等核心服務。如果您還不是 Analytics 客戶，請連絡客戶服務，請他們幫您進行佈建。
 
 ## 步驟 6.確認核心服務實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
