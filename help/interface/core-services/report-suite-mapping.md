@@ -4,11 +4,11 @@ seo-description: 瞭解如何將一個或多個報表套裝對應至組織。
 seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 導覽至「資料管理報表套裝」的「管 [!DNL Analytics] 理」>「資 **[!UICONTROL 料管理」]** (請參閱「檢 ****[視／管理報表套裝的資料管理設定」)](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料管理]**」，導覽至「資料管理報表套裝」(請參閱[檢視/管理報表套裝的管理設定](https://docs.adobe.com/help/zh-Hant/analytics/admin/data-governance/gdpr-view-settings.html))。
 
 1. 若要查看可存取每個報表套裝的登入公司資訊，請按一下&#x200B;**[!UICONTROL 只有登入公司能看見]**。
 
