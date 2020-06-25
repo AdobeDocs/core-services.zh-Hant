@@ -4,16 +4,20 @@ seo-description: 瞭解如何將一個或多個報表套裝對應至組織。
 seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
+workflow-type: tm+mt
+source-wordcount: '1201'
+ht-degree: 97%
 
 ---
 
 
 # 將報表套裝對應至組織 {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>報表套裝對應功能將於2020年11月停用。 請映射所有未完成的報表套裝，以進行>準備。 如有任何疑問，請聯絡客戶服務。
 
 瞭解如何將一個或多個報表套裝對應至組織。
 
