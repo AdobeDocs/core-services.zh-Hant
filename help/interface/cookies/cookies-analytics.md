@@ -6,9 +6,9 @@ seo-title: Analytics Cookie
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics Cookie
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Analytics 說明中提供有關[第一方 Cookie](/help/interface/cookies/cookie
 |--- |--- |
 | 儲存的資訊 | 不重複訪客 ID 時間/日期戳記 |
 | 過期 | 2 年 |
-| 使用狀況 | 該 Cookie 用於識別獨特訪客     |
+| 使用狀況 | 該 Cookie 用於識別獨特訪客      |
 | 位置 | 此 Cookie 會儲存在影像請求的網域中；如果您使用第三方 Cookie，或您的網域使用第一方 Cookie，通常會是 2o7.net 或 omtrdc.net 底下的客戶專屬子網域。 |
 | 大小 | 44 位元組 |
 
@@ -98,7 +98,9 @@ Analytics 說明中提供有關[第一方 Cookie](/help/interface/cookies/cookie
 | s_cc (Javascript) | 無 | 無 | 未設定 |
 | s_sq (Javascript) | 無 | 無 | 未設定 |
 
->[!NOTE] 如果使用單一 CNAME 來追蹤多個網域或屬性，`s_vi` 應將 SameSite 設為「None」。如需變更 Analytics Cookie 設定的協助，請聯絡客戶服務。
+>[!NOTE]
+>
+> 如果使用單一 CNAME 來追蹤多個網域或屬性，`s_vi` 應將 SameSite 設為「None」。如需變更 Analytics Cookie 設定的協助，請聯絡客戶服務。
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
