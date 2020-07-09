@@ -6,11 +6,11 @@ seo-title: 登入及管理設定檔設定
 solution: Experience Cloud
 title: 登入及管理 Experience Cloud 設定檔設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 97%
 
 ---
 
@@ -27,14 +27,11 @@ ht-degree: 100%
 
 登入並確認您隸屬於正確的[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
-1. 按一下 Experience Cloud 的下拉式功能表 ( ![](assets/menu-icon.png))，然後再按一下&#x200B;**[!UICONTROL 管理]**。
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   如果未顯示&#x200B;**[!UICONTROL 管理]**&#x200B;連結，則表示您並非所顯示之[組織](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (在此範例中為 Adobe Corp) 的 Experience Cloud 管理員。如需建立管理員身分方面的相關協助，請連絡客戶服務或貴公司目前的 Experience Cloud 管理員。
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). 如需建立管理員身分方面的相關協助，請連絡客戶服務或貴公司目前的 Experience Cloud 管理員。
 1. 按一下&#x200B;**[!UICONTROL 管理]**。
 
-   ![](assets/admin-landing.png)
 1. 按一下下列任一連結以繼續操作：
 
 | 元素 | 說明 |
