@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領�
 
 Adobe Managed Certificate Program 是為第一方 Cookie 實作新第一方 SSL 憑證的建議程序。
 
-Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新的第一方 SSL 憑證。如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
+Adobe管理憑證程式可讓您為第一方Cookie實作新的第一方SSL憑證，無需額外付費（針對前100個CNAME）。 如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
 
 ### 實作
 
@@ -72,7 +72,7 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 | 問題 | 回答 |
 |---|---|
 | **此程序是否安全?** | 是，Adobe Managed Program 不會在 Adobe 和核發憑證授權機構以外的地方傳遞憑證或私密金鑰，因此會比舊方法更安全。 |
-| **Adobe 如何為網域購買憑證?** | 唯有當您將指定的主機名稱 (例如 smetrics.example.com) 指向 Adobe 擁有的主機名稱時，才能購買憑證。基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
+| **Adobe 如何為網域購買憑證?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. 基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
 | **我可以要求撤銷憑證嗎?** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
 | **此憑證是否會使用 SHA-2 加密?** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
 | **這是否會產生額外費用?** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
