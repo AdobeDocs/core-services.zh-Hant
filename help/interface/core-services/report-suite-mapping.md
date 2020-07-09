@@ -4,11 +4,11 @@ seo-description: 瞭解如何將一個或多個報表套裝對應至組織。
 seo-title: 將報表套裝對應至組織
 title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->報表套裝對應功能將於 2020 年 11 月終止支援。請將所有未完成的報表套裝建立對應關係，以準備因應這種情況。如有任何疑問，請聯絡客戶服務。
+>報表套裝對應功能將於 2020 年 11 月終止支援。請對應任何未完成的報表套裝，以做好準備。 如有任何疑問，請聯絡客戶服務。
 
 瞭解如何將一個或多個報表套裝對應至組織。
-
-<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL People]) 與組織相關聯而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。對應程序：
 
