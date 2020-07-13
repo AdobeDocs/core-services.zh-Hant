@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領�
 
 Adobe Managed Certificate Program 是為第一方 Cookie 實作新第一方 SSL 憑證的建議程序。
 
-Adobe管理憑證程式可讓您為第一方Cookie實作新的第一方SSL憑證，無需額外付費（針對前100個CNAME）。 如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
+Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新的第一方 SSL 憑證 (前 100 個 CNAME)。如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
 
 ### 實作
 
-以下說明如何為第一方 Cookie 實作新的第一方 SSL 憑證:
+以下說明如何為第一方 Cookie 實作新的第一方 SSL 憑證：
 
 1. 填寫[第一方 Cookie 請求表單](/help/interface/cookies/assets/FPC_Request_Form.xlsx)並請客戶服務開立支援工單，要求在 Adobe Managed Program 上設定第一方 Cookie。每個欄位在文件中都有範例解說。
 
@@ -71,11 +71,11 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 
 | 問題 | 回答 |
 |---|---|
-| **此程序是否安全?** | 是，Adobe Managed Program 不會在 Adobe 和核發憑證授權機構以外的地方傳遞憑證或私密金鑰，因此會比舊方法更安全。 |
-| **Adobe 如何為網域購買憑證?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. 基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
-| **我可以要求撤銷憑證嗎?** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
-| **此憑證是否會使用 SHA-2 加密?** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
-| **這是否會產生額外費用?** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
+| **此程序是否安全？** | 是，Adobe Managed Program 不會在 Adobe 和核發憑證授權機構以外的地方傳遞憑證或私密金鑰，因此會比舊方法更安全。 |
+| **Adobe 如何為網域購買憑證？** | 唯有當您將指定的主機名稱 (例如 `smetrics.example.com`) 指向 Adobe 擁有的主機名稱時，才能購買憑證。基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
+| **我可以要求撤銷憑證嗎？** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
+| **此憑證是否會使用 SHA-2 加密？** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
+| **這是否會產生額外費用？** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
 
 ## 建立 CNAME 記錄
 
@@ -144,7 +144,7 @@ Address: 54.187.216.46
 
 ## 更新實作程式碼 {#update}
 
-編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件:
+編輯網站程式碼以使用第一方 Cookie 前，請先完成下列必要條件：
 
 * 依照 [Adobe Managed Certificate Program](#adobe-managed-certificate-program) 的&#x200B;*實作*&#x200B;一節中所述步驟操作，請求 SSL 憑證。
 * 建立 CNAME 記錄 (請參閱上方)。
@@ -153,7 +153,7 @@ Address: 54.187.216.46
 確認主機名稱會回應並將資料轉寄給 Adobe 資料收集伺服器後，您就可以變更實作，指向您自己的資料收集主機名稱。
 
 1. 開啟您的核心 JavaScript 檔案 (`s_code.js/AppMeasurement.js`)。
-1. 如果您要更新程式碼版本，請以較新版本取代整個 `s_code.js/AppMeasurement.js` 檔案，並汰換任何外掛程式或自訂項目 (如果有的話)。**或者**，如果您只想更新第一方 Cookie 相關程式碼，請找到 s.trackingServer 和 s.trackingServerSecure (如果使用 SSL) 變數，將其指向您新的資料收集主機名稱。以 mysite.com 為例:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. 如果您要更新程式碼版本，請以較新版本取代整個 `s_code.js/AppMeasurement.js` 檔案，並汰換任何外掛程式或自訂項目 (如果有的話)。**或者**，如果您只想更新第一方 Cookie 相關程式碼，請找到 s.trackingServer 和 s.trackingServerSecure (如果使用 SSL) 變數，將其指向您新的資料收集主機名稱。以 mysite.com 為例：`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 將更新後的核心 JavaScript 檔案上傳至您的網站。
 
