@@ -6,9 +6,9 @@ seo-title: 啟用核心服務的 Experience Cloud 解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -43,10 +43,10 @@ ht-degree: 100%
 
 ![](assets/step2_icon.png)最實化實作，並取得已佈建的管理員。
 
-1. 請依照下文[「部署 [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)」中的步驟操作。
+1. 請依照下文「[部署 [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)」中的步驟操作。
 1. 請連絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
 
-![](assets/step3_icon.png)[!UICONTROL  在 Admin Console 中管理使用者和產品]。
+![](assets/step3_icon.png) 在 [!UICONTROL Admin Console] 中管理使用者和產品。
 
 ### 管理員登入
 
