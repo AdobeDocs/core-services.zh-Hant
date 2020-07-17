@@ -2,31 +2,33 @@
 description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
 keywords: core services;Customer Attributes
 seo-description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
-seo-title: 啟用核心服務的 Experience Cloud 解決方案
+seo-title: 為客戶屬性和受眾啟用您的Experience Cloud解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 100%
+source-wordcount: '2402'
+ht-degree: 96%
 
 ---
 
 
-# 啟用核心服務的解決方案
+# 啟用您的跨解決方案服務實作
 
-針對現有客戶，了解如何導入最新的解決方案實作及實作 Experience Cloud，讓您能使用客戶屬性和受眾等功能。若要完成此作業，您將需：
+如果您最近使用Experience Platform Launch實作Experience Cloud，您已針對「客戶屬性」和「Experience Cloud觀眾」進行設定。 您也可以在管理控制台中管理使用者和產品。
+
+對於現有客戶，您可能需要最新化解決方案實作並實作Experience Cloud。 如此，您就可以跨Adobe Analytics、Audience Manager和Adobe Target運用客戶屬性和受眾功能。 若要完成此作業，您將需：
 
 1. [加入 Experience Cloud 並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [實作 Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [將報表套裝對應至 Experience Cloud 組織](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 程式碼](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [更新 Adobe Target 實作](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [確認核心服務實作](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [驗證實施](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理使用者和產品](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [開始使用核心服務](#section_960C06093623462E8EA247B3E97274A1)
+1. [開始共用屬性和觀眾資料](#section_960C06093623462E8EA247B3E97274A1)
 
 ## 步驟 1.加入 Experience Cloud 並成為管理員 {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ mbox 請求中的 Experience Cloud ID：
 
 已新增至[!UICONTROL 客戶屬性]群組中的使用者可在 Experience Cloud 介面的左邊看到[!UICONTROL 客戶屬性]功能表項目。
 
-## 步驟 8.開始使用核心服務 {#section_960C06093623462E8EA247B3E97274A1}
+## 步驟 8.開始共用屬性和觀眾資料 {#section_960C06093623462E8EA247B3E97274A1}
 
 善用以下核心服務功能。
 
