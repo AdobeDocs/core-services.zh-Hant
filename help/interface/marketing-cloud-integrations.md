@@ -6,11 +6,11 @@ seo-title: Experience Cloud 整合
 solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,16 +33,16 @@ Adobe Experience Cloud 是一組同級最佳的全方位整合式解決方案，
 
 解決方案或服務：
 
-* Activation - Dynamic Tag Management 或 Experience Platform Launch
+* 啟動- Experience Platform Launch（建議）或動態標籤管理
 * Analytics
 * Target
 * [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
 
 ## Experience Cloud ID Service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-說明：[Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
-
 ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決方案中的訪客。它可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 解決方案或功能的 ID 產生碼。
+
+See [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
 
 **適用的解決方案或服務**
 
@@ -182,7 +182,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-說明 (需登入)：[與 Adobe Experience Cloud 解決方案和核心服務整合](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **適用的解決方案或服務**
 
