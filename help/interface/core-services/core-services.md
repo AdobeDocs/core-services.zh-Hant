@@ -6,10 +6,10 @@ seo-title: 啟用核心服務的 Experience Cloud 解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '2358'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '2356'
 ht-degree: 100%
 
 ---
@@ -146,7 +146,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
    >
    >所有 Analytics 客戶皆已佈建完成，可使用客戶屬性等核心服務。如果您還不是 Analytics 客戶，請連絡客戶服務，請他們幫您進行佈建。
 
-## 步驟 6.確認核心服務實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## 步驟 6.驗證實施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 請依照下列程序操作，確保 Experience Cloud ID Service 在您的網站上正確實作。
 
