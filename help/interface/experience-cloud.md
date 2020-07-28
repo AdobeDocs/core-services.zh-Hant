@@ -6,11 +6,11 @@ seo-title: Adobe Experience Cloud 和核心服務說明及產品文件。
 solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-本頁提供下列功能與服務的產品檔案存取權：
+本頁提供下列功能與服務的產品文件：
 
-* [觀眾程式庫](audience-library/audience-library.md)
+* [受眾程式庫](audience-library/audience-library.md)
 * [客戶屬性](attributes/attributes.md)
 * [Triggers](activation/triggers.md)
 * [Experience Cloud 資產](experience-cloud-assets/experience-cloud-assets.md)
@@ -41,7 +41,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [Adobe Experience Cloud 中的設定檔管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (部落格)
 * [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## 相關的Experience Cloud說明
+## 相關 Experience Cloud 說明
 
 * [所有 Experience Cloud 解決方案的產品文件](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud 的新功能，以及訂閱以取得更新
