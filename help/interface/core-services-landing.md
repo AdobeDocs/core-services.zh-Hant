@@ -5,18 +5,18 @@ seo-title: Experience Cloud 核心服務和使用者管理
 solution: Experience Cloud
 title: 關於 Experience Cloud 核心服務
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 關於 Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and Customer Attributes), Experience Platform Launch, and Mobile Services. 您也可以找到有關Experience Cloud使用者和產品管理的說明。
+Adobe Experience Cloud 服務包括 [!UICONTROL People] (受眾和客戶屬性)、Experience Platform Launch 和 Mobile Services。此處也提供 Experience Cloud 使用者和產品管理的相關說明。
 
 若要在 Experience Cloud 中存取這些服務，請按一下&#x200B;**[!UICONTROL 「應用程式選擇器」]**![](assets/menu-icon.png)。
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud services include the [!UICONTROL People] (Audiences and C
 
 >[!NOTE]
 >
->Experience Platform的產品檔案位 [於這裡](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.html)。 Technical documentation for [!UICONTROL Experience Platform] developers is located on [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>若需 Experience Platform 的產品文件，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/experience-platform/landing/home.html)。若需 [!UICONTROL Experience Platform] 開發人員的技術文件，請前往 [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html)。
 
 本說明介紹下列產品和服務：
 
