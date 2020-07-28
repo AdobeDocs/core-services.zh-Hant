@@ -1,16 +1,16 @@
 ---
 description: 有關 Experience Cloud 管理員的常見問題和答案。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: 有關 Experience Cloud 管理員的常見問題和答案。
-seo-title: 有關Experience Cloud核心服務的常見問題。
+seo-description: Experience Cloud 管理員的常見問題和答案。
+seo-title: Experience Cloud 核心服務的常見問題集。
 solution: Adobe Experience Cloud
 title: 常見問題集
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
