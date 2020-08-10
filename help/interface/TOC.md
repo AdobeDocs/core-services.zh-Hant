@@ -4,11 +4,11 @@ user-guide-title: Experience Cloud 介面使用手冊
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 96%
 # Experience Cloud 介面說明 {#interface}
 
 + [Experience Cloud 與產品文件](experience-cloud.md)
-+ Application services in Experience Cloud {#about-core-services}
-   + [應用程式服務概觀](core-services-landing.md)
-   + [啟用您的跨解決方案服務實作](core-services/core-services.md)
++ Experience Cloud 的應用程式服務 {#about-core-services}
+   + [應用程式服務概述](core-services-landing.md)
+   + [促進跨解決方案服務實作](core-services/core-services.md)
    + [將報表套裝對應至組織](core-services/report-suite-mapping.md)
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
 + [Experience Cloud 整合](marketing-cloud-integrations.md)
