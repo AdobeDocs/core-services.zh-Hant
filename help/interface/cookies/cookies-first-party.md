@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
->[!N注意：]
+>[!NOTE]
 >
 >Experience Cloud 訪客 ID 服務提供設定 CNAME 以啟用第一方 Cookie 的替代方式，但由於最近 Apple ITP 變更，因此即便有使用 Experience Cloud ID Service，仍建議您配置 CNAME。
 
@@ -104,7 +104,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 `https://sstats.adobe.com/_check`
 
->[!N注意：]
+>[!NOTE]
 >
 >如果未安裝憑證，系統會顯示安全性警告。
 
