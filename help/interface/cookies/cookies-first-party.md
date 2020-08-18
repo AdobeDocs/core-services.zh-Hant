@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
 ht-degree: 100%
 
@@ -159,6 +159,6 @@ Address: 54.187.216.46
 
 1. 如果您要從長期實作改為第一方 Cookie，或變更成其他第一方收集主機名稱，建議您將訪客從舊有網域移轉到新網域。
 
-請參閱「Analytics 實作指南」中的[訪客移轉](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/visitor-identification.html)。
+請參閱「Analytics 實作指南」中的[訪客移轉](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html)。
 
 在您上傳 JavaScript 檔案後，系統就會執行第一方 Cookie 資料收集所需的所有設定。建議您在接下來幾小時監控 Analytics 報告，以確認系統能繼續正常收集資料。如果未正常運作，請確認前述所有步驟均已完成，並推派組織的任何一名支援使用者連絡客戶服務。
