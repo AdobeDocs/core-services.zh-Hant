@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 
 # 在管理工具中檢視Experience Cloud使用者和原則
 
-管理員可以使用管理工具的詳細資訊，檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合與管理清單，以及原則的詳細權限與資源資訊。 (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
+管理員可以使用管理工具的詳細資訊，檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合與管理清單，以及原則的詳細權限與資源資訊。
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. 登入 `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在 Experience Cloud 首頁上，按一下&#x200B;**[!UICONTROL 管理工具]**。
+1. 在「快 [!UICONTROL 速存取]」下，按一 **[!UICONTROL 下「管理工具」。]**
 
    (或者，您可以將首頁 URL 中的 _home_ 取代為 _admin_。)
 
@@ -97,6 +101,8 @@ ht-degree: 54%
 
 此頁面會顯示您組織中的Experience Cloud原則完整清單。 它提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單的自訂檢視。
 
+![](assets/admin-tool-policies.png)
+
 | 元素 | 說明 |
 |---|---|
 | [!UICONTROL 產品設定檔] | 產品設定檔的名稱。 列可以排序A->Z、Z->A。按一下產品描述檔的名稱，以檢視有關原則的詳細資訊。 |
@@ -122,7 +128,14 @@ ht-degree: 54%
 
 在「策 [!UICONTROL 略] 」頁上，要查看策略的詳細資訊，請按一下產品配置檔案名稱。
 
-每個產品設定檔的詳細檢視會顯示產品設定檔的主體（使用者、群組等），以及產品設定檔啟用的權限和資源的重要詳細資訊。  產品描述檔的詳細資訊可匯出至CSV檔案。  「匯 [!UICONTROL 出CSV] 」選項將產生2個CSV檔案：主旨詳細資訊（使用者、使用者群組、開發人員、整合、管理員）以及權限與資源項目。
+![](assets/admin-tool-policy-detail.png)
+
+每個產品設定檔的詳細檢視會顯示產品設定檔主題（使用者、群組等）的重要詳細資訊。 它也會顯示產品設定檔所啟用的權限和資源。
+
+產品描述檔的詳細資訊可匯出至CSV檔案。 「匯 [!UICONTROL 出CSV] 」選項會產生兩個CSV檔案：
+
+* 主旨詳細資訊（使用者、使用者群組、開發人員、整合、管理員）
+* 權限和資源項目
 
 ## 摘要部分
 
@@ -134,7 +147,6 @@ ht-degree: 54%
 * 整合次數
 * 相關產品
 * 例項
-
 
 ## 詳細的主題清單
 
@@ -150,5 +162,4 @@ ht-degree: 54%
 
 ## 詳細的權限和資源清單
 
-本節顯示產品設定檔可用權限和資源的完整清單。 產品設定檔中包含的權限和資源已標示為「✔」。  權限和資源清單已分類為標籤和欄，以方便檢視。  標籤和欄會顯示套用至目前產品的區段清單。
-
+本節顯示產品設定檔可用權限和資源的完整清單。 產品設定檔中包含的權限和資源已標示為「✔」。 權限和資源清單已分類為標籤和欄，以方便檢視。 標籤和欄會顯示套用至目前產品的區段清單。
