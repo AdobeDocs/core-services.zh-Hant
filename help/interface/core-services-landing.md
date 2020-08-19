@@ -5,11 +5,11 @@ seo-title: Experience Cloud 核心服務和使用者管理
 solution: Experience Cloud
 title: 關於 Experience Cloud 核心服務
 index: true
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '516'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud 服務包括 [!UICONTROL People] (受眾和客戶屬性)�
 | [Activation](activation/activation.md) | 標籤管理系統 (Experience Platform Launch 和 Dynamic Tag Management)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
 | [Administration](admin-getting-started/admin-getting-started.md) | 管理您所有 Adobe 雲端和解決方案的使用者和產品權限。 |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆在集中位置儲存、同步和共用您所有的數位資產，以節省時間並提供更一致的客戶體驗。 |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) | [!UICONTROL Experience Platform Launch 是新一代 Adobe 標籤管理功能。][!UICONTROL Experience Platform Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告整合功能，以便支援相關客戶體驗。 |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] 是新一代的網站和應用程式資料收集與技術實作。 [!UICONTROL Experience Platform Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告整合功能，以便支援相關客戶體驗。 |
 | [Journey Orchestration](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) | 運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。[!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
 | [Location Service](https://docs.adobe.com/content/help/zh-Hant/places/using/home.translate.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) 是一項地理位置服務，可讓具備位置感知功能的行動應用程式使用豐富且簡單易用的 SDK 介面，搭配有彈性的興趣點資料庫 (POI) 來了解位置環境。 |
 | [Exchange](exchange.md) | 透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴展元件。 |
