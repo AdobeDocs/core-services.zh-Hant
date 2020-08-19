@@ -6,11 +6,11 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: ht
-source-wordcount: '3929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+workflow-type: tm+mt
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
+## 2020年8月至8月
+
+| 功能 | 說明 |
+| -----------| ---------- |
+| 管理工具——政策 | 此頁面會顯示您組織中的Experience Cloud原則完整清單。 它提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單的自訂檢視。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
+
 ## 2020 年 4 月
 
 * 淘汰 Experience Cloud[!UICONTROL 「摘要」]頁面。(EXC-8505)
@@ -32,7 +38,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
 
 **修正**
 
@@ -539,7 +545,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
