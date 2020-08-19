@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
-source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 52%
