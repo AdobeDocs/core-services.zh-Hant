@@ -6,9 +6,9 @@ seo-title: 管理 Experience Cloud 使用者和產品
 solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 在 Adobe Target 中，Workspace 是產品設定檔，可讓組織將特定一組使用者指派至特定一組屬性。Workspace 有許多地方與 Adobe Analytics 報表套裝相似。
 
 請參閱：
+
 * [企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)
 * [管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
 * 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
