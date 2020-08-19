@@ -1,23 +1,23 @@
 ---
-description: 瞭解 Experience Cloud 管理工具，用於檢視所有 Experience Cloud 使用者的可排序和可篩選清單。
+description: 瞭解Experience Cloud管理工具，以檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。
 keywords: core services
-seo-description: 瞭解 Experience Cloud 管理工具，用於檢視所有 Experience Cloud 使用者的可排序和可篩選清單。
+seo-description: 瞭解Experience Cloud管理工具，以檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。
 seo-title: 檢視 Experience Cloud 使用者和使用者詳細資訊
 solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 54%
 
 ---
 
 
-# 在管理工具中檢視 Experience Cloud 使用者
+# 在管理工具中檢視Experience Cloud使用者和原則
 
-管理員可以在管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，且可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。(**注意：**&#x200B;使用者和產品管理需在 [Admin Console](admin-getting-started.md) 中設定。)
+管理員可以使用管理工具的詳細資訊，檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合與管理清單，以及原則的詳細權限與資源資訊。 (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
 
 1. 登入 `https://experience.adobe.com/.`
 
@@ -92,3 +92,63 @@ ht-degree: 100%
 | [!UICONTROL 產品設定檔] | 產品設定檔的不重複名稱。 |
 | [!UICONTROL 依群組指派] | 為使用者與產品設定檔建立關聯的使用者群組名稱。空白結果表示使用者是直接指派給產品設定檔，而非透過群組。 |
 | [!UICONTROL 產品角色] | 產品設定檔中的使用者角色指派。目前此資訊僅適用於 Adobe Target 產品設定檔。 |
+
+## 「策略」頁
+
+此頁面會顯示您組織中的Experience Cloud原則完整清單。 它提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單的自訂檢視。
+
+| 元素 | 說明 |
+|---|---|
+| [!UICONTROL 產品設定檔] | 產品設定檔的名稱。 列可以排序A->Z、Z->A。按一下產品描述檔的名稱，以檢視有關原則的詳細資訊。 |
+| [!UICONTROL 產品] | 與產品設定檔相關聯的產品。 欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL 例項] | 與產品設定檔相關聯的例項（例如租用戶或登入公司）。 沒有唯一例項或租戶的產品會顯示&quot; - &quot;作為值。 欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL 使用者人數] | 與產品設定檔相關聯的使用者獨特計數，包括直接指派和群組指派。 列可以從最小到最大或從最大到最小。 |
+| [!UICONTROL 開發人員人數] | 與產品設定檔相關聯的開發人員角色計數。 列可以從最小到最大或從最大到最小。 |
+
+## 自定義策略清單視圖
+
+您可以搜尋、排序或篩選欄以自訂原則清單。
+
+* 依名稱搜尋產品設定檔。 搜尋會比對您輸入的文字字串。
+* 依遞增或遞減值排序欄。這適用於產品配置檔案、產 [!UICONTROL 品、] 實 [!UICONTROL 例] 、用 [!UICONTROL 戶數、開發] 人員數、列數。
+* Click the **[!UICONTROL Filter By]** icon to apply multiple filters to list product profiles with specific criteria. 套用多個篩選類別時，搜尋會包含與例項解決方案相 `AND` 關的 `AND` 群組。
+
+| 元素 | 說明 |
+|---------|----------|
+| [!UICONTROL 例項篩選] (Instance Filter) | 在例項欄中搜尋字元字串，將結果縮小為一或多個例項。 在每個搜尋詞後按 Enter 鍵即可新增多個篩選器. |
+| [!UICONTROL 解決方案]篩選器 | 從可用的解決方案中選擇。多個解決方案篩選器搜尋包含「解決方案1」`OR`「解決方案 2」的結果。 |
+
+## 檢視原則詳細資訊
+
+在「策 [!UICONTROL 略] 」頁上，要查看策略的詳細資訊，請按一下產品配置檔案名稱。
+
+每個產品設定檔的詳細檢視會顯示產品設定檔的主體（使用者、群組等），以及產品設定檔啟用的權限和資源的重要詳細資訊。  產品描述檔的詳細資訊可匯出至CSV檔案。  「匯 [!UICONTROL 出CSV] 」選項將產生2個CSV檔案：主旨詳細資訊（使用者、使用者群組、開發人員、整合、管理員）以及權限與資源項目。
+
+## 摘要部分
+
+本節顯示產品設定檔的摘要，包括：
+
+* 產品設定檔名稱
+* 使用者人數
+* 開發人員人數
+* 整合次數
+* 相關產品
+* 例項
+
+
+## 詳細的主題清單
+
+本節顯示指派給產品設定檔的所有使用者、使用者群組、開發人員、整合和管理員的完整清單。
+
+| 定位 | 說明 |
+|---------|----------|
+| [!UICONTROL 使用者] | 產品設定檔中包含的使用者清單。 使用者群組關聯會顯示在「依群 [!UICONTROL 組指派」欄] 中。 |
+| [!UICONTROL 使用者群組] | 與產品設定檔相關聯的使用者群組清單。 |
+| [!UICONTROL 開發人員] | 與產品設定檔相關的開發人員清單。 |
+| [!UICONTROL 整合] | 與產品設定檔相關聯的整合清單。 |
+| [!UICONTROL 管理員] | 與產品設定檔關聯的管理員清單。 |
+
+## 詳細的權限和資源清單
+
+本節顯示產品設定檔可用權限和資源的完整清單。 產品設定檔中包含的權限和資源已標示為「✔」。  權限和資源清單已分類為標籤和欄，以方便檢視。  標籤和欄會顯示套用至目前產品的區段清單。
+
