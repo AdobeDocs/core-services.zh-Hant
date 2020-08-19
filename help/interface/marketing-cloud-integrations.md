@@ -6,11 +6,11 @@ seo-title: Experience Cloud 整合
 solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 使用 Experience Cloud 啟用解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. 使用 [Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) 或 [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)，插入會在您的頁面上啟用 [Adobe Experience Cloud 解決方案](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)的程式碼。
+1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
 1. 使用 [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/zh-Hant/auditor/using/overview.html) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
