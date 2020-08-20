@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [[!UICONTROL 受眾程式庫]](audience-library/audience-library.md)
 * [[!UICONTROL 客戶屬性]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud 資產](experience-cloud-assets/experience-cloud-assets.md)
+* [[!UICONTROL Experience Cloud 資產]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 
 ## 使用者和產品管理
@@ -37,8 +37,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [組織和帳戶連結](admin-getting-started/organizations.md)
 * [整合](marketing-cloud-integrations.md)
 * [將 Adobe Target 與 Experience Cloud 整合](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud 隱私權及安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Adobe Experience Cloud 中的設定檔管理](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (部落格)
+* [Experience Cloud隱私權與安全性總覽](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 相關 Experience Cloud 說明
@@ -55,14 +54,11 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 * [[!UICONTROL 受眾]](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
-* [Assets](experience-cloud-assets/experience-cloud-assets.md)
-* [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL 客戶屬性]](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
-* [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
