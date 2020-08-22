@@ -5,10 +5,10 @@ seo-title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 solution: Experience Cloud
 title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
-source-wordcount: '398'
+translation-type: tm+mt
+source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ DNS 預先擷取可自動與頁面上的靜態內嵌連結搭配使用。這也�
 
 * **[!DNL Target]：**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DNS 預先擷取](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
