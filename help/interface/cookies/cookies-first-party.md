@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: First-Party Cookies
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
+workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 ### 使用 [!DNL curl] 進行驗證
 
-Adobe 建議從命令列使用 [!DNL [curl](https://curl.haxx.se/)] 。([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)
+Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. ([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)
 
 如果您已設定 CNAME 但未安裝憑證，請執行：
 `curl -k https://sstats.adobe.com/_check`
