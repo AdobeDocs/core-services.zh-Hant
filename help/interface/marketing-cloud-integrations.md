@@ -6,11 +6,11 @@ seo-title: Experience Cloud 整合
 solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 * Adobe Analytics：[客戶屬性報表](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
 * Adobe Target：設定 Adobe Target 的客戶屬性[訂閱](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/subscription.html)
 
-## Experience Cloud 資產 {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
+## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 說明：[與 Creative Cloud 共用 Experience Cloud 資料夾](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/assets/creative-cloud.html)
 
@@ -119,7 +119,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 使用 Experience Cloud 啟用解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. 使用 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html) 或 [Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)，插入會在您的頁面上啟用 [Adobe Experience Cloud 解決方案](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62)的程式碼。
 1. 使用 [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/zh-Hant/auditor/using/overview.html) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
@@ -192,6 +192,6 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **Experience Cloud Audiences：**(可管理顯示內容的廣告商) 您可以使用任何 [ Adobe Experience Cloud Audiences](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html) 作為顯示廣告的目標。您可以自動使用已在 Adobe Experience Cloud 中建立的受眾和已發佈至 Adobe Experience Cloud 的 Analytics 受眾，而當 Media Optimizer 帳戶設定為允許時，您也可以使用 Audience Manager 的受眾。如需深入了解如何存取 Adobe Experience Cloud 和設定檔與受眾，以及 Media Optimizer 與 Adobe Experience Cloud 受眾之間的初始設定，請洽詢客戶經理。**注意：**&#x200B;如果您也使用 Adobe Target，您發佈至 Adobe Experience Cloud 的受眾也可供 Adobe Target 中的活動使用。
 
-**Experience Cloud 資產：**(可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)，才能存取 Adobe Experience Cloud 資產。如需存取 Adobe Experience Cloud 的相關資訊，請洽詢帳戶管理員。
+**Experience Cloud Assets：**(可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud Assets 作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)，才能存取 Adobe Experience Cloud Assets。如需存取 Adobe Experience Cloud 的相關資訊，請洽詢帳戶管理員。
 
 **Experience Cloud 通知：**&#x200B;從每頁頂部的通知連結中，您可以檢視搜尋測試版警示範本產生的所有警示，以及 Adobe Experience Cloud 系統更新、貼文、提及和共用的資產。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)，才能存取通知。如需存取 Adobe Experience Cloud 的相關資訊，請洽詢帳戶管理員。
