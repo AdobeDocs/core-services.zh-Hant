@@ -5,22 +5,22 @@ seo-title: 受眾
 solution: Experience Cloud
 title: 受眾
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e969dd515dc89e0d96988466a90a740591f67e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 受眾 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的 Audience Services 可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 [!DNL Experience Cloud] 共用受眾區隔的能力。
+受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 [!DNL Experience Cloud] 共用受眾區隔的能力。
 
 ![](assets/audiences.png)
 
-您可以建立受眾，或從各種來源衍生出受眾，例如:
+您可以建立受眾，或從各種來源衍生出受眾，例如：
 
 * 在 [!DNL Experience Cloud] 中建立新的受眾
 * 從發佈至 [!DNL Analytics] 的 [!DNL Experience Cloud] 區隔
@@ -40,12 +40,12 @@ ht-degree: 90%
 | 解決方法 | 說明 |
 |--- |--- |
 | Experience Cloud 受眾 | 使用[受眾程式庫](../audience-library/audience-library.md) 介面以原生方式建立、管理和共用受眾。您可以：<ul><li>運用原始分析屬性來使用即時受眾</li><li>結合受眾以建立複合受眾，加入即時和歷史資料</li><li>查看預估受眾規模的圖形檢視</li></ul><br>如需您要建立何種受眾類型的建議，請參閱：[Experience Cloud Audiences](https://helpx.adobe.com/tw/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
-| Analytics | 在細分中，您可以建立區段、將其與報表套裝結合，然後將區段發佈至 Experience Cloud。發佈區段會顯示在Experience Cloud的「 [!UICONTROL 觀眾程式庫] 」頁面上。 (如需詳細 [資訊，請參閱Analytics說明中的](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 「將區段發佈至Experience Cloud」)。 受眾也可作為 Adobe Target 提供之行銷活動體驗以及 Audience Manager 中的目標受眾。Once an audience is shared from Adobe Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. 共用受眾的限制數已提高至 75 個。透過 Analytics 與 Experience Cloud 共用的受眾不能超過 2,000 萬個不重複的成員。另外，由於快取關係，Experience Cloud 會在 12 小時之後才顯示 Analytics 中刪除的報表套裝資訊。 |
+| Analytics | 您可以利用細分功能來建立區段、將其與報表套裝結合，然後將區段發佈至 Experience Cloud。區段發佈後，會顯示於 Experience Cloud 的[!UICONTROL 「受眾程式庫」]頁面(如需詳細資訊，請參閱 Analytics 說明中的[將區段發佈至 Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-publish.html))。受眾也可作為 Adobe Target 行銷活動體驗及 Audience Manager 的目標受眾。從 Adobe Analytics 中共用受眾，並選擇在作用中的行銷活動中使用後，系統會將過去 90 天內符合區段定義條件的所有訪客設定檔傳送至 Experience Cloud [!UICONTROL 受眾服務]平台。共用受眾的限制數已提高至 75 個。透過 Analytics 與 Experience Cloud 共用的受眾不能超過 2,000 萬個不重複的成員。另外，由於快取關係，Experience Cloud 會在 12 小時之後才顯示 Analytics 中刪除的報表套裝資訊。 |
 | Mobile Services | 使用[!UICONTROL 裝置類型]報表中的放射環狀圖視覺效果分析行動流量。 |
-| [!DNL Target] | [訪客 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) 將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。[發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊會在 Adobe Analytics 區隔建立程序期間顯示，勾選後該區隔將可供 Adobe Target 的自訂受眾程式庫使用。在 Analytics 或 Audience Manager 中建立的區段皆適用於 [!DNL Target] 中的活動。For example, you can create campaign activities based on [!DNL Analytics] conversion metrics and audience segments created in [!DNL Analytics]. |
-| Audience Manager | 共用受眾可在 Audience Manager 細分中使用。Audience Manager 原本就可使用所有的 Experience Cloud 受眾，而 Audience Manager 提供：<ul><li>內建自動化功能，適用於解決方案工作流程中共用和使用對象的方式</li><li>離站目的地</li><li>相似建模</li></ul> |
+| [!DNL Target] | [訪客 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) 將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 區段建立程序中會顯示[發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊，一旦勾選，該區段即可供 Adobe Target 的自訂受眾程式庫使用。在 Analytics 或 Audience Manager 中建立的區段皆適用於 [!DNL Target] 中的活動。例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和受眾區段來建立行銷活動。 |
+| Audience Manager | 共用受眾可在 Audience Manager 細分中使用。Audience Manager 原本就可使用所有 Experience Cloud 受眾，並提供：<ul><li>內建自動化功能，適用於解決方案工作流程中共用和使用對象的方式</li><li>離站目的地</li><li>相似建模</li></ul> |
 | 行銷活動 | <ul><li>從不同的 Adobe Experience Cloud 解決方案匯入共用受眾至 Adobe Campaign。</li><li>以共用受眾的形式匯出收件者清單。這些共用受眾可用於您所使用的不同 Adobe Experience Cloud 解決方案。</li></ul> |
-| Media Optimizer | 使用受眾做為目標。 |
+| Media Optimizer | 使用受眾作為目標。 |
 
 >[!IMPORTANT]
 >
