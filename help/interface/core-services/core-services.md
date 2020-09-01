@@ -6,9 +6,9 @@ seo-title: 啟用 Experience Cloud 客戶屬性和受眾的解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
 ht-degree: 100%
 
