@@ -2,16 +2,16 @@
 description: Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
 keywords: cookies;privacy
 seo-description: Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
-seo-title: First-Party Cookies
+seo-title: 第一方 Cookies
 solution: Experience Cloud,Analytics
-title: First-Party Cookies
+title: 第一方 Cookies
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,10 +83,10 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 
 FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向的 CNAME。例如：
 
-* **SSL 主機名稱**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
-* **非 SSL 主機名稱**:`metrics.mysite.com`
-* **非 SSL CNAME**:`mysite.com.sc.omtrdc.net`
+* **SSL 主機名稱**：`smetrics.mysite.com`
+* **SSL CNAME**：`mysite.com.ssl.sc.omtrdc.net`
+* **非 SSL 主機名稱**：`metrics.mysite.com`
+* **非 SSL CNAME**：`mysite.com.sc.omtrdc.net`
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
 
@@ -110,13 +110,13 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 ### 使用 [!DNL curl] 進行驗證
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. ([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)
+Adobe 建議從命令列使用 [[!DNL curl]](https://curl.haxx.se/)([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)。
 
 如果您已設定 CNAME 但未安裝憑證，請執行：
 `curl -k https://sstats.adobe.com/_check`
-回應：`SUCCESS`
+回應：`SUCCESS` 
 
-(`-k` 值會停用安全性警告。)
+(`-k` 值會停用安全性警告)。
 
 如果您已設定 CNAME 且已安裝憑證，請執行：
 `curl https://sstats.adobe.com/_check`
