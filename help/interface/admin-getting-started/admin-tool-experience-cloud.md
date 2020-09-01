@@ -6,11 +6,11 @@ seo-title: 檢視 Experience Cloud 使用者和使用者詳細資訊
 solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>使用者和產品管理需在 [Admin Console](admin-getting-started.md) 中設定。
 
 1. 登入 `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. 在「快 [!UICONTROL 速存取]」下，按一 **[!UICONTROL 下「管理工具」。]**
+1. 在[!UICONTROL 「快速存取」]中按一下&#x200B;**[!UICONTROL 「管理工具」]**
 
    (或者，您可以將首頁 URL 中的 _home_ 取代為 _admin_。)
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
 每位使用者的詳細檢視中，會顯示有關使用者解決方案存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
 
-## 關於區段
+## 區段簡介
 
 本區段顯示使用者帳戶的摘要，包括：
 
@@ -130,14 +130,14 @@ ht-degree: 93%
 
 ![](assets/admin-tool-policy-detail.png)
 
-每個產品設定檔的詳細檢視會顯示產品設定檔主題（使用者、群組等）的重要詳細資訊。 它也會顯示產品設定檔所啟用的權限和資源。
+每個產品設定檔的詳細檢視都會顯示產品設定檔主體 (使用者、群組等) 的重要詳細資訊，也會顯示產品設定檔啟用的權限和資源。
 
-產品設定檔的詳細資訊可匯出為 CSV 檔案。「匯 [!UICONTROL 出CSV] 」選項會產生兩個CSV檔案：
+產品設定檔的詳細資訊可匯出為 CSV 檔案。[!UICONTROL 「匯出 CSV」]選項會產生兩個 CSV 檔案：
 
-* 主旨詳細資訊（使用者、使用者群組、開發人員、整合、管理員）
+* 主體詳細資訊 (使用者、使用者群組、開發人員、整合項目、管理員)
 * 權限和資源項目
 
-## 摘要部分
+## 摘要區段
 
 本區段顯示產品設定檔的摘要，包括：
 
@@ -148,7 +148,7 @@ ht-degree: 93%
 * 相關聯的產品
 * 例項
 
-## 詳細的主題清單
+## 詳細的主體清單
 
 本區段顯示指派給產品設定檔的所有使用者、使用者群組、開發人員、整合和管理員的完整清單。
 
@@ -162,4 +162,4 @@ ht-degree: 93%
 
 ## 詳細的權限和資源清單
 
-本區段顯示完整的產品設定檔可用權限和資源清單。產品設定檔中包含的權限和資源已加上「✔」標記。權限和資源清單已分類為各個標籤和欄，以方便檢視。標籤和欄會顯示適用於目前產品的區段清單。
+本區段顯示完整的產品設定檔可用權限和資源清單。產品設定檔中包含的權限和資源會加上「✔」標示。權限和資源清單會分類為各個標籤和欄，以便檢視。標籤和欄會顯示適用於目前產品的區段清單。
