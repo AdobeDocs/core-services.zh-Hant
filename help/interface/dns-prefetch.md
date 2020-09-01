@@ -5,9 +5,9 @@ seo-title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 solution: Experience Cloud
 title: 搭配不同的解決方案和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ DNS 預先擷取可自動與頁面上的靜態內嵌連結搭配使用。這也�
 
 * **Experience Cloud ID Service：**`<link rel="dns-prefetch" href="//fast. *`請在此處插入合作夥伴 ID`*.demdex.net">`
 
-* **動態標籤管理器** (DTM)：不需要。網頁載入時便會提供 DTM 連結。
+* **Dynamic Tag Manager** (DTM)：不需要。網頁載入時便會提供 DTM 連結。
 
 * **Media Optimizer (Ad Cloud)：**
 
