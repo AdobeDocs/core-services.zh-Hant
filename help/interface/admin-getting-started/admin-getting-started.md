@@ -6,9 +6,9 @@ seo-title: 管理 Experience Cloud 使用者和產品
 solution: Experience Cloud
 title: 管理 Experience Cloud 使用者和產品
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -137,15 +137,15 @@ Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客
 
 邀請使用者加入組織時，可提供產品和產品設定檔的存取權給使用者。您也可以委派有限的管理權限給使用者。同樣地，您可以建立使用者群組，然後將群組新增至產品設定檔以啟用存取權。
 
-1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，按一下&#x200B;**[!UICONTROL 產品]**。
-1. 按一下&#x200B;**[!UICONTROL 新增設定檔]**。
-1. 設定設定檔的詳細資料，然後按一下&#x200B;**[!UICONTROL 下一步]**。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，按一下&#x200B;**[!UICONTROL 「產品」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增設定檔」]**。
+1. 設定設定檔的詳細資料，然後按&#x200B;**[!UICONTROL 「下一步」]**。
+1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
 如需更多說明，請參閱：
 
 * [管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
-* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)以取得詳細資訊。
+* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)會提供詳細資訊。
 * 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
@@ -178,16 +178,16 @@ Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客
 
 使用這些角色，您便可同時將管理作業委派給其他人，無需提供超出其所需的功能。
 
-1. 在 Admin Console 中，按一下&#x200B;**[!UICONTROL 使用者]**，然後按一下使用者的姓名。
-1. 按一下&#x200B;**[!UICONTROL 編輯管理權限]**。
+1. 在 Admin Console 中，按一下&#x200B;**[!UICONTROL 「使用者」]**，然後按一下使用者的姓名。
+1. 按一下&#x200B;**[!UICONTROL 「編輯管理權限」]**。
 1. 設定使用者的管理權限。
-1. 按一下&#x200B;**[!UICONTROL 下一步]**&#x200B;以檢閱設定，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**&#x200B;以檢閱設定，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 支援的瀏覽器和系統需求 {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
-Experience Cloud 中支援的瀏覽器。
+Experience Cloud 中支援的瀏覽器 
 
-* [!DNL Microsoft Edge] (Microsoft 即將[停止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，Adobe 將不會修正針對這些特定版本 Internet Explorer 所回報的問題。)
+* [!DNL Microsoft Edge] (Microsoft 即將[停止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，Adobe 將不會修正針對這些特定版本 Internet Explorer 所回報的問題)。
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
