@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud 和核心服務說明及產品文件。
 solution: Adobe Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 介面檔案
+# Experience Cloud介面文件
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
@@ -26,7 +26,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [[!UICONTROL 受眾程式庫]](audience-library/audience-library.md)
 * [[!UICONTROL 客戶屬性]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [[!UICONTROL Experience Cloud 資產]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
 
 ## 使用者和產品管理
@@ -37,7 +37,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [組織和帳戶連結](admin-getting-started/organizations.md)
 * [整合](marketing-cloud-integrations.md)
 * [將 Adobe Target 與 Experience Cloud 整合](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud隱私權與安全性總覽](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Experience Cloud 隱私權及安全性概述](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 相關 Experience Cloud 說明
