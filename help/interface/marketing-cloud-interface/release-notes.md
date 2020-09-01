@@ -6,11 +6,11 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
-## 2020年8月至8月
+## 2020 年 8 月
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具——政策 | 此頁面會顯示您組織中的Experience Cloud原則完整清單。 它提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單的自訂檢視。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
 
 ## 2020 年 4 月
 
@@ -110,7 +110,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Assets 改善 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud 資產運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud Assets 運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶連結改善 </p> </td> 
@@ -319,7 +319,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 在 User Management 中所做的群組和權限變更，只有在重新登入後才會生效。
-* 有些使用者無法上傳大型檔案類型至 Experience Cloud 資產。
+* 有些使用者無法上傳大型檔案類型至 Experience Cloud Assets。
 * 使用者的 Experience Cloud 卡片上未顯示來自 Media Optimizer 的連結。
 * 有些管理員使用者在接受加入 Experience Cloud 的邀請後，無法順利連結帳戶。
 * 多名使用者同時使用 Experience Cloud 介面時，會導致介面效能下滑。
@@ -432,7 +432,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!UICONTROL 組織及產品存取]」頁面使用 [!DNL Search&Promote] 連結。
+* 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
 
 ## 發行版本 14.7.1 - 2014 年 7 月 24 日 {#section_B22D4F830756463DB27BB4D508D9ADD5}
@@ -445,7 +445,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 有些 [!UICONTROL Exchange] 使用者顯示在註解中的名稱是長字串 ID，而非其名稱
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上
 * 比起拖放方式，上傳檔案可接受更多檔案類型。為達到最佳效果，請使用 [!UICONTROL Assets] 上傳。
-* 無法從「[!UICONTROL 組織及產品存取]」頁面使用 [!DNL Search&Promote] 連結。
+* 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * [!DNL Exchange] 使用者必須清除 Cookie 才能獲得更好的使用體驗。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，可能會導致介面速度變慢。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
@@ -474,7 +474,6 @@ Experience Cloud 介面的功能、發行說明和已知問題。
   <tr> 
    <td colname="col1"> <p> 「受眾」中的<span class="wintitle">儲存</span>按鈕 </p> </td> 
    <td colname="col2"> <p>現在，當您建立受眾時，<span class="wintitle">建立新受眾</span>頁面上的<span class="wintitle">儲存</span>按鈕要在您填妥所有必要欄位之後才會停用。 
-      
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -484,7 +483,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 從 [!DNL Experience Cloud] 中刪除的檔案並不會從 [!DNL Digital Asset Management] 中刪除。
 * 比起拖放方式，上傳檔案可接受更多檔案類型。為達到最佳效果，請使用 Assets 上傳。
-* 無法從「[!UICONTROL 組織及產品存取]」頁面使用 [!DNL Search&Promote] 連結。
+* 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 某些使用者無法將其受眾管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
 * 15 分鐘無活動，系統就會將您登出。此外，您從某個位置登出後，系統會將您登出 Experience Cloud。
@@ -536,7 +535,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 將自訂標籤新增至資產後，其他中繼資料變更不會持續存在。
 * 刪除影像時，如果該影像用於 Adobe Target Essentials，則資產不會發出警告。
 * 多名使用者同時使用 [!UICONTROL Experience Cloud] 介面時，會導致介面效能下降。
-* 刪除 [!UICONTROL Experience Cloud 資產]中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
+* 刪除 [!UICONTROL Experience Cloud Assets] 中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
 * 登入期間未選取&#x200B;**[!UICONTROL 記住我]**&#x200B;時，使用者將在 15 分鐘後登出。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 登入 [!DNL Experience Cloud] 的時間超過一秒鐘。
@@ -545,7 +544,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
