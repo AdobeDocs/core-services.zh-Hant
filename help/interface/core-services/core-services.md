@@ -6,11 +6,11 @@ seo-title: 啟用 Experience Cloud 客戶屬性和受眾的解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '2402'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。最簡單的實行方式是在 Dynamic Tag Management 中新增 [!DNL Adobe Analytics] 工具，需指定 *`Automatic`* 做為設定方法。
 
-在 [!UICONTROL Dynamic Tag Management] 中，按一下 **[!UICONTROL <Web Property Name>]**>**[!UICONTROL &#x200B;概述&#x200B;]**>**[!UICONTROL &#x200B;新增工具&#x200B;]**>**[!UICONTROL  Adobe Analytics ]**。如需部署資訊，請參閱 Dynamic Tag Management 中的[Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
+在 [!UICONTROL Dynamic Tag Management] 中，按一下 **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. 如需部署資訊，請參閱 Dynamic Tag Management 中的 [Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
 
 ## 步驟 5.(Adobe Target) 更新 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
