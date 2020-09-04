@@ -6,10 +6,10 @@ seo-title: 選用 - 透過 FTP 上傳資料檔案
 solution: Experience Cloud
 title: 選用 - 透過 FTP 上傳資料檔案
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '294'
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. [建立客戶屬性來源及上傳資料檔案...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   請確定您已登入您的 FTP 網站 [!DNL ftp.adobe.com/<sftpname>]。
+   請確定您已登入您的 FTP 網站 `ftp.adobe.com/<sftpname>`.
 
 1. 按一下&#x200B;**[!UICONTROL 動作]** > **[!UICONTROL 檔案上傳]**。
 
