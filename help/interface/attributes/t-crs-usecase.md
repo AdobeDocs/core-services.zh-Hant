@@ -6,11 +6,11 @@ seo-title: 建立客戶屬性來源及上傳資料檔案
 solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -158,10 +158,7 @@ ht-degree: 100%
 
 ## 在 Adobe Analytics 中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-現在透過 
-<keyword>
-Adobe Analytics
-</keyword>等解決方案中提供的資料，您可以根據資料製作報表、分析，以及在行銷活動中採取適當行動。
+有了Adobe Analytics等解決方案現在提供的資料，您就可以報告資料、分析資料，並在行銷活動中採取適當的行動。
 
 以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
