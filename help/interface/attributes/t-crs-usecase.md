@@ -6,11 +6,11 @@ seo-title: 建立客戶屬性來源及上傳資料檔案
 solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔 (客戶屬性 - 預設存取。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表。
+>若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表。
 >
 >若要使用客戶屬性功能，使用者也必須加入解決方案層級的群組 (Analytics 或 [!DNL Target])。
 
@@ -67,12 +67,12 @@ ht-degree: 97%
 >建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。連絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
 
 1. 在 [!DNL Experience Cloud] 中，按一下功能表 ![](assets/menu-icon.png) 圖示。
-1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**。
+1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
    ![步驟結果](assets/03_crs_usecase.png)
-1. 按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 
    ![步驟結果](assets/04_crs_usecase.png)
 1. 在[!UICONTROL 「編輯客戶屬性來源」]頁面，設定以下欄位：
@@ -158,7 +158,7 @@ ht-degree: 97%
 
 ## 在 Adobe Analytics 中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-有了Adobe Analytics等解決方案現在提供的資料，您就可以報告資料、分析資料，並在行銷活動中採取適當的行動。
+有了 Adobe Analytics 等解決方案所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
 
 以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
