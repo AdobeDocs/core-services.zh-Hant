@@ -1,20 +1,20 @@
 ---
-description: 可管理將訪客資料轉換為受眾區隔的過程。
-seo-description: 可管理將訪客資料轉換為受眾區隔的過程。
-seo-title: 受眾
+description: 在Experience Cloud觀眾程式庫中管理訪客資料的轉譯至觀眾區隔。
+seo-description: 在Experience Cloud觀眾程式庫中管理訪客資料的轉譯至觀眾區隔。
+seo-title: Experience Cloud觀眾總覽
 solution: Experience Cloud
-title: 受眾
+title: Experience Cloud觀眾總覽
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e969dd515dc89e0d96988466a90a740591f67e9f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 95%
 
 ---
 
 
-# 受眾 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud Audiences overview {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 [!DNL Experience Cloud] 共用受眾區隔的能力。
 
