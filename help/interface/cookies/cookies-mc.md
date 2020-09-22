@@ -3,12 +3,12 @@ description: Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Clo
 keywords: cookies;privacy
 seo-description: Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方案所使用的訪客 ID。
 seo-title: Experience Cloud Cookie
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客     </p> </td> 
+   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客      </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
