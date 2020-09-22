@@ -3,14 +3,14 @@ description: 如何設定 Experience Cloud Triggers。
 keywords: integrations;Triggers
 seo-description: 如何設定 Experience Cloud Triggers。
 seo-title: Triggers
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Triggers 能讓您識別、定義及監控重要的客戶行為，然後產生�
    | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
 
 5. 按一下&#x200B;**[!UICONTROL 儲存]**。
-6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ### 範例觸發器
 
