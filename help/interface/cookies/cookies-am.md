@@ -3,12 +3,12 @@ description: Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。
 keywords: cookies
 seo-description: Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。這些功能包括指派 ID、記錄資料呼叫、追蹤錯誤和進行測試以瞭解 Cookie 是否可以設定。本節列出並說明 Audience Manager 所設定的各種 Cookie。
 seo-title: Audience Manager Cookie
-solution: Marketing Cloud,Audience Manager
+solution: Experience Cloud, Audience Manager
 title: Audience Manager Cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
