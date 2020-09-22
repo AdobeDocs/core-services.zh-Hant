@@ -3,11 +3,11 @@ description: Adobe Experience Cloud 的自助說明、產品文件和技術文�
 keywords: core services
 seo-description: 本頁提供 Experience Cloud 的自助說明、產品文件和技術文件。
 seo-title: Adobe Experience Cloud 和核心服務說明及產品文件。
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Experience Cloud 與核心服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
