@@ -3,12 +3,12 @@ description: 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限�
 keywords: cookies;privacy
 seo-description: 由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
 seo-title: 第三方 Cookie 支援的變更如何影響客戶
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: 第三方 Cookie 支援的變更如何影響客戶
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
