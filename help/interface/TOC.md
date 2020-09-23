@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 93%
    + [針對共用的資料檔案需求](experience-cloud-assets/assets-file-reqs.md)
    + [共用資料夾的行為](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 受眾 {#audiences}
-   + [Experience Cloud觀眾總覽](audience-library/audience-library.md)
+   + [Experience Cloud 受眾概述](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 中的客戶屬性 {#customer-attributes}
