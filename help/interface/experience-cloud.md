@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
 
-# Experience Cloud 介面指南
+# Experience Cloud介面指南
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
@@ -39,7 +39,7 @@ Adobe Experience Cloud管理指南包含有關Experience Cloud使用者和產品
 
 ## 指南
 
-相關的Experience Cloud指南包括：
+相關 Experience Cloud 指南包括：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 * [Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
@@ -52,13 +52,13 @@ Adobe Experience Cloud管理指南包含有關Experience Cloud使用者和產品
 
 ## 教學課程
 
-運用Experience League中的自助教學課程和快速操作說明：
+運用 Experience League 中的自助教學課程和快速操作說明：
 
-* [Experience League的所有教學課程](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [體驗平台教學課程](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Real-time Customer Data Platform](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience League 的所有教學課程](https://experienceleague.corp.adobe.com/?lang=zh-Hant#quick-how-tos)
+* [Experience Platform 教學課程](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hant)
+* [即時客戶資料平台](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hant)
 
-## 發行說明和相關的Experience Cloud說明
+## 發行說明和相關 Experience Cloud 說明
 
 * [所有 Experience Cloud 解決方案的產品文件](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud 的新功能，以及訂閱以取得更新
