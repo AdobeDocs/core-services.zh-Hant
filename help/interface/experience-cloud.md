@@ -1,27 +1,27 @@
 ---
-description: Adobe Experience Cloud 的自助說明、產品文件和技術文件。Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。
-keywords: core services
-seo-description: 本頁提供 Experience Cloud 的自助說明、產品文件和技術文件。
-seo-title: Adobe Experience Cloud 和核心服務說明及產品文件。
-solution: Experience Cloud
-title: Experience Cloud 與核心服務說明
+description: Adobe Experience Cloud 的自助說明、產品文件和技術文件。在Admin Console中提供使用者和產品管理、提供平台服務的解決方案，以及觀眾程式庫、客戶屬性、Experience Cloud資產等的說明。
+keywords: platform services
+seo-description: 有關Admin Console中使用者和產品管理的說明，為平台服務提供解決方案，並提供觀眾程式庫、客戶屬性、Experience Cloud資產等相關說明。
+seo-title: Adobe Experience Cloud和平台服務說明及產品檔案。
+solution: Adobe Experience Cloud
+title: Experience Cloud和平台服務協助
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 75%
 
 ---
 
 
-# Experience Cloud介面指南
+# Experience Cloud管理、觀眾和客戶屬性
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Adobe Experience Cloud管理指南包含有關Experience Cloud使用者和產品管理、觀眾程式庫、客戶屬性和Experience Cloud資產的說明。 本指南中的文章包括：
+本指南提供在Admin Console中存取Experience Cloud使用者和產品管理的說明，為平台服務啟用解決方案。 您也可以存取觀眾程式庫、客戶屬性、Experience Cloud資產等的說明：
 
 * [[!UICONTROL 受眾程式庫]](audience-library/audience-library.md)
 * [[!UICONTROL 客戶屬性]](attributes/attributes.md)
