@@ -1,20 +1,20 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud 管理員、受眾和客戶屬性
-breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
+user-guide-title: Experience Cloud應用程式服務與管理
+breadcrumb-title: Experience Cloud Application Services and Administration
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud 管理員、受眾和客戶屬性{#interface}
+# Experience Cloud Application Services and Administration {#interface}
 
 + [Experience Cloud 管理員、受眾和客戶屬性](experience-cloud.md)
 + Experience Cloud 的應用程式服務 {#about-core-services}
