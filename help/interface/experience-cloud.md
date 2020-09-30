@@ -6,16 +6,16 @@ seo-title: Adobe Experience Cloud 和平台服務說明及產品文件。
 solution: Experience Cloud
 title: Experience Cloud 與平台服務說明
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 管理、受眾和客戶屬性
+# Experience Cloud應用程式服務與管理
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
