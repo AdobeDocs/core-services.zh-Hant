@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
    <td colname="col1"> <p> 大小 </p> </td> 
    <td colname="col2"> <p>45 位元組 </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>只有當瀏覽器URL中顯示的網域符合Cookie的網域時，才會傳送具有此設定的Cookie。 這是Chrome中Cookie的新預設值。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
    <td colname="col2"> <p> 視情況而異，大部分客戶可預期此 Cookie 的長度約為 200 位元組。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>不增加值。 Chrome會預設為Lax。 </p> </td> 
+   <td colname="col2"> <p> 只有當瀏覽器URL中顯示的網域符合Cookie的網域時，才會傳送具有此設定的Cookie。 這是Chrome中Cookie的新預設值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
