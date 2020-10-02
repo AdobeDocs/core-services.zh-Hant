@@ -6,16 +6,16 @@ seo-title: 啟用 Experience Cloud 客戶屬性和受眾的解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# 促進跨解決方案服務實作
+# 啟用您的Experience Cloud服務實作
 
 如果您最近曾使用 Experience Platform Launch 實作 Experience Cloud，即已完成客戶屬性和 Experience Cloud 受眾的相關設定。您也可以在 Admin Console 中管理使用者和產品。
 
