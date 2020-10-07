@@ -6,11 +6,11 @@ seo-title: 建立受眾
 solution: Experience Cloud
 title: 建立受眾
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->在指定期間的資料收集完成後，就能完全定義受眾。下列範例說明如何建立複合受眾的規則。此受眾包括：
+>在指定期間的資料收集完成後，就能完全定義受眾。
+
+下列範例說明如何建立複合受眾的規則。此觀眾包括：
 
 * 「家庭與花園」區域衍生自頁面資料或原始分析資料。
 * 從[發佈](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區段衍生出的 Chrome 和 Safari 使用者。
