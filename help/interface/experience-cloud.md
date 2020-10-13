@@ -10,21 +10,21 @@ translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Experience Cloud服務與管理
+# Experience Cloud 服務與管理
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-本指南讓您存取 Admin Console 中 Experience Cloud 使用者和產品管理功能的說明，此功能可啟用平台服務的解決方案。您也可以存取受眾程式庫、客戶屬性、Experience Cloud Assets 等的說明：
+本指南讓您存取 Admin Console 中 Experience Cloud 使用者和產品管理功能的說明，此功能可啟用平台服務的解決方案。您也可以存取 Audience Library、Customer Attributes、Experience Cloud Assets 等的說明：
 
-* [[!UICONTROL 受眾程式庫]](audience-library/audience-library.md)
-* [[!UICONTROL 客戶屬性]](attributes/attributes.md)
+* [[!UICONTROL Audience Library]](audience-library/audience-library.md)
+* [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies/cookies-privacy.md)
@@ -64,6 +64,6 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 * [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud 的新功能，以及訂閱以取得更新
 * [實作核心服務的教學課程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://landing.adobe.com/experience-league/) - 與專家和社群進行引導式學習
-* [教育與訓練](https://helpx.adobe.com/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用我們的產品
-* [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) -閱讀 Experience Cloud 部落格
+* [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用我們的產品
+* [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) - 閱讀 Experience Cloud 部落格
 * [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html) - 連絡 Adobe 客戶服務
