@@ -1,22 +1,22 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud服務與管理
-breadcrumb-title: Experience Cloud Services and Administration
-user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
+user-guide-title: Experience Cloud 服務與管理
+breadcrumb-title: Experience Cloud 服務與管理
+user-guide-description: Adobe Experience Cloud 服務與管理指南包含 Experience Cloud 使用者和產品管理、對象庫、客戶屬性、Cookie 和 Experience Cloud 資產的相關說明。
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 93%
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud Services and Administration {#interface}
+# Experience Cloud 服務與管理 {#interface}
 
-+ [Experience Cloud服務與管理](experience-cloud.md)
++ [Experience Cloud 服務與管理](experience-cloud.md)
 + Experience Cloud services {#about-core-services}
    + [Experience Cloud服務概觀](core-services-landing.md)
    + [促進跨解決方案服務實作](core-services/core-services.md)
