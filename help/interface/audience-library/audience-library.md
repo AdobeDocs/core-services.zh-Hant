@@ -1,20 +1,20 @@
 ---
-description: 在 Experience Cloud 受眾程式庫中管理將訪客資料轉譯為受眾細分。
-seo-description: 在 Experience Cloud 受眾程式庫中管理將訪客資料轉譯為受眾細分。
-seo-title: Experience Cloud 受眾概述
+description: 在Experience Cloud Audience服務中管理訪客資料轉譯至受眾細分。
+seo-description: 在Experience Cloud Audience服務中管理訪客資料轉譯至受眾細分。
+seo-title: Experience Cloud Audiences服務
 solution: Experience Cloud
-title: Experience Cloud 受眾概述
+title: 'Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud 受眾概述 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud 受眾 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾程式庫可讓您管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 [!DNL Experience Cloud] 中的產品和服務共用受眾區隔的能力。
 
