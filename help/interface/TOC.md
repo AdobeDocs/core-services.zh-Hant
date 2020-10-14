@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Cloud 服務與管理指南包含 Exper
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 98%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [針對共用的資料檔案需求](experience-cloud-assets/assets-file-reqs.md)
    + [共用資料夾的行為](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 受眾程式庫 {#audiences}
-   + [Experience Cloud 受眾概述](audience-library/audience-library.md)
+   + [Experience Cloud Audiences服務](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
-+ Experience Cloud 中的客戶屬性 {#customer-attributes}
-   + [客戶屬性概述](attributes/attributes.md)
++ Experience Cloud Customer Attributes {#customer-attributes}
+   + [客戶屬性服務](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
    + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
