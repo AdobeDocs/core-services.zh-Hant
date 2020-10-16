@@ -6,16 +6,16 @@ seo-title: 啟用 Experience Cloud 客戶屬性和受眾的解決方案
 solution: Experience Cloud
 title: 啟用核心服務的解決方案
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 啟用您的Experience Cloud服務實作
+# 啟用 Experience Cloud 服務實作
 
 如果您最近曾使用 Experience Platform Launch 實作 Experience Cloud，即已完成客戶屬性和 Experience Cloud 受眾的相關設定。您也可以在 Admin Console 中管理使用者和產品。
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 
 如需完整的 Experience Cloud ID Service 說明 (先前稱為訪客 ID)，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
 
-**沒有使用[!UICONTROL Experience Platform Launch]或[!UICONTROL Dynamic Tag Management]嗎？**
+**沒有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management] 嗎？**
 
 如果您沒有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management]，請透過 JavaScript 部署 ([!DNL VisitorAPI.js]) 手動實作 ID 服務，如下所述：
 
@@ -136,7 +136,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。最簡單的實行方式是在 Dynamic Tag Management 中新增 [!DNL Adobe Analytics] 工具，需指定 *`Automatic`* 做為設定方法。
 
-在 [!UICONTROL Dynamic Tag Management] 中，按一下「**`<Web Property Name>`**  > **[!UICONTROL 概述]** > **[!UICONTROL 新增工具]** > **[!UICONTROL Adobe Analytics]**」。如需部署資訊，請參閱 Dynamic Tag Management 中的 [Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
+在 [!UICONTROL Dynamic Tag Management] 中，按一下「**`<Web Property Name>`** > **[!UICONTROL 概述]** > **[!UICONTROL 新增工具]** > **[!UICONTROL Adobe Analytics]**」。如需部署資訊，請參閱 Dynamic Tag Management 中的 [Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
 
 ## 步驟 5.(Adobe Target) 更新 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
