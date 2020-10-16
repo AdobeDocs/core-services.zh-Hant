@@ -1,25 +1,25 @@
 ---
-description: 瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
+description: 了解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
 keywords: core services
-seo-description: 瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
+seo-description: 了解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
 seo-title: 建立受眾
 solution: Experience Cloud
 title: 建立受眾
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # 建立受眾
 
-瞭解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
+了解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
 
-本文可協助您瞭解如何：
+本文可協助您了解如何：
 
 * 建立受眾
 * 建立規則
@@ -35,7 +35,7 @@ ht-degree: 98%
 >
 >在指定期間的資料收集完成後，就能完全定義受眾。
 
-下列範例說明如何建立複合受眾的規則。此觀眾包括：
+下列範例說明如何建立複合受眾的規則。此受眾包括：
 
 * 「家庭與花園」區域衍生自頁面資料或原始分析資料。
 * 從[發佈](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區段衍生出的 Chrome 和 Safari 使用者。
@@ -61,7 +61,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->定義受眾規則時，您應該瞭解您的實作變數。
+>定義受眾規則時，您應該了解您的實作變數。
 
 在[!UICONTROL 規則]底下，定義 *`Home & Garden`* 屬性選取項目:
 
