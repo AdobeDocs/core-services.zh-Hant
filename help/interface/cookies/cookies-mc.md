@@ -6,11 +6,11 @@ seo-title: Experience Cloud Cookie
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許以第一方狀態進行永久性 ID 追蹤，並在 AMCV Cookie 過期時作為參考 ID 使用。請在此查看 AMCV Cookie，以瞭解詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許以第一方狀態進行永久性 ID 追蹤，並在 AMCV Cookie 過期時作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -51,7 +51,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>只有當瀏覽器URL中顯示的網域符合Cookie的網域時，才會傳送具有此設定的Cookie。 這是Chrome中Cookie的新預設值。</p> </td> 
+   <td colname="col2"> <p>唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。這是 Chrome 對 Cookie 的新預設值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p> 該 Cookie 用於識別獨特訪客      </p> </td> 
+   <td colname="col2"> <p> 該 Cookie 用於識別不重複訪客 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
@@ -91,8 +91,8 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
    <td colname="col2"> <p> 視情況而異，大部分客戶可預期此 Cookie 的長度約為 200 位元組。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>不增加值。 Chrome會預設為Lax。 </p> </td> 
-   <td colname="col2"> <p> 只有當瀏覽器URL中顯示的網域符合Cookie的網域時，才會傳送具有此設定的Cookie。 這是Chrome中Cookie的新預設值。 </p> </td> 
+   <td colname="col1"> <p>未增加值。Chrome 會預設為 Lax。 </p> </td> 
+   <td colname="col2"> <p> 唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。這是 Chrome 對 Cookie 的新預設值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
