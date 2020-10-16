@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 95%
 # Experience Cloud 服務與管理 {#interface}
 
 + [Experience Cloud 服務與管理](experience-cloud.md)
-+ Experience Cloud services {#about-core-services}
-   + [Experience Cloud服務概觀](core-services-landing.md)
++ Experience Cloud 服務 {#about-core-services}
+   + [Experience Cloud 服務概述](core-services-landing.md)
    + [促進跨解決方案服務實作](core-services/core-services.md)
    + [將報表套裝對應至組織](core-services/report-suite-mapping.md)
    + [關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)
