@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 相關 Experience Cloud 指南包括：
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
-* [Experience Platform Co-op圖表](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
+* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
