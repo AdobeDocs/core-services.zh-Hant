@@ -6,11 +6,11 @@ seo-title: 術語
 solution: Experience Cloud
 title: 術語
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 行銷活動 | 在 Creative Cloud 中，行銷活動可視為使用 Creative Cloud 影像資產的行銷活動。 | 在 Experience Cloud 中，行銷活動會決定要向受眾顯示哪些內容，也會決定內容的顯示位置及時間。行銷活動具有特定目標，並以量度追蹤。<br>執行行銷活動需要訪客的上下文符合行銷活動中的規則集，並根據位置頻道的技術限制來傳送內容。<br>在 Adobe Target 中，行銷活動和活動是同義詞。 |
 | 管道 | 在 Creative Cloud 中，管道可能是儲存不同資訊類型的灰階影像。這些是資訊頻道和顏色頻道。 | 在 Experience Cloud 中，管道是位置的屬性或行銷活動中的活動。<br>在 Analytics 中，行銷頻道通常用於提供訪客如何到達網站的分析 (例如透過電子郵件行銷活動)。<br>例如：<ul><li>電子郵件</li><li>顯示廣告</li><li>社交網路</li><li>付費搜尋</li><li>免費搜尋</li><li>反向連結網域</li></ul> |
 | 內容 | 通常是指與所選項目或所執行任務相關的功能表或可用資訊。 | 上下文說明訪客與數位屬性的目前互動詳細情形。上下文的範例包括其滑鼠位置、表單欄位的狀態、購物車的價值或正在使用的裝置。<br>[Dynamic Tag Management](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html) 提供現今市面上最穩健的內容偵測和服務啟動功能，並提供設定檔和受眾服務相關的內容元件。 |
-| 消費者 ID | 無特殊用法。 | Experience Platform Co-op Graph會員用來識別人員的ID。 此編號由品牌指派，通常會在 CRM 系統中進行維護。**注意：**&#x200B;此 ID 不應與 _setCustomerIDs_ (將消費者 ID 傳送至 Experience Cloud 的 [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/about-id-service.html) 函數呼叫) 混淆。 |
+| 消費者 ID | 無特殊用法。 | Experience Platform Co-op Graph 會員據以識別人員的 ID。此編號由品牌指派，通常會在 CRM 系統中進行維護。**注意：**&#x200B;此 ID 不應與 _setCustomerIDs_ (將消費者 ID 傳送至 Experience Cloud 的 [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/about-id-service.html) 函數呼叫) 混淆。 |
 | 內容 | 在 Creative Cloud 中，內容是指頁面上的文字和影像。這個詞在 Creative 和 Experience Clouds 中的用法相似。 | 在 Experience Cloud 中，內容是指可用於支援特定目標之行銷活動中的行銷內容。<br>內容用於特定位置，並可由資產組成。內容可以結構化 (如產品資訊) 也可以非結構化 (如行動應用程式的網頁或畫面)。<br>例如：<ul><li>網頁</li><li>橫幅</li><li>狀態更新</li><li>註解</li><li>文字廣告</li><li>產品資訊</li><li>產品評論</li><li>表單資料</li><li>搜尋索引中的文件</li><li>社交貼文</li><li>文章</li><li>出版物</li></ul> |
 | 控制面板 | 無特殊用法。 | 在單一檢視中顯示多個關鍵量度的資料視覺效果集合。 |
 | 強制資料使用方式 | 無特殊用法。 | 由系統 (解決方案、應用程式、服務、SDK、API 等) 制定和定義的政策、系統設計、作法和程序，用於透過資料使用方式中繼資料，讓資料使用方式符合 Adobe 公司隱私權政策、合約對價和一般隱私權原則。 |
