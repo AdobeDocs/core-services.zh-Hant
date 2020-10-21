@@ -2,20 +2,20 @@
 description: 上傳客戶屬性至 Experience Cloud 的概述和先決條件。
 keywords: core services;Customer Attributes
 seo-description: 上傳客戶屬性至 Experience Cloud 的概述和先決條件。
-seo-title: Experience Cloud客戶屬性服務
+seo-title: Experience Cloud 客戶屬性服務
 solution: Experience Cloud
-title: Experience Cloud客戶屬性服務
+title: Experience Cloud 客戶屬性服務
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud客戶屬性服務
+# Experience Cloud 客戶屬性服務
 
 導覽至 **[!DNL Experience Platform]** > **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**
 
