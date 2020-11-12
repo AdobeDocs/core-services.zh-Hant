@@ -5,11 +5,11 @@ seo-title: Experience Cloud 受眾服務
 solution: Experience Cloud
 title: 'Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 **即時受眾 vs. 歷史受眾**
 
-即時鎖定使用案例可以存取所有受眾，無論受眾來源為何。不過，即時鎖定目標無法存取從 Analytics 共用到 Audience Manager 的受眾。系統會以兩種方式評估受眾：
+即時鎖定使用案例可以存取所有受眾，無論受眾來源為何。不過，無法從Analytics共用給Audience Manager的觀眾無法存取，無法進行即時定位。 系統會以兩種方式評估受眾：
 
 * 每 4 小時評估一次來自 Analytics 的歷史受眾。處理和共用花費的總時間最多需要 8 小時。歷史受眾一律包含回訪訪客。
 * 即時受眾源自於 Experience Cloud 受眾，且為即時評估。
@@ -72,6 +72,6 @@ ht-degree: 100%
 | 新增 | [建立受眾](../audience-library/audience-library.md)。 |
 | 標題與說明 | 用來識別和說明受眾的欄標題。 |
 | 作者 | 建立受眾區段的人。 |
-| 來源 | 識別建立受眾的位置。<ul><li>**Analytics：**&#x200B;在 Reports &amp; Analytics 或 Ad Hoc Analysis 中建立，然後[發佈至 Experience Cloud](../audience-library/audience-library.md) 的區段。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](../audience-library/audience-library.md)的新受眾。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的受眾會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
+| 來源 | 識別建立受眾的位置。<ul><li>**分析：** 在Adobe Analytics中建立的區段，然 [後發佈至Experience Cloud](../audience-library/audience-library.md)。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](../audience-library/audience-library.md)的新受眾。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的受眾會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的受眾規模。 |
 | 作用中 | 區段的作用中狀態。 |
