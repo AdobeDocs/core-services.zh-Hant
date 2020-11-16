@@ -5,11 +5,11 @@ seo-title: Experience Cloud 受眾服務
 solution: Experience Cloud
 title: 'Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 從發佈至 [!DNL Analytics] 的 [!DNL Experience Cloud] 區隔
 * 從 [!DNL Audience Manager]
 
-**即時受眾 vs. 歷史受眾**
+**即時與歷史觀眾**
 
 即時鎖定使用案例可以存取所有受眾，無論受眾來源為何。不過，即時鎖定目標功能無法存取從 Analytics 共用到 Audience Manager 的受眾。系統會以兩種方式評估受眾：
 
