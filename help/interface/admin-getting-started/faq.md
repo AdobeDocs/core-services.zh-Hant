@@ -1,35 +1,35 @@
 ---
-description: Experience Cloud管理員適用的瀏覽器支援、常見問題和解答。
+description: Experience Cloud 的瀏覽器支援及管理員的常見問題和答案。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Experience Cloud管理員適用的瀏覽器支援、常見問題和解答。
+seo-description: Experience Cloud 的瀏覽器支援及管理員的常見問題和答案。
 seo-title: Experience Cloud 核心服務的常見問題集。
 solution: Experience Cloud
 title: 常見問題集
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # 有關 Experience Cloud 的常見問題集
 
-瞭解Experience Cloud管理員的瀏覽器支援及常見問題與解答。
+了解 Experience Cloud 的瀏覽器支援及管理員的常見問題和解答。
 
-## Experience Cloud支援哪些瀏覽器？
+## Experience Cloud 支援哪些瀏覽器？
 
-* Microsoft Edge（目前和後兩個版本）
-* Google Chrome（目前和前兩個版本）
-* Mozilla Firefox（目前和後兩個版本）
-* Safari（目前和過去兩個版本）
-* Opera（目前和後兩個版本）
+* Microsoft Edge (最新和前兩個版本)
+* Google Chrome (最新和前兩個版本)
+* Mozilla Firefox (最新和前兩個版本)
+* Safari (最新和前兩個版本)
+* Opera (最新和前兩個版本)
 
-## 我該如何確認自己的解決方案已啟用做為核心服務?
+## 我該如何確認自己的解決方案已啟用做為核心服務？
 
-如果尚未針對核心服務佈建實作，請參閱[啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何:
+如果尚未針對核心服務佈建實作，請參閱[啟用核心服務的解決方案](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何：
 
 1. [加入 Experience Cloud 並成為管理員](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用 Experience Platform Launch 實作 Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html)。
@@ -42,21 +42,21 @@ ht-degree: 89%
 
 如需更多協助，請[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 
-## Adobe 會向公司收取 Experience Cloud 的使用費嗎?
+## Adobe 會向公司收取 Experience Cloud 的使用費嗎？
 
 不會。隨附 Experience Cloud，不需額外付費，不過某些核心服務可能會產生額外費用。
 
-## 公司為何要透過 Experience Cloud 介面登入?
+## 公司為何要透過 Experience Cloud 介面登入？
 
 Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，它也將是日後存取解決方案的標準途徑，最終將取代其他個別解決方案登入程序。透過 Experience Cloud 登入有助於日後更順暢轉換。
 
-## 如何解決我對移轉公司的疑慮?
+## 如何解決我對移轉公司的疑慮？
 
 [聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 
 ## 什麼是&#x200B;_佈建_？
 
-Experience Cloud 中的佈建意思是:
+Experience Cloud 中的佈建意思是：
 
 * 您的使用者可以開始登入 [!DNL Experience Cloud] 及連結解決方案。
 * 他們可以開始使用透過 Experience Cloud 提供的功能，例如 People。
@@ -119,6 +119,6 @@ ID 是：
 
 不可以。使用者必須將其解決方案與其使用者名稱和密碼連結。
 
-## 我的公司沒有 Social，為什麼我可以看到它?
+## 我的公司沒有 Social，為什麼我可以看到它？
 
 Adobe Social 是可與 Analytics 搭配銷售的產品。因此，如果您有 Analytics，您將會看到此解決方案，但是除非您已購買，否則無法存取。
