@@ -1,30 +1,30 @@
 ---
-description: 在 Experience Cloud 受眾服務中管理將訪客資料轉譯為受眾細分。
+description: 瞭解如何在Adobe Experience Cloud Audience服務中管理將訪客資料轉譯為受眾細分。
 seo-description: 在 Experience Cloud 受眾服務中管理將訪客資料轉譯為受眾細分。
 seo-title: Experience Cloud 受眾服務
 solution: Experience Cloud
-title: 'Experience Cloud 受眾 '
+title: 'Adobe Experience Cloud觀眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud 受眾{#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾程式庫可讓您管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 [!DNL Experience Cloud] 中的產品和服務共用受眾區隔的能力。
+受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾程式庫可讓您管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理觀眾類似於建立和使用區段。 您也可以將觀眾區隔分享至中的產品和服務 [!DNL Experience Cloud]。
 
 ![](assets/audiences.png)
 
 您可以建立受眾，或從各種來源衍生出受眾，例如：
 
 * 在 [!DNL Experience Cloud] 中建立新的受眾
-* 從發佈至 [!DNL Analytics] 的 [!DNL Experience Cloud] 區隔
-* 從 [!DNL Audience Manager]
+* [!DNL Analytics] 發佈至 [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **即時受眾對比歷史受眾**
 
