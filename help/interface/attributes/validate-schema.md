@@ -6,9 +6,9 @@ seo-title: 驗證結構
 solution: Experience Cloud
 title: 驗證結構
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
