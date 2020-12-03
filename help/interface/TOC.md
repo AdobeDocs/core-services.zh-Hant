@@ -5,11 +5,11 @@ breadcrumb-title: Experience Cloud 服務與管理
 user-guide-description: Adobe Experience Cloud 服務與管理指南包含 Experience Cloud 使用者和產品管理、對象庫、客戶屬性、Cookie 和 Experience Cloud 資產的相關說明。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客戶屬性{#customer-attributes}
-   + [Adobe Experience Cloud中的客戶屬性](attributes/attributes.md)
+   + [Adobe Experience Cloud 中的客戶屬性](attributes/attributes.md)
    + [常見問題、限制和最佳作法](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
    + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
