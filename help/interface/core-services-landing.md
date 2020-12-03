@@ -5,9 +5,9 @@ seo-title: Experience Cloud 服務和使用者管理
 solution: Experience Cloud
 title: 關於 Experience Cloud 服務
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
