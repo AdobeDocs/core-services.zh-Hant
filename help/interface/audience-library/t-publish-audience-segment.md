@@ -1,9 +1,9 @@
 ---
 title: 發佈 Analytics 受眾區隔
 description: 發佈 Analytics 受眾區隔到 Experience Cloud 和 Adobe Target，以利進行受眾行銷活動。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 631cf29b724c6edd8027c772789df72ae2ab5eb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 
