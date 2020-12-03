@@ -1,21 +1,21 @@
 ---
-description: 將客戶屬性上傳至Adobe Experience Cloud的概述和必要條件。
+description: 上傳客戶屬性至 Adobe Experience Cloud 的概述和先決條件。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: 上傳客戶屬性至 Experience Cloud 的概述和先決條件。
 seo-title: Experience Cloud 客戶屬性服務
 solution: Experience Cloud
-title: Adobe Experience Cloud —— 客戶屬性服務
+title: Adobe Experience Cloud - 客戶屬性服務
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud中的客戶屬性
+# Adobe Experience Cloud 中的客戶屬性
 
 導覽至 **[!DNL Experience Platform]** > **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**
 
