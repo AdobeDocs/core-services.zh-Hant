@@ -6,9 +6,9 @@ seo-title: Experience Cloud 客戶屬性服務
 solution: Experience Cloud
 title: Adobe Experience Cloud - 客戶屬性服務
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
