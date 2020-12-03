@@ -1,9 +1,9 @@
 ---
 title: 一般資料保護規範的客戶屬性支援
 description: 一般資料保護規範的客戶屬性支援
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
    * IMS 組織 ID
    * 您要對其採取動作之 CRS 資料來源的別名 ID
    * 您要對其採取動作之設定檔的 CRM ID
+
    IMS 組織 ID 是 24 個字元的英數字串，通常會加上 @AdobeOrg。如果您的行銷團隊或內部 Adobe 系統管理員不知道您組織的 IMS 組織 ID，請寄信至 gdprsupport@adobe.com 與 Adobe 客戶服務團隊連絡。您需先取得 IMS 組織 ID，才能向隱私權 API 提交請求。
 
 1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
