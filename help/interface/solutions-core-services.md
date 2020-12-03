@@ -5,9 +5,9 @@ seo-title: 關於 Experience Cloud 中的新雲端名稱
 solution: Experience Cloud
 title: 關於 Experience Cloud 中的新雲端名稱
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 包含 Media Optimizer 和 TubeMogul。
 
-## 什麼是解決方案？{#concept_4F52341A45DC49B2B216824B14D54FDA}
+## 什麼是解決方案？ {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
 下列資訊簡述解決方案內容，並提供相關說明連結。也提供[使用案例秘訣](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)，協助您處理數位行銷工作流程。
 
@@ -102,7 +102,7 @@ Adobe Campaign 可讓您跨所有線上及離線管道規劃、投放及衡量�
 
 Adobe Primetime 是多螢幕電視平台，可協助廣播電視公司針對任何受眾建立個人化的精彩電視和電影觀看體驗。
 
-## 什麼是核心服務?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## 什麼是核心服務?   {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [核心服務](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services-landing.html)包括能夠簡化產品實作及啟用跨解決方案工作流程的各種功能，例如受眾區隔、客戶屬性上傳和協同合作工具。
 
