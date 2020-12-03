@@ -40,7 +40,7 @@ Scene7 會將資訊儲存在本機，以供某些舊版 AS2 Flash 檢視器使�
 | 儲存的資訊 | 設定工作階段 Cookie。內嵌在 IPS ImageServer (IS、IR 及 SWF/面板和視訊內容) 中的 AuthFilter 會使用 Cookie 進行存取授權。如果存在，它會允許 HTTP 請求通過。若不存在，則會以未授權狀態傳回。 |
 | 過期 | 此 Cookie 是工作階段 Cookie。Scene7 IPS [!DNL web.xml] 將目前的作業過期時間設定為 45 分鐘。 |
 
-**Cookie 名稱：s7js.flyout.InfoMessage.displayed`assetId`.state**
+**Cookie 名稱：s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
