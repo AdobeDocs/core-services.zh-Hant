@@ -5,9 +5,9 @@ seo-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾�
 seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
 title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
