@@ -6,9 +6,9 @@ seo-title: 建立客戶屬性來源及上傳資料檔案
 solution: Experience Cloud
 title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 100%
 
