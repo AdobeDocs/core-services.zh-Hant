@@ -6,9 +6,9 @@ seo-title: Experience Cloud 的新功能
 solution: Experience Cloud
 title: Experience Cloud 的新功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Experience Cloud 的新功能和更新的概述。
 | 功能 | 說明 |
 |--- |--- |
 | 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>[將報表套裝對應至單一組織有助於在 Experience Cloud 中啟用跨解決方案功能及服務。](../core-services/core-services.md) |
-| Experience Cloud Audiences 的更新 | **套用報表套裝&#x200B;**<br>您現已可將報表套裝套用至所有[受眾規則](../audience-library/t-audience-create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>您現已可在即時受眾中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
+| Experience Cloud Audiences 的更新 | **套用報表套裝**<br>&#x200B;您現已可將報表套裝套用至所有[受眾規則](../audience-library/t-audience-create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時受眾中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
 
 ## 2016 年 11 月 8 日 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
