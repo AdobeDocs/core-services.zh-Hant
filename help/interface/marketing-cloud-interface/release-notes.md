@@ -6,9 +6,9 @@ seo-title: 歷來的發行說明
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3968'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 有些 [!DNL .png] 檔案無法呈現在資訊卡上。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!UICONTROL 組織及產品存取]」頁面使用 [!DNL Search&Promote] 連結。
+* 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * 如果在 [!DNL Creative Cloud] 中將 [!DNL Experience Cloud] 內容取消共用，該內容也可能會從某些使用者的資料夾中移除。
 
 ## 發行版本 14.8.1 - 2014 年 8 月 21 日 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
@@ -544,7 +544,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
