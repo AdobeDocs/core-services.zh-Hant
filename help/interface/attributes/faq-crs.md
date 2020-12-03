@@ -6,9 +6,9 @@ seo-title: 常見問題、限制和最佳作法
 solution: Experience Cloud
 title: 客戶屬性 - Adobe Experience Cloud 的常見問題集
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 100%
 
