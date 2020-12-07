@@ -1,16 +1,14 @@
 ---
-description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
+description: 瞭解如何實作Adobe Experience Cloud並成為管理員。
 keywords: core services;Customer Attributes
-seo-description: 實作 Experience Cloud 並擔任管理員。此程序會針對客戶屬性和受眾等功能導入最新的解決方案。
-seo-title: 啟用 Experience Cloud 客戶屬性和受眾的解決方案
 solution: Experience Cloud
-title: 啟用核心服務的解決方案
+title: 啟用您的核心服務解決方案 | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
