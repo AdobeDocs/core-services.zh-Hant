@@ -1,16 +1,14 @@
 ---
-description: 了解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
+description: 瞭解如何登入Adobe Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 keywords: core services, sign in to Experience Cloud
-seo-description: 了解如何登入 Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
-seo-title: 登入及管理設定檔設定
-solution: Experience Cloud
-title: 登入及管理 Experience Cloud 設定檔設定
+solution: Adobe Experience Cloud
+title: 登入並管理您的Experience Cloud設定檔設定 | Adobe Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '940'
+ht-degree: 96%
 
 ---
 
