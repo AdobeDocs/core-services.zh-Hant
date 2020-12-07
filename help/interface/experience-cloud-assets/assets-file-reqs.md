@@ -1,23 +1,21 @@
 ---
-description: 在 Experience Cloud 和 Creative Cloud 之間共用資產時允許的檔案類型和大小限制。
+description: 瞭解在Adobe Experience Cloud和Creative Cloud之間共用資產時允許的檔案類型和大小限制。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 在 Experience Cloud 和 Creative Cloud 之間共用資產時允許的檔案類型和大小限制。
-seo-title: 針對共用的資產檔案需求
 solution: Experience Cloud
-title: 針對共用的資產檔案需求
+title: 共用資產的檔案需求 | Adobe Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 67%
+source-wordcount: '125'
+ht-degree: 26%
 
 ---
 
 
-# 針對共用的資產檔案需求
+# 共用資產的檔案需求
 
-在 Experience Cloud 和 Creative Cloud 之間共用資產時允許的檔案類型和大小限制。
+允許在Experience Cloud和Creative Cloud之間共用資產的檔案類型和大小限制。
 
 ## 針對上傳的允許檔案類型 {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
