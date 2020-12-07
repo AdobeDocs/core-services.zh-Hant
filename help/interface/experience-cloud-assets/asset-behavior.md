@@ -1,16 +1,14 @@
 ---
-description: 共用資料夾遭到移動、刪除和還原時的行為規則。
+description: 瞭解在Experience Cloud中移動、刪除和還原共用資料夾時的行為規則。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 共用資料夾遭到移動、刪除和還原時的行為規則。
-seo-title: 共用資料夾的行為
 solution: Experience Cloud
-title: 共用資料夾的行為
+title: 共用資料夾的行為 | Adobe Experience Cloud
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 20%
+source-wordcount: '564'
+ht-degree: 15%
 
 ---
 
