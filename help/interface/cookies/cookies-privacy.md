@@ -1,16 +1,14 @@
 ---
-description: 維護客戶隱私和資料安全是 Adobe 的首要任務。Adobe 參與多個隱私權組織，並與隱私權監管機構及自我監管原則 (例如數位廣告聯盟 AdChoices 計畫) 合作，為客戶提供其資訊的使用方式及使用方式選項的相關資訊。
+description: 瞭解Adobe Experience Cloud解決方案與服務中的Cookie和隱私權。
 keywords: cookies;privacy
-seo-description: 維護客戶隱私和資料安全是 Adobe 的首要任務。Adobe 參與多個隱私權組織，並與隱私權監管機構及自我監管原則 (例如數位廣告聯盟 AdChoices 計畫) 合作，為客戶提供其資訊的使用方式及使用方式選項的相關資訊。
-seo-title: 關於 Cookie 和隱私
 solution: Experience Cloud,Analytics,Target
-title: 關於 Cookie 和隱私
+title: Cookie與隱私權概觀 | Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
