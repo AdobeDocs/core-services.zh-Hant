@@ -3,10 +3,10 @@ description: 了解 Adobe Experience Cloud 使用者和產品管理、People (�
 solution: Experience Cloud
 title: Experience Cloud服務概觀 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 98%
 
 Adobe Experience Cloud 服務包括 [!UICONTROL People] (受眾和客戶屬性)、Experience Platform Launch 和 Mobile Services。此處也提供 Experience Cloud 使用者和產品管理的相關說明。
 
-若要在 Experience Cloud 中存取這些服務，請按一下&#x200B;**[!UICONTROL 「應用程式選擇器」]**![](assets/menu-icon.png)。
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]**
+
+![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
