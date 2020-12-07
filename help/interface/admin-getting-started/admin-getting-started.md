@@ -1,16 +1,14 @@
 ---
-description: 了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
-keywords: core services
-seo-description: 了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔以及瀏覽器支援。
-seo-title: 管理 Experience Cloud 使用者和產品
-solution: Experience Cloud
-title: 管理 Experience Cloud 使用者和產品
+description: 瞭解如何登入Adobe Admin Console、管理Experience Cloud使用者權限和產品設定檔，以及瀏覽器支援。
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: 瞭解如何管理使用者和產品 | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
