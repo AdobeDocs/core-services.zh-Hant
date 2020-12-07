@@ -1,22 +1,20 @@
 ---
-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 Adobe Social 和 Adobe Target) 中使用這些資產。共用的資料夾必須源自 Experience Cloud。
+description: '瞭解如何在Experience Cloud和Creative Cloud之間共用資料夾和資產。 '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 Adobe Social 和 Adobe Target) 中使用這些資產。共用的資料夾必須源自 Experience Cloud。
-seo-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 solution: Experience Cloud
-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
+title: 與Creative Cloud共用Experience Cloud資料夾和資產 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 75%
 
 ---
 
 
 # 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 Adobe Social 和 Adobe Target) 中使用這些資產。共用的資料夾必須源自 Experience Cloud。
+在Experience Cloud和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 Adobe Social 和 Adobe Target) 中使用這些資產。共用資料夾必須源自Experience Cloud。
 
 ## 共用的優點 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
