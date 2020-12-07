@@ -1,20 +1,18 @@
 ---
-description: Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
-seo-description: Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
-seo-title: Assets
+description: 瞭解Experience Cloud資產。
 solution: Experience Cloud
-title: Assets
+title: Experience Cloud資產概觀 | Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 
 
-# Assets
+# Experience Cloud資產概觀
 
 Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
