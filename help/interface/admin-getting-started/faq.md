@@ -1,11 +1,11 @@
 ---
 description: 瞭解瀏覽器支援，並針對Adobe Experience Cloud中的管理員回答常見問題。
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: 有關Experience Cloud的常見問題 | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 96%
