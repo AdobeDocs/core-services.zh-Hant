@@ -1,15 +1,12 @@
 ---
 description: 了解 Adobe Experience Cloud 使用者和產品管理、People (受眾和客戶屬性)、Journey Orchestration、Offers、Places、Experience Platform Launch 和 Mobile Services。
-seo-description: 了解 Adobe Experience Cloud 使用者和產品管理、People (受眾和客戶屬性)、Offers、Experience Platform Launch 和 Mobile Services。
-seo-title: Experience Cloud 服務和使用者管理
 solution: Experience Cloud
-title: 關於 Experience Cloud 服務
-index: true
+title: Experience Cloud服務概觀 | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 98%
 
 ---
 
