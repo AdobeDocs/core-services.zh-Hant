@@ -1,23 +1,21 @@
 ---
-description: 客戶屬性 - Adobe Analytics 和 Adobe Target 的常見問題集和最佳作法。
+description: 有關Adobe Experience Cloud中Adobe Analytics和Adobe Target客戶屬性的常見問題。
 keywords: Customer Attributes
-seo-description: Analytics 和 Target 客戶屬性常見問題集和最佳作法。
-seo-title: 常見問題、限制和最佳作法
-solution: Experience Cloud
-title: 客戶屬性 - Adobe Experience Cloud 的常見問題集
+solution: Adobe Experience Cloud
+title: 取得有關客戶屬性的常見問題解答 | Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 96%
 
 ---
 
 
 # 常見問題、限制和最佳作法
 
-Analytics 和 Target 客戶屬性常見問題集和最佳作法。
+Adobe Analytics和Adobe Target中客戶屬性的常見問題和最佳實務。
 
 ## 最佳作法和限制 {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
