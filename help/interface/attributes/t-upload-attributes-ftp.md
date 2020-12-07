@@ -1,16 +1,14 @@
 ---
 description: 如果您不是以拖放方式上傳，可以透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
 keywords: Customer Attributes;core services
-seo-description: 如果您不是以拖放方式上傳，可以透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
-seo-title: 選用 - 透過 FTP 上傳資料檔案
 solution: Experience Cloud
-title: 選用 - 透過 FTP 上傳資料檔案
+title: 透過FTP上傳客戶屬性資料檔案 | Adobe Experience Cloud
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
