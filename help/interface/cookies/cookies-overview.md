@@ -1,14 +1,12 @@
 ---
-description: Adobe Experience Cloud 中的許多服務都會使用 Cookie。Cookie 是網站向網頁瀏覽器顯示的一小段資料。瀏覽器會儲存這段資料，然後傳回給提供這段資料的網站。此動作會在之後每次收到頁面和影像請求時執行。
-seo-description: Adobe Experience Cloud 中的許多服務都會使用 Cookie。Cookie 是網站向網頁瀏覽器顯示的一小段資料。瀏覽器會儲存這段資料，然後傳回給提供這段資料的網站。此動作會在之後每次收到頁面和影像請求時執行。
-seo-title: Experience Cloud 中使用的 Cookie
-title: Experience Cloud 中使用的 Cookie
+description: 瞭解Adobe Experience Cloud中的解決方案和服務如何使用Cookie。
+title: Experience Cloud中Cookie的使用方式 | Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 88%
 
 ---
 
