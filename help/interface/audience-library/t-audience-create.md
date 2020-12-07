@@ -1,16 +1,14 @@
 ---
-description: 了解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
+description: 瞭解如何使用屬性規則在Adobe Experience Cloud中建立觀眾並定義複合觀眾。
 keywords: core services
-seo-description: 了解如何使用屬性規則來建立受眾與定義 Experience Cloud 中的複合受眾。
-seo-title: 建立受眾
-solution: Experience Cloud
-title: 建立受眾
+solution: Adobe Experience Cloud
+title: 建立觀眾 | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
