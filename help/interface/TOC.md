@@ -1,15 +1,15 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud 服務與管理
+user-guide-title: Adobe Experience Cloud服務與管理 | Adobe Experience Cloud
 breadcrumb-title: Experience Cloud 服務與管理
-user-guide-description: Adobe Experience Cloud 服務與管理指南包含 Experience Cloud 使用者和產品管理、對象庫、客戶屬性、Cookie 和 Experience Cloud 資產的相關說明。
+user-guide-description: 瞭解如何在Adobe Experience Cloud中管理使用者和產品，以及如何使用客戶屬性和觀眾程式庫服務。 另請瞭解Cookie和Experience Cloud資產。
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 90%
 
 ---
 
