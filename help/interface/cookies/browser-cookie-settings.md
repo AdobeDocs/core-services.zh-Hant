@@ -1,16 +1,14 @@
 ---
 description: 將封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。此隱私設定會排除選擇退出 Analytics 資料收集的使用者。
 keywords: cookies;privacy
-seo-description: 將封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。此隱私設定會排除選擇退出 Analytics 資料收集的使用者。
-seo-title: 啟用瀏覽器 Cookie 的隱私設定
 solution: Experience Cloud, Analytics, Target, Social
-title: 啟用瀏覽器 Cookie 的隱私設定
+title: 如何啟用瀏覽器Cookie的隱私權設定 | Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 96%
 
 ---
 
