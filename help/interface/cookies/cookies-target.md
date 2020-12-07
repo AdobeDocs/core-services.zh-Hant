@@ -1,16 +1,14 @@
 ---
-description: Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和行銷活動與訪客的關聯性較強。
+description: 瞭解Adobe Target如何使用Cookie讓網站營運商測試哪些線上內容和優惠與訪客更相關。
 keywords: cookies;privacy
-seo-description: Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和行銷活動與訪客的關聯性較強。
-seo-title: Target Cookie
 solution: Experience Cloud,Analytics,Target,Social
-title: Target Cookie
+title: 如何使用Adobe Target Cookie | Adobe Experience Cloud
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
