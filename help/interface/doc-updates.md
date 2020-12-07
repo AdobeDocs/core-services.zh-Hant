@@ -1,16 +1,14 @@
 ---
-description: Experience Cloud 說明的更新資訊。
+description: Adobe Experience Cloud說明的更新資訊。
 keywords: Experience Cloud services
-seo-description: Experience Cloud 說明的更新資訊。
-seo-title: 文件更新 - Experience Cloud
 solution: Experience Cloud
-title: 文件更新 - Experience Cloud
+title: 檔案更新- Experience Cloud | Adobe Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 94%
 
 ---
 
