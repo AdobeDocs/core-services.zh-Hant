@@ -1,15 +1,13 @@
 ---
 description: 了解 Experience Cloud 管理工具，用於檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
 keywords: core services
-seo-description: 了解 Experience Cloud 管理工具，用於檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
-seo-title: 檢視 Experience Cloud 使用者和使用者詳細資訊
 solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 translation-type: tm+mt
-source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1243'
 ht-degree: 100%
 
 ---
