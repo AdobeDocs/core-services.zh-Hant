@@ -1,16 +1,14 @@
 ---
-description: 與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
+description: 如何與Creative Cloud使用者共用Experience Cloud資產資料夾。
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
-seo-title: 共用 Experience Cloud 資產資料夾
 solution: Experience Cloud
-title: 共用 Experience Cloud 資產資料夾
+title: 共用Experience Cloud資產資料夾 | Adobe Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 
