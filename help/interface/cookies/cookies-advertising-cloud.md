@@ -1,14 +1,12 @@
 ---
-description: Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
-seo-description: Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
-seo-title: Advertising Cloud Cookie
-title: Advertising Cloud Cookie
+description: 瞭解Adobe Ad Cloud Cookie，以將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
+title: Advertising Cloud Cookie | Adobe Experience Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 94%
 
 ---
 
