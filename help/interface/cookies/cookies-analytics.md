@@ -1,16 +1,14 @@
 ---
-description: Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。Cookie 也可用於為瀏覽資訊與客戶記錄建立關聯。
+description: 瞭解Adobe Experience Cloud中的Adobe Analytics Cookie。
 keywords: cookies;privacy
-seo-description: Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。Cookie 也可用於為瀏覽資訊與客戶記錄建立關聯。
-seo-title: Analytics Cookie
 solution: Experience Cloud,Analytics,Target
-title: Analytics Cookie
+title: 如何使用Adobe Analytics Cookie | Adobe Experience Cloud
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 97%
 
 ---
 
