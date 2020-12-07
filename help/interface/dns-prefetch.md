@@ -1,15 +1,13 @@
 ---
-description: 實作 DNS 預先擷取以縮短不同解決方案和服務的頁面載入時間。
-seo-description: 實作 DNS 預先擷取以縮短不同解決方案和服務的頁面載入時間。
-seo-title: 搭配不同的解決方案和服務使用 DNS 預先擷取
+description: 如何實作DNS預回遷，以利在Adobe Experience Cloud中使用不同的解決方案和服務來縮短頁面載入時間。
 solution: Experience Cloud
-title: 搭配不同的解決方案和服務使用 DNS 預先擷取
+title: 將DNS預取與不同的解決方案和服務搭配使用 | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
