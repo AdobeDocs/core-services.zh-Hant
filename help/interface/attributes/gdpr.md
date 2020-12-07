@@ -1,11 +1,11 @@
 ---
-title: 一般資料保護規範的客戶屬性支援
-description: 一般資料保護規範的客戶屬性支援
+title: 一般資料保護規範的客戶屬性支援 | Adobe Experience Cloud
+description: 瞭解對通用資料保護法規的客戶屬性支援
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
