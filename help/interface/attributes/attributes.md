@@ -1,23 +1,23 @@
 ---
-description: 在Adobe Experience Cloud中瞭解客戶屬性。
+description: 瞭解Adobe Experience Cloud中的客戶屬性服務，以及如何上傳資料以用於Analytic和Target。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: 客戶屬性服務 | Adobe Experience Cloud
+title: 如何使用客戶屬性 | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Adobe Experience Cloud 中的客戶屬性
+# 如何在Adobe Experience Cloud中使用客戶屬性
 
-導覽至 **[!DNL Experience Platform]** > **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**
+Adobe Experience Cloud中的客戶屬性可讓您從客戶關係管理(CRM)資料庫上傳擷取的企業資料。 您可以將資料上傳至Experience Cloud中的客戶屬性資料來源，然後使用Adobe Analytics和Adobe Target中的資料。
 
-如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    加入客戶屬性的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表項目。
 
-* 若要使用客戶屬性，需先安裝 **Adobe Target** [!DNL at.js] (任何版本) 或 [!DNL mbox.js] 58 版或更新版本。
+* 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
    請參閱[如何部署at.js](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.translate.html) 或 [Mbox.js 實作](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 請參閱[上傳客戶屬性資料](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
 
-## 解決方案使用個案 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analytics和Target中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 資料傳入 Experience Cloud 後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
 
