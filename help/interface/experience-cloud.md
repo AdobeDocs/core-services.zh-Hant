@@ -2,13 +2,13 @@
 description: 瞭解Adobe Admin Console中的使用者和產品管理、啟用Experience Cloud服務的解決方案，以及瞭解觀眾庫、客戶屬性、Experience Cloud資產等。
 keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Experience Cloud服務與管理 | Adobe Experience Cloud
+title: 'Experience Cloud 服務與管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 91%
+source-wordcount: '426'
+ht-degree: 93%
 
 ---
 
