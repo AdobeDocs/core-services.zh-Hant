@@ -1,13 +1,13 @@
 ---
 description: 如何實作DNS預回遷，以利在Adobe Experience Cloud中使用不同的解決方案和服務來縮短頁面載入時間。
 solution: Experience Cloud
-title: 將DNS預取與不同的解決方案和服務搭配使用 | Adobe Experience Cloud
+title: '搭配不同的解決方案和服務使用 DNS 預先擷取 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 91%
+source-wordcount: '380'
+ht-degree: 94%
 
 ---
 
