@@ -2,13 +2,13 @@
 description: 資料工作台如何使用Cookie即時分析大量快速變遷的資料。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 資料工作台Cookie | Adobe Experience Cloud
+title: 'Data Workbench Cookie '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 76%
+source-wordcount: '87'
+ht-degree: 82%
 
 ---
 
