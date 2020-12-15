@@ -2,13 +2,13 @@
 description: 了解解決方案資料來源和設定訂閱。訂閱可讓客戶屬性資料在 Experience Cloud 和解決方案 (Analytics 和 Target) 之間流動。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: 如何設定訂閱 | Adobe Experience Cloud
+title: '如何設定訂閱 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 96%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
