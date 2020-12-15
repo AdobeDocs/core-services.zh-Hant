@@ -2,13 +2,13 @@
 description: 瞭解Adobe Analytics如何使用Cookie來提供影像要求與瀏覽器作業之間不會持續存在的變數與元件資訊。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: 如何使用第一方Cookie | Adobe Experience Cloud
+title: '如何使用第一方Cookie '
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 97%
 
 ---
