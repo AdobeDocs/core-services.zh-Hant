@@ -2,13 +2,13 @@
 description: 瞭解協力廠商Cookie的支援如何在各種瀏覽器上日益受限。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 對協力廠商Cookie支援的變更如何影響客戶 | Adobe Experience Cloud
+title: '對協力廠商Cookie支援的變更如何影響客戶 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 91%
+source-wordcount: '295'
+ht-degree: 92%
 
 ---
 
