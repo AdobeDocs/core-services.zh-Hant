@@ -2,13 +2,13 @@
 description: 瞭解在Adobe Experience Cloud和Creative Cloud之間共用資產時允許的檔案類型和大小限制。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: 共用資產的檔案需求 | Adobe Experience Cloud
+title: '共用資產的檔案需求 '
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 26%
+source-wordcount: '122'
+ht-degree: 27%
 
 ---
 
