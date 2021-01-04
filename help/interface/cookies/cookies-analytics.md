@@ -1,5 +1,5 @@
 ---
-description: 瞭解Adobe Experience Cloud中的Adobe Analytics Cookie。
+description: 了解 Adobe Experience Cloud 中的 Adobe Analytics Cookie。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '如何使用Adobe Analytics Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Analytics 說明中提供有關[第一方 Cookie](/help/interface/cookies/cookie
 |--- |--- |
 | 儲存的資訊 | 備援不重複訪客 ID 時間/日期戳記 |
 | 有效期限 | 2 年 |
-| 使用狀況 | 該 Cookie 用於識別獨特訪客     如果標準的 `s_vi` Cookie 因第三方 Cookie 限制而無法取用。不用於使用第一方 Cookie 的實作。 |
+| 使用狀況 | 該 Cookie 用於識別不重複訪客，如果標準的 `s_vi` Cookie 因第三方 Cookie 限制而無法取用。不用於使用第一方 Cookie 的實作。 |
 | 位置 | 此 Cookie 會作為第一方 Cookie 儲存在您的網域中。 |
 | 大小 | 33 位元組 |
 
