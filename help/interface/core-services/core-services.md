@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何實作Adobe Experience Cloud並成為管理員。
+description: 了解如何實作 Adobe Experience Cloud 並成為管理員。
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: '啟用核心服務的解決方案 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '2362'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 96%
 
 ## Analytics 與 Adobe Target - 同步客戶 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
+Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://docs.adobe.com/content/help/zh-Hant/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。)
 
@@ -134,7 +134,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。最簡單的實行方式是在 Dynamic Tag Management 中新增 [!DNL Adobe Analytics] 工具，需指定 *`Automatic`* 做為設定方法。
 
-在 [!UICONTROL Dynamic Tag Management] 中，按一下「**`<Web Property Name>`** > **[!UICONTROL 概述]** > **[!UICONTROL 新增工具]** > **[!UICONTROL Adobe Analytics]**」。如需部署資訊，請參閱 Dynamic Tag Management 中的 [Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
+在 [!UICONTROL Dynamic Tag Management] 中，按一下「**`<Web Property Name>`**> **[!UICONTROL 概述]** > **[!UICONTROL 新增工具]** > **[!UICONTROL Adobe Analytics]**」。如需部署資訊，請參閱 Dynamic Tag Management 中的 [Adobe Analytics 設定](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)。
 
 ## 步驟 5.(Adobe Target) 更新 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
@@ -212,7 +212,7 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立受眾、組合現�
 * [!DNL Analytics] 金鑰/值配對 (小道具、eVars、清單變數等等)。依預設，記錄行包含 IP 位址，包含 IP 的最後一組八位數 (假設未以 Adobe [!DNL Analytics] 中的 IP 混淆設定修改 IP 位址)。
 * 根據 Audience Manager 中設定的規則，訪客符合資格的特徵和區段。
 * (選用) 您的一或多個 ID。視您實作的 ID 服務而定，您可能也會傳入一或多個 ID，例如 CRM ID 或雜湊的電子郵件地址。若將此資料傳入 Adobe [!DNL Analytics]，則會將其轉移至 Adobe 受眾管理。Adobe 不建議您將個人資料提供給 Adobe [!DNL Analytics]。更建議先使用單向雜湊來將資料遮罩，再傳送給 Adobe。
-* Segments originating in [!DNL Analytics] via the back-end segment sharing capability
+* 透過後端區段共用功能來源於[!DNL Analytics]的區段
 * 如未封鎖第三方 cookie，則會設置 demdex.net cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 一律以 Experience Cloud ID Service 設定。
 
 所有這些資料元素都會以記錄檔形式傳送至 Adobe Audience Manager。Audience Manager 會在美國境內處理和儲存這些資料。Audience Manager 不提供在美國境外儲存或處理這些資料的選項。
@@ -225,4 +225,4 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立受眾、組合現�
 
 請參閱 [Adobe Experience Cloud - 實作 Adobe 選擇退出](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/opt-out.translate.html)以取得指示。
 
-請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
+請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
