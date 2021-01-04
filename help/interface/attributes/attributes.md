@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Adobe Experience Cloud中的客戶屬性可讓您從客戶關係管理(CRM)資料庫上傳擷取的企業資料。 您可以將資料上傳至Experience Cloud中的客戶屬性資料來源，然後使用Adobe Analytics和Adobe Target中的資料。
 
-To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+若要找到此功能，請導覽至&#x200B;**[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTR
 
 請參閱[上傳客戶屬性資料](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
 
-## Analytics和Target中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Analytics和Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}中的客戶屬性範例
 
 資料傳入 Experience Cloud 後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
 
