@@ -1,5 +1,5 @@
 ---
-description: 瞭解Adobe Experience Cloud中的Audience Manager Cookie。
+description: 了解 Adobe Experience Cloud 中的 Audience Manager Cookie。
 keywords: cookies
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,8 +64,8 @@ Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。這些功能�
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">dextp</span> Cookie 包含資料提供者的名稱或 ID，以及直立線符號分隔字串格式的 UNIX UTC 時間戳記。在這些範例中，<i>斜體字</i>代表變數預留位置。 </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">舊樣式: <span class="codeph"> <span class="varname"> 資料提供者名稱 </span>-1490307822097| <span class="varname"> 資料提供者名稱 </span>-1490307822038 </span> </li> 
-      <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新樣式: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">舊樣式：<span class="codeph"> <span class="varname"> 資料提供者名稱 </span>-1490307822097| <span class="varname"> 資料提供者名稱 </span>-1490307822038 </span> </li> 
+      <li id="li_79E7000E82DB4ADA9E9887B017343B2D">新樣式：<span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>另請參閱下文的 dextp 資料語法一節。 </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。這些功能�
  </tbody> 
 </table>
 
-dextp Cookie 資料語法:
+dextp Cookie 資料語法：
 
 下表列出並定義 [!DNL dextp] Cookie 內的元素，依其在資料字串內的位置而定。
 
@@ -132,15 +132,15 @@ dextp Cookie 資料語法:
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
    <td colname="col2"> <p> <span class="wintitle">DST</span> Cookie 包含目的地 ID 集合和直立線符號分隔字串格式的 UNIX 時間戳記。在這些範例中，<i>斜體字</i>代表變數預留位置。 </p> <p> 
      <ul id="ul_CE98076A02DA413486C1D341E9806889"> 
-      <li id="li_850209D956644749B98C7A208C825C15">語法: <span class="codeph"> <span class="varname"> 目的地 ID </span> - <span class="varname"> UNIX UTC 時間戳記 </span> </span> </li> 
-      <li id="li_4A22152C70844733982230EBF7B9EB78">範例: <span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
+      <li id="li_850209D956644749B98C7A208C825C15">語法：<span class="codeph"> <span class="varname"> 目的地 ID </span> - <span class="varname"> UNIX UTC 時間戳記 </span> </span> </li> 
+      <li id="li_4A22152C70844733982230EBF7B9EB78">範例：<span class="codeph">067797-1490349684|1010788-1490349692|1067797-1490349692 </span> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他屬性</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
-      <li id="li_4E665114C63246FBA32A4E19984D2693">存留期: <span class="wintitle">dst</span> Cookie 具有 180 天的存留時間 (TTL) 間隔。 </li> 
+      <li id="li_4E665114C63246FBA32A4E19984D2693">存留期：<span class="wintitle">dst</span> Cookie 具有 180 天的存留時間 (TTL) 間隔。 </li> 
       <li id="li_A682B566704F43D2AB72487EFF212474">選擇退出：如果使用者許選擇退出資料收集，則 <span class="keyword">Audience Manager</span> 會重新設定附有 <span class="codeph">Do Not Adobe Target</span> 字串的 Cookie。 </li> 
      </ul> </p> </td> 
   </tr> 
