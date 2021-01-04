@@ -1,12 +1,12 @@
 ---
-description: 如何刪除和取代Adobe Experience Cloud架構中的屬性。
+description: 如何刪除和取代 Adobe Experience Cloud 結構中的屬性。
 title: '更新結構 (刪除屬性) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
