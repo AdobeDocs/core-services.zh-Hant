@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# 如何在Experience Cloud中設定訂閱
+# 如何在 Experience Cloud 中設定訂閱
 
 了解解決方案資料來源和設定訂閱。訂閱可讓客戶屬性資料在 Experience Cloud 和解決方案 (Analytics 和 [!DNL Target]) 之間流動。
 
