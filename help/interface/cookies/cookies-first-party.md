@@ -1,5 +1,5 @@
 ---
-description: 瞭解Adobe Analytics如何使用Cookie來提供影像要求與瀏覽器作業之間不會持續存在的變數與元件資訊。
+description: 了解 Analytics 如何使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
 title: '如何使用第一方Cookie '
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 ### 使用 [!DNL curl] 進行驗證
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. ([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)。
+Adobe 建議從命令列使用 [[!DNL curl]](https://curl.haxx.se/)。([!DNL Windows] 使用者可從以下位置安裝 [!DNL curl]：<https://curl.haxx.se/windows/>)。
 
 如果您已設定 CNAME 但未安裝憑證，請執行：
 `curl -k https://sstats.adobe.com/_check`
