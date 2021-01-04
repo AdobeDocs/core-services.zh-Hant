@@ -4,9 +4,9 @@ keywords: core services
 solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 ## 「原則」頁面
 
-此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單以取得自訂檢視。
+此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。
 
 ![](assets/admin-tool-policies.png)
 
