@@ -1,12 +1,12 @@
 ---
-description: 瞭解如何在Experience Cloud中將一或多個報表套裝對應至組織。
+description: 了解如何在 Experience Cloud 中將一個或多個報表套裝對應至組織。
 title: '將報表套裝對應至組織 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
