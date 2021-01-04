@@ -1,5 +1,5 @@
 ---
-description: 瞭解Adobe Data Connectors如何使用Cookie為廣告商提供最佳化的宣傳活動和跨多個廣告通道的轉換效能度量。
+description: 了解 Adobe Data Connectors 如何使用 Cookie 將多個廣告頻道中最佳化的行銷活動和轉換效能量度提供給廣告商。
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors Cookie '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
