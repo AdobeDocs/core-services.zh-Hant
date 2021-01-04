@@ -34,13 +34,13 @@ Adobe Experience Cloud 是一組同級最佳的全方位整合式解決方案，
 * 啟動 - Experience Platform Launch (建議) 或 Dynamic Tag Management
 * Analytics
 * Target
-* [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
+* [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ## Experience Cloud ID Service {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決方案中的訪客。這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 解決方案或功能的 ID 產生碼。
 
-請參閱 [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)
+請參閱 [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 **適用的解決方案或服務**
 
@@ -139,11 +139,11 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/subscription.html)
-* Experience Cloud Audiences：[Experience Cloud 受眾程式庫](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
+* 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html)
+* Experience Cloud Audiences：[Experience Cloud 受眾程式庫](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * Analytics：[Adobe Analytics 作為 Adobe Target 的報表來源](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)。
 * Dynamic Tag Management：[使用 DTM 實作 Adobe Target 的最佳作法](https://docs.adobe.com/content/help/zh-Hant/dtm/implementing/overview.html)
-* Audience Manager：[Adobe Target 資料與 Adobe Audience Manager 整合](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Audience Manager：[Adobe Target 資料與 Adobe Audience Manager 整合](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign：[將 Adobe Target 與 Campaign 整合](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/campaign-and-target.html)
 
 ## Experience Manager 整合 {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
@@ -176,7 +176,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://helpx.adobe.com/tw/experience-manager/6-2/sites/administering/using/marketing-cloud.html)
+* [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
@@ -186,9 +186,9 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **Analytics：**&#x200B;可以每天傳送網站互動和轉換資料至 Media Optimizer，以供其改善廣告和建立報表。此外，Media Optimizer 亦可每天傳送搜尋引擎和社交網路流量資料至 Analytics，以供其 Reports &amp; Analytics、Report Builder 及 Ad Hoc Analysis 功能建立報表。
 
-**Dynamic Tag Manager：**&#x200B;您可以[使用 Dynamic Tag Manager 為您的搜尋、社交和顯示廣告登陸頁面建立 Media Optimizer 像素式轉換追蹤標籤](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/media-optimizer.html)，以及第三方追蹤標籤(您也可以直接在 Media Optimizer 中建立 Media Optimizer 標籤)。
+**Dynamic Tag Manager：**&#x200B;您可以[使用 Dynamic Tag Manager 為您的搜尋、社交和顯示廣告登陸頁面建立 Media Optimizer 像素式轉換追蹤標籤](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)，以及第三方追蹤標籤(您也可以直接在 Media Optimizer 中建立 Media Optimizer 標籤)。
 
-**Experience Cloud Audiences：**(可管理顯示內容的廣告商) 您可以使用任何 [ Adobe Experience Cloud Audiences](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html) 作為顯示廣告的目標。您可以自動使用已在 Adobe Experience Cloud 中建立的受眾和已發佈至 Adobe Experience Cloud 的 Analytics 受眾，而當 Media Optimizer 帳戶設定為允許時，您也可以使用 Audience Manager 的受眾。如需深入了解如何存取 Adobe Experience Cloud 和設定檔與受眾，以及 Media Optimizer 與 Adobe Experience Cloud 受眾之間的初始設定，請洽詢客戶經理。**注意：**&#x200B;如果您也使用 Adobe Target，您發佈至 Adobe Experience Cloud 的受眾也可供 Adobe Target 中的活動使用。
+**Experience Cloud Audiences：**(可管理顯示內容的廣告商) 您可以使用任何 [ Adobe Experience Cloud Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 作為顯示廣告的目標。您可以自動使用已在 Adobe Experience Cloud 中建立的受眾和已發佈至 Adobe Experience Cloud 的 Analytics 受眾，而當 Media Optimizer 帳戶設定為允許時，您也可以使用 Audience Manager 的受眾。如需深入了解如何存取 Adobe Experience Cloud 和設定檔與受眾，以及 Media Optimizer 與 Adobe Experience Cloud 受眾之間的初始設定，請洽詢客戶經理。**注意：**&#x200B;如果您也使用 Adobe Target，您發佈至 Adobe Experience Cloud 的受眾也可供 Adobe Target 中的活動使用。
 
 **Experience Cloud Assets：**(可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud Assets 作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Media Optimizer](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)，才能存取 Adobe Experience Cloud Assets。如需存取 Adobe Experience Cloud 的相關資訊，請洽詢帳戶管理員。
 
