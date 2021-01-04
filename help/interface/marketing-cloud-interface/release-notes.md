@@ -36,7 +36,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../admin-getting-started/admin-tool-experience-cloud.md)說明。 |
 
 **修正**
 
@@ -230,7 +230,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-* 將 Dynamic Tag Management 組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入 Dynamic Tag Manager 時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
+* 將 Dynamic Tag Management 組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入 Dynamic Tag Management 時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
 * 一個已知問題是受眾無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
 
 ## 發行版本 15.3.2 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -542,7 +542,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
