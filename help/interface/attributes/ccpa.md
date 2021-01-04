@@ -44,7 +44,7 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
 
 ## [!UICONTROL 客戶屬性] JSON 請求中的必填欄位值
 
-&quot;company context&quot;:
+&quot;company context&quot;：
 
 * &quot;namespace&quot;：**imsOrgID**
 * &quot;value&quot;：&lt;*您的 IMS 組織 ID 值*>
