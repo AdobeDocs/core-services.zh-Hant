@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何建立客戶屬性來源並將其上傳至Adobe Experience Cloud。
+description: 了解如何建立客戶屬性來源並將其上傳至 Adobe Experience Cloud。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: '建立客戶屬性來源及上傳資料檔案 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
