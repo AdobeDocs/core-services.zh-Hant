@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何從Creative Cloud案頭將資產上傳至共用資料夾至Experience Cloud。
+description: 了解如何從 Creative Cloud 桌面版將資產上傳至 Experience Cloud 的共用資料夾。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '從 Creative Cloud 桌面上傳資產至共用資料夾 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
