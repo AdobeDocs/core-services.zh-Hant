@@ -1,5 +1,5 @@
 ---
-description: 瞭解組織以及將解決方案帳戶連結至 Experience Cloud。
+description: 了解組織以及將解決方案帳戶連結至 Experience Cloud。
 keywords: Adobe Experience Cloud services
 solution: Experience Cloud
 title: '組織和帳戶連結 '
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 組織和帳戶連結
 
-瞭解如何管理組織以及將解決方案帳戶連結至 Experience Cloud。
+了解如何管理組織以及將解決方案帳戶連結至 Experience Cloud。
 
 ## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
