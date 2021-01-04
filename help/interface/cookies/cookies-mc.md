@@ -37,7 +37,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用狀況 </p> </td> 
-   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許以第一方狀態進行永久性 ID 追蹤，並在 AMCV Cookie 過期時作為參考 ID 使用。請在此查看 AMCV Cookie，以了解詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許以第一方狀態進行永久性 ID 追蹤，並在 AMCV Cookie 過期時作為參考 ID 使用。請在此查看 AMCV Cookie，以瞭解詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
