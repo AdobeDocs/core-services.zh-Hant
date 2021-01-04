@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何使用屬性規則在Adobe Experience Cloud中建立觀眾並定義複合觀眾。
+description: 了解如何使用屬性規則來建立受眾與定義 Adobe Experience Cloud 中的複合受眾。
 keywords: core services
 solution: Experience Cloud
 title: '建立受眾 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 95%
    >
    >由於快取關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。
 
-   * **[!UICONTROL :]**&#x200B;從 [!DNL Experience Cloud]Experience Cloud 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的受眾區段資料，或是 [!DNL Audience Manager] 中的資料。
+   * **[!UICONTROL Experience Cloud：]**&#x200B;從 [!DNL Experience Cloud] 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的受眾區段資料，或是 [!DNL Audience Manager] 中的資料。
 
 1. 定義受眾規則，然後按一下&#x200B;**[!UICONTROL 儲存]。**
 
@@ -61,7 +61,7 @@ ht-degree: 95%
 >
 >定義受眾規則時，您應該了解您的實作變數。
 
-在[!UICONTROL 規則]底下，定義 *`Home & Garden`* 屬性選取項目:
+在[!UICONTROL 規則]底下，定義 *`Home & Garden`* 屬性選取項目：
 
 * **[!UICONTROL 屬性來源：]**&#x200B;原始 Analytics 資料
 * **[!UICONTROL 報表套裝：]**&#x200B;報表套裝 31
