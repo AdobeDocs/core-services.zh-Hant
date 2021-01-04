@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何驗證Adobe Experience Cloud中的客戶屬性結構。
+description: 了解如何驗證 Adobe Experience Cloud 中的客戶屬性結構。
 keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
 title: '如何驗證客戶屬性結構 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
