@@ -15,7 +15,7 @@ ht-degree: 99%
 ---
 
 
-# Triggers
+# 觸發器
 
 ## Triggers 概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
