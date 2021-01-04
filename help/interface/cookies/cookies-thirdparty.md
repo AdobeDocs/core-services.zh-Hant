@@ -1,5 +1,5 @@
 ---
-description: 瞭解協力廠商Cookie的支援如何在各種瀏覽器上日益受限。
+description: 了解第三方 Cookie 支援如何在各瀏覽器上日益受限。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: '對協力廠商Cookie支援的變更如何影響客戶 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
