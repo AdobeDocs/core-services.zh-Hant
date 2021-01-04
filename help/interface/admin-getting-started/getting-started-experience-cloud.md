@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何登入Adobe Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
+description: 了解如何登入 Adobe Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
 keywords: core services, sign in to Experience Cloud
 solution: Experience Cloud
 title: '登入及管理 Experience Cloud 設定檔設定 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
