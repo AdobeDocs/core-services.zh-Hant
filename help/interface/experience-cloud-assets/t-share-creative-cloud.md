@@ -1,5 +1,5 @@
 ---
-description: 如何與Creative Cloud使用者共用Experience Cloud資產資料夾。
+description: 如何與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: '共用 Experience Cloud 資產資料夾 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 
 移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
-使用共用資產的其他方法包括:
+使用共用資產的其他方法包括：
 
 * 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
 * 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://docs.adobe.com/help/zh-Hant/target/using/experiences/offers/manage-content.html)裡的資產。
@@ -59,7 +59,7 @@ ht-degree: 96%
 
 ![](assets/asset-cc-logo.png)
 
-相關說明:
+相關說明：
 
 * [Creative Cloud 說明 - 管理和同步檔案](https://helpx.adobe.com/tw/creative-cloud/help/sync-creative-cloud-files.html)
 * [Creative Cloud 說明 - 與他人共同作業](https://helpx.adobe.com/tw/creative-cloud/help/collaboration.html)
