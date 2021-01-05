@@ -6,9 +6,9 @@ seo-title: 術語
 solution: Experience Cloud
 title: '術語 '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 產品組合 | 多個檔案或資產的組合。 | 行銷活動的容器。 |
 | 產品設定檔 | 請參閱[管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)。 | 使用者若要取得使用產品或服務的權限，該使用者需屬於產品設定檔的一部分。產品管理員會將產品設定檔與您已購買的方案建立關聯，以便將授權指派給該產品設定檔。<br>單一使用者可隸屬於多個產品設定檔，每個設定檔都可授予該使用者不同的授權。使用者的最終資格是各個產品設定檔授予該使用者的所有授權聯合。 |
 | 排程 | 可指稱 Adobe Story 中的一系列場景，或是 ColdFusion 中的排程任務。 | 在 Experience Cloud 中，排程是指啟動行銷活動、管道和活動的開始日期 (年、月、日) 與結束日期。活動排程的粒度小至分鐘。變更排程會建立資訊卡。<br>例如：<ul><li>行銷活動排程</li><li>管道排程</li><li>活動排程</li></ul> |
-| 區段 | 不適用 | 一組規則的輸出，用於判斷受眾的資格。在 Analytics 中，[區段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)可選擇性用來定義可傳遞至 Experience Cloud 的受眾。<br>在 Audience Manager 中，區段是[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/traits/traits-overview.html)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
+| 區段 | 不適用 | 一組規則的輸出，用於判斷受眾的資格。在 Analytics 中，[區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)可選擇性用來定義可傳遞至 Experience Cloud 的受眾。<br>在 Audience Manager 中，區段是[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/traits/traits-overview.html)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。已登入網站的使用者可使用共用功能。 |
 | 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。<br>請參閱[關於 Experience Cloud 中的新雲端名稱](solutions-core-services.md)。 |
-| 特徵 | 不適用 | 索引鍵值組，例如 color=blue。在 Audience Manager 中，[特徵](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html)會用於建立區段。 |
+| 特徵 | 不適用 | 索引鍵值組，例如 color=blue。在 Audience Manager 中，[特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/traits/traits-overview.html)會用於建立區段。 |
