@@ -4,18 +4,18 @@ keywords: core services
 seo-description: Activation 包含最新的標籤管理產品，稱為 Experience Platform Launch。Dynamic Tag Management (DTM) 和 Triggers。
 seo-title: Activation
 solution: Experience Cloud
-title: 啟動 Experience Cloud中的服務
+title: Experience Cloud 的 Activation 服務
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 啟動
+# Activation
 
 Activation 包括名為 Experience Platform Launch、Dynamic Tag Management (DTM) 和 Triggers 的最新標籤管理產品。
 
