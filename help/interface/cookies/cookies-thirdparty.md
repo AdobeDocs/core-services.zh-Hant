@@ -2,13 +2,13 @@
 description: 了解第三方 Cookie 支援如何在各瀏覽器上日益受限。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: '對協力廠商Cookie支援的變更如何影響客戶 '
+title: '第三方 Cookie 支援的變更會如何影響客戶 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
