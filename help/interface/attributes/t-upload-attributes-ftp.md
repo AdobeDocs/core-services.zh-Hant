@@ -2,13 +2,13 @@
 description: 如果您不是以拖放方式上傳，可以透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: '透過FTP上傳客戶屬性資料檔案 '
+title: '透過 FTP 上傳客戶屬性資料檔案 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >
 >請先詳閱[上傳客戶屬性的資料檔案需求](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)，再上傳檔案。
 
-可透過FTP或SFTP將檔案上傳至客戶屬性FTP網站：
+您可以透過 FTP 或 SFTP 將檔案上傳至客戶屬性 FTP 站台：
 
 * 您需要支援 SFTP 連線的用戶端。
 * 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://docs.adobe.com/help/zh-Hant/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所說明。
