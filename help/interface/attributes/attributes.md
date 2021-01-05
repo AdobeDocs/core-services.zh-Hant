@@ -1,23 +1,23 @@
 ---
-description: 瞭解Adobe Experience Cloud中的客戶屬性服務，以及如何上傳資料以用於Analytic和Target。
+description: 了解 Adobe Experience Cloud 中的客戶屬性服務，以及如何上傳可在 Analytic 和 Target 中使用的資料。
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
 title: '如何使用客戶屬性 '
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# 如何在Adobe Experience Cloud中使用客戶屬性
+# 如何使用 Adobe Experience Cloud 中的客戶屬性
 
-Adobe Experience Cloud中的客戶屬性可讓您從客戶關係管理(CRM)資料庫上傳擷取的企業資料。 您可以將資料上傳至Experience Cloud中的客戶屬性資料來源，然後使用Adobe Analytics和Adobe Target中的資料。
+Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
-若要找到此功能，請導覽至&#x200B;**[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**
+若要尋找此功能，請導覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ Adobe Experience Cloud中的客戶屬性可讓您從客戶關係管理(CRM)資�
 
 請參閱[上傳客戶屬性資料](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
 
-## Analytics和Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}中的客戶屬性範例
+## Analytics 和 Target 中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 資料傳入 Experience Cloud 後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
 
