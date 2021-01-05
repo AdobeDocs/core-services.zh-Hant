@@ -2,9 +2,9 @@
 description: 了解 Adobe Ad Cloud Cookie，將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
