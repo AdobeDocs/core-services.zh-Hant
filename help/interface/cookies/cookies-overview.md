@@ -1,12 +1,12 @@
 ---
 description: 了解 Adobe Experience Cloud 中的解決方案和服務如何使用 Cookie。
-title: 'Experience Cloud中Cookie的使用方式 '
+title: 'Experience Cloud 中 Cookie 的使用方式 '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
