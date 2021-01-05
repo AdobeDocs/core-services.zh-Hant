@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud 中已上傳及使用之個人身分資訊 (PII) 的相關考量事項和最佳作法。
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: '客戶屬性的隱私權考量 '
+title: '客戶屬性的隱私考量事項 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
