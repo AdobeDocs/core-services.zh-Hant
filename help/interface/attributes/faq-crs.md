@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud 中 Adobe Analytics 和 Adobe Target 客戶屬性的常見問題。
 keywords: Customer Attributes
 solution: Experience Cloud
-title: '取得有關客戶屬性的常見問題解答 '
+title: '獲得有關客戶屬性的常見問題解答 '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1233'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Adobe Analytics 和 Adobe Target 中客戶屬性的常見問題和最佳作法。
 
-## 最佳作法和限制  {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## 最佳作法和限制{#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 使用[!UICONTROL 客戶屬性]的相關指引和限制。
 
@@ -36,7 +36,7 @@ Adobe Analytics 和 Adobe Target 中客戶屬性的常見問題和最佳作法�
 | 我能否收到客戶屬性上傳狀態的通知？ | 可以。請參閱[管理通知](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157)。 |
 | 該如何開始使用客戶屬性？ | <ol><li>完成佈建程序。如果您是 Analytics 客戶，Adobe 會針對客戶屬性為您完成佈建。如果您只使用 Adobe Target 而沒有使用 Analytics，請連絡客戶服務，申請佈建核心服務。</li> <li>與您的 CRM 團隊溝通。了解在 Analytics 和整個 Experience Cloud 可用的客戶資料中，有哪些您想要使用。</li><li>實作核心服務。如需導入最新實作的步驟，請參閱[啟用核心服務的解決方案](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services.html)(如需重要資訊，請參閱同步化客戶 ID 的相關章節)。</li></ol> **注意：**[這裡](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91)提供實作核心服務的管理員常見問題集。 |
 | 我可以使用多少個客戶屬性？ | 您可以將數百個 `.csv` 欄上傳至客戶屬性服務。但是在設定訂閱與選取屬性時，系統會根據您擁有的解決方案，套用以下欄數限制 (針對每個報表套裝)：  <ul><li>Foundation：0 個</li><li>Select：3 個</li><li>Prime：15 個</li><li>Ultimate：200 個</li><li>Standard：共 3 個</li><li>Premium：200 個</li><li>Adobe Target Standard：5 個</li><li>Adobe Target Premium：200 個</li></ul> |
-| 是否需要移轉至 Experience Cloud ID Service？ | 是否需移轉取決於您使用的解決方案。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必須移轉。 </li></ul><br>使用 Experience Cloud ID 服務會啟用最新的 Experience Cloud 功能，包括即時受眾、Adobe Target 現代化、Analytics 整合和視訊活動訊號追蹤。<br> 如需詳細資訊，請參閱[啟用核心服務的解決方案](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)。<br>**注意：**[Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/overview.html) 是前身為 _Analytics 訪客 ID 服務_&#x200B;的新式實作。 |
+| 是否需要移轉至 Experience Cloud ID Service？ | 是否需移轉取決於您使用的解決方案。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必須移轉。 </li></ul><br>使用 Experience Cloud ID 服務會啟用最新的 Experience Cloud 功能，包括即時受眾、Adobe Target 現代化、Analytics 整合和視訊活動訊號追蹤。<br> 如需詳細資訊，請參閱[啟用核心服務的解決方案](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services.html)。<br>**注意：**[Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/overview.html) 是前身為 _Analytics 訪客 ID 服務_&#x200B;的新式實作。 |
 | 客戶屬性功能與 Adobe Audience Manager 有何關係？ | 雖然 Audience Manager 可接收資料以辨識受眾，但無法執行將屬性與過往行為資料關聯的分析功能，亦無法提供 Adobe Analytics 中可使用的報表、分析和分段功能。[!UICONTROL People] 可讓不同解決方案的豐富資料繫結在一起，並與單一 ID 建立關聯，以便在 Experience Cloud 中使用。<br>Adobe Target 中，客戶屬性會顯示為個別屬性，可與其他規則結合以建立受眾。共用給 [!UICONTROL People] 服務的受眾是無法修改的完整受眾。 |
 | **(僅限 Analytics)** 此功能與 Analytics Premium 中提供的功能有何不同？ | 過去，有意將客戶屬性資料與 Analytics 資料結合的客戶，為了這項功能對 Data Workbench 的依賴程度很高。客戶屬性可作為 Reports &amp; Analytics、Ad Hoc Analysis 和 Report Builder 的維度和量度使用，因此可供更廣大的受眾運用。Analytics Standard 客戶可存取客戶屬性，但可使用的功能有限。Analytics Premium 客戶可使用完整功能。 |
 | **(僅限 Adobe Target)** 我是否可以預先載入或上傳 Adobe Target 從未看過的客戶資料？ | 是。訪客第一次向 Adobe Target 提出請求時，系統會從「客戶屬性」擷取與他們有關的現有資訊，並使用這些資料進行目標鎖定。**注意：**&#x200B;如果訪客是第一次與 Adobe Target 互動，則擷取此資料可能需花費最長達 20 分鐘。 |
