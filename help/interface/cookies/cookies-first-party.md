@@ -2,14 +2,14 @@
 description: 了解 Analytics 如何使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: '如何使用第一方Cookie '
+title: '如何使用第一方 Cookie '
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
