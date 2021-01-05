@@ -2,13 +2,13 @@
 description: 將封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。此隱私設定會排除選擇退出 Analytics 資料收集的使用者。
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target, Social
-title: '如何啟用瀏覽器Cookie的隱私權設定 '
+title: '如何啟用瀏覽器 Cookie 的隱私設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
