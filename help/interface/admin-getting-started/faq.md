@@ -4,9 +4,9 @@ keywords: core services, Experience Cloud, Experience Platform, Analytics, Targe
 solution: Experience Cloud
 title: '有關 Experience Cloud 的常見問題集 '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 
 ## 如何解決我對移轉公司的疑慮？
 
-[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 
 ## 什麼是&#x200B;_佈建_？
 
@@ -73,7 +73,7 @@ Experience Cloud 中的佈建意思是：
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
 
 ## 使用者可以前往哪裡管理帳戶連結？
 
@@ -93,7 +93,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 請參閱[找出組織 ID](organizations.md)。
 
-組織 ID 會顯示在 Experience Cloud 登陸頁面和 [Admin Console 登陸頁面](https://adminconsole.adobe.com) 上。
+組織 ID 會顯示在 Experience Cloud 登陸頁面和 [Admin Console 登陸頁面](https://adminconsole.adobe.com)上。
 
 或者，管理員也可以登入 Admin Console (導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) 尋找特定的組織，在 URL 即可看見您的 IMS 組織 ID。
 
