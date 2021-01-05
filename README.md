@@ -1,7 +1,7 @@
 ---
 source-git-commit: 9ee72351a36bc545665be727120ee9fe639b9c87
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
