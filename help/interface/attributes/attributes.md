@@ -1,14 +1,14 @@
 ---
-title: 如何進行客戶屬性
-description: 瞭解Adobe Experience Cloud中的客戶屬性服務。 瞭解如何上傳客戶屬性資料以用於Adobe Analytics和Adobe Target。
+title: 如何使用客戶屬性
+description: 了解 Adobe Experience Cloud 中的客戶屬性服務。瞭解如何上傳客戶屬性資料以用於Adobe Analytics和Adobe Target。
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 10635b4eda2fff32ef04878178be3ac88fa32756
+source-git-commit: 87676bd0159ec0a4505799b0ca6b70a604f0a61f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
