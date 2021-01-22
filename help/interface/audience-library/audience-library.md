@@ -3,9 +3,9 @@ solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 相關協助 | 資源 |
 |--- |--- |
 | 找不到受眾？ | 請確定您已佈建。請參閱[快速入門 - 啟用核心服務的解決方案](../core-services/core-services.md)。<br>按一下[此處](https://www.adobe.com/go/audiences)，申請存取設定檔與受眾 (整合佈建表單)。 |
-| 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://helpx.adobe.com/tw/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 論壇 | [受眾論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是可取得受眾說明的額外資源。 |
 
 ## 受眾程式庫介面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
