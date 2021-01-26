@@ -2,11 +2,11 @@
 description: 了解如何在 Experience Cloud 中將一個或多個報表套裝對應至組織。
 title: '將報表套裝對應至組織 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->報表套裝對應功能將於 2020 年 11 月終止支援。請將所有未完成的報表套裝建立對應關係，以因應這種情況。如有任何疑問，請聯絡客戶服務。
-
-瞭解如何將一個或多個報表套裝對應至組織。
+>報表套裝對應功能已於2020年11月停用。 如有任何問題，請聯絡客戶支援。
 
 Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL People]) 與組織相關聯而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。對應程序：
 
