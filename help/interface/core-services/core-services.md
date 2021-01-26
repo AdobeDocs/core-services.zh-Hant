@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: '啟用核心服務的解決方案 '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ ht-degree: 96%
 
 若要加入 Experience Cloud，您必須先執行下列動作：
 
-![](assets/step1_icon.png) 確定您具有適當的 Adobe Analytics 或 Adobe Target SKU。
+1.  確定您具有適當的 Adobe Analytics 或 Adobe Target SKU。
 
-* **Adobe Analytics：** Standard 或 Premium 版 (非舊版 [!DNL SiteCatalyst] SKU)。
-* **Adobe Target：** Standard 或 Premium 版。
+   * **Adobe Analytics：** Standard 或 Premium 版 (非舊版 [!DNL SiteCatalyst] SKU)。
+   * **Adobe Target：** Standard 或 Premium 版。
 
->[!NOTE]
->
->若使用 [!DNL Target]，需從 [!DNL mbox.js] 移轉至 at.js。請參閱[從 at.js 1.x 升級為 at.js 2.x](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)。
+   >[!NOTE]
+   >
+   >若使用 [!DNL Target]，需從 [!DNL mbox.js] 移轉至 at.js。請參閱[從 at.js 1.x 升級為 at.js 2.x](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)。
 
-![](assets/step2_icon.png)最實化實作，並取得已佈建的管理員。
+1. 最實化實作，並取得已佈建的管理員。
 
-1. 請依照下文「[部署 [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)」中的步驟操作。
-1. 請連絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
+   * 請遵循[實作[!UICONTROL Experience Cloud ID服務]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)中的下列步驟。
+   * 請連絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
 
-![](assets/step3_icon.png) 在 [!UICONTROL Admin Console] 中管理使用者和產品。
+1.  在 [!UICONTROL Admin Console] 中管理使用者和產品。
 
 ### 管理員登入
 
@@ -54,18 +54,18 @@ ht-degree: 96%
 
 您會在 Experience Cloud 功能表導覽中看到&#x200B;**[!UICONTROL 管理]**&#x200B;連結。
 
-如需說明，請參閱 [Experience Cloud 的使用者和產品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
+如需詳細資訊，請參閱[Experience Cloud使用者和產品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
 ### 使用者登入
 
 若要登入 Experience Cloud，您的使用者必須：
 
-1. 擁有貴公司的 Adobe ID (或 Enterprise ID)。
-1. 於 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 登入。
-1. 屬於對應至企業群組的解決方案群組。
-1. 視需要將其解決方案帳戶連結至其 Adobe ID (如下所述)。
+* 擁有貴公司的 Adobe ID (或 Enterprise ID)。
+* 於 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 登入。
+* 屬於對應至企業群組的解決方案群組。
+* 視需要將其解決方案帳戶連結至其 Adobe ID (如下所述)。
 
-![](assets/step4_icon.png) 選用：連結現有的使用者帳戶。
+###  選用：連結現有的使用者帳戶。
 
 最有可能的情況是，您的使用者已是解決方案群組的成員，例如您先前在 [!UICONTROL Analytics] >[!UICONTROL 管理工具]中管理的 Analytics 群組。
 
