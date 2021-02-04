@@ -1,14 +1,13 @@
 ---
-description: 了解如何登入 Adobe Admin Console、管理 Experience Cloud 的使用者權限和產品設定檔，以及瀏覽器支援。
-keywords: Experience Cloud services
-solution: Experience Cloud
-title: '了解如何管理使用者和產品 '
+description: 瞭解如何管理Adobe Experience Cloud使用者權限和產品設定檔。 瞭解登入Adobe Admin Console以及Experience Cloud的瀏覽器支援。
+solution: Admin
+title: '如何管理使用者和產品 '
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 ## Experience Cloud 使用者管理的新功能 {#concept_06A0A13362F644FB90F947238407637A}
 
-了解 Experience Cloud 使用者管理中的最新功能。
+瞭解Experience Cloud使用者和產品管理的最新功能。
 
 <!-- ### Business ID type
 
@@ -44,7 +43,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 ## 登入 Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-管理員不再需要於管理解決方案中管理使用者。Experience Cloud 的使用者和產品管理現在需在 Admin Console 中進行。
+管理員不再管理特定產品解決方案中的使用者。 Experience Cloud 的使用者和產品管理現在需在 Admin Console 中進行。
 
 登入 Admin Console 的方式：
 
@@ -55,19 +54,19 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 **相關說明**
 
-Creative Cloud 和 Document Cloud 的[管理使用手冊](https://helpx.adobe.com/tw/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理相關，例如[管理身分類型](https://helpx.adobe.com/tw/enterprise/help/identity.html)。
+Creative Cloud 和 Document Cloud 的[管理使用手冊](https://helpx.adobe.com/tw/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理相關，例如[管理身分類型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
-[登入並管理您的設定檔設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)，以管理密碼、組織和通知。
+[登入及管理個人資料設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
 ## 產品設定檔和群組 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 產品設定檔的加入，代表著先前管理解決方案產品與服務的方式 (使用群組進行管理) 有所轉變。在 Admin Console 中，權限是以產品設定檔為基礎，而產品設定檔是您可指派給使用者的產品和服務群組。
 
-例如，在 Analytics 中，您可以設定報表工具的集合，例如 Analysis Workspace 和 Report Builder，以及報表套裝、量度、維度等項目。您可以透過將使用者新增至設定檔來授予產品設定檔的權限給使用者。請參閱[將 Analytics 存取權指派至產品設定檔](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)。
+例如，在 Analytics 中，您可以設定報表工具的集合，例如 Analysis Workspace 和 Report Builder，以及報表套裝、量度、維度等項目。您可以透過將使用者新增至設定檔來授予產品設定檔的權限給使用者。請參閱本頁的[將Analytics存取權限指派給產品描述檔](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391)。
 
-**相關說明**
+**委託管理權**
 
-[委派有限的管理權限](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
+請參閱本頁的[委派有限管理權限](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)。
 
 ## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -117,11 +116,11 @@ Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客
 
 請參閱 [AEM as a Cloud Service 的 IMS 支援](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console)。
 
-## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
+## 體驗平台啟動{#section_3A41CF2BD5994B9891537D063571D4ED}
 
-邀請使用者加入 Dynamic Tag Management，並指派使用者角色與新增使用者至群組。
+邀請用戶加入[!UICONTROL 平台啟動]並指派用戶角色和權限。
 
-若要了解如何邀請使用者加入 Dynamic Tag Management，及為群組指派使用者角色及新增使用者，請參閱[使用者與權限](https://docs.adobe.com/content/help/zh-Hant/dtm/using/admin/users.html)。
+請參閱[使用者權限](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#admin)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -142,9 +141,9 @@ Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客
 
 如需更多說明，請參閱：
 
-* [管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
-* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)會提供詳細資訊。
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)會提供詳細資訊。
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -195,6 +194,6 @@ Experience Cloud 中支援的瀏覽器
 
 ### 解決方案和產品要求
 
-* [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
