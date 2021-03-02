@@ -1,14 +1,14 @@
 ---
 description: 如何與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
-keywords: asset sharing;Creative Cloud;core services
+keywords: 資產共用;Creative Cloud;核心服務
 solution: Experience Cloud
 title: '共用 Experience Cloud 資產資料夾 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 100%
 
    ![](assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下&#x200B;**[!UICONTROL 使用 Creative Cloud 共用]** (類似[步驟 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996))，按一下 X 來移除使用者，然後按一下&#x200B;**[!UICONTROL 共用]**。
+1. 若要取消共用資料夾，請按一下「使用Creative Cloud共用」（類似於[步驟3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)），然後按一下「X」以移除使用者，然後按一下「共用」(a4/>Share)。********
 
 ![](assets/asset_remove_user.png)
 
-移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
+刪除所有Creative Cloud用戶後，該資料夾將不共用，Creative Cloud用戶將不再擁有訪問權限。
 
-使用共用資產的其他方法包括：
+使用共用資產的更多方式包括：
 
 * 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
 * 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://docs.adobe.com/help/zh-Hant/target/using/experiences/offers/manage-content.html)裡的資產。
