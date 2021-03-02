@@ -1,14 +1,18 @@
 ---
 description: '了解用於管理 Experience Cloud 中已核准 Creative Cloud 使用者的管理工具。 '
-keywords: asset sharing;Creative Cloud;core services
+keywords: 資產共用;Creative Cloud;核心服務
 solution: Experience Cloud
 title: '管理 Creative Cloud 使用者 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+feature: Assets
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 99%
 
 ---
 
