@@ -3,11 +3,16 @@ solution: Experience Cloud
 type: 文件
 title: 'Adobe Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
+description: 了解如何在 Experience Cloud 受眾服務中管理將訪客資料轉譯為受眾細分。
+feature: Audience Library
+topic: 管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 99%
 
 ---
 
