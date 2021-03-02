@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Experience Cloud 中的 Audience Manager Cookie。
-keywords: cookies
+keywords: Cookie
 solution: Experience Cloud, Audience Manager
 title: 'Audience Manager Cookie '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
