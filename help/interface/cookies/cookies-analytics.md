@@ -1,14 +1,18 @@
 ---
 description: 了解 Adobe Experience Cloud 中的 Adobe Analytics Cookie。
-keywords: cookies;privacy
+keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
-title: '如何使用 Adobe Analytics Cookie '
+title: 'Analytics Cookie '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 99%
 
 ---
 
