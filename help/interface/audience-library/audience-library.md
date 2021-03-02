@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: 文件
 title: 'Adobe Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
-workflow-type: ht
-source-wordcount: '796'
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!DNL Target] | [訪客 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) 將訪客 ID 與資料統整於單一可操作的設定檔中，以便用於各種解決方案。Adobe Analytics 區段建立程序中會顯示[發佈至 Experience Cloud](../audience-library/audience-library.md) 核取方塊，一旦勾選，該區段即可供 Adobe Target 的自訂受眾程式庫使用。在 Analytics 或 Audience Manager 中建立的區段皆適用於 [!DNL Target] 中的活動。例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和受眾區段來建立行銷活動。 |
 | Audience Manager | 共用受眾可在 Audience Manager 細分中使用。Audience Manager 原本就可使用所有 Experience Cloud 受眾，並提供：<ul><li>內建自動化功能，適用於解決方案工作流程中共用和使用對象的方式</li><li>離站目的地</li><li>相似建模</li></ul> |
 | Campaign | <ul><li>從不同的 Adobe Experience Cloud 解決方案匯入共用受眾至 Adobe Campaign。</li><li>以共用受眾的形式匯出收件者清單。這些共用受眾可用於您所使用的不同 Adobe Experience Cloud 解決方案。</li></ul> |
-| Media Optimizer | 使用受眾作為目標。 |
+| Advertising Cloud | 使用受眾作為目標。 |
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 相關協助 | 資源 |
 |--- |--- |
 | 找不到受眾？ | 請確定您已佈建。請參閱[快速入門 - 啟用核心服務的解決方案](../core-services/core-services.md)。<br>按一下[此處](https://www.adobe.com/go/audiences)，申請存取設定檔與受眾 (整合佈建表單)。 |
-| 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://helpx.adobe.com/tw/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
+| 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html)。 |
 | 論壇 | [受眾論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences)是可取得受眾說明的額外資源。 |
 
 ## 受眾程式庫介面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
