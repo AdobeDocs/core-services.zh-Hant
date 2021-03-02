@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 解決方案所使用的訪客 ID。
-keywords: cookies;privacy
+description: 瞭解ID服務如何儲存和使用於Experience Cloud解決方案。
+keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
