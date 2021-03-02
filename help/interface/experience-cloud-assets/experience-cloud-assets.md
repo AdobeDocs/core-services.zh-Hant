@@ -1,13 +1,17 @@
 ---
 description: 了解您可在多個解決方案共用的 Experience Cloud Assets。
 solution: Experience Cloud
-title: 'Experience Cloud Assets 概述 '
+title: 資產概觀
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Assets
+topic: 管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 83%
+source-wordcount: '336'
+ht-degree: 82%
 
 ---
 
