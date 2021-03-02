@@ -1,14 +1,18 @@
 ---
 description: 了解 Exchange Marketplace，這是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。
-keywords: core services
+keywords: 核心服務
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+feature: 「客戶屬性、觀眾程式庫、Admin Console」
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 95%
 
 ---
 
