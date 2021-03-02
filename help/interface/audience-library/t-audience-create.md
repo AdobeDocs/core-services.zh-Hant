@@ -1,14 +1,14 @@
 ---
 description: 了解如何使用屬性規則來建立受眾與定義 Adobe Experience Cloud 中的複合受眾。
-keywords: core services
+keywords: 核心服務
 solution: Experience Cloud
 title: '建立受眾 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 97%
 
 ---
 
@@ -89,4 +89,4 @@ ht-degree: 100%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的受眾。
 
-受眾儲存後就可供其他解決方案使用。例如，您可以在 Adobe Target 活動中加入共用受眾。
+受眾儲存後就可供其他解決方案使用。例如，您可以在Adobe Target活動中包含共用對象。
