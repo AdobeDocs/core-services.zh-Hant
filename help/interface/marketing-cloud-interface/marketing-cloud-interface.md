@@ -1,16 +1,16 @@
 ---
 description: Experience Cloud 的新功能和更新的概述。
-keywords: core services
+keywords: 核心服務
 seo-description: Experience Cloud 的新功能和更新的概述。
 seo-title: Experience Cloud 的新功能
 solution: Experience Cloud
 title: 'Experience Cloud 的新功能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 的新功能和更新的概述。
 * 新增功能標記以控制 Experience Cloud 與 Creative Cloud 之間的資產同步。(CORE - 15938)
 
 * 改善「受眾」區段的建立方式，包括更優異的搜尋和清單體驗。(CORE-5833、CORE-14278)
-* 修正封鎖從 MAC 到 Creative Cloud 資料夾共用作業的高優先順序問題。(CORE - 16677)
+* 已修正高優先順序問題，此問題會封鎖資料夾共用從Experience Cloud到Creative Cloud。 (CORE - 16677)
 
 
 ## 2018 年 7 月 19 日 {#section_EBB549EBABB7480884A180237ADCCD02}
