@@ -1,21 +1,25 @@
 ---
-description: Activation 包含最新的標籤管理產品，稱為 Experience Platform Launch。Dynamic Tag Management (DTM) 和 Triggers。
+description: 瞭解最新的標籤管理產品，稱為Experience Platform Launch。
 keywords: 核心服務
 seo-description: Activation 包含最新的標籤管理產品，稱為 Experience Platform Launch。Dynamic Tag Management (DTM) 和 Triggers。
 seo-title: Activation
 solution: Experience Cloud Services
 title: Experience Cloud 的 Activation 服務
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+feature: Admin Console
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 97%
 
 ---
 
 
-# Activation
+# 啟動
 
 Activation 包括名為 Experience Platform Launch、Dynamic Tag Management (DTM) 和 Triggers 的最新標籤管理產品。
 
