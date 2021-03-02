@@ -1,14 +1,18 @@
 ---
 description: 了解 Search&Promote 如何使用 Cookie 來了解及預測訪客的搜尋意圖。
-keywords: cookies;privacy
+keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Search 和 Promote Cookie '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 99%
 
 ---
 
