@@ -2,11 +2,11 @@
 description: 了解 Adobe Ad Cloud Cookie，將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
-   <td colname="col2"> <p>設定於2021年2月24日或更早版本的Cookie會在730天後到期。 設定於2021年2月25日或更新版本的Cookie會在364天後到期。</p> </td> 
+   <td colname="col2"> <p>2021 年 2 月 24 日以前設定的 Cookie 將於 730 天後過期。2021 年 2 月 25 日以後設定的 Cookie 將於 364 天後過期。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用狀況 </p> </td> 
