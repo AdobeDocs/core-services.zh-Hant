@@ -1,14 +1,14 @@
 ---
 description: 了解如何實作 Adobe Experience Cloud 並成為管理員。
-keywords: core services;Customer Attributes
+keywords: 核心服務；客戶屬性
 solution: Experience Cloud
 title: '啟用核心服務的解決方案 '
 index: true
-translation-type: ht
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
-workflow-type: ht
-source-wordcount: '2352'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '2357'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果您最近曾使用 Experience Platform Launch 實作 Experience Cloud，即已完成客戶屬性和 Experience Cloud 受眾的相關設定。您也可以在 Admin Console 中管理使用者和產品。
 
-若是現有客戶，您可能需採取最新的解決方案實作，並實作 Experience Cloud。如此一來，您就可以橫跨 Adobe Analytics、Audience Manager 和 Adobe Target 運用客戶屬性和受眾功能。若要完成此作業，請執行以下作業：
+若是現有客戶，您可能需採取最新的解決方案實作，並實作 Experience Cloud。如此一來，您就可以橫跨 Adobe Analytics、Audience Manager 和 Adobe Target 運用客戶屬性和受眾功能。若要完成此實作，您將：
 
 1. [加入 Experience Cloud 並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [實作 Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -99,7 +99,7 @@ ht-degree: 100%
 
 ### Analytics 與 Adobe Target - 同步客戶 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
+Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://docs.adobe.com/content/help/zh-Hant/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。)
 
@@ -229,4 +229,4 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立受眾、組合現�
 
 請參閱 [Adobe Experience Cloud - 實作 Adobe 選擇退出](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/opt-out.translate.html)以取得指示。
 
-請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
+請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
