@@ -1,14 +1,18 @@
 ---
 description: Adobe Scene7 如何使用 Cookie 來儲存用於將動態媒體傳送給瀏覽器的有用資訊。
-keywords: cookies;privacy
+keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+feature: Cookie
+topic: 管理
+role: 管理員
+level: 經驗豐富
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 99%
 
 ---
 
