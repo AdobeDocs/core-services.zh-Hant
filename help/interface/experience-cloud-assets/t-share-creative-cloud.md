@@ -4,11 +4,15 @@ keywords: 資產共用;Creative Cloud;核心服務
 solution: Experience Cloud
 title: '共用 Experience Cloud 資產資料夾 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
+feature: Assets
+topic: 管理
+role: 管理員
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 84%
+source-wordcount: '317'
+ht-degree: 83%
 
 ---
 
