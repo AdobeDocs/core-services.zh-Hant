@@ -3,18 +3,18 @@ description: 了解您可在多個解決方案共用的 Experience Cloud Assets�
 solution: Experience Cloud
 title: 'Experience Cloud Assets 概述 '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Experience Cloud Assets 概述
 
-Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
+Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位檔案、影像、視訊或音訊（或其一部分），可以有多個轉譯，也可以有子資產（例如，[!DNL Photoshop]檔案中的圖層、[!DNL PowerPoint]檔案中的投影片、PDF中的頁面、ZIP中的檔案）。
 
 資產服務包括：
 
@@ -64,7 +64,7 @@ Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決�
 
 ## 搜尋資產 {#section_50FE049010B446FC9640AA6A30E5A730}
 
-您可以依關鍵字、檔案類型、大小、上次修改時間、發佈狀態、方向以及樣式來搜尋。
+您可以依關鍵字、檔案類型、大小、上次修改時間、發佈狀態、方向和樣式來搜尋。
 
 ![](assets/asset-search.png)
 
