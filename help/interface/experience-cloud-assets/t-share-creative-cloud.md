@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 83%
 
    ![](assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下「使用Creative Cloud共用」（類似於[步驟3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)），然後按一下「X」以移除使用者，然後按一下「共用」(a4/>Share)。********
+1. 若要取消共用資料夾，請按一下&#x200B;**[!UICONTROL 「使用 Creative Cloud 共用」]**(類似[步驟 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996))，按一下「X」來移除使用者，然後按一下&#x200B;**[!UICONTROL 「共用」]**。
 
 ![](assets/asset_remove_user.png)
 
-刪除所有Creative Cloud用戶後，該資料夾將不共用，Creative Cloud用戶將不再擁有訪問權限。
+移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
-使用共用資產的更多方式包括：
+更多使用共用資產的方法包括：
 
 * 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
 * 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://docs.adobe.com/help/zh-Hant/target/using/experiences/offers/manage-content.html)裡的資產。
