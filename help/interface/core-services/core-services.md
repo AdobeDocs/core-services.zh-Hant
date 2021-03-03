@@ -1,6 +1,6 @@
 ---
 description: 「將您的Adobe Analytics和Adobe Target解決方案最新化，以提供跨解決方案服務。 瞭解如何開始使用Experience Cloud服務。」
-keywords: 核心服務；客戶屬性
+keywords: 核心服務;客戶屬性
 solution: Experience Cloud
 title: 「為您的跨解決方案服務啟用解決方案」
 index: true
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 如果您最近曾使用 Experience Platform Launch 實作 Experience Cloud，即已完成客戶屬性和 Experience Cloud 受眾的相關設定。您也可以在 Admin Console 中管理使用者和產品。
 
-若是現有客戶，您可能需採取最新的解決方案實作，並實作 Experience Cloud。如此一來，您就可以橫跨 Adobe Analytics、Audience Manager 和 Adobe Target 運用客戶屬性和受眾功能。若要完成此實作，您將：
+若是現有客戶，您可能需採取最新的解決方案實作，並實作 Experience Cloud。如此一來，您就可以橫跨 Adobe Analytics、Audience Manager 和 Adobe Target 運用客戶屬性和受眾功能。若要完成此實作，請執行以下作業：
 
 1. [加入 Experience Cloud 並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [實作 Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
