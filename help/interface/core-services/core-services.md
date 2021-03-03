@@ -1,15 +1,15 @@
 ---
-description: 「將您的Adobe Analytics和Adobe Target解決方案最新化，以提供跨解決方案服務。 瞭解如何開始使用Experience Cloud服務。」
+description: 將您的Adobe Analytics和Adobe Target解決方案最新化，以提供跨解決方案服務。 瞭解如何開始使用Experience Cloud服務。
 keywords: 核心服務;客戶屬性
 solution: Experience Cloud
-title: 「為您的跨解決方案服務啟用解決方案」
+title: 為您的跨解決方案服務提供解決方案
 index: true
 feature: 客戶屬性
 topic: 管理
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
