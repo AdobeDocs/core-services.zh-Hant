@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -93,4 +93,4 @@ ht-degree: 97%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的受眾。
 
-受眾儲存後就可供其他解決方案使用。例如，您可以在Adobe Target活動中包含共用對象。
+受眾儲存後就可供其他解決方案使用。例如，您可以在 Adobe Target 活動中加入共用受眾。
