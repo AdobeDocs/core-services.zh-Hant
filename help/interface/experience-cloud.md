@@ -1,18 +1,18 @@
 ---
 description: 了解 Adobe Admin Console 中的使用者和產品管理、啟用 Experience Cloud 服務的解決方案，以及了解受眾程式庫、客戶屬性、Experience Cloud Assets 等。
-keywords: Adobe Experience Cloud服務、客戶屬性、受眾、使用者和產品管理
+keywords: Adobe Experience Cloud 服務, 客戶屬性, 受眾, 使用者和產品管理
 solution: Experience Cloud
 title: 'Experience Cloud 服務與管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: 「客戶屬性、觀眾程式庫、Admin Console」
+feature: '"客戶屬性, 受眾程式庫, Admin Console"'
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
