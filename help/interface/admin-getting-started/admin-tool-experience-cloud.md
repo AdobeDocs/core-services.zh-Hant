@@ -1,5 +1,5 @@
 ---
-description: 瞭解Experience Cloud管理工具。查看所有Experience Cloud用戶和策略的可排序和可篩選清單。
+description: 了解 Experience Cloud 管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
 keywords: 核心服務
 solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 * 名稱
 * 電子郵件
 * 使用者名稱 (Federated ID 帳戶的使用者名稱可能與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
