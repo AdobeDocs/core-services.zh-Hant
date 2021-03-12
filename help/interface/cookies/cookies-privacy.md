@@ -2,17 +2,17 @@
 description: 了解 Adobe Experience Cloud 解決方案與服務中的 Cookie 和隱私。
 keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
-title: 'Cookie與隱私權 '
+title: 'Cookie 與隱私權 '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookie
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
