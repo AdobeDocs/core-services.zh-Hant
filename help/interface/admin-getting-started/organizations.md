@@ -1,6 +1,6 @@
 ---
 description: 了解組織以及將解決方案帳戶連結至 Experience Cloud。
-keywords: Adobe Experience Cloud服務
+keywords: Adobe Experience Cloud 服務
 solution: Experience Cloud
 title: '組織和帳戶連結 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
