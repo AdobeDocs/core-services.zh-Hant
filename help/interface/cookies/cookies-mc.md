@@ -1,5 +1,5 @@
 ---
-description: 瞭解ID服務如何儲存和使用於Experience Cloud解決方案。
+description: 了解 ID 服務如何在 Experience Cloud 解決方案間儲存和使用。
 keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookie '
@@ -8,11 +8,11 @@ feature: Cookie
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
