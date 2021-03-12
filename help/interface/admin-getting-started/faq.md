@@ -1,6 +1,6 @@
 ---
 description: 了解瀏覽器支援，並獲得 Adobe Experience Cloud 管理員的常見問題解答。
-keywords: 核心服務、Experience Cloud、Experience Platform、分析、目標、使用者管理。
+keywords: 核心服務、Experience Cloud、Experience Platform、Analytics、Target、使用者管理。
 solution: Experience Cloud
 title: '有關 Experience Cloud 的常見問題集 '
 index: true
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 
 ## 如何解決我對移轉公司的疑慮？
 
-[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)。
+[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
 
 ## 什麼是&#x200B;_佈建_？
 
@@ -77,7 +77,7 @@ Experience Cloud 中的佈建意思是：
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)，確認貴公司已全面完成佈建作業。
 
 ## 使用者可以前往哪裡管理帳戶連結？
 
