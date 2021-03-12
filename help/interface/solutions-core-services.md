@@ -3,17 +3,17 @@ description: 瞭解雲端相關的品牌最新資訊、如何瀏覽介面，以�
 seo-description: 瞭解雲端相關的品牌最新資訊、如何瀏覽介面，以及可在何處找到解決方案與核心服務的相關說明。
 seo-title: 關於 Experience Cloud 中的新雲端名稱
 solution: Experience Cloud
-title: '關於Experience Cloud中的雲端名稱 '
+title: '關於 Experience Cloud 中的雲端名稱 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 包含 Media Optimizer 和 TubeMogul。
 
-## 什麼是解決方案？  {#concept_4F52341A45DC49B2B216824B14D54FDA}
+## 什麼是解決方案？{#concept_4F52341A45DC49B2B216824B14D54FDA}
 
 下列資訊簡述解決方案內容，並提供相關說明連結。也提供[使用案例秘訣](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html)，協助您處理數位行銷工作流程。
 
@@ -88,7 +88,7 @@ Adobe Target 已與 Analytics 和其他 Experience Cloud 核心服務整合。�
 
 Adobe Experience Manager 做為內容管理解決方案，可讓您輕鬆管理您網站、行動應用程式、社群和表單的資產與內容。
 
-如需說明，請參閱 [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)。
+如需說明，請參閱 [Adobe Experience Manager 6.5](https://helpx.adobe.com/tw/support/experience-manager/6-5.html)。
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/aam-home.html)
 
@@ -106,7 +106,7 @@ Adobe Campaign 可讓您跨所有線上及離線管道規劃、投放及衡量�
 
 Adobe Primetime 是多螢幕電視平台，可協助廣播電視公司針對任何受眾建立個人化的精彩電視和電影觀看體驗。
 
-## 什麼是核心服務？  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## 什麼是核心服務？{#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [核心服務](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services-landing.html)包括能夠簡化產品實作及啟用跨解決方案工作流程的各種功能，例如受眾區隔、客戶屬性上傳和協同合作工具。
 
