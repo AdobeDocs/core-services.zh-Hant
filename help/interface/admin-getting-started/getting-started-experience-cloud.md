@@ -1,6 +1,6 @@
 ---
 description: 了解如何登入 Adobe Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
-keywords: 核心服務，登入Experience Cloud
+keywords: 核心服務, 登入 Experience Cloud
 solution: Experience Cloud
 title: '登入及管理 Experience Cloud 設定檔設定 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
