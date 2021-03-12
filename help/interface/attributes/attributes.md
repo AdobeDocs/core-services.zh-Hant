@@ -6,11 +6,11 @@ feature: 客戶屬性
 role: 管理員
 topic: 管理
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
