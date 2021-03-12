@@ -1,15 +1,15 @@
 ---
 title: '加州消費者隱私法的客戶屬性支援 '
-description: 瞭解California Consumer Privacy Act的客戶屬性支援
+description: 了解加州消費者隱私法的客戶屬性支援
 feature: 客戶屬性
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
