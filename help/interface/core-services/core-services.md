@@ -2,7 +2,7 @@
 description: 將您的Adobe Analytics和Adobe Target解決方案最新化，以提供跨解決方案服務。 瞭解如何開始使用Experience Cloud服務。
 keywords: 核心服務;客戶屬性
 solution: Experience Cloud
-title: 為您的跨解決方案服務提供解決方案
+title: 讓您的解決方案提供跨解決方案服務
 index: true
 feature: 客戶屬性
 topic: 管理
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
