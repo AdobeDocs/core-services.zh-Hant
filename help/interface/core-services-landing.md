@@ -2,15 +2,15 @@
 description: 了解 Adobe Experience Cloud 使用者和產品管理、People (受眾和客戶屬性)、Journey Orchestration、Offers、Places、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
 title: 'Experience Cloud 服務概述 '
-feature: 「客戶屬性，觀眾程式庫」
+feature: '"客戶屬性, 受眾程式庫"'
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
