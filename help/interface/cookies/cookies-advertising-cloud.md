@@ -6,11 +6,11 @@ feature: Cookie
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
