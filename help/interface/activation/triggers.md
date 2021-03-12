@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何設定Experience Cloud觸發器。
+description: 了解如何設定 Experience Cloud Triggers。
 keywords: 整合;觸發器
 seo-description: 如何設定 Experience Cloud 觸發器。
 seo-title: Triggers
@@ -10,16 +10,16 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# 觸發器
+# Triggers
 
 ## Triggers 概述 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
