@@ -1,17 +1,17 @@
 ---
-description: 瞭解如何實作DNS預回遷，以利在Experience Cloud中使用不同的解決方案和服務來縮短頁面載入時間。
+description: 了解如何搭配 Experience Cloud 中不同的解決方案和服務實作 DNS 預先擷取，以縮短頁面載入時間。
 solution: Experience Cloud
 title: '搭配不同的解決方案和服務使用 DNS 預先擷取 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 「客戶屬性、觀眾程式庫、Admin Console」
+feature: '"客戶屬性, 受眾程式庫, Admin Console"'
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
