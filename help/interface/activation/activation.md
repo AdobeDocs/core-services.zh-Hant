@@ -1,5 +1,5 @@
 ---
-description: 瞭解最新的標籤管理產品，稱為Experience Platform Launch。
+description: 了解最新標籤管理產品 Experience Platform Launch。
 keywords: 核心服務
 seo-description: Activation 包含最新的標籤管理產品，稱為 Experience Platform Launch。Dynamic Tag Management (DTM) 和 Triggers。
 seo-title: Activation
@@ -10,16 +10,16 @@ feature: Admin Console
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 啟動
+# Activation
 
 Activation 包括名為 Experience Platform Launch、Dynamic Tag Management (DTM) 和 Triggers 的最新標籤管理產品。
 
