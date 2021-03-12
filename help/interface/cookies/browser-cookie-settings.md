@@ -1,18 +1,18 @@
 ---
-description: 瞭解如何啟用瀏覽器Cookie的隱私權設定。 您可將已封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。
+description: 了解如何啟用瀏覽器 Cookie 的隱私設定。您可將已封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。
 keywords: Cookie;隱私
 solution: Experience Cloud, Analytics, Target, Social
-title: '瀏覽器Cookie的隱私權設定 '
+title: '瀏覽器 Cookie 的隱私設定 '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookie
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
