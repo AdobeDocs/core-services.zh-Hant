@@ -1,6 +1,6 @@
 ---
-description: 瞭解如何透過FTP將客戶屬性資料上傳至Experience Cloud。
-keywords: 客戶屬性；核心服務
+description: 了解如何透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
+keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '透過 FTP 上傳客戶屬性資料檔案 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
@@ -8,11 +8,11 @@ feature: 客戶屬性
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
