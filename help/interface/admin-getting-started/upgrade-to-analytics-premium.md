@@ -1,18 +1,18 @@
 ---
-description: 瞭解升級至Analytics Premium時的需求和預期。
-keywords: Adobe Analytics Premium升級版
+description: 了解升級至 Analytics Premium 時的需求和期望。
+keywords: Adobe Analytics Premium 升級
 solution: Experience Cloud
-title: '升級至Analytics Premium和Experience Cloud '
+title: '升級至 Analytics Premium 和 Experience Cloud '
 topic: 管理
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: 管理員
 level: 經驗豐富
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Analytics Premium 提供您：
 
 | 產品 | 升級 |
 |---|---|
-| 報告與分析 | [貢獻分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | 預先建立的 Workspace，用於決定受眾資格和預測性行銷。 |
-| Analytics平台 | Live Stream (控制面板和觸發器) |
+| Analytics Platform | Live Stream (控制面板和觸發器) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -67,7 +67,7 @@ Analytics Premium 提供您：
 |--- |--- |
 | [客戶屬性](../attributes/attributes.md) | 客戶屬性 (分析和區隔共用) |
 | Data Workbench | <ul><li>衍生客戶屬性</li><li>預先建立的 Workspace，用於進行受眾探索</li></ul> |
-| Analytics平台 | [客戶屬性](../attributes/attributes.md) |
+| Analytics Platform | [客戶屬性](../attributes/attributes.md) |
 
 ## 進階歸因 {#section_9E4986A8389946CCAA7D003268343296}
 
