@@ -8,16 +8,16 @@ feature: '"客戶屬性, 受眾程式庫, Admin Console"'
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 服務與管理
+# Experience Cloud服務與管理指南
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
