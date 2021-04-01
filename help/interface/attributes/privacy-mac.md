@@ -8,16 +8,16 @@ feature: 客戶屬性
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '522'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud 中客戶屬性的隱私考量事項
+# 客戶屬性的隱私考量事項
 
 Adobe Experience Cloud 中已上傳及使用之個人身分資訊 (PII) 的相關考量事項和最佳作法。
 
