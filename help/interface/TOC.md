@@ -6,10 +6,10 @@ user-guide-description: 了解如何在 Adobe Experience Cloud 中管理使用�
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客戶屬性{#customer-attributes}
-   + [Adobe Experience Cloud 中的客戶屬性](attributes/attributes.md)
-   + [常見問題、限制和最佳作法](attributes/faq-crs.md)
+   + [客戶屬性概述](attributes/attributes.md)
+   + [客戶屬性的常見問題](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
    + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
    + [選用 - 透過 FTP 上傳資料檔案](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [更新結構](attributes/t-update-schema.md)
    + [支援一般資料保護規範](attributes/gdpr.md)
    + [支援加州消費者隱私法](attributes/ccpa.md)
-   + [隱私考量 - 客戶屬性](attributes/privacy-mac.md)
+   + [客戶屬性的隱私考量事項](attributes/privacy-mac.md)
 + Experience Cloud 發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)
 + 更多資源 {#more-resources}
    + [論壇](https://forums.adobe.com/community/experience-cloud)
    + [術語](terms.md)
    + [搭配不同的解決方案和服務使用 DNS 預先擷取](dns-prefetch.md)
-   + [文件更新 - Experience Cloud](doc-updates.md)
+   + [文件更新](doc-updates.md)
