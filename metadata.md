@@ -7,13 +7,13 @@ solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
 tutorials-title: 教學課程
 tutorials-url: https://docs.adobe.com/content/help/zh-Hant/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.zh-Hant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
