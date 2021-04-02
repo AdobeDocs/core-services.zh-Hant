@@ -4,15 +4,15 @@ keywords: Experience Cloud 服務
 solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: 「客戶屬性，資產」
+feature: 客戶屬性
 topic: 管理
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
