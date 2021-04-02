@@ -4,14 +4,14 @@ keywords: 核心服務
 solution: Experience Cloud
 title: '歷來的發行說明 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"客戶屬性, 受眾程式庫, Admin Console"'
+feature: '"客戶屬性"'
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '3973'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '3969'
 ht-degree: 100%
 
 ---
@@ -546,7 +546,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日{#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
