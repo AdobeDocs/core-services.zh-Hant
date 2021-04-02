@@ -1,4 +1,6 @@
 ---
+title: Experience CloudUI元件與服務
+description: 瞭解UI元件、Adobe Admin Console的使用者和產品管理、對象庫、客戶屬性、Experience Cloud資產等。
 cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
@@ -11,11 +13,11 @@ getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/g
 tutorials-title: 教學課程
 tutorials-url: https://docs.adobe.com/content/help/zh-Hant/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.zh-Hant
-translation-type: ht
-source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
