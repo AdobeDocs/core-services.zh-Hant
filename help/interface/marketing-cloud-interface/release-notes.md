@@ -9,9 +9,9 @@ topic: 管理
 role: 管理員
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '3966'
 ht-degree: 100%
 
 ---
@@ -507,7 +507,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">說明</span> &gt; <span class="uicontrol">Exchange」</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。 </p> <p>應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、第三方應用程式、報表，以及 <span class="keyword">Experience Cloud</span> 資訊卡。 </p> <p>請參閱 <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">說明</span> &gt; <span class="uicontrol">Exchange」</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。 </p> <p>應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、第三方應用程式、報表，以及 <span class="keyword">Experience Cloud</span> 資訊卡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受眾 </p> </td> 
