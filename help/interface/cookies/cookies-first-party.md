@@ -9,11 +9,11 @@ feature: Cookie
 topic: 管理
 role: 管理員
 level: 經驗豐富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,9 @@ Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的
 * Experience Platform ID Service。ID Service 可使用 JavaScript 在第一方情境中設定 Cookie。
 * 貴公司 DNS 伺服器上的 DNS 項目，用於設定 Adobe 所託管網域的 CNAME 別名。請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。如果該客戶控制著多個網域，他們可能會使用單一 CNAME 端點來追蹤跨其網域的使用者，但這需要 CNAME 網域以外的所有網域使用第三方 Cookie，如此一來，當第三方 Cookie 遭到封鎖就會無法運作，因此不建議使用。Adobe CNAME 永遠不會用於追蹤跨不同客戶所擁有網域中的個人或裝置。
 
-即使將第一個選項與 Experience Cloud ID Service 搭配使用，Apple 的 ITP 也會讓第一方 Cookie 短暫有效，因此最好搭配第二個選項使用。
+>[!NOTE]
+>
+>對於這兩個選項，Apple的Intelligent Tracking Prevention(ITP)程式會讓第一方Cookie在ITP管轄的瀏覽器上短暫存留，這些瀏覽器包括MacOS上的Safari以及iOS和iPadOS上的所有瀏覽器。 自2020年11月起，這兩種Cookie都有7天的到期日。 此過期日期可能會變更。
 
 針對使用 CNAME 的第二個選項，如果您的網站具有使用 HTTPS 通訊協定的安全頁面，您可以與 Adobe 合作取得 SSL 憑證以實作第一方 Cookie。Adobe 強烈建議您只使用 HTTPS 來資料收集，因為我們將於 2020 年下半年停止支援以 HTTP 收集。
 
@@ -94,7 +96,7 @@ FPC 專員會提供您設定完成的主機名稱，以及主機名稱要指向�
 
 >[!NOTE]
 >
->Experience Cloud 訪客 ID 服務提供設定 CNAME 以啟用第一方 Cookie 的替代方式，但由於最近 Apple ITP 變更，因此即便有使用 Experience Cloud ID Service，仍建議您配置 CNAME。
+>Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方式。
 
 ## 驗證主機名稱轉送 {#validate}
 
