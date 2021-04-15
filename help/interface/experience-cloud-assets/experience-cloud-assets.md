@@ -5,18 +5,22 @@ title: Assets 概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: 管理
-role: 管理員
-level: 經驗豐富
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+translation-type: tm+mt
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
-
 # Experience Cloud Assets 概述
+
+>[!NOTE]
+>
+>資產是舊有的核心服務，現在正在維護中。
 
 Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
