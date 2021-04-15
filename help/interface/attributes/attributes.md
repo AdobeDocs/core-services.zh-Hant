@@ -3,19 +3,23 @@ title: 如何使用客戶屬性
 description: 了解 Adobe Experience Cloud 中的客戶屬性服務。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Experience Cloud
 feature: 客戶屬性
-role: 管理員
+role: Administrator
 topic: 管理
-level: 經驗豐富
+level: Experienced
+exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
 
-
 # 客戶屬性概述
+
+>[!NOTE]
+>
+>客戶屬性是舊有的核心服務，現在正在維護中。
 
 Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
