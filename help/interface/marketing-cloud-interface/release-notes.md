@@ -4,10 +4,10 @@ keywords: 核心服務
 solution: Experience Cloud
 title: '歷來的發行說明 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"客戶屬性"'
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt

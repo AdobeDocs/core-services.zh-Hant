@@ -7,9 +7,9 @@ solution: Experience Cloud Services
 title: Experience Cloud 的 Activation 服務
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: 管理
-role: 管理員
-level: 經驗豐富
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

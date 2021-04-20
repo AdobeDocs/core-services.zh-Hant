@@ -1,13 +1,13 @@
 ---
 solution: Experience Cloud
-type: 文件
+type: Documentation
 title: 'Adobe Experience Cloud 受眾 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: 了解如何在 Experience Cloud 受眾服務中管理將訪客資料轉譯為受眾細分。
 feature: Audience Library
-topic: 管理
-role: 管理員
-level: 經驗豐富
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

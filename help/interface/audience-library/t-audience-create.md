@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: '建立受眾 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
-topic: 管理
-role: 管理員
-level: 經驗豐富
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -1,10 +1,10 @@
 ---
 title: '一般資料保護規範的客戶屬性支援 '
 description: 了解一般資料保護規範的客戶屬性支援
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

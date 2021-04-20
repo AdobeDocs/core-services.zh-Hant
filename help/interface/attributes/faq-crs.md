@@ -4,10 +4,10 @@ keywords: 客戶屬性
 solution: Experience Cloud
 title: '獲得有關客戶屬性的常見問題解答 '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

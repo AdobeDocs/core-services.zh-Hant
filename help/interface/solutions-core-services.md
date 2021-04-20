@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: '關於 Experience Cloud 中的雲端名稱 '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
-topic: 管理
-role: 管理員
-level: 經驗豐富
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

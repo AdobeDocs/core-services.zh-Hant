@@ -4,10 +4,10 @@ keywords: 客戶屬性;Experience Cloud 服務
 solution: Experience Cloud
 title: '如何驗證客戶屬性結構 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -4,10 +4,10 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '客戶屬性的隱私考量事項 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

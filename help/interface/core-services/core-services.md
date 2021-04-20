@@ -4,10 +4,10 @@ keywords: 核心服務;客戶屬性
 solution: Experience Cloud
 title: 讓您的解決方案提供跨解決方案服務
 index: true
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: ht

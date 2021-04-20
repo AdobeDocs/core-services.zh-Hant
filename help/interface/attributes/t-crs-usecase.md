@@ -4,10 +4,10 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '建立客戶屬性來源及上傳資料檔案 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 客戶屬性
-topic: 管理
-role: 管理員
-level: 經驗豐富
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
