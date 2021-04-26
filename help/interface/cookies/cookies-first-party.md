@@ -5,8 +5,8 @@ solution: Experience Cloud,Analytics
 title: '"第一方 Cookie "'
 index: y
 snippet: y
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
