@@ -4,8 +4,8 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Adobe Target Cookie '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
