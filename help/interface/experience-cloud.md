@@ -4,18 +4,18 @@ keywords: Adobe Experience Cloud 服務, 客戶屬性, 受眾, 使用者和產�
 solution: Experience Cloud
 title: 'Experience Cloud 服務與管理 '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
-topic: Administration
+feature: '"客戶屬性"'
+topic: 管理
 role: Administrator
 level: Experienced
+exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 98%
+source-wordcount: '441'
+ht-degree: 93%
 
 ---
-
 
 # Experience Cloud服務與管理指南
 
@@ -56,9 +56,9 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 
 運用 Experience League 中的自助教學課程和快速操作說明：
 
-* [Experience League 的所有教學課程](https://experienceleague.corp.adobe.com/?lang=zh-Hant#quick-how-tos)
-* [Experience Platform 教學課程](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hant)
-* [即時客戶資料平台](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hant)
+* [Experience League 的所有教學課程](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [即時客戶資料平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## 發行說明和相關 Experience Cloud 說明
 
