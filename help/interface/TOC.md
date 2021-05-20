@@ -5,11 +5,10 @@ breadcrumb-title: Experience Cloud 服務與管理
 user-guide-description: 了解如何在 Adobe Experience Cloud 中管理使用者和產品，以及如何使用客戶屬性和受眾程式庫服務。同時了解 Cookie 和 Experience Cloud Assets。
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +40,7 @@ ht-degree: 98%
    + [管理 Experience Cloud 使用者身分和產品 (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [檢視 Experience Cloud 使用者詳細資訊 (Admin Console)](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
-   + [登入及管理個人資料設定](admin-getting-started/getting-started-experience-cloud.md)
+   + [登入及管理設定檔設定](admin-getting-started/getting-started-experience-cloud.md)
    + [組織和帳戶連結](admin-getting-started/organizations.md)
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
@@ -56,15 +55,15 @@ ht-degree: 98%
    + [共用 Experience Cloud 資產資料夾](experience-cloud-assets/t-share-creative-cloud.md)
    + [從 Creative Cloud 瀏覽器上傳資產至共用資料夾](experience-cloud-assets/t-upload-asset-cc.md)
    + [從 Creative Cloud 桌面上傳資產至共用資料夾](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [針對共用的資料檔案需求](experience-cloud-assets/assets-file-reqs.md)
+   + [針對共用的資產檔案需求](experience-cloud-assets/assets-file-reqs.md)
    + [共用資料夾的行為](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud 受眾程式庫 {#audiences}
    + [Experience Cloud 受眾服務](audience-library/audience-library.md)
    + [建立受眾](audience-library/t-audience-create.md)
    + [發佈 Analytics 觀眾區隔](audience-library/t-publish-audience-segment.md)
 + Experience Cloud 客戶屬性{#customer-attributes}
-   + [客戶屬性概述](attributes/attributes.md)
-   + [客戶屬性的常見問題](attributes/faq-crs.md)
+   + [客戶屬性總覽](attributes/attributes.md)
+   + [關於客戶屬性的常見問答](attributes/faq-crs.md)
    + [關於客戶屬性的資料檔案和資料來源](attributes/crs-data-file.md)
    + [建立客戶屬性來源及上傳資料檔案](attributes/t-crs-usecase.md)
    + [選用 - 透過 FTP 上傳資料檔案](attributes/t-upload-attributes-ftp.md)
@@ -73,7 +72,7 @@ ht-degree: 98%
    + [更新結構](attributes/t-update-schema.md)
    + [支援一般資料保護規範](attributes/gdpr.md)
    + [支援加州消費者隱私法](attributes/ccpa.md)
-   + [客戶屬性的隱私考量事項](attributes/privacy-mac.md)
+   + [客戶屬性的隱私權考量事項](attributes/privacy-mac.md)
 + Experience Cloud 發行說明 {#release-notes}
    + [Experience Cloud 的新功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
    + [歷來的發行說明](marketing-cloud-interface/release-notes.md)
@@ -82,3 +81,4 @@ ht-degree: 98%
    + [術語](terms.md)
    + [搭配不同的解決方案和服務使用 DNS 預先擷取](dns-prefetch.md)
    + [文件更新](doc-updates.md)
+
