@@ -4,18 +4,17 @@ keywords: 核心服務
 solution: Experience Cloud
 title: '歷來的發行說明 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"客戶屬性"'
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
-source-wordcount: '3966'
-ht-degree: 100%
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
-
 
 # 歷來的發行說明
 
@@ -24,6 +23,16 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 如需文件更新的清單，請參閱 [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
+
+## 2021年5月
+
+| 功能 | Date | 說明 |
+| ------- | ------- | ------- |
+| Experience Cloud標題和導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包含標題的淺色主題變更，可輕鬆切換回深色主題和連結，從Experience Cloud標題中的使用者頭像控制其他偏好設定。 雖然並非所有Experience Cloud應用程式都支援主題，但此功能可解鎖未來的主題支援。 |
+| Experience Cloud全域搜尋 | 2021 年 5 月 20 日 | 透過此版本，Experience Cloud全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於Experience Platform使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何業務物件，例如區段、資料集、結構等。) |
+| Experience Cloud語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含以Experience Cloud[Preferences](https://experience.adobe.com/preferences)設定您偏好語言的功能。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2020 年 8 月
 
@@ -382,7 +391,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，會導致介面效能下滑。
-* 無法從「[!UICONTROL 組織及產品存取]」頁面使用 [!DNL Search&Promote] 連結。
+* 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 
 ## 發行版本 14.9.1 - 2014 年 9 月 18 日 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
@@ -546,7 +555,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * Internet Explorer 10 向某些使用者呈現的視覺版面比其他瀏覽器差。
 
-## 發行版本 14.4.1 - 2014 年 4 月 22 日  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## 發行版本 14.4.1 - 2014 年 4 月 22 日 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
