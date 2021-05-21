@@ -9,15 +9,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: tm+mt
 source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
-# Experience Cloud服務與管理指南
+# Experience Cloud 服務與管理指南
 
 Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列。此外也提供直覺式介面，讓您可快速存取雲端解決方案和核心服務。
 
@@ -62,9 +61,9 @@ Experience Cloud 為 Adobe 的整合式數位行銷解決方案和服務系列�
 
 ## 發行說明和相關 Experience Cloud 說明
 
-* [所有 Experience Cloud 解決方案的產品文件](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - 瀏覽 Experience Cloud 學習與支援以取得說明
+* [所有 Experience Cloud 解決方案的產品文件](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.html) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://docs.adobe.com/content/help/zh-Hant/core-services-learn/tutorials/overview.html) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://landing.adobe.com/experience-league/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用我們的產品
 * [客戶體驗部落格](https://theblog.adobe.com/customer-experience/) - 閱讀 Experience Cloud 部落格
