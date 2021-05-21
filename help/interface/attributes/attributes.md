@@ -2,12 +2,11 @@
 title: 如何使用客戶屬性
 description: 了解 Adobe Experience Cloud 中的客戶屬性服務。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Experience Cloud
-feature: Customer Attributes
+feature: 客戶屬性
 role: Administrator
-topic: Administration
+topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-translation-type: tm+mt
 source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
 workflow-type: tm+mt
 source-wordcount: '494'
@@ -15,15 +14,15 @@ ht-degree: 97%
 
 ---
 
-# 客戶屬性概述
+# 客戶屬性總覽
 
 >[!NOTE]
 >
->客戶屬性是舊有的核心服務，現在正在維護中。
+>客戶屬性是舊版核心服務，現在正在維護中。
 
 Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
-若要尋找此功能，請導覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
+若要尋找此功能，請瀏覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
 
 ![](assets/custom_reports.png)
 
@@ -33,7 +32,7 @@ Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (C
 
 * **群組成員資格：**&#x200B;若要上傳客戶屬性資料，使用者必須是[客戶屬性群組](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)成員。您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
 
-   若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。
+   若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。
 
    加入客戶屬性的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表項目。
 
@@ -41,7 +40,7 @@ Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (C
 
    請參閱[如何部署at.js](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.translate.html) 或 [Mbox.js 實作](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
 
-## 什麼是企業客戶資料？{#section_6F34C29F11414842AA57D2B1248FA3C6}
+## 什麼是企業客戶資料？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
 企業資料位於其他系統中。這些資料可能很複雜，而且對不同的人來說有不同的意義。此資料可包含成員資格、忠誠度、年齡、性別、擁有的產品、興趣和終身價值等資訊。
 
