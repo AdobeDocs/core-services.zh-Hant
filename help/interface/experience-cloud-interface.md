@@ -6,9 +6,9 @@ feature: '"中央介面元件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleagu
 * **[!UICONTROL 支援]:** 建立支援票證，或使用Twitter  聯絡支援。
 * **[!UICONTROL 意見]:** 使用意見聯絡Adobe，告知我們您的想法。
 * **[!UICONTROL 狀態]:** 導覽至並 `https://status.adobe.com/experience_cloud` 檢查產品運作狀態和 [!UICONTROL 管理訂閱]。
-* **[!UICONTROL Developer Connection]:** 導覽至 [AdobeI/](adobe.io) O，並尋找開發人員檔案。
+* **[!UICONTROL Developer Connection]:** 導覽至並 `adobe.io` 尋找開發人員檔案。
 
 ## ![](assets/preferences-icon.png) 帳戶偏好設定  {#account-menu}
 
