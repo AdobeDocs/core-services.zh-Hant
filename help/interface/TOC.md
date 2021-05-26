@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 服務與管理
 user-guide-description: 了解如何在 Adobe Experience Cloud 中管理使用者和產品，以及如何使用客戶屬性和受眾程式庫服務。同時了解 Cookie 和 Experience Cloud Assets。
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 98%
@@ -17,6 +17,7 @@ ht-degree: 98%
 
 + [Experience Cloud 服務與管理](experience-cloud.md)
 + [Experience Cloud中心介面元件](experience-cloud-interface.md)
+   + [登入及管理設定檔設定](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud 服務 {#about-core-services}
    + [Experience Cloud 服務概述](core-services-landing.md)
    + [促進跨解決方案服務實作](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 98%
    + [管理 Experience Cloud 使用者身分和產品 (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [檢視 Experience Cloud 使用者詳細資訊 (Admin Console)](admin-getting-started/admin-tool-experience-cloud.md)
    + [常見問題集](admin-getting-started/faq.md)
-   + [登入及管理設定檔設定](admin-getting-started/getting-started-experience-cloud.md)
+
    + [組織和帳戶連結](admin-getting-started/organizations.md)
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
