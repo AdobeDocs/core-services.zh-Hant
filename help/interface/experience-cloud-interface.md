@@ -6,14 +6,14 @@ feature: '"中央介面元件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-# Experience Cloud 介面
+# Experience Cloud 介面說明
 
 Experience Cloud的中央介面元件包括可讓您：
 
@@ -43,11 +43,7 @@ Experience Cloud的中央介面元件包括可讓您：
 
 ## 搜尋與支援Experience Cloud {#search}
 
-Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)上的說明（檔案、教學課程和課程）。 您也可以搜尋業務物件，例如區段、資料集、結構等。
-
->[!NOTE]
->
->業務對象搜索僅適用於Experience Platform用戶。
+Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)上的說明（檔案、教學課程和課程）。
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleagu
 
 ### 管理Experience Cloud[!UICONTROL 首選項] {#preferences}
 
-Experience Cloud偏好設定包括通知、訂閱和警報。 您可以設定
+Experience Cloud偏好設定包括通知、訂閱和警報。
 
 按一下帳戶菜單![](assets/preferences-icon-sm.png)中的&#x200B;**[!UICONTROL 首選項]**&#x200B;以管理首選項。
 
