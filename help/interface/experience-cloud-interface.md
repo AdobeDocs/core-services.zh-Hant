@@ -6,22 +6,34 @@ feature: '"中央介面元件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 6%
 
 ---
 
-# Experience Cloud中心介面元件
+# Experience Cloud 介面
 
-Experience Cloud中的中央介面元件包含可讓您：
+Experience Cloud的中央介面元件包括可讓您：
 
-* 訪問您的應用程式和服務
+* 登入及存取您的應用程式和服務
 * 使用全局搜索查找產品幫助和業務對象
 * 管理您的帳戶偏好設定（警報、通知和訂閱）
 
-## ![](assets/menu-icon.png) 訪問Experience Cloud應用程式 {#navigation}
+## 登入 Experience Cloud
+
+登入並確認您隸屬於正確的[組織](admin-getting-started/organizations.md)。
+
+1. 導覽至[Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)。
+1. 按一下「**[!UICONTROL 使用Adobe ID登入]**」。
+1. 在Adobe Experience Cloud上，按一下您的組織。
+
+   ![](assets/organizations-menu.png)
+
+   管理員可以幫助您驗證您是否位於[organization](admin-getting-started/organizations.md)右側。
+
+## 訪問Experience Cloud應用程式 {#navigation}
 
 登入Experience Cloud後，您可以從統一的標題快速存取所有應用程式、服務和組織。
 
@@ -29,7 +41,7 @@ Experience Cloud中的中央介面元件包含可讓您：
 
 ![](assets/platform-core-services.png)
 
-## ![](assets/help-icon.png) 搜尋與支援Experience Cloud {#search}
+## 搜尋與支援Experience Cloud {#search}
 
 Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)上的說明（檔案、教學課程和課程）。 您也可以搜尋業務物件，例如區段、資料集、結構等。
 
@@ -46,7 +58,7 @@ Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleagu
 * **[!UICONTROL 狀態]:** 導覽至並 `https://status.adobe.com/experience_cloud` 檢查產品運作狀態和 [!UICONTROL 管理訂閱]。
 * **[!UICONTROL Developer Connection]:** 導覽至並 `adobe.io` 尋找開發人員檔案。
 
-## ![](assets/preferences-icon.png) 帳戶偏好設定  {#account-menu}
+## 帳戶首選項{#account-menu}
 
 在帳戶偏好設定功能表中，您可以：
 
@@ -73,6 +85,10 @@ Experience Cloud偏好設定包括通知、訂閱和警報。 您可以設定
 | [!UICONTROL 警報] | 選取您要在瀏覽器中查看警報的通知。 警報會在視窗的右上角出現幾秒鐘。 |
 | 電子郵件 | 指定您要接收通知電子郵件的頻率。 （不傳送、即時、每日或每週。） |
 
-## ![](assets/notifications.png) 通知與公告
+## 通知與公告
 
-**** 通知 **[!UICONTROL 和公告]:** 查看對您而言重要的通知以及來自Adobe的公告。您可以在[Experience Cloud偏好設定](#preferences)中配置通知。
+按一下&#x200B;**[!UICONTROL Notifications]**&#x200B;查看對您而言重要的通知以及來自Adobe的公告。
+
+![](assets/notifications-menu-small.png)
+
+您可以在[Experience Cloud偏好設定](#preferences)中配置通知。
