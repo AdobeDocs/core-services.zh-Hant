@@ -4,17 +4,16 @@ solution: Admin
 title: '使用者和產品管理 '
 index: true
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1424'
+exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '1415'
 ht-degree: 100%
 
 ---
-
 
 # 管理 Experience Cloud 使用者和產品 {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
@@ -58,9 +57,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 **相關說明**
 
-Creative Cloud 和 Document Cloud 的[管理使用手冊](https://helpx.adobe.com/tw/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理相關，例如[管理身分類型](https://helpx.adobe.com/tw/enterprise/help/identity.html)。
-
-[登入及管理個人資料設定](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0)。
+Creative Cloud 和 Document Cloud 的[管理使用手冊](https://helpx.adobe.com/tw/enterprise/using/users.html)。有些資訊與 Experience Cloud 使用者管理相關，例如[管理身分類型](https://helpx.adobe.com/enterprise/help/identity.html)。
 
 ## 產品設定檔和群組 {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -90,7 +87,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 [Analytics 使用者 ID 移轉](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Adobe Target - 產品設定檔與 Workspace{#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - 產品設定檔與 Workspace {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Adobe Target 中，Workspace 是產品設定檔，可讓組織將特定一組使用者指派至特定一組屬性。Workspace 有許多地方與 Adobe Analytics 報表套裝相似。
 
@@ -145,9 +142,9 @@ Adobe 企業客戶在 Adobe Admin Console 中會顯示為 IMS 組織。Adobe 客
 
 如需更多說明，請參閱：
 
-* [管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)
-* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/manage-users/enterprise/property-channel.html)會提供詳細資訊。
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [管理產品和設定檔](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* Adobe Target 說明中的[企業使用者權限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)會提供詳細資訊。
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 將 Analytics 存取權指派至產品設定檔 {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -198,6 +195,6 @@ Experience Cloud 中支援的瀏覽器
 
 ### 解決方案和產品要求
 
-* [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
