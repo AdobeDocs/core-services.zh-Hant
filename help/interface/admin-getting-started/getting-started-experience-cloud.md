@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '登入及管理 Experience Cloud 設定檔設定 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
-
 
 # 登入及管理 Experience Cloud 設定檔設定
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 非管理員使用者登入 Experience Cloud 的相關說明。
 
 
-1. 向管理員確認您的[組織](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF)已佈建在 Experience Cloud 中。
+1. 向管理員確認您的[組織](../admin-getting-started/organizations.md)已佈建在 Experience Cloud 中。
 
 
 1. 導覽至 [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com])。
@@ -115,9 +114,9 @@ ht-degree: 100%
 
 您可以編輯自己的 Experience Cloud 個人資料、指定預設的組織和登陸頁面等。
 
-1. [登入 Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985)。
+1. 登入 Experience Cloud.
 
-1. 在 Experience Cloud 功能表中，按一下您的個人資料圖片。
+1. 在Experience Cloud上，按一下您的個人資料圖片。
 
    ![](assets/edit-profile.png)
 1. 按一下&#x200B;**[!UICONTROL 編輯個人資料]**。
