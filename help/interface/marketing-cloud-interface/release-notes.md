@@ -2,21 +2,21 @@
 description: '"客戶屬性、受眾和使用者管理等 Experience Cloud 服務的最新功能、發行說明和已知問題。"'
 keywords: 核心服務
 solution: Experience Cloud
-title: '歷來的發行說明 '
+title: '累計發行說明 '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"客戶屬性"'
+feature: 「客戶屬性」
 topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 歷來的發行說明
+# 累計發行說明
 
 Experience Cloud 介面的功能、發行說明和已知問題。
 
@@ -24,13 +24,13 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
-## 2021年5月
+## 2021 年 5 月
 
 | 功能 | Date | 說明 |
 | ------- | ------- | ------- |
-| Experience Cloud標題和導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包含標題的淺色主題變更，可輕鬆切換回深色主題和連結，從Experience Cloud標題中的使用者頭像控制其他偏好設定。 雖然並非所有Experience Cloud應用程式都支援主題，但此功能可解鎖未來的主題支援。 |
-| Experience Cloud全域搜尋 | 2021 年 5 月 20 日 | 透過此版本，Experience Cloud全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於Experience Platform使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何業務物件，例如區段、資料集、結構等。) |
-| Experience Cloud語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含以Experience Cloud[Preferences](https://experience.adobe.com/preferences)設定您偏好語言的功能。 |
+| Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
+| Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hant#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
+| Experience Cloud 語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -95,7 +95,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Admin Console 中預先設定的產品設定 </p> </td> 
-   <td colname="col2"> <p>產品設定可預先建立並對應至 Analytics 和 Dynamic Tag Management 的預設權限群組，而 Experience Cloud 客戶管理員可運用這些產品設定。 </p> <p>此最佳化適用於新佈建的組織，且可縮短組織在 Admin Console 中管理使用者所需的時間。 </p> </td> 
+   <td colname="col2"> <p>產品設定可預先建立並對應至 Analytics 和動態標籤管理的預設權限群組，而 Experience Cloud 客戶管理員可運用這些產品設定。 </p> <p>此最佳化適用於新佈建的組織，且可縮短組織在 Admin Console 中管理使用者所需的時間。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>摘要改善 </p> </td> 
@@ -120,8 +120,8 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Assets 改善 </p> </td> 
-   <td colname="col2"> <p>在 Experience Cloud Assets 中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud Assets 運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>Experience Cloud 資產改良 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 資產中，您可以從單一中央位置儲存、共用及同步數位資產。Experience Cloud 資產運用 <span class="keyword">Adobe Experience Manager</span> (AEM) 提供的部分功能。 </p> <p>請參閱 <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶連結改善 </p> </td> 
@@ -136,7 +136,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-如果您透過 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 介面存取 Dynamic Tag Management，但您的 Dynamic Tag Management 帳戶未連結至 Experience Cloud (Adobe ID)，便無法登入 Dynamic Tag Management。請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
+如果您透過「**[!UICONTROL Experience Cloud]** > **[!UICONTROL 啟用]**」介面存取動態標籤管理，但您的動態標籤管理帳戶未連結至 Experience Cloud (Adobe ID)，便無法登入動態標籤管理。 請在新的瀏覽器分頁中直接導覽至 [!DNL dtm.adobe.com]，即可避免此問題。
 
 ## 發行版本 16.1 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -149,15 +149,15 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 受眾程式庫訊息 </td> 
-   <td colname="col2"> <p> 我們改善了「受眾程式庫」，在建立受眾和發生逾時問題時提供實用資訊。 </p> <p>例如，新增超過 5 個規則時，系統會顯示訊息，指出您已超出允許的規則數上限。(MAC-27376、MAC-27375) </p> </td> 
+   <td colname="col1"> 對象庫訊息 </td> 
+   <td colname="col2"> <p> 我們改善了對象庫，在建立受眾和發生逾時問題時提供實用資訊。 </p> <p>例如，新增超過 5 個規則時，系統會顯示訊息，指出您已超出允許的規則數上限。(MAC-27376、MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Microsoft 即將[停止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
 ## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -170,7 +170,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 * 修正 Audience Manager API 效能問題，此問題造成上傳客戶屬性資料時發生間歇性逾時。(MAC-26305)
 * 修正使用者無法將最多 200 個客戶屬性新增至訂閱的問題。(MAC-26188)
-* 修正無法從 Analytics 細分共用受眾程式庫的問題。此問題會導致顯示「正在收集資料」(0 個受眾)。為避免此問題，Adobe 建議將區段大小維持在每個區段少於 50,000 名受眾成員。(MAC-25788)
+* 修正無法從 Analytics 區隔共用對象庫的問題。此問題會導致顯示「正在收集資料」(0 個受眾)。為避免此問題，Adobe 建議將區段大小維持在每個區段少於 50,000 名受眾成員。(MAC-25788)
 * 修正在「客戶屬性 - 編輯結構」頁面上變更顯示名稱時，造成內容感知錯誤的先前已知問題。(MAC-25589、AN-103834)
 
 ## 發行版本 15.7 - 2015 年 7 月 22 日 {#section_2683A152176944E48EF6C943892975B7}
@@ -186,7 +186,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 一個已知問題導致在 Audience Manager 中建立重複的自動產生帳戶，並自動將其連結至使用者的 Experience Cloud 身分識別。如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議先將 Audience Manager 帳戶連結至 Experience Cloud，再導覽至 Audience Manager。(MAC-25640)
 
 
-## 發行版本 15.6.1 - 2015年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## 發行版本 15.6.1 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 無可用的資訊
 
@@ -204,7 +204,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側導覽功能表已更新和妥善排列，可由此存取所有核心服務和解決方案。顯著變更包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">受眾程式庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">受眾</span>底下。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">對象庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">受眾</span>底下。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">此 <span class="term">Exchange</span> 功能表選取項目從「說明」下拉式功能表移動至左側導覽邊欄。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解決方案</span>已移除。您可以從導覽邊欄的下半部啟動所有解決方案。 </li> 
     </ul> </td> 
@@ -243,7 +243,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-* 將 Dynamic Tag Management 組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入 Dynamic Tag Management 時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
+* 將動態標籤管理組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入動態標籤管理時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
 * 一個已知問題是受眾無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
 
 ## 發行版本 15.3.2 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -282,8 +282,8 @@ Experience Cloud 介面的功能、發行說明和已知問題。
    <td colname="col2"> <p>在 Experience Cloud 中連結解決方案帳戶時，如果您有多個解決方案和組織，現在可以將多個產品和服務對應至單一組織。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> 現在顯示在 <span class="keyword">Experience Cloud</span> 的左側導覽器中。<span class="wintitle">Activation</span> 是一項 <span class="keyword">Experience Cloud</span> 服務，目前包含 Dynamic Tag Management 技術，只要按一下，系統就會將您導向過去。 </p> </td> 
+   <td colname="col1"> <p>啟用 </p> </td> 
+   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">啟用</a>現在顯示在 <span class="keyword">Experience Cloud</span> 的左側導覽器中。<span class="wintitle">啟用</span>是一項 <span class="keyword">Experience Cloud</span> 服務，目前包含動態標籤管理技術，只要按一下，系統就會將您導向過去。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文件更新 - 核心服務 </p> </td> 
@@ -324,13 +324,13 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 **修正**
 
 * 修正無法在資訊卡上呈現 PNG 檔案的問題。
-* 修正透過拖放將檔案上傳至 Experience Cloud Assets 時的問題。
+* 修正透過拖放將檔案上傳至 Experience Cloud 資產時的問題。
 
 **已知問題**
 
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 在 User Management 中所做的群組和權限變更，只有在重新登入後才會生效。
-* 有些使用者無法上傳大型檔案類型至 Experience Cloud Assets。
+* 有些使用者無法上傳大型檔案類型至 Experience Cloud 資產。
 * 使用者的 Experience Cloud 卡片上未顯示來自 Media Optimizer 的連結。
 * 有些管理員使用者在接受加入 Experience Cloud 的邀請後，無法順利連結帳戶。
 * 多名使用者同時使用 Experience Cloud 介面時，會導致介面效能下滑。
@@ -397,7 +397,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **修正和改良**
 
-* 現在，當您導覽至 [!DNL experiencecloud.adobe.com] 時，您感受到的登入體驗將會與 Adobe Creative Cloud 的登入一致。
+* 現在，當您導覽至 [!DNL experience.adobe.com] 時，您感受到的登入體驗將會與 Adobe Creative Cloud 的登入一致。
 * 現在，在「管理組織」頁面上，每個解決方案的連結體驗 (收到邀請後) 都是一致的。
 
 **已知問題**
@@ -468,7 +468,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 無內容需報告。
 
-## 發行版本 14.6.1 - 2014年 6 月 19 日 {#marketing_cloud_interface}
+## 發行版本 14.6.1 - 2014 年 6 月 19 日 {#marketing_cloud_interface}
 
 [!DNL Adobe Experience Cloud] 共同作業和共用介面中的新功能和修正。
 
@@ -520,7 +520,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 受眾 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">受眾」</span></p> <p> 您可以使用類似於處理區隔的方式，在<span class="wintitle">「受眾」</span>建立、編輯及管理受眾。例如，您可以在 Reports &amp; Analytics 中建立區隔，然後共用至 <span class="wintitle">「Experience Cloud </span><span class="wintitle">受眾」</span>。共用後，您便可將受眾用於 <span class="keyword">Adobe Target</span> 中的行銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>附註：若要提出 Target 啟用請求，請造訪 <a href="https://www.adobe.com/go/audiences" format="http" scope="external"> https://www.adobe.com/go/audiences</a>。 </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">受眾」</span></p> <p> 您可以使用類似於處理區隔的方式，在<span class="wintitle">「受眾」</span>建立、編輯及管理受眾。例如，您可以在 Reports &amp; Analytics 中建立區隔，然後共用至 <span class="wintitle">「Experience Cloud </span><span class="wintitle">受眾」</span>。共用後，您便可將受眾用於 <span class="keyword">Adobe Target</span> 中的行銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>附註：若要提出 Target 啟用請求，請造訪 <a href="https://www.adobe.com/go/audiences_tw" format="http" scope="external"> https://www.adobe.com/go/audiences_tw</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -546,7 +546,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 * 將自訂標籤新增至資產後，其他中繼資料變更不會持續存在。
 * 刪除影像時，如果該影像用於 Adobe Target Essentials，則資產不會發出警告。
 * 多名使用者同時使用 [!UICONTROL Experience Cloud] 介面時，會導致介面效能下降。
-* 刪除 [!UICONTROL Experience Cloud Assets] 中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
+* 刪除 [!UICONTROL Experience Cloud 資產]中的影像時，如果該影像用於 [!DNL Adobe Target Essentials]，則系統不會發出警告。
 * 登入期間未選取&#x200B;**[!UICONTROL 記住我]**&#x200B;時，使用者將在 15 分鐘後登出。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 登入 [!DNL Experience Cloud] 的時間超過一秒鐘。
@@ -613,7 +613,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 **已知問題**
 
-* 刪除影像時，如果該影像用於 Adobe Target Essentials，Experience Cloud Assets 就不會發出警告。
+* 刪除影像時，如果該影像用於 Adobe Target Essentials，Experience Cloud 資產就不會發出警告。
 * 從 [!DNL Analytics] 重新整理卡片有時會導致擴充卡片出現空白圖表。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 若未於登入期間選取 *`Remember me`*，系統會在 15 分鐘後將使用者登出。
