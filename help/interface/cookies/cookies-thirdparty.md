@@ -4,18 +4,17 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: '第三方 Cookie 支援的變更會如何影響客戶 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
-
 
 # 第三方 Cookie 支援的變更會如何影響客戶{#how-changes-to-third-party-cookie-support-impacts-customers}
 
@@ -25,8 +24,7 @@ ht-degree: 100%
 
 ## Adobe Analytics 和 Adobe Target
 
-* 使用[第一方實作](/help/interface/cookies/cookies-first-party.md)的客戶大致上不受影響。
-* 若客戶未使用第一方實作，可實作 [Experience Platform ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/implementation-guides.html)，將 ID Cookie 儲存為第一方 Cookie，如此便不需使用第一方實作。
+* Analytics和Target基本上不會受影響，因為相同的網站活動僅依賴第一方Cookie。 需要第三方Cookie才能了解跨網域的使用者活動。 若為已封鎖第三方Cookie的瀏覽器，則無法使用Cookie進行跨網域追蹤。
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ ht-degree: 100%
    * 顯示情形也高度取決於同步功能各種廣告網路 Cookie 的可用性。
    * 整體影響未知。但是，根據第一點，顯示受到的影響會比其他服務大。
    * 我們正與廣告合作夥伴進行內部合作，評估對廣告投放造成的整體影響。
-
-* 社交：
-
-   * 對 Facebook 市集廣告沒有影響。
-   * Facebook Exchange (FBX) 受到的影響將與顯示廣告投放相同。
