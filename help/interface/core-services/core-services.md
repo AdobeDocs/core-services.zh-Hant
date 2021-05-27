@@ -4,18 +4,17 @@ keywords: 核心服務;客戶屬性
 solution: Experience Cloud
 title: 讓您的解決方案提供跨解決方案服務
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: 客戶屬性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
-workflow-type: ht
-source-wordcount: '2369'
-ht-degree: 100%
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
+source-wordcount: '2368'
+ht-degree: 98%
 
 ---
-
 
 # 啟用 Experience Cloud 服務實作
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 1. [將報表套裝對應至 Experience Cloud 組織](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 程式碼](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [更新 Adobe Target 實作](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [驗證實作](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [驗證實施](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [管理使用者和產品](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [開始共用屬性和受眾資料](#section_960C06093623462E8EA247B3E97274A1)
 
@@ -54,9 +53,9 @@ ht-degree: 100%
 
 ### 管理員登入
 
-成為管理員後，即可登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+成為管理員後，即可登入[experience.adobe.com](https://experience.adobe.com)。
 
-您會在 Experience Cloud 功能表導覽中看到&#x200B;**[!UICONTROL 管理]**&#x200B;連結。
+您會在「Admin Console」功能表導覽中看到&#x200B;**[!UICONTROL Experience Cloud]**&#x200B;連結。
 
 如需詳細資訊，請參閱 [Experience Cloud 的使用者和產品管理](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)。
 
@@ -65,7 +64,7 @@ ht-degree: 100%
 若要登入 Experience Cloud，您的使用者必須：
 
 * 擁有貴公司的 Adobe ID (或 Enterprise ID)。
-* 於 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 登入。
+* 在[experience.adobe.com](https://experience.adobe.com)登入。
 * 屬於對應至企業群組的解決方案群組。
 * 視需要將其解決方案帳戶連結至其 Adobe ID (如下所述)。
 
@@ -103,7 +102,7 @@ ht-degree: 100%
 
 ### Analytics 與 Adobe Target - 同步客戶 ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
+Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
 
 在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://docs.adobe.com/content/help/zh-Hant/target/using/audiences/visitor-profiles/working-with-customer-attributes.html)。)
 
@@ -154,7 +153,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
    >
    >所有 Analytics 客戶皆已佈建完成，可使用客戶屬性等核心服務。如果您還不是 Analytics 客戶，請連絡客戶服務，請他們幫您進行佈建。
 
-## 驗證實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## 驗證實施 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 請依照下列程序操作，確保 Experience Cloud ID Service 在您的網站上正確實作。
 
@@ -195,7 +194,7 @@ mbox 請求中的 Experience Cloud ID：
 
 已新增至[!UICONTROL 客戶屬性]群組中的使用者可在 Experience Cloud 介面的左邊看到[!UICONTROL 客戶屬性]功能表項目。
 
-## 開始共用屬性和受眾資料{#section_960C06093623462E8EA247B3E97274A1}
+## 開始共用屬性和受眾資料 {#section_960C06093623462E8EA247B3E97274A1}
 
 善用以下核心服務功能。
 
@@ -233,4 +232,4 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立受眾、組合現�
 
 請參閱 [Adobe Experience Cloud - 實作 Adobe 選擇退出](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/opt-out.translate.html)以取得指示。
 
-請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
+請參閱[資料收集 CNAME 和跨網域追蹤](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html)，以取得啟用跨網域追蹤的相關資訊。
