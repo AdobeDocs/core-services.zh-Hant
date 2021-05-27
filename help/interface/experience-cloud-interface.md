@@ -6,10 +6,10 @@ feature: '"中央介面元件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 6%
+source-wordcount: '434'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud的中央介面元件包括可讓您：
 
 登入並確認您隸屬於正確的[組織](admin-getting-started/organizations.md)。
 
-1. 導覽至[Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html)。
+1. 導覽至[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 按一下「**[!UICONTROL 使用Adobe ID登入]**」。
 1. 在Adobe Experience Cloud上，按一下您的組織。
 
@@ -43,7 +43,7 @@ Experience Cloud的中央介面元件包括可讓您：
 
 ## 搜尋與支援Experience Cloud {#search}
 
-Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)上的說明（檔案、教學課程和課程）。
+Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/?lang=zh-Hant#home)上的說明（檔案、教學課程和課程）。
 
 ![](assets/search-menu.png)
 
