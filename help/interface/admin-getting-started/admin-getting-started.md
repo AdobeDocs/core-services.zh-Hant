@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
 
-移轉後，使用者可以在 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 使用他們的 Adobe ID (或 Enterprise ID) 登入，並針對其 Experience Cloud 解決方案和服務進行驗證。如果使用者嘗試透過舊版登入頁面 ([!DNL my.omniture.com] 和 [!DNL sc.omniture.com]) 登入，則會被重新導向至 [!DNL experiencecloud.adobe.com]。
+移轉後，使用者可在[experience.adobe.com](https://experience.adobe.com)使用其Adobe ID(或Enterprise ID)登入，並針對其Experience Cloud解決方案和服務進行驗證。 如果使用者嘗試透過舊版登入（[!DNL my.omniture.com]、[!DNL sc.omniture.com]和[!DNL experiencecloud.adobe.com]）登入，則會重新導向至[!DNL experience.adobe.com]。
 
 **相關說明**
 
