@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 46%
+source-wordcount: '1276'
+ht-degree: 47%
 
 ---
 
@@ -111,15 +111,15 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 | 報表套裝工具 | 為網站服務、報表套裝管理、工具和報表與儀表板項目啟用使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目（帳單、日誌等）、公司管理、工具、網站服務存取、Report Builder和Data Connectors整合的使用者權限。 來自自訂管理控制台類別的公司設定已移至分析工具。 |
 
-<!-- **User Account Migration**
+**使用者帳戶移轉**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳戶從 Analytics 使用者管理移轉到 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/)。
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+移轉後，使用者可在[experience.adobe.com](https://experience.adobe.com)使用其Adobe ID(或Enterprise ID)登入，並針對其Experience Cloud解決方案和服務進行驗證。 如果使用者嘗試透過舊版登入（[!DNL my.omniture.com]、[!DNL sc.omniture.com]和[!DNL experiencecloud.adobe.com]）登入，則會重新導向至[!DNL experience.adobe.com]。
 
-**Related help**  -->
+**相關說明**
 
 如需詳細資訊，請參閱[Analytics使用者ID移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
 
@@ -151,9 +151,9 @@ Experience Platform[!UICONTROL 資料收集]([!UICONTROL Launch])顯示在[!UICO
 
 ## Experience Manager as a Cloud Service
 
-Adobe企業客戶在Adobe[!UICONTROL Admin Console]中表示為組織。 Experience Manager(AEM)客戶可以使用Adobe[!UICONTROL Admin Console]來管理產品權益和IMS驗證，以Experience Manager為[!UICONTROL Cloud Service]。
+Adobe企業客戶在Adobe[!UICONTROL Admin Console]中表示為組織。 Experience Manager客戶可以使用Adobe[!UICONTROL Admin Console]來管理產品權益，以及以[!UICONTROL Cloud Service]的形式Experience Manager的IMS驗證。
 
-請參閱 [AEM as a Cloud Service 的 IMS 支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)。
+請參閱[以Experience Manager形式使用的IMS支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
