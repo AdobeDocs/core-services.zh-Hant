@@ -11,28 +11,28 @@ role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # 關於第一方 Cookie
 
-Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。如果可能，Adobe會使用第一方Cookie來記錄您網站上的活動。 若要記錄不同網站上的活動，例如您可能擁有的其他網域，則需要第三方Cookie。
+Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。Adobe 會在可能的情況下使用第一方 Cookie 來記錄您網站上的活動。 若要記錄不同網站 (例如您可能擁有的其他網域) 上的活動，則需要第三方 Cookie。
 
-許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。若要支援您追蹤訪客與網站互動的方式，您應確定您已將資料收集設定為使用第一方Cookie:
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie，包括 Analytics 為收集資料所使用的 Cookie。 若要支援追蹤您的訪客與您網站互動的方式，您應該確保已設定您的資料收集使用第一方 Cookie：
 
-實作第一方 Cookie 有兩種選項：
+實作第一方 Cookie 有兩個選項：
 
-* 如果您使用Experience PlatformIdentity服務（亦稱為ECID服務），則會使用JavaScript在第一方內容中自動設定Cookie。
-* 如果您使用Analytics舊版識別碼（亦即「s_vi」Cookie），取決於您如何設定資料收集伺服器。 如果資料收集伺服器符合您網站的網域，則Cookie會設為第一方。 如果收集伺服器與您目前的網域不符，則Cookie會設為協力廠商。 在此情況下，如果第三方Cookie遭到封鎖，Analytics會設定第一方[備援ID(&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7)，而非標準的&quot;s_vi&quot; Cookie。
+* 如果您正在使用 Experience Platform Identity Service (亦即 ECID Service)，它將會使用 JavaScript 在第一方內容中自動設定 Cookie。
+* 如果您正在使用 Analytics 舊型識別碼 (亦即「s_vi」Cookie)，則它將取決於您已如何設定您的資料收集伺服器。 如果資料收集伺服器符合您網站的網域，則 Cookie 將會設定為第一方。 如果資料收集伺服器不符合您目前的網域，則 Cookie 將會設定為第三方。 在此情況下，如果第三方 Cookie 被封鎖，Analytics 將會設定第一方[備援 ID (「s_fid」)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant#section-65e33f9bfc264959ac1513e2f4b10ac7)，而不是標準「s_vi」Cookie。
 
-若要確保您的收集伺服器符合您網站的網域，您可以使用CNAME實作，允許在第一方內容中設定Cookie。 這包括變更您公司的DNS設定，以設定指向Adobe托管網域的CNAME別名。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。如果您控制多個網域，他們可能會使用單一CNAME端點來追蹤跨其網域的使用者，但若網站網域不符合CNAME網域Cookie的位置，則會設為第三方。
+為確保您的資料收集伺服器符合您網站的網域，您可以使用允許在第一方內容中設定 Cookie 的 CNAME 實作。 這涉及到貴公司的 DNS 設定變更，以便設定 CNAME 別名來指向 Adobe 代管網域。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。 如果您控制多個網域，這些網域可能會使用單一 CNAME 端點來追蹤其網域中的使用者，但只要網站網域不符合 CNAME 網域，Cookie 就會設定為第三方。 
 
 >[!NOTE]
 >
->針對這兩個選項，Apple的智慧型追蹤預防(ITP)程式會讓第一方Cookie在由ITP管理的瀏覽器上短暫存留，這些瀏覽器包括MacOS上的Safari，以及iOS和iPadOS上的所有瀏覽器。 自2020年11月起，這兩種Cookie的期限均為七天。 此到期日可能會有所變更。
+>針對這兩個選項，Apple 的智慧預防追蹤 (ITP) 計劃將會在受 ITP 控管的瀏覽器上讓第一方 Cookie 變成曇花一現，其中包括 MacOS 上的 Safari 及 iOS 和 iPadOS 上的所有瀏覽器。 截至 2020 年 11 月，這兩種 Cookie 都有七天的有效期。 此有效期可能會有變動。
 
 針對使用 CNAME 的第二個選項，如果您的網站具有使用 HTTPS 通訊協定的安全頁面，您可以與 Adobe 合作取得 SSL 憑證以實作第一方 Cookie。Adobe 強烈建議您只使用 HTTPS 來資料收集，因為我們將於 2020 年下半年停止支援以 HTTP 收集。
 
@@ -54,15 +54,15 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 2. 建立 CNAME 記錄 (請參閱下方說明)。
 
-   收到票證時，客戶服務代表應提供您CNAME記錄。 請在您公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。CNAME將類似下列：
+   客戶服務代表在收到支援服務單後，應該會提供您 CNAME 記錄。 您必須在貴公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。 CNAME 將類似於以下內容：
 
    **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> 過去，我們建議客戶設定兩個CNAME（一個用於HTTPS，一個用於HTTP）。 由於這是加密流量的最佳實務，且大部分的瀏覽器都強烈阻止HTTP，因此我們不建議再為HTTP設定CNAME。 如果您需要，看起來會像這樣：
->    **不安全** — 主機名`metrics.example.com`指向：`example.com.adobedc.net`。
+> 我們在過去建議客戶設定兩個 CNAME，一個用於 HTTPS，另一個用於 HTTP。 由於這是加密流量的最佳做法，且大多數瀏覽器都強烈勸阻使用 HTTP，所以我們不再建議為 HTTP 設定 CNAME。 如果您有需要，可以進行如下的設定：
+>    **不安全** -- 主機名稱 `metrics.example.com` 指向：`example.com.adobedc.net`。
 
-1. CNAME就緒後，Adobe會與DigiCert合作，購買憑證並安裝至Adobe的生產伺服器。
+1. 完成 CNAME 設定後，Adobe 將會與 DigiCert 合作來購買憑證，並安裝到 Adobe 的生產伺服器上。
 
    如果您已有實作，可考慮將訪客移轉以保留現有的訪客。在 Adobe 的生產環境中將憑證上線後，您就可以將追蹤伺服器變數更新為新主機名稱。換句話說，如果網站不安全 (HTTP)，請更新 `s.trackingServer`。如果網站安全 (HTTPS)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
 
@@ -74,7 +74,7 @@ Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新�
 
 SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。實作即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若希望 Adobe 續約您的主機名稱，需由一名支援的使用者代表回覆 Adobe 的電子郵件，並說明貴組織打算繼續使用該即將到期的主機名稱來收集資料。如此一來，Adobe 就會自動購買並安裝新憑證。
 
-### 常見問題
+### 常見問答
 
 | 問題 | 回答 |
 |---|---|
@@ -88,13 +88,13 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 
 您組織的網路營運團隊應建立新 CNAME 記錄，以設定 DNS 伺服器。每個主機名稱都會將資料轉寄給 Adobe 的資料收集伺服器。
 
-FPC專員會提供您已設定的主機名稱，以及要指向的CNAME。 例如：
+FPC 專員會提供您已設定的主機名稱，以及主機名稱要指向的 CNAME。 例如：
 
 * **SSL 主機名稱**：`smetrics.mysite.com`
 * **SSL CNAME**：`mysite.com.adobedc.net`
 
 >[!NOTE]
-> 如果您仍使用不安全，則會如下所示。
+> 如果您還是使用不安全的機制，可以進行如下的設定。
 > * **非 SSL 主機名稱**：`metrics.mysite.com`
 > * **非 SSL CNAME**：`mysite.com.adobedc.net`
 
@@ -103,7 +103,7 @@ FPC專員會提供您已設定的主機名稱，以及要指向的CNAME。 例�
 
 >[!NOTE]
 >
->Experience Cloud訪客ID服務提供設定CNAME以啟用第一方Cookie的替代方法。
+>Experience Cloud Visitor ID 服務有提供設定 CNAME 的其他方法，以協助啟用第一方 Cookie。
 
 ## 驗證主機名稱轉送 {#validate}
 
@@ -170,6 +170,6 @@ Address: 54.187.216.46
 
 1. 如果您要從長期實作改為第一方 Cookie，或變更成其他第一方收集主機名稱，建議您將訪客從舊有網域移轉到新網域。
 
-請參閱「Analytics 實作指南」中的[訪客移轉](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html)。
+請參閱「Analytics 實作指南」中的[訪客移轉](https://docs.adobe.com/help/zh-Hant/analytics/implementation/javascript-implementation/visitor-migration.html)。
 
 在您上傳 JavaScript 檔案後，系統就會執行第一方 Cookie 資料收集所需的所有設定。建議您在接下來幾小時監控 Analytics 報告，以確認系統能繼續正常收集資料。如果未正常運作，請確認前述所有步驟均已完成，並推派組織的任何一名支援使用者連絡客戶服務。
