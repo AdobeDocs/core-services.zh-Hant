@@ -8,9 +8,9 @@ topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->客戶屬性是舊版核心服務，現在正在維護中。
+>客戶屬性是舊有的核心服務，目前處於維護狀態。
 
 Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
@@ -38,7 +38,7 @@ Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (C
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-   請參閱[如何部署at.js](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.translate.html) 或 [Mbox.js 實作](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)。
+   請參閱「[如何部署 at.js](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html)」或「[Mbox.js 實作](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)」。
 
 ## 什麼是企業客戶資料？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
