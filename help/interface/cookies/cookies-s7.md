@@ -4,18 +4,17 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
-
 
 # Scene7 Cookie{#scene-cookies}
 
@@ -31,7 +30,7 @@ Scene7 會將資訊儲存在本機，以供某些舊版 AS2 Flash 檢視器使�
 針對 AS2 Flash eCatalog 檢視器，Cookie 會：
 
 * 儲存使用者產生的內容 (最明顯的是使用者在 eCatalog 檢視器的「註解」功能中輸入的內容)。當使用者繼續工作階段，此內容會還原。
-* 使用者起始電子郵件以與其他使用者共用 eCatalog 時，第二個 AS2 檢視器項目符號的註解內容會複製到我們的伺服器並以提供給收件者。收件者起始檢視器工作階段時，系統會從伺服器擷取註解內容並複製到 Cookie 中。此功能很少使用，因此不會過期，且不會移除過時內容。目前無限期地在伺服器上持續存在。
+* 使用者起始電子郵件以與其他使用者共用 eCatalog 時，第二個 AS2 檢視器項目符號的註解內容會複製到我們的伺服器並以提供給收件者。收件者起始檢視器工作階段時，系統會從伺服器擷取註解內容並複製到 Cookie 中。此功能很少使用，因此不會過期，且不會移除過時內容。目前，它會無限期地在伺服器上持續存在。
 
 較新的 AS3 檢視器不會實作工作階段持續性。
 
@@ -85,4 +84,3 @@ Scene7 會將資訊儲存在本機，以供某些舊版 AS2 Flash 檢視器使�
   </tr> 
  </tbody> 
 </table>
-
