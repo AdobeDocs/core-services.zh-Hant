@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '組織和帳戶連結 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '394'
+exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
-
 
 # 組織和帳戶連結
 
@@ -73,5 +72,5 @@ ht-degree: 100%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
+* [聯絡 Adobe 支援](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。
 * 在問題待解決之際，您仍可使用標準登入存取解決方案。
