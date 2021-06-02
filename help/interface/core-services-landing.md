@@ -1,7 +1,7 @@
 ---
 description: 了解 Adobe Experience Cloud 使用者和產品管理、People (受眾和客戶屬性)、Journey Orchestration、Offers、Places、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
-title: 'Experience Cloud 服務概述 '
+title: 'Experience Cloud 服務總覽 '
 feature: 客戶屬性
 topic: 管理
 role: Administrator
@@ -30,7 +30,7 @@ Adobe Experience Cloud 服務包括 [!UICONTROL People] (受眾和客戶屬性)�
 
 | 核心服務 | 說明 |
 |--- |--- |
-| [Activation](activation/activation.md) | 標籤管理系統 (Experience Platform Launch 和 Dynamic Tag Management)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
+| [啟用](activation/activation.md) | 標籤管理系統 (Experience Platform Launch 和動態標籤管理)。<br>觸發器讓您能夠根據 Adobe Analytics 分析在 Adobe Campaign 中採取即時動作。 |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | 輕鬆在集中位置儲存、同步和共用您所有的數位資產，以節省時間並提供更一致的客戶體驗。 |
 | [Experience Platform Launch/資料收集](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) | [!UICONTROL Experience Platform Launch] 是新一代網站和應用程式資料收集與技術實作。[!UICONTROL Experience Platform Launch] 可讓客戶透過簡單的方式部署及管理所有必要的分析、行銷及廣告整合功能，以便支援相關客戶體驗。 |
 | [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) | 使用儲存在事件或資料來源中的內容資料建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
