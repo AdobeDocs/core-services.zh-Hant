@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud中心介面元件 '
 breadcrumb-title: Experience Cloud中心介面元件
 user-guide-description: 了解Experience Cloud的介面、設定偏好設定、搜尋說明和業務物件。 取得使用者和產品管理、客戶屬性、對象庫、Cookie和Experience Cloud資產的相關說明。
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
    + [[!DNL Search and Promote] Cookie](cookies/cookies-snp.md)
    + [[!DNL Target] Cookie](cookies/cookies-target.md)
    + [啟用瀏覽器 Cookie 的隱私設定](cookies/browser-cookie-settings.md)
-   + [第三方 Cookie 支援的變更如何影響客戶](cookies/cookies-thirdparty.md)
+   + [第三方Cookie支援的變更會如何影響客戶](cookies/cookies-thirdparty.md)
 + 使用者和產品管理 {#manage-users-and-products}
    + [管理 Experience Cloud 使用者身分和產品 (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [檢視 Experience Cloud 使用者詳細資訊 (管理工具)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [升級至 Analytics Premium 和 Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud 啟用 {#activation}
    + [啟用總覽](activation/activation.md)
-   + [Experience Platform Launch 使用手冊](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)
-   + [動態標籤管理員使用手冊](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)
+   + [Experience Platform Launch 使用手冊](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hant)
+   + [動態標籤管理員使用手冊](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=zh-Hant)
    + [觸發程序](activation/triggers.md)
 + Experience Cloud 資產 {#assets}
    + [Experience Cloud 資產總覽](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [支援加州消費者隱私法](attributes/ccpa.md)
    + [客戶屬性的隱私權考量事項](attributes/privacy-mac.md)
 + Experience Cloud 發行說明 {#release-notes}
-   + [Experience Cloud 新增功能](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
+   + [Experience Cloud 新增功能](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [累計發行說明](marketing-cloud-interface/release-notes.md)
 + 更多資源 {#more-resources}
-   + [論壇](https://forums.adobe.com/community/experience-cloud)
+   + [論壇](https://experienceleaguecommunities.adobe.com/)
    + [術語](terms.md)
    + [搭配不同的解決方案和服務使用 DNS 預先擷取](dns-prefetch.md)
    + [文件更新](doc-updates.md)
