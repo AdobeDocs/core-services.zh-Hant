@@ -4,22 +4,21 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '如何設定訂閱 '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: Customer Attributes
-topic: Administration
+feature: 客戶屬性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
-
 # 如何在 Experience Cloud 中設定訂閱
 
-了解解決方案資料來源和設定訂閱。訂閱可讓客戶屬性資料在 Experience Cloud 和解決方案 (Analytics 和 [!DNL Target]) 之間流動。
+了解解決方案資料來源和設定訂閱。訂閱可讓Experience Cloud和解決方案（[!DNL Analytics]和[!DNL Target]）之間的客戶屬性資料流。
 
 例如，Adobe Analytics 訂閱可啟用報表中的屬性資料。若您使用 Adobe Target，則可上傳客戶屬性以便鎖定目標和細分。
 
