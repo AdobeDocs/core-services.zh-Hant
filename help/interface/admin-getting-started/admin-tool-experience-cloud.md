@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 feature: Admin Console
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1249'
-ht-degree: 100%
+exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 87%
 
 ---
-
 
 # 在管理工具中檢視 Experience Cloud 使用者和原則
 
@@ -47,15 +46,15 @@ ht-degree: 100%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 解決方案摘要。您可以套用篩選器，依特定解決方案存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 中的目前登入活動，而不是建議在 2020 年 1 月 13 日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。此資訊的用意是顯示Experience Cloud中的目前登入活動，而非建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
 您可以搜尋、排序或篩選欄以自訂使用者清單。
 
 * 依名稱或電子郵件搜尋使用者。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。這會套用至[!UICONTROL 名稱]、[!UICONTROL 電子郵件]和[!UICONTROL 上次登入]欄。
-* 按一下&#x200B;**[!UICONTROL 篩選條件]**&#x200B;圖示，套用多個篩選器以列出具有特定條件的使用者。套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
+* 依遞增或遞減值排序欄。此排序適用於[!UICONTROL Name、] [!UICONTROL Email、]和[!UICONTROL Last Login]列。
+* 若要套用多個篩選器以列出具有特定條件的使用者，請按一下「篩選依據&#x200B;]**」圖示。**[!UICONTROL &#x200B;套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
 
 | 元素 | 說明 |
 |---------|----------|
@@ -78,8 +77,8 @@ ht-degree: 100%
 * 使用者顯示圖片和系統管理員徽章 (如果適用)
 * 名稱
 * 電子郵件
-* 使用者名稱 (Federated ID 帳戶的使用者名稱可能與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
+* 使用者名稱(Federated ID帳戶的使用者名稱可能與電子郵件地址不同)
+* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
@@ -107,9 +106,9 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 |---|---|
-| [!UICONTROL 產品設定檔] | 產品設定檔的名稱。欄可以按 A->Z、Z->A 排序。按一下產品設定檔的名稱即可查看原則的詳細資訊。 |
+| [!UICONTROL 產品設定檔] | 產品設定檔的名稱。欄可以按A->Z、Z->A排序。若要查看有關策略的詳細資訊，請按一下產品配置檔案的名稱。 |
 | [!UICONTROL 產品] | 與產品設定檔相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL 例項] | 與產品設定檔相關聯的例項 (例如租用戶或登入公司)。如果是沒有不重複例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL 例項] | 與產品設定檔相關聯的例項（例如租用戶或登入公司）。 沒有唯一例項或租用戶的產品會針對值顯示「 — 」。 欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 使用者人數] | 與產品設定檔相關聯的不重複使用者人數，包括直接指派和群組指派。欄可以按最小值到最大值或最大值到最小值排序。 |
 | [!UICONTROL 開發人員人數] | 與產品設定檔相關聯的開發人員角色數。欄可以按最小值到最大值或最大值到最小值排序。 |
 
@@ -118,7 +117,7 @@ ht-degree: 100%
 您可以搜尋、排序或篩選欄以自訂原則清單。
 
 * 依名稱搜尋產品設定檔。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。這會套用至[!UICONTROL 「產品設定檔」]、[!UICONTROL 「產品」]、[!UICONTROL 「例項」]、[!UICONTROL 「使用者人數」]和[!UICONTROL 「開發人員人數」]欄。
+* 依遞增或遞減值排序欄。此排序適用於[!UICONTROL 產品設定檔，] [!UICONTROL 產品，] [!UICONTROL 實例，] [!UICONTROL 用戶數，]和[!UICONTROL 開發人員數，]列。
 * 按一下&#x200B;**[!UICONTROL 「篩選條件」]**&#x200B;圖示，套用多個篩選器以列出具有特定條件的產品設定檔。套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
@@ -156,7 +155,7 @@ ht-degree: 100%
 
 | 標籤 | 說明 |
 |---------|----------|
-| [!UICONTROL 使用者] | 產品設定檔中包含的使用者清單。使用者群組關聯會顯示在[!UICONTROL 「依群組指派」]欄中。 |
+| [!UICONTROL 使用者] | 產品設定檔中包含的使用者清單。用戶組關聯顯示在[!UICONTROL Assigned by group]列中。 |
 | [!UICONTROL 使用者群組] | 與產品設定檔相關聯的使用者群組清單。 |
 | [!UICONTROL 開發人員] | 與產品設定檔相關聯的開發人員清單。 |
 | [!UICONTROL 整合] | 與產品設定檔相關聯的整合清單。 |
