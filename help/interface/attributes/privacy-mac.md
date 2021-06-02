@@ -6,16 +6,15 @@ title: '客戶屬性的隱私權考量事項 '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: 客戶屬性
 topic: 管理
-role: 管理員
-level: 經驗豐富
-translation-type: ht
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 89%
 
 ---
-
 
 # 客戶屬性的隱私權考量事項
 
@@ -38,7 +37,7 @@ Adobe 了解這些類型的行銷和廣告決策可能隱含消費者隱私疑�
 
 將 PII 上傳至 Adobe Analytics 或 Adobe Target 時，Adobe 建議客戶在將 PII 上傳至 Adobe 之前先對其進行雜湊處理。雜湊資訊仍可用於分析和行銷用途。提醒您，Adobe 禁止廣告商將敏感的個人資訊傳送至 Adobe Analytics 和 Adobe Target，例如醫療記錄、財務帳戶資訊和未成年人相關資訊。
 
-Adobe 建議廣告商仔細考慮哪些資訊適合用於行銷目的，以及廣告商在哪些情況下有權使用這類資訊。
+Adobe建議廣告商仔細考慮哪些資訊適合用於行銷目的，以及廣告商在哪些情況下有權使用這些資訊。
 
 由於消費者隱私權法不斷變動，Adobe 建議廣告商遵守三個通用原則：
 
@@ -46,4 +45,4 @@ Adobe 建議廣告商仔細考慮哪些資訊適合用於行銷目的，以及�
 1. 據實以告 (在您的隱私權政策中)。
 1. 不要讓消費者感到驚訝。
 
-考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化內容，指出消費者已通過驗證。此情況的範例是在網站標題中包含問候語。Adobe 也建議廣告商在其隱私權政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。最後，Adobe 強烈建議廣告商檢閱自己提供給消費者的選擇退出選項，了解是否能以及如何在選擇退出後使用未經驗證的設定檔資訊。
+考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化內容，指出消費者已通過驗證。此情況的範例是在網站標題中包含問候語。Adobe 也建議廣告商在其隱私權政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。最後，Adobe強烈建議廣告商檢閱其提供給消費者的選擇退出選項，以了解他們是否能以及如何在選擇退出後使用未驗證的設定檔資訊。
