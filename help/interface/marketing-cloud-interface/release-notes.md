@@ -157,7 +157,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
 
 >[!NOTE]
 >
->Microsoft 即將[停止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft 即將[停止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
 ## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
