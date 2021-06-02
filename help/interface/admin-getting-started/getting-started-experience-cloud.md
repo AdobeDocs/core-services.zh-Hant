@@ -9,16 +9,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 99%
+source-wordcount: '952'
+ht-degree: 89%
 
 ---
 
 # 登入及管理 Experience Cloud 設定檔設定
 
-只要登入 Experience Cloud (而非登入單一解決方案)，就會針對您擁有的所有解決方案和服務啟用單一登入。本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
+登入Experience Cloud（而非登入單一解決方案）會針對您擁有的所有解決方案和服務啟用單一登入。 本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ ht-degree: 99%
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console 基本需知](https://helpx.adobe.com/tw/marketing-cloud/how-to/first-time-setup.html) | 了解開始使用 Experience Cloud 解決方案所需的初始步驟。 |
+| [Admin Console 基本需知](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) | 了解開始使用Experience Cloud解決方案所必須採取的初始步驟。 |
 | [設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | 定義並設定身分系統，用於驗證您的使用者。 |
 | [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 了解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品設定檔。 |
 | 按一下[啟動 Admin Console](../admin-getting-started/admin-getting-started.md)。 | Admin Console 是管理整個組織中 Adobe 使用者和產品權限的集中位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
-| [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets 可讓行銷人員使用 Creative Cloud 來與設計人員和其他創意資產共用、同步資料夾及進行共同作業。您可以在這裡管理獲核准與貴組織共同作業的 Creative Cloud 使用者。 |
+| [管理 Creative Cloud 使用者](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud資產可讓行銷人員透過Creative Cloud，與設計人員和其他創意資產共用、同步資料夾及進行共同作業。 您可以在這裡管理獲核准與貴組織共同作業的 Creative Cloud 使用者。 |
 | [對應您的報表套裝](../core-services/core-services.md) | (僅限 Analytics) Experience Cloud 核心服務會與一個組織建立關聯，而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。(此工作是[讓 Analytics 可使用核心服務](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)的更廣泛工作流程的一部分)。 |
 | [組織 ID](../admin-getting-started/organizations.md) | *組織 ID* 顯示在「管理」頁面底部。此 ID 是與您所佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |
 
@@ -151,5 +151,5 @@ ht-degree: 99%
 | 參數 | 說明 | 範例 | 必填/選填 |
 |--- |--- |--- |--- |
 | tenantId | 使用者應登入的租用戶名稱。 | aem62tenant | 選填 |
-| destURL | 使用者應前往的目的地完整 URL。 | https://sc.omniture.com/x/1_7xxzf | 選填 |
-| solutionname | destURL 參數擁有者的 MAC 解決方案名稱。用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如：如果 URL 中包含的 solutionname 是 social，而提供的 destURL 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。MAC 不會驗證 destURL 的擁有者是否與解決方案名稱同步。 | analytics | 若使用 destURL 參數，則此項必填。 |
+| destURL | 使用者應前往的目的地完整 URL。 | https://sc.omniture.com/login?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 選填 |
+| solutionname | destURL 參數擁有者的 MAC 解決方案名稱。用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 solutionname 與 destURL 參數同步。例如：如果 URL 中包含的 solutionname 是 social，而提供的 destURL 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。MAC不會驗證destURL的擁有者是否與解決方案名稱同步。 | analytics | 若使用 destURL 參數，則此項必填。 |
