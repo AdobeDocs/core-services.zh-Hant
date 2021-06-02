@@ -85,7 +85,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2016 年 2 月 11 日**
 
-新增 [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
+已新增 [Experience Cloud 資產](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
 
 **更新日期：2015 年 3 月 2 日**
 
@@ -97,7 +97,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2014 年 7 月 17 日**
 
-新增適用於管理員的 [Experience Cloud 常見問題集](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91)。
+新增適用於管理員的 [Experience Cloud 常見問答](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91)。
 
 **更新日期：2014 年 5 月 22 日**
 
