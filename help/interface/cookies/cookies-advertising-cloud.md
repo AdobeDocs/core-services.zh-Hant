@@ -2,18 +2,17 @@
 description: 了解 Adobe Ad Cloud Cookie，將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 title: 'Advertising Cloud Cookie '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
-workflow-type: ht
-source-wordcount: '542'
-ht-degree: 100%
+exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
-
 
 # Advertising Cloud Cookie{#advertising-cloud-cookies}
 
@@ -132,11 +131,11 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
+   <td colname="col2"> <p>執行同步的日期，格式為yyyymmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
-   <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
+   <td colname="col2"> <p>執行同步的日期，格式為yyyymmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用狀況 </p> </td> 
