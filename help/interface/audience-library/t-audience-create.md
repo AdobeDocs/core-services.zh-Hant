@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: '建立受眾 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
-topic: Administration
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
-
 
 # 建立受眾
 
@@ -52,7 +51,7 @@ ht-degree: 100%
 1. 在[!UICONTROL 建立新受眾]頁面上，指定標題和說明。
 1. 在[!UICONTROL 規則]下，選擇屬性來源：
 
-   * **[!UICONTROL 即時分析資料：]**(或原始資料) 這是從即時 Analytics 影像請求衍生的屬性資料，並包含 eVars 和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是從Real-Time Analytics影像要求衍生的屬性資料，並包含eVar和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
    >[!NOTE]
    >
    >由於快取關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。
