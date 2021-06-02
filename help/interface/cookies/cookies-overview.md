@@ -2,11 +2,10 @@
 description: 了解 Adobe Experience Cloud 中的解決方案和服務如何使用 Cookie。
 title: 'Experience Cloud 中 Cookie 的使用方式 '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,6 @@ Cookie 可用來在使用者造訪網站期間或多次造訪網站之間保留�
 
 >[!NOTE]
 >
->法律、法規及自我規範原則可能會要求您先徵詢訪客同意，才能儲存或擷取電腦或其他與 Web 連線之裝置的資訊。建議您與法律顧問一起檢閱哪些法律、法規和原則可控制您使用 Cookie 的方式。
+>法律、法規及自我規範原則可能會要求您先徵詢訪客同意，才能儲存或擷取電腦或其他與 Web 連線之裝置的資訊。Adobe建議您與法律顧問一起檢閱哪些法律、法規和原則可控制您使用Cookie。
 
 本文件說明 Suite 使用的 Cookie，旨在協助您瞭解徵詢訪客同意之義務。
