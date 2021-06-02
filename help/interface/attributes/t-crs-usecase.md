@@ -4,18 +4,17 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '建立客戶屬性來源及上傳資料檔案 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Customer Attributes
-topic: Administration
+feature: 客戶屬性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1174'
-ht-degree: 100%
+exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 91%
 
 ---
-
 
 # 建立客戶屬性來源及上傳資料檔案
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 1. [建立資料檔案](../attributes/t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [建立屬性來源及上傳資料檔案](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [驗證結構](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [設定訂閱及啟動屬性來源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [設定訂閱 和激活屬性源](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 啟動資料來源後，您可以：
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表。
+>若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。加入客戶屬性群組的使用者會在Experience Cloud介面的左側看到[!UICONTROL 客戶屬性]功能表。
 >
 >若要使用客戶屬性功能，使用者也必須加入解決方案層級的群組 (Analytics 或 [!DNL Target])。
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >在程序後面的步驟中，您將以拖放 `.csv` 的方式上傳檔案。不過，如果您[透過 FTP 上傳](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，則另外還需要一個與 `.csv` 同名的 `.fin` 檔案。
+   >在此程式後面的步驟中，您可以拖放`.csv`以上傳檔案。 不過，如果您[透過 FTP 上傳](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)，則另外還需要一個與 `.csv` 同名的 `.fin` 檔案。
 
    企業客戶資料檔案範例：
 
@@ -87,9 +86,9 @@ ht-degree: 100%
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html)。
+      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。
 
          例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -97,13 +96,13 @@ ht-degree: 100%
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html) 中的&#x200B;*「idType」*。
+      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) 中的&#x200B;*「idType」*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android：**&#x200B;別名 ID 對應於 [syncIdentifiers](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html) 中的&#x200B;*「idType」*。
+      * **Android™:** 別名ID對應至 *syncIdentifiers* 中的 [「idType」](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)。
 
          例如：
 
@@ -127,7 +126,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 已將別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID：]**&#x200B;顯示有多少個 ID 已將別名傳送至 Experience Cloud 訪客 ID。
 
-   * **[!UICONTROL 具有高別名數之客戶提供的 ID：]**&#x200B;顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
+   * **[!UICONTROL 具有高別名數之客戶提供的 ID：]**&#x200B;顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。接著，系統會讓客戶提供的ID失效，並不再分發相關的屬性。
 
 
 
@@ -168,7 +167,7 @@ ht-degree: 100%
 
 您在 Experience Cloud 發佈區段後，Experience Cloud Audiences 和 Audience Manager 可隨即使用該區段。
 
-如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報表](https://docs.adobe.com/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-customer-attributes.translate.html)。
+如需詳細資訊，請參閱 Analytics 說明中的[客戶屬性報表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=zh-Hant)。
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ ht-degree: 100%
 
 ![](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新受眾](https://docs.adobe.com/content/help/zh-Hant/target/using/audiences/create-audiences/audiences.translate.html)。
+請參閱 [!DNL Target] 說明中的[建立新受眾](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)。
