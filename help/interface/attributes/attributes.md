@@ -7,20 +7,20 @@ role: Administrator
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 87%
 
 ---
 
 # 客戶屬性總覽
 
->[!NOTE]
+>[!IMPORTANT]
 >
->客戶屬性是舊有的核心服務，目前處於維護狀態。
+>[!UICONTROL 客戶屬性是舊有的服務，目前處於維護狀態。]
 
-Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
+[!UICONTROL  Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。]您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
 若要尋找此功能，請瀏覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
 
@@ -34,11 +34,11 @@ Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (C
 
    若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品設定檔]，表示您可以開始使用了。
 
-   加入客戶屬性的使用者可在 Experience Cloud 介面的左側看到[!UICONTROL 「客戶屬性」]功能表項目。
+   新增至客戶屬性的使用者可在Experience Cloud介面的左側看到[!UICONTROL 客戶屬性]功能表項目。
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-   請參閱「[如何部署 at.js](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html)」或「[Mbox.js 實作](https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/client-side/mbox-implement/mbox-download.html)」。
+   請參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en)」或「[Mbox.js 實作](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)」。
 
 ## 什麼是企業客戶資料？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -60,5 +60,5 @@ Adobe Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (C
 
 | 解決方法 | 優點和使用案例 |
 |--- |--- |
-| Adobe Analytics  | 行銷人員和分析師可以了解：<ul><li>對金級客戶最有效的線上行銷活動。</li><li>金級客戶所搜尋的產品與白金級客戶所搜尋的產品比較。</li><li>網站重新設計是否對舊客戶的轉換率帶來正面影響。</li><li>終身價值低的客戶會在我的網站上研究哪些產品。</li></ul> |
+| Adobe Analytics  | 行銷人員和分析師可以了解：<ul><li>對金級客戶最有效的線上行銷活動。</li><li>金級客戶所搜尋的產品與白金級客戶所搜尋的產品比較。</li><li>網站重新設計是否對舊客戶的轉換率帶來正面影響。</li><li>終身價值低的客戶往往會在我的網站上研究這些產品。</li></ul> |
 | Adobe Target | 屬性資料可讓 Adobe Target 使用者：<ul><li>顯示忠誠俱樂部會員的特別折扣和優惠方案。</li><li>向您的高消費力客戶推薦更昂貴的產品。</li><li>針對已收到電子郵件的客戶，在通常保留給電子郵件註冊的空間顯示追加銷售優惠方案</li></ul> |
