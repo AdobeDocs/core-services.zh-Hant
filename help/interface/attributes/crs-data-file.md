@@ -4,26 +4,25 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '了解客戶屬性的資料檔案和資料來源 '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: Customer Attributes
-topic: Administration
+feature: 客戶屬性
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1205'
-ht-degree: 100%
+exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 78%
 
 ---
 
-
 # 關於客戶屬性的資料檔案和資料來源
 
-上傳客戶屬性至 Experience Cloud 的資料檔案需求和多個資料來源。
+上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
 
-您需要存取企業的 CRM 或類似資料。上傳至 Experience Cloud 的資料必須是 `.csv` 檔案。如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
+您需要存取企業的CRM或類似資料。 上傳至 Experience Cloud 的資料必須是 `.csv` 檔案。如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
-客戶屬性是專為處理每天的一些檔案所設計。為減緩大量小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
+客戶屬性是專為處理每天的一些檔案所設計。為了緩解許多小檔案延遲處理的問題，系統會將來自相同組織的先前批次在30分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
 ## 允許的檔案類型和命名需求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -74,11 +73,11 @@ CSV 檔案必須符合下列格式：
  <tbody> 
   <tr> 
    <td colname="col1"> <p>拖放 </p> </td> 
-   <td colname="col2"> <p>拖放檔案應小於 100 MB。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
+   <td colname="col2"> <p>拖放檔案應小於100 MB。 </p> <p>若使用拖放上傳方法，則不需要 <span class="filepath">.fin</span> 檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶 ID 欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若使用 Target，則為 setCustomerID 值。(請參閱 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 與 Adobe Target - 同步客戶 ID </a>) </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶 ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此 ID 也會當作上傳至 Experience Cloud 之 CRM 檔案的索引鍵。<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區 (透過 setCustomerIDs)。CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若使用 Target，則為 setCustomerID 值。(請參閱 <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics 與 Adobe Target - 同步客戶 ID </a>) </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您可以選擇要上傳的屬性數。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶 ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個 ID 是在有人登入時使用 <span class="codeph">setCustomerIDs</span> 呼叫設定的。此 ID 也會當作上傳至 Experience Cloud 之 CRM 檔案的索引鍵。<a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區 (透過 setCustomerIDs)。CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需 <span class="codeph">setCustomerIDs</span> 相關資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">客戶 ID 和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
@@ -122,7 +121,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可查看上一個檔案是在何時移至客戶屬性 FTP 帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都完全處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可以檢查上一個檔案是何時移至[!UICONTROL客戶屬性] FTP帳戶內的已處理或失敗資料夾，借此監控此進度。 </p> <p> 將大型檔案分割為較小的檔案並連續快速提交這些檔案，實際上可能會減慢處理速度，除非您可以確保在提交下一個檔案之前先處理每個檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -130,7 +129,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至 Analytics 中的基礎訪客設定檔。因此在 Analytics 中，該訪客設定檔的整個生命週期中，客戶屬性都會與該訪客相關聯。這包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客戶屬性會系結至[!DNL Analytics]中的基礎訪客設定檔。 因此，在[!DNL Analytics]中，該訪客設定檔的整個生命週期中， [!UICONTROL客戶屬性]都會與該訪客相關聯。 此設定檔包含客戶首次登入前發生的行為。 </p> <p> 如果您使用Data Warehouse回填方法，資料會系結至以Analytics ID(AID)為基礎的post_visid_high/low。 如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 
@@ -139,15 +138,15 @@ CSV 檔案必須符合下列格式：
  </tbody> 
 </table>
 
-## 運用多個資料來源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
+## 使用多個資料來源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。
 
-每個客戶屬性來源的別名 ID 不能重複。如果您有多個資料來源使用相同的 ID，則應依照下列方式設定：
+每個客戶屬性來源的別名 ID 不能重複。如果您有多個資料來源使用相同的ID，則可依下列方式設定：
 
 **在 VisitorAPI.js 中或 Dynamic Tag Management 的 Experience Cloud ID 工具中：**
 
-設定兩個客戶 ID 以便對應至適當的資料來源：
+設定兩個對應至適當資料來源的客戶ID:
 
 ```
 Visitor.setCustomerIDs({ 
@@ -156,7 +155,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/authenticated-state.html))。
+(如需詳細資訊，請參閱[客戶 ID 和驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en))。
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**&#x200B;中：
 
