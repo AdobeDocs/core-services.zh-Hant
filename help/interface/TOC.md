@@ -5,18 +5,17 @@ breadcrumb-title: Experience Cloud 服務與管理
 user-guide-description: 了解如何在 Adobe Experience Cloud 中管理使用者和產品，以及如何使用客戶屬性和對象庫服務。同時了解 Cookie 和 Experience Cloud 資產。
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: 6744ddeeaad42054497230e1214033f36746b8e3
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 98%
 
 ---
 
 
-# Experience Cloud 服務與管理 {#interface}
+# Experience Cloud Services 和管理 {#interface}
 
-+ [Experience Cloud 服務與管理](experience-cloud.md)
-+ [Experience Cloud 介面](experience-cloud-interface.md)
++ [Experience Cloud中心介面元件](experience-cloud.md)
 + Experience Cloud 服務 {#about-core-services}
    + [Experience Cloud 服務總覽](core-services-landing.md)
    + [促進跨解決方案服務的實作](core-services/core-services.md)
