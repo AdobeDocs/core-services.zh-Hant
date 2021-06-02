@@ -9,22 +9,22 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # 第三方 Cookie 支援的變更會如何影響客戶{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-由於不同瀏覽器上的第三方 Cookie 支援愈來愈受限，Adobe 正致力於開發新的解決方案，在客戶需求與客戶於不同 Adobe Experience Cloud 解決方案的隱私權之間謹慎取得平衡。
+跨瀏覽器對協力廠商Cookie的支援已變得更為有限。 因此，Adobe一直在開發新的解決方案，在客戶需求與消費者的跨Experience Cloud應用程式隱私權之間謹慎平衡。
 
-下列清單概述第三方 Cookie 支援如何影響目前 Adobe Experience Cloud 解決方案的實作：
+下列清單概述協力廠商Cookie支援如何影響目前的Experience Cloud應用程式實作：
 
 ## Adobe Analytics 和 Adobe Target
 
-* Analytics和Target基本上不會受影響，因為相同的網站活動僅依賴第一方Cookie。 需要第三方Cookie才能了解跨網域的使用者活動。 若為已封鎖第三方Cookie的瀏覽器，則無法使用Cookie進行跨網域追蹤。
+* Analytics和Target基本上不受影響，因為相同的網站活動僅依賴第一方Cookie。 需要第三方Cookie才能了解跨網域的使用者活動。 若為已封鎖第三方Cookie的瀏覽器，則無法使用Cookie進行跨網域追蹤。
 
 ## Adobe Experience Manager
 
@@ -46,4 +46,4 @@ ht-degree: 84%
    * 當天的顯示再行銷完全取決於第三方 Cookie 的使用情況。
    * 顯示情形也高度取決於同步功能各種廣告網路 Cookie 的可用性。
    * 整體影響未知。但是，根據第一點，顯示受到的影響會比其他服務大。
-   * 我們正與廣告合作夥伴進行內部合作，評估對廣告投放造成的整體影響。
+   * Adobe正與我們的廣告合作夥伴進行內部合作，評估對廣告投放的完整影響。
