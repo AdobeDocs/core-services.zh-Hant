@@ -4,24 +4,23 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Analytics Cookie '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: 管理
 role: Administrator
 level: Experienced
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
-
 # Analytics Cookie{#analytics-cookies}
 
-Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。Cookie 也可用於為瀏覽資訊與客戶記錄建立關聯。
+Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。它們也可用來將瀏覽資訊與客戶記錄建立關聯。
 
-尤其 Analytics 會使用 Cookie 以匿名方式定義新訪客、協助分析點按流資料，以及追蹤網站上的歷史活動，例如對特定行銷活動的回應或銷售週期的長度。
+Analytics使用Cookie以匿名方式定義新訪客、協助分析點按流資料，以及追蹤網站上的歷史活動，例如對特定促銷活動的回應或銷售週期的長度。
 
 * [Cookie 名稱：s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie 名稱：AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -48,7 +47,7 @@ Analytics 說明中提供有關[第一方 Cookie](/help/interface/cookies/cookie
 
 | 屬性 | 說明 |
 |--- |--- |
-| 儲存的資訊 | JavaScript 程式碼會設定並讀取此 Cookie，用於判斷 Cookie 是否已啟用 (只要設為「True」即可) |
+| 儲存的資訊 | JavaScript程式碼會設定並讀取此Cookie，以判斷Cookie是否已啟用（設為「True」） |
 | 過期 | 此 Cookie 是工作階段 Cookie，會在瀏覽器關閉時過期 |
 | 使用狀況 | 只有一個 Cookie 供所有帳戶使用 |
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
@@ -102,10 +101,10 @@ Analytics 說明中提供有關[第一方 Cookie](/help/interface/cookies/cookie
 
 >[!NOTE]
 >
->如果使用單一 CNAME 來追蹤多個網域或屬性，`s_vi` 應將 SameSite 設為「None」。如需變更 Analytics Cookie 設定的協助，請聯絡客戶服務。
+>如果使用單一 CNAME 來追蹤多個網域或屬性，`s_vi` 應將 SameSite 設為「None」。如需變更Analytics Cookie設定的相關協助，請連絡客戶服務。
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。這些 Cookie 是用戶端可用於多種情況的程式碼片段。這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。如需各外掛程式設定之 Cookie 的詳細資訊，請連絡 ClientCare。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
+視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。這些Cookie是用戶端可用於各種情況的程式碼片段。 這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。如需各外掛程式設定之 Cookie 的詳細資訊，請連絡 ClientCare。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
 
-僅當電子郵件用戶端和網頁瀏覽器共用相同的 Cookie 空間時，方能正確識別未使用 JavaScript 而傳入影像請求的 Conversion 變數 (eVarX)，例如置入電子郵件內的代碼。
+只有在電子郵件用戶端和網頁瀏覽器共用Cookie空間時，才能正確識別未使用JavaScript而傳入影像請求的轉換變數(eVarX)，例如置入電子郵件中的代碼。
