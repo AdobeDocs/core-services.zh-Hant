@@ -1,5 +1,5 @@
 ---
-description: 了解如何建立客戶屬性來源並將其上傳至 Adobe Experience Cloud。
+description: 了解如何建立客戶屬性來源並將其上傳至Adobe Experience Cloud。
 keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '建立客戶屬性來源及上傳資料檔案 '
@@ -9,16 +9,16 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 77%
 
 ---
 
 # 建立客戶屬性來源及上傳資料檔案
 
-建立客戶屬性來源 (CSV 和 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
+建立客戶屬性來源（CSV和FIN檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
 
 ## 客戶屬性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。連絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
+>建立、修改或刪除客戶屬性來源時，會延遲最多一小時，之後ID就會開始與新資料來源同步。 您必須在Audience Manager中擁有管理權限，才能建立或修改客戶屬性來源。 連絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
 
 1. 在 [!DNL Experience Cloud] 中，按一下功能表 ![](assets/menu-icon.png) 圖示。
 1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**。
@@ -82,7 +82,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]**&#x200B;代表客戶屬性資料的來源，如特定 CRM 系統。唯一 ID 用於客戶屬性來源代碼。此 ID 應是唯一、小寫、無空格。在 Experience Cloud UI 中，針對客戶屬性來源在「別名 ID」欄位中輸入的值，應與從實作傳入的值相符 (不論是透過 Dynamic Tag Management 還是 Mobile SDK 的 JavaScript 傳入)。
+   * **[!UICONTROL 別名ID:]** 代表客戶屬性資料的來源，例如特定CRM系統。唯一 ID 用於客戶屬性來源代碼。此 ID 應是唯一、小寫、無空格。在Experience CloudUI中，針對客戶屬性來源在「別名ID」欄位中輸入的值，應與從實作傳入的值相符（不論是透過動態標籤管理或行動SDK的JavaScript傳入）。
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
@@ -169,7 +169,7 @@ ht-degree: 90%
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可在建立受眾時，從[!UICONTROL 訪客資料區段]選取客戶屬性。清單中的所有客戶屬性都有字首`crs.`。 您可視需求將這些屬性與其他資料屬性結合，以建立受眾。
+在[!DNL Target]中，建立對象時，您可以從[!UICONTROL 訪客資料]區段選取客戶屬性。 清單中的所有客戶屬性都有字首`crs.`。 您可視需求將這些屬性與其他資料屬性結合，以建立受眾。
 
 ![](assets/crs-add-attribute-target.png)
 
