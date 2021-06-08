@@ -9,14 +9,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Experience Cloud 受眾 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud對象 {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 受眾是訪客的集合 (訪客 ID 的清單)。Adobe 的受眾程式庫可讓您管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理觀眾與建立和使用細分類似。您也可以將受眾細分分享至 [!DNL Experience Cloud] 的產品和服務。
 
