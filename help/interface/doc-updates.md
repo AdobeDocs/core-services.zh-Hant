@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2018 年 9 月 5 日**
 
-新增如何刪除客戶屬性。請參閱 [(選用) 更新結構 (刪除屬性)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
+新增如何刪除客戶屬性。 請參閱 [(選用) 更新結構 (刪除屬性)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
 **更新日期：2018 年 6 月 8 日**
 
