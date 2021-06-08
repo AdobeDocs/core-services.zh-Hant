@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '2334'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -198,7 +198,7 @@ mbox 請求中的 Experience Cloud ID：
 
 ### [!UICONTROL People > 客戶屬性]
 
-如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，請使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的資料。
+如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，則可將該資料上傳至Experience Cloud中的客戶屬性資料來源。 上傳後，請使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的資料。
 
 請參閱[客戶屬性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
