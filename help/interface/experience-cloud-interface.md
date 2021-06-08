@@ -6,7 +6,7 @@ feature: '"中央介面元件"'
 topic: 管理
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Experience Cloud的中央介面元件包括可讓您：
 
 ## 登入 Experience Cloud
 
-登入並確認您隸屬於正確的[組織](admin-getting-started/organizations.md)。
+登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 導覽至[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 按一下「**[!UICONTROL 使用Adobe ID登入]**」。
@@ -31,7 +31,7 @@ Experience Cloud的中央介面元件包括可讓您：
 
    ![](assets/organizations-menu.png)
 
-   管理員可以幫助您驗證您是否位於[organization](admin-getting-started/organizations.md)右側。
+   管理員可以幫助您驗證您是否位於[organization](organizations.md)右側。
 
 ## 訪問Experience Cloud應用程式 {#navigation}
 
@@ -59,7 +59,7 @@ Experience Cloud搜尋可讓您搜尋[Experience League](https://experienceleagu
 在帳戶偏好設定功能表中，您可以：
 
 * 指定深色主題（並非所有應用程式都支援此主題）
-* 搜索[組織](admin-getting-started/organizations.md)
+* 搜索[組織](organizations.md)
 * 登出
 * 配置帳戶[首選項、通知和訂閱](#preferences)
 
@@ -75,7 +75,7 @@ Experience Cloud偏好設定包括通知、訂閱和警報。
 
 | 功能 | 說明 |
 |--- |--- |
-| 預設[organization](admin-getting-started/organizations.md) | 選取啟動時要查看的組織Experience Cloud。 |
+| 預設[organization](organizations.md) | 選取啟動時要查看的組織Experience Cloud。 |
 | [!UICONTROL 訂閱] | 選取您要訂閱的產品和類別。 [!UICONTROL Notifications]快顯視窗和電子郵件中的通知。 |
 | [!UICONTROL 優先順序] | 選取您要視為高優先順序的類別。 這些類別會標示為「高」標籤，且可設定為傳送，如警報。 |
 | [!UICONTROL 警報] | 選取您要在瀏覽器中查看警報的通知。 警報會在視窗的右上角出現幾秒鐘。 |
