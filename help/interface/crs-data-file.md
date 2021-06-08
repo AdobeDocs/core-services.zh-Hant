@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 69%
 
 ---
 
@@ -85,7 +85,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>屬性數限制 </p> </td> 
-   <td colname="col2"> <p>您可以上傳數百欄 <span class="filepath">.csv</span> 至 Experience Cloud 的客戶屬性服務。但是在設定訂閱與選取屬性時，系統將套用以下欄數限制 (視您擁有的解決方案而定)： </p> <p> 
+   <td colname="col2"> <p>您可以上傳數百欄<span class="filepath"> .csv </span>至Experience Cloud中的客戶屬性服務。 但是在設定訂閱與選取屬性時，系統將套用以下欄數限制 (視您擁有的解決方案而定)： </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>：共 3 個 </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>：每一報表套裝 200 個 </li> 
@@ -121,7 +121,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可以檢查上一個檔案是何時移至[!UICONTROL客戶屬性] FTP帳戶內的已處理或失敗資料夾，借此監控此進度。 </p> <p> 將大型檔案分割為較小的檔案並連續快速提交這些檔案，實際上可能會減慢處理速度，除非您可以確保在提交下一個檔案之前先處理每個檔案。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，再上傳下一個檔案。 您可以檢查上一個檔案是何時移至[!UICONTROL客戶屬性] FTP帳戶內的已處理或失敗資料夾，借此監控此進度。 </p> <p> 將大型檔案分割為較小的檔案並連續快速提交這些檔案，實際上可能會減慢處理速度，除非您可以確保在提交下一個檔案之前先處理每個檔案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -140,9 +140,9 @@ CSV 檔案必須符合下列格式：
 
 ## 使用多個資料來源 {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。
+建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後ID就會開始與新資料來源同步。
 
-每個客戶屬性來源的別名 ID 不能重複。如果您有多個資料來源使用相同的ID，則可依下列方式設定：
+每個客戶屬性來源的別名ID必須是唯一的。 如果您有多個資料來源使用相同的ID，則可依下列方式設定：
 
 **在 VisitorAPI.js 中或 Dynamic Tag Management 的 Experience Cloud ID 工具中：**
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**&#x200B;中：
 
-使用與上述客戶 ID 對應的不重複別名 ID，建立兩個客戶屬性來源。此方法可將相同的參考 ID 傳送至多個客戶屬性來源。
+使用與上述客戶 ID 對應的不重複別名 ID，建立兩個客戶屬性來源。使用此方法可將相同的參考ID傳送至多個客戶屬性來源。
