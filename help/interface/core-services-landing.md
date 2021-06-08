@@ -7,14 +7,14 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 69%
 
 ---
 
-# 關於 Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud 服務 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 Adobe Experience Cloud 服務包括 [!UICONTROL People] (受眾和客戶屬性)、Experience Platform Launch 和 Mobile Services。此處也提供 Experience Cloud 使用者和產品管理的相關說明。
 
