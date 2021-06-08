@@ -4,22 +4,22 @@ user-guide-title: 'Experience Cloud中心介面元件 '
 breadcrumb-title: Experience Cloud中心介面元件
 user-guide-description: 了解Experience Cloud的介面、設定偏好設定、搜尋說明和業務物件。 取得使用者和產品管理、客戶屬性、對象庫、Cookie和Experience Cloud資產的相關說明。
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
 
 # Experience Cloud中心介面元件 {#interface}
 
-+ [Experience Cloud中心介面元件](experience-cloud.md)
++ [Experience Cloud中心介面元件指南](experience-cloud.md)
 + Experience Cloud 服務 {#services}
-   + [Experience Cloud 服務總覽](core-services-landing.md)
+   + [Experience Cloud 服務](core-services-landing.md)
    + [促進跨解決方案服務的實作](core-services.md)
-   + Experience Cloud 受眾{#audiences}
-      + [Experience Cloud 受眾服務](audience-library.md)
+   + Experience Cloud 對象庫 {#audiences}
+      + [Experience Cloud對象](audience-library.md)
       + [建立受眾](t-audience-create.md)
       + [發佈 Analytics 受眾區段](t-publish-audience-segment.md)
    + Experience Cloud 客戶屬性{#customer-attributes}
