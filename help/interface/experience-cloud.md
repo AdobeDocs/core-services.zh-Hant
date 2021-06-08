@@ -8,7 +8,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 33%
@@ -30,7 +30,7 @@ ht-degree: 33%
 
 ## 登入 Experience Cloud
 
-登入並確認您隸屬於正確的[組織](admin-getting-started/organizations.md)。
+登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 導覽至[Adobe Experience Cloud](https://experience.adobe.com)。
 1. 按一下「**[!UICONTROL 使用Adobe ID登入]**」。
@@ -38,7 +38,7 @@ ht-degree: 33%
 
    ![](assets/organizations-menu.png)
 
-   管理員可以幫助您驗證您是否位於[organization](admin-getting-started/organizations.md)右側。
+   管理員可以幫助您驗證您是否位於[organization](organizations.md)右側。
 
 ## 訪問Experience Cloud應用程式 {#navigation}
 
@@ -75,7 +75,7 @@ Unified Help提供產品內位置，可在[Experience League](https://experience
 Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設定功能表中，您可以：
 
 * 指定深色主題（並非所有應用程式都支援此主題）
-* 搜索[組織](admin-getting-started/organizations.md)
+* 搜索[組織](organizations.md)
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
@@ -87,13 +87,13 @@ Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設
 
 | 功能 | 說明 |
 |--- |--- |
-| 預設[organization](admin-getting-started/organizations.md) | 選取啟動時要查看的組織Experience Cloud。 |
+| 預設[organization](organizations.md) | 選取啟動時要查看的組織Experience Cloud。 |
 | [!UICONTROL 訂閱] | 選取您要訂閱的產品和類別。 [!UICONTROL Notifications]快顯視窗和電子郵件中的通知。 |
 | [!UICONTROL 優先順序] | 選取您要視為高優先順序的類別。 這些類別會標示為「高」標籤，且可設定為傳送，如警報。 |
 | [!UICONTROL 警報] | 選取您要在瀏覽器中查看警報的通知。 警報會在視窗的右上角出現幾秒鐘。 |
 | 電子郵件 | 指定您要接收通知電子郵件的頻率。 （不傳送、即時、每日或每週。） |
 
-## 通知與公告
+## 通知與公告 {#notifications}
 
 按一下&#x200B;**[!UICONTROL 通知]**&#x200B;即可收到相關且可操作的更新的警報，包括產品發行、維護通知、共用項目和核准請求。
 
@@ -103,19 +103,19 @@ Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設
 
 本指南讓您存取 Admin Console 中 Experience Cloud 使用者和產品管理功能的說明，此功能可啟用平台服務的解決方案。您也可以存取對象庫、客戶屬性、Experience Cloud 資產等的說明：
 
-* [[!UICONTROL 對象庫]](audience-library/audience-library.md)
-* [[!UICONTROL Customer Attributes]](attributes/attributes.md)
-* [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL 資產]](experience-cloud-assets/experience-cloud-assets.md)
-* [Experience Cloud Cookie](cookies/cookies-privacy.md)
-* [使用者和產品管理](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [啟用核心服務的解決方案](core-services/core-services.md)
-* [常見問答](admin-getting-started/admin-getting-started.md)
-* [組織和帳戶綁定](admin-getting-started/organizations.md)
+* [[!UICONTROL 對象庫]](audience-library.md)
+* [[!UICONTROL Customer Attributes]](attributes.md)
+* [[!UICONTROL Triggers]](triggers.md)
+* [Experience Cloud [!UICONTROL 資產]](experience-cloud-assets.md)
+* [Experience Cloud Cookie](cookies-privacy.md)
+* [使用者和產品管理](admin-getting-started.md) (Admin Console)
+* [啟用核心服務的解決方案](core-services.md)
+* [常見問答](admin-getting-started.md)
+* [組織和帳戶綁定](organizations.md)
 * [整合](marketing-cloud-integrations.md)
 * [將 Adobe Target 與 Experience Cloud 整合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)
 * [Experience Cloud 隱私權及安全性總覽](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [DNS 預先擷取](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [DNS 預先擷取](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## 指南
 
