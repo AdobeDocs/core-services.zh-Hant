@@ -1,5 +1,5 @@
 ---
-description: 了解如何驗證 Adobe Experience Cloud 中的客戶屬性結構。
+description: 了解如何驗證Adobe Experience Cloud中的客戶屬性結構。
 keywords: 客戶屬性;Experience Cloud 服務
 solution: Experience Cloud
 title: '如何驗證客戶屬性結構 '
@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
    * **[!UICONTROL AVID (Analytics 訪客 ID)：]**&#x200B;顯示您是否使用 prop 或 eVar 上傳 CID。如果這些 ID 正傳遞至 Experience Cloud，則此處會顯示與您輸入的 CID 相關聯的所有訪客 ID。
 
-在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，您也可透過 FTP 上傳資料。您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須為`.csv`格式，並附上第二個`.fin`檔案以指出上傳完成。
+在Experience Cloud中建立客戶屬性來源和FTP帳戶後，您也可以透過FTP上傳資料。 您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須為`.csv`格式，並附上第二個`.fin`檔案以指出上傳完成。
 
 您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。
 
