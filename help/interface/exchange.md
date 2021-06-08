@@ -8,17 +8,17 @@ feature: 「客戶屬性」
 topic: 管理
 role: Administrator
 level: Experienced
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 89%
 
 ---
 
 
 # Exchange Marketplace
 
-Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。應用程式包括 Data Connectors、Adobe 核心產品的設定自訂設定、第三方應用程式及報表。
+Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。應用程式包括Data Connectors、Adobe核心產品的自訂設定、協力廠商應用程式和報表。
 
 **[!UICONTROL 「Experience Cloud]** > **[!UICONTROL 說明]** > **[!UICONTROL Exchange」]**
 
