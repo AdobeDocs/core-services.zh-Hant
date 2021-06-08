@@ -1,16 +1,16 @@
 ---
 title: 如何使用客戶屬性
-description: 了解 Adobe Experience Cloud 中的客戶屬性服務。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
+description: 了解 Adobe Experience Cloud 中的客戶屬性服務。了解如何上傳客戶屬性資料以用於Adobe Analytics和Adobe Target。
 solution: Experience Cloud
 feature: 客戶屬性
 role: Administrator
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 87%
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >
 >[!UICONTROL 客戶屬性是舊有的服務，目前處於維護狀態。]
 
-[!UICONTROL  Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。]您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
+[!UICONTROL  Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。]您可以將資料上傳至Experience Cloud中的「客戶屬性」資料來源，然後在Adobe Analytics和Adobe Target中使用資料。
 
 若要尋找此功能，請瀏覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
 
@@ -48,7 +48,7 @@ ht-degree: 87%
 
 ![](assets/01_crs_usecase.png)
 
-建立資料檔案後，可將其上傳至您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 「客戶屬性」]**&#x200B;中建立的客戶屬性來源。
+建立資料檔案後，可將其上傳至您在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 客戶屬性]**&#x200B;中建立的客戶屬性來源。
 
 請參閱[上傳客戶屬性資料](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
 
