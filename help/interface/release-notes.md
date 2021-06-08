@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4094'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -258,7 +258,7 @@ Experience Cloud 介面的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客設定檔</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的受眾區隔。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需最新化核心服務解決方案的相關資訊，請參閱<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">啟用核心服務的解決方案</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，則可將該資料上傳至Experience Cloud中的客戶屬性資料來源。 上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客設定檔</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的受眾區隔。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需最新化核心服務解決方案的相關資訊，請參閱<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">啟用核心服務的解決方案</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
