@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1406'
-ht-degree: 79%
+ht-degree: 77%
 
 ---
 
@@ -74,7 +74,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 >
 >客戶屬性是舊有的服務，目前處於維護狀態。
 
-如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，請使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的資料。
+如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，則可將該資料上傳至Experience Cloud中的客戶屬性資料來源。 上傳後，請使用[!DNL Adobe Analytics]和[!DNL Adobe Target]中的資料。
 
 **適用的解決方案或服務**
 
@@ -149,7 +149,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 **適用的解決方案或服務**
 
-* 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](subscription.md)
+* 客戶屬性：將Adobe Target的[subscription](subscription.md)設定為客戶屬性
 * Experience Cloud Audiences：[Experience Cloud 對象庫](audience-library.md)
 * Analytics：[Adobe Analytics 作為 Adobe Target 的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 * 動態標籤管理：[使用 DTM 實作 Adobe Target 的最佳做法](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=zh-Hant)
