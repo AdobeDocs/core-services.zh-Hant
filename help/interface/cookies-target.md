@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 83%
 
 ---
@@ -33,6 +33,8 @@ Adobe Target 使用 Cookie 來讓網站營運人員測試哪些線上內容和�
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，針對您的 [!DNL Adobe Target] 帳戶使用用戶端代碼。 |
 | Cookie 持續時間 | 自訪客上次登入後兩年，Cookie仍會保留在訪客的瀏覽器上。 Cookie 持續時間無法變更。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >如果您的任何網域名稱包含國家/地區代碼，例如`mycompany.co.uk`，請與您的客戶服務人員合作設定您的`at.js`以支援此代碼。
@@ -46,3 +48,4 @@ Cookie會保留一些值，以管理您的訪客體驗Adobe Target促銷活動�
 | 檢查 | 用來判斷訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
 | 停用 | 如果訪客的載入時間超過 at.js 檔案中所設定的逾時時間，則設定此選項。 依預設，此逾時會持續1小時。 |
 
+{style=&quot;table-layout:auto&quot;}
