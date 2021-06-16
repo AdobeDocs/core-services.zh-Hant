@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1396'
 ht-degree: 77%
 
 ---
@@ -127,7 +127,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 使用 Experience Cloud 啟用解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. 使用[Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)或[動態標籤管理](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=zh-Hant) ，插入會在您的頁面上啟用Experience Cloud應用程式的程式碼。
+1. 使用[Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant)插入會在您的頁面上啟用Experience Cloud應用程式的程式碼。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hant) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
@@ -135,7 +135,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 **適用的解決方案或服務**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)
-* [Audience Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/audiencemgmt.html?lang=zh-Hant)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
 * [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=zh-Hant)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=zh-Hant)
 * [MAC ID 服務](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hant)
