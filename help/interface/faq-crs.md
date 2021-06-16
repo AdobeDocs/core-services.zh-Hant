@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1181'
 ht-degree: 69%
 
 ---
@@ -32,6 +32,8 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客戶屬性]的常見問題和最�
 | 自訂 Analytics ID (`s.visitorID`) | 在 Analytics 中，使用 `s.visitorID` 來設定客戶 ID 是辨識使用者的方法。不過，使用`s.visitorID.`<br>來識別訪客時，透過ID Service匯出或匯入[!DNL Analytics]資料的整合無法運作。這包括但不限於共用受眾、Adobe Target適用的[!DNL Analytics]和[!UICONTROL 客戶屬性]。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
 |  中的字元長度限制[!DNL Analytics] | 建立[!DNL Analytics]訂閱時，上傳檔案的欄位長度會截斷為255。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 客戶屬性的相關常見問題集 {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | 問題 | 回答 |
@@ -49,3 +51,5 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客戶屬性]的常見問題和最�
 | **(僅限 Adobe Target)** 我是否可在透過客戶 ID 識別訪客後，立即鎖定客戶屬性所上傳的資料？ | 可以。在對Adobe Target的伺服器呼叫（包括mbox協力廠商ID）上，所有客戶屬性資料皆可用。 |
 | **(僅限Adobe Target)** 對於在客戶屬 **[!UICONTROL 性]** 來源中上傳的檔案，同步狀態欄代表什麼？ | 對特定屬性檔案按一下「同步狀態」圖示，即可檢視 Adobe Target 所發佈和同步的記錄數。`Sync %` 是即時量度，指定已在Adobe Target中同步的設定檔百分比。<br> **注意：**&#x200B;與 Adobe Target 同步屬性可能需花費最多 24 小時。 |
 | 「客戶屬性來源」中的檔案上傳量度代表什麼？ | 在下列量度的協助下，您可以檢查已上傳至「客戶屬性」的屬性之狀態： <ul><li>記錄數：屬性檔案中的記錄數。</li><li>**新記錄數：**&#x200B;屬性檔案中存在的新記錄數。</li> <li>**更新記錄數：** 客戶屬性中存在且檔案中有更新值的記錄數。</li><li>**所有資料 (記錄) 數：**&#x200B;已成功上傳至客戶屬性的記錄總數。</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
