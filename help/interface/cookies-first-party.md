@@ -10,9 +10,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1579'
 ht-degree: 60%
 
 ---
@@ -83,6 +83,8 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 | **我可以要求撤銷憑證嗎？** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
 | **此憑證是否會使用 SHA-2 加密？** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
 | **這是否會產生額外費用？** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 建立 CNAME 記錄
 
