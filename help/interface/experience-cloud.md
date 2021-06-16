@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 33%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,23 +26,23 @@ ht-degree: 33%
 * 訪問您的應用程式和服務
 * 搜尋產品檔案、教學課程和社群貼文
 * 使用全局搜索全局搜索業務對象(僅Experience Platform用戶)
-* 管理您的帳戶偏好設定（警報、通知和訂閱）
+* 管理您的帳戶偏好設定 (警示、通知和訂閱)
 
 ## 登入 Experience Cloud
 
 登入並確認您隸屬於正確的[組織](organizations.md)。
 
-1. 導覽至[Adobe Experience Cloud](https://experience.adobe.com)。
-1. 按一下「**[!UICONTROL 使用Adobe ID登入]**」。
-1. 在Adobe Experience Cloud上，按一下您的組織。
+1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
+1. 按一下「**[!UICONTROL 使用 Adobe ID 登入]**」。
+1. 在 Adobe Experience Cloud 上按一下您的組織。
 
    ![](assets/organizations-menu.png)
 
-   管理員可以幫助您驗證您是否位於[organization](organizations.md)右側。
+   您的管理員可幫助您確認您確實隸屬於正確的[組織](organizations.md)。
 
-## 訪問Experience Cloud應用程式 {#navigation}
+## 存取 Experience Cloud 應用程式 {#navigation}
 
-登入Experience Cloud後，您可以從統一的標題快速存取所有應用程式、服務和組織。
+在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
 若要存取您擁有的Experience Cloud服務，請按一下應用程式選取器![](assets/menu-icon.png)。
 
@@ -54,12 +54,12 @@ Unified Help提供產品內位置，可在[Experience League](https://experience
 
 ![](assets/search-menu.png)
 
-[!UICONTROL Help]菜單還允許您訪問：
+「[!UICONTROL 說明]」選單也可讓您存取：
 
-* **[!UICONTROL 支援]:** 建立支援票證，或使用Twitter  聯絡支援。
+* **[!UICONTROL 支援]：**&#x200B;建立支援服務單或使用 Twitter 聯絡[!UICONTROL 支援人員]。
 * **[!UICONTROL 意見]:** 分享您的Experience Cloud體驗意見。您的意見反應可用來改善Adobe的產品和服務。
-* **[!UICONTROL 狀態]:** 導覽至並 `https://status.adobe.com/experience_cloud` 檢查產品運作狀態和 [!UICONTROL 管理訂閱]。
-* **[!UICONTROL Developer Connection]:** 導覽至並 `adobe.io` 尋找開發人員檔案。
+* **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
+* **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
 
 ## 全局搜索對象和實體
 
@@ -72,10 +72,10 @@ Unified Help提供產品內位置，可在[Experience League](https://experience
 
 ## 管理帳戶偏好設定 {#preferences}
 
-Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設定功能表中，您可以：
+Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳戶偏好設定」選單中進行以下操作：
 
-* 指定深色主題（並非所有應用程式都支援此主題）
-* 搜索[組織](organizations.md)
+* 指定深色主題 (並非所有應用程式都支援這個主題)
+* 搜尋[組織](organizations.md)
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
@@ -83,17 +83,19 @@ Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設
 
 ![](assets/preferences-page.png)
 
-在[!UICONTROL Experience Cloud偏好設定]上，可以配置下列功能：
+您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
 
 | 功能 | 說明 |
 |--- |--- |
-| 預設[organization](organizations.md) | 選取啟動時要查看的組織Experience Cloud。 |
-| [!UICONTROL 訂閱] | 選取您要訂閱的產品和類別。 [!UICONTROL Notifications]快顯視窗和電子郵件中的通知。 |
-| [!UICONTROL 優先順序] | 選取您要視為高優先順序的類別。 這些類別會標示為「高」標籤，且可設定為傳送，如警報。 |
-| [!UICONTROL 警報] | 選取您要在瀏覽器中查看警報的通知。 警報會在視窗的右上角出現幾秒鐘。 |
-| 電子郵件 | 指定您要接收通知電子郵件的頻率。 （不傳送、即時、每日或每週。） |
+| 預設[組織](organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
+| [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 您的電子郵件中的「[!UICONTROL 通知]」快顯視窗中的通知。 |
+| [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標籤標記，而且可以設定為像警示一樣遞送。 |
+| [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
+| 電子郵件 | 指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。) |
 
-## 通知與公告 {#notifications}
+{style=&quot;table-layout:auto&quot;}
+
+## 通知和公告 {#notifications}
 
 按一下&#x200B;**[!UICONTROL 通知]**&#x200B;即可收到相關且可操作的更新的警報，包括產品發行、維護通知、共用項目和核准請求。
 
@@ -121,10 +123,10 @@ Experience Cloud偏好設定包括通知、訂閱和警報。 在帳戶偏好設
 
 相關 Experience Cloud 指南包括：
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hant)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 * [Experience Platform資料收集/啟動](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
