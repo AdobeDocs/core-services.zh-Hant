@@ -6,10 +6,10 @@ seo-title: Experience Cloud 的新功能
 solution: Experience Cloud
 title: 'Experience Cloud 的新功能 '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 89%
+source-wordcount: '651'
+ht-degree: 91%
 
 ---
 
@@ -64,6 +64,8 @@ Experience Cloud 的新功能和更新的概述。
 |--- |--- |
 | 全新管理登陸頁面 | 登入 Experience Cloud 並導覽至「管理」頁面時，可使用全新的直覺式介面，幫助您快速存取 Experience Cloud 解決方案和核心服務。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 **修正**
 
 * 修正因 Scene7 更新而導致影像上傳失敗的問題。(CORE - 12746)
@@ -83,7 +85,9 @@ Experience Cloud 的新功能和更新的概述。
 |--- |--- |
 | 通知 - 粒度設定 | 您可以啟用產品和解決方案事件與活動的通知，包括[「客戶屬性」](attributes.md)上傳活動的相關通知。        |
 | 通知 - 維護通知 | 在「通知」設定中，您可以啟用產品和解決方案的維護通知。 |
-| 適用於 Experience Cloud 解決方案的 Admin Console | 新的 Experience Cloud 客戶可以開始使用 Admin Console，這是管理整個組織中 Adobe 權限的集中位置。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe在需要遷移時與您（系統管理員）聯繫。<br>Analytics 管理員請參閱 [Analytics 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)。 |
+| 適用於 Experience Cloud 解決方案的 Admin Console | 新的 Experience Cloud 客戶可以開始使用 Admin Console，這是管理整個組織中 Adobe 權限的集中位置。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe在需要遷移時與您（系統管理員）聯繫。<br>Analytics 管理員請參閱 [Analytics 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant)。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
@@ -92,11 +96,15 @@ Experience Cloud 的新功能和更新的概述。
 | 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>[將報表套裝對應至單一組織有助於在 Experience Cloud 中啟用跨解決方案功能及服務。](core-services.md) |
 | Experience Cloud Audiences 的更新 | **套用報表套裝**<br>&#x200B;您現已可將報表套裝套用至所有[受眾規則](t-audience-create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時受眾中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 2016年11月8日 — 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | 功能 | 說明 |
 |--- |--- |
 | 設定檔與密碼更新 | 使用者無法再到「編輯個人資料 > 個人資料和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分類型(Adobe ID、Enterprise及Federated)。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 **修正**
 
