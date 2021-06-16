@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 77%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名ID:]** 代表客戶屬性資料的來源，例如特定CRM系統。唯一 ID 用於客戶屬性來源代碼。此 ID 應是唯一、小寫、無空格。在Experience CloudUI中，針對客戶屬性來源在「別名ID」欄位中輸入的值，應與從實作傳入的值相符（不論是透過動態標籤管理或行動SDK的JavaScript傳入）。
+   * **[!UICONTROL 別名ID:]** 代表客戶屬性資料的來源，例如特定CRM系統。[!UICONTROL 別] 名ID是用於客戶屬性原始碼的唯一ID。此 ID 應是唯一、小寫、無空格。在「Experience Cloud」中「客戶屬性」來源的[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值(不論是透過「資料收集」(Launch)、「動態標籤管理」或Mobile SDK的JavaScript傳入)相符。
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
