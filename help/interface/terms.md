@@ -11,9 +11,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 253a6df12e603713a282b3c000311b0d67d0ccda
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 74%
 
 ---
@@ -49,3 +49,5 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。已登入網站的使用者可使用共用功能。 |
 | 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。 |
 | 特徵 | 不適用 | 索引鍵值組，例如color=blue。 在 Audience Manager 中，[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)會用於建立區段。 |
+
+{style=&quot;table-layout:auto&quot;}
