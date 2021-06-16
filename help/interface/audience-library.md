@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 86%
+source-wordcount: '828'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 86%
 | Campaign | <ul><li>從不同的 Adobe Experience Cloud 解決方案匯入共用受眾至 Adobe Campaign。</li><li>以共用受眾的形式匯出收件者清單。這些共用受眾可用於您所使用的不同 Adobe Experience Cloud 解決方案。</li></ul> |
 | Advertising Cloud | 使用受眾作為目標。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!IMPORTANT]
 >
 >訪客符合 Analytics 的共用受眾資格後，此資訊會延遲 4 至 8 小時才能在 [!DNL Target]、Ad Cloud 和 Campaign Standard 中操作。
@@ -60,6 +62,8 @@ ht-degree: 86%
 | 找不到受眾？ | 請確定您已佈建。請參閱[快速入門 - 啟用核心服務的解決方案](core-services.md)。<br>按一下[此處](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)，申請存取設定檔與受眾 (整合佈建表單)。 |
 | 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 論壇 | [受眾論壇](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是可取得受眾說明的其他資源。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 受眾程式庫介面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -77,3 +81,5 @@ ht-degree: 86%
 | 來源 | 識別建立受眾的位置。<ul><li>**Analytics：**&#x200B;在 Adobe Analytics 中建立區段，然後[發佈至 Experience Cloud](audience-library.md)。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](audience-library.md)的新受眾。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的受眾會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的受眾規模。 |
 | 作用中 | 區段的作用中狀態。 |
+
+{style=&quot;table-layout:auto&quot;}
