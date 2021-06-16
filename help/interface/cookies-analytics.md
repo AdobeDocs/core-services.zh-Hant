@@ -9,9 +9,9 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | 位置 | 僅限 CNAME 客戶。不適用於第三方情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 |
 | 大小 | 45 位元組 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 名稱：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | 屬性 | 說明 |
@@ -52,6 +54,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | 使用狀況 | 只有一個 Cookie 供所有帳戶使用 |
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 4 位元組 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Cookie 名稱：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 視頁面 URL 大小而定，但通常為 100 到 200 位元組 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 名稱：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | 屬性 | 說明 |
@@ -72,6 +78,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | 使用狀況 | 該 Cookie 用於識別不重複訪客 |
 | 位置 | 此 Cookie 會儲存在影像請求的網域中；如果您使用第三方 Cookie，或您的網域使用第一方 Cookie，通常會是 2o7.net 或 omtrdc.net 底下的客戶專屬子網域。 |
 | 大小 | 44 位元組 |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | 位置 | 此 Cookie 會作為第一方 Cookie 儲存在您的網域中。 |
 | 大小 | 33 位元組 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie 標記
 
 下表說明 Analytics Cookie 的標記：
@@ -98,6 +108,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 | s_fid (Javascript) | 無 | 無 | 未設定 |
 | s_cc (Javascript) | 無 | 無 | 未設定 |
 | s_sq (Javascript) | 無 | 無 | 未設定 |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
