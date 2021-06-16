@@ -7,7 +7,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ### 我應選擇哪個組織？
 
-如果報表套裝上已部署Experience CloudID服務，請確認您在報表套裝對應工具中選取的組織與網站上[!DNL visitorAPI.js]檔案中指定的組織相同。 您可以透過[測試及驗證 Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)中的指示，尋找訪客 ID 服務所使用的組織 ID。
+如果報表套裝上已部署Experience CloudID服務，請確認您在報表套裝對應工具中選取的組織與網站上[!DNL visitorAPI.js]檔案中指定的組織相同。 您可以透過[測試及驗證 Experience Cloud ID 服務](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html)中的指示，尋找訪客 ID 服務所使用的組織 ID。
 
 請確定您的部署符合您在報表套裝對應工具中選擇的組織。
 
