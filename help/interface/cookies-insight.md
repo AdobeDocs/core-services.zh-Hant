@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 61%
+source-wordcount: '95'
+ht-degree: 63%
 
 ---
 
@@ -29,3 +29,5 @@ Data Workbench使用Cookie來即時分析快速變遷的大量資料。
 | 使用方式 | 該 Cookie 用於識別不重複訪客。 |
 | 位置 | 此 Cookie 儲存在頁面的網域中。 |
 | 大小 | 8 位元組，若包含「name =」部分 (v1st=)，則為 13 位元組 |
+
+{style=&quot;table-layout:auto&quot;}
