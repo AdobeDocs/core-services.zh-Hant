@@ -105,6 +105,6 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2014 年 5 月 22 日**
 
-新增「受眾」的文件
+新增 Audiences 的文件
 
-請參閱[受眾](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+請參閱「[Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)」
