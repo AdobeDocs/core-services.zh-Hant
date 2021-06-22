@@ -9,7 +9,7 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4199'
 ht-degree: 89%
@@ -416,7 +416,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 **已知問題**
 
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
-* 有些使用者無法從PDF建立資訊卡並將資訊卡共用至展示板。
+* 有些使用者無法從PDF建立資訊卡並將其共用至展示板。
 * 有些使用者無法將資產上傳至展示板。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
