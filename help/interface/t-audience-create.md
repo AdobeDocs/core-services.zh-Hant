@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 94%
 * 從[發佈](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區段衍生出的 Chrome 和 Safari 使用者。
 
    ![](assets/audience_create.png)
+
+**建立受眾的方式**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，按一下 **[!UICONTROL People]** > **[!UICONTROL 受眾程式庫]。**
 1. 在[!UICONTROL 受眾]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。![](assets/add_icon_small.png)
