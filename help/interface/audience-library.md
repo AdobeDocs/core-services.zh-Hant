@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 | 相關協助 | 資源 |
 |--- |--- |
-| 找不到受眾？ | 請確定您已佈建。請參閱[快速入門 - 啟用核心服務的解決方案](core-services.md)。<br>按一下[此處](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)，申請存取設定檔與受眾 (整合佈建表單)。 |
+| 找不到受眾？ | 請確定您已佈建。請參閱[快速入門 - 啟用核心服務的解決方案](core-services.md)。<br>請前 [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) 往這裡，申請存取設定檔與對象（整合布建表單）。 |
 | 使用個案 | 如需使用何種解決方案的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 論壇 | [受眾論壇](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是可取得受眾說明的其他資源。 |
 
