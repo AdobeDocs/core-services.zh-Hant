@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 95%
 
 **建立受眾的方式**
 
-1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，按一下 **[!UICONTROL People]** > **[!UICONTROL 受眾程式庫]。**
-1. 在[!UICONTROL 受眾]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。![](assets/add_icon_small.png)
+1. 在[!DNL Experience Cloud]的[!DNL Experience Platform]下，選擇&#x200B;**[!UICONTROL People]** > **[!UICONTROL Audience Library]。**
+1. 在[!UICONTROL Audiences]頁面上，選取&#x200B;**[!UICONTROL New]**。 ![](assets/add_icon_small.png)
 
    ![步驟結果](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 
    * **[!UICONTROL Experience Cloud：]**&#x200B;從 [!DNL Experience Cloud] 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的受眾區段資料，或是 [!DNL Audience Manager] 中的資料。
 
-1. 定義受眾規則，然後按一下&#x200B;**[!UICONTROL 儲存]。**
+1. 定義對象規則，然後選取&#x200B;**[!UICONTROL 儲存]。**
 
 >[!NOTE]
 >
