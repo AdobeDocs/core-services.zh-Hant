@@ -1,8 +1,8 @@
 ---
-source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 95%
+ht-degree: 87%
 
 ---
 # 貢獻文章
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 ### 微幅變更
 
-若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的&#x200B;**編輯**&#x200B;連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+如果您出於好意想貢獻微幅更新內容，請造訪文章，並選取文章中的&#x200B;**Edit**&#x200B;連結，該連結會前往文章的GitHub來源。 然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
