@@ -8,10 +8,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
-workflow-type: ht
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -53,7 +53,7 @@ Experience Cloud 資產提供單一的集中存放庫，內含您可跨解決方
 
 ## 存取工具列 {#section_EC2E401D225148818F3753248556BE6B}
 
-導覽至所需資產 (或資產目錄)，然後按一下&#x200B;**[!UICONTROL 選取]**。
+導覽至資產（或資產目錄），然後選取&#x200B;**[!UICONTROL 選取]**。
 
 工具列可讓您快速存取功能，包括搜尋、時間軸、轉譯、編輯、加上注釋和下載。
 
@@ -77,13 +77,13 @@ Experience Cloud 資產提供單一的集中存放庫，內含您可跨解決方
 
 ## 為資產加上注釋 {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-按一下「**[!UICONTROL 注釋]**」，在影像上畫圓或箭頭，以及在資產上加入注釋，以供同事檢閱。
+選取「**[!UICONTROL 注釋]**」，在影像上畫圓或箭頭，以及在資產上加上注釋，供同事檢閱。
 
 ![](assets/assets-annotate.png)
 
 ## 以全螢幕檢視資產並縮放 {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-按一下「**[!UICONTROL 檢視]** > **[!UICONTROL 影像]**」可檢視完整資產影像並啟用縮放。
+選取「**[!UICONTROL 檢視]** > **[!UICONTROL 影像]**」以檢視完整資產影像並啟用縮放。
 
 ![](assets/asset-zoom.png)
 
@@ -91,7 +91,7 @@ Experience Cloud 資產提供單一的集中存放庫，內含您可跨解決方
 
 使用屬性、清單檢視及欄檢視在卡片檢視之間選擇，更輕鬆地找到您的資產。
 
-按一下&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 屬性]**&#x200B;以檢視資產屬性：
+選取&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 屬性]**&#x200B;以檢視資產的屬性：
 
 ![](assets/asset-properties.png)
 
@@ -99,6 +99,6 @@ Experience Cloud 資產提供單一的集中存放庫，內含您可跨解決方
 
 可查看使用者人數、已使用的儲存空間，以及資產總計。
 
-按一下&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 報表]** > **[!UICONTROL 使用情況報表]**
+選擇&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 報表]** > **[!UICONTROL 使用情況報表]**
 
 ![](assets/assets-usage-report.png)
