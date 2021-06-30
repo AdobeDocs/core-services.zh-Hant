@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '4199'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)。
+如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
 ## 2021年6月
 
@@ -296,7 +296,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟用 </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">啟用</a>現在顯示在 <span class="keyword">Experience Cloud</span> 的左側導覽器中。<span class="wintitle"> </span> Activation是Experience  <span class="keyword"> Cloud</span> 服務，目前由動態標籤管理技術組成，只要按一下，系統就會將您導向過去。 </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">啟用</a>現在顯示在 <span class="keyword">Experience Cloud</span> 的左側導覽器中。<span class="wintitle"> </span> Activation是Experience  <span class="keyword"> Cloud</span> 服務，目前由動態標籤管理技術組成，當您選取時會將您導向過去。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>文件更新 - 核心服務 </p> </td> 
@@ -384,7 +384,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
    <td colname="col1"> <p>編輯使用者權限 </p> </td> 
    <td colname="col2"> <p>展示板的擁有者現在可以編輯特定展示板的使用者權限。 </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">在展示板上，按一下<span class="uicontrol">「設定」</span>。 </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">在展示板上，選擇<span class="uicontrol">設定</span>。 </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">在每一個擁有者旁，指定<span class="uicontrol">「擁有者」</span>、<span class="uicontrol">「檢視者」</span>或<span class="uicontrol">「編輯者」</span>。 </li> 
      </ol> </p> </td> 
   </tr> 
@@ -555,7 +555,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 * [!DNL Experience Cloud] 未連結至 [!DNL Adobe Target]。如果可在多個 [!DNL Adobe Target] 伺服器上使用 [!DNL Target] 登入，則會發生此問題。
 * 在 [!DNL Adobe Media Optimizer] 中建立使用者後，[!DNL Experience Cloud] 不會自動建立使用者。
 * 輸入時，組合方塊中用於新增使用者的選項會暫時消失。
-* 無法點按資產資訊卡檢視上的「註解」連結。
+* 無法選取資產卡片檢視上的「註解」連結。
 * 將自訂標籤新增至資產後，其他中繼資料變更不會持續存在。
 * 刪除影像時，如果該影像用於 Adobe Target Essentials，則資產不會發出警告。
 * 多名使用者同時使用 [!UICONTROL Experience Cloud] 介面時，會導致介面效能下降。
@@ -582,9 +582,9 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
    <td colname="col1"> <p>從說明主題建立資訊卡 </p> </td> 
    <td colname="col2"> <p>在瀏覽器的「書籤」工具列中啟用「共用至 Adobe Experience Cloud」功能後，您現在可以從微網站 URL 共用說明頁面。 </p> <p> <b>共用說明主題的方式</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>在 <span class="keyword">Experience Cloud</span> 中，按一下<span class="uicontrol">「管理」</span>。 </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>在<span class="keyword">Experience Cloud</span>中，選擇<span class="uicontrol">管理</span>。 </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>將<span class="uicontrol">「共用至 Adobe Experience Cloud」</span>按鈕拖曳至「書籤」工具列。 </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>導覽至說明頁面 (或停留在此頁面)，然後按一下瀏覽器「書籤」工具列的<span class="uicontrol">「共用至 Adobe Experience Cloud」</span>。 </p> <p>此步驟會建立一張卡片，供您在 <span class="wintitle">Experience Cloud</span> 中檢視。 </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>導覽至說明頁面（或停留在此頁面），然後在瀏覽器的書籤工具列中選取<span class="uicontrol">共用至Adobe Experience Cloud</span> 。 </p> <p>此步驟會建立一張卡片，供您在 <span class="wintitle">Experience Cloud</span> 中檢視。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -598,7 +598,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 刪除影像時，如果該影像用於 [!UICONTROL ，則]資產[!DNL Adobe Target Essentials]不會發出警告。
-* 無法點按資產資訊卡檢視上的「註解」連結。
+* 無法選取資產卡片檢視上的「註解」連結。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
 * 登入 [!DNL Experience Cloud] 所需的時間超過一秒。
 * 自 [!DNL Media Optimizer] 共用的資料在 [!DNL Experience Cloud] 中的呈現方式有誤。
@@ -631,7 +631,7 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 * 使用者必須先登出再登入，才能讓所有權限變更生效。
 * 若未於登入期間選取 *`Remember me`*，系統會在 15 分鐘後將使用者登出。
 * [!DNL Analytics] 解決方案登陸頁面會顯示格式設定錯誤。
-* 無法點按資產卡片檢視上的「註解」連結。
+* 無法選取資產卡片檢視上的「註解」連結。
 * 多名使用者同時使用 Experience Cloud 介面時，可能會導致介面速度變慢。
 * 如果 [!DNL Adobe Target] 登入資訊可用於多個 Target 伺服器，則無法將 Experience Cloud 連結到 [!DNL Adobe Target]
 * 登入 Experience Cloud 所需的時間超過一秒。
@@ -675,5 +675,5 @@ Experience Cloud中央介面元件的功能、發行說明和已知問題。
 
 * 修正分享的 [!DNL Analytics] 報表無法套用區隔篩選器的問題。
 * 修正在並未連結解決方案帳戶的情況下，解決方案在[!UICONTROL 「Experience Cloud 解決方案」]頁面上卻顯示為已連結的問題。
-* 修正 [!DNL Adobe Target] 亞洲客戶無法點按連結頁面上&#x200B;**[!UICONTROL 「繼續前往 Experience Cloud」]**&#x200B;按鈕的問題。
+* 修正亞洲客戶無法在連結頁面上選取&#x200B;**[!UICONTROL 繼續Experience Cloud]**&#x200B;按鈕的問題。[!DNL Adobe Target]
 * 修正無法分享 Youtube 影片的問題。
