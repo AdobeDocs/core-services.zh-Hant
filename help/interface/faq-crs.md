@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics和Adobe Target中[!UICONTROL 客戶屬性]的常見問題和最�
 | **(僅限 Adobe Target)**[!UICONTROL  客戶屬性功能與 Adobe Target 的大量設定檔 API 有何不同？] | 大量設定檔 API 可以透過 API 以個別或大量的方式直接更新 Adobe Target 設定檔。此功能與客戶屬性類似，主要差異如下：<ul><li>設定檔 API 是一種 REST API 呼叫，而客戶屬性會使用 FTP。</li><li>Adobe Target 的設定檔 API 只會將資料傳送至 Adobe Target，而非整個 Experience Cloud。</li><li>客戶屬性提供簡單的介面，可建立和管理此外部資料。</li></ul> |
 | **(僅限 Adobe Target)** 以客戶屬性將資料上傳至 Adobe Target 是否會延長 Adobe Target 訪客的設定檔存留期？ | 是。請參閱 Adobe Target 說明中的[訪客設定檔存留期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en)。 |
 | **(僅限 Adobe Target)** 我是否可在透過客戶 ID 識別訪客後，立即鎖定客戶屬性所上傳的資料？ | 可以。在對Adobe Target的伺服器呼叫（包括mbox協力廠商ID）上，所有客戶屬性資料皆可用。 |
-| **(僅限Adobe Target)** 對於在客戶屬 **[!UICONTROL 性]** 來源中上傳的檔案，同步狀態欄代表什麼？ | 對特定屬性檔案按一下「同步狀態」圖示，即可檢視 Adobe Target 所發佈和同步的記錄數。`Sync %` 是即時量度，指定已在Adobe Target中同步的設定檔百分比。<br> **注意：**&#x200B;與 Adobe Target 同步屬性可能需花費最多 24 小時。 |
+| **(僅限Adobe Target)** 對於在客戶屬 **[!UICONTROL 性]** 來源中上傳的檔案，同步狀態欄代表什麼？ | 您可以針對特定屬性檔案選取「同步狀態」圖示，以檢視Adobe Target發佈和同步的記錄數。 `Sync %` 是即時量度，指定已在Adobe Target中同步的設定檔百分比。<br> **注意：**&#x200B;與 Adobe Target 同步屬性可能需花費最多 24 小時。 |
 | 「客戶屬性來源」中的檔案上傳量度代表什麼？ | 在下列量度的協助下，您可以檢查已上傳至「客戶屬性」的屬性之狀態： <ul><li>記錄數：屬性檔案中的記錄數。</li><li>**新記錄數：**&#x200B;屬性檔案中存在的新記錄數。</li> <li>**更新記錄數：** 客戶屬性中存在且檔案中有更新值的記錄數。</li><li>**所有資料 (記錄) 數：**&#x200B;已成功上傳至客戶屬性的記錄總數。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
