@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
-workflow-type: ht
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,5 +20,5 @@ ht-degree: 100%
 
 1. 啟用共用。
 1. 啟動 [!DNL Creative Cloud] 桌面，導覽至&#x200B;[!UICONTROL **「資產」**]。
-1. 按一下&#x200B;**[!UICONTROL 開啟資料夾]。**
+1. 選擇&#x200B;**[!UICONTROL 開啟資料夾]。**
 1. 使用作業系統的檔案瀏覽器選取或移除資產。
