@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 75%
 >
 >建立、修改或刪除客戶屬性來源時，會延遲最多一小時，之後ID就會開始與新資料來源同步。 您必須在Audience Manager中擁有管理權限，才能建立或修改客戶屬性來源。 連絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
 
-1. 在 [!DNL Experience Cloud] 中，按一下功能表 ![](assets/menu-icon.png) 圖示。
-1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**。
+1. 在[!DNL Experience Cloud]中，選擇菜單![](assets/menu-icon.png)表徵圖。
+1. 在&#x200B;**[!DNL Experience Platform]**&#x200B;下，選擇&#x200B;**[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
    ![步驟結果](assets/03_crs_usecase.png)
-1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
+1. 選擇&#x200B;**[!UICONTROL 新建]**。
 
    ![步驟結果](assets/04_crs_usecase.png)
 1. 在[!UICONTROL 「編輯客戶屬性來源」]頁面，設定以下欄位：
@@ -153,7 +153,7 @@ ht-degree: 75%
 
 **啟動屬性來源**
 
-在[!UICONTROL 「建立新[或編輯]客戶屬性來源頁面」]上，找到[!UICONTROL 「啟動」]標題，然後按一下&#x200B;**[!UICONTROL 「啟用」]**。
+在[!UICONTROL 新建[或編輯]客戶屬性源]頁面上，找到[!UICONTROL 激活]標題，然後選擇&#x200B;**[!UICONTROL 活動]**。
 
 ![步驟結果](assets/activate_attribute_source.png)
 
