@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 95%
+ht-degree: 62%
 
 ---
 
@@ -20,34 +20,34 @@ ht-degree: 95%
 
 與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
 
-1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至 Creative Cloud]**。
+1. 在「資產」資料夾中，選取「共用至Creative Cloud」]**。**[!UICONTROL 
 
    ![步驟結果](assets/asset-share-cc.png)
-1. 在共用至 Creative Cloud 頁面上搜尋使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 在「共用到Creative Cloud」頁上，搜索用戶，然後選擇&#x200B;**[!UICONTROL 添加]**。
 
    ![](assets/asset-share-cc-page.png)
 
-1. 按一下&#x200B;**[!UICONTROL 共用]**。
+1. 選擇&#x200B;**[!UICONTROL 共用]**。
 1. 啟動 [!DNL Creative Cloud] 桌面 (或在瀏覽器中導覽至 [!UICONTROL Creative Cloud「檔案」]頁面)，然後尋找要求通知。
 
    ![](assets/cc_share_request.png)
-1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
+1. 開啟請求，然後選擇&#x200B;**[!UICONTROL Accept]**。
 
    ![步驟結果](assets/cc_share_accept.png)
-1. 若要存取資料夾內容，按一下&#x200B;**[!UICONTROL 開啟資料夾]** (或&#x200B;**[!UICONTROL 在網頁上檢視]**)。
+1. 要訪問資料夾內容，請選擇&#x200B;**[!UICONTROL 開啟資料夾]**（或&#x200B;**[!UICONTROL 在Web上查看]**）。
 
    ![步驟結果](assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
 
-   在 Creative Cloud 中，您可以在影像中按一下，然後按&#x200B;**[!UICONTROL 「活動」]**&#x200B;在影像上新增註解。註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
+   在「Creative Cloud」中，您可以選取影像，然後選取&#x200B;**[!UICONTROL Activity]**&#x200B;以在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
 
    ![](assets/asset_comment_cc.png)
 
-   在 Experience Cloud 中，按一下影像，然後按一下時間線圖示，即可在影像上新增註解。註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
+   在Experience Cloud中，選取影像中，然後選取時間線圖示以在影像上新增註解。 註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
 
    ![](assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下&#x200B;**[!UICONTROL 「使用 Creative Cloud 共用」]**(類似[步驟 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996))，按一下「X」來移除使用者，然後按一下&#x200B;**[!UICONTROL 「共用」]**。
+1. 若要取消共用資料夾，請選取「使用Creative Cloud共用」]**（類似於[步驟3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)），然後選取「X」來移除使用者，然後選取「**[!UICONTROL &#x200B;共用&#x200B;]**」。**[!UICONTROL 
 
 ![](assets/asset_remove_user.png)
 
