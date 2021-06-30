@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 **組織 ID**&#x200B;是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。
 
-若要檢視組織 ID，請導覽至 Experience Cloud 登陸頁面，或按一下 ( ![](assets/menu-icon.png))，然後按一下&#x200B;**[!UICONTROL 管理]**。您可以在 [!UICONTROL Experience Cloud 快速入門]頁面底部或[!UICONTROL 管理]頁面找到組織 ID。
+若要檢視組織ID，請導覽至Experience Cloud登陸頁面，或選取(![](assets/menu-icon.png))，然後選取&#x200B;**[!UICONTROL 管理]**。 您可以在 [!UICONTROL Experience Cloud 快速入門]頁面底部或[!UICONTROL 管理]頁面找到組織 ID。
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ ht-degree: 100%
 
 1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
-1. 按一下解決方案選擇器。( ![](assets/menu-icon.png))。
+1. 選取解決方案選取器。(![](assets/menu-icon.png))。
 
    ![](assets/solutions-active.png)
 
    系統會將您有權存取的解決方案標上顏色。
-1. 按一下所需的解決方案。
+1. 選取所需的解決方案。
 
    ![](assets/analytics-link-accounts.png)
 
    如果您隸屬於適用的群組 (且具備解決方案權限)，但尚未將帳戶憑證連結至 Adobe ID，系統就會顯示這類訊息。
-1. 按一下&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的認證。
+1. 選擇&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的憑證。
 
 ## 指定預設機構和登陸頁面 {#concept_6A191B42A9874A9780882903BA18F071}
 
 您可指定在登入時使用的預設組織和登陸頁面。
 
-在您的個人資料中，按一下&#x200B;**[!UICONTROL 編輯個人資料]**。
+在配置檔案中，選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
 
 ![](assets/edit-profile.png)
 
@@ -72,5 +72,5 @@ ht-degree: 100%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在問題待解決之際，您仍可使用標準登入存取解決方案。
