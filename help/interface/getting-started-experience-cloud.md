@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 83%
+ht-degree: 74%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 83%
 
 登入並確認您隸屬於正確的[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
-1. 按一下 Experience Cloud 功能表 (![](assets/menu-icon.png))，然後再按一下&#x200B;**[!UICONTROL 「管理」]**。
+1. 選擇Experience Cloud菜單(![](assets/menu-icon.png))，然後選擇&#x200B;**[!UICONTROL 管理]**。
 
    如果未顯示&#x200B;**[!UICONTROL 「管理」]**&#x200B;連結，則表示您並非所顯示之[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理員。 如需建立管理員身分方面的相關協助，請連絡客戶服務或貴公司目前的 Experience Cloud 管理員。
-1. 按一下&#x200B;**[!UICONTROL 管理]**。
+1. 選擇&#x200B;**[!UICONTROL 管理]**。
 
-1. 按一下下列任一連結以繼續操作：
+1. 選取下列其中一個連結以繼續：
 
 | 元素 | 說明 |
 |--- |--- |
@@ -56,11 +56,11 @@ ht-degree: 83%
 
 
 1. 導覽至 [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com])。
-1. 按一下&#x200B;**[!UICONTROL 使用 Adobe ID 登入]**。
+1. 選擇&#x200B;**[!UICONTROL 使用Adobe ID登錄]**。
 
    Experience Cloud 管理員可能會協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
 
-1. 在您的登陸頁面上，按一下選擇器圖示 ![](assets/menu-icon.png) 以使用下拉式功能表。
+1. 在您的登陸頁面上，選取選取器圖示![](assets/menu-icon.png)以存取下拉式功能表。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -70,19 +70,19 @@ ht-degree: 83%
 
 您可以編輯個人詳細資料，並指定預設的[組織](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)，以及登入 Experience Cloud 後顯示的登陸頁面。
 
-1. 登入 Experience Cloud，然後按一下您的個人資料圖示。
+1. 登入Experience Cloud，然後選取您的設定檔圖示。
 
    ![](assets/edit-profile.png)
-1. 按一下&#x200B;**[!UICONTROL 編輯個人資料]**。
+1. 選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
 
    ![](assets/default-organization.png)
-1. 繼續設定及編輯個人資料，然後按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 繼續配置和編輯個人資訊，然後選擇&#x200B;**[!UICONTROL 保存更改]**。
 
 ## 啟用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。 您也可以指定要接收哪些產品和解決方案的通知，包括客戶屬性的上傳狀態。
 
-若要導覽至通知，請按一下&#x200B;**[!UICONTROL 通知]**&#x200B;圖示 ![](assets/notifications-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示 ![](assets/icon_edit_board.png)。
+若要導覽至通知，請選取&#x200B;**[!UICONTROL 通知]**&#x200B;圖示![](assets/notifications-icon.png)，然後選取&#x200B;**[!UICONTROL 設定]**&#x200B;圖示![](assets/icon_edit_board.png)。
 
 您可以根據對您而言重要的訊息類型來排序通知，也可搜尋通知。 您也可以：
 
@@ -115,17 +115,17 @@ ht-degree: 83%
 
 1. 登入 Experience Cloud。
 
-1. 在 Experience Cloud 上按一下您的個人資料照片。
+1. 在Experience Cloud上，選取您的個人資料圖片。
 
    ![](assets/edit-profile.png)
-1. 按一下&#x200B;**[!UICONTROL 編輯個人資料]**。
+1. 選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
 
    在「設定檔與密碼」頁面上，填寫「個人詳細資訊」底下的欄位與選項。
 
 ## 復原您的密碼 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. 瀏覽至解決方案的登入頁面。
-1. 按一下&#x200B;**[!UICONTROL 忘記密碼]**。
+1. 選擇&#x200B;**[!UICONTROL 忘記密碼]**。
 
    重設解決方案密碼應該能解決 Experience Cloud 帳戶的密碼連結問題。
 
