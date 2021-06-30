@@ -9,10 +9,10 @@ topic: 管理
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
    ![](assets/admin-tool.png)
 
-1. 在[!UICONTROL 「快速存取」]中按一下&#x200B;**[!UICONTROL 「管理工具」]**
+1. 在[!UICONTROL 快速訪問]下，選擇&#x200B;**[!UICONTROL 管理工具。]**
 
    (或者，您可以將首頁 URL 中的 _home_ 取代為 _admin_。)
 
@@ -42,7 +42,7 @@ ht-degree: 87%
 
 | 元素 | 說明 |
 |---|---|
-| [!UICONTROL 名稱] | 使用者的名字和姓氏。您可以將此欄由 A 到 Z 和 Z 到 A 排序。按一下使用者名稱即可查看有關該使用者的詳細資訊。 |
+| [!UICONTROL 名稱] | 使用者的名字和姓氏。您可以將此欄從A到Z、Z到A排序。選取使用者名稱，即可查看有關該使用者的詳細資訊。 |
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 解決方案摘要。您可以套用篩選器，依特定解決方案存取權縮小使用者清單的範圍。 |
@@ -54,7 +54,7 @@ ht-degree: 87%
 
 * 依名稱或電子郵件搜尋使用者。搜尋會比對您輸入的文字字串。
 * 依遞增或遞減值排序欄。此排序適用於[!UICONTROL Name、] [!UICONTROL Email、]和[!UICONTROL Last Login]列。
-* 若要套用多個篩選器以列出具有特定條件的使用者，請按一下「篩選依據&#x200B;]**」圖示。**[!UICONTROL &#x200B;套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
+* 若要套用多個篩選器以列出具有特定條件的使用者，請選取「篩選依據&#x200B;]**」圖示。**[!UICONTROL &#x200B;套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
 
 | 元素 | 說明 |
 |---------|----------|
@@ -64,7 +64,7 @@ ht-degree: 87%
 
 ## 檢視使用者詳細資訊
 
-在[!UICONTROL 使用者]頁面上，若要檢視使用者的詳細資訊，請按一下使用者的電子郵件。
+在[!UICONTROL 使用者]頁面上，若要檢視使用者的詳細資訊，請選取使用者的電子郵件。
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 
 | 元素 | 說明 |
 |---|---|
-| [!UICONTROL 產品設定檔] | 產品設定檔的名稱。欄可以按A->Z、Z->A排序。若要查看有關策略的詳細資訊，請按一下產品配置檔案的名稱。 |
+| [!UICONTROL 產品設定檔] | 產品設定檔的名稱。欄可以按A->Z、Z->A排序。若要查看有關策略的詳細資訊，請選擇產品配置檔案的名稱。 |
 | [!UICONTROL 產品] | 與產品設定檔相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 例項] | 與產品設定檔相關聯的例項（例如租用戶或登入公司）。 沒有唯一例項或租用戶的產品會針對值顯示「 — 」。 欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 使用者人數] | 與產品設定檔相關聯的不重複使用者人數，包括直接指派和群組指派。欄可以按最小值到最大值或最大值到最小值排序。 |
@@ -118,7 +118,7 @@ ht-degree: 87%
 
 * 依名稱搜尋產品設定檔。搜尋會比對您輸入的文字字串。
 * 依遞增或遞減值排序欄。此排序適用於[!UICONTROL 產品設定檔，] [!UICONTROL 產品，] [!UICONTROL 實例，] [!UICONTROL 用戶數，]和[!UICONTROL 開發人員數，]列。
-* 按一下&#x200B;**[!UICONTROL 「篩選條件」]**&#x200B;圖示，套用多個篩選器以列出具有特定條件的產品設定檔。套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
+* 選取「篩選依據」圖示，套用多個篩選器以列出具有特定條件的產品設定檔。 ****&#x200B;套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
 |---------|----------|
@@ -127,7 +127,7 @@ ht-degree: 87%
 
 ## 檢視原則詳細資訊
 
-在[!UICONTROL 「原則」]頁面上，若要檢視原則的詳細資訊，請按一下產品設定檔名稱。
+在[!UICONTROL Policys]頁上，要查看策略的詳細資訊，請選擇產品配置檔案名稱。
 
 ![](assets/admin-tool-policy-detail.png)
 
