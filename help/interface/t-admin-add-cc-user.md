@@ -6,19 +6,19 @@ title: '管理 Creative Cloud 使用者 '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: Assets
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # 管理 Creative Cloud 使用者
 
-Experience Cloud 提供管理工具，可管理已核准 Creative Cloud 使用者。這些使用者可臨機受邀加入促銷活動資料夾。只有管理員已新增至清單的使用者，才能受邀加入促銷活動。新增的使用者會顯示在Experience Cloud的自動完成使用者清單中。
+Experience Cloud 提供管理工具，可管理已核准 Creative Cloud 使用者。這些使用者可臨機受邀加入促銷活動資料夾。只有管理員已新增至清單的使用者，才能受邀加入促銷活動。新增的使用者會顯示在 Experience Cloud 的自動完成使用者清單。
 
 >[!NOTE]
 >
