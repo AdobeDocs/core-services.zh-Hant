@@ -1,24 +1,24 @@
 ---
-description: 了解ID服務在各Experience Cloud應用程式中的儲存與使用方式。
+description: 了解 ID 服務如何在 Experience Cloud 應用程式間儲存和使用。
 keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Cookie{#experience-cloud-cookies}
 
-Adobe Experience Cloud使用cookie來儲存跨Experience Cloud應用程式使用的訪客ID。
+Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 應用程式所使用的訪客 ID。
 
 **Cookie 名稱：s_ecid**
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud使用cookie來儲存跨Experience Cloud應用程式使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> 位置 </p> </td> 
-   <td colname="col2"> <p>僅限 CNAME 客戶。不適用於第三方情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 </p> </td> 
+   <td colname="col2"> <p>僅限 CNAME 客戶。不適用於協力廠商情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 大小 </p> </td> 
@@ -52,7 +52,7 @@ Adobe Experience Cloud使用cookie來儲存跨Experience Cloud應用程式使用
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是Chrome中Cookie的新預設值。</p> </td> 
+   <td colname="col2"> <p>唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是 Chrome 對 Cookie 的新預設值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloud使用cookie來儲存跨Experience Cloud應用程式使用
 
 [Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en)。
+另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -92,8 +92,8 @@ Adobe Experience Cloud使用cookie來儲存跨Experience Cloud應用程式使用
    <td colname="col2"> <p> 視情況而異，大部分客戶可預期此 Cookie 的長度約為 200 位元組。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>未增加值。Chrome預設為Lax。 </p> </td> 
-   <td colname="col2"> <p> 唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是Chrome中Cookie的新預設值。 </p> </td> 
+   <td colname="col1"> <p>未增加值。Chrome 預設為 Lax。 </p> </td> 
+   <td colname="col2"> <p> 唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是 Chrome 對 Cookie 的新預設值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
