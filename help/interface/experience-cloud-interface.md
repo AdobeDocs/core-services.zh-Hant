@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: 'Experience Cloud 中央 UI 元件 '
 feature: 「中央介面元件」
 topic: 管理
-role: Administrator, User
+role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 88%
@@ -77,7 +77,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 |--- |--- |
 | 預設[組織](organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
 | [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 您的電子郵件中的「[!UICONTROL 通知]」快顯視窗中的通知。 |
-| [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標籤標記，而且可以設定為像警示一樣遞送。 |
+| [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標記標記，而且可以設定為像警示一樣遞送。 |
 | [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
 | 電子郵件 | 指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。) |
 
