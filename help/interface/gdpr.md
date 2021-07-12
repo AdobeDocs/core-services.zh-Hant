@@ -3,19 +3,19 @@ title: '一般資料保護規範的客戶屬性支援 '
 description: 了解一般資料保護規範的客戶屬性支援
 feature: 客戶屬性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # 一般資料保護規範的客戶屬性支援
 
-本頁說明[!UICONTROL 客戶屬性]如何支援一般資料保護規範(GDPR)。
+本頁面旨在說明[!UICONTROL 客戶屬性]如何支援一般資料保護規範 (GDPR)。
 
 >[!IMPORTANT]
 >
@@ -37,9 +37,9 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
 
    * IMS 組織 ID
    * 您要對其採取動作之 CRS 資料來源的別名 ID
-   * 您要對其採取動作之設定檔的 CRM ID
+   * 您要對其採取動作之個人資料的 CRM ID
 
-   IMS 組織 ID 是 24 個字元的英數字串，通常會加上 @AdobeOrg。如果您的行銷團隊或內部 Adobe 系統管理員不知道您組織的 IMS 組織 ID，請寄信至 gdprsupport@adobe.com 與 Adobe 客戶服務團隊連絡。您需要IMS組織ID才能將請求提交至隱私權API。
+   IMS 組織 ID 是 24 個字元的英數字串，通常會加上 @AdobeOrg。如果您的行銷團隊或內部 Adobe 系統管理員不知道您組織的 IMS 組織 ID，請寄信至 gdprsupport@adobe.com 與 Adobe 客戶服務團隊連絡。您需先取得 IMS 組織 ID，才能向隱私權 API 提交請求。
 
 1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
 
