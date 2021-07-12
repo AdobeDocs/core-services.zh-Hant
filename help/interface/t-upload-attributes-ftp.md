@@ -1,26 +1,26 @@
 ---
-description: 了解如何透過FTP將客戶屬性資料上傳至Experience Cloud。
+description: 了解如何透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
 keywords: 客戶屬性;核心服務
 solution: Experience Cloud
-title: '透過FTP上傳客戶屬性資料檔案 '
+title: '透過 FTP 上傳客戶屬性資料檔案 '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 客戶屬性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
 # 選用 - 透過 FTP 上傳資料檔案
 
-如果您不是以拖放方式上傳，可以透過FTP將客戶屬性資料上傳至Experience Cloud。
+如果您不是以拖放方式上傳，可以透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
 
-在Experience Cloud中建立客戶屬性來源和FTP帳戶後，即可上傳資料。 您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須為`.csv`格式，並附上第二個`.fin`檔案以指出上傳完成。
+在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，便可上傳資料。您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須是 `.csv` 格式，並另有一個 `.fin` 檔案用以指出上傳完成。
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ ht-degree: 66%
 您可以透過 FTP 或 SFTP 將檔案上傳至客戶屬性 FTP 站台：
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)所說明。
+* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hant)所說明。
 
 **透過 FTP 上傳資料檔案**
 
