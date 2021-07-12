@@ -6,13 +6,13 @@ title: 'Audience Manager Cookie '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。這些功能�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 設定此 Cookie 以指派唯一 ID 至網站訪客。<span class="wintitle"> demdex </span> Cookie可協助<span class="keyword"> Audience Manger </span>執行基本功能，例如訪客識別、ID同步、細分、模型、報表等。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 設定此 Cookie 以指派唯一 ID 至網站訪客。<span class="wintitle"> demdex</span> Cookie 可協助 <span class="keyword">Audience Manger</span> 執行基本功能，例如︰訪客身分識別、ID 同步化、分割、模型、報告等。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他屬性</b> </p> </td> 
@@ -129,7 +129,7 @@ dextp Cookie 資料語法：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hant" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
@@ -152,4 +152,4 @@ dextp Cookie 資料語法：
 
 **_dp Cookie**
 
-此Cookie為暫時性。 [!DNL Audience Manager] 嘗試設定 `_dp` Cookie，以確定其是否可以在第三方內容的 demdex.net 網域設定其他 Cookie。`_dp` 設定完成後，其內包含 1 的值。[!DNL Audience Manager] 讀取此值並立即移除該 Cookie。如果 `_dp` Cookie 不存在，則 [!DNL Audience Manager] 會知道不能設定 Cookie。
+此 cookie 為暫時性。[!DNL Audience Manager] 嘗試設定 `_dp` Cookie，以確定其是否可以在協力廠商內容的 demdex.net 網域設定其他 Cookie。`_dp` 設定完成後，其內包含 1 的值。[!DNL Audience Manager] 讀取此值並立即移除該 Cookie。如果 `_dp` Cookie 不存在，則 [!DNL Audience Manager] 會知道不能設定 Cookie。
