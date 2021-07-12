@@ -6,10 +6,10 @@ title: '組織和帳戶連結 '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 90%
@@ -62,7 +62,7 @@ ht-degree: 90%
 
 ![](assets/edit-profile.png)
 
-在「預設組織和著陸頁面」下方，您可以自訂登入體驗。
+在「預設組織和登陸頁面」下方，您可以自訂登入體驗。
 
 ![](assets/default-organization.png)
 
@@ -72,5 +72,5 @@ ht-degree: 90%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?support-solution=General#support)。
 * 在問題待解決之際，您仍可使用標準登入存取解決方案。
