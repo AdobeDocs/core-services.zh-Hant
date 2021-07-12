@@ -6,13 +6,13 @@ title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Scene7 會將資訊儲存在本機，以供某些舊版 AS2 Flash 檢視器使�
 
 針對 AS2 檢視器，Cookie 會：
 
-* 追蹤使用者的工作階段狀態，例如目前檢視的頁面和影像、目前的縮放等級等。
+* 追蹤使用者的工作階段狀態，例如目前檢視的頁面和影像、目前的縮放等級等等。
 * 確定自使用者上一個工作階段開始至今的時間。檢視器會使用這項資訊來決定是否繼續先前的工作階段或開始新的工作階段。這項資訊也會傳送至 Scene7 伺服器，但不會使用。
 
 針對 AS2 Flash eCatalog 檢視器，Cookie 會：
 
 * 儲存使用者產生的內容 (最明顯的是使用者在 eCatalog 檢視器的「註解」功能中輸入的內容)。當使用者繼續工作階段，此內容會還原。
-* 當使用者起始電子郵件以與其他使用者共用ecatalog時，來自第二個AS2檢視器項目符號的註解內容會複製到Adobe的伺服器，以提供給收件者。 收件者起始檢視器工作階段時，系統會從伺服器擷取註解內容並複製到 Cookie 中。此功能很少使用，因此不會過期，且不會移除過時內容。目前，它會無限期地在伺服器上持續存在。
+* 使用者啟動電子郵件供其他使用者共用 eCatalog 時，第二個 AS2 檢視器項目符號的註解內容會複製到我們的伺服器以提供給收件者。收件者起始檢視器工作階段時，系統會從伺服器擷取註解內容並複製到 Cookie 中。此功能很少使用，因此不會過期，且不會移除過時內容。目前，此功能會在伺服器上無限期地持續提供。
 
 較新的 AS3 檢視器不會實作工作階段持續性。
 
