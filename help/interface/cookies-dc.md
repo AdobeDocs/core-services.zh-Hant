@@ -6,19 +6,19 @@ title: 'Data Connectors Cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Data Connectors Cookie{#data-connectors-cookies}
 
-[!UICONTROL Data Connectors] 會普查Cookie，為廣告商提供跨多個廣告頻道最佳化的促銷活動和轉換效能量度。
+[!UICONTROL 資料連接器] 使用 Cookie 來將多個廣告頻道中最佳化的行銷活動和轉換效能量度提供給廣告商。
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
