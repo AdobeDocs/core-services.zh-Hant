@@ -4,13 +4,13 @@ title: '將報表套裝對應至組織 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1119'
-ht-degree: 64%
+ht-degree: 95%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 64%
 
 Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL People]) 與組織相關聯而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。對應程序：
 
-* 將Experience Cloud組織設為報表套裝的主要組織。
+* 將 Experience Cloud 組織設為報表套裝的主要組織。
 * 不會變更可以存取報表套裝的人員 (存取權仍由每個使用者的 Adobe Analytics 登入帳戶決定)
 
 ## 需求
 
-您必須是登入公司的 Analytics 管理員，才能存取您要對應的報表套裝。此外，此帳戶必須連結至Experience Cloud組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)，才能將報表套裝對應至該組織。[
+您必須是登入公司的 Analytics 管理員，才能存取您要對應的報表套裝。此外，此帳戶必須[連結至 Experience Cloud 組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)，才能將報表套裝對應至該組織。
 
 如果您沒有可存取特定報表套件組織的登入公司之 Analytics 管理員權限，組織一區則會顯示灰色。
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料管理]**」，導覽至「資料管理報表套裝」(請參閱[檢視/管理報表套裝的管理設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en))。
+1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料管理]**」，導覽至「資料管理報表套裝」(請參閱[檢視/管理報表套裝的管理設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=zh-Hant))。
 
 1. 若要查看可存取每個報表套裝的登入公司，請選取「登入公司可見&#x200B;****」。
 
@@ -63,29 +63,29 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ### 我應選擇哪個組織？
 
-如果報表套裝上已部署Experience CloudID服務，請確認您在報表套裝對應工具中選取的組織與網站上[!DNL visitorAPI.js]檔案中指定的組織相同。 您可以透過[測試及驗證 Experience Cloud ID 服務](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html)中的指示，尋找訪客 ID 服務所使用的組織 ID。
+如果報表套裝上目前已部署 Experience Cloud ID 服務，請確認您在報表套裝對應工具中所選的組織與您網站上 [!DNL visitorAPI.js] 檔案指定的組織相同。您可以透過[測試及驗證 Experience Cloud ID 服務](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html)中的指示，尋找訪客 ID 服務所使用的組織 ID。
 
-請確定您的部署符合您在報表套裝對應工具中選擇的組織。
+確定您的部署符合您在報告套裝工具中選擇的組織。
 
 ### 為什麼有些組織會變灰色？
 
-淘汰組織表示您沒有足夠的權限對應至反灰的報表套裝。 考量下列範例：
+組織呈灰色表示您沒有足夠的權限可對應至變成灰色的報表套裝。考量下列範例：
 
 ![](assets/rs-mapping.png)
 
 此圖表中，藍色圖例表示管理權限，灰線表示可見度。
 
-此使用者可存取兩個 Experience Cloud 組織。他們已執行下列作業：
+此使用者可存取兩個 Experience Cloud 組織。他們已執行以下步驟：
 
-* 將其[!UICONTROL chapek] Analytics登入公司中的管理員帳戶連結至其[!UICONTROL Chapek] CorpExperience Cloud組織帳戶。
-* 將其[!UICONTROL doohan] Analytics登入公司中的非管理員帳戶連結至其[!UICONTROL Chapek] CorpExperience Cloud組織帳戶。
-* 將其Analytics登入公司nigel的非管理員帳戶連結至Nigel IncExperience Cloud組織帳戶。
+* 已將他們在 Analytics 登入公司 [!UICONTROL Chapek] 的管理員帳戶連結至他們的 [!UICONTROL Chapek] Corp Experience Cloud 組織帳戶。
+* 已將他們在 Analytics 登入公司 [!UICONTROL doohan] 的非管理員帳戶連結至他們的 [!UICONTROL Chapek] Corp Experience Cloud 組織帳戶。
+* 已將他們在 nigel Analytics 登入公司的非管理員帳戶連結至他們的 Nigel Inc Experience Cloud 組織帳戶。
 
 以下幾點列出此使用者可以和無法針對這些報表套裝執行的的對應動作：
 
 * [!UICONTROL Chapek-prod] 報表套裝可以對應至 [!UICONTROL Chapek] Corp org，因為此使用者是連結 Analytics 登入公司 ([!UICONTROL chapek]) 的管理員，且其帳戶已連結至此組織。
-* [!UICONTROL 此使用] 者無法連結Nigel-prodreport套裝，因為他們並非任何可看到此報表套裝的登入公司的管理員。
-* [!UICONTROL Doohan-prod] 報表套裝可對應至 [!UICONTROL Chapek Corp]，因為此使用者是連結至 Experience Cloud 組織的登入公司 ([!UICONTROL chapek]) 之管理員 (請注意，他並非 doohan Analytics 登入公司的管理員)。請務必了解，即使此使用者無法執行該對應，[!UICONTROL doohan-prod]報表套裝也有資格對應至Nigel IncExperience Cloud組織。 在這種情況下，兩個 Experience Cloud 組織都會顯示在清單中，但 [!UICONTROL Nigel Inc] 會呈現灰色。進行對應之前，此使用者應洽詢 nigel 登入公司的管理員，判斷最適合對應的組織。如果您選取的組織與報表套裝最初建立時所在的組織不同，UI會顯示「可能衝突」警告。
+* 此使用者無法連結 [!UICONTROL Nigel-prod] 報表套裝，因為他們並非任何可看到此報表套裝的登入公司之管理員。
+* [!UICONTROL Doohan-prod] 報表套裝可對應至 [!UICONTROL Chapek Corp]，因為此使用者是連結至 Experience Cloud 組織的登入公司 ([!UICONTROL chapek]) 之管理員 (請注意，他並非 doohan Analytics 登入公司的管理員)。請務必注意，即使此使用者無法執該對應動作，[!UICONTROL doohan-prod] 報表套裝也有資格對應至 Nigel Inc Experience Cloud 組織。在這種情況下，兩個 Experience Cloud 組織都會顯示在清單中，但 [!UICONTROL Nigel Inc] 會呈現灰色。進行對應之前，此使用者應洽詢 nigel 登入公司的管理員，判斷最適合對應的組織。如果您選取的組織與報表套裝最初建立時所在的組織不同，UI 會顯示「可能衝突」警告。
 
 ## 常見問答 {#section_099E485805994C929FF9C9F75219BEE1}
 
@@ -95,19 +95,19 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ### 如果我不認識其中一個報表套裝的下拉式清單中列出的某些組織，該怎麼辦？
 
-清單會顯示您的報表套裝可對應的所有&#x200B;*可能*&#x200B;組織，即使您並未擁有這些報表套裝的權限。如果您不確定報表套裝是否應對應至清單中其中一個灰色的報表套裝，請洽詢貴組織的Experience Cloud管理員以決定最佳選擇。
+清單會顯示您的報表套裝可對應的所有&#x200B;*可能*&#x200B;組織，即使您並未擁有這些報表套裝的權限。如果您不確定報表套裝是否應對應至清單中其中一個灰色的報表套裝，請洽詢貴組織的 Experience Cloud 管理員以決定最佳選擇。
 
 ### 如果我不認識「只有登入公司能看見」欄中針對某個報表套裝列出的登入公司，該怎麼辦？
 
-某時，此報表套裝會與其他登入公司共用，而後者可能屬於不同的Experience Cloud組織。
+某種情況下此報表套裝曾與其他登入公司共用，而後者可能屬於不同的 Experience Cloud 組織。
 
 ### 其他組織所產生有關報表套裝的這個「可能衝突」錯誤是什麼？其重要性為何？
 
-此通知可協助您針對報表套裝對應做出明智的決策。 目的是要提醒您，此報表套裝原本是建立在不同組織底下，以防該組織更適合用於此報表套裝。
+此通知可協助您針對報表套裝對應做出明智的決策。目的是要提醒您，此報表套裝原本是建立在不同組織底下，以防該組織更適合用於此報表套裝。
 
 ### 如何知道報表套裝是否已對應？
 
-對應的報表套裝會以不可編輯的格式顯示。 如果您必須變更對應，請連絡客戶服務。
+已對應的報表套裝會以不可編輯的格式顯示。如果您必須變更對應，請聯絡客戶服務。
 
 ### 如果我只知道 Experience Cloud 組織的組織 ID 該怎麼辦？如何查詢組織 ID 的名稱？
 
