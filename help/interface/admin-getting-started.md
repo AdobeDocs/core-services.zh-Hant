@@ -5,10 +5,10 @@ solution: Admin
 index: true
 feature: Admin Console
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 95%
@@ -101,7 +101,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 1. 登入[Admin Console](https://adminconsole.adobe.com/enterprise)，然後選取&#x200B;**[!UICONTROL 產品]**。
 1. 在[!UICONTROL Products]頁面上，選擇您的產品，然後選擇&#x200B;**[!UICONTROL 權限]**（僅供管理員使用）。
-1. 設定設定檔的權限：
+1. 設定個人資料的權限：
 
 | 元素 | 說明 |
 |--- |--- |
@@ -130,7 +130,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 請參閱：
 
 * [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理產品和設定檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* [管理產品和個人資料](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
 * 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## 管理活動的產品描述檔、租用戶和安全性群組 {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -163,7 +163,7 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 
 ## Experience Cloud 中支援的瀏覽器
 
-* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
+* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
