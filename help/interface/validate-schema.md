@@ -1,24 +1,24 @@
 ---
-description: 了解如何驗證Adobe Experience Cloud中的客戶屬性結構。
+description: 了解如何驗證 Adobe Experience Cloud 中的客戶屬性結構。
 keywords: 客戶屬性;Experience Cloud 服務
 solution: Experience Cloud
 title: '如何驗證客戶屬性結構 '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: 客戶屬性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 驗證結構
 
-驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。系統會根據這些設定來建立結構。此結構用於驗證將來上傳至此資料來源的所有資料。映射過程不會更改原始資料。
+驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。系統會根據這些設定來建立結構。此結構用於驗證將來上傳至此資料來源的所有資料。這個對應程序不會更改原始資料。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 82%
 
    * **[!UICONTROL AVID (Analytics 訪客 ID)：]**&#x200B;顯示您是否使用 prop 或 eVar 上傳 CID。如果這些 ID 正傳遞至 Experience Cloud，則此處會顯示與您輸入的 CID 相關聯的所有訪客 ID。
 
-在Experience Cloud中建立客戶屬性來源和FTP帳戶後，您也可以透過FTP上傳資料。 您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須為`.csv`格式，並附上第二個`.fin`檔案以指出上傳完成。
+在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，您也可透過 FTP 上傳資料。您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須是 `.csv` 格式，並另有一個 `.fin` 檔案用以指出上傳完成。
 
 您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。
 
@@ -60,6 +60,6 @@ ht-degree: 82%
 
    * **數字：**&#x200B;最多可以有兩位小數。
 
-* **[!UICONTROL 顯示名稱：]**&#x200B;好記的屬性名稱。例如，您可以將屬性&#x200B;*客戶年齡*&#x200B;變更為&#x200B;*客戶自*。
+* **[!UICONTROL 顯示名稱：]**&#x200B;好記的屬性名稱。例如，您可能會將&#x200B;*客戶年齡*&#x200B;屬性變更為「*客戶加入時間*」。
 
 * **[!UICONTROL 說明：]**&#x200B;好記的屬性說明。
