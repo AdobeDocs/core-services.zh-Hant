@@ -1,31 +1,31 @@
 ---
-description: Data Workbench如何使用Cookie來即時分析快速變遷的大量資料。
+description: Data Workbench 如何使用 Cookie 來即時分析迅速變遷的大量資料。
 keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookie '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Data Workbench Cookie{#data-workbench-cookies}
 
-Data Workbench使用Cookie來即時分析快速變遷的大量資料。
+Data Workbench 會使用 Cookie 來即時分析迅速變遷的大量資料。
 
 **Cookie 名稱：v1st**
 
 | 屬性 | 說明 |
 |---|---|
 | 儲存的資訊 | 不重複訪客 ID 時間/日期戳記 |
-| 過期 | 此Cookie為永久性。 |
+| 過期 | 此 cookie 為永久性。 |
 | 使用方式 | 該 Cookie 用於識別不重複訪客。 |
 | 位置 | 此 Cookie 儲存在頁面的網域中。 |
 | 大小 | 8 位元組，若包含「name =」部分 (v1st=)，則為 13 位元組 |
