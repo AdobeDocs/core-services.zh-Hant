@@ -6,13 +6,13 @@ title: '共用 Experience Cloud 資產資料夾 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 62%
 更多使用共用資產的方法包括：
 
 * 在 [!UICONTROL  的]「資產選取器」[!DNL Adobe Social]中使用資產以用於社交貼文。
-* 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en)裡的資產。
+* 在 [!DNL Adobe Target] 中，為活動內的影像載入或調換[優惠方案庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)裡的資產。
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
@@ -64,6 +64,6 @@ ht-degree: 62%
 
 相關說明：
 
-* [Creative Cloud 說明 - 管理和同步檔案](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Creative Cloud 說明 - 與他人共同作業](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Creative Cloud 說明 - 共同作業常見問題集](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud 說明 - 管理和同步檔案](https://helpx.adobe.com/tw/creative-cloud/help/sync-creative-cloud-files.html)
+* [Creative Cloud 說明 - 與他人共同作業](https://helpx.adobe.com/tw/creative-cloud/help/collaboration.html)
+* [Creative Cloud 說明 - 共同作業常見問題集](https://helpx.adobe.com/tw/creative-cloud/help/collaboration-faq.html)
