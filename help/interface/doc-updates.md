@@ -6,13 +6,13 @@ title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: 客戶屬性
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 86%
 
 Experience Cloud 產品文件的更新資訊。
 
-**已更新：6/4/2021**
+**更新日期：2021 年 6 月 4 日**
 
-重新整理指南的結構、目錄。
+重組指南的結構，目錄。
 
-**已更新：6/1/2021**
+**更新日期：2021 年 6 月 1 日**
 
-更新[登錄頁面](experience-cloud.md)，提供存取Experience Cloud、全域搜尋、偏好設定和通知的新說明。
+已更新[登陸頁面](experience-cloud.md)及全新說明，以存取 Experience Cloud、全域搜尋、偏好設定和通知。
 
 **更新日期：2020 年 8 月 19 日**
 
@@ -34,7 +34,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2020 年 5 月 19 日**
 
-已棄用的Offer Management檔案。
+汰除的產品管理文件。
 
 **更新日期：2020 年 5 月 15 日**
 
@@ -53,7 +53,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2018 年 9 月 5 日**
 
-新增如何刪除客戶屬性。 請參閱 [(選用) 更新結構 (刪除屬性)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
+新增如何刪除客戶屬性。請參閱 [(選用) 更新結構 (刪除屬性)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C)。
 
 **更新日期：2018 年 6 月 8 日**
 
@@ -73,7 +73,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2017 年 3 月 15 日**
 
-更新[建立受眾](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)中原始 Analytics 資料的定義。
+更新[建立對象](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737)中原始 Analytics 資料的定義。
 
 **更新日期：2017 年 2 月 23 日**
 
@@ -89,7 +89,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2016 年 2 月 11 日**
 
-已新增 [Experience Cloud 資產](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
+已新增 [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0)。
 
 **更新日期：2015 年 3 月 2 日**
 
