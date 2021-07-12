@@ -6,17 +6,17 @@ title: 'Search 和 Promote Cookie '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: Cookie
 topic: 管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Search &amp; Promote Cookie{#search-and-promote-cookies}
+# Search 和 Promote Cookie{#search-and-promote-cookies}
 
 Search&amp;Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
 
