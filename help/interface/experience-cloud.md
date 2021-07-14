@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ac15aa02eded86f4f64191e22e7cafc4bb6258ad
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 93%
+source-wordcount: '918'
+ht-degree: 92%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 93%
 ![](assets/platform-search.png)
 
 >!![NOTE]
-全域搜尋僅適用於 Experience Platform 使用者。
+全域搜尋僅適用於Experience Platform和Journey Orchestration使用者。
 
 ## 管理帳戶偏好設定 {#preferences}
 
