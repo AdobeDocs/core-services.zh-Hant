@@ -8,20 +8,16 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '334'
 ht-degree: 84%
 
 ---
 
 # Experience Cloud 資產總覽
 
->[!NOTE]
->
->資產是舊有的核心服務，目前處於維護狀態。
-
-Experience Cloud 資產提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
+Experience Cloud Assets 提供單一的集中存放庫，內含您可跨解決方案共用的行銷資產。資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
 資產服務包括：
 
