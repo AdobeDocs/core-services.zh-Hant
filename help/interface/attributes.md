@@ -7,7 +7,7 @@ role: Admin
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
+source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # 客戶屬性總覽
 
-Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
+Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
 若要尋找此功能，請瀏覽至 **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**
 
