@@ -7,22 +7,18 @@ role: Admin
 topic: 管理
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 100%
 
 ---
 
 # 客戶屬性總覽
 
->[!IMPORTANT]
->
->[!UICONTROL 客戶屬性是舊有的服務，目前處於維護狀態。]
+Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
 
-[!UICONTROL  Experience Cloud 中的客戶屬性可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。]您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 Adobe Analytics 和 Adobe Target。
-
-若要尋找此功能，請瀏覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性」]**
+若要尋找此功能，請瀏覽至 **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**
 
 ![](assets/custom_reports.png)
 
@@ -34,7 +30,7 @@ ht-degree: 100%
 
    若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品個人資料]，表示您可以開始使用了。
 
-   加入客戶屬性的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表項目。
+   若是加入客戶屬性的使用者，可在 Experience Cloud 介面的左側看到[!UICONTROL 客戶屬性]功能表項目。
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
