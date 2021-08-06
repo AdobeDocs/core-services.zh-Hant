@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,17 @@ ht-degree: 100%
 
 Experience Cloud 產品文件的更新資訊。
 
+**更新日期8/6/2021**
+
+更新[第一方Cookie](cookies-first-party.md)。
+
 **更新日期：2021 年 6 月 4 日**
 
-重組指南的結構，目錄。
+重組指南的結構、目錄。
 
 **更新日期：2021 年 6 月 1 日**
 
-已更新[登陸頁面](experience-cloud.md)及全新說明，以存取 Experience Cloud、全域搜尋、偏好設定和通知。
+已更新[登陸頁面](experience-cloud.md)，以及存取 Experience Cloud、全域搜尋、偏好設定和通知的全部說明。
 
 **更新日期：2020 年 8 月 19 日**
 
