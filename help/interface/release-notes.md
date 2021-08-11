@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 96%
+source-wordcount: '4279'
+ht-degree: 95%
 
 ---
 
@@ -24,13 +24,19 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需所有解決方案的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
+## 2021年8月
+
+| 功能 | Date | 說明 |
+| ------- | ------- | -------|
+| [!UICONTROL 統一的客戶端]  — 對最近訪問的業務對象的擴展支援 | 2021 年 8 月 10 日 | [!UICONTROL Unified ] Recentsis已擴充至Journey Optimizer和Experience Platform中的其他業務物件。Journey Optimizer客戶可從Adobe Journey Optimizer首頁找到最近存取的物件（訊息、歷程、區段、結構、資料集、資料來源、事件、動作、來源和目的地）。 |
+
 ## 2021年7月
 
 統一搜尋已更新，可供Journey Optimizer、選件和Experience League使用。 過去，此功能僅供Experience Platform使用者使用。
 
 ## 2021 年 6 月
 
-| 功能 | Date | 說明 |
+| 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
