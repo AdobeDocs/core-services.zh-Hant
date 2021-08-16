@@ -9,7 +9,7 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
+source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
 ht-degree: 95%
@@ -39,7 +39,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
+| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
 
 {style=&quot;table-layout:auto&quot;}
 
