@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 100%
+source-wordcount: '1425'
+ht-degree: 84%
 
 ---
 
@@ -64,7 +64,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 * [Adobe Target 中的活動](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=zh-Hant)
 * Audience Manager 中的[細分](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)
-* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (需登入)
+* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (需登入)
 
 ## 客戶屬性 {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -115,11 +115,11 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
-說明：[快速入門](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hant#get-started)
+說明：[快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 
 使用 Experience Cloud Activation 解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
+1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hant) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
@@ -127,11 +127,11 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 **適用的解決方案或服務**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)
-* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=zh-Hant)
-* [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=zh-Hant)
-* [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=zh-Hant)
-* [MAC ID 服務](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hant)
-* [Nielsen 追蹤](https://experienceleague.adobe.com/docs/dtm/using/tools/nielsen.html?lang=zh-Hant)
+* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
+* [Media Optimizer](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [MAC ID 服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Nielsen 追蹤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
@@ -144,7 +144,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 * 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](subscription.md)
 * Experience Cloud Audiences：[Experience Cloud 對象庫](audience-library.md)
 * Analytics：[Adobe Analytics 作為 Adobe Target 的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
-* 動態標記管理：[使用 DTM 實作 Adobe Target 的最佳做法](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html?lang=zh-Hant)
+* 動態標記管理：[使用 DTM 實作 Adobe Target 的最佳做法](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager：[Adobe Target 資料與 Adobe Audience Manager 整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campaign：[將 Adobe Target 與 Campaign 整合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hant)
 
@@ -181,16 +181,16 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-說明 (需登入)：[與 Adobe Experience Cloud 解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+說明 (需登入)：[與 Adobe Experience Cloud 解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 **適用的解決方案或服務**
 
 **Analytics：**&#x200B;可以每天傳送網站互動和轉換資料至 [!DNL Adobe Advertising]，以供其改善廣告和建立報表。 此外，[!DNL Advertising] 亦可每天傳送搜尋引擎和社交網路流量資料至 Analytics，以供其 Reports &amp; Analytics、Report Builder 及 Ad Hoc Analysis 功能建立報表。
 
-**動態標記管理員：**&#x200B;您可以[使用動態標記管理員針對您的搜尋、社交和顯示廣告登陸頁面，建立廣告像素式轉換追蹤標記](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)以及協力廠商追蹤標記。(您也可以直接在 [!DNL Advertising] 中建立 [!DNL Advertising] 標記。)
+**動態標記管理員：**&#x200B;您可以[使用動態標記管理員針對您的搜尋、社交和顯示廣告登陸頁面，建立廣告像素式轉換追蹤標記](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)以及協力廠商追蹤標記。(您也可以直接在 [!DNL Advertising] 中建立 [!DNL Advertising] 標記。)
 
 **Experience Cloud 對象：**(可管理顯示內容的廣告商) 您可以使用任何 [Adobe Experience Cloud 對象](audience-library.md)作為顯示廣告的目標。 您可以自動使用已在 Experience Cloud 中建立的對象和已發佈至 Adobe Experience Cloud 的 Analytics 對象。當 [!DNL Adobe Advertising] 帳戶設定允許時，您也可從 Audience Manager 使用對象。如需深入了解如何存取 Adobe Experience Cloud 和基本資料與對象，以及 [!DNL Adobe Advertising] 與 Adobe Experience Cloud 對象之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也使用 Adobe Target，您發佈至 Adobe Experience Cloud 的對象也可供 Adobe Target 中的活動使用。
 
-**Experience Cloud Assets：**(可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)，才能存取 Adobe Experience Cloud 資產。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
+**Experience Cloud Assets：**(可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須[透過 Adobe Experience Cloud 登入 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)，才能存取 Adobe Experience Cloud 資產。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
 
-**Experience Cloud 通知：**&#x200B;在每個頁面上方的通知連結中，您可以查看搜尋測試版提示範本產生的所有提示。您還可以取得 Experience Cloud 系統更新、貼文、相關記錄和共用的資產。您必須[透過 Adobe Experience Cloud 登入 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)，才能存取您的通知。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
+**Experience Cloud 通知：**&#x200B;在每個頁面上方的通知連結中，您可以查看搜尋測試版提示範本產生的所有提示。您還可以取得 Experience Cloud 系統更新、貼文、相關記錄和共用的資產。您必須[透過 Adobe Experience Cloud 登入 Adobe Advertising](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)，才能存取您的通知。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
