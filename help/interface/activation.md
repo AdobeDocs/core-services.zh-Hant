@@ -11,10 +11,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,11 +26,11 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
 
 部署和管理提供客戶體驗必需的相關分析、行銷和廣告標記。
 
-查看 [Experience Platform Launch Quickstart 指南](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hant)。
+查看 [Experience Platform Launch Quickstart 指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 
 ## Experience Cloud [!UICONTROL 觸發器] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
- [!UICONTROL Experience Cloud 觸發器]可讓行銷人員定義並監控關鍵消費者行為，然後產生跨解決方案通訊以用於即時制定決策和個人化。
+ [!UICONTROL Experience Cloud 觸發器]可讓行銷人員定義並監控關鍵消費者行為，然後產生跨解決方案通訊以用於即時決策和個人化。
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
   </tr>
   <tr> 
    <td colname="col1"> <p>在 Adobe Campaign 中使用觸發器 </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 引入與全新 Trigger 服務的整合。這項服務可讓商務使用者根據在 Adobe Analytics 中擷取的線上行為資料，輕鬆定義觸發器。定義觸發器後，就可在 Adobe Campaign 中使用，以支援可促進參與和轉換的再行銷訊息。這個全新的立即可用功能可讓行銷人員根據線上事件 (例如購物車放棄、頁面檢視、觀看的視訊等)，在適當的時間觸發再行銷訊息。 </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 引入與全新 Trigger 服務整合的服務。這項服務可讓商務使用者根據在 Adobe Analytics 中擷取的線上行為資料，輕鬆定義觸發器。定義觸發器後，就可在 Adobe Campaign 中使用，以支援可促進參與和轉換的再行銷訊息。這個全新的立即可用功能可讓行銷人員根據線上事件 (例如購物車放棄、頁面檢視、觀看的視訊等)，在適當的時間觸發再行銷訊息。 </p> </td>
   </tr>
  </tbody>
 </table>
