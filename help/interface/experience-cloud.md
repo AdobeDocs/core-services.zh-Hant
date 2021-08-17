@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -131,7 +131,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 * [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hant)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=zh-Hant)
+* [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## 教學課程
 
