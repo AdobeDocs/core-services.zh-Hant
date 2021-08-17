@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud 中央介面元件 '
 breadcrumb-title: Experience Cloud 中央介面元件
 user-guide-description: 了解關於 Experience Cloud 介面首選項、設定偏好設定、搜尋說明以及商業物件。取得用戶和產品管理、客戶屬性、對象庫、Cookie 和 Experience Cloud Assets 的說明。
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
-workflow-type: ht
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
       + [客戶屬性的隱私權考量事項](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Activation 總覽](activation.md)
-      + [Experience Platform Launch 使用手冊](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant)
+      + [Experience Platform Launch 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [觸發器](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud 資產總覽](experience-cloud-assets.md)
