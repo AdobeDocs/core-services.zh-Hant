@@ -9,16 +9,16 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 96%
 
 ---
 
 # 建立客戶屬性來源及上傳資料檔案
 
-建立客戶屬性來源 (CSV 和 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
+建立客戶屬性來源 (CSV 和料 FIN 檔案) 並上傳資料。您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
 
 ## 客戶屬性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -82,11 +82,11 @@ ht-degree: 97%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]**&#x200B;代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。在 Experience Cloud 中，針對客戶屬性來源在「[!UICONTROL 別名 ID]」欄位中輸入的值，應與從實作傳入的值相符 (不論是透過 Data Collection (Launch)、Dynamic Tag Management 還是 Mobile SDK 的 JavaScript 傳入)。
+   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。在 Experience Cloud 中，針對客戶屬性來源在「[!UICONTROL 別名 ID]」欄位中輸入的值，應與從實作傳入的值相符 (不論是透過 Data Collection (Launch)、Dynamic Tag Management 還是 Mobile SDK 的 JavaScript 傳入)。
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
@@ -102,7 +102,7 @@ ht-degree: 97%
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的「*&quot;idType&quot;*」。
+      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
 
          例如：
 
