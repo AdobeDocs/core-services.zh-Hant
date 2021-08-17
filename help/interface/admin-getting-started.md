@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 **相關說明**
 
 * 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
-* Adobe Target 說明中的[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)會提供詳細資訊。
+* Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)」會提供詳細資訊。
 * 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 <!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
@@ -78,7 +78,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 * 允許您的創意總監授予 Creative Cloud 的存取權。
 * 允許您的行銷總監授予 Experience Cloud 的存取權。
-* 將這兩個角色分開，這樣它們就不能超越彼此的角色。
+* 將這兩個角色分開，這樣才不會超越彼此的角色。
 
 使用這些角色，您便可同時將管理作業委派給其他人，無需提供超出其所需的功能。
 
@@ -95,7 +95,7 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 ## 管理 Analytics 使用者和產品 {#section_97DE101F92CD494AB073893680992F1A}
 
-您可以將 Analytics 報表存取權限 (報表套裝、量度、維度等等) 指派給產品描述定檔。
+您可以將 Analytics 報表存取權限 (報表套裝、量度、維度等等) 指派給產品描述檔。
 
 例如，您可以建立包含多個 Analytics 工具的產品描述檔 ([!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder])。 這些描述檔包含特定量度和維度 (包括 eVar) 的權限，以及類似區段或建立計算量度等功能。
 
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示
 
 邀請使用者加入 [!UICONTROL Platform Launch] 並指派使用者角色和權限。
 
-如需 Admin Console 中的使用者權限，以及設定 Launch 專用選項 (包括指派描述檔的權限) 的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=zh-Hant#admin)」。
+如需 Admin Console 中的使用者權限，以及設定 Launch 專用選項 (包括指派描述檔的權限) 的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)」。
 
 ## Experience Manager as a Cloud Service
 
