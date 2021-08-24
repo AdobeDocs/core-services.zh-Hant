@@ -8,7 +8,7 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Experience Cloud支援每位使用者的偏好語言，如Adobe使用者帳戶�
 
 ## 取得說明和支援 {#support}
 
-使用標題中的「說明」圖示(![asset](assets\help-icon.png))存取學習與說明，包括[Experience League](https://experienceleague.adobe.com/#home)上的說明內容（檔案、教學課程和課程），以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
+使用標題中的「說明」圖示(![asset](assets/help-icon.png))存取學習與說明，包括[Experience League](https://experienceleague.adobe.com/#home)上的說明內容（檔案、教學課程和課程），以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
 
 ![](assets/search-menu.png)
 
