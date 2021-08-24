@@ -8,10 +8,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 91%
+source-wordcount: '1306'
+ht-degree: 63%
 
 ---
 
@@ -28,29 +28,68 @@ ht-degree: 91%
 * 使用全域搜尋功能在全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶偏好設定 (警示、通知和訂閱)
 
-## 登入 Experience Cloud
+## 登入 Experience Cloud {#signin}
 
 登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
 1. 選擇&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登錄。
-1. 在Adobe Experience Cloud上，選取您的組織。
+1. 確認您所在的組織正確無誤。
 
    ![](assets/organizations-menu.png)
 
-   您的管理員可幫助您確認您確實隸屬於正確的[組織](organizations.md)。
+   **驗證您的組織**
+
+   若要確認您已登入您的正確[organization](organizations.md)，請按一下您的設定檔頭像以查看組織名稱。 如果您可以存取多個組織，也可以在標題列中檢視並切換至另一個組織。
+
+   如果貴組織使用Federated ID,Experience Cloud可讓您使用組織的單一登入進行登入，而無須輸入您的電子郵件地址和密碼。 若要這麼做，請將`#/sso:@domain`新增至Experience CloudURL(`https://experience.adobe.com`)。
+
+   例如，對於具有Federated ID和網域`adobecustomer.com`的組織，請將URL連結設為`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此URL加入書籤並附加應用程式路徑，直接前往特定應用程式。 (例如，針對Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ## 存取 Experience Cloud 應用程式 {#navigation}
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-若要存取您擁有的Experience Cloud服務，請前往應用程式選取器![](assets/menu-icon.png)。
+若要存取組織內布建的Experience Cloud應用程式和服務，請前往應用程式選取器![](assets/menu-icon.png)。
 
 ![](assets/platform-core-services.png)
 
-## 取得說明和支援 {#search}
+## 瀏覽器支援Experience Cloud {#browser}
 
-統一說明是產品內提供的功能，可讓您搜尋和存取 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hant#home) 上的說明內容 (文件、教學課程和課程)。您還可以提交開放式意見並建立有優先權的支援票證。
+為獲得最佳效能，Experience Cloud已針對最熱門的瀏覽器最佳化，包括最新版本以及兩個舊版。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+如果您的瀏覽器未列出，則可能仍受支援，但建議您使用所列的其中一個瀏覽器。
+
+>[!NOTE]
+>
+>並非所有在Experience Cloud網域上執行的應用程式都支援所有瀏覽器。 如果您不確定，請查看特定應用程式的檔案。
+
+## 語言支援Experience Cloud {#languages}
+
+Experience Cloud支援每位使用者的偏好語言，如Adobe使用者帳戶偏好設定中所設定。 目前支援的語言包括：
+
+* 中文
+* 英文
+* 法文
+* 德文
+* 義大利文
+* 日文
+* 韓文
+* 葡萄牙語
+* 西班牙文
+* 台灣
+
+儘管所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以上述所有語言提供。 如果Experience Cloud應用程式不支援您的主要語言，您也可以將次要語言設為預設（若適用）。 這可在[Experience Cloud用戶首選項](https://experience.adobe.com/preferences)中完成。
+
+## 取得說明和支援 {#support}
+
+使用標題中的「說明」圖示(![asset](assets\help-icon.png))存取學習與說明，包括[Experience League](https://experienceleague.adobe.com/#home)上的說明內容（檔案、教學課程和課程），以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
 
 ![](assets/search-menu.png)
 
@@ -61,7 +100,7 @@ ht-degree: 91%
 * **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
 * **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
 
-## 全域搜索對象和實體
+## 全域搜索對象和實體 {#search}
 
 全域搜尋可讓您採用一鍵式的無縫一致體驗，尋找可搜尋的商業物件或實體。此搜尋會出現在您最近存取的物件。
 
@@ -69,9 +108,12 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->全域搜尋僅適用於Experience Platform、Journey Optimizer、選件和Experience League。
+>全局搜索並非在所有Experience Cloud應用程式中都可用，但隨著更多內容已編製索引，它將被添加到相關應用程式中。 自2021年7月起推出：
 
-## 管理帳戶偏好設定 {#preferences}
+* Experience Platform
+* Journey Optimizer
+
+## 使用者設定檔和帳戶偏好設定 {#preferences}
 
 Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳戶偏好設定」選單中進行以下操作：
 
@@ -102,6 +144,17 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 ![](assets/notifications-menu-small.png)
 
+## Experience Cloud網域 {#domains}
+
+Experience Cloud使用下列主機來傳送應用程式、改善效能和產品體驗。 Adobe建議將這些網域新增至防火牆的允許清單，以獲得最佳體驗。 特定Experience Cloud應用程式(例如Adobe Analytics)也可能會使用其他網域。 如需詳細資訊，請查閱這些應用程式的檔案。
+
+| 技術 | 網域 |
+|--- |--- |
+| Adobe Experience Cloud網域 | `adobe.com`、`adobe.net`、`adobe.io` |
+| AdobeIdentity Management服務(IMS) | `adobelogin.com` |
+| Experience Cloud字型 | `typekit.net` |
+| Gainsight（產品指引和說明） | `esp.aptrinsic.com` |
+
 ## 取得管理和跨應用程式服務的說明
 
 本指南讓您存取 Admin Console 中 Experience Cloud 使用者和產品管理功能的說明，此功能可啟用平台服務的解決方案。您也可以存取對象庫、客戶屬性、Experience Cloud Assets 等的說明：
@@ -131,7 +184,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 * [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hant)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
 * [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
 
 ## 教學課程
 
