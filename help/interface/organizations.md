@@ -9,10 +9,10 @@ topic: 管理
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 90%
+source-wordcount: '511'
+ht-degree: 67%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 90%
 
 ** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
-此外，您可能需要找到組織 ID 以方便支援。您可以使用&#x200B;**[!UICONTROL 「組織」]**&#x200B;功能表確認自己所在的組織是否正確，或者切換組織。
+若要確認您已登入正確的組織，請按一下您的設定檔頭像以查看組織名稱。 如果您可以存取多個組織，也可以在標題列中檢視並切換至另一個組織。
+
+如果貴組織使用Federated ID,Experience Cloud可讓您使用組織的單一登入進行登入，而無須輸入您的電子郵件地址和密碼。 若要這麼做，請將`#/sso:@domain`新增至Experience CloudURL(`https://experience.adobe.com`)。
+
+例如，對於具有Federated ID和網域`adobecustomer.com`的組織，請將URL連結設為`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此URL加入書籤並附加應用程式路徑，直接前往特定應用程式。 (例如，針對Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ![步驟結果](assets/organization-switch.png)
 
 ## 找出組織 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+您可能需要找到組織ID以供支援之用。 您可以使用&#x200B;**[!UICONTROL 「組織」]**&#x200B;功能表確認自己所在的組織是否正確，或者切換組織。
 
 **組織 ID**&#x200B;是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。
 
