@@ -4,14 +4,14 @@ keywords: 客戶屬性;核心服務
 solution: Experience Cloud
 title: '了解客戶屬性的資料檔案和資料來源 '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1195'
 ht-degree: 100%
 
 ---
@@ -121,7 +121,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可查看上一個檔案是在何時移至 [!UICONTROL 客戶屬性] FTP 帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可查看上一個檔案是在何時移至[!UICONTROL 客戶屬性] FTP 帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -129,7 +129,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至 [!DNL Analytics] 中的基礎訪客個人資料。因此在 [!DNL Analytics] 中，該訪客個人資料的整個生命週期中，[!UICONTROL 客戶屬性]都會與該訪客相關聯。此個人資料包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會繫結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
+   <td colname="col2"> <p> 客戶屬性會連結至 [!DNL Analytics] 中的基礎訪客個人資料。因此在 [!DNL Analytics] 中，該訪客個人資料的整個生命週期中，[!UICONTROL 客戶屬性]都會與該訪客相關聯。此個人資料包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 

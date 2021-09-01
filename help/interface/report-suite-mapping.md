@@ -3,13 +3,13 @@ description: 了解如何在 Experience Cloud 中將一個或多個報表套裝�
 title: '將報表套裝對應至組織 '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1116'
 ht-degree: 95%
 
 ---

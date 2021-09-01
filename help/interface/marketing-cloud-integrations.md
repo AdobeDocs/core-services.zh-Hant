@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Experience Cloud 整合 '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 84%
+source-wordcount: '1422'
+ht-degree: 89%
 
 ---
 
@@ -115,11 +115,11 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
-說明：[快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
+說明：[快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)
 
 使用 Experience Cloud Activation 解決方案設定 Experience Cloud 解決方案並進行偵錯。
 
-1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
+1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hant) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。

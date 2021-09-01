@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: '共用 Experience Cloud 資產資料夾 '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 67%
 
 ---

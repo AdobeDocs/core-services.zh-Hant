@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1245'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 91%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 解決方案摘要。您可以套用篩選器，依特定解決方案存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 中的目前登入活動，而不是建議在 2020 年 1 月 13 日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -108,7 +108,7 @@ ht-degree: 91%
 |---|---|
 | [!UICONTROL 產品個人資料] | 產品個人資料的名稱。欄可以按A->Z、Z->A排序。若要查看有關策略的詳細資訊，請選擇產品配置檔案的名稱。 |
 | [!UICONTROL 產品] | 與產品個人資料相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL 例項] | 與產品個人資料相關聯的例項 (例如租用戶或登入公司)。如果是沒有不重複例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL 例項] | 與產品個人資料相關聯的例項 (例如租用戶或登入公司)。如果是沒有唯一例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 使用者人數] | 與產品個人資料相關聯的不重複使用者人數，包括直接指派和群組指派。欄可以按最小值到最大值或最大值到最小值排序。 |
 | [!UICONTROL 開發人員人數] | 與產品個人資料相關聯的開發人員角色數。欄可以按最小值到最大值或最大值到最小值排序。 |
 

@@ -4,13 +4,13 @@ keywords: 資產共用;Creative Cloud;核心服務
 solution: Experience Cloud
 title: '與 Creative Cloud 共用 Experience Cloud 資料夾和資產 '
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---

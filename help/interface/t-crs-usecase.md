@@ -4,15 +4,15 @@ keywords: 客戶屬性；核心服務
 solution: Experience Cloud
 title: '建立客戶屬性來源及上傳資料檔案 '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 96%
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
@@ -127,7 +127,6 @@ ht-degree: 96%
    * **[!UICONTROL 已將別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID：]**&#x200B;顯示有多少個 ID 已將別名傳送至 Experience Cloud 訪客 ID。
 
    * **[!UICONTROL 具有高別名數之客戶提供的 ID：]**&#x200B;顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
-
 
 
 ## 驗證結構 {#task_404AAC411B0D4E129AB3AC8B7BE85859}

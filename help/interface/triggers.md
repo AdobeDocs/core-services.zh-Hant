@@ -1,19 +1,19 @@
 ---
 description: 了解如何設定 Experience Cloud 觸發器。
 keywords: 整合;觸發器
-seo-description: 如何設定 Experience Cloud 觸發器。
-seo-title: 觸發器
+seo-description: How to configure Experience Cloud Triggers.
+seo-title: Triggers
 solution: Experience Cloud
 title: '觸發器概述 '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '695'
 ht-degree: 96%
 
 ---
@@ -65,7 +65,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
    | [!UICONTROL 名稱] | 此觸發器的易記名稱。 |
    | [!UICONTROL 說明] | 此觸發器的說明、使用方式等資訊。 |
    | [!UICONTROL 報表套裝] | 用於此觸發器的 Analytics [報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hant)。此設定可識別要使用的報表資料。 |
-   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是：<ul><li>造訪必須包括：[!UICONTROL 新增購物車 ] (量度) 和[!UICONTROL 存在]。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括：[!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包括中繼資料]：可讓您新增與訪客的行為相關的特定 [!DNL Campaign] 行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以在容器內或容器之間指定 [!UICONTROL Any]、[!UICONTROL And] 或 [!UICONTROL Or] 邏輯，實際取決於您判斷對規則來說很重要的準則。 |
+   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是：<ul><li>造訪必須包括：[!UICONTROL 新增購物車 ] (量度) 和[!UICONTROL 存在]。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括：[!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包括中繼資料]：可讓您新增與訪客的行為相關的特定 [!DNL Campaign] 行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以在容器內或容器之間指定[!UICONTROL 任何]、[!UICONTROL 以及]、 [!UICONTROL 或]的邏輯，實際取決於您判斷對規則來說很重要的準則。 |
    | [!UICONTROL 容器] | [!UICONTROL 容器是設定和儲存定義觸發器的規則、條件或篩選器的位置。]如果您想讓事件同時發生，請將事件放在相同的容器中。這表示每個容器是在點擊層級獨立處理。例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
    | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
 
@@ -80,7 +80,7 @@ Experience Cloud 觸發器範例：
 
 #### 購物車放棄觸發器
 
-例如，下列頁面會根據造訪期間檢視的產品，顯示您可用於「[!UICONTROL 購物車放棄]」觸發器的規則。
+例如，下列頁面會根據造訪期間檢視的產品，顯示您可用於[!UICONTROL 購物車放棄]觸發器的規則。
 
 ![](assets/abandonment-trigger.png)
 

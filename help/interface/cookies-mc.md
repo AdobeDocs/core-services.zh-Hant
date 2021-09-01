@@ -4,14 +4,14 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookie '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Adobe Experience Cloud 使用 Cookie 來儲存不同 Experience Cloud 應用程�
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是 Chrome 對 Cookie 的新預設值。</p> </td> 
+   <td colname="col2"> <p>唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。此設定是 Chrome 中的 Cookie 新預設值。</p> </td> 
   </tr> 
  </tbody> 
 </table>

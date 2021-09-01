@@ -4,21 +4,21 @@ keywords: Cookie;隱私
 solution: Experience Cloud, Analytics, Target
 title: 'Data Connectors Cookie '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
 
 # Data Connectors Cookie{#data-connectors-cookies}
 
-[!UICONTROL 資料連接器] 使用 Cookie 來將多個廣告頻道中最佳化的行銷活動和轉換效能量度提供給廣告商。
+[!UICONTROL Data Connectors] 使用 Cookie 來將多個廣告頻道中最佳化的行銷活動和轉換效能量度提供給廣告商。
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 

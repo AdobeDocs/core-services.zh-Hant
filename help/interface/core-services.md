@@ -4,15 +4,15 @@ keywords: 核心服務;客戶屬性
 solution: Experience Cloud
 title: 讓您的解決方案提供跨解決方案服務
 index: true
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '2272'
-ht-degree: 96%
+source-wordcount: '2269'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 [!UICONTROL Experience Cloud ID Service] 提供的通用 ID 可用於跨解決方案整合。它提供跨網域訪客身分識別，以及根據透過[!UICONTROL 客戶屬性]上傳的 CRM 資料跨裝置/瀏覽器鎖定目標和個人化的路徑。
 
-啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，為 Analytics 和 Adobe Target 自動啟用
+啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)，為 Analytics 和 Adobe Target 自動啟用
 
 如需完整的 Experience Cloud ID Service 說明 (先前稱為訪客 ID)，請前往[這裡](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant#intro)。
 
@@ -139,7 +139,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 如果您使用 Analytics，請確認您是否位於地區資料收集 (RDC)。如果您的資料收集網域為 `omtrdc.net`，或將 CNAME 對應至 `omtrdc.net`，則表示您位於 RDC。如需詳細資訊，請參閱[轉換為 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=zh-Hant)。如果您使用第一方 Cookie，請參閱 [CNAME 和 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hant)，取得資料收集 CNAME 和跨網域追蹤的相關資訊。
 
-建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。完成此步驟最簡單的方式是在 Experience Platform Data Collection (Launch) 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en)。
+建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。完成此步驟最簡單的方式是在 Experience Platform Data Collection (Launch) 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)。
 
 ## 更新您的 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 

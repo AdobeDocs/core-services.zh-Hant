@@ -4,14 +4,14 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: '協力廠商 Cookie 支援的變更會如何影響客戶 '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 100%
 
 ---

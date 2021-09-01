@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: '共用資料夾的行為 '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---

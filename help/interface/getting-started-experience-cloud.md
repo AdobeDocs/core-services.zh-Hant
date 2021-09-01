@@ -5,20 +5,20 @@ solution: Experience Cloud
 title: '登入及管理 Experience Cloud 個人資料設定 '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 90%
 
 ---
 
 # 登入及管理 Experience Cloud 個人資料設定
 
-只要登入 Experience Cloud (而非登入單一解決方案)，就會針對您擁有的所有解決方案和服務啟用單一登入。 本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
+只要登入 Experience Cloud (而非登入單一解決方案)，即可為您擁有的全部解決方案和服務啟用單一登入。 本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
 
 >[!IMPORTANT]
 >

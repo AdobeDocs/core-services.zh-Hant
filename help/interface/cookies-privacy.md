@@ -4,21 +4,21 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie 與隱私權 '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
 
 # 關於 Cookie 和隱私{#about-cookies-and-privacy}
 
-維護客戶隱私和資料安全是 Adobe 的首要任務。Adobe 加入多個隱私權機構，並與隱私權監管機構合作並採取自我監管原則。這項合作包括數位廣告聯盟 Adchoices 計劃，為客戶提供有關如何使用他們資訊的訊息，以及關於資訊使用的選擇。
+維護客戶隱私和資料安全是 Adobe 的首要任務。Adobe 加入多個隱私權機構，並與隱私權監管機構合作，以及採取自我監管原則。這項合作包括數位廣告聯盟 Adchoices 計劃，為客戶提供有關如何使用他們資訊的訊息，以及關於資訊使用的選擇。
 
 Experience Cloud 產品設定的 Cookie 大多不含可識別的個人資訊。這些 Cookie 和相關資料安全無虞，且僅用於貴公司的報表，以及提供相關的內容和廣告。除非用於彙總的產業報告，否則協力廠商或其他 Adobe 客戶無法取得這些資料。例如，[!DNL Digital Marketing Insight Report] 會分析各個零售商的彙整匿名資料。
 

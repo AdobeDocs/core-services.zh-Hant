@@ -1,14 +1,14 @@
 ---
 title: '一般資料保護規範的客戶屬性支援 '
 description: 了解一般資料保護規範的客戶屬性支援
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---

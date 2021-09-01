@@ -2,14 +2,14 @@
 description: 了解 Adobe Experience Cloud 使用者和產品管理、People (Audiences 和客戶屬性)、Journey Orchestration、Offers、Places、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
 title: 'Experience Cloud 服務總覽 '
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---

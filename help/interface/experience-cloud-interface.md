@@ -2,14 +2,14 @@
 description: '了解如何登入以及Experience Cloud中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何導覽介面和取得說明。 '
 solution: Experience Cloud
 title: 'Experience Cloud 中央 UI 元件 '
-feature: 「中央介面元件」
-topic: 管理
+feature: Central Interface Components
+topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 51%
+source-wordcount: '714'
+ht-degree: 50%
 
 ---
 

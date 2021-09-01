@@ -4,14 +4,14 @@ keywords: 核心服務
 solution: Experience Cloud
 title: '建立對象 '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: 對象庫
-topic: 管理
+feature: Audience Library
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 96%
 
 ---

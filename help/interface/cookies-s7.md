@@ -4,14 +4,14 @@ keywords: Cookie;隱私
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookie '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-feature: Cookie
-topic: 管理
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Scene7 會將資訊儲存在本機，以供某些舊版 AS2 Flash 檢視器使�
 
 針對 AS2 檢視器，Cookie 會：
 
-* 追蹤使用者的工作階段狀態，例如目前檢視的頁面和影像、目前的縮放等級等等。
+* 追蹤使用者的工作階段狀態，例如目前檢視的頁面和影像、目前的縮放等級等。
 * 確定自使用者上一個工作階段開始至今的時間。檢視器會使用這項資訊來決定是否繼續先前的工作階段或開始新的工作階段。這項資訊也會傳送至 Scene7 伺服器，但不會使用。
 
 針對 AS2 Flash eCatalog 檢視器，Cookie 會：

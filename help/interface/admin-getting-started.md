@@ -4,13 +4,13 @@ description: 了解如何登入 Admin Console 及管理 Experience Cloud 使用�
 solution: Admin
 index: true
 feature: Admin Console
-topic: 管理
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1271'
 ht-degree: 94%
 
 ---

@@ -3,14 +3,14 @@ description: 了解如何搭配 Experience Cloud 中不同的解決方案和服�
 solution: Experience Cloud
 title: '搭配不同的解決方案和服務使用 DNS 預先擷取 '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: 客戶屬性
-topic: 管理
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 96%
 
 ---

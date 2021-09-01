@@ -4,14 +4,14 @@ type: Documentation
 title: 'Adobe Experience Cloud 對象 '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: 了解如何在 Experience Cloud 對象服務中管理將訪客資料轉譯為對象細分。
-feature: 對象庫
-topic: 管理
+feature: Audience Library
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '825'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 98%
 
 即時鎖定使用案例可以存取所有對象，無論對象來源為何。不過，即時鎖定目標功能無法存取從 Analytics 共用到 Audience Manager 的對象。系統會以兩種方式評估對象：
 
-* 每四小時評估一次來自 Analytics 的歷史對象。處理和共用花費的總時間最多需要八小時。歷史對象一律包含回訪訪客。
+* 每四小時評估一次 Analytics 的歷史對象；處理和共用花費總共需要最多八小時。歷史對象一律包含回訪訪客。
 * 即時對象源自於 Experience Cloud 對象，且為即時評估。
 
 ## 解決方案如何使用對象 {#concept_01EB9345C5344597BC94A864EDD38EE1}

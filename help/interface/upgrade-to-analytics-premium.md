@@ -3,7 +3,7 @@ description: 了解升級至 Analytics Premium 時的需求和期望。
 keywords: Adobe Analytics Premium 升級
 solution: Experience Cloud
 title: '升級至 Analytics Premium 和 Experience Cloud '
-topic: 管理
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '622'
 ht-degree: 100%
 
 ---
