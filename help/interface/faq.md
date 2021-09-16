@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 如果尚未針對核心服務佈建實作，請參閱[啟用核心服務的解決方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何：
 
 1. [加入 Experience Cloud 並成為管理員](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Experience Platform Launch 實作 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)。
+1. [使用 Experience Platform Launch 實作 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 1. [將報表套裝對應至 Experience Cloud 組織](core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 導入最新的 Analytics AppMeasurement 程式碼](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target) 導入最新的 Adobe Target 實作](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -64,13 +64,13 @@ Experience Cloud 中的佈建意思是：
 * 您可以準備好淘汰解決方案專用的登入程序。
 * 您可以保留對解決方案的存取控制。
 
-## 我該如何管理使用者和產品個人資料？
+## 我該如何管理使用者和產品描述檔？
 
-* 如需協助，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html)。
+* 如需協助，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html)。
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
+* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
 ## 如果有人無法登入 Experience Cloud，我該怎麼做？
 
@@ -114,7 +114,7 @@ ID 是：
 
 ## 什麼是 Adobe ID？
 
-請參閱[身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。
+請參閱[身分類型](https://helpx.adobe.com/enterprise/using/identity.html)。
 
 ## 我可以替我的使用者連結解決方案帳戶嗎？
 
