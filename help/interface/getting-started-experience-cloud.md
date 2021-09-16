@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,18 @@ ht-degree: 90%
 
 登入並確認您隸屬於正確的[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
-1. 選擇Experience Cloud菜單(![](assets/menu-icon.png))，然後選擇&#x200B;**[!UICONTROL 管理]**。
+1. 選取 Experience Cloud 選單 ( ![](assets/menu-icon.png))，然後選取「**[!UICONTROL 管理]**」。
 
-   如果未顯示&#x200B;**[!UICONTROL 「管理」]**&#x200B;連結，則表示您並非所顯示之[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理員。 如需建立管理員身分方面的相關協助，請連絡客戶服務或貴公司目前的 Experience Cloud 管理員。
-1. 選擇&#x200B;**[!UICONTROL 管理]**。
+   如果未顯示&#x200B;**[!UICONTROL 「管理」]**&#x200B;連結，則表示您並非所顯示之[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理員。 如需成為管理員的相關協助，請聯絡客戶服務或貴公司的現任 Experience Cloud 管理員。
+1. 選取「**[!UICONTROL 管理]**」。
 
-1. 選取下列其中一個連結以繼續：
+1. 選取以下其中一個連結，繼續進行：
 
 | 元素 | 說明 |
 |--- |--- |
 | [Admin Console 基本需知](experience-cloud.md) | 了解開始使用 Experience Cloud 解決方案必須採取的初始步驟。 |
-| [設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | 定義並設定身分系統，用於驗證您的使用者。 |
-| [使用者管理](https://helpx.adobe.com/tw/enterprise/using/users.html) | 了解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品描述檔。 |
+| [設定身分](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定義並設定身分系統，用於驗證您的使用者。 |
+| [使用者管理](https://helpx.adobe.com/enterprise/using/users.html) | 了解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品描述檔。 |
 | 按一下[啟動 Admin Console](admin-getting-started.md)。 | Admin Console 是管理整個組織中 Adobe 使用者和產品權限的集中位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
 | [管理 Creative Cloud 使用者](t-admin-add-cc-user.md) | Experience Cloud Assets 可讓行銷人員使用 Creative Cloud 來與設計人員和其他創意資產共用、同步資料夾及進行共同作業。您可以在這裡管理獲核准與貴組織共同作業的 Creative Cloud 使用者。 |
 | [對應您的報表套裝](core-services.md) | (僅限 Analytics) Experience Cloud 核心服務會與一個組織建立關聯，而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。(此工作是[讓 Analytics 可使用核心服務](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)的更廣泛工作流程的一部分)。 |
@@ -56,11 +56,11 @@ ht-degree: 90%
 
 
 1. 導覽至 [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com])。
-1. 選擇&#x200B;**[!UICONTROL 使用Adobe ID登錄]**。
+1. 選取「**[!UICONTROL 使用 Adobe ID 登入]**」。
 
-   Experience Cloud 管理員可能會協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
+   Experience Cloud 管理員可協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
 
-1. 在您的登陸頁面上，選取選取器圖示![](assets/menu-icon.png)以存取下拉式功能表。
+1. 在您的登陸頁面上，按一下選擇器圖示 ![](assets/menu-icon.png) 以存取下拉式選單。
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -68,21 +68,21 @@ ht-degree: 90%
 
 ## 進行預設個人帳戶設定 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-您可以編輯個人詳細資料，並指定預設的[組織](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)，以及登入 Experience Cloud 後顯示的登陸頁面。
+您可以編輯個人詳細資料，並指定預設[組織](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2)以及登入 Experience Cloud 後顯示的登陸頁面。
 
-1. 登入Experience Cloud，然後選取您的設定檔圖示。
+1. 登入 Experience Cloud，然後選取您的個人資料圖示。
 
    ![](assets/edit-profile.png)
-1. 選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
+1. 選取「**[!UICONTROL 編輯個人資料]**」。
 
    ![](assets/default-organization.png)
-1. 繼續配置和編輯個人資訊，然後選擇&#x200B;**[!UICONTROL 保存更改]**。
+1. 繼續設定及編輯個人資訊，然後選取「**[!UICONTROL 儲存變更]**」。
 
 ## 啟用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。 您也可以指定要接收哪些產品和解決方案的通知，包括客戶屬性的上傳狀態。
 
-若要導覽至通知，請選取&#x200B;**[!UICONTROL 通知]**&#x200B;圖示![](assets/notifications-icon.png)，然後選取&#x200B;**[!UICONTROL 設定]**&#x200B;圖示![](assets/icon_edit_board.png)。
+若要導覽至通知，請選取「**[!UICONTROL 通知]**」圖示 ![](assets/notifications-icon.png)，然後選取「**[!UICONTROL 設定]**」圖示 ![](assets/icon_edit_board.png)。
 
 您可以根據對您而言重要的訊息類型來排序通知，也可搜尋通知。 您也可以：
 
@@ -115,17 +115,17 @@ ht-degree: 90%
 
 1. 登入 Experience Cloud。
 
-1. 在Experience Cloud上，選取您的個人資料圖片。
+1. 在 Experience Cloud 上，選取您的個人資料照片。
 
    ![](assets/edit-profile.png)
-1. 選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
+1. 選取「**[!UICONTROL 編輯個人資料]**」。
 
    在「個人資料與密碼」頁面上，填寫「個人詳細資訊」底下的欄位與選項。
 
 ## 復原您的密碼 {#task_46541A2806164CB1A4AE8239604E4EB1}
 
-1. 瀏覽至解決方案的登入頁面。
-1. 選擇&#x200B;**[!UICONTROL 忘記密碼]**。
+1. 導覽至解決方案的登入頁面。
+1. 選取「**[!UICONTROL 忘記密碼]**」。
 
    重設解決方案密碼應該能解決 Experience Cloud 帳戶的密碼連結問題。
 
