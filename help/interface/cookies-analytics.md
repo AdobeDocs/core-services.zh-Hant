@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Analytics Cookie{#analytics-cookies}
 
-Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。Cookie 也可用來為瀏覽資訊與客戶記錄建立關聯。
+Adobe Analytics 使用 Cookie 來區分不同瀏覽器的請求，以及儲存應用程式之後可使用的有用資訊。 Cookie 也可用來為瀏覽資訊與客戶記錄建立關聯。
 
 Analytics 會使用 Cookie 以匿名方式定義新訪客、協助分析點按資料流資料，以及追蹤網站上的歷史活動，例如對特定行銷活動的回應或銷售週期的長度。
 
@@ -31,7 +31,7 @@ Analytics 會使用 Cookie 以匿名方式定義新訪客、協助分析點按�
 * [Cookie 名稱：s_fid](cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [外掛程式設定的 Cookie](cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳細資訊。
+Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的詳細資訊。
 
 ## Cookie 名稱：s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
@@ -39,7 +39,7 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 |--- |--- |
 | 儲存的資訊 | 包含 Experience Cloud ID (ECID) 或 MID 副本。MID 儲存在遵循語法 s_ecid=MCMID 的機碼值組中 | `<ECID>` |
 | 有效期限 | 2 年 |
-| 使用狀況 | 此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以瞭解詳細資訊。 |
+| 使用方式 | 此 Cookie 是在用戶端設定 AMCV Cookie 後，由客戶的網域所設定。此 Cookie 的目的是允許在第一方狀態中進行永久性 ID 追蹤，並在 AMCV Cookie 過期時，作為參考 ID 使用。請在此查看 AMCV Cookie，以瞭解詳細資訊。 |
 | 位置 | 僅限 CNAME 客戶。不適用於協力廠商情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 |
 | 大小 | 45 位元組 |
 
@@ -51,7 +51,7 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 |--- |--- |
 | 儲存的資訊 | JavaScript 程式碼會設定並讀取此 Cookie，用於判斷 Cookie 是否已啟用 (設為「True」) |
 | 過期 | 此 Cookie 是工作階段 Cookie，會在瀏覽器關閉時過期 |
-| 使用狀況 | 只有一個 Cookie 供所有帳戶使用 |
+| 使用方式 | 只有一個 Cookie 供所有帳戶使用 |
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 4 位元組 |
 
@@ -61,9 +61,9 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 
 | 屬性 | 說明 |
 |--- |--- |
-| 儲存的資訊 | 啟用SelectMap功能或Activity Map功能時，JavaScript程式碼會設定並讀取此Cookie;它包含使用者所選取之上一個連結的相關資訊 |
+| 儲存的資訊 | SelectMap 功能或 Activity Map 功能啟用時，JavaScript 程式碼會設定並讀取此 Cookie；此 Cookie 包含使用者所選的上一個連結的相關資訊 |
 | 過期 | 此 Cookie 是工作階段 Cookie，會在瀏覽器關閉時過期 |
-| 使用狀況 | 只有一個 Cookie 供所有帳戶使用 |
+| 使用方式 | 只有一個 Cookie 供所有帳戶使用 |
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 視頁面 URL 大小而定，但通常為 100 到 200 位元組 |
 
@@ -75,8 +75,8 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 |--- |--- |
 | 儲存的資訊 | 不重複訪客 ID 時間/日期戳記 |
 | 過期 | 2 年 |
-| 使用狀況 | 該 Cookie 用於識別不重複訪客 |
-| 位置 | 此 Cookie 會儲存在影像請求的網域中；如果您使用協力廠商 Cookie，或您的網域使用第一方 Cookie，通常會是 2o7.net 或 omtrdc.net 底下的客戶專屬子網域。 |
+| 使用方式 | 該 Cookie 用於識別不重複訪客 |
+| 位置 | 此 Cookie 會儲存在影像請求的網域中；如果您使用第三方 Cookie，或您的網域使用第一方 Cookie，通常會是 2o7.net 或 omtrdc.net 底下的客戶專屬子網域。 |
 | 大小 | 44 位元組 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -91,7 +91,7 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 |--- |--- |
 | 儲存的資訊 | 備援不重複訪客 ID 時間/日期戳記 |
 | 有效期限 | 2 年 |
-| 使用狀況 | 該 Cookie 用於識別不重複訪客，如果標準的 `s_vi` Cookie 因協力廠商 Cookie 限制而無法取用。不用於使用第一方 Cookie 的實作。 |
+| 使用方式 | 該 Cookie 用於識別不重複訪客，如果標準的 `s_vi` Cookie 因第三方 Cookie 限制而無法取用。不用於使用第一方 Cookie 的實作。 |
 | 位置 | 此 Cookie 會作為第一方 Cookie 儲存在您的網域中。 |
 | 大小 | 33 位元組 |
 
@@ -117,6 +117,6 @@ Analytics 說明中提供有關[第一方 Cookie](cookies-first-party.md) 的詳
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。這些 Cookie 是用戶端可用於多種情況的程式碼片段。這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。如需各外掛程式設定之 Cookie 的詳細資訊，請連絡 ClientCare。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
+視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。 這些 Cookie 是用戶端可用於多種情況的程式碼片段。這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。如需各外掛程式設定之 Cookie 的詳細資訊，請連絡 ClientCare。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
 
 只有電子郵件用戶端和網頁瀏覽器共用 Cookie 空間時，才能正確識別未使用 JavaScript 而傳入影像請求的 Conversion 變數 (eVarX)，例如置入電子郵件內的代碼。
