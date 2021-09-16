@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
 
 >[!NOTE]
 >
->使用[Adobe Experience Cloud ID(ECID)服務](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)的測試版Advertising Cloud Javascript標籤會建立[第一方Experience Clouds_ecid cookie](cookies-first-party.md)，而非Advertising Cloud Cookie。
+>Beta 版 Advertising Cloud JavaScript 標記，它會使用 [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 建立[第一方 Experience Cloud s_ecid Cookie](cookies-first-party.md)，而不是 Advertising Cloud Cookie。
 
 ## Cookie 名稱：_lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>顯示器的ID和時間戳（格式為yyyymmdd）將選擇</p> </td> 
+   <td colname="col2"> <p>顯示廣告上選取項目的 ID 和時間戳記 (格式為 yyyymmdd)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用方式 </p> </td> 
-   <td colname="col2"> <p>協力廠商Cookie，用於判斷顯示廣告上的選取事件是否適用於Adobe Analytics點擊 </p> </td> 
+   <td colname="col2"> <p>用於判斷顯示廣告上的選取事件是否適用於 Adobe Analytics 點擊的第三方 Cookie </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -74,8 +74,8 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>1 年 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
-   <td colname="col2"> <p>此協力廠商 Cookie 會一併儲存使用者參與和廣告，例如「最近一次於 2016 年 6 月 30 日觀看廣告 xyz123」 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
+   <td colname="col2"> <p>此第三方 Cookie 會一併儲存使用者參與和廣告，例如「最近一次於 2016 年 6 月 30 日觀看廣告 xyz123」 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -100,14 +100,14 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>瀏覽者上次造訪廣告商網站的時間戳記、瀏覽者上次的搜尋選取，以及使用者選取廣告時建立的ef_id</p> </td> 
+   <td colname="col2"> <p>瀏覽者上次造訪廣告商網站的時間戳記、瀏覽者上次搜尋的選取項目，以及使用者選取廣告時所建立的 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
    <td colname="col2"> <p>2021 年 2 月 24 日以前設定的 Cookie 將於 730 天後過期。2021 年 2 月 25 日以後設定的 Cookie 將於 364 天後過期。</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
    <td colname="col2"> <p>將瀏覽者 ID 與相關對象區段和轉換建立關聯的第一方 Cookie </p> <p> 參考瀏覽者上次造訪的相關資訊，可避免向 Adobe 伺服器送出不必要的請求，進而最佳化頁面載入時間。 </p> <p>上次搜尋點擊的相關資訊有助於判斷轉換事件是由點擊還是觀看率 (因曝光但無點擊所產生的轉換) 所產生。 </p> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>要執行同步的日期，格式為 yyyymmdd </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
    <td colname="col2"> <p>協力廠商廣告交易特定 Cookie，可將 Advertising Cloud 瀏覽者 ID 與合作夥伴廣告交易同步。系統會為新瀏覽者建立此 Cookie，並在過期時傳送同步請求。 </p> </td> 
   </tr> 
   <tr> 
@@ -175,7 +175,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
    <td colname="col2"> <p>在使用者首次點擊用戶端廣告後建立，可將目前和後續點擊對應至用戶端網站上的其他事件。 </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +208,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>瀏覽器關閉時 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
    <td colname="col2"> <p>協力廠商瀏覽器工作階段 Cookie；同一 Cookie 可用於所有帳戶 </p> </td> 
   </tr> 
   <tr> 
@@ -241,8 +241,8 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>2 年 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
-   <td colname="col2"> <p>此協力廠商 Cookie 儲存的 DSP ID 會對應至 everest_g_v2 Cookie 中的瀏覽者 ID </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
+   <td colname="col2"> <p>此第三方 Cookie 儲存的 DSP ID 會對應至 everest_g_v2 Cookie 中的瀏覽者 ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -274,7 +274,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
    <td colname="col2"> <p>91 天 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用狀況 </p> </td> 
+   <td colname="col1"> <p>使用方式 </p> </td> 
    <td colname="col2"> <p>第一方網域已設定 Cookie，但尚未使用 </p> </td> 
   </tr> 
   <tr> 
