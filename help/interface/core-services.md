@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >若使用 [!DNL Target]，需從 [!DNL mbox.js] 移轉至 at.js。請參閱[從 at.js 1.x 升級為 at.js 2.x](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=zh-Hant)。
+   >若使用 [!DNL Target]，需從 [!DNL mbox.js] 移轉至 at.js。請參閱[從 at.js 1.x 升級為 at.js 2.x](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)。
 
 1. 最實化實作，並取得已佈建的管理員。
 
@@ -86,9 +86,9 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 [!UICONTROL Experience Cloud ID Service] 提供的通用 ID 可用於跨解決方案整合。它提供跨網域訪客身分識別，以及根據透過[!UICONTROL 客戶屬性]上傳的 CRM 資料跨裝置/瀏覽器鎖定目標和個人化的路徑。
 
-啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)，為 Analytics 和 Adobe Target 自動啟用
+啟用 Experience Cloud 核心服務最簡單的方法，就是透過 [!UICONTROL Experience Platform Launch] 中的 [Experience Cloud ID Service 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，為 Analytics 和 Adobe Target 自動啟用
 
-如需完整的 Experience Cloud ID Service 說明 (先前稱為訪客 ID)，請前往[這裡](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant#intro)。
+如需完整的 Experience Cloud ID Service 說明 (先前稱為訪客 ID)，請前往[這裡](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro)。
 
 **沒有使用 [!UICONTROL Experience Platform Launch] 或 [!UICONTROL Dynamic Tag Management] 嗎？**
 
@@ -96,8 +96,8 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 | 任務 | 說明 |
 | -----------| ---------- |  
-| [實作適用於 Analytics 的 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=zh-Hant) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。這些 ID 與每個訪客相關聯，實現了 Experience Cloud 中的現有和未來功能。 |
-| 將現有的 [!DNL s_code] 更新為 H.27.3 或更新版本，或將現有的 [!DNL AppMeasurement.js] 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hant)中下載。(如果您需要更多 [!DNL AppMeasurement.js] 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant#js)指南。) |
+| [實作適用於 Analytics 的 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。這些 ID 與每個訪客相關聯，實現了 Experience Cloud 中的現有和未來功能。 |
+| 將現有的 [!DNL s_code] 更新為 H.27.3 或更新版本，或將現有的 [!DNL AppMeasurement.js] 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en)中下載。(如果您需要更多 [!DNL AppMeasurement.js] 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js)指南。) |
 | 同步 Analytics 的客戶 ID | 請參閱 [Analytics - 同步客戶 ID](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (下文)。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -106,7 +106,7 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) 與 Experience Cloud 進行同步，作為設定 Experience Cloud ID Service 的步驟之一。
 
-在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant)。)
+在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=en)。)
 
 訪客在您的網站上進行驗證或以其他方式識別他們自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。然後，您可以使用適當的函數呼叫，將客戶 ID 同步至 Experience Cloud。此同步會將訪客的 CRM 客戶 ID 儲存在 Experience Cloud 中，並啟動該客戶的屬性以用於 Experience Cloud。
 
@@ -119,7 +119,7 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://exper
 
 ### 行動 SDK
 
-如需在 [Android™](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 和 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant) 行動應用程式中設定其他客戶 ID 的語法範例，請參閱 *Experience Cloud ID Service* 一節。
+如需在 [Android™](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en) 和 [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) 行動應用程式中設定其他客戶 ID 的語法範例，請參閱 *Experience Cloud ID Service* 一節。
 
 ### 啟用歷史資料的屬性
 
@@ -137,15 +137,15 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 更新 Analytics AppMeasurement 程式碼 {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-如果您使用 Analytics，請確認您是否位於地區資料收集 (RDC)。如果您的資料收集網域為 `omtrdc.net`，或將 CNAME 對應至 `omtrdc.net`，則表示您位於 RDC。如需詳細資訊，請參閱[轉換為 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=zh-Hant)。如果您使用第一方 Cookie，請參閱 [CNAME 和 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hant)，取得資料收集 CNAME 和跨網域追蹤的相關資訊。
+如果您使用 Analytics，請確認您是否位於地區資料收集 (RDC)。如果您的資料收集網域為 `omtrdc.net`，或將 CNAME 對應至 `omtrdc.net`，則表示您位於 RDC。如需詳細資訊，請參閱[轉換為 RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en)。如果您使用第一方 Cookie，請參閱 [CNAME 和 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，取得資料收集 CNAME 和跨網域追蹤的相關資訊。
 
-建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。完成此步驟最簡單的方式是在 Experience Platform Data Collection (Launch) 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)。
+建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。完成此步驟最簡單的方式是在 Experience Platform Data Collection (Launch) 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en)。
 
 ## 更新您的 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * 建議您在 [!UICONTROL Experience Platform Launch] 中新增 [Adobe Target 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en)，以便讓資料庫擷取作業自動執行。您也可以使用 [!UICONTROL Experience Platform Launch]，為 Adobe Target (及其他解決方案) 設定 [Experience Cloud ID Service 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)。**必須**&#x200B;為 Adobe Target 更新 [!UICONTROL Experience Cloud ID Service]，才能使用核心服務。
 * 如果您沒使用 [!UICONTROL Experience Platform Launch]，[請手動更新您的 mbox 資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en)。
-* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。[!DNL Target] 與 資料會在處理期間結合到相同的伺服器呼叫上，使訪客可在兩個解決方案之間連接。[!DNL Analytics]請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
+* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。[!DNL Target] 與 資料會在處理期間結合到相同的伺服器呼叫上，使訪客可在兩個解決方案之間連接。[!DNL Analytics]請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)。
 
    >[!IMPORTANT]
    >
@@ -153,7 +153,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 驗證實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-請使用下列程式，確保Experience CloudID服務已在您的網站上正確實作。
+請依照下列程序操作，確定您的網站上已正確實作 Experience Cloud ID Service。
 
 1. 清除您網站的 Cookie，以便查看對 Experience Cloud ID Service 發出的請求 (此請求會在第一次瀏覽時發出，然後每週為每位訪客發出一次)。
 1. 使用封包分析工具或網頁瀏覽器偵錯工具中的網路面板，尋找傳至 [!DNL dpm.demdex.net] 的請求。
@@ -218,7 +218,7 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立對象、組合現�
 * 根據 Audience Manager 中設定的規則，訪客符合資格的特徵和區段。
 * (選用) 您的一或多個 ID。視您實作的 ID 服務而定，您可能也會傳入一或多個 ID，例如 CRM ID 或雜湊的電子郵件地址。若將此資料傳入 Adobe [!DNL Analytics]，則會將其轉移至 Adobe 對象管理。Adobe 不建議您將個人資料提供給 Adobe [!DNL Analytics]。更建議先使用單向雜湊來將資料遮罩，再傳送給 Adobe。
 * 透過後端區段分享功能，在 [!DNL Analytics] 中建立的區段
-* 如未封鎖協力廠商 cookie，則會設置 demdex.net cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 一律以 Experience Cloud ID Service 設定。
+* 如未封鎖第三方 Cookie，則會設置 demdex.net cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 一律以 Experience Cloud ID Service 設定。
 
 所有這些資料元素都會以記錄檔形式傳送至 Adobe Audience Manager。Audience Manager 會在美國境內處理和儲存這些資料。Audience Manager 不提供在美國境外儲存或處理這些資料的選項。
 
@@ -228,6 +228,6 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立對象、組合現�
 
 若要提供適當的選擇退出能力，您網站的訪客必須將 Audience Manager 選擇退出功能新增至您現有的選擇退出程序。
 
-請參閱 [Adobe Experience Cloud - 實作 Adobe 選擇退出](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=zh-Hant)以取得指示。
+請參閱 [Adobe Experience Cloud - 實作 Adobe 選擇退出](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html)以取得指示。
 
 請參閱[資料收集 CNAME 和跨網域追蹤](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en)，以取得啟用跨網域追蹤的相關資訊。
