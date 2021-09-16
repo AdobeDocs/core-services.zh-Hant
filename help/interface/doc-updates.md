@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 Experience Cloud 產品文件的更新資訊。
 
-**更新日期8/24/2021**
+**更新日期：2021 年 8 月 24 日**
 
-更新[中央元件](experience-cloud.md)頁面（本指南的登陸頁面）。 新增瀏覽器和語言支援、組織更新、登入，以及網域的相關資訊。
+已更新[中央元件](experience-cloud.md)頁面 (本指南的登陸頁面)。 已新增瀏覽器和語言支援、對組織和登入的更新，並已新增有關網域的資訊。
 
-**更新日期8/6/2021**
+**更新日期：2021 年 8 月 6 日**
 
-更新[第一方Cookie](cookies-first-party.md)。
+已更新[第一方 Cookie](cookies-first-party.md)。
 
 **更新日期：2021 年 6 月 4 日**
 
