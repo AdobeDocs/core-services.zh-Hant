@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
 
 部署和管理提供客戶體驗必需的相關分析、行銷和廣告標記。
 
-查看 [Experience Platform Launch Quickstart 指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)。
+查看 [Experience Platform Launch Quickstart 指南](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
 
 ## Experience Cloud [!UICONTROL 觸發器] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
@@ -56,4 +56,4 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
 
 適用於 Chrome 的 Adobe Experience Cloud Debugger 擴充功能會檢查您的網頁，協助您找出有關 Experience Cloud 解決方案實作方式的問題。
 
-如需說明，請參閱 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)。
+如需說明，請參閱 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)。
