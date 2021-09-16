@@ -10,35 +10,35 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# 組織Experience Cloud
+# Experience Cloud 中的組織
 
-了解如何在Experience Cloud中管理和切換組織。
+了解如何在 Experience Cloud 中管理及切換組織。
 
 ## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
 ** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像一個登入公司，可跨越所有的 Experience Cloud 產品和解決方案。通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
-若要確認您已登入正確的組織，請按一下您的設定檔頭像以查看組織名稱。 如果您可以存取多個組織，也可以在標題列中檢視並切換至另一個組織。
+若要確認您已登入正確的組織，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
-如果貴組織使用Federated ID,Experience Cloud可讓您使用組織的單一登入進行登入，而無須輸入您的電子郵件地址和密碼。 若要這麼做，請將`#/sso:@domain`新增至Experience CloudURL(`https://experience.adobe.com`)。
+如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。 若要這樣做，請將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`)。
 
-例如，對於具有Federated ID和網域`adobecustomer.com`的組織，請將URL連結設為`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此URL加入書籤並附加應用程式路徑，直接前往特定應用程式。 (例如，針對Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
+例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ![步驟結果](assets/organization-switch.png)
 
 ## 找出組織 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-您可能需要找到組織ID以供支援之用。 您可以使用&#x200B;**[!UICONTROL 「組織」]**&#x200B;功能表確認自己所在的組織是否正確，或者切換組織。
+您可能需要找到您的組織 ID 以方便支援。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
 
 **組織 ID**&#x200B;是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。
 
-若要檢視組織ID，請導覽至Experience Cloud登陸頁面，或選取(![](assets/menu-icon.png))，然後選取&#x200B;**[!UICONTROL 管理]**。 您可以在 [!UICONTROL Experience Cloud 快速入門]頁面底部或[!UICONTROL 管理]頁面找到組織 ID。
+若要檢視您的組織 ID，請導覽至 Experience Cloud 登陸頁面，或選取 ( ![](assets/menu-icon.png))，然後選取「**[!UICONTROL 管理]**」。 您可以在 [!UICONTROL Experience Cloud 快速入門]頁面底部或[!UICONTROL 管理]頁面找到組織 ID。
 
 ![](assets/administration-page.png)
 
@@ -48,7 +48,7 @@ ht-degree: 64%
 
 1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
-1. 選取解決方案選取器。(![](assets/menu-icon.png))。
+1. 選取解決方案選擇器 (![](assets/menu-icon.png))。
 
    ![](assets/solutions-active.png)
 
@@ -57,14 +57,14 @@ ht-degree: 64%
 
    ![](assets/analytics-link-accounts.png)
 
-   如果您隸屬於適用的群組 (且具備解決方案權限)，但尚未將帳戶憑證連結至 Adobe ID，系統就會顯示這類訊息。
-1. 選擇&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的憑證。
+   如果您隸屬於適當的群組 (並擁有解決方案的權限)，但尚未將帳戶認證與 Adobe ID 綁定，系統就會顯示這類訊息。
+1. 選取「**[!UICONTROL 連結帳戶]**」，然後提供您的認證。
 
 ## 指定預設機構和登陸頁面 {#concept_6A191B42A9874A9780882903BA18F071}
 
 您可指定在登入時使用的預設組織和登陸頁面。
 
-在配置檔案中，選擇&#x200B;**[!UICONTROL 編輯配置檔案]**。
+在您的個人資料中，選取「**[!UICONTROL 編輯個人資料]**」。
 
 ![](assets/edit-profile.png)
 
