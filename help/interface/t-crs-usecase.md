@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派給客戶屬性的產品個人資料 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品個人資料]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
+>若要存取此功能，必須將使用者指派給客戶屬性的產品描述檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品描述檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
 >
 >若要使用客戶屬性功能，使用者也必須加入解決方案層級的群組 (Analytics 或 [!DNL Target])。
 
@@ -65,15 +65,15 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。連絡 Audience Manager 客戶服務或洽詢如何取得管理權限。
+>建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢相關人員，以取得管理權限。
 
-1. 在[!DNL Experience Cloud]中，選擇菜單![](assets/menu-icon.png)表徵圖。
-1. 在&#x200B;**[!DNL Experience Platform]**&#x200B;下，選擇&#x200B;**[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**。
+1. 在 [!DNL Experience Cloud] 中，選取「選單」![](assets/menu-icon.png) 圖示。
+1. 在 **[!DNL Experience Platform]** 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
    ![步驟結果](assets/03_crs_usecase.png)
-1. 選擇&#x200B;**[!UICONTROL 新建]**。
+1. 選取「**[!UICONTROL 新增]**」。
 
    ![步驟結果](assets/04_crs_usecase.png)
 1. 在[!UICONTROL 「編輯客戶屬性來源」]頁面，設定以下欄位：
@@ -86,9 +86,9 @@ ht-degree: 97%
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。
 
          例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -96,13 +96,13 @@ ht-degree: 97%
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant) 中的&#x200B;*「idType」*。
+      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) 中的&#x200B;*「idType」*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
+      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en) 中的 *&quot;idType&quot;*。
 
          例如：
 
@@ -152,7 +152,7 @@ ht-degree: 97%
 
 **啟動屬性來源**
 
-在[!UICONTROL 新建[或編輯]客戶屬性源]頁面上，找到[!UICONTROL 激活]標題，然後選擇&#x200B;**[!UICONTROL 活動]**。
+在「[!UICONTROL 建立新的[或編輯]客戶屬性來源]」頁面上，找出「[!UICONTROL 啟用]」標題，然後選取「**[!UICONTROL 使用中]**」。
 
 ![步驟結果](assets/activate_attribute_source.png)
 
@@ -172,4 +172,4 @@ ht-degree: 97%
 
 ![](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)。
