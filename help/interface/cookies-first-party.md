@@ -11,28 +11,28 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # 關於第一方 Cookie
 
-Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。Adobe 會在可能的情況下使用第一方 Cookie 來記錄您網站上的活動。 若要記錄不同網站 (例如您可能擁有的其他網域) 上的活動，則需要協力廠商 Cookie。
+Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。Adobe 會在可能的情況下使用第一方 Cookie 來記錄您網站上的活動。 若要記錄不同網站 (例如您可能擁有的其他網域) 上的活動，則需要第三方 Cookie。
 
-許多瀏覽器和反間諜軟體應用程式的設計目的是拒絕和刪除第三方Cookie。 Adobe可確保即使第三方Cookie遭到封鎖，我們仍可一律設定Cookie。 具體行為會依您使用Experience Platform身分識別服務（ECID服務）或Analytics的舊版識別碼（亦稱為s_vi Cookie）而有所不同：
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie。 Adobe 會確保總是可以設定 Cookie，即便在第三方 Cookie 被封鎖時。 此特定行為會因您使用的是 Experience Platform Identity Service (ECID Service) 還是 Analytics 的舊型識別碼 (亦即 s_vi Cookie) 而異：
 
-* 無論您的收集網域是否符合您的網站網域，[Experience Platform身分識別服務（ECID服務）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)都會自動設定第一方Cookie。 如果不相符，Identity Service會使用JavaScript在您網站的網域中設定Cookie。
-* 如果您使用[Analytics舊版識別碼](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en)（亦稱為`s_vi` Cookie），取決於您如何設定資料收集伺服器。 如果資料收集伺服器符合您網站的網域，則 Cookie 會設定為第一方。如果資料收集伺服器不符合您目前的網域，則 Cookie 會設定為協力廠商。 在此情況下，如果第三方Cookie遭到封鎖，Analytics會設定第一方[備援ID(s_fid)](cookies-analytics.md)，而非標準的「s_vi」Cookie。
+* [Experience Platform Identity Service (ECID Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) 將會自動設定第一方 Cookie，無論您的收集網域是否符合您網站的網域。 如果兩者不相符，Identity Service 將會使用 JavaScript 在您網站的網域中設定 Cookie。
+* 如果您正在使用 [Analytics 舊型識別碼](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (亦即 `s_vi` Cookie)，則將取決於您已設定您的資料收集伺服器的方式。 如果資料收集伺服器符合您網站的網域，則 Cookie 會設定為第一方。如果資料收集伺服器不符合您目前的網域，則 Cookie 會設定為協力廠商。 在此情況下，如果第三方 Cookie 被封鎖，Analytics 會設定第一方[備援 ID (s_fid)](cookies-analytics.md)，而不是標準「s_vi」Cookie。
 
-若您想要確保您的收集伺服器符合您網站的網域，您可以使用CNAME實作，該實作將啟用從CNAME實作中指定的自訂網域，到Adobe的收集伺服器的轉送。 這包括變更您公司的DNS設定，以設定指向Adobe托管網域的CNAME別名。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。 如果您控制多個網域，這些網域可能會使用單一 CNAME 端點來追蹤其網域中的使用者，但只要網站網域不符合 CNAME 網域，Cookie 就會設定為協力廠商。 
+如果您想要確保您的資料收集伺服器符合您網站的網域，您可以使用 CNAME 實作，好讓您可以從 CNAME 實作中指定的自訂網域轉送到 Adobe 的資料收集伺服器。 這涉及到貴公司的 DNS 設定變更，以便設定 CNAME 別名來指向 Adobe 代管網域。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。 如果您控制多個網域，這些網域可能會使用單一 CNAME 端點來追蹤其網域中的使用者，但只要網站網域不符合 CNAME 網域，Cookie 就會設定為協力廠商。 
 
 >[!NOTE]
 >
->無論您的收集網域是否與網站網域相符，Apple的智慧型追蹤預防(ITP)程式都會讓Adobe設定的第一方Cookie在受ITP管轄的瀏覽器上短暫存留，包括macOS上的Safari以及iOS和iPadOS上的所有瀏覽器。 自2020年11月起，透過CNAME設定的Cookie的過期時間也與透過JavaScript設定的Cookie相同。 此有效期可能會有變動。
+>無論您的資料收集網域是否符合您網站的網域，Apple 的智慧型追蹤預防 (ITP) 計劃會使得 Adboe 設定的第一方 Cookie 在受 ITP 控管的瀏覽器上短暫存在，其中包括 macOS 上的 Safari 及 iOS 和 iPadOS 上的所有瀏覽器。 截至 2020 年 11 月，透過 CNAME 設定的 Cookie 也與透過 JavaScript 設定的 Cookie 具有相同有效期。 此有效期可能會有變動。
 
-如果您想要建立資料收集的CNAME，而您的網站使用HTTPS通訊協定有安全頁面，您可以與Adobe合作取得SSL憑證。
+如果您想要為資料收集建立 CNAME，而且您的網站具有使用 HTTPS 通訊協定的安全頁面，您可以與 Adobe 合作來取得 SSL 憑證。
 
 SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領先的憑證授權機構 (CA) DigiCert 建立合作關係，並開發出整合程序，將憑證的購買和管理作業自動化。
 
@@ -40,15 +40,15 @@ SSL 憑證簽發過程複雜難懂，而且耗時。因此，Adobe 與業界領�
 
 ## Adobe 託管的證書計劃
 
-Adobe管理憑證方案是設定CNAME實作所需第一方SSL憑證的建議程式，可確保您的Adobe收集伺服器符合您的網站網域。
+Adobe Managed Certificate Program 是設定 CNAME 實作所需的第一方 SSL 憑證的建議程序，好讓您確保您的 Adobe 資料收集伺服器與您網站的網域相符。
 
-「Adobe管理憑證」方案可讓您免費實作新的第一方SSL憑證（前100個CNAME）。 如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
+Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費實作新的第一方 SSL 憑證。 如果您目前已有自己的客戶託管 SSL 憑證，請向 Adobe 客戶服務洽詢移轉至 Adobe Managed Certificate Program 的相關資訊。
 
 ### 實作
 
-以下說明如何為第一方資料收集實作新的第一方SSL憑證：
+以下說明如何為第一方資料收集實作新的第一方 SSL 憑證：
 
-1. 填寫[第一方網域請求表單](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)並與客戶服務開立票證，請求在Adobe管理程式上設定第一方資料收集。 每個欄位在文件中都有範例解說。
+1. 填寫[第一方網域請求表單](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，並請客戶服務人員開立支援服務單，要求在 Adobe Managed Program 上設定第一方資料收集。 每個欄位在文件中都有範例解說。
 
 2. 建立 CNAME 記錄 (請參閱下方說明)。
 
@@ -151,7 +151,7 @@ Address: 54.187.216.46
 
 ## 更新實作程式碼 {#update}
 
-編輯網站程式碼以使用第一方資料收集之前，請先完成下列必要條件：
+在您編輯網站程式碼以使用第一方資料收集前，請先完成下列必要條件：
 
 * 依照 [Adobe 託管憑證計劃](#adobe-managed-certificate-program)的&#x200B;*實施*&#x200B;一節所述步驟操作，請求取得 SSL 憑證。
 * 建立 CNAME 記錄 (請參閱上方)。
@@ -160,12 +160,12 @@ Address: 54.187.216.46
 確認主機名稱會回應並將資料轉寄給 Adobe 資料收集伺服器後，您就可以變更實作，指向您自己的資料收集主機名稱。
 
 1. 開啟您的核心 JavaScript 檔案 (`s_code.js/AppMeasurement.js`)。
-1. 如果您要更新程式碼版本，請以較新版本取代整個 `s_code.js/AppMeasurement.js` 檔案，並汰換任何外掛程式或自訂項目 (如果有的話)。**或者**，如果您只想更新與第一方資料收集相關的程式碼，請找出s.trackingServer和s.trackingServerSecure（若使用SSL）變數，並將它們指向您的新資料收集主機名稱。以 mysite.com 為例：`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. 如果您要更新程式碼版本，請以較新版本取代整個 `s_code.js/AppMeasurement.js` 檔案，並汰換任何外掛程式或自訂項目 (如果有的話)。**或者**&#x200B;如果您只想更新第一方資料收集的相關程式碼，請找到 s.trackingServer 和 s.trackingServerSecure (如果使用 SSL) 變數，將其指向新的資料收集主機名稱。 以 mysite.com 為例：`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. 將更新後的核心 JavaScript 檔案上傳至您的網站。
 
-1. 如果您要從長期實作移至第一方資料收集，或變更為不同的第一方收集主機名稱，Adobe建議將訪客從舊有網域移轉至新網域。
+1. 如果您要從長期實作中改為第一方資料收集，或變更成其他第一方資料收集主機名稱，Adobe 建議您將訪客從舊有網域移轉到新網域。
 
-請參閱「Analytics 實作指南」中的[訪客移轉](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)。
+請參閱「Analytics 實作指南」中的「[訪客移轉](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en)」。
 
-在您上傳 JavaScript 檔案後，系統就會執行第一方 資料收集所需的所有設定。Adobe 建議您在接下來幾小時監控 Analytics 報告，以確認系統能繼續正常收集資料。如果未正常運作，請確認前述所有步驟均已完成，並推派組織的任何一名支援使用者連絡客戶服務。
+在您上傳 JavaScript 檔案後，系統就會執行第一方資料收集所需的所有設定。 Adobe 建議您在接下來幾小時監控 Analytics 報告，以確認系統能繼續正常收集資料。如果未正常運作，請確認前述所有步驟均已完成，並推派組織的任何一名支援使用者連絡客戶服務。
