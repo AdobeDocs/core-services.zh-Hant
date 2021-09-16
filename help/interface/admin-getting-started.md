@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->以下是 Experience Cloud 應用程式專屬資訊。 這項資訊可補充所有 Adobe 雲端產品的[企業版管理使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html)中更廣泛的管理資訊。
+>以下是 Experience Cloud 應用程式專屬資訊。 這項資訊可補充所有 Adobe 雲端產品的[企業版管理使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html)中更廣泛的管理資訊。
 
 您可以在管理工具中檢視所有 Experience Cloud 使用者及其詳細資訊，且可將清單加以排序及篩選。 請參閱「[在管理工具中檢視 Experience Cloud 使用者](admin-tool-experience-cloud.md)」。
 
@@ -40,18 +40,18 @@ ht-degree: 94%
 
 邀請使用者加入組織時，可提供產品和產品描述檔的存取權給使用者。您也可以委派有限的管理權限給使用者。同樣地，您可以建立使用者群組，然後將群組新增至產品描述檔以啟用存取權。
 
-1. 在[Admin Console](https://adminconsole.adobe.com/enterprise/)中，選擇&#x200B;**[!UICONTROL 產品]**。
+1. 在 [Admin Console](https://adminconsole.adobe.com/enterprise/) 中，選取「**[!UICONTROL 產品]**」。
 1. 選取您的組織名稱。
-1. 選擇&#x200B;**[!UICONTROL 新建配置檔案]**。
-1. 配置配置檔案詳細資訊，然後選擇&#x200B;**[!UICONTROL 保存]**。
+1. 選取「**[!UICONTROL 新描述檔]**」。
+1. 設定描述檔詳細資料，然後選取「**[!UICONTROL 儲存]**」。
 
-如需詳細資訊 (以及有關 Creative Cloud 和 Document Cloud 產品管理的說明)，請參閱「[身分](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/identity.ug.html)」(在[管理使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/users.ug.html)中)。
+如需詳細資訊 (以及有關 Creative Cloud 和 Document Cloud 產品管理的說明)，請參閱「[身分](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html)」(在[管理使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)中)。
 
 **相關說明**
 
-* 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
-* Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)」會提供詳細資訊。
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
+* Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)」會提供詳細資訊。
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 <!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -82,16 +82,16 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 使用這些角色，您便可同時將管理作業委派給其他人，無需提供超出其所需的功能。
 
-1. 在Admin Console中，選擇&#x200B;**[!UICONTROL 用戶]**，然後選擇用戶的名稱。
+1. 在 Admin Console 中，選取「**[!UICONTROL 使用者]**」，然後選取使用者的名稱。
 
    ![](assets/edit-admin-rights.png)
 
-1. 選擇&#x200B;**[!UICONTROL 編輯管理權限]**。
+1. 選取「**[!UICONTROL 編輯管理員權限]**」。
 
    ![](assets/edit-admin-rights-page.png)
 
 1. 指定使用者的管理權限。
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 選取「**[!UICONTROL 儲存]**」。
 
 ## 管理 Analytics 使用者和產品 {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 例如，您可以建立包含多個 Analytics 工具的產品描述檔 ([!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Report Builder])。 這些描述檔包含特定量度和維度 (包括 eVar) 的權限，以及類似區段或建立計算量度等功能。
 
-1. 登入[Admin Console](https://adminconsole.adobe.com/enterprise)，然後選取&#x200B;**[!UICONTROL 產品]**。
-1. 在[!UICONTROL Products]頁面上，選擇您的產品，然後選擇&#x200B;**[!UICONTROL 權限]**（僅供管理員使用）。
+1. 登入 [Admin Console](https://adminconsole.adobe.com/enterprise)，然後選取「**[!UICONTROL 產品]**」。
+1. 在「[!UICONTROL 產品]」頁面上，選取您的產品，然後選取「**[!UICONTROL 權限]**」(僅供管理員使用)。
 1. 設定個人資料的權限：
 
 | 元素 | 說明 |
@@ -121,7 +121,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 **相關說明**
 
-如需詳細資訊，請參閱「[Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant)」。
+如需詳細資訊，請參閱「[Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)」。
 
 ## 管理 Adobe Target - 產品描述檔與 Workspaces 的比較 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -139,7 +139,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 *安全群組* (Security group)會顯示為產品描述檔。
 
-有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hant)。
+有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en)。
 
 ## 管理 Experience Platform Data Collection (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -153,26 +153,26 @@ Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示
 
 Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織」。 Experience Manager 客戶可使用 Adobe [!UICONTROL Admin Console] 管理其產品權益以及 Experience Manager as a [!UICONTROL Cloud Service] 的 IMS 驗證。
 
-請參閱「[Experience Manager as a Cloud Service 的 IMS 支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=zh-Hant)」。
+請參閱「[Experience Manager as a Cloud Service 的 IMS 支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)」。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 [!DNL AlgoModel])。
 
-請參閱 Audience Manager 說明中的「[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-Hant)」。
+請參閱 Audience Manager 說明中的「[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en)」。
 
 ## Experience Cloud 中支援的瀏覽器
 
-* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
+* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hant) 不支援 [!DNL Opera]，而 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hant) 不支援 [!DNL Safari])。
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) 不支援 [!DNL Opera]，而 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) 不支援 [!DNL Safari])。
 
 ### 解決方案和產品要求
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
-* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
+* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
