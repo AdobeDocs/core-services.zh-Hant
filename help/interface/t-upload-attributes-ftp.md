@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 98%
 您可以透過 FTP 或 SFTP 將檔案上傳至客戶屬性 FTP 站台：
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hant)所說明。
+* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en)所說明。
 
 **透過 FTP 上傳資料檔案**
 
 1. [建立客戶屬性來源及上傳資料檔案...](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   請確定您已登入您的 FTP 網站 (`ftp.adobe.com/<sftpname>`)。
+   確定您已登入您的 FTP 網站 (`ftp.adobe.com/<sftpname>`)。
 
-1. 選擇「**[!UICONTROL 操作]** > **[!UICONTROL 檔案上載]**」。
+1. 選取「**[!UICONTROL 動作]** > **[!UICONTROL 檔案上傳]**」。
 
 1. 上傳 `.fin` 檔案，使系統可以擷取您的檔案。
 
