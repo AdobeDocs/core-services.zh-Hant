@@ -1,5 +1,5 @@
 ---
-description: '了解如何登入以及Experience Cloud中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何導覽介面和取得說明。 '
+description: '了解如何登入以及有關 Experience Cloud 中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何瀏覽介面及取得說明。 '
 solution: Experience Cloud
 title: 'Experience Cloud 中央 UI 元件 '
 feature: Central Interface Components
@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Experience Cloud 的中央介面元件包括可讓您進行以下操作的功能
 * 使用全域搜尋尋找產品說明和商業物件
 * 管理您的帳戶偏好設定 (警示、通知和訂閱)
 
-## 瀏覽器支援Experience Cloud {#browser}
+## Experience Cloud 中的瀏覽器支援 {#browser}
 
-為獲得最佳效能，Experience Cloud已針對最熱門的瀏覽器最佳化，包括最新版本以及兩個舊版。
+為了提供最佳效能，Experience Cloud 已針對最熱門的瀏覽器 (包括最新版本及前兩個版本) 最佳化。
 
 * Chrome
 * Edge
@@ -31,15 +31,15 @@ Experience Cloud 的中央介面元件包括可讓您進行以下操作的功能
 * Opera
 * Safari
 
-如果您的瀏覽器未列出，則可能仍受支援，但建議您使用所列的其中一個瀏覽器。
+如果這裡未列出您使用的瀏覽器，該瀏覽器可能還是有受到支援，但建議您使用這裡列出的其中一個瀏覽器。
 
 >[!NOTE]
 >
->並非所有在Experience Cloud網域上執行的應用程式都支援所有瀏覽器。 如果您不確定，請查看特定應用程式的檔案。
+>並非在 Experience Cloud 網域上執行的所有應用程式都可支援所有瀏覽器。 如果您不確定，請查閱特定應用程式的文件。
 
-## 語言支援Experience Cloud {#languages}
+## Experience Cloud 中的語言支援 {#languages}
 
-Experience Cloud支援每位使用者的偏好語言，如Adobe使用者帳戶偏好設定中所設定。 目前支援的語言包括：
+Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe 使用者帳戶偏好設定中所設定。 目前支援的語言如下：
 
 * 中文
 * 英文
@@ -50,37 +50,37 @@ Experience Cloud支援每位使用者的偏好語言，如Adobe使用者帳戶�
 * 韓文
 * 葡萄牙語
 * 西班牙文
-* 台灣
+* 繁體中文 (台灣)
 
-儘管所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以上述所有語言提供。 如果Experience Cloud應用程式不支援您的主要語言，您也可以將次要語言設為預設（若適用）。 這可在[Experience Cloud用戶首選項](https://experience.adobe.com/preferences)中完成。
+雖然所有應用程式團隊都致力於提供全球語言的支援，但並非所有應用程式都有提供上述的所有語言版本。 如果 Experience Cloud 應用程式不支援您的主要語言，您也可以將次要語言設定為預設語言 (如適用)。 您可以在 [Experience Cloud 使用者偏好設定](https://experience.adobe.com/preferences)中進行這項設定。
 
 ## 登入 Experience Cloud {#signin}
 
 登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 選擇&#x200B;**[!UICONTROL 使用Adobe ID]**&#x200B;登錄。
-1. 確認您所在的組織正確無誤。
+1. 選取「**[!UICONTROL 使用 Adobe ID 登入]**」。
+1. 確認您隸屬於正確的組織。
 
    ![](assets/organizations-menu.png)
 
-   若要確認您已登入您的正確[organization](organizations.md)，請按一下您的設定檔頭像以查看組織名稱。 如果您可以存取多個組織，也可以在標題列中檢視並切換至另一個組織。
+   若要確認您已登入正確的[組織](organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
-   如果貴組織使用Federated ID,Experience Cloud可讓您使用組織的單一登入進行登入，而無須輸入您的電子郵件地址和密碼。 若要這麼做，請將`#/sso:@domain`新增至Experience CloudURL(`https://experience.adobe.com`)。
+   如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。 若要這樣做，請將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`)。
 
-   例如，對於具有Federated ID和網域`adobecustomer.com`的組織，請將URL連結設為`https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此URL加入書籤並附加應用程式路徑，直接前往特定應用程式。 (例如，針對Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
+   例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ## 存取 Experience Cloud 應用程式 {#navigation}
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-選擇應用程式選擇器![](assets/menu-icon.png)以訪問您擁有的Experience Cloud服務。
+選取應用程式選擇器 ![](assets/menu-icon.png)，存取您擁有的 Experience Cloud 服務。
 
 ![](assets/platform-core-services.png)
 
 ## Experience Cloud 中的搜尋和支援 {#search}
 
-Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/?lang=zh-Hant#home) 上的說明 (文件、教學課程和其他課程)。
+Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/#home) 上的說明 (文件、教學課程和其他課程)。
 
 ![](assets/search-menu.png)
 
@@ -104,7 +104,7 @@ Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experiencelea
 
 Experience Cloud 偏好設定包括通知、訂閱和警示。
 
-從帳戶菜單![](assets/preferences-icon-sm.png)中選擇&#x200B;**[!UICONTROL 首選項]**&#x200B;以管理首選項。
+從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」可管理偏好設定。
 
 ![](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 
 ## 通知和公告 {#notifications}
 
-選擇&#x200B;**[!UICONTROL 通知]**&#x200B;以查看對您而言重要的通知以及來自Adobe的公告。
+選取「**[!UICONTROL 通知]**」可查看對您重要的通知以及來自 Adobe 的公告。
 
 ![](assets/notifications-menu-small.png)
 
