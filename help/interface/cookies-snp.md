@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# Search 和 Promote Cookie{#search-and-promote-cookies}
+# Search &amp; Promote Cookie{#search-and-promote-cookies}
 
-Search&amp;Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
+Search&amp;Promote 使用 Cookie 來了解及預測訪客的搜尋意圖。
 
 ## Cookie 名稱：vsrecentsearches {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -50,7 +50,7 @@ Search&amp;Promote 使用 Cookie 來瞭解及預測訪客的搜尋意圖。
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 使用狀況 </p> </td> 
+   <td colname="col1"> <p> 使用方式 </p> </td> 
    <td colname="col2"> <p>搜尋引擎用來向使用者顯示其最後 n 個查詢詞。 </p> </td> 
   </tr> 
   <tr> 
