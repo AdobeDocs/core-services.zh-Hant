@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,19 +33,19 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料管理]**」，導覽至「資料管理報表套裝」(請參閱[檢視/管理報表套裝的管理設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=zh-Hant))。
+1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料控管]**」，導覽至「資料控管報表套裝」(請參閱「[檢視/管理報表套裝的資料控管設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)」)
 
-1. 若要查看可存取每個報表套裝的登入公司，請選取「登入公司可見&#x200B;****」。
+1. 若要查看可存取每個報表套裝的登入公司，請選取「**[!UICONTROL 只有登入公司能看見]**」。
 
-   此檢視模式的目的在於協助您在對應上做出明智的決策。
+   此檢視模式的目的在於協助您針對對應做出明智的決策。
 
-1. 選取報表套裝旁之&#x200B;**[!UICONTROL 已對應組織]**&#x200B;欄中的下拉式清單，並選取您要對應的組織。
+1. 選取報表套裝旁邊的「**[!UICONTROL 已對應組織]**」欄中的下拉式清單，並選取您要對應的組織。
 
    如需選取 Experience Cloud 組織的相關秘訣，請參閱下一節。
 
 ## 將多個報表套裝對應至組織 {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. 選取&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝對應]**。
+1. 選取「**[!UICONTROL Experience Cloud]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝對應]**」。
 
 1. 選取您要對應的報表套裝。
 
@@ -55,7 +55,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
    如需選取 Experience Cloud 組織的相關秘訣，請參閱下一節。
 
-1. 選擇&#x200B;**[!UICONTROL 保存映射]**。
+1. 選取「**[!UICONTROL 儲存對應]**」。
 
 ## 選取 Experience Cloud 組織的秘訣 {#mapping-tips}
 
