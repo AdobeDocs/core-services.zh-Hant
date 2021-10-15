@@ -1,7 +1,6 @@
 ---
 description: Adobe Experience Cloud 說明的更新資訊。
 keywords: Experience Cloud 服務
-solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: Customer Attributes
@@ -9,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
+source-git-commit: 1bfc58be479cf2d0d283268299ec57e2abb8a5ca
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
