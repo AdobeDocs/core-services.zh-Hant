@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
@@ -56,9 +56,9 @@ Analytics Premium 提供您：
 
 | 產品 | 升級 |
 |---|---|
-| Reports &amp; Analytics | [貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
 | Data Workbench | 預先建立的 Workspace，用於決定對象資格和預測性行銷。 |
-| Analytics平台 | Live Stream (控制面板和觸發器) |
+| Analytics Platform | Live Stream (控制面板和觸發器) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,7 +70,7 @@ Analytics Premium 提供您：
 |--- |--- |
 | [客戶屬性](attributes.md) | 客戶屬性 (分析和區隔共用) |
 | Data Workbench | <ul><li>衍生客戶屬性</li><li>預先建立的 Workspace，用於進行對象探索</li></ul> |
-| Analytics平台 | [客戶屬性](attributes.md) |
+| Analytics Platform | [客戶屬性](attributes.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
