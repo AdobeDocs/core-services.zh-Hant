@@ -9,16 +9,33 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 12d5a76eaffd2aff43f23e56de44879199d0a4fe
+source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 83%
 
 ---
 
 # 文件更新 - Experience Cloud
 
 Experience Cloud 產品文件的更新資訊。
+
+**更新日期10/28/2021**
+
+| 功能 | 說明 |
+| ------- | ------- |
+| 首頁 | Experience Cloud首頁頁尾資訊已移至使用者設定檔卡片，包括「偏好設定」中的「法律注意事項」和語言選取。 |
+| AEP控制面板 | [!DNL Helios Lite] 在Experience Platform介面工具集建立工作流程中提供圖表建議。 在資料選取（目前為單一變數資料選取）的情況下，helios建議在資料選取時搭配適當的視覺效果。 |
+| AEP控制面板 | [!DNL Instory] 為圖表提供基於ML的書面旁白和字幕。 它可解除AEP控制面板頁面中的圖表設定，並附上相關項目符號，指出圖表資料中的重大變更和事件。 |
+
+**更新日期10/13/2021**
+
+| 功能 | 說明 |
+| ------- | ------- |
+| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
+| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
+| Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
+| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自<https://experience.adobe.com/implement>移除。 |
 
 **更新日期：2021 年 8 月 24 日**
 
