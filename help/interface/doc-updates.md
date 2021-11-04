@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 83%
 
 Experience Cloud 產品文件的更新資訊。
 
-**更新日期10/28/2021**
+**更新日期：2021 年 10 月 28 日**
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | Experience Cloud首頁頁尾資訊已移至使用者設定檔卡片，包括「偏好設定」中的「法律注意事項」和語言選取。 |
-| AEP控制面板 | [!DNL Helios Lite] 在Experience Platform介面工具集建立工作流程中提供圖表建議。 在資料選取（目前為單一變數資料選取）的情況下，helios建議在資料選取時搭配適當的視覺效果。 |
-| AEP控制面板 | [!DNL Instory] 為圖表提供基於ML的書面旁白和字幕。 它可解除AEP控制面板頁面中的圖表設定，並附上相關項目符號，指出圖表資料中的重大變更和事件。 |
+| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
+| AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
-**更新日期10/13/2021**
+**更新日期：2021 年 10 月 13 日**
 
 | 功能 | 說明 |
 | ------- | ------- |
