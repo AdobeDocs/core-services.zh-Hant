@@ -11,16 +11,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud 觸發器
 
-Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控重要的客戶行為，然後產生跨解決方案的交流，重新與訪客互動。
+[!UICONTROL 觸發器] 在「Experience Cloud」中，您可以識別、定義及監控重要的客戶行為，然後產生跨應用程式的通訊，重新與訪客互動。
 
 ## 觸發器總覽 {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 * 不完整的表單和應用程式
 * 網站上的任何動作或動作順序
 
-![](assets/trigger-abandonment-2.png)
+![觸發器範例](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Experience Cloud 觸發器範例：
 
 例如，下列頁面會根據造訪期間檢視的產品，顯示您可用於[!UICONTROL 購物車放棄]觸發器的規則。
 
-![](assets/abandonment-trigger.png)
+![購物車放棄觸發程式](assets/abandonment-trigger.png)
 
 #### 反向連結觸發器
 
 當點擊隨「男靴」產品和 Facebook 的反向連結傳入時，便會引發下列觸發器。為了在同一個點擊中評估這兩個條件 (*產品*&#x200B;和&#x200B;*反向連結*)，應該將它們新增至相同的容器中。
 
-![](assets/fb-boots-promo.png)
+![反向連結觸發器](assets/fb-boots-promo.png)

@@ -4,10 +4,10 @@ user-guide-title: 'Experience Cloud 中央介面元件 '
 breadcrumb-title: Experience Cloud 中央介面元件
 user-guide-description: 了解關於 Experience Cloud 介面首選項、設定偏好設定、搜尋說明以及商業物件。取得用戶和產品管理、客戶屬性、對象庫、Cookie 和 Experience Cloud Assets 的說明。
 index: true
-source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Experience Cloud 中央介面元件指南](experience-cloud.md)
 + Experience Cloud 服務 {#services}
    + [Experience Cloud 服務](core-services-landing.md)
-   + [促進跨解決方案服務的實作](core-services.md)
+   + [啟用跨應用程式服務的實作](core-services.md)
    + Experience Cloud 對象庫 {#audiences}
       + [Experience Cloud 對象](audience-library.md)
       + [建立對象](t-audience-create.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
    + [組織和帳戶綁定](organizations.md)
    + [升級至 Analytics Premium 和 Experience Cloud](upgrade-to-analytics-premium.md)
    + [Experience Cloud 整合](marketing-cloud-integrations.md)
-   + [搭配不同的解決方案和服務使用 DNS 預先擷取](dns-prefetch.md)
+   + [搭配不同的應用程式和服務使用DNS預先擷取](dns-prefetch.md)
    + Experience Cloud Cookie {#ec-cookies}
       + [Experience Cloud Cookie 總覽](cookies-privacy.md)
       + [Experience Cloud 中的第一方 Cookie](cookies-first-party.md)

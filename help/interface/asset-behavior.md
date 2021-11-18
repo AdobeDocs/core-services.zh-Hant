@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '567'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 將非共用資料夾移至共用資料夾：
 
-![](assets/01_assets_move.png)
+![非共用資料夾放入共用資料夾](assets/01_assets_move.png)
 
 **結果**：兩個資料夾都會變成共用資料夾。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 將共用資料夾移至非共用資料夾。
 
-![](assets/02_assets_move.png)
+![共用資料夾放入非共用資料夾](assets/02_assets_move.png)
 
 **結果**：非共用資料夾仍為非共用資料夾。共用資料夾會維持共用狀態。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 將內容從非共用資料夾移至共用資料夾。
 
-![](assets/03_assets_move.png)
+![非共用資料夾的內容放入共用資料夾](assets/03_assets_move.png)
 
 **結果：**&#x200B;內容現在已共用，所有共同作業人員都能看到。儲存空間會隨著內容大小增加。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 封存或刪除共用資料夾中的內容。
 
-![](assets/04_assets_move.png)
+![封存的及刪除的共用內容](assets/04_assets_move.png)
 
 **結果：**&#x200B;系統會為資料夾的擁有者封存內容。未擁有該內容的共同作業人員無法再存取內容。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 將擁有的共用資料夾內容移至非共用資料夾。
 
-![](assets/05_assets_move.png)
+![擁有的共用內容放入非共用資料夾](assets/05_assets_move.png)
 
 **結果：**&#x200B;內容現在會取消共用。共用資料夾的共同作業人員無法再存取該內容。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 將內容從其他人擁有的共用資料夾移至非共用資料夾。
 
-![](assets/06_assets_move.png)
+![非擁有的內容放入非共用資料夾](assets/06_assets_move.png)
 
 **結果：**&#x200B;內容會顯示在非共用資料夾中，並從共用資料夾中移除。共用資料夾的共同作業人員無法再存取該內容。系統會為共用資料夾的擁有者封存內容。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 封存 (透過網頁版) 或刪除 (透過桌面版) 擁有的共用資料夾。
 
-![](assets/07_assets_move.png)
+![封存的或刪除的已擁有資料夾](assets/07_assets_move.png)
 
 **結果：**&#x200B;資料夾會取消共用然後封存。共同作業人員無法再存取該資料夾。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 將擁有的共用資料夾移至另一個您可能擁有或未擁有的共用資料夾。
 
-![](assets/09_assets_move.png)
+![共用資料夾放入另一個共用資料夾](assets/09_assets_move.png)
 
 **結果：**&#x200B;由於資料夾移至「資料夾 2」，因此會與新的共同作業人員共用。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 將內容從共用資料夾移至另一個共用資料夾。
 
-![](assets/11_assets_move.png)
+![共用內容放入另一個共用資料夾](assets/11_assets_move.png)
 
 **結果：**&#x200B;內容會顯示在「資料夾 2」中，且已與新的共同作業人員共用。內容會從「資料夾 1」中移除，擁有者會看到已封存狀態，其他共同作業人員無法再存取。
 
@@ -102,6 +102,6 @@ ht-degree: 100%
 
 從屬於共用資料夾的封存還原內容。您在封存內容時擁有該內容。
 
-![](assets/12_assets_move.png)
+![從封存還原內容](assets/12_assets_move.png)
 
 **結果：**&#x200B;內容會還原至共用資料夾，所有共同作業人員都可再次存取。如果共用資料夾已不再存，內容會放入其原始父資料夾的非共用副本中。

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1282'
+ht-degree: 93%
 
 ---
 
@@ -84,11 +84,11 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 1. 在 Admin Console 中，選取「**[!UICONTROL 使用者]**」，然後選取使用者的名稱。
 
-   ![](assets/edit-admin-rights.png)
+   ![管理Admin Console](assets/edit-admin-rights.png)
 
 1. 選取「**[!UICONTROL 編輯管理員權限]**」。
 
-   ![](assets/edit-admin-rights-page.png)
+   ![在Admin Console中編輯管理權限](assets/edit-admin-rights-page.png)
 
 1. 指定使用者的管理權限。
 1. 選取「**[!UICONTROL 儲存]**」。
@@ -106,8 +106,8 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 | 元素 | 說明 |
 |--- |--- |
 | 報表套裝 | 啟用特定報表套裝的權限。 |
-| 量度 | 為流量、轉換、自訂事件、解決方案事件、內容感知等項目啟用權限。 |
-| 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。 |
+| 量度 | 為流量、轉換、自訂事件、應用程式事件、內容感知等等啟用權限。 |
+| 維度 | 在粒度層級自訂使用者存取，包括eVar、流量報表、應用程式報表和路徑報表。 |
 | 報表套裝工具 | 為網站服務、報表套裝管理、工具和報表與儀表板項目啟用使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、Web 服務存取、Report Builder 和資料連接器整合的使用者權限。 「自訂 Admin Console」類別中的公司設定已移至 Analytics 工具。 |
 
@@ -117,7 +117,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
 
-移轉後，使用者可以在 [experience.adobe.com](https://experience.adobe.com) 使用他們的 Adobe ID (或 Enterprise ID) 登入，並針對其 Experience Cloud 解決方案和服務進行驗證。 如果使用者嘗試透過舊的登入進行登入 ([!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com])，則會被重新導向 [!DNL experience.adobe.com]。
+移轉後，使用者可使用其Adobe ID(或Enterprise ID)登入，並針對其Experience Cloud應用程式和服務進行驗證，位於 [experience.adobe.com](https://experience.adobe.com). 如果使用者嘗試透過舊的登入進行登入 ([!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com])，則會被重新導向 [!DNL experience.adobe.com]。
 
 **相關說明**
 
@@ -143,7 +143,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 ## 管理 Experience Platform Data Collection (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示在 [!UICONTROL Admin Console] 的「[!UICONTROL 產品]」頁面上。 您可以在 Launch 產品描述檔中加入其他解決方案和服務。
+Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示在 [!UICONTROL Admin Console] 的「[!UICONTROL 產品]」頁面上。 您可以在Launch產品設定檔中包含其他應用程式和服務。
 
 邀請使用者加入 [!UICONTROL Platform Launch] 並指派使用者角色和權限。
 

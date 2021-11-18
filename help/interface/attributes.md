@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '482'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係�
 
 若要尋找此功能，請瀏覽至 **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL 客戶屬性]**
 
-![](assets/custom_reports.png)
+![客戶屬性總覽](assets/custom_reports.png)
 
 ## 上傳客戶屬性的先決條件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係�
 
 下圖是資料檔案的範例，顯示產品的訂閱者資料，包括成員 ID、已授權產品、最常啟動的產品等。
 
-![](assets/01_crs_usecase.png)
+![什麼是企業客戶資料？](assets/01_crs_usecase.png)
 
 建立資料檔案後，可將其上傳至您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客戶屬性]**&#x200B;中建立的客戶屬性來源。
 

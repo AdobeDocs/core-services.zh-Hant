@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 1. 選取您要對應的報表套裝。
 
-   ![](assets/rs-mapping-multiple.png)
+   ![選取您要對應的報表套裝](assets/rs-mapping-multiple.png)
 
 1. 選取組織 (在此範例中為 Outdoors Inc)，然後按一下&#x200B;**[!UICONTROL 選取]**。
 
@@ -71,7 +71,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 組織呈灰色表示您沒有足夠的權限可對應至變成灰色的報表套裝。考量下列範例：
 
-![](assets/rs-mapping.png)
+![為什麼有些組織會變灰色？](assets/rs-mapping.png)
 
 此圖表中，藍色圖例表示管理權限，灰線表示可見度。
 

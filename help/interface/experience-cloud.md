@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 1. 選取「**[!UICONTROL 使用 Adobe ID 登入]**」。
 1. 確認您隸屬於正確的組織。
 
-   ![](assets/organizations-menu.png)
+   ![確認您所在的組織正確無誤](assets/organizations-menu.png)
 
    **確認您的組織**
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請移至應用程式選擇器 ![](assets/menu-icon.png)。
 
-![](assets/platform-core-services.png)
+![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
 ## Experience Cloud 中的瀏覽器支援 {#browser}
 
@@ -91,7 +91,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 使用標題中的說明圖示 (![資產](assets/help-icon.png)) 來存取學習和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
 
-![](assets/search-menu.png)
+![取得說明和支援](assets/search-menu.png)
 
 「[!UICONTROL 說明]」選單也可讓您存取：
 
@@ -104,7 +104,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 全域搜尋可讓您採用一鍵式的無縫一致體驗，尋找可搜尋的商業物件或實體。此搜尋會出現在您最近存取的物件。
 
-![](assets/platform-search.png)
+![全域搜索對象和實體](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 若要管理偏好設定，從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」。
 
-![](assets/preferences-page.png)
+![使用者個人資料和帳戶偏好設定](assets/preferences-page.png)
 
 您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
 
@@ -142,7 +142,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 選取「**[!UICONTROL 通知]**」，以取得相關和可操作更新資訊的提醒，其中包括產品發行版本、維護通知、共用項目及核准請求。
 
-![](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png)
 
 ## Experience Cloud 網域 {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 ## 取得管理和跨應用程式服務的說明
 
-本指南讓您存取 Admin Console 中 Experience Cloud 使用者和產品管理功能的說明，此功能可啟用平台服務的解決方案。您也可以存取對象庫、客戶屬性、Experience Cloud Assets 等的說明：
+本指南提供Admin Console中Experience Cloud使用者和產品管理的說明，讓應用程式可使用平台服務。 您也可以存取對象庫、客戶屬性、Experience Cloud Assets 等的說明：
 
 * [[!UICONTROL 對象庫]](audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes.md)
@@ -165,7 +165,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies-privacy.md)
 * [使用者和產品管理](admin-getting-started.md) (Admin Console)
-* [啟用核心服務的解決方案](core-services.md)
+* [啟用核心服務的應用程式](core-services.md)
 * [常見問答](admin-getting-started.md)
 * [組織和帳戶綁定](organizations.md)
 * [整合](marketing-cloud-integrations.md)
@@ -196,7 +196,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 ## 發行說明和相關 Experience Cloud 說明
 
-* [所有 Experience Cloud 解決方案的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=en) - 瀏覽 Experience Cloud 學習與支援以取得說明
+* [所有Experience Cloud應用程式的產品檔案](https://experienceleague.adobe.com/docs/home.html?lang=en)  — 瀏覽Experience Cloud學習與支援以尋求協助
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Experience Cloud 的新功能，以及訂閱以取得更新
 * [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習

@@ -1,5 +1,5 @@
 ---
-description: 了解 Adobe Experience Cloud 中可用的解決方案整合。
+description: 了解Adobe Experience Cloud中可用的應用程式整合。
 keywords: 整合
 solution: Experience Cloud
 title: 'Experience Cloud 整合 '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -41,11 +41,11 @@ Adobe Experience Cloud 是一套同級最佳的全方位整合式解決方案和
 
 ## Experience Cloud ID 服務 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決方案中的訪客。 這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 應用程式和產品的 ID 產生碼。
+ID服務提供永續性的通用ID，可識別Experience Cloud中所有應用程式的訪客。 這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 應用程式和產品的 ID 產生碼。
 
 請參閱 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
@@ -81,9 +81,9 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 說明：[與 Creative Cloud 共用 Experience Cloud 檔案夾](creative-cloud.md)
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 [!DNL Social] 和 [!DNL Target]) 中使用這些資產。
+在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在Experience Cloud應用程式(例如 [!DNL Social] 和 [!DNL Target].
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [!DNL Experience Cloud]
 * [!DNL Creative Cloud]
@@ -96,7 +96,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 啟用 Analytics，收集 Assets 的曝光次數與點擊次數 (由 AEM Asset 見解分析提供的 Assets)。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [!DNL Analytics]
 * [!DNL Experience Manager]
@@ -105,26 +105,26 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=en)
 
-在 Audience Manager 中處理 Experience Cloud 解決方案或其他外部系統的資料。
+使用Experience Cloud應用程式或其他Audience Manager外部系統的資料。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [Analytics 伺服器端轉送功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=en)
 * [將 Audience Manager 區段傳送至 Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=en)
-* [Adobe Target 資料整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
+* [Adobe Target 資料整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=en)
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
 說明：[快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)
 
-使用 Experience Cloud Activation 解決方案設定 Experience Cloud 解決方案並進行偵錯。
+使用Experience Cloud啟用應用程式來設定和偵錯您的Experience Cloud應用程式。
 
 1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
 1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) 測試您的實作成果。
 
 使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
@@ -137,9 +137,9 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 說明：[將 Adobe Target 與 Experience Cloud 整合](audience-library.md)
 
-將 Adobe Target 與 Adobe Analytics 及其他 Experience Cloud 解決方案整合後，即可在上述兩個解決方案中使用相同的資料、對象、屬性及量度。
+將Adobe Target與Adobe Analytics及其他Experience Cloud應用程式整合，以便在這兩個應用程式中使用相同的資料、對象、屬性和量度。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](subscription.md)
 * Experience Cloud Audiences：[Experience Cloud 對象庫](audience-library.md)
@@ -152,9 +152,9 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 說明：[Experience Manager 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=en)
 
-將 AEM 與其他解決方案及協力廠商服務整合。
+將AEM與其他應用程式和第三方服務整合。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * [Analytics](https://experienceleague.adobe.com/docs/)
 * [Analytics 與外部提供者](https://experienceleague.adobe.com/docs/)
@@ -173,7 +173,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 將 Adobe Experience Manager (AEM) Assets 中的資產與 Adobe Creative Cloud 同步，反之亦然。您也可以將資產與 Experience Cloud 同步，反之亦然。您可以透過 Experience Cloud 設定此同步。
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 * AEM
 * Creative Cloud
@@ -183,7 +183,7 @@ ID 服務提供永續性的通用 ID，可識別 Experience Cloud 所有解決�
 
 說明 (需登入)：[與 Adobe Experience Cloud 解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-**適用的解決方案或服務**
+**適用的應用程式或服務**
 
 **Analytics：**&#x200B;可以每天傳送網站互動和轉換資料至 [!DNL Adobe Advertising]，以供其改善廣告和建立報表。 此外，[!DNL Advertising] 亦可每天傳送搜尋引擎和社交網路流量資料至 Analytics，以供其 Reports &amp; Analytics、Report Builder 及 Ad Hoc Analysis 功能建立報表。
 

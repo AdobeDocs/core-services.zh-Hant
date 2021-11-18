@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 89%
 
 ---
 
@@ -22,34 +22,34 @@ ht-degree: 100%
 
 1. 在資產檔案夾中，選取「**[!UICONTROL 分享到 Creative Cloud]**」。
 
-   ![步驟結果](assets/asset-share-cc.png)
+   ![共用至Creative Cloud](assets/asset-share-cc.png)
 1. 在「分享到 Creative Cloud」頁面上，搜尋該使用者，然後選取「**[!UICONTROL 新增]**」。
 
-   ![](assets/asset-share-cc-page.png)
+   ![新增Creative Cloud使用者](assets/asset-share-cc-page.png)
 
 1. 選取「**[!UICONTROL 分享]**」。
 1. 啟動 [!DNL Creative Cloud] 桌面 (或在瀏覽器中導覽至「[!UICONTROL Creative Cloud Files]」頁面)，然後尋找請求通知。
 
-   ![](assets/cc_share_request.png)
+   ![請求通知](assets/cc_share_request.png)
 1. 開啟請求，然後選取「**[!UICONTROL 接受]**」。
 
-   ![步驟結果](assets/cc_share_accept.png)
+   ![接受請求](assets/cc_share_accept.png)
 1. 若要存取檔案夾內容，請選取「**[!UICONTROL 開啟檔案夾]**」(或「**[!UICONTROL 在網頁上檢視]**」)。
 
-   ![步驟結果](assets/creative_cloud_open_folder.png)
+   ![在Web上查看](assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
 
    在 Creative Cloud 中，您可以選取影像，然後選取「**[!UICONTROL 活動]**」，在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
 
-   ![](assets/asset_comment_cc.png)
+   ![在影像上新增註解](assets/asset_comment_cc.png)
 
    在 Experience Cloud 中選取影像，然後選取時間軸圖示，在影像上新增註解。 註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
 
-   ![](assets/asset_comment_mac.png)
+   ![在影像上新增註解](assets/asset_comment_mac.png)
 
 1. 若要取消共用檔案夾，請選取「**[!UICONTROL 使用 Creative Cloud 共用]**」(類似於[步驟 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996))，然後選取 X 來移除使用者，再選取「**[!UICONTROL 共用]**」。
 
-![](assets/asset_remove_user.png)
+![取消共用資料夾](assets/asset_remove_user.png)
 
 移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
-![](assets/asset-cc-logo.png)
+![資料夾上的Creative Cloud標誌](assets/asset-cc-logo.png)
 
 相關說明：
 

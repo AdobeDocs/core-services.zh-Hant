@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 客戶屬性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![客戶屬性工作流程](assets/crs.png)
 
 1. [建立資料檔案](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [建立屬性來源及上傳資料檔案](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ ht-degree: 100%
 >
 >若要存取此功能，必須將使用者指派給客戶屬性的產品描述檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品描述檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
 >
->若要使用客戶屬性功能，使用者也必須加入解決方案層級的群組 (Analytics 或 [!DNL Target])。
+>若要使用「客戶屬性」功能，使用者也必須屬於應用程式層級的群組(Analytics或 [!DNL Target])。
 
 請參閱[管理 Experience Cloud 使用者和產品](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    企業客戶資料檔案範例：
 
-   ![](assets/01_crs_usecase.png)
+   ![企業客戶資料檔案範例](assets/01_crs_usecase.png)
 
 1. 繼續進行之前，請先檢閱[資料檔案需求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)中的重要資訊，然後再上傳檔案。
 1. [建立客戶屬性來源及上傳資料檔案](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)，如下所述。
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 ## 設定訂閱及啟動屬性來源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-設定訂閱可設定 Experience Cloud 和解決方案之間的資料流。啟動屬性來源可讓資料流向已訂閱的解決方案。您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
+設定訂閱可設定Experience Cloud和應用程式之間的資料流。 啟用屬性來源可讓資料流向訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -158,11 +158,11 @@ ht-degree: 100%
 
 ## 在 Adobe Analytics 中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-有了 Adobe Analytics 等解決方案所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
+有了Adobe Analytics等應用程式現在提供的資料，您就可以報告資料、分析資料，並在行銷活動中採取適當的行動。
 
 以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
-![](assets/08_crs_usecase.png)
+![根據上傳屬性的Analytics區段](assets/08_crs_usecase.png)
 
 您在 Experience Cloud 發佈區段後，Experience Cloud Audiences 和 Audience Manager 可隨即使用該區段。
 
@@ -170,6 +170,6 @@ ht-degree: 100%
 
 在 [!DNL Target] 中，您可在建立對象時，從[!UICONTROL 訪客資料]區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 `crs.`。您可視需求將這些屬性與其他資料屬性結合，以建立對象。
 
-![](assets/crs-add-attribute-target.png)
+![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
 請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)。

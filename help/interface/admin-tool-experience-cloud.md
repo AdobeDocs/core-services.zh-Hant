@@ -1,7 +1,7 @@
 ---
 description: 了解 Experience Cloud 管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
 keywords: 核心服務
-solution: Experience Cloud
+application: Experience Cloud
 title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
 index: true
 feature: Admin Console
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1245'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. 登入 `https://experience.adobe.com/.`
 
-   ![](assets/admin-tool.png)
+   ![存取Admin Console](assets/admin-tool.png)
 
 1. 在「[!UICONTROL 快速存取]」底下選取「**[!UICONTROL 管理工具]**」。
 
@@ -36,16 +36,16 @@ ht-degree: 100%
 
 ## 「使用者」頁面
 
-此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它提供解決方案權限和上次登入的相關資訊。您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
+此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它提供有關應用程式權限和上次登錄的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
 
-![](assets/admin-tool-users.png)
+![Admin Console使用者頁面](assets/admin-tool-users.png)
 
 | 元素 | 說明 |
 |---|---|
 | [!UICONTROL 名稱] | 使用者的名字和姓氏。您可以將此欄由 A 到 Z 和 Z 到 A 排序。選取使用者名稱即可查看有關該使用者的詳細資訊。 |
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/enterprise/using/identity.html)。 |
-| [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 解決方案摘要。您可以套用篩選器，依特定解決方案存取權縮小使用者清單的範圍。 |
+| [!UICONTROL 解決方案] | 用戶可訪問的Experience Cloud應用程式的摘要。 您可以套用篩選器，以縮小具有特定應用程式存取權的使用者清單。 |
 | [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
@@ -60,15 +60,15 @@ ht-degree: 100%
 |---------|----------|
 | [!UICONTROL 電子郵件網域]篩選器 | 在「電子郵件」欄中搜尋字元字串，將結果縮小至一或多個網域。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器 |
 | [!UICONTROL ID 類型]篩選器。 | 從可用的 ID 類型中選擇。多個 ID 類型均可作為篩選器使用。 |
-| [!UICONTROL 解決方案]篩選器 | 從可用的解決方案中選擇。多個解決方案篩選器搜尋包含「解決方案1」`OR`「解決方案 2」的結果。 |
+| [!UICONTROL 解決方案]篩選器 | 從可用應用程式中選擇。 多個應用程式篩選器搜索包含解決方案1的結果 `OR` 解決方案2。 |
 
 ## 檢視使用者詳細資訊
 
 在「[!UICONTROL 使用者]」頁面上，若要檢視使用者的詳細資訊，請按一下該使用者的電子郵件。
 
-![](assets/admin-tool-user-details.png)
+![在Admin Console中查看用戶詳細資訊](assets/admin-tool-user-details.png)
 
-每位使用者的詳細檢視都會顯示有關使用者解決方案存取權、管理員和產品角色以及上次存取資訊的重要細節。
+每位使用者的詳細檢視都會顯示有關使用者應用程式存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
 
 ## 區段簡介
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 ## 解決方案摘要
 
-本區段顯示使用者可存取的 Experience Cloud 解決方案摘要。包含產品管理角色 (如果適用)。
+此部分顯示用戶可訪問的Experience Cloud應用程式的摘要。 包含產品管理角色 (如果適用)。
 
 ## 詳細的產品存取清單
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。
 
-![](assets/admin-tool-policies.png)
+![策略頁Admin Console](assets/admin-tool-policies.png)
 
 | 元素 | 說明 |
 |---|---|
@@ -123,13 +123,13 @@ ht-degree: 100%
 | 元素 | 說明 |
 |---------|----------|
 | [!UICONTROL 例項]篩選器 | 在「例項」欄中搜尋字元字串，將結果範圍縮小至一或多個例項。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器。 |
-| [!UICONTROL 解決方案]篩選器 | 從可用的解決方案中選擇。多個解決方案篩選器搜尋包含「解決方案1」`OR`「解決方案 2」的結果。 |
+| [!UICONTROL 解決方案]篩選器 | 從可用應用程式中選擇。 多個應用程式篩選器搜索包含解決方案1的結果 `OR` 解決方案2。 |
 
 ## 檢視原則詳細資訊
 
 在「[!UICONTROL 原則]」頁面上，若要檢視原則的詳細資訊，請選取產品描述檔名稱。
 
-![](assets/admin-tool-policy-detail.png)
+![在Admin Console中查看策略詳細資訊](assets/admin-tool-policy-detail.png)
 
 每個產品描述檔的詳細檢視都會顯示產品描述檔主體 (使用者、群組等) 的重要詳細資訊，也會顯示產品描述檔啟用的權限和資源。
 

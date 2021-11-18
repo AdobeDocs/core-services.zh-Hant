@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在 Experience Cloud 解決方案 (例如 Adobe Social 和 Adobe Target) 中使用這些資產。共用的資料夾必須源自 Experience Cloud。
+在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上注釋，以及在Adobe Social和Adobe Target等Experience Cloud應用程式中使用這些資產。 共用的資料夾必須源自 Experience Cloud。
 
 ## 共用的優點 {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 

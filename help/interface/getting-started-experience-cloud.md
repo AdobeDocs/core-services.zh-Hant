@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '955'
+ht-degree: 83%
 
 ---
 
-# 登入及管理 Experience Cloud 個人資料設定
+# 登入及管理 Experience Cloud 設定檔設定
 
-只要登入 Experience Cloud (而非登入單一解決方案)，即可為您擁有的全部解決方案和服務啟用單一登入。 本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
+登入Experience Cloud（而非登入單一應用程式）會針對您擁有的所有應用程式和服務啟用單一登入。 本說明介紹如何登入 Experience Cloud、管理密碼和通知及指定預設登陸頁面。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 |--- |--- |
-| [Admin Console 基本需知](experience-cloud.md) | 了解開始使用 Experience Cloud 解決方案必須採取的初始步驟。 |
+| [Admin Console 基本需知](experience-cloud.md) | 了解開始使用Experience Cloud應用程式所必須採取的初始步驟。 |
 | [設定身分](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | 定義並設定身分系統，用於驗證您的使用者。 |
 | [使用者管理](https://helpx.adobe.com/enterprise/using/users.html) | 了解如何登入 Admin Console 以及管理 Experience Cloud 的使用者權限和產品描述檔。 |
 | 按一下[啟動 Admin Console](admin-getting-started.md)。 | Admin Console 是管理整個組織中 Adobe 使用者和產品權限的集中位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
@@ -64,7 +64,7 @@ ht-degree: 100%
 
    ![](assets/experience-cloud-core-services.png)
 
-   這個選單中所顯示的解決方案和服務取決於您的[管理員](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)所定義的應用程式權限。
+   此功能表中顯示的應用程式和服務取決於您定義的應用程式權限 [管理員](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## 進行預設個人帳戶設定 {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ ht-degree: 100%
 
 1. 登入 Experience Cloud，然後選取您的個人資料圖示。
 
-   ![](assets/edit-profile.png)
+   ![選取您的設定檔圖示](assets/edit-profile.png)
 1. 選取「**[!UICONTROL 編輯個人資料]**」。
 
-   ![](assets/default-organization.png)
+   ![預設組織和登陸頁面Experience Cloud](assets/default-organization.png)
 1. 繼續設定及編輯個人資訊，然後選取「**[!UICONTROL 儲存變更]**」。
 
 ## 啟用通知 {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。 您也可以指定要接收哪些產品和解決方案的通知，包括客戶屬性的上傳狀態。
+取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。 您也可以指定要接收哪些產品和應用程式的通知，包括客戶屬性的上傳狀態。
 
 若要導覽至通知，請選取「**[!UICONTROL 通知]**」圖示 ![](assets/notifications-icon.png)，然後選取「**[!UICONTROL 設定]**」圖示 ![](assets/icon_edit_board.png)。
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 * 根據對您而言重要的訊息類型排序。
 * 搜尋通知。
 
-![](assets/notifications-admin.png)
+![Experience Cloud通知](assets/notifications-admin.png)
 
 <!-- <p> <b>Analytics</b> </p> 
 <ul id="ul_91BF597858124FA5BF338C36F6C5533F"> 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 1. 在 Experience Cloud 上，選取您的個人資料照片。
 
-   ![](assets/edit-profile.png)
+   ![編輯您的Experience Cloud設定檔](assets/edit-profile.png)
 1. 選取「**[!UICONTROL 編輯個人資料]**」。
 
    在「個人資料與密碼」頁面上，填寫「個人詳細資訊」底下的欄位與選項。
@@ -131,7 +131,7 @@ ht-degree: 100%
 
    若為 Adobe Analytics 使用者，請導覽至 [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html)。
 
-## 使用直接連結設定解決方案的登入方式 {#concept_8BE493A08786469B88B210E13F78FF2F}
+## 使用直接連結設定應用程式登入 {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 您可以選擇使用 Experience Cloud 介面提供的驗證方式，登入解決方案中的特定頁面。
 
@@ -151,6 +151,6 @@ ht-degree: 100%
 |--- |--- |--- |--- |
 | `tenantId` | 使用者應登入的租用戶名稱。 | aem62tenant | 選填 |
 | `destURL` | 使用者應前往的目的地完整 URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 選填 |
-| `solutionname` | `destURL` 參數擁有者的 MAC 解決方案名稱。用於確認使用者是否擁有該解決方案的存取權 (也是 URL 的擁有者)。解決方案應負責確認 `solutionname` 與 `destURL` 參數同步。例如：如果 URL 中含有作為 social 的 `solutionname`，且所提供的 `destURL` 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。MAC 不會驗證 `destURL` 的擁有者是否與解決方案名稱同步。 | analytics | 若使用 `destURL` 參數，則必須填寫此項。 |
+| `solutionname` | `destURL` 參數擁有者的 MAC 解決方案名稱。用於驗證使用者是否擁有URL擁有者之應用程式的存取權。  應用程式有責任確保 `applicationname` 與 `destURL` 參數。  例如：如果 URL 中含有作為 social 的 `solutionname`，且所提供的 `destURL` 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。Mac不會驗證 `destURL` 與應用程式名稱同步。 | analytics | 若使用 `destURL` 參數，則必須填寫此項。 |
 
 {style=&quot;table-layout:auto&quot;}

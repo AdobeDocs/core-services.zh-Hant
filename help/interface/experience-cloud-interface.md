@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 1. 選取「**[!UICONTROL 使用 Adobe ID 登入]**」。
 1. 確認您隸屬於正確的組織。
 
-   ![](assets/organizations-menu.png)
+   ![確認您的組織](assets/organizations-menu.png)
 
    若要確認您已登入正確的[組織](organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
@@ -76,13 +76,13 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 選取應用程式選擇器 ![](assets/menu-icon.png)，存取您擁有的 Experience Cloud 服務。
 
-![](assets/platform-core-services.png)
+![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
 ## Experience Cloud 中的搜尋和支援 {#search}
 
 Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/#home) 上的說明 (文件、教學課程和其他課程)。
 
-![](assets/search-menu.png)
+![Experience Cloud 中的搜尋和支援](assets/search-menu.png)
 
 「[!UICONTROL 說明]」選單也可讓您存取：
 
@@ -106,7 +106,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 
 從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」可管理偏好設定。
 
-![](assets/preferences-page.png)
+![管理Experience Cloud](assets/preferences-page.png)
 
 您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
 
@@ -124,6 +124,6 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 
 選取「**[!UICONTROL 通知]**」可查看對您重要的通知以及來自 Adobe 的公告。
 
-![](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png)
 
 您可以在「[Experience Cloud 偏好設定](#preferences)」中設定通知。

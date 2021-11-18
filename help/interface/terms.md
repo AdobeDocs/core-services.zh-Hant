@@ -11,10 +11,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,12 +33,12 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 消費者 ID | 無特殊用法。 | Experience Platform Co-op Graph 會員據以識別人員的 ID。此編號由品牌指派，通常會在 CRM 系統中進行維護。**注意：**&#x200B;勿將此 ID 與 _setCustomerIDs_ (將消費者 ID 傳送至 Experience Cloud 的 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/intro/about-id-service.html?lang=en)函數呼叫) 混淆。 |
 | 內容 | 在 Creative Cloud 中，內容是指頁面上的文字和影像。這個用語在 Creative 和 Experience Clouds 中的用法相似。 | 在 Experience Cloud 中，內容是指可用於支援特定目標之行銷活動中的行銷內容。<br>內容用於特定位置，並可由 Assets 組成。內容可以結構化 (如產品資訊) 也可以非結構化 (如行動應用程式的網頁或畫面)。<br>例如：<ul><li>網頁</li><li>橫幅</li><li>狀態更新</li><li>註解</li><li>文字廣告</li><li>產品資訊</li><li>產品評論</li><li>表單資料</li><li>搜尋索引中的文件</li><li>社交貼文</li><li>文章</li><li>出版物</li></ul> |
 | 控制面板 | 無特殊用法。 | 在單一檢視中顯示多個關鍵量度的資料視覺效果集合。 |
-| 強制資料使用方式 | 無特殊用法。 | 由系統 (解決方案、應用程式、服務、SDK、API 等) 制定和定義的政策、系統設計、作法和程序，用於透過資料使用方式中繼資料，讓資料使用方式符合 Adobe 公司隱私權政策、合約對價和一般隱私權原則。 |
+| 強制資料使用方式 | 無特殊用法。 | 由系統（應用程式、應用程式、服務、SDK、API等）制定和定義的政策、系統設計、作法和程式，用於使用資料使用中繼資料，以讓資料使用符合Adobe公司隱私權政策、合約考量事項和一般隱私權原則。 |
 | 裝置 | 無特殊用法。 | 執行應用程式的硬體裝置，例如平板電腦、手機或桌上型電腦。 |
 | Device Co-op | 無特殊用法。 | 品牌類組；這些品牌均同意共用消費者使用哪些裝置的資料，以便更有效識別跨裝置的個人，並提供更有意義且一致的體驗。 |
 | [!UICONTROL Experience Cloud ID 服務] (ECID) | 無特殊用法。 | 指派給網站訪客的不重複、永久性 ID。這個確切實體可供 Experience Platform Identity Service 使用。[更多內容...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) |
 | [!UICONTROL Experience Platform Identity Service] | 無特殊用法。 | 可連結身分的服務。這項裝置連結服務主要是依人員提供體驗管理功能。 |
-| 連結 | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在 Experience Cloud 中，連結通常是指將不同的解決方案帳戶連接至介面。<br>請參閱[組織和帳戶連結](organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
+| 連結 | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在Experience Cloud中，連結通常是指將不同的應用程式帳戶連結至介面。<br>請參閱[組織和帳戶連結](organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
 | 位置 | 在 Creative Cloud 中，位置是指檔案位置或已開啟影像或文件上的位置。 | 在 Experience Cloud 中，位置是向對象顯示內容 (且可進行互動) 的地方。位置和內容之間的關聯大致上為靜態，也可以根據行銷活動規則進行動態管理。位置一律屬於特定管道，決定了傳遞內容及收集量度的方式。<br>例如：<ul><li>網站</li><li>屬性 (Social)</li><li>顯示詳細目錄</li><li>登陸頁面</li><li>行動應用程式</li><li>插槽 (影片)</li></ul> |
 | 量度 | 未在 Creative Cloud 中使用。 | 關鍵概念與目標的匯總數。在 Analytics 中，度量是有關訪客活動的量化資訊，例如觀看次數、選取次數、重新載入、平均逗留時間、件數、訂單和收入。 |
 | 組織 | 未在 Creative Cloud 中使用。 | 組織是 Experience Cloud 實體，可讓管理員設定使用者和產品，以及控制 Experience Cloud 中的單一登入。通常組織就是計費公司。 |
@@ -47,7 +47,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 排程 | 可指稱 Adobe Story 中的一系列場景，或是 ColdFusion 中的排程任務。 | 在 Experience Cloud 中，排程是指啟動促銷活動、管道和活動的開始日期 (年、月、日) 與結束日期。活動排程的粒度小至分鐘。變更排程會建立資訊卡。<br>例如：<ul><li>行銷活動排程</li><li>管道排程</li><li>活動排程</li></ul> |
 | 區段 | 不適用 | 一組規則的輸出，用於判斷對象的資格。在 Analytics 中，[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en)可選擇性用來定義可傳遞至 Experience Cloud 的對象。<br>在 Audience Manager 中，區段是[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。已登入網站的使用者可使用共用功能。 |
-| 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，解決方案是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。 |
+| 解決方法 | 無特殊用法。 | 在Experience Cloud中，應用程式稱為Adobe Analytics、Adobe Social、Adobe Target等產品。 |
 | 特徵 | 不適用 | 機碼值組，例如，顏色=藍色。在 Audience Manager 中，[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)會用於建立區段。 |
 
 {style=&quot;table-layout:auto&quot;}

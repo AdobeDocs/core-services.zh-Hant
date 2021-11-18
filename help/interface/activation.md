@@ -11,10 +11,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
 
 ## Experience Cloud [!UICONTROL 觸發器] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
- [!UICONTROL Experience Cloud 觸發器]可讓行銷人員定義並監控關鍵消費者行為，然後產生跨解決方案通訊以用於即時決策和個人化。
+[!UICONTROL Experience Cloud觸發] 可讓行銷人員定義並監控關鍵的消費者行為，然後產生跨應用程式通訊以用於即時決策和個人化。
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -54,6 +54,6 @@ Activation 包括名為 Experience Platform [!UICONTROL Data Collection] ([!UICO
 
 ## Experience Cloud Debugger {#section_682FCF8A22ED47D0ACF94204AB94B444}
 
-適用於 Chrome 的 Adobe Experience Cloud Debugger 擴充功能會檢查您的網頁，協助您找出有關 Experience Cloud 解決方案實作方式的問題。
+適用於Chrome的Adobe Experience Cloud Debugger擴充功能會檢查您的網頁，協助您找出Experience Cloud應用程式實作方式的相關問題。
 
 如需說明，請參閱 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)。
