@@ -15,7 +15,7 @@ ht-degree: 83%
 
 ---
 
-# Experience Cloud Assets 總覽
+# Experience Cloud 資產總覽
 
 Experience Cloud資產提供可供您跨應用程式共用的單一、集中的行銷資產存放庫。 資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 

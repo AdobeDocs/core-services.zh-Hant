@@ -1,5 +1,5 @@
 ---
-description: 了解關於 Experience Cloud 中央介面元件。此說明包含 Admin Console 中的使用者和產品管理、啟用 Experience Cloud 服務的應用程式，以及了取得關於對象庫、客戶屬性、Experience Cloud Assets 等說明。
+description: 了解關於 Experience Cloud 中央介面元件。此說明包含 Admin Console 中的使用者和產品管理、啟用 Experience Cloud 服務的應用程式，以及了取得關於對象庫、客戶屬性、Experience Cloud 資產等說明。
 solution: Experience Cloud
 title: Experience Cloud 介面說明和文件
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -157,12 +157,12 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 ## 取得管理和跨應用程式服務的說明
 
-本指南提供Admin Console中Experience Cloud使用者和產品管理的說明，讓應用程式可使用平台服務。 您也可以存取對象庫、客戶屬性、Experience Cloud Assets 等的說明：
+本指南提供Admin Console中Experience Cloud使用者和產品管理的說明，讓應用程式可使用平台服務。 您也可以存取對象庫、客戶屬性、Experience Cloud 資產等的說明：
 
 * [[!UICONTROL 對象庫]](audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes.md)
 * [[!UICONTROL 觸發器]](triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL 資產]](experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies-privacy.md)
 * [使用者和產品管理](admin-getting-started.md) (Admin Console)
 * [啟用核心服務的應用程式](core-services.md)
