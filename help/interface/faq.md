@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 77%
 * Safari (最新和前兩個版本)
 * Opera (最新和前兩個版本)
 
-## 如何知道我的應用程式是否已啟用做為核心服務？
+## 該如何得知我的應用程式已針對核心服務啟用？
 
-如果您的實作尚未布建至核心服務，請參閱 [啟用核心服務的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，說明如何：
+如果尚未針對核心服務佈建實作，請參閱[為核心服務啟用您的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何：
 
 1. [加入 Experience Cloud 並成為管理員](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [使用 Experience Platform Launch 實作 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)。
+1. [使用 Experience Platform Launch 實作 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)。
 1. [將報表套裝對應至 Experience Cloud 組織](core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 導入最新的 Analytics AppMeasurement 程式碼](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Adobe Target) 導入最新的 Adobe Target 實作](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -49,7 +49,7 @@ ht-degree: 77%
 
 ## 公司為何要透過 Experience Cloud 介面登入？
 
-Experience Cloud 介面提供的功能可為貴公司增加新價值。它也是今後訪問應用程式的標準路徑，最終將替換其他單獨的應用程式登錄流程。 透過 Experience Cloud 登入，便於日後更順暢轉換。
+Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，這也是日後存取應用程式的標準途徑，最終將取代其他個別應用程式登入流程。 透過 Experience Cloud 登入，便於日後更順暢轉換。
 
 ## 如何解決我對移轉公司的疑慮？
 
@@ -59,18 +59,18 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。它也是
 
 Experience Cloud 中的佈建意思是：
 
-* 您的使用者可以開始登入 [!DNL Experience Cloud] 和連結應用程式。
+* 您的使用者可以開始登入 [!DNL Experience Cloud] 及連結應用程式。
 * 他們可以開始使用透過 Experience Cloud 提供的功能，例如 People。
-* 您可以準備好淘汰應用程式專用的登入程式。
-* 您可以保留對應用程式的訪問控制。
+* 您可以準備好淘汰應用程式專用的登入程序。
+* 您可以保留對應用程式的存取控制。
 
 ## 我該如何管理使用者和產品描述檔？
 
-* 如需協助，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html)。
+* 如需協助，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html)。
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
+* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
 ## 如果有人無法登入 Experience Cloud，我該怎麼做？
 
@@ -80,9 +80,9 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 使用者可以前往哪裡管理帳戶連結？
 
-有些使用者可能需要將其應用程式(Analytics)帳戶連結至Adobe ID或Enterprise ID。
+部分使用者可能需要將自己的應用程式 (Analytics) 帳戶連結至 Adobe ID 或 Enterprise ID。
 
-請參閱 [將應用程式帳戶連結至Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
+請參閱[將應用程式帳戶連結至 Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)。
 
 ## 我該如何管理使用者帳戶個人資料和組織？
 
@@ -90,7 +90,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 什麼是組織？
 
-** 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的功能就像一個登入公司，可跨越所有Experience Cloud產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
+ *組織*&#x200B;是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
 ## 在哪裡可以找到我的 IMS 組織 ID？
 
@@ -108,18 +108,18 @@ ID 是：
 
 `C538193582390300A495CC9@AdobeOrg`
 
-## 我的使用者離職時，我該做什麼？
+## 當我的使用者離職時，我該做什麼？
 
-應從應用程式本身中移除其存取權。 他們將無法從 Experience Cloud 或透過直接登入存取產品。您也應該在 Experience Cloud 層級移除其存取權。
+應該從應用程式本身移除其存取權。 他們將無法從 Experience Cloud 或透過直接登入存取產品。您也應該在 Experience Cloud 層級移除其存取權。
 
 ## 什麼是 Adobe ID？
 
-請參閱[身分類型](https://helpx.adobe.com/enterprise/using/identity.html)。
+請參閱[身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。
 
 ## 我可以替我的使用者連結應用程式帳戶嗎？
 
-不可以。用戶必須將自己的應用程式與其用戶名和密碼連結。
+不可以。 使用者必須將其自身的應用程式與其使用者名稱和密碼連結。
 
 ## 我的公司沒有 Social，為什麼我可以看到它？
 
-Adobe Social 是可與 Analytics 搭配銷售的產品。因此，如果您有Analytics，就會看到此應用程式，但除非您已購買，否則您將無法存取。
+Adobe Social 是可與 Analytics 搭配銷售的產品。因此，如果您有 Analytics，您將會看到此應用程式，但是除非您已購買，否則無法存取。
