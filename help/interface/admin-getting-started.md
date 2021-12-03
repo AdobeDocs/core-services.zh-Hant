@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->以下是 Experience Cloud 應用程式專屬資訊。 這項資訊可補充所有 Adobe 雲端產品的[企業版管理使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html)中更廣泛的管理資訊。
+>以下是 Experience Cloud 應用程式專屬資訊。 這項資訊可補充所有 Adobe 雲端產品的[企業版管理使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html)中更廣泛的管理資訊。
 
 您可以在管理工具中檢視所有 Experience Cloud 使用者及其詳細資訊，且可將清單加以排序及篩選。 請參閱「[在管理工具中檢視 Experience Cloud 使用者](admin-tool-experience-cloud.md)」。
 
@@ -45,13 +45,13 @@ ht-degree: 93%
 1. 選取「**[!UICONTROL 新描述檔]**」。
 1. 設定描述檔詳細資料，然後選取「**[!UICONTROL 儲存]**」。
 
-如需詳細資訊 (以及有關 Creative Cloud 和 Document Cloud 產品管理的說明)，請參閱「[身分](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html)」(在[管理使用手冊](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html)中)。
+如需詳細資訊 (以及有關 Creative Cloud 和 Document Cloud 產品管理的說明)，請參閱「[身分](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/identity.ug.html)」(在[管理使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/users.ug.html)中)。
 
 **相關說明**
 
-* 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
-* Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)」會提供詳細資訊。
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
+* Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)」會提供詳細資訊。
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 <!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -84,11 +84,11 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 
 1. 在 Admin Console 中，選取「**[!UICONTROL 使用者]**」，然後選取使用者的名稱。
 
-   ![管理Admin Console](assets/edit-admin-rights.png)
+   ![Admin Console 中的管理員權限](assets/edit-admin-rights.png)
 
 1. 選取「**[!UICONTROL 編輯管理員權限]**」。
 
-   ![在Admin Console中編輯管理權限](assets/edit-admin-rights-page.png)
+   ![在 Admin Console 中編輯管理員權限](assets/edit-admin-rights-page.png)
 
 1. 指定使用者的管理權限。
 1. 選取「**[!UICONTROL 儲存]**」。
@@ -106,8 +106,8 @@ Beginning May 2020, enterprise administrators cannot use the Adobe ID for new or
 | 元素 | 說明 |
 |--- |--- |
 | 報表套裝 | 啟用特定報表套裝的權限。 |
-| 量度 | 為流量、轉換、自訂事件、應用程式事件、內容感知等等啟用權限。 |
-| 維度 | 在粒度層級自訂使用者存取，包括eVar、流量報表、應用程式報表和路徑報表。 |
+| 量度 | 為流量、轉換、自訂事件、應用程式事件、內容感知等項目啟用權限。 |
+| 維度 | 在粒度層級自訂使用者存取，包括 eVar、流量報表、應用程式報表和路徑報表。 |
 | 報表套裝工具 | 為網站服務、報表套裝管理、工具和報表與儀表板項目啟用使用者權限。 |
 | Analytics 工具 | 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、Web 服務存取、Report Builder 和資料連接器整合的使用者權限。 「自訂 Admin Console」類別中的公司設定已移至 Analytics 工具。 |
 
@@ -117,11 +117,11 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 帳戶移轉功能會分階段向客戶推出。Adobe 會在您需要進行移轉時通知您，並協助您從&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理]**&#x200B;將現有使用者帳戶移轉到 Admin Console。
 
-移轉後，使用者可使用其Adobe ID(或Enterprise ID)登入，並針對其Experience Cloud應用程式和服務進行驗證，位於 [experience.adobe.com](https://experience.adobe.com). 如果使用者嘗試透過舊的登入進行登入 ([!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com])，則會被重新導向 [!DNL experience.adobe.com]。
+移轉後，使用者可以在 [experience.adobe.com](https://experience.adobe.com) 使用他們的 Adobe ID (或 Enterprise ID) 登入，並針對其 Experience Cloud 應用程式和服務進行驗證。 如果使用者嘗試透過舊的登入進行登入 ([!DNL my.omniture.com]、[!DNL sc.omniture.com] 和 [!DNL experiencecloud.adobe.com])，則會被重新導向 [!DNL experience.adobe.com]。
 
 **相關說明**
 
-如需詳細資訊，請參閱「[Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)」。
+如需詳細資訊，請參閱「[Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)」。
 
 ## 管理 Adobe Target - 產品描述檔與 Workspaces 的比較 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -139,27 +139,27 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 *安全群組* (Security group)會顯示為產品描述檔。
 
-有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en)。
+有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hant)。
 
 ## 管理 Experience Platform Data Collection (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示在 [!UICONTROL Admin Console] 的「[!UICONTROL 產品]」頁面上。 您可以在Launch產品設定檔中包含其他應用程式和服務。
+Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示在 [!UICONTROL Admin Console] 的「[!UICONTROL 產品]」頁面上。 您可以在 Launch 產品描述檔中加入其他應用程式和服務。
 
 邀請使用者加入 [!UICONTROL Platform Launch] 並指派使用者角色和權限。
 
-如需 Admin Console 中的使用者權限，以及設定 Launch 專用選項 (包括指派描述檔的權限) 的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en)」。
+如需 Admin Console 中的使用者權限，以及設定 Launch 專用選項 (包括指派描述檔的權限) 的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant)」。
 
 ## Experience Manager as a Cloud Service
 
 Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織」。 Experience Manager 客戶可使用 Adobe [!UICONTROL Admin Console] 管理其產品權益以及 Experience Manager as a [!UICONTROL Cloud Service] 的 IMS 驗證。
 
-請參閱「[Experience Manager as a Cloud Service 的 IMS 支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en)」。
+請參閱「[Experience Manager as a Cloud Service 的 IMS 支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=zh-Hant)」。
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 建立 Audience Manager 使用者並將其指派至群組。您也可以檢視限制 (特徵、區段、目的地和 [!DNL AlgoModel])。
 
-請參閱 Audience Manager 說明中的「[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en)」。
+請參閱 Audience Manager 說明中的「[管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-Hant)」。
 
 ## Experience Cloud 中支援的瀏覽器
 
@@ -169,10 +169,10 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) 不支援 [!DNL Opera]，而 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) 不支援 [!DNL Safari])。
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hant) 不支援 [!DNL Opera]，而 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hant) 不支援 [!DNL Safari])。
 
 ### 解決方案和產品要求
 
 * [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
-* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=en)
+* [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
 * [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
