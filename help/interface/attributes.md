@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係�
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-   請參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en)」或「[Mbox.js 實作](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en)」。
+   請參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=zh-Hant)」或「[Mbox.js 實作](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=zh-Hant)」。
 
 ## 什麼是企業客戶資料？ {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -46,7 +46,7 @@ Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係�
 
 建立資料檔案後，可將其上傳至您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客戶屬性]**&#x200B;中建立的客戶屬性來源。
 
-請參閱[上傳客戶屬性資料](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
+請參閱 [上傳客戶屬性資料](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 了解此工作流程。
 
 ## Analytics 和 Target 中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
