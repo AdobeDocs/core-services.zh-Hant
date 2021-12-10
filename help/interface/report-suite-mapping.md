@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 將報表套裝對應至組織 {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料控管]**」，導覽至「資料控管報表套裝」(請參閱「[檢視/管理報表套裝的資料控管設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en)」)
+1. 依序前往「[!DNL Analytics] > **[!UICONTROL 管理]** > **[!UICONTROL 資料控管]**」，導覽至「資料控管報表套裝」(請參閱「[檢視/管理報表套裝的資料控管設定](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=zh-Hant)」)
 
 1. 若要查看可存取每個報表套裝的登入公司，請選取「**[!UICONTROL 只有登入公司能看見]**」。
 
@@ -71,7 +71,7 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 組織呈灰色表示您沒有足夠的權限可對應至變成灰色的報表套裝。考量下列範例：
 
-![為什麼有些組織會變灰色？](assets/rs-mapping.png)
+![為什麼有些組織會呈灰色？](assets/rs-mapping.png)
 
 此圖表中，藍色圖例表示管理權限，灰線表示可見度。
 
