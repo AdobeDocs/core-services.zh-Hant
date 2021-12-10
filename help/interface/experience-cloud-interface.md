@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 
 從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」可管理偏好設定。
 
-![管理Experience Cloud](assets/preferences-page.png)
+![管理 Experience Cloud](assets/preferences-page.png)
 
 您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
 
