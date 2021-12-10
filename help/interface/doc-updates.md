@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Experience Cloud 產品文件的更新資訊。
 | ------- | ------- |
 | 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
 | 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
-| Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
-| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自<https://experience.adobe.com/implement>移除。 |
+| Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hant)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
+| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自 <https://experience.adobe.com/implement> 移除。 |
 
 **更新日期：2021 年 8 月 24 日**
 
@@ -118,7 +118,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2015 年 3 月 2 日**
 
-新增 [啟用核心服務的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+已新增[為核心服務啟用您的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **更新日期：2015 年 1 月 15 日**
 
