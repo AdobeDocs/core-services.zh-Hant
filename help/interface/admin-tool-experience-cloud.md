@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1270'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 1. 登入 `https://experience.adobe.com/.`
 
-   ![存取Admin Console](assets/admin-tool.png)
+   ![存取 Admin Console](assets/admin-tool.png)
 
 1. 在「[!UICONTROL 快速存取]」底下選取「**[!UICONTROL 管理工具]**」。
 
@@ -36,16 +36,16 @@ ht-degree: 90%
 
 ## 「使用者」頁面
 
-此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它提供有關應用程式權限和上次登錄的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
+此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它提供有關應用程式權限和上次登入的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
 
-![Admin Console使用者頁面](assets/admin-tool-users.png)
+![Admin Console 使用者頁面](assets/admin-tool-users.png)
 
 | 元素 | 說明 |
 |---|---|
 | [!UICONTROL 名稱] | 使用者的名字和姓氏。您可以將此欄由 A 到 Z 和 Z 到 A 排序。選取使用者名稱即可查看有關該使用者的詳細資訊。 |
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/enterprise/using/identity.html)。 |
-| [!UICONTROL 解決方案] | 用戶可訪問的Experience Cloud應用程式的摘要。 您可以套用篩選器，以縮小具有特定應用程式存取權的使用者清單。 |
+| [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
+| [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
 | [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
@@ -54,21 +54,21 @@ ht-degree: 90%
 
 * 依名稱或電子郵件搜尋使用者。搜尋會比對您輸入的文字字串。
 * 依遞增或遞減值排序欄。此排序會套用至[!UICONTROL 名稱]、[!UICONTROL 電子郵件]和[!UICONTROL 上次登入]欄。
-* 若要套用多個篩選條件以列出符合特定條件的使用者，請選取「**[!UICONTROL 篩選條件]**」圖示。 套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
+* 若要套用多個篩選器以列出符合特定條件的使用者，請選取「**[!UICONTROL 篩選器]**」圖示。 套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
 
 | 元素 | 說明 |
 |---------|----------|
 | [!UICONTROL 電子郵件網域]篩選器 | 在「電子郵件」欄中搜尋字元字串，將結果縮小至一或多個網域。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器 |
 | [!UICONTROL ID 類型]篩選器。 | 從可用的 ID 類型中選擇。多個 ID 類型均可作為篩選器使用。 |
-| [!UICONTROL 解決方案]篩選器 | 從可用應用程式中選擇。 多個應用程式篩選器搜索包含解決方案1的結果 `OR` 解決方案2。 |
+| [!UICONTROL 解決方案]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
 
 ## 檢視使用者詳細資訊
 
 在「[!UICONTROL 使用者]」頁面上，若要檢視使用者的詳細資訊，請按一下該使用者的電子郵件。
 
-![在Admin Console中查看用戶詳細資訊](assets/admin-tool-user-details.png)
+![在 Admin Console 中檢視使用者詳細資訊](assets/admin-tool-user-details.png)
 
-每位使用者的詳細檢視都會顯示有關使用者應用程式存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
+每位使用者的詳細檢視都會顯示有關使用者的應用程式存取權、管理員和產品角色以及上次存取資訊的重要細節。
 
 ## 區段簡介
 
@@ -78,13 +78,13 @@ ht-degree: 90%
 * 名稱
 * 電子郵件
 * 用戶名稱 (Federated ID 帳戶的使用者名稱必須與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
 ## 解決方案摘要
 
-此部分顯示用戶可訪問的Experience Cloud應用程式的摘要。 包含產品管理角色 (如果適用)。
+本區段顯示使用者可存取的 Experience Cloud 應用程式摘要。 包含產品管理角色 (如果適用)。
 
 ## 詳細的產品存取清單
 
@@ -102,7 +102,7 @@ ht-degree: 90%
 
 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。
 
-![策略頁Admin Console](assets/admin-tool-policies.png)
+![Admin Console 中的原則頁面](assets/admin-tool-policies.png)
 
 | 元素 | 說明 |
 |---|---|
@@ -118,18 +118,18 @@ ht-degree: 90%
 
 * 依名稱搜尋產品描述檔。搜尋會比對您輸入的文字字串。
 * 依遞增或遞減值排序欄。此排序適用於「[!UICONTROL 產品描述檔]」、「[!UICONTROL 產品]」、「[!UICONTROL 例項]」、「[!UICONTROL 使用者人數]」和「[!UICONTROL 開發人員人數]」欄。
-* 選取「**[!UICONTROL 篩選條件]**」圖示可套用多個篩選條件，以列出符合特定條件的產品描述檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
+* 選取「**[!UICONTROL 篩選器]**」圖示可套用多個篩選器，以列出符合特定條件的產品描述檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
 |---------|----------|
 | [!UICONTROL 例項]篩選器 | 在「例項」欄中搜尋字元字串，將結果範圍縮小至一或多個例項。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器。 |
-| [!UICONTROL 解決方案]篩選器 | 從可用應用程式中選擇。 多個應用程式篩選器搜索包含解決方案1的結果 `OR` 解決方案2。 |
+| [!UICONTROL 解決方案]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
 
 ## 檢視原則詳細資訊
 
 在「[!UICONTROL 原則]」頁面上，若要檢視原則的詳細資訊，請選取產品描述檔名稱。
 
-![在Admin Console中查看策略詳細資訊](assets/admin-tool-policy-detail.png)
+![在 Admin Console 中檢視原則詳細資訊](assets/admin-tool-policy-detail.png)
 
 每個產品描述檔的詳細檢視都會顯示產品描述檔主體 (使用者、群組等) 的重要詳細資訊，也會顯示產品描述檔啟用的權限和資源。
 
