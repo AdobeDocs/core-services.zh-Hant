@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需文件更新的清單，請參閱 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
-如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
 ## 2021 年 8 月
 
@@ -36,16 +36,16 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 6 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=en) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
+| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## 2021 年 5 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
 | Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
@@ -92,7 +92,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2019 年 4 月
 
-* 已更新應用程式切換器，將Marketo納入Experience Cloud應用程式套裝，並更新Experience Platform品牌。 (MCUI-6529)
+* 已更新應用程式切換器，將 Marketo 納入 Experience Cloud 應用程式套件中，並更新 Experience Platform 品牌。(MCUI-6529)
 * 更新 Experience Cloud 首頁，加入「摘要」和「管理」頁面的導覽連結。(MCUI-6682)
 * 修正正確使用「like」子句的[!UICONTROL 「觸發」]定義問題。(MCUI-6611)
 * 客戶屬性改善，可更有效登入訂閱服務。(MCUI-6519)
@@ -148,7 +148,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶連結改善 </p> </td> 
-   <td colname="col2"> <p>改善連結應用程式帳戶與Experience Cloud(Adobe ID)的介面工作流程。 這個新的工作流程會找出與組織相關聯的所有使用者帳戶，並讓您選擇要連結的帳戶。我們也簡化了帳戶連結體驗，您不再需要存取「管理組織」頁面即可手動連結帳戶。 </p> </td> 
+   <td colname="col2"> <p>已改良連結應用程式帳戶與 Experience Cloud (Adobe ID) 的介面工作流程。這個新的工作流程會找出與組織相關聯的所有使用者帳戶，並讓您選擇要連結的帳戶。我們也簡化了帳戶連結體驗，您不再需要存取「管理組織」頁面即可手動連結帳戶。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -225,7 +225,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>左側導覽功能表已更新並排列，以提供所有核心服務和應用程式的存取權。 顯著變更包括： </p> 
+   <td colname="col2"> <p>左側導覽選單已更新和妥善排列，可由此存取所有核心服務和應用程式。顯著變更包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">對象庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">對象</span>底下。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">此 <span class="term">Exchange</span> 功能表選取項目從「說明」下拉式功能表移動至左側導覽邊欄。 </li> 
@@ -236,7 +236,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 </table>
 
 * 修正客戶屬性無法與某些客戶同步的問題。
-* 修正 [Adobe Target 產品文件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)頁面無法顯示日文版本的問題。
+* 修正 [Adobe Target 產品文件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)頁面無法顯示日文版本的問題。
 * 已修正無法在 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 的註解中使用日文字的問題。
 
 ## 發行版本 15.4.1 - 2015 年 4 月 8 日 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -281,7 +281,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的對象區段。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需最新化核心服務應用程式的相關資訊，請參閱 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 啟用核心服務的應用程式</a>. </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的對象區段。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需為核心服務將您的應用程式現代化的相關資訊，請參閱<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">為核心服務啟用您的應用程式</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,11 +298,11 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>群組對應 </p> </td> 
-   <td colname="col2"> <p>「群組管理」頁面經過重新設計，現在是可讓您建立群組、新增使用者至群組以及在Experience Cloud應用程式之間套用權限的管理介面。 </p> </td> 
+   <td colname="col2"> <p>「群組對應」頁面已經過重新設計，現在您可在此管理介面上建立群組、將使用者新增至群組，以及在 Experience Cloud 應用程式之間套用權限。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>一對多對應 </p> </td> 
-   <td colname="col2"> <p>在Experience Cloud中連結應用程式帳戶時，如果您有多個應用程式和組織，您現在可以將多個產品和服務對應至單一組織。 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 中連結應用程式帳戶時，如果您有多個應用程式和組織，現在可以將多個產品和服務對應至單一組織。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
@@ -310,7 +310,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
   </tr> 
   <tr> 
    <td colname="col1"> <p>文件更新 - 核心服務 </p> </td> 
-   <td colname="col2"> <p>新增主題 <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> 啟用核心服務的應用程式</a> 協助您實作核心服務。 </p> </td> 
+   <td colname="col2"> <p>已新增<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">為核心服務啟用您的應用程式</a>主題，以協助您實作核心服務。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,7 +421,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 **修正和改良**
 
 * 現在，當您導覽至 [!DNL experience.adobe.com] 時，您感受到的登入體驗將會與 Adobe Creative Cloud 的登入一致。
-* 現在，在「管理組織」頁面上，每個應用程式的連結體驗（收到邀請後）都一致。
+* 現在，在「管理組織」頁面上，每個應用程式的連結體驗 (收到邀請後) 都是一致的。
 
 **已知問題**
 
@@ -676,7 +676,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
   <tr> 
    <td colname="col1"> <p>重新整理資料 </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->此 <span class="uicontrol"> 重新整理資料</span> 如果應用程式不允許重新整理資料，現在會隱藏資訊卡上圖形的圖示。 </p> </td> 
+     <!--MAC-18174-->如果應用程式不允許重新整理資料，現在會隱藏資訊卡上圖形的<span class="uicontrol">重新整理資料</span>圖示。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -684,6 +684,6 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 **修正**
 
 * 修正分享的 [!DNL Analytics] 報表無法套用區隔篩選器的問題。
-* 修正導致應用程式在 [!UICONTROL Experience Cloud解決方案] 頁面連結，即使應用程式帳戶未連結亦然。
+* 已修正在未連結應用程式帳戶的情況下，應用程式在 [!UICONTROL Experience Cloud 解決方案]頁面上卻顯示為已連結的問題。
 * 已修正導致 [!DNL Adobe Target] 亞洲客戶無法選取連結頁面上的「**[!UICONTROL 繼續前往 Experience Cloud]**」按鈕的問題。
 * 已修正無法分享 YouTube 影片的問題。
