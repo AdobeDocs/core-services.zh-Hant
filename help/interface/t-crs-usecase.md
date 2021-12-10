@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >
 >若要存取此功能，必須將使用者指派給客戶屬性的產品描述檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品描述檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
 >
->若要使用「客戶屬性」功能，使用者也必須屬於應用程式層級的群組(Analytics或 [!DNL Target])。
+>若要使用客戶屬性功能，使用者也必須屬於應用程式層級的群組 (Analytics 或 [!DNL Target])。
 
 請參閱[管理 Experience Cloud 使用者和產品](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)。
 
@@ -86,9 +86,9 @@ ht-degree: 93%
 
       別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en)。
+      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
          例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -96,13 +96,13 @@ ht-degree: 93%
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en) 中的&#x200B;*「idType」*。
+      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant) 中的&#x200B;*「idType」*。
 
          例如：
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en) 中的 *&quot;idType&quot;*。
+      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
 
          例如：
 
@@ -146,7 +146,7 @@ ht-degree: 93%
 
 ## 設定訂閱及啟動屬性來源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-設定訂閱可設定Experience Cloud和應用程式之間的資料流。 啟用屬性來源可讓資料流向訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
+設定訂閱可設定 Experience Cloud 和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -158,13 +158,13 @@ ht-degree: 93%
 
 ## 在 Adobe Analytics 中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
 
-有了Adobe Analytics等應用程式現在提供的資料，您就可以報告資料、分析資料，並在行銷活動中採取適當的行動。
+現在有了 Adobe Analytics 等應用程式所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
 
 以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
-![根據上傳屬性的Analytics區段](assets/08_crs_usecase.png)
+![根據上傳的屬性的 Analytics 區段](assets/08_crs_usecase.png)
 
-您在 Experience Cloud 發佈區段後，Experience Cloud Audiences 和 Audience Manager 可隨即使用該區段。
+您將區段發佈到 Experience Cloud 後，Experience Cloud Audiences 和 Audience Manager 可隨即使用該區段。
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -172,4 +172,4 @@ ht-degree: 93%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en)。
+請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)。
