@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 
 ![編輯結構](assets/view_edit_schema.png)
 
-在[!UICONTROL 「驗證結構」]頁面，結構的每一列代表上傳之 CSV 檔案的一欄。
+在[!UICONTROL 驗證結構]頁面上，結構的每一列代表上傳之 CSV 檔案的一欄。
 
-![驗證Experience Cloud中的結構頁面](assets/06_crs_usecase.png)
+![ Experience Cloud 中的驗證結構頁面](assets/06_crs_usecase.png)
 
 * **[!UICONTROL 新增資料：]**&#x200B;可讓您上傳新的屬性資料至此資料來源。
 
