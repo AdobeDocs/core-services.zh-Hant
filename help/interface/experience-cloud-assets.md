@@ -1,5 +1,5 @@
 ---
-description: 了解您可在不同應用程式間共用的Experience Cloud資產。
+description: 了解您可在多個應用程式中共用的 Experience Cloud 資產。
 solution: Experience Cloud
 title: 資產總覽
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,22 +9,22 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 資產總覽
 
-Experience Cloud資產提供可供您跨應用程式共用的單一、集中的行銷資產存放庫。 資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
+Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
 資產服務包括：
 
-* 資產儲存、管理介面、嵌入式選擇介面（通過應用程式訪問）。
-* 與Creative Cloud、Experience Cloud協作和Experience Cloud應用程式的整合。
+* 資產儲存空間、管理介面、內嵌式選擇介面 (需透過應用程式存取)。
+* 與 Creative Cloud、Experience Cloud 共同作業和 Experience Cloud 應用程式整合。
 
-使用資產可改善一致性和品牌合規性，且可縮短上市時間。您可以簡化應用程式中的工作流程：
+使用資產可改善一致性和品牌合規性，且可縮短上市時間。 您可以簡化應用程式中的工作流程：
 
 * **[!DNL Social]**：發佈至社交屬性、Facebook、Twitter、LinkedIn、Google+
 * **[!DNL Target]**：建立 A/B 測試和多變數測試的體驗。
@@ -81,7 +81,7 @@ Experience Cloud資產提供可供您跨應用程式共用的單一、集中的�
 
 選取「**[!UICONTROL 檢視]** > **[!UICONTROL 影像]**」可檢視完整資產影像並啟用縮放。
 
-![檢視全螢幕資產](assets/asset-zoom.png)
+![以全螢幕檢視資產](assets/asset-zoom.png)
 
 ## 檢視資產屬性 {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
