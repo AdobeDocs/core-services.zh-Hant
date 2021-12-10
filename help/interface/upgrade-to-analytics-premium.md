@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -56,9 +56,9 @@ Analytics Premium 提供您：
 
 | 產品 | 升級 |
 |---|---|
-| Reports &amp; Analytics | [貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
 | Data Workbench | 預先建立的 Workspace，用於決定對象資格和預測性行銷。 |
-| Analytics平台 | Live Stream (控制面板和觸發器) |
+| Analytics Platform | Live Stream (控制面板和觸發器) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,7 +70,7 @@ Analytics Premium 提供您：
 |--- |--- |
 | [客戶屬性](attributes.md) | 客戶屬性 (分析和區隔共用) |
 | Data Workbench | <ul><li>衍生客戶屬性</li><li>預先建立的 Workspace，用於進行對象探索</li></ul> |
-| Analytics平台 | [客戶屬性](attributes.md) |
+| Analytics Platform | [客戶屬性](attributes.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -88,7 +88,7 @@ TechOps 將會審核您的合約承諾，並決定適當的受託基礎架構、
 
 ## Experience Cloud - 管理使用者和產品 {#section_6471C54454024301B2E0B687F79F6738}
 
-如果您已按照 [快速入門 — 啟用核心服務的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (該程序可協助您導入最新的實作方式，並可讓您成為 Experience Cloud 的管理員)。
+假設您已按照[快速入門 - 為核心服務啟用您的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)中所述的實作現代化作業來進行，Analytics Standard 和 Premium 使用者即可使用 Experience Cloud 和核心服務。 (該程序可協助您導入最新的實作方式，並可讓您成為 Experience Cloud 的管理員)。
 
 加入 Experience Cloud 後，您就能在 [!DNL experience.adobe.com] 透過 Experience Cloud 登入，並開始使用核心服務 (包括客戶屬性、Audiences 和行動應用程式分析)。
 
@@ -96,8 +96,8 @@ TechOps 將會審核您的合約承諾，並決定適當的受託基礎架構、
 
 您可以在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) (產品連結) 中管理使用者。
 
-您可以在 Adobe Admin Console 中建立的群組和解決方案群組 (例如 Adobe Analytics) 之間設定 1 對 1 的對應。之後，新增至對應Admin Console群組的新使用者會自動建立Analytics應用程式帳戶，並連結至該使用者的Adobe ID。 (現有用戶必須手動連結其應用程式帳戶憑據，才能通過Experience Cloud登錄訪問應用程式。)
+您可以在 Adobe Admin Console 中建立的群組和解決方案群組 (例如 Adobe Analytics) 之間設定 1 對 1 的對應。此後，將新使用者新增至對應的 Admin Console 群組時，系統會自動建立 Analytics 應用程式帳戶並連結至該使用者的 Adobe ID。 (現有使用者必須手動連結其應用程式帳戶認證，才能透過 Experience Cloud 登入存取應用程式。)
 
 >[!NOTE]
 >
->您可以將數個應用程式群組對應至一個Admin Console群組。 不過 Adobe 建議使用 1 對 1 的對應。提前對應群組可讓您透過上傳 CSV 來邀請、建立、和新增多個使用者，以及為其提供權限。
+>您可將數個應用程式群組對應至一個 Admin Console 群組。 不過 Adobe 建議使用 1 對 1 的對應。提前對應群組可讓您透過上傳 CSV 來邀請、建立、和新增多個使用者，以及為其提供權限。
