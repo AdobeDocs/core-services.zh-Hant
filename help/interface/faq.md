@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 ## 如何解決我對移轉公司的疑慮？
 
 [聯絡 Adobe 支援](https://experienceleague.adobe.com/?support-solution=General#support)。
+
+## 如何 [!DNL Adobe Support] 存取我的Adobe雲端環境以疑難排解問題？
+
+[!DNL Adobe Support] 可以提交模擬請求，您會收到Adobe品牌的電子郵件（如下），以尋求您的明確授權。 授予存取權的時間有限。 授予後，您隨時都可撤銷存取權。 Adobe記錄Adobe代表採取的所有動作。
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## 什麼是&#x200B;_佈建_？
 
