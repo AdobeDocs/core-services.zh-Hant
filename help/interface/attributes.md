@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Experience Cloud 中的[!UICONTROL 客戶屬性]可讓您上傳從客戶關係�
 
 建立資料檔案後，可將其上傳至您在 **[!UICONTROL Experience Cloud]** > **[!UICONTROL 客戶屬性]**&#x200B;中建立的客戶屬性來源。
 
-請參閱 [上傳客戶屬性資料](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) 了解此工作流程。
+請參閱[上傳客戶屬性資料](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78)以了解此工作流程。
 
 ## Analytics 和 Target 中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
