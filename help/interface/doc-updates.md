@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud 產品文件的更新資訊。
 
 **更新日期：2021 年 12 月 13 日**
 
-更新 [管理常見問題集](faq.md) 提供Adobe支援如何存取您的Adobe雲端環境以疑難排解問題的相關資訊。
+已更新 [管理常見問題集](faq.md)，其中包含有關 Adobe 支援團隊如何存取您的 Adobe 雲端環境以解決問題的資訊。
 
 **更新日期：2021 年 10 月 28 日**
 
