@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud 服務 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-本檔案適用於Experience Cloud統一標題的功能，例如 [!UICONTROL 人員] 服務（受眾和客戶屬性）、Experience Cloud、Cookie、帳戶偏好設定、通知等的使用者和產品管理。
+本文件適用於 Experience Cloud 統一標題的功能，例如 [!UICONTROL People] 服務 (對象和客戶屬性)、Experience Cloud 使用者和產品管理、Cookie、帳戶偏好設定、通知等。
 
 若要在 Experience Cloud 中存取這些服務，請選取&#x200B;**[!UICONTROL 應用程式選擇器]**
 ![服務選擇器](assets/menu-icon.png)。
