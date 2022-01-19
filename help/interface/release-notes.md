@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
-## 2021年11月
+## 2021 年 11 月
 
 | 功能 | 說明 |
 | ------- | ------- |
@@ -34,7 +34,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 {style=&quot;table-layout:auto&quot;}
 
-## 2021年10月
+## 2021 年 10 月
 
 | 功能 | 說明 |
 | ------- | ------- |
@@ -57,7 +57,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 6 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
@@ -66,7 +66,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 5 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
 | Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
