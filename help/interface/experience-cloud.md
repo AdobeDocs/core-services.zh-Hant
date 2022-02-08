@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1333'
-ht-degree: 100%
+source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,12 @@ ht-degree: 100%
 登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 選取「**[!UICONTROL 使用 Adobe ID 登入]**」。
+1. 鍵入Adobe電子郵件地址，然後選擇 **[!UICONTROL 繼續]**。
+
+   管理員，請參見 [Experience Cloud用戶身份驗證](admin-getting-started.md#migration) 標識類型（業務ID）的重要更新。
+
+1. 選擇帳戶。
+1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
 
    ![確認您隸屬於正確的組織](assets/organizations-menu.png)
@@ -198,7 +203,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=zh-Hant) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
 * [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation.html) - 閱讀 Experience Cloud 部落格

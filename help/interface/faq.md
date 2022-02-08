@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 
 [!DNL Adobe Support] 可以提交模擬要求，您將收到一封包含 Adobe 品牌的電子郵件 (範例如下)，以向您請求明確授權。所授予的存取權限是限時有效的。授權後，您隨時可以撤銷存取權限。Adobe 會記錄 Adobe 代表所採取的所有動作。
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobe支援案例](assets/support-email.png)
 
 ## 什麼是&#x200B;_佈建_？
 
@@ -96,23 +96,11 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 什麼是組織？
 
- *組織*&#x200B;是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
+ [組織](organizations.md)是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
-## 在哪裡可以找到我的 IMS 組織 ID？
+## 在哪裡可以找到我的IMS組織ID?
 
-請參閱[找出組織 ID](organizations.md)。
-
-組織 ID 會顯示在 Experience Cloud 登陸頁面和 [Admin Console 登陸頁面](https://adminconsole.adobe.com)上。
-
-或者，管理員也可以登入 Admin Console (導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) 尋找特定的組織；可在 URL 中看見您的 IMS 組織 ID。
-
-舉例來說，在以下網址中：
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-ID 是：
-
-`C538193582390300A495CC9@AdobeOrg`
+請參閱 [查找組織ID](organizations.md) 的雙曲餘切值。
 
 ## 當我的使用者離職時，我該做什麼？
 
