@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
+source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1557'
 ht-degree: 69%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 69%
 
 ### 遷移過程
 
-遷移時間到時，組織管理員將在遷移前30天收到通知電子郵件。 此電子郵件將包括您的遷移日期。
+遷移時間到時，組織管理員將在遷移前30天收到通知電子郵件。
 
 * 遷移計畫在晚上10點之間進行。 — 上午6:00，根據組織的主要時區或週末。
-* 在遷移期間，Experience Cloud應用程式可能無法訪問15分鐘，Admin Console可能無法訪問30分鐘。 否則，此遷移將是無縫的。
+* 在遷移期間，Experience Cloud應用程式可能無法訪問大約15分鐘，Admin Console可能無法訪問最多30分鐘。 否則，此遷移將是無縫的。
 
 ### 遷移後的更改
 
