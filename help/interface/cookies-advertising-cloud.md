@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: ht
+source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>顯示廣告上選取項目的 ID 和時間戳記 (格式為 yyyymmdd)</p> </td> 
+   <td colname="col2"> <p>顯示廣告點擊的 ID 和時間戳記 (格式為 yyyymdd)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用方式 </p> </td> 
-   <td colname="col2"> <p>用於判斷顯示廣告上的選取事件是否適用於 Adobe Analytics 點擊的第三方 Cookie </p> </td> 
+   <td colname="col2"> <p>協力廠商 Cookie，用於判斷顯示廣告上的點擊事件是否適用於 Adobe Analytics 點擊 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>瀏覽者上次造訪廣告商網站的時間戳記、瀏覽者上次搜尋的選取項目，以及使用者選取廣告時所建立的 ef_id</p> </td> 
+   <td colname="col2"> <p>瀏覽者上次造訪廣告商網站的時間戳記、瀏覽者上次的搜尋點擊，以及使用者點擊廣告時建立的 ef_id</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
