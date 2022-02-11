@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 98%
@@ -30,7 +30,6 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | ------- |-------|
 | 快捷方式(**[!UICONTROL 朗瑟]**)添加到 [Experience Cloud](https://experience.adobe.com/home) 家 | 您可以訪問新的Journey Optimizer和Experience Platform作品的快捷方式 _朗瑟_ 登錄頁上。 此更新還包括總體佈局和響應性改進。 |
 | **[!UICONTROL 沙箱]** 移到標題欄 | 現在，所有Experience Platform介面應用程式的標題中都整合了「Sandboxes」指示器。 請參閱 [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant) 的子菜單。 |
-
 
 ## 2021 年 11 月
 
