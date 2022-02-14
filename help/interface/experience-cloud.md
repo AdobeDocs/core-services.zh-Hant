@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 98%
 登入並確認您隸屬於正確的[組織](organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 鍵入Adobe電子郵件地址，然後選擇 **[!UICONTROL 繼續]**。
+1. 輸入您的 Adobe 電子郵件地址，然後選取「**[!UICONTROL 繼續]**」。
 
-   管理員，請參見 [Experience Cloud用戶身份驗證](admin-getting-started.md#migration) 標識類型（業務ID）的重要更新。
+   管理員們請參閱 [Experience Cloud 使用者驗證](admin-getting-started.md#migration)以了解身分類型 (Business ID) 的重要更新。
 
-1. 選擇帳戶。
+1. 選取帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
 
@@ -105,7 +105,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 * **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
 * **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
 
-## 全域搜索對象和實體 {#search}
+## 全域搜索對象和實體 {#globally-search}
 
 全域搜尋可讓您採用一鍵式的無縫一致體驗，尋找可搜尋的商業物件或實體。此搜尋會出現在您最近存取的物件。
 

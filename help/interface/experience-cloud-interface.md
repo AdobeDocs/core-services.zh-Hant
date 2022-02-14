@@ -6,8 +6,8 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
-## Experience Cloud 中的搜尋和支援 {#search}
+## Experience Cloud 中的搜尋和支援 {#search-support}
 
 Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/#home) 上的說明 (文件、教學課程和其他課程)。
 
