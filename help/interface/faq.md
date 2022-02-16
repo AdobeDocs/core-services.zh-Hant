@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 
 [!DNL Adobe Support] 可以提交模擬要求，您將收到一封包含 Adobe 品牌的電子郵件 (範例如下)，以向您請求明確授權。所授予的存取權限是限時有效的。授權後，您隨時可以撤銷存取權限。Adobe 會記錄 Adobe 代表所採取的所有動作。
 
-![Adobe支援案例](assets/support-email.png)
+![Adobe 支援案例](assets/support-email.png)
 
 ## 什麼是&#x200B;_佈建_？
 
@@ -98,9 +98,9 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
  [組織](organizations.md)是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
-## 在哪裡可以找到我的IMS組織ID?
+## 在哪裡可以找到我的 IMS 組織 ID？
 
-請參閱 [查找組織ID](organizations.md) 的雙曲餘切值。
+請參閱[尋找組織 ID](organizations.md) 以取得詳細資料。
 
 ## 當我的使用者離職時，我該做什麼？
 

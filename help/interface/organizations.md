@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ ht-degree: 89%
 
 ![步驟結果](assets/organization-switch.png)
 
-## 查找您的組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 找出組織 ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 您可能需要找到您的組織 ID 以方便支援。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
 
-組織 ID是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`.
+組織 ID 是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
-您可以使用鍵盤快捷方式查看組織ID以及其他帳戶資訊 **Ctrl+i** 從任何頁 `https://experience.adobe.com`，然後按一下 **[!UICONTROL 分配的組織]** 的子菜單。
+您可以在 `https://experience.adobe.com` 的任何頁面上使用鍵盤快速鍵 **Ctrl+i**，然後按一下對話框中的「**[!UICONTROL 指派的組織]**」索引標籤，來檢視組織 ID 以及其他帳戶資訊。
 
-![分配的組織ID](assets/assigned-organization.png)
+![指派的組織 ID](assets/assigned-organization.png)
 
-或者，管理員可以登錄Admin Console(導航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在URL中查看您的IMS組織ID。
+或者，管理員也可以登入 Admin Console (導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在 URL 看見您的 IMS 組織 ID。
 
 舉例來說，在以下網址中：
 

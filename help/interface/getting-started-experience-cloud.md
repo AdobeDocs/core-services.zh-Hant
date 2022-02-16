@@ -12,7 +12,7 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 | 按一下[啟動 Admin Console](admin-getting-started.md)。 | Admin Console 是管理整個組織中 Adobe 使用者和產品權限的集中位置。<br>您也可以使用[直接連結](https://adminconsole.adobe.com)來登入 Admin Console。 |
 | [管理 Creative Cloud 使用者](t-admin-add-cc-user.md) | Experience Cloud Assets 可讓行銷人員使用 Creative Cloud 來與設計人員和其他創意資產共用、同步資料夾及進行共同作業。您可以在這裡管理獲核准與貴組織共同作業的 Creative Cloud 使用者。 |
 | [對應您的報表套裝](core-services.md) | (僅限 Analytics) Experience Cloud 核心服務會與一個組織建立關聯，而非個別報表套裝。為確保這些服務正常運作，每個 Analytics 報表套裝都必須對應至一個組織。(此工作是[讓 Analytics 可使用核心服務](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)的更廣泛工作流程的一部分)。 |
-| [組織 ID](organizations.md) | 的 *組織ID* 在Admin Console中。 您也可以在 [!UICONTROL 用戶資料調試器] 彈出窗口(`ctrl+i` 或 `cmd+i`) `https://experience.adobe.com`。 此 ID 是與您所佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |
+| [組織 ID](organizations.md) | 登入 Admin Console 時，可在 URL 中找到&#x200B;*組織 ID*。您也可以在 `https://experience.adobe.com` 任何頁面上的「[!UICONTROL 用戶資料偵錯程式]」快顯視窗 (`ctrl+i` 或 `cmd+i`) 看到它。此 ID 是與您所佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |
 
 {style=&quot;table-layout:auto&quot;}
 
