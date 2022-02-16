@@ -153,4 +153,4 @@ ht-degree: 100%
 | `destURL` | 使用者應前往的目的地完整 URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 選填 |
 | `solutionname` | `destURL` 參數擁有者的 MAC 解決方案名稱。用於確認使用者是否擁有該應用程式的存取權 (也是 URL 的擁有者)。 應用程式應負責確認 `applicationname` 與 `destURL` 參數同步。 例如：如果 URL 中含有作為 social 的 `solutionname`，且所提供的 `destURL` 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。 MAC 不會驗證 `destURL` 的擁有者是否與應用程式名稱同步。 | analytics | 若使用 `destURL` 參數，則必須填寫此項。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
