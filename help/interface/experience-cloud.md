@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 84%
+source-wordcount: '1540'
+ht-degree: 82%
 
 ---
 
@@ -118,7 +118,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 * Experience Platform(AEP)
 * Journey Optimizer(AJO)
 
-隨著更多內容的索引，此功能將添加到相關應用程式。
+隨著對更多內容進行索引，此功能將添加到相關應用程式。
 
 ### 可搜索的對象和欄位
 
@@ -139,7 +139,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 * 元件（名稱、說明）
 * 旅程（名稱、說明）
 
-如果關鍵字與導航頁匹配，則可以快速獲取導航頁示例資料集的訪問連結。
+如果關鍵字與導航頁匹配，則可以快速訪問導航頁示例資料集的連結。
 
 您還可以找到來自Experience League和社區的幫助文章。 支援自然語言查詢。
 
@@ -229,7 +229,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 * [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 * [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hant)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
-* [一般資料保護規範 (GDPR) API](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [一般資料保護規範 (GDPR) API](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
 
 ## 教學課程
@@ -237,15 +237,15 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 運用 Experience League 中的自助教學課程和快速操作說明：
 
 * [Experience League 的所有教學課程](https://experienceleague.adobe.com/?lang=zh-Hant#quick-how-tos)
-* [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=zh-Hant)
+* [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [即時客戶資料平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hant)
 
 ## 發行說明和相關 Experience Cloud 說明
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
-* [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation.html) - 閱讀 Experience Cloud 部落格
+* [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation) - 閱讀 Experience Cloud 部落格
 * [客戶服務](https://experienceleague.adobe.com/?support-solution=General#support) - 連絡 Adobe 客戶服務
