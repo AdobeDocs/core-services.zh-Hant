@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 275588a8101e953d5087a44e4588b239be477bd3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 
 Experience Cloud 產品文件的更新資訊。
 
-**已更新2/8/2022**
+**更新日期：2022 年 2 月 8 日**
 
-更新如何查找 [組織ID](organizations.md)。
+有關如何尋找您的[組織 ID](organizations.md) 的更新。
 
 **更新日期：2021 年 12 月 13 日**
 
