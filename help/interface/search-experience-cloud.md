@@ -7,10 +7,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 30%
+source-wordcount: '644'
+ht-degree: 31%
 
 ---
 
@@ -92,14 +92,14 @@ Unified Search中提供了以下功能。
 
 {style=&quot;table-layout:auto&quot;}
 
-## 沒有找到預期結果或得到太多結果？
+## 找不到嗎？
 
 嘗試以下提示：
 
 * 輸入更具體的搜索詞
 * 檢查拼寫
 * 嘗試編寫完整的搜索詞
-* 確保您對對象具有權限，您正在搜索
+* 確保您對搜索的對象具有權限
 
 
 
