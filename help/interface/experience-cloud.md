@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 95%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 * **[!UICONTROL 意見反應]：**&#x200B;分享您對 Experience Cloud 體驗的意見。您的意見是用來改善 Adobe 產品和服務。
 * **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
 * **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
-
-## [!UICONTROL 整合式搜尋]，用來搜尋物件和實體 {#globally-search}
-
-[!UICONTROL 整合式搜尋]可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋會尋找您最近存取的物件。
-
-![全域搜尋物件和實體](assets/platform-search.png)
-
-### 可用性
-
-整合式搜尋會顯示在頁面的最上方 (在 Experience Cloud 標頭中)，而且支援的產品總是可以看到它，這些產品目前包括：
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-隨著對更多內容進行索引，此功能將添加到相關應用程式。
-
-### 可搜尋的物件和欄位
-
-當您輸入時，最符合的結果來自您有權顯示的物件。
-
-![Experience Cloud 中的整合式搜尋](assets/unified-search-results.png)
-
-可搜尋的商業物件包括：
-
-* 區段 (名稱、說明)
-* 結構描述 (名稱、說明)
-* 資料集 (名稱、說明)
-* 來源 (名稱、說明)
-* 目的地 (名稱、說明)
-* 查詢 (名稱、說明)
-* 訊息 (名稱、說明)
-* 選件 (名稱、說明)
-* 元件 (名稱、說明)
-* 歷程 (名稱、說明)
-
-如果關鍵字與導航頁匹配，則可以快速訪問導航頁示例資料集的連結。
-
-您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
-
-比如說， _如何建立架構_ 產生於Experience League _[!UICONTROL 學習]_:
-
-![Experience Cloud 說明中的整合式搜尋](assets/unified-search-learning.png)
-
-搜尋演算法會最先顯示最相關的記錄。 結果的順序取決於幾個因素，例如：
-
-* 存取物件的使用者權限
-* 相符的百分比
-* 完全符合的項目
-* _[!UICONTROL 排名最前結果]_&#x200B;區段會顯示排名前 30 的結果。
-
-若要調整搜尋，請按一下下列其中一項：
-
-* **[!UICONTROL 所有學習]**：在 Experience League 中開啟搜尋。
-* **[!UICONTROL 全部顯示...]**：讓您進一步調整及篩選結果.
 
 ## 使用者個人資料和帳戶偏好設定 {#preferences}
 
