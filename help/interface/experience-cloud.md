@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 82%
+ht-degree: 95%
 
 ---
 
@@ -105,59 +105,59 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 * **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
 * **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
 
-## [!UICONTROL 統一搜索] 對象和圖元 {#globally-search}
+## [!UICONTROL 整合式搜尋]，用來搜尋物件和實體 {#globally-search}
 
-的 [!UICONTROL 統一搜索] 搜索使您能夠在無縫、一致、一次按一下式體驗中查找可搜索的業務對象或實體。 此搜尋會出現在您最近存取的物件。
+[!UICONTROL 整合式搜尋]可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋會尋找您最近存取的物件。
 
 ![全域搜尋物件和實體](assets/platform-search.png)
 
 ### 可用性
 
-統一搜索顯示在頁面頂部(在Experience Cloud標題中)，並且始終對受支援的產品可見，這些產品當前是：
+整合式搜尋會顯示在頁面的最上方 (在 Experience Cloud 標頭中)，而且支援的產品總是可以看到它，這些產品目前包括：
 
-* Experience Platform(AEP)
-* Journey Optimizer(AJO)
+* Experience Platform (AEP)
+* Journey Optimizer (AJO)
 
 隨著對更多內容進行索引，此功能將添加到相關應用程式。
 
-### 可搜索的對象和欄位
+### 可搜尋的物件和欄位
 
-鍵入時，匹配的頂部結果來自您有權顯示的對象。
+當您輸入時，最符合的結果來自您有權顯示的物件。
 
-![統一搜索Experience Cloud](assets/unified-search-results.png)
+![Experience Cloud 中的整合式搜尋](assets/unified-search-results.png)
 
-可搜索的業務對象包括：
+可搜尋的商業物件包括：
 
-* 段（名稱、說明）
-* 架構（名稱、說明）
-* 資料集（名稱、說明）
-* 源（名稱、說明）
-* 目標（名稱、說明）
-* 查詢（名稱、說明）
-* 消息（名稱、說明）
-* 優惠（名稱、說明）
-* 元件（名稱、說明）
-* 旅程（名稱、說明）
+* 區段 (名稱、說明)
+* 結構描述 (名稱、說明)
+* 資料集 (名稱、說明)
+* 來源 (名稱、說明)
+* 目的地 (名稱、說明)
+* 查詢 (名稱、說明)
+* 訊息 (名稱、說明)
+* 選件 (名稱、說明)
+* 元件 (名稱、說明)
+* 歷程 (名稱、說明)
 
 如果關鍵字與導航頁匹配，則可以快速訪問導航頁示例資料集的連結。
 
-您還可以找到來自Experience League和社區的幫助文章。 支援自然語言查詢。
+您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
 比如說， _如何建立架構_ 產生於Experience League _[!UICONTROL 學習]_:
 
-![統一搜索Experience Cloud幫助](assets/unified-search-learning.png)
+![Experience Cloud 說明中的整合式搜尋](assets/unified-search-learning.png)
 
-搜索算法首先顯示最相關的記錄。 結果的順序取決於以下幾個因素：
+搜尋演算法會最先顯示最相關的記錄。 結果的順序取決於幾個因素，例如：
 
-* 用戶訪問對象的權限
-* 匹配百分比
-* 完全匹配
-* 的 _[!UICONTROL 最佳結果]_ 的下界。
+* 存取物件的使用者權限
+* 相符的百分比
+* 完全符合的項目
+* _[!UICONTROL 排名最前結果]_&#x200B;區段會顯示排名前 30 的結果。
 
-要細化搜索，請按一下以下選項之一：
+若要調整搜尋，請按一下下列其中一項：
 
-* **[!UICONTROL 所有學習]**:在Experience League中開啟搜索。
-* **[!UICONTROL 全部顯示……]**:允許您進一步細化和篩選結果。
+* **[!UICONTROL 所有學習]**：在 Experience League 中開啟搜尋。
+* **[!UICONTROL 全部顯示...]**：讓您進一步調整及篩選結果.
 
 ## 使用者個人資料和帳戶偏好設定 {#preferences}
 
