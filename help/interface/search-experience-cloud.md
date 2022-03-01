@@ -7,17 +7,17 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 31%
+source-wordcount: '655'
+ht-degree: 32%
 
 ---
 
 
 # [!UICONTROL 整合式搜尋]，用來搜尋物件和實體 {#globally-search}
 
-[!UICONTROL 整合式搜尋]可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋會尋找您最近存取的物件。
+[!UICONTROL 整合式搜尋]可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜索也會顯示您最近訪問的對象。
 
 ![全域搜尋物件和實體](assets/platform-search.png)
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-隨著對更多內容進行索引，此功能將添加到相關應用程式。
+當有更多內容編製索引時，這項功能會新增到相關應用程式。
 
 ## 可搜尋的物件和欄位
 
@@ -44,22 +44,22 @@ ht-degree: 31%
 
 可搜尋的商業物件包括：
 
-* 區段 (名稱、說明)
-* 結構描述 (名稱、說明)
-* 資料集 (名稱、說明)
-* 來源 (名稱、說明)
-* 目的地 (名稱、說明)
-* 查詢 (名稱、說明)
-* 訊息 (名稱、說明)
-* 選件 (名稱、說明)
-* 元件 (名稱、說明)
-* 歷程 (名稱、說明)
+* 段（名稱、說明、ID）
+* 架構（名稱、說明、ID）
+* 資料集（名稱、說明、ID）
+* 源（名稱、說明、ID）
+* 目標（名稱、說明、ID）
+* 查詢（名稱、說明、ID）
+* 消息（名稱、說明、ID）
+* 優惠（名稱、說明、ID）
+* 元件（名稱、說明、ID）
+* 旅程（名稱、說明、ID）
 
-如果關鍵字與導航頁匹配，則可以快速訪問導航頁示例資料集的連結。 頂部結果部分顯示前30個結果。
+如果關鍵字符合導覽頁面，您可以取得導覽頁面範例資料集的快速存取連結。頂部結果部分顯示前30個結果。
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-比如說， _如何建立架構_ 產生於Experience League _[!UICONTROL 學習]_:
+例如，_如何建立結構描述_&#x200B;會從 Experience League 的&#x200B;_[!UICONTROL 學習]_&#x200B;底下產生結果：
 
 ![Experience Cloud 說明中的整合式搜尋](assets/unified-search-learning.png)
 
@@ -73,7 +73,7 @@ ht-degree: 31%
 若要調整搜尋，請按一下下列其中一項：
 
 * **[!UICONTROL 所有學習]**：在 Experience League 中開啟搜尋。
-* **[!UICONTROL 全部顯示...]**：讓您進一步調整及篩選結果.
+* **[!UICONTROL 全部顯示...]**：讓您進一步調整及篩選結果。
 
 ## 統一搜索功能
 
