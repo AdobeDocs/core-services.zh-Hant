@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 100%
@@ -99,7 +99,7 @@ ht-degree: 100%
 </ul> 
 <p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
-<p> <b>Media Optimizer</b> </p> 
+<p> <b>Advertising Cloud</b> </p> 
 <p>Performance alerts </p> 
 <p> <b>Dynamic Tag Manager</b> </p> 
 <ul id="ul_9ACDA418933E40918744D9C32A57DD4B"> 
@@ -153,4 +153,4 @@ ht-degree: 100%
 | `destURL` | 使用者應前往的目的地完整 URL。 | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | 選填 |
 | `solutionname` | `destURL` 參數擁有者的 MAC 解決方案名稱。用於確認使用者是否擁有該應用程式的存取權 (也是 URL 的擁有者)。 應用程式應負責確認 `applicationname` 與 `destURL` 參數同步。 例如：如果 URL 中含有作為 social 的 `solutionname`，且所提供的 `destURL` 是 Analytics URL，那麼即便使用者沒有 Analytics 的存取權，系統仍會將其重新導向至該 URL。 MAC 不會驗證 `destURL` 的擁有者是否與應用程式名稱同步。 | analytics | 若使用 `destURL` 參數，則必須填寫此項。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;

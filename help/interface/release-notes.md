@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
-workflow-type: ht
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+workflow-type: tm+mt
 source-wordcount: '4640'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hant)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
 | **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自<https://experience.adobe.com/implement>移除。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2021 年 8 月
 
@@ -70,22 +70,22 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 6 月
 
-| 功能 | Date | 說明 |
+| 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2021 年 5 月
 
-| 功能 | Date | 說明 |
+| 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
 | Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
 | Experience Cloud 語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2020 年 8 月
 
@@ -93,7 +93,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2020 年 4 月
 
@@ -106,7 +106,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 **修正**
 
@@ -296,7 +296,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 **修正**
 
-* 已修正無法在 [!DNL Experience Cloud] 和 [!DNL Media Optimizer] 使用單一登入功能的問題。
+* 已修正無法在 [!DNL Experience Cloud] 和 [!DNL Advertising Cloud] 使用單一登入功能的問題。
 
 **已知問題**
 
@@ -388,7 +388,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 * 使用者無法在展示板上共用 PowerPoint 檔案。
 * 在 User Management 中所做的群組和權限變更，只有在重新登入後才會生效。
 * 有些使用者無法上傳大型檔案類型至 Experience Cloud Assets。
-* 使用者的 Experience Cloud 卡片上未顯示來自 Media Optimizer 的連結。
+* 用戶可能丟失了來自Advertising Cloud的Experience Cloud卡上的連結。
 * 有些管理員使用者在接受加入 Experience Cloud 的邀請後，無法順利連結帳戶。
 * 多名使用者同時使用 Experience Cloud 介面時，會導致介面效能下滑。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
@@ -597,7 +597,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 **修正**
 
 * [!DNL Experience Cloud] 未連結至 [!DNL Adobe Target]。如果可在多個 [!DNL Adobe Target] 伺服器上使用 [!DNL Target] 登入，則會發生此問題。
-* 在 [!DNL Adobe Media Optimizer] 中建立使用者後，[!DNL Experience Cloud] 不會自動建立使用者。
+* 在 [!DNL Adobe Advertising Cloud] 中建立使用者後，[!DNL Experience Cloud] 不會自動建立使用者。
 * 輸入時，組合方塊中用於新增使用者的選項會暫時消失。
 * 無法選取資產資訊卡檢視上的「註解」連結。
 * 將自訂標記新增至資產後，其他中繼資料變更不會持續存在。
@@ -645,12 +645,12 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 * 無法選取資產資訊卡檢視上的「註解」連結。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
 * 登入 [!DNL Experience Cloud] 所需的時間超過一秒。
-* 自 [!DNL Media Optimizer] 共用的資料在 [!DNL Experience Cloud] 中的呈現方式有誤。
-* 在 [!DNL Media Optimizer] 中建立使用者後，Adobe [!DNL Experience Cloud] 不會自動建立使用者。
+* 自 [!DNL Advertising Cloud] 共用的資料在 [!DNL Experience Cloud] 中的呈現方式有誤。
+* 在 [!DNL Advertising Cloud] 中建立使用者後，Adobe [!DNL Experience Cloud] 不會自動建立使用者。
 * 如果 [!DNL Experience Cloud] 登入資訊可用於多個 [!DNL Adobe Target] 伺服器，則無法將 [!DNL Adobe Target] 連結到 [!DNL Target]
 * 多名使用者同時使用 [!DNL Experience Cloud] 介面時，可能會導致介面速度變慢。
 * 無法從[!UICONTROL 組織及產品存取]頁面使用 [!DNL Search&Promote] 連結。
-* [!DNL Adobe Media Optimizer] 模擬卡片未正確呈現。
+* [!DNL Adobe Advertising Cloud] 模擬卡片未正確呈現。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 套用至 Analytics 趨勢報表的篩選器沒有套用至 Experience Cloud 中的卡片。
 * 無法將某些 Excel 或 CSV 檔案上傳到留言板。
@@ -666,7 +666,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 **修正**
 
 * 新增移除顯示圖片影像的功能。
-* 修正讓您無法取消連結 [!DNL Adobe Media Optimizer] 帳戶的問題。
+* 修正讓您無法取消連結 [!DNL Adobe Advertising Cloud] 帳戶的問題。
 
 **已知問題**
 
@@ -680,16 +680,16 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 * 如果 [!DNL Adobe Target] 登入資訊可用於多個 Target 伺服器，則無法將 Experience Cloud 連結到 [!DNL Adobe Target]
 * 登入 Experience Cloud 所需的時間超過一秒。
 * 將自訂標記新增至資產後，其他中繼資料變更無法持續存在。
-* 在 Experience Cloud 中建立使用者後，[!DNL Adobe Media Optimizer] 不會自動建立使用者。
+* 在 Experience Cloud 中建立使用者後，[!DNL Adobe Advertising Cloud] 不會自動建立使用者。
 * 在輸入時，組合方塊中用於新增使用者的選項會暫時消失。
-* 自 [!DNL Media Optimizer] 共用的資料在 Experience Cloud 中的呈現方式有誤。
+* 自 [!DNL Advertising Cloud] 共用的資料在 Experience Cloud 中的呈現方式有誤。
 * 無法分享 Flickr 影像。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 Experience Cloud 中的卡片。
 * 在使用者管理中所做的群組和權限變更，只有在重新登入後才會生效。
 * 無法從[!DNL Search&Promote]「組織和產品存取」[!UICONTROL 使用 ] 連結。
 * 使用者必須重新整理展示板，才能讓已刪除的資訊卡從檢視中消失。
 * 無法將某些 Excel 或 CSV 檔案上傳到留言板。
-* [!DNL Adobe Media Optimizer] 模擬卡片未正確呈現。
+* [!DNL Adobe Advertising Cloud] 模擬卡片未正確呈現。
 * 有些 PNG 檔案無法呈現在資訊卡上。
 * 無法提交測試版意見反應。
 

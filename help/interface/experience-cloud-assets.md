@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Experience Cloud 資產總覽
 
-Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 資產是數位文件、影像、影片或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
+Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
 資產服務包括：
 
@@ -26,10 +26,9 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 
 使用資產可改善一致性和品牌合規性，且可縮短上市時間。 您可以簡化應用程式中的工作流程：
 
-* **[!DNL Social]**：發佈至社交屬性、Facebook、Twitter、LinkedIn、Google+
-* **[!DNL Target]**：建立 A/B 測試和多變數測試的體驗。
-* **[!DNL Media Optimizer]**：開發跨不同管道和行銷活動的廣告單位
-* **[!DNL Campaign]**：將資產放入電子郵件電子報和行銷活動中。
+* **[!DNL Adobe Target]**：建立 A/B 測試和多變數測試的體驗。
+* **[!DNL Ad Cloud]**：開發跨不同管道和行銷活動的廣告單位
+* **[!DNL Adobe Campaign]**：將資產放入電子郵件電子報和行銷活動中。
 
 在 [!UICONTROL Experience Cloud 資產]中，您可以：
 
@@ -55,7 +54,9 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 
 ![存取工具列](assets/asset-tools.png)
 
-! 請注意，要刪除在目標中使用或正在使用的資產，您需要刪除該資產的所有使用。
+>[!NOTE]
+>
+>必須先從Adobe Target活動中刪除資產，然後才能成功從 [!DNL Target]。
 
 ## 編輯資產 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
