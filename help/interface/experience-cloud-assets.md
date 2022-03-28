@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,8 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 工具列可讓您快速存取功能，包括搜尋、時間軸、轉譯、編輯、注釋和下載。
 
 ![存取工具列](assets/asset-tools.png)
+
+! 請注意，要刪除在目標中使用或正在使用的資產，您需要刪除該資產的所有使用。
 
 ## 編輯資產 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
