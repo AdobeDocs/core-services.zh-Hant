@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
 ht-degree: 100%
 
@@ -182,14 +182,14 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 運用 Experience League 中的自助教學課程和快速操作說明：
 
 * [Experience League 的所有教學課程](https://experienceleague.adobe.com/?lang=zh-Hant#quick-how-tos)
-* [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant)
 * [即時客戶資料平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hant)
 
 ## 發行說明和相關 Experience Cloud 說明
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
 * [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation) - 閱讀 Experience Cloud 部落格
