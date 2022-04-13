@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: ht
-source-wordcount: '1614'
-ht-degree: 100%
+source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+workflow-type: tm+mt
+source-wordcount: '1616'
+ht-degree: 96%
 
 ---
 
@@ -57,8 +57,7 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
    **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> Adobe 過去建議客戶設定兩個 CNAME，一個用於 HTTPS，另一個用於 HTTP。 由於這是加密流量的最佳做法，且大多數瀏覽器都強烈勸阻使用 HTTP，所以我們不再建議為 HTTP 設定 CNAME。 如果您有需要，可以進行如下的設定：
->    **不安全** -- 主機名稱 `metrics.example.com` 指向：`example.com.adobedc.net`。
+> 過去，Adobe建議客戶設定兩個CNAME ，一個用於HTTPS ，一個用於HTTP。 由於加密通信是一種最佳做法，而且大多數瀏覽器都強烈阻止HTTP，因此我們不再建議為HTTP設定CNAME。 如果您需要為HTTP配置CNAME，請聯繫Adobe客戶服務。
 
 1. 完成 CNAME 設定後，Adobe 會與 DigiCert 合作來購買憑證，並安裝到 Adobe 的生產伺服器上。
 
