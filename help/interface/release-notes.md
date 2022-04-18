@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '4640'
-ht-degree: 100%
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+workflow-type: tm+mt
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 如需文件更新的清單，請參閱 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
+
+## 2022年4月 — 
+
+| 功能 | 說明 |
+| ------- |-------|
+| 自然語言搜索 | 通過統一搜索的單一介面即時獲得所有幫助問題的答案。 此功能始終可供您在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer]。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 2022 年 3 月
 
@@ -45,7 +53,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2021 年 10 月
 
@@ -56,7 +64,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hant)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
 | **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自<https://experience.adobe.com/implement>移除。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2021 年 8 月
 
@@ -70,22 +78,22 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 6 月
 
-| 功能 | Date | 說明 |
+| 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2021 年 5 月
 
-| 功能 | Date | 說明 |
+| 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
 | Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
 | Experience Cloud 語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2020 年 8 月
 
@@ -93,7 +101,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ## 2020 年 4 月
 
@@ -106,7 +114,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;&quot;
 
 **修正**
 
