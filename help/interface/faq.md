@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 在哪裡可以找到我的 IMS 組織 ID？
 
-請參閱[尋找組織 ID](organizations.md) 以取得詳細資料。
+請參閱 [查看您的組織ID](organizations.md) 的雙曲餘切值。
 
 ## 當我的使用者離職時，我該做什麼？
 

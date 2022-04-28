@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -35,11 +35,11 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
 
 1. 識別下列項目：
 
-   * IMS 組織 ID
+   * [組織 ID](#organizations.md)
    * 您要對其採取動作之 CRS 資料來源的別名 ID
    * 您要對其採取動作之個人資料的 CRM ID
 
-   IMS 組織 ID 是 24 個字元的英數字串，通常會加上 @AdobeOrg。如果您的行銷團隊或內部 Adobe 系統管理員不知道您組織的 IMS 組織 ID，請寄信至 gdprsupport@adobe.com 與 Adobe 客戶服務團隊連絡。您需先取得 IMS 組織 ID，才能向隱私權 API 提交請求。
+   您 [組織ID](#organizations.md) 是附加有@AdobeOrg的24個字元的字母數字字串。 您需要組織的ID才能將請求提交到隱私API。 聯繫Adobe客戶關注： `gdprsupport@adobe.com` 找不到ID。
 
 1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
 
