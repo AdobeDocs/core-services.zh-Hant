@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Experience Cloud 中的佈建意思是：
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?support-solution=General#support)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
 
 ## 使用者可以前往哪裡管理帳戶連結？
 
@@ -100,7 +100,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 在哪裡可以找到我的 IMS 組織 ID？
 
-請參閱 [查看您的組織ID](organizations.md) 的雙曲餘切值。
+請參閱[查看組織 ID](organizations.md) 以取得詳細資料。
 
 ## 當我的使用者離職時，我該做什麼？
 
