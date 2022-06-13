@@ -1,5 +1,5 @@
 ---
-description: 了解組織以及將解決方案帳戶連結至 Experience Cloud。
+description: 瞭解組織（IMS組織ID）並將解決方案帳戶連結到Experience Cloud。
 keywords: Adobe Experience Cloud 服務
 solution: Experience Cloud
 title: '組織和帳戶連結 '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 85%
+source-wordcount: '580'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 
 ## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
- *組織*&#x200B;是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
+安 *組織* （IMS組織ID）是使管理員能夠配置組和用戶並控制Experience Cloud中的單一登錄的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
 若要確認您已登入正確的組織，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 
 ![步驟結果](assets/organization-switch.png)
 
-## 查看您的組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 查看IMS組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 為了支援目的，您可能需要查找分配的組織ID。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
 您可以使用鍵盤快捷方式查看組織ID以及其他帳戶資訊 **Ctrl+i** 從任何頁 `https://experience.adobe.com`。
 
-**查看組織ID**
+**查看IMS組織ID**
 
 1. 在 [Experience Cloud](https://experience.adobe.com.)按 **Ctrl+i** 鍵盤上。
 
@@ -98,5 +98,5 @@ ht-degree: 85%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在問題待解決之際，您仍可使用標準登入存取應用程式。
