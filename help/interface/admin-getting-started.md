@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: ht
-source-wordcount: '1567'
+source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ _[!UICONTROL 產品描述檔]_&#x200B;是您可以指派給使用者的產品和
 
 * 管理使用手冊中的「[管理產品和描述檔](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)」。
 * Adobe Target 說明中的「[企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)」會提供詳細資訊。
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hant)
 
 ## 委派管理角色給使用者 {#delegate-rights}
 
@@ -150,9 +150,9 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 請參閱：
 
-* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)
-* [管理產品和個人資料](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://helpx.adobe.com/tw/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [管理產品和個人資料](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## 管理 Campaign 產品描述檔、租用戶和安全群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -194,6 +194,6 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 
 ### 解決方案和產品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hant)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hant)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
