@@ -49,7 +49,7 @@ ht-degree: 100%
 | Campaign | <ul><li>從不同的 Adobe Experience Cloud 應用程式將共用對象匯入到 Adobe Campaign。</li><li>以共用對象的形式匯出收件者清單。 這些共用對象可用於您所使用的不同 Adobe Experience Cloud 應用程式。</li></ul> |
 | Advertising Cloud | 使用對象作為目標。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 100%
 | 使用案例 | 如需該使用何種應用程式的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 論壇 | [Audiences 論壇](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是可取得對象說明的額外資源。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ## 對象庫介面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ ht-degree: 100%
 | 目前規模 | 目前的對象規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
