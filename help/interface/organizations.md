@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '574'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 若要確認您已登入正確的組織，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
-如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。 若要這樣做，請將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`)。
+如果您的組織使用聯合ID，則Experience Cloud允許您使用組織的單一登錄進行登錄，而無需輸入您的電子郵件地址和密碼。 添加 `#/sso:@domain` 到Experience CloudURL(`https://experience.adobe.com`)完成此任務。
 
 例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
@@ -34,7 +34,7 @@ ht-degree: 80%
 
 ## 查看您的組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-為了支援目的，您可能需要查找分配的組織ID。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
+您可以為支援目的查找分配的組織ID。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
 
 組織 ID 是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
@@ -60,7 +60,7 @@ ht-degree: 80%
 
 ## 將應用程式帳戶連結至 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-通常 Experience Cloud 管理員會授予應用程式和服務的存取權。 在少數情況下，您可能需要將應用程式認證連結至 Adobe ID。
+通常 Experience Cloud 管理員會授予應用程式和服務的存取權。 在極少數情況下，您可以將應用程式憑據連結到Adobe ID。
 
 1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。

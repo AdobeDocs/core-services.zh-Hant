@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 93%
+source-wordcount: '1604'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
    **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
 >[!NOTE]
-> 過去，Adobe建議客戶設定兩個CNAME ，一個用於HTTPS ，一個用於HTTP。 由於加密通信是一種最佳做法，而且大多數瀏覽器都強烈阻止HTTP，因此我們不再建議為HTTP設定CNAME。 如果您需要為HTTP配置CNAME，請聯繫Adobe客戶服務。
+> 過去，Adobe建議客戶設定兩個CNAME ，一個用於HTTPS ，一個用於HTTP。 由於加密通信是一種最佳做法，而且大多數瀏覽器都強烈阻止HTTP，因此我們不再建議為HTTP設定CNAME。 聯繫Adobe客戶服務部門，為HTTP配置CNAME。
 
 1. 完成 CNAME 設定後，Adobe 會與 DigiCert 合作來購買憑證，並安裝到 Adobe 的生產伺服器上。
 
@@ -77,8 +77,8 @@ SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。
 |---|---|
 | **此程序是否安全？** | 是，Adobe Managed Program 不會在 Adobe 和核發憑證授權機構以外的地方傳遞憑證或私密金鑰，因此會比舊方法更安全。 |
 | **Adobe 如何為網域購買憑證？** | 唯有當您將指定的主機名稱 (例如 `telemetry.example.com`) 指向 Adobe 擁有的主機名稱時，才能購買憑證。基本上，這等於是將此主機名稱委派給 Adobe，並允許 Adobe 代表您購買憑證。 |
-| **我可以要求撤銷憑證嗎？** | 可以。您身為網域所有者，有權要求我們撤銷憑證。您只需請客戶服務開立支援工單，即可完成此程序。 |
-| **此憑證是否會使用 SHA-2 加密？** | 是，Adobe 會與 DigiCert 合作，核發 SHA-2 憑證。 |
+| **我可以要求撤銷憑證嗎？** | 是，作為域的所有者，您有權請求吊銷證書。 開啟客戶服務票證以完成此操作。 |
+| **此憑證是否會使用 SHA-2 加密？** | 是的，Adobe與DigiCert合作頒發SHA-2證書。 |
 | **這是否會產生額外費用？** | 不會，Adobe 目前免費提供此服務給所有現有的 Adobe Digital Experience 客戶。 |
 
 {style=&quot;table-layout:auto&quot;}
