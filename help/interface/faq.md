@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 
 不會。隨附 Experience Cloud，不需額外付費，不過某些核心服務可能會產生額外費用。
 
-## 為什麼我的公司必須通過Experience Cloud介面登錄？
+## 為什麼我的公司必須透過 Experience Cloud 介面登錄？
 
 Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，這也是日後存取應用程式的標準途徑，最終將取代其他個別應用程式登入流程。 透過 Experience Cloud 登入，便於日後更順暢轉換。
 
@@ -82,11 +82,11 @@ Experience Cloud 中的佈建意思是：
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
-你可能得 [聯繫Adobe支援](https://experienceleague.adobe.com/?support-solution=General#support) 驗證您的公司是否已完全配置。
+您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
 
 ## 使用者可以前往哪裡管理帳戶連結？
 
-可能需要一些用戶將其應用程式（分析）帳戶連結到Adobe ID或Enterprise ID。
+部分使用者可能需要將自己的應用程式 (Analytics) 帳戶連結至 Adobe ID 或 Enterprise ID。
 
 請參閱[將應用程式帳戶連結至 Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369)。
 
