@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 # 貢獻文章
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 ### 由社群成員提出重大變更或新文章
 
-如果您是 Adobe 社群成員，且想建立新文章或提出重大變更，請使用 Git 存放庫中的「問題」索引標記，提出問題以便與文件團隊開始對話。一旦您同意了計畫，您就可以與員工合作，通過在公共和私有儲存庫中的工作組合來幫助將新內容引入。
+如果您是 Adobe 社群成員，且想建立新文章或提出重大變更，請使用 Git 存放庫中的「問題」索引標記，提出問題以便與文件團隊開始對話。一旦您同意了計劃，就需要與員工一起工作，透過結合公共和私有存放庫的工作來幫助引入新內容。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
