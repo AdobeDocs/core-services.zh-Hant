@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1275'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
    若要確認您已登入正確的[組織](organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
-   如果您的組織使用聯合ID，則Experience Cloud允許您使用組織的單一登錄進行登錄，而無需輸入您的電子郵件地址和密碼。 添加 `#/sso:@domain` 到Experience CloudURL(`https://experience.adobe.com`)完成此任務。
+   如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
    例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
@@ -144,7 +144,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 |--- |--- |
 | Adobe Experience Cloud 網域 | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Identity Management 服務 (IMS) | `adobelogin.com` |
-| Experience Cloud 字體 | `typekit.net` |
+| Experience Cloud 字型 | `typekit.net` |
 | Gainsight (適用於產品指引和說明) | `esp.aptrinsic.com` |
 
 ## 取得管理和跨應用程式服務的說明
@@ -189,7 +189,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
 * [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation) - 閱讀 Experience Cloud 部落格
