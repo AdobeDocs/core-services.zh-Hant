@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1896'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,50 +25,50 @@ ht-degree: 85%
 
 您可以在管理工具中檢視所有 Experience Cloud 使用者及其詳細資訊，且可將清單加以排序及篩選。 請參閱「[在管理工具中檢視 Experience Cloud 使用者](admin-tool-experience-cloud.md)」。
 
-## 預配更新通知{#provisioning}
+## 佈建更新通知{#provisioning}
 
-已更新： **2022年7月20日**
+更新日期：**2022 年 7 月 20 日**
 
 >[!IMPORTANT]
 >
->請查看以下有關Experience Cloud設定的通知。
+>請檢視下列有關 Experience Cloud 佈建的通知。
 
-Adobe正在更新其資源調配，以便讓所有Experience Cloud客戶都能夠訪問基礎性功能，從而幫助某些Experience Cloud產品之間的互操作性。 用戶將將Adobe Experience Platform作為新權利添加到其Experience Cloud組織， [!UICONTROL 資料收集] 作為附帶服務。
+Adobe 正在更新其佈建，以便讓所有 Experience Cloud 客戶都能存取基礎功能，從而提升某些 Experience Cloud 產品之間的互通性。使用者會將 Adobe Experience Platform 作為新權益新增到其 Experience Cloud 組織，而 [!UICONTROL Data Collection] 作為附帶服務。
 
-Adobe Experience Platform [!UICONTROL 資料收集] 包括 [標籤](https://experienceleague.adobe.com/docs/tags.html?lang=en) 簡化的通用標籤管理，並提供可信、強健且完整的流資料基礎架構。 標籤簡化了客戶體驗資料收集並簡化了體驗交付。
+Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用標記管理的[標記](https://experienceleague.adobe.com/docs/tags.html?lang=zh-Hant)，並提供可信、強固且完整的串流資料基礎架構。標記簡化了客戶體驗資料收集和體驗交付流程。
 
-**Admin Console**
+**Admin Console 中的變更**
 
-管理員可以查看對Admin Console的更改或添加，如下所示：
+管理員可以查看對 Admin Console 的變更或增加內容，如下所示：
 
-* Admin Console中的Adobe Experience Platform產品卡包括：
+* Admin Console 中的 Adobe Experience Platform 產品卡將包含：
 
-   * 地方
+   * 地點
    * 保證
    * 身分識別命名空間
    * 沙箱
    * 體驗資料模型
-   * 方案
+   * 結構描述
    * 資料串流
    * 訪客 ID
 
-   對於當前未使用Experience Platform的組織，您現在將看到 _Adobe Experience Platform_ Admin Console中的產品，包括上面列出的功能。
+   對於目前未使用 Experience Platform 的組織，您現在將在 Admin Console 中看到 _Adobe Experience Platform_ 產品，包括上方所列的功能。
 
-   對於當前使用Experience Platform的組織， _位置_ 現在將合併到Experience Platform卡中。
+   對於目前使用 Experience Platform 的組織，_地點_&#x200B;現在將合併到 Experience Platform 卡中。
 
-* Adobe Experience Platform資料收集（以前稱為Launch）和Privacy將繼續顯示為與其他Experience Platform功能分開的產品卡。
+* Adobe Experience Platform Data Collection (以前稱為 Launch) 和 Privacy 將繼續顯示為與其他 Experience Platform 功能分開的產品卡。
 
-有關新功能的更多詳細資訊，請訪問他們各自的Experience League:
+如需有關新功能的更多詳細資訊，請造訪它們在 Experience League 上的相應頁面：
 
 * [資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
-* [地方](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)
+* [地點](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)
 * [保證](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
 * [身分識別命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
-* [沙盒](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)
-* [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
-* [方案](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
-* [資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
-* [訪客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)
+* [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
+* [資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)
+* [訪客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-Hant#section_3C9F6DF37C654D939625BB4D485E4354)
 * [隱私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
 
 ## Experience Cloud 使用者驗證 (計劃中移轉){#migration}
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL 資料收集] 包括 [標籤](https://expe
 
 當您的移轉時間到時，組織管理員將在移轉前 30 天收到通知電子郵件。
 
-* 遷移計畫在晚上10點之間進行。 — 上午6:00，根據組織的主要時區或週末。
+* 根據組織的主要時區，安排在下午 10 點至上午 6 點之間進行移轉，或安排在週末進行。
 * 在移轉期間，Experience Cloud 應用程式可能有大約 15 分鐘的時間無法存取，Admin Console 則可能有長達 30 分鐘的時間無法存取。 否則，此移轉將是無縫的。
 
 ### 移轉後的變更
@@ -106,7 +106,7 @@ Admin Console
 
 1. Adobe 基本資料與每個企業計劃相關聯，並可讓您整理使用其他 Adobe Cloud 產品 (Creative Cloud 和 Document Cloud) 建立的資產。
 
-如需詳細資訊，請參閱 [Adobe 基本資料簡介](https://helpx.adobe.com/tw/enterprise/kb/introducing-adobe-profiles.html)。
+如需詳細資訊，請參閱 [Adobe 基本資料簡介](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)。
 
 ## 什麼是產品描述檔？ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -196,9 +196,9 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 請參閱：
 
-* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理產品和個人資料](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)
+* [管理產品和個人資料](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hant)
 
 ## 管理 Campaign 產品描述檔、租用戶和安全群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 
 ### 解決方案和產品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hant)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hant)
