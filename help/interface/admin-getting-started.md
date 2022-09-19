@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1894'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
 
 * [資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
 * [地點](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)
-* [保證](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [保證](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hant)
 * [身分識別命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)
 * [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
@@ -81,7 +81,7 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
 
 當您的移轉時間到時，組織管理員將在移轉前 30 天收到通知電子郵件。
 
-* 根據組織的主要時區，安排在下午 10 點至上午 6 點之間進行移轉，或安排在週末進行。
+* 移轉時間定在晚上10點。上午6:00，根據組織的主要時區或週末。
 * 在移轉期間，Experience Cloud 應用程式可能有大約 15 分鐘的時間無法存取，Admin Console 則可能有長達 30 分鐘的時間無法存取。 否則，此移轉將是無縫的。
 
 ### 移轉後的變更
