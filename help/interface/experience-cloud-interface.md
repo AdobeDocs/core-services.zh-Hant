@@ -1,15 +1,15 @@
 ---
-description: '了解如何登入以及有關 Experience Cloud 中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何瀏覽介面及取得說明。 '
+description: 了解如何登入以及有關 Experience Cloud 中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何瀏覽介面及取得說明。
 solution: Experience Cloud
-title: 'Experience Cloud 中央 UI 元件 '
-feature: Central Interface Components
+title: Experience Cloud 中央 UI 元件
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 94%
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
    若要確認您已登入正確的[組織](organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
-   如果您的組織使用聯合ID，則Experience Cloud允許您使用組織的單一登錄進行登錄，而無需輸入您的電子郵件地址和密碼。 添加 `#/sso:@domain` 到Experience CloudURL(`https://experience.adobe.com`)完成此任務。
+   如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
    例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
@@ -74,7 +74,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-選取應用程式選擇器 ![](assets/menu-icon.png)，存取您擁有的 Experience Cloud 服務。
+選取應用程式選取器 ![功能表](assets/menu-icon.png) 存取您擁有的Experience Cloud服務。
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experiencelea
 
 Experience Cloud 偏好設定包括通知、訂閱和警示。
 
-從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」可管理偏好設定。
+選擇 **[!UICONTROL 偏好設定]** 從帳戶功能表 ![偏好設定](assets/preferences-icon-sm.png) 來管理偏好設定。
 
 ![管理 Experience Cloud](assets/preferences-page.png)
 

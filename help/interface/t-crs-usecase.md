@@ -2,17 +2,17 @@
 description: 了解如何建立客戶屬性來源並將其上傳至 Adobe Experience Cloud。
 keywords: 客戶屬性；核心服務
 solution: Experience Cloud
-title: '建立客戶屬性來源及上傳資料檔案 '
+title: 建立客戶屬性來源及上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 >
 >建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢相關人員，以取得管理權限。
 
-1. 在 [!DNL Experience Cloud] 中，選取「選單」![](assets/menu-icon.png) 圖示。
+1. 在 [!DNL Experience Cloud]，選取功能表  ![功能表](assets/menu-icon.png) 表徵圖。
 1. 在 **[!DNL Experience Platform]** 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
@@ -120,7 +120,7 @@ ht-degree: 100%
 
       **檔案上傳圖**
 
-      ![](assets/file_upload_attributes.png)
+      ![屬性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 唯一客戶 ID：]**&#x200B;顯示您上傳多少個唯一 ID 至此屬性來源。
 

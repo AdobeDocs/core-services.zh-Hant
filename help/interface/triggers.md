@@ -4,17 +4,17 @@ keywords: 整合;觸發器
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: '觸發器總覽 '
+title: 觸發器總覽
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 >
 >目前存在 100 個觸發器的技術限制。
 
-1. 在 Experience Cloud 中，選取 ![](assets/menu-icon.png)，然後選取「**[!UICONTROL 資料收集/啟動]**」。
+1. 在Experience Cloud中，選取 ![功能表](assets/menu-icon.png)，然後選取 **[!UICONTROL 資料收集/啟動]**.
 2. 在「[!UICONTROL 觸發器]」卡片上，選取「**[!UICONTROL 管理觸發器]**」。
 3. 選取「**[!UICONTROL 新增觸發器]**」，然後指定觸發器的類型：
 

@@ -2,17 +2,17 @@
 description: 了解組織 (IMS 組織 ID) 以及將解決方案帳戶連結至 Experience Cloud。
 keywords: Adobe Experience Cloud 服務
 solution: Experience Cloud
-title: '組織和帳戶連結 '
+title: 組織和帳戶連結
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 識別組織 {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-安 *組織* （組織ID）是使管理員能夠配置組和用戶並控制Experience Cloud中的單一登錄的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
+安 *組織* （組織ID）是可讓管理員設定群組和使用者，以及控制Experience Cloud中單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
 若要確認您已登入正確的組織，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
@@ -32,23 +32,23 @@ ht-degree: 0%
 
 ![步驟結果](assets/organization-switch.png)
 
-## 查看您的組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## 檢視組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-您可以為支援目的查找分配的組織ID。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
+您可以找到指派的組織ID以供支援之用。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
 
 組織 ID 是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
-您可以使用鍵盤快捷方式查看組織ID以及其他帳戶資訊 **Ctrl+i** 從任何頁 `https://experience.adobe.com`。
+您可以使用鍵盤快速鍵，檢視組織ID及其他帳戶資訊 **Ctrl+i** 從任何頁面 `https://experience.adobe.com`.
 
-**查看組織ID**
+**若要檢視組織ID**
 
-1. 在 [Experience Cloud](https://experience.adobe.com)按 **Ctrl+i** 鍵盤上。
+1. 在 [Experience Cloud](https://experience.adobe.com)，按下 **Ctrl+i** 鍵盤上。
 
    ![指派的組織 ID](assets/assigned-organization.png)
 
-1. 下 **[!UICONTROL 用戶資訊]**，查找 **[!UICONTROL 當前組織ID]**，您將看到組織ID。
+1. 在 **[!UICONTROL 使用者資訊]**，尋找 **[!UICONTROL 當前組織ID]**，您就會看到組織ID。
 
-   或者，管理員可以登錄Admin Console(導航到 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))並查看URL中的組織ID。
+   或者，管理員也可以登入Admin Console(導覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在URL中檢視您的組織ID。
 
    舉例來說，在以下網址中：
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ## 將應用程式帳戶連結至 Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-通常 Experience Cloud 管理員會授予應用程式和服務的存取權。 在極少數情況下，您可以將應用程式憑據連結到Adobe ID。
+通常 Experience Cloud 管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式憑證連結至Adobe ID。
 
 1. 依照邀請您前往 Experience Cloud 的電子郵件中的步驟進行。
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
-1. 選取應用程式選擇器 ( ![](assets/menu-icon.png))。
+1. 選取應用程式選取器。 ( ![功能表](assets/menu-icon.png))。
 
    ![將應用程式帳戶連結至 Adobe ID](assets/solutions-active.png)
 

@@ -2,16 +2,16 @@
 description: 了解如何使用屬性規則來建立對象與定義 Adobe Experience Cloud 中的複合對象。
 keywords: 核心服務
 solution: Experience Cloud
-title: '建立對象 '
+title: 建立對象
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 **若要建立對象**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]」。**
-1. 在「[!UICONTROL 對象]」頁面上，選取「**[!UICONTROL 新增]**」。 ![](assets/add_icon_small.png)
+1. 在「[!UICONTROL 對象]」頁面上，選取「**[!UICONTROL 新增]**」。 ![add](assets/add_icon_small.png)
 
    ![步驟結果](assets/audience_create_new.png)
 

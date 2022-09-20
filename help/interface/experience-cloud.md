@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
-workflow-type: ht
-source-wordcount: '1283'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1285'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請移至應用程式選擇器 ![](assets/menu-icon.png)。
+若要存取組織內布建的Experience Cloud應用程式和服務，請前往應用程式選取器 ![功能表](assets/menu-icon.png).
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-若要管理偏好設定，從您的帳戶選單 ![](assets/preferences-icon-sm.png) 選取「**[!UICONTROL 偏好設定]**」。
+要管理首選項，請選擇 **[!UICONTROL 偏好設定]** 從帳戶功能表 ![偏好設定](assets/preferences-icon-sm.png).
 
 ![使用者個人資料和帳戶偏好設定](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 ## Experience Cloud 網域 {#domains}
 
-Experience Cloud 使用下列主機來交付應用程式、改良效能和產品體驗。 Adobe 建議將這些網域新增到防火牆的允許清單中，以獲得最佳體驗。 其他網域也可能適用於特定 Experience Cloud 應用程式，例如 Adobe Analytics。 如需詳細資訊，請查閱這些應用程式的文件。
+Experience Cloud 使用下列主機來交付應用程式、改良效能和產品體驗。 Adobe建議將這些網域新增至防火牆的允許清單，以獲得最佳體驗。 其他網域也可能適用於特定 Experience Cloud 應用程式，例如 Adobe Analytics。 如需詳細資訊，請查閱這些應用程式的文件。
 
 | 技術 | 網域 |
 |--- |--- |
@@ -190,7 +190,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
 * [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation) - 閱讀 Experience Cloud 部落格
