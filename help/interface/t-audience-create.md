@@ -1,17 +1,16 @@
 ---
-description: 了解如何使用屬性規則來建立對象與定義 Adobe Experience Cloud 中的複合對象。
-keywords: 核心服務
+description: 了解如何使用屬性規則來建立受眾與定義 Adobe Experience Cloud 中的複合受眾。
 solution: Experience Cloud
-title: 建立對象
+title: 建立受眾
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---

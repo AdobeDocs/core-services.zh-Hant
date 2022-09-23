@@ -1,18 +1,17 @@
 ---
-description: Experience Cloud 中已上傳及使用之個人身分資訊 (PII) 的相關考量事項和最佳做法。
-keywords: 客戶屬性;核心服務
+description: 了解關於已上傳及用於Experience Cloud的個人識別資訊(PII)的考量事項和最佳實務。
 solution: Experience Cloud
-title: '客戶屬性的隱私權考量事項 '
+title: 客戶屬性的隱私權考量事項
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 

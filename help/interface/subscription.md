@@ -1,17 +1,16 @@
 ---
 description: 了解解決方案資料來源及設定訂閱。 訂閱可讓客戶屬性資料在 Experience Cloud 和應用程式 (Analytics 和 Target) 之間流動。
-keywords: 客戶屬性;核心服務
-application: Experience Cloud
-title: '如何設定訂閱 '
+solution: Experience Cloud
+title: 如何設定訂閱
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '391'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

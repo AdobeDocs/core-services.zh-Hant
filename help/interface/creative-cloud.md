@@ -1,16 +1,15 @@
 ---
-description: '了解如何在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。 '
-keywords: 資產共用;Creative Cloud;核心服務
+description: 了解如何在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。
 solution: Experience Cloud
-title: '與 Creative Cloud 共用 Experience Cloud 資料夾和資產 '
+title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '178'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

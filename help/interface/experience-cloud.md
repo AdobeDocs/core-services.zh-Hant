@@ -3,15 +3,15 @@ description: 了解關於 Experience Cloud 中央介面元件。此說明包含 
 solution: Experience Cloud
 title: Experience Cloud 介面說明和文件
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-若要存取組織內布建的Experience Cloud應用程式和服務，請前往應用程式選取器 ![功能表](assets/menu-icon.png).
+若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請前往應用程式選擇器![選單](assets/menu-icon.png)。
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-要管理首選項，請選擇 **[!UICONTROL 偏好設定]** 從帳戶功能表 ![偏好設定](assets/preferences-icon-sm.png).
+若要管理偏好設定，從您的帳戶選單選取「**[!UICONTROL 偏好設定]**」 ![偏好設定](assets/preferences-icon-sm.png)。
 
 ![使用者個人資料和帳戶偏好設定](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 ## Experience Cloud 網域 {#domains}
 
-Experience Cloud 使用下列主機來交付應用程式、改良效能和產品體驗。 Adobe建議將這些網域新增至防火牆的允許清單，以獲得最佳體驗。 其他網域也可能適用於特定 Experience Cloud 應用程式，例如 Adobe Analytics。 如需詳細資訊，請查閱這些應用程式的文件。
+Experience Cloud 使用下列主機來交付應用程式、改良效能和產品體驗。 Adobe 建議將這些網域新增到防火牆的允許清單中，以獲得最佳體驗。 其他網域也可能適用於特定 Experience Cloud 應用程式，例如 Adobe Analytics。 如需詳細資訊，請查閱這些應用程式的文件。
 
 | 技術 | 網域 |
 |--- |--- |

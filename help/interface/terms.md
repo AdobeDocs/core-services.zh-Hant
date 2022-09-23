@@ -1,19 +1,15 @@
 ---
 description: 了解 Adobe Experience Cloud 中的術語，以及這些術語在 Creative Cloud 中的不同之處。
-keywords: 資產共用;對象服務;Creative Cloud;核心服務
-seo-description: null
-seo-title: Terminology
 solution: Experience Cloud
-title: '術語 '
-uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
+title: 術語
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1453'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1445'
 ht-degree: 100%
 
 ---
@@ -45,9 +41,9 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 產品組合 | 多個檔案或資產的組合。 | 行銷活動的容器。 |
 | 產品描述檔 | 請參閱[管理產品和個人資料](https://helpx.adobe.com/tw/enterprise/using/manage-products.html)。 | 使用者若要取得使用產品或服務的權限，該使用者必須屬於產品描述檔的一部分。產品管理員會將產品描述檔與您已購買的方案建立關聯，以便將授權指派給該產品描述檔。<br>單一使用者可隸屬於多個產品描述檔，每個個人資料都可授予該使用者不同的授權。使用者的最終資格是各個產品描述檔授予該使用者的所有授權聯合。 |
 | 排程 | 可指稱 Adobe Story 中的一系列場景，或是 ColdFusion 中的排程任務。 | 在 Experience Cloud 中，排程是指啟動促銷活動、管道和活動的開始日期 (年、月、日) 與結束日期。活動排程的粒度小至分鐘。變更排程會建立資訊卡。<br>例如：<ul><li>行銷活動排程</li><li>管道排程</li><li>活動排程</li></ul> |
-| 區段 | 不適用 | 一組規則的輸出，用於判斷對象的資格。在 Analytics 中，[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)可選擇性用來定義可傳遞至 Experience Cloud 的對象。<br>在 Audience Manager 中，區段是[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hant)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
+| 區段 | 不適用 | 一組規則的輸出，用於判斷對象的資格。在 Analytics 中，[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en)可選擇性用來定義可傳遞至 Experience Cloud 的對象。<br>在 Audience Manager 中，區段是[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hant)及判斷訪客是否符合成員資格或納入該區段資格的所有條件之集合。此外，也代表具有共同屬性的一群人。 |
 | 共用 | 在 Creative Cloud 中，可以從外部跨平台 (社交、社群、電子郵件等) 共用檔案。 | 在 Experience Cloud 中，只可以在介面中的展示板上用資訊卡共用資產。已登入網站的使用者可使用共用功能。 |
 | 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，應用程式是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。 |
-| 特徵 | 不適用 | 機碼值組，例如，顏色=藍色。在 Audience Manager 中，[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hant)會用於建立區段。 |
+| 特徵 | 不適用 | 機碼值組，例如，顏色=藍色。在 Audience Manager 中，[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en)會用於建立區段。 |
 
 {style=&quot;table-layout:auto&quot;}

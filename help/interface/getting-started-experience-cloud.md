@@ -1,18 +1,17 @@
 ---
 description: 了解如何登入 Adobe Experience Cloud、管理密碼和通知，以及指定預設登陸頁面。
-keywords: 核心服務, 登入 Experience Cloud
 solution: Experience Cloud
-title: 登入及管理 Experience Cloud 個人資料設定
+title: 登入及管理 Experience Cloud 設定檔設定
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 96%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 96%
 
 登入並確認您隸屬於正確的[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)。
 
-1. 選取Experience Cloud功能表( ![偏好設定](assets/menu-icon.png))，然後選取 **[!UICONTROL 管理]**.
+1. 選取 Experience Cloud 選單![偏好設定](assets/menu-icon.png)，然後選取「**[!UICONTROL 管理]**」。
 
    如果未顯示&#x200B;**[!UICONTROL 「管理」]**&#x200B;連結，則表示您並非所顯示之[組織](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)的 Experience Cloud 管理員。 如需成為管理員的相關協助，請聯絡客戶服務或貴公司的現任 Experience Cloud 管理員。
 1. 選取「**[!UICONTROL 管理]**」。
@@ -60,9 +59,9 @@ ht-degree: 96%
 
    Experience Cloud 管理員可協助您確認帳戶類型 (Adobe ID 或 Enterprise ID)。
 
-1. 在您的登陸頁面上，選取選取器圖示  ![功能表](assets/menu-icon.png) 來存取下拉式功能表。
+1. 在您的登陸頁面上，按一下選擇器圖示![選單](assets/menu-icon.png)，以存取下拉式選單。
 
-   ![功能表](assets/experience-cloud-core-services.png)
+   ![選單](assets/experience-cloud-core-services.png)
 
    這個選單中所顯示的應用程式和服務取決於您的[管理員](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)所定義的應用程式權限。
 
@@ -82,7 +81,7 @@ ht-degree: 96%
 
 取得有關系統更新、維護通知、貼文、提及和共用資產的通知 (透過電子郵件或產品內通知)。 您也可以指定要接收哪些產品和應用程式的通知，包括客戶屬性的上傳狀態。
 
-若要導覽至通知，請選取 **[!UICONTROL 通知]** 圖示  ![通知](assets/notifications-icon.png)，然後選取 **[!UICONTROL 設定]** 圖示  ![編輯](assets/icon_edit_board.png).
+若要導覽至通知，請選取「**[!UICONTROL 通知]**」圖示 ![通知](assets/notifications-icon.png)，然後選取「**[!UICONTROL 設定]**」圖示 ![編輯](assets/icon_edit_board.png)。
 
 您可以根據對您而言重要的訊息類型來排序通知，也可搜尋通知。 您也可以：
 

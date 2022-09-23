@@ -1,17 +1,16 @@
 ---
 description: 了解上傳客戶屬性至 Experience Cloud 的資料檔案需求和多個資料來源。
-keywords: 客戶屬性;核心服務
 solution: Experience Cloud
-title: '了解客戶屬性的資料檔案和資料來源 '
+title: 了解客戶屬性的資料檔案和資料來源
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1214'
 ht-degree: 98%
 
 ---
@@ -129,7 +128,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至 [!DNL Analytics] 中的基礎訪客設定檔。因此在 [!DNL Analytics] 中，該訪客設定檔的整個生命週期中，[!UICONTROL 客戶屬性] 都會與該訪客相關聯。此個人資料包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再可用。 </td> 
+   <td colname="col2"> <p> 客戶屬性會繫結至 [!DNL Analytics] 中的基礎訪客設定檔。因此在 [!DNL Analytics] 中，該訪客設定檔的整個生命週期中，[!UICONTROL 客戶屬性] 都會與該訪客相關聯。此個人資料包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再提供使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 
@@ -150,7 +149,7 @@ CSV 檔案必須符合下列格式：
 
 ```
 Visitor.setCustomerIDs({ 
-     "ds_id1”:"123456", 
+     "ds_id1":"123456", 
      "ds_id2":"123456" 
 });
 ```

@@ -1,6 +1,5 @@
 ---
 description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 了解如何開始使用 Experience Cloud 服務。
-keywords: 核心服務;客戶屬性
 solution: Experience Cloud
 title: 為跨應用程式服務啟用您的應用程式
 index: true
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2377'
 ht-degree: 96%
 
 ---
@@ -117,9 +116,9 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://exper
 
 在每個已知客戶 ID 的 [!DNL Analytics] 伺服器呼叫上皆必須設定客戶 ID。
 
-#### 分析：使用Data Warehouse回填方法同步客戶ID
+#### Analytics:使用Data Warehouse回填方法同步客戶ID
 
-當「客戶屬性」首次可用時，有些客戶尚未實施Experience CloudID服務，因此無法輕鬆利用「客戶屬性」。 為幫助緩解此問題，Adobe建立了一種方法，使用Adobe Analytics資料倉庫執行ID同步的回填。 此功能稱為「資料倉庫回填」。 現在一般不需要資料倉庫的回填，因此從2022年10月開始將不再提供。
+當Experience Cloud屬性首次推出時，有些客戶尚未實作客戶ID服務，因此無法輕鬆運用客戶屬性。 為協助緩解此問題，Adobe使用Adobe Analytics Data Warehouse建立回填ID同步的方法。 這項功能稱為「資料倉庫回填」。 現在一般不需要資料倉庫回填，因此自2022年10月起將不再提供。
 
 
 ### 行動 SDK

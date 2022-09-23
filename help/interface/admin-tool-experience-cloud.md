@@ -1,24 +1,23 @@
 ---
 description: 了解 Experience Cloud 管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
-keywords: 核心服務
 application: Experience Cloud
-title: '檢視 Experience Cloud 使用者和使用者詳細資訊 '
+title: 檢視 Experience Cloud 使用者和使用者詳細資訊
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
 # 在管理工具中檢視 Experience Cloud 使用者和原則
 
-管理員可以在管理工具中，檢視所有 Experience Cloud 使用者和原則及其詳細資訊，且可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色，以及上次存取的資訊。原則詳細資訊包括原則的 (產品描述檔) 使用者、群組、開發人員、整合和管理員清單，以及原則的詳細權限和資源資訊。
+管理員可以在管理工具中，檢視所有 Experience Cloud 使用者和原則及其詳細資訊，且可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色和上次存取的資訊。原則詳細資訊包括原則的 (產品描述檔) 使用者、群組、開發人員、整合和管理員清單，以及原則的詳細權限和資源資訊。
 
 >[!NOTE]
 >
@@ -46,7 +45,7 @@ ht-degree: 100%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自 2020 年 1 月 13 日起，使用者的上次登入資料會保留 365 天。這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：** 自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -68,7 +67,7 @@ ht-degree: 100%
 
 ![在 Admin Console 中檢視使用者詳細資訊](assets/admin-tool-user-details.png)
 
-每位使用者的詳細檢視都會顯示有關使用者的應用程式存取權、管理員和產品角色以及上次存取資訊的重要細節。
+每位使用者的詳細檢視都會顯示有關使用者應用程式存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
 
 ## 區段簡介
 
@@ -78,7 +77,7 @@ ht-degree: 100%
 * 名稱
 * 電子郵件
 * 用戶名稱 (Federated ID 帳戶的使用者名稱必須與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
+* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
@@ -131,7 +130,7 @@ ht-degree: 100%
 
 ![在 Admin Console 中檢視原則詳細資訊](assets/admin-tool-policy-detail.png)
 
-每個產品描述檔的詳細檢視都會顯示產品描述檔主體 (使用者、群組等) 的重要詳細資訊，也會顯示產品描述檔啟用的權限和資源。
+每個產品設定檔的詳細檢視都會顯示產品設定檔主體（使用者、群組等）的重要詳細資訊。 也會顯示產品描述檔啟用的權限和資源。
 
 產品描述檔的詳細資訊可匯出為 CSV 檔案。[!UICONTROL 「匯出 CSV」]選項會產生兩個 CSV 檔案：
 
