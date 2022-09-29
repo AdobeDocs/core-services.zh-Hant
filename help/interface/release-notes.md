@@ -1,5 +1,5 @@
 ---
-description: 了解Experience Cloud服務（例如客戶屬性、受眾和使用者管理）的最新功能、發行說明和已知問題。
+description: 了解 Experience Cloud 服務 (例如客戶屬性、對象和使用者管理) 的最新功能、發行說明和已知問題。
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | 功能 | 說明 |
 | ------- |-------|
 | 捷徑 (**[!UICONTROL 最近]**)，已新增到 [Experience Cloud](https://experience.adobe.com/home) 首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
-| **[!UICONTROL 沙箱]**&#x200B;已移至標頭列 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。 |
+| **[!UICONTROL 沙箱]**&#x200B;已移至標頭列 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
 
 ## 2021 年 11 月
 
@@ -91,7 +91,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 6 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
@@ -100,7 +100,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2021 年 5 月
 
-| 功能 | 日期 | 說明 |
+| 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
 | Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
@@ -125,7 +125,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色和上次存取的資訊。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -149,7 +149,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 * 已更新應用程式切換器，將 Marketo 納入 Experience Cloud 應用程式套件中，並更新 Experience Platform 品牌。(MCUI-6529)
 * 更新 Experience Cloud 首頁，加入「摘要」和「管理」頁面的導覽連結。(MCUI-6682)
-* 修正 [!UICONTROL 觸發] 正確使用&quot;like&quot;子句的定義。 (MCUI-6611)
+* 修正了正確使用「like」子句的[!UICONTROL 觸發程序]定義問題。(MCUI-6611)
 * 客戶屬性改善，可更有效登入訂閱服務。(MCUI-6519)
 
 ## 發行版本 19.1.1 - 2019 年 1 月 17 日
