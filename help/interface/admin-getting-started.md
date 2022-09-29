@@ -1,6 +1,6 @@
 ---
 title: 管理使用者和產品
-description: 登入Admin Console並管理Experience Cloud使用者權限和產品（產品設定檔）。 了解如何委派管理權限給 Experience Cloud 使用者，以及有關 Experience Cloud 的瀏覽器支援。
+description: 登入 Admin Console 並管理 Experience Cloud 使用者權限和產品 (產品描述檔)。了解如何委派管理權限給 Experience Cloud 使用者，以及有關 Experience Cloud 的瀏覽器支援。
 solution: Admin
 index: true
 feature: Admin Console
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
 
 如需有關新功能的更多詳細資訊，請造訪它們在 Experience League 上的相應頁面：
 
-* [資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)
 * [地點](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant)
 * [保證](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hant)
 * [身分識別命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)
-* [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
+* [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
+* [結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)
 * [資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)
 * [訪客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-Hant#section_3C9F6DF37C654D939625BB4D485E4354)
 * [隱私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
@@ -196,9 +196,9 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 
 請參閱：
 
-* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [管理產品和個人資料](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [企業使用者權限](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=zh-Hant)
+* [管理產品和個人資料](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* 影片：[如何在 Adobe Admin Console 中設定 Adobe Target Workspace](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=zh-Hant)
 
 ## 管理 Campaign 產品描述檔、租用戶和安全群組 {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 
 ### 解決方案和產品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=zh-Hant)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=zh-Hant)
