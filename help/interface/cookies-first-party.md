@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 85%
+source-wordcount: '1615'
+ht-degree: 79%
 
 ---
 
@@ -47,28 +47,32 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
 
 以下說明如何為第一方資料收集實作新的第一方 SSL 憑證：
 
-1. 填寫[第一方網域請求表單](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，並請客戶服務人員開立支援服務單，要求在 Adobe Managed Program 上設定第一方資料收集。 每個欄位在文件中都有範例解說。
+1. 填寫[第一方網域請求表單](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx)，並請客戶服務人員開立支援服務單，要求在 Adobe Managed Program 上設定第一方資料收集。 
 
-2. 建立 CNAME 記錄 (請參閱下方說明)。
+   每個欄位在文件中都有範例解說。
+
+1. 建立 CNAME 記錄 (請參閱下方說明)。
 
    客戶服務代表在收到支援服務單後，應該會提供您 CNAME 記錄。 您必須在貴公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。 CNAME 類似於以下內容：
 
    **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.adobedc.net`。
 
->[!NOTE]
-> 過去，Adobe建議客戶設定兩個CNAME，一個用於HTTPS，一個用於HTTP。 由於這是加密流量的最佳實務，而且大部分的瀏覽器都強烈阻止HTTP，因此我們不建議再為HTTP設定CNAME。 請連絡Adobe客戶服務，為HTTP設定您的CNAME。
+   >[!NOTE]
+   > 過去，Adobe建議客戶設定兩個CNAME，一個用於HTTPS，一個用於HTTP。 由於這是加密流量的最佳實務，而且大部分的瀏覽器都強烈阻止HTTP，因此我們不建議再為HTTP設定CNAME。 請連絡Adobe客戶服務，為HTTP設定您的CNAME。
 
 1. 完成 CNAME 設定後，Adobe 會與 DigiCert 合作來購買憑證，並安裝到 Adobe 的生產伺服器上。
 
    如果您已有實作，可考慮將訪客移轉以保留現有的訪客。將憑證上線推送至Adobe的生產環境後，您可以將追蹤伺服器變數更新為新主機名稱。 換句話說，如果網站不安全 (HTTP)，請更新 `s.trackingServer`。如果網站安全 (HTTPS)，請更新 `s.trackingServer` 和 `s.trackingServerSecure` 這兩個變數。
 
-2. [驗證主機名稱轉送](#validate) (請參閱下文)。
+1. [驗證主機名稱轉送](#validate) (請參閱下文)。
 
-3. [更新實作程式碼](#update) (請參閱下文)。
+1. [更新實作程式碼](#update) (請參閱下文)。
 
 ### 維護和更新
 
-SSL 憑證每年到期，表示 Adobe 必須每年為各實作購買新憑證。每次實施即將到期前，組織內所有支援的使用者都會收到電子郵件通知。若希望 Adobe 續約您的主機名稱，需由一名支援的使用者代表回覆 Adobe 的電子郵件，並說明貴組織打算繼續使用該即將到期的主機名稱來收集資料。如此一來，Adobe 就會自動購買並安裝新憑證。
+第一方憑證過期的30天前，Adobe會驗證CNAME是否仍有效且正在使用中。 若是如此，Adobe會假設您要繼續使用服務並代表您自動重新更新憑證。
+
+目前，如果CNAME已移除且不再有效，Adobe不會更新憑證，且系統中的項目會標示為要移除。 如果已移除CNAME,Adobe會知道尚未使用該URL進行追蹤，因此可安全地移除。
 
 ### 常見問答
 
