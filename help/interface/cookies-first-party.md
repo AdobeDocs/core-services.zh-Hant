@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
 
 第一方憑證過期的30天前，Adobe會驗證CNAME是否仍有效且正在使用中。 若是如此，Adobe會假設您要繼續使用服務並代表您自動重新更新憑證。
 
-目前，如果CNAME已移除且不再有效，Adobe不會更新憑證，且系統中的項目會標示為要移除。 如果已移除CNAME,Adobe會知道尚未使用該URL進行追蹤，因此可安全地移除。
+>[!NOTE]
+> 如果CNAME已移除，且/或不再有效(未對應至提供的AdobeSSL主機名稱),Adobe將無法續約憑證，且系統中的項目會標籤為移除，不需要進一步通訊。
 
 ### 常見問答
 
