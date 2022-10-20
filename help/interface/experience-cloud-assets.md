@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 
 >[!NOTE]
 >
->必須先從Adobe Target活動中刪除資產，然後才能成功從 [!DNL Target]。
+>您必須先從Adobe Target活動移除資產，才能成功從 [!DNL Target].
 
 ## 編輯資產 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

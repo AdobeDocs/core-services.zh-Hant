@@ -1,7 +1,7 @@
 ---
 solution: Experience Cloud
 type: Documentation
-title: 'Adobe Experience Cloud 對象 '
+title: Adobe Experience Cloud 對象
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: 了解如何在 Experience Cloud 對象服務中管理將訪客資料轉譯為對象細分。
 feature: Audience Library
@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '833'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | 使用案例 | 如需該使用何種應用程式的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
 | 論壇 | [Audiences 論壇](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是可取得對象說明的額外資源。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## 對象庫介面元素 {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ ht-degree: 0%
 | 目前規模 | 目前的對象規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
