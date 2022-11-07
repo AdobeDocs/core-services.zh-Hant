@@ -10,8 +10,8 @@ level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -123,8 +123,8 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 | 功能 | 說明 |
 |--- |--- |
 | 預設[組織](organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
-| [!UICONTROL 產品資料收集] | 選取Adobe可使用哪些技術來收集關於您如何使用Adobe產品的資料。 |
-| [!UICONTROL 個人化學習建議和促銷活動] | 選取您要在何處收到Adobe產品的個人化說明。 此說明可透過電子郵件、產品內和Experience League社群取得。 [了解更多.](personalized-learning-preferences.md) |
+| [!UICONTROL 產品資料收集] | 選擇 Adobe 可以使用哪些技術來收集有關您如何使用 Adobe 產品的資料。 |
+| [!UICONTROL 個人化學習推薦和促銷] | 選擇您想要在哪裡收到有關您 Adobe 產品的個人化幫助。這類幫助可透過電子郵件、在產品內和在 Experience League 社群中取得。[了解更多.](personalized-learning-preferences.md) |
 | [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 您的電子郵件中的「[!UICONTROL 通知]」快顯視窗中的通知。 |
 | [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標記標記，而且可以設定為像警示一樣遞送。 |
 | [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |

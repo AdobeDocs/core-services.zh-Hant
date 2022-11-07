@@ -3,12 +3,13 @@ description: 了解 Experience Cloud 個人化學習偏好設定。這可讓客�
 solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
 feature: "Customer Attributes"
-source-git-commit: 3e6e922978899898579ef89e3777b445539a1ade
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 47d2a52d0e36d61496a64aab4b7dd11735d04eb1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # 個人化學習推薦和促銷
 
@@ -19,39 +20,94 @@ ht-degree: 100%
 * 您可能會使用的功能
 * 及更多內容！
 
-[自訂我的學習](https://experience.adobe.com/?shell_forceuserconsent=true#/home)
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home)
+
 
 您可以隨時在[使用者偏好設定](https://experience.adobe.com/preferences/)更新您的選擇。
 
-| 針對您的 Adobe 產品和服務提供的個人化訓練和支援推薦 |  |  |
-| 我們將根據您的 Adobe 產品使用情況提供最佳做法、秘訣和技巧、實用逐步說明等內容，您可透過以下三種方式收到... |  |  |
-|--- |--- |--- |
-| 在您的 Adobe 產品中... | 請參閱快顯視窗和工具提示以即時獲得幫助。 | 這可能包括... <ul><li>Adobe 專家提供的逐步指南和實用技巧</li> <li>教學影片和資訊類逐步說明</li> <li>深入訓練和教育</li> <li>影片和貼文推薦</li></ul> |
-| 在 Adobe 傳送給您的電子郵件中... | 查看與您使用產品執行之工作相關的學習內容。 | ^ |
-| 在 Experience League 社群中... | 根據您目前的操作，查看個人化的貼文和文章推薦。 | ^ |
 
-{style=&quot;table-layout:auto&quot;}
+## 針對您的 Adobe 產品和服務提供的個人化訓練和支援推薦
 
-| 有關 Adobe 產品、服務、活動和促銷的個人化資訊 |  |  |
-| 我們將根據您的工作為您量身打造機會來提供學習活動、研討會和整合，您可透過以下三種方式收到... |  |  |
-|--- |--- |--- |
-| 在您的 Adobe 產品中... | 查看與您相關之邀請和機會的快顯視窗和工具提示。 | 這可能包括... <ul><li>教育網路研討會和活動的邀請</li> <li>針對您所用功能的未來版本進行測試並提供意見的機會</li> <li>整合使用您擁有之產品的技巧</li> <li>強調 Adobe Summit 大會之符合您工作需要的重要研討會</li></ul> |
-| 在 Adobe 傳送給您的電子郵件中... | 及時從 Adobe 取得有關其他學習機會的資訊。 | ^ |
-| 在 Experience League 社群中... | 查看增強學習的個人化活動和服務推薦。 | ^ |
+<table>
+<thead>
+  <tr>
+    <th colspan="3">針對您的 Adobe 產品和服務提供的個人化訓練和支援推薦</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3">我們將根據您的 Adobe 產品使用情況提供最佳做法、秘訣和技巧、實用逐步說明等內容，您可透過以下三種方式收到...</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>在您的 Adobe 產品中...<br></td>
+    <td>請參閱快顯視窗和工具提示以即時獲得幫助。</td>
+    <td rowspan="3">這可能包括... <ul><li>Adobe 專家提供的逐步指南和實用技巧</li> 
+    <li>教學影片和資訊類逐步說明</li> 
+    <li>深入訓練和教育</li> 
+    <li>影片和貼文推薦</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td>在 Adobe 傳送給您的電子郵件中...</td>
+    <td>查看與您在產品中的工作相關的學習內容</td>
+  </tr>
+  <tr>
+    <td>在 Experience League 社群中..</td>
+    <td>根據您目前的操作，查看個人化的貼文和文章推薦。</td>
+  </tr>
+</tbody>
+</table>
 
-{style=&quot;table-layout:auto&quot;}
+
+## 有關 Adobe 產品、服務、活動和促銷的個人化資訊
+
+<table>
+<thead>
+  <tr>
+    <th colspan="3">有關 Adobe 產品、服務、活動和促銷的個人化資訊</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3">根據您在這三個方面的工作，獲得針對學習活動、研究會和整合量身打造的機會……</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>在您的 Adobe 產品中...<br></td>
+    <td>查看與您相關之邀請和機會的快顯視窗和工具提示。</td>
+    <td rowspan="3">這可能包括... <ul>
+    <li>教育網路研討會和活動的邀請</li> 
+    <li>針對您所用功能的未來版本進行測試並提供意見的機會</li>
+    <li>整合使用您擁有之產品的技巧</li> 
+    <li>強調 Adobe Summit 大會之符合您工作需要的重要研討會</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td>在 Adobe 傳送給您的電子郵件中...</td>
+    <td>及時從 Adobe 取得有關其他學習機會的資訊。</td>
+  </tr>
+  <tr>
+    <td>在 Experience League 社群中..</td>
+    <td>查看增強學習的個人化活動和服務推薦。</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## 查看此自訂學習資訊的外觀範例。
 
 
 ### 在您的 Adobe 產品中
 
-![](assets/personalized-learning-in-product.gif)
+![](assets/personalized-learning-in-product.gif){width="500"}
 
 ### 在 Adobe 傳送給您的電子郵件中
 
-![](assets/personalized-learning-email.png)
+![](assets/personalized-learning-email.png){width="500"}
 
 ### 在 Experience League 社群中
 
-![](assets/personalized-learning-communities.png)
+![](assets/personalized-learning-communities.png){width="500"}
