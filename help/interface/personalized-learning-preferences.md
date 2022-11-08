@@ -2,14 +2,14 @@
 description: 了解 Experience Cloud 個人化學習偏好設定。這可讓客戶透過電子郵件、在 Adobe Experience Cloud 產品中以及在 Adobe Experience League 社群中，收到根據其使用情況資料所提供的個人化幫助和促銷。
 solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
-feature: "Customer Attributes"
-source-git-commit: 47d2a52d0e36d61496a64aab4b7dd11735d04eb1
+feature: Customer Attributes
+exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
+source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
-
 
 # 個人化學習推薦和促銷
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 * 您可能會使用的功能
 * 及更多內容！
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home)
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
 
 
 您可以隨時在[使用者偏好設定](https://experience.adobe.com/preferences/)更新您的選擇。
@@ -102,12 +102,12 @@ ht-degree: 0%
 
 ### 在您的 Adobe 產品中
 
-![](assets/personalized-learning-in-product.gif){width="500"}
+![](assets/personalized-learning-in-product.gif){width="800"}
 
 ### 在 Adobe 傳送給您的電子郵件中
 
-![](assets/personalized-learning-email.png){width="500"}
+![](assets/personalized-learning-email.png){width="400"}
 
 ### 在 Experience League 社群中
 
-![](assets/personalized-learning-communities.png){width="500"}
+![](assets/personalized-learning-communities.png){width="800"}
