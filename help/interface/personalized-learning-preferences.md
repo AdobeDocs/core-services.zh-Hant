@@ -5,9 +5,9 @@ title: Experience Cloud 個人化學習偏好設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
-workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 91%
   </tr>
   <tr>
     <td>在 Adobe 傳送給您的電子郵件中...</td>
-    <td>查看與您在產品中的工作相關的學習內容</td>
+    <td>查看與您使用產品執行之工作相關的學習內容</td>
   </tr>
   <tr>
     <td>在 Experience League 社群中..</td>
@@ -71,7 +71,7 @@ ht-degree: 91%
 </thead>
 <tbody>
   <tr>
-    <td colspan="3">根據您在這三個方面的工作，獲得針對學習活動、研究會和整合量身打造的機會……</td>
+    <td colspan="3">我們將根據您的工作為您量身打造機會來提供學習活動、研討會和整合，您可透過以下三種方式收到...</td>
     <td></td>
     <td></td>
   </tr>
