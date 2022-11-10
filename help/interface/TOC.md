@@ -6,9 +6,9 @@ title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
    + [Experience Cloud 服務](core-services-landing.md)
    + [Experience Cloud 中的整合式搜尋](search-experience-cloud.md)
    + [為跨應用程式服務啟用您的實作](core-services.md)
-   + [Experience Cloud個人化學習偏好設定](personalized-learning-preferences.md)
+   + [Experience Cloud 個人化學習偏好設定](personalized-learning-preferences.md)
    + Experience Cloud 對象庫 {#audiences}
       + [Experience Cloud 對象](audience-library.md)
       + [建立對象](t-audience-create.md)
