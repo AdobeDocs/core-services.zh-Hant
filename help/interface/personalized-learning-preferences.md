@@ -5,8 +5,8 @@ title: Experience Cloud 個人化學習偏好設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '398'
 ht-degree: 100%
 
 ---
