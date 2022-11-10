@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1337'
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 |--- |--- |
 | 預設[組織](organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
 | [!UICONTROL 產品資料收集] | 選擇 Adobe 可以使用哪些技術來收集有關您如何使用 Adobe 產品的資料。 |
-| [!UICONTROL 個人化學習推薦和促銷] | 選擇您想要在哪裡收到有關您 Adobe 產品的個人化幫助。這類幫助可透過電子郵件、在產品內和在 Experience League 社群中取得。[了解更多.](personalized-learning-preferences.md) |
+| [!UICONTROL 個人化學習推薦和促銷] | 選擇您想要在哪裡收到有關您 Adobe 產品的個人化幫助。這類幫助可透過電子郵件、在產品內和在 Experience League 社群中取得。[了解更多。](personalized-learning-preferences.md) |
 | [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 您的電子郵件中的「[!UICONTROL 通知]」快顯視窗中的通知。 |
 | [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標記標記，而且可以設定為像警示一樣遞送。 |
 | [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
@@ -192,7 +192,7 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 * [所有 Experience Cloud 應用程式的產品文件](https://experienceleague.adobe.com/docs/home.html?lang=zh-Hant) - 瀏覽 Experience Cloud 學習與支援以取得說明
 * [發行說明和產品更新](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant) - Experience Cloud 的新功能，以及訂閱以取得更新
-* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - 探索有關核心服務的影片和教學課程
+* [實作核心服務的教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant) - 探索有關核心服務的影片和教學課程
 * [Experience League 的專家協助](https://experienceleague.adobe.com/) - 與專家和社群進行引導式學習
 * [教育與訓練](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK) - 與 Adobe 互動，確保您充分運用 Adobe 的產品
 * [客戶體驗部落格](https://blog.adobe.com/en/topics/digital-transformation) - 閱讀 Experience Cloud 部落格
