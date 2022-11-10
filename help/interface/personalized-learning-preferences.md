@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 您可能會使用的功能
 * 及更多內容！
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 您可以隨時在[使用者偏好設定](https://experience.adobe.com/preferences/)更新您的選擇。
@@ -37,8 +37,6 @@ ht-degree: 100%
 <tbody>
   <tr>
     <td colspan="3">我們將根據您的 Adobe 產品使用情況提供最佳做法、秘訣和技巧、實用逐步說明等內容，您可透過以下三種方式收到...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>在您的 Adobe 產品中...<br></td>
@@ -51,7 +49,7 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>在 Adobe 傳送給您的電子郵件中...</td>
-    <td>查看與您使用產品執行之工作相關的學習內容</td>
+    <td>查看與您使用產品執行之工作相關的學習內容。</td>
   </tr>
   <tr>
     <td>在 Experience League 社群中..</td>
@@ -72,8 +70,6 @@ ht-degree: 100%
 <tbody>
   <tr>
     <td colspan="3">我們將根據您的工作為您量身打造機會來提供學習活動、研討會和整合，您可透過以下三種方式收到...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>在您的 Adobe 產品中...<br></td>
@@ -97,6 +93,9 @@ ht-degree: 100%
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## 查看此自訂學習資訊的外觀範例。
 
 
@@ -111,3 +110,5 @@ ht-degree: 100%
 ### 在 Experience League 社群中
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
