@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
-workflow-type: tm+mt
-source-wordcount: '390'
+source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 您可能會使用的功能
 * 及更多內容！
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 您可以隨時在[使用者偏好設定](https://experience.adobe.com/preferences/)更新您的選擇。
@@ -85,8 +85,7 @@ ht-degree: 100%
 </table>
 
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 
@@ -110,4 +109,6 @@ ht-degree: 100%
 
 ![](assets/personalized-learning-communities.png){width="800"}
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
