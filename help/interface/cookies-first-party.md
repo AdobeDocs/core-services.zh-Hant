@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
 
    客戶服務代表在收到支援服務單後，應該會提供您 CNAME 記錄。 您必須在貴公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。 CNAME 類似於以下內容：
 
-   **安全** - 例如主機名稱 `smetrics.example.com` 指向：`example.com.adobedc.net`。
+   **安全** - 例如主機名稱 `smetrics.example.com` 指向：`[random-10-character-string].data.adobedc.net`。
 
    >[!NOTE]
    > 過去，Adobe建議客戶設定兩個CNAME，一個用於HTTPS，一個用於HTTP。 由於這是加密流量的最佳實務，而且大部分的瀏覽器都強烈阻止HTTP，因此我們不建議再為HTTP設定CNAME。 現在，將兩者設為最佳實務 `trackingServer` 和 `trackingServerSecure` 的CNAME。 例如，兩者 `trackingServer` 和 `trackingServerSecure` 會設為 `smetrics.example.com`. 僅允許第三方主機名使用HTTP。
@@ -94,12 +94,12 @@ Adobe Managed Certificate Program 可讓您針對您的前 100 個 CNAME 免費�
 FPC 專員會提供您已設定的主機名稱，以及主機名稱要指向的 CNAME。 例如：
 
 * **SSL 主機名稱**：`smetrics.mysite.com`
-* **SSL CNAME**：`mysite.com.adobedc.net`
+* **SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > 如果您還是使用不安全的機制，可以進行如下的設定：
 > * **非 SSL 主機名稱**：`metrics.mysite.com`
-> * **非 SSL CNAME**：`mysite.com.adobedc.net`
+> * **非 SSL CNAME**：`[random-10-character-string].data.adobedc.net`
 
 
 只要實作程式碼未變更，此步驟就不會影響資料收集作業，並可在更新實作程式碼後完成。
