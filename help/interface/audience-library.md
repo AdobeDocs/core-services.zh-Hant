@@ -60,7 +60,7 @@ ht-degree: 100%
 | 相關協助 | 資源 |
 |--- |--- |
 | 找不到對象？ | 請確定您已佈建。請參閱[快速入門 - 為核心服務啟用您的應用程式](core-services.md)。<br>前往[這裡](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)來請求對設定檔與對象 (整合佈建表單) 的存取權。 |
-| 使用案例 | 如需該使用何種應用程式的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)。 |
+| 使用案例 | 如需該使用何種應用程式的詳細指引，請前往知識庫中的[受眾建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)。 |
 | 論壇 | [Audiences 論壇](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community)是可取得對象說明的額外資源。 |
 
 {style=&quot;table-layout:auto&quot;}
