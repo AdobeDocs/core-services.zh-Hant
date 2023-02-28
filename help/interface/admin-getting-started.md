@@ -48,7 +48,7 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
    * 身分識別命名空間
    * 沙箱
    * 體驗資料模型
-   * 結構描述
+   * 綱要
    * 資料串流
    * 訪客 ID
 
@@ -66,7 +66,7 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
 * [身分識別命名空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)
 * [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
-* [結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)
+* [綱要](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)
 * [資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant)
 * [訪客 ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=zh-Hant#section_3C9F6DF37C654D939625BB4D485E4354)
 * [隱私](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant)
