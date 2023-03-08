@@ -1,6 +1,6 @@
 ---
 description: 了解 Adobe Target 如何使用 Cookie 來讓網站營運人員測試哪些線上內容和優惠方案與訪客的關聯性較強。
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target Cookie
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 65e4b6739568ea06b86744e891d30c3917f02bcc
+source-git-commit: 323a8a6f53e659369df867f19170c199aee3ac40
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '442'
 ht-degree: 89%
 
 ---
@@ -32,7 +32,7 @@ Adobe Target 使用 Cookie 讓網站操作人員能夠測試哪些線上內容�
 | 伺服器網域 | `clientcode.tt.omtrdc.net`，針對您的 [!DNL Adobe Target] 帳戶使用用戶端代碼。 |
 | Cookie 持續時間 | Cookie 會保留在訪客的瀏覽器上達兩年時間，期限從訪客最後登入算起。Cookie 持續時間無法變更。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -47,4 +47,4 @@ Cookie 會保留一些值，用於管理訪客體驗 Adobe Target 行銷活動�
 | 檢查 | 用來判斷訪客是否支援 Cookie 的簡單測試值。每次訪客請求頁面時都會進行設定。 |
 | 停用 | 如果訪客的載入時間超過 at.js 檔案中所設定的逾時時間，則設定此選項。 根據預設，此逾時會持續 1 小時。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
