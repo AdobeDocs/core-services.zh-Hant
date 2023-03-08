@@ -1,13 +1,13 @@
 ---
 description: 了解 Adobe Target 如何使用 Cookie 來讓網站營運人員測試哪些線上內容和優惠方案與訪客的關聯性較強。
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target Cookie
 feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 95%
