@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 僅限 CNAME 客戶。不適用於協力廠商情況。Cookie 會儲存在您的網域中，此網域與 CNAME 和 Analytics 影像要求所使用的網域相同。 |
 | 大小 | 45 位元組 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名稱：s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 4 位元組 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名稱：s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
 | 大小 | 視頁面 URL 大小而定，但通常為 100 到 200 位元組 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 名稱：s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 會儲存在影像請求的網域中；如果您使用第三方 Cookie，或您的網域使用第一方 Cookie，通常會是 2o7.net 或 omtrdc.net 底下的客戶專屬子網域。 |
 | 大小 | 44 位元組 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | 位置 | 此 Cookie 會作為第一方 Cookie 儲存在您的網域中。 |
 | 大小 | 33 位元組 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie 標記
 
@@ -108,7 +108,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 | s_cc (Javascript) | 無 | 無 | 未設定 |
 | s_sq (Javascript) | 無 | 無 | 未設定 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 
 ## 外掛程式設定的 Cookie {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。 這些 Cookie 是用戶端可用於多種情況的程式碼片段。這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。如需各外掛程式設定之 Cookie 的詳細資訊，請連絡 ClientCare。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
+{{plug-in}}
+
+視 Analytics 外掛程式的使用情況而定，可設定其他 Cookie。 這些 Cookie 是用戶端可用於多種情況的程式碼片段。這些情況包括：從 URL 中擷取值、串連值以傳遞至 Analytics、擷取表單放棄情形等。例如，[!DNL s_vh]Set Once Per *和* Set and Get Last Value *外掛程式使用的* Cookie。
 
 只有電子郵件用戶端和網頁瀏覽器共用 Cookie 空間時，才能正確識別未使用 JavaScript 而傳入影像請求的 Conversion 變數 (eVarX)，例如置入電子郵件內的代碼。
