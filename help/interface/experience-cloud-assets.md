@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,6 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 * [以全螢幕檢視資產並縮放](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [檢視資產屬性](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [執行使用情況報表](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [使用 Experience Manager 共用資產](experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## 導覽至 Experience Cloud 資產 {#section_3657039DD3524F2AA88753BFF4781125}
 
