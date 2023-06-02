@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央介面元件
 title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [建立對象](t-audience-create.md)
       + [發佈 Analytics 對象區段](t-publish-audience-segment.md)
    + Experience Cloud 客戶屬性{#customer-attributes}
-      + [客戶屬性總覽](attributes.md)
+      + [Experience Cloud 中的客戶屬性](attributes.md)
       + [關於客戶屬性的常見問答](faq-crs.md)
       + [關於客戶屬性的資料檔案和資料來源](crs-data-file.md)
       + [建立客戶屬性來源及上傳資料檔案](t-crs-usecase.md)

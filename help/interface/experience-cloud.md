@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
-workflow-type: ht
-source-wordcount: '1337'
-ht-degree: 100%
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 在 Experience Cloud 標題中，您可以：
 
 * 存取您的應用程式和服務
-* 搜尋產品文件、教學課程和社群貼文
-* 使用全域搜尋功能在全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
+* 從「說明」功能表，搜尋產品檔案、教學課程和社群貼文。 以Experience League檢視結果。
+* 在「搜尋」欄位中使用全域搜尋(僅限Experience Platform使用者)來全域搜尋商業物件。
 * 管理您的帳戶偏好設定 (警示、通知和訂閱)
 
 ## 登入 Experience Cloud {#signin}
@@ -130,7 +130,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 | [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
 | 電子郵件 | 指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 通知和公告 {#notifications}
 
