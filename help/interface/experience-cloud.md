@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 在 Experience Cloud 標題中，您可以：
 
 * 存取您的應用程式和服務
-* 從「說明」功能表，搜尋產品檔案、教學課程和社群貼文。 以Experience League檢視結果。
-* 在「搜尋」欄位中使用全域搜尋(僅限Experience Platform使用者)來全域搜尋商業物件。
+* 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
+* 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶偏好設定 (警示、通知和訂閱)
 
 ## 登入 Experience Cloud {#signin}
