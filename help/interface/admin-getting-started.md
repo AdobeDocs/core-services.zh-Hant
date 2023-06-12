@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Admin Console
 
 1. Adobe 基本資料與每個企業計劃相關聯，並可讓您整理使用其他 Adobe Cloud 產品 (Creative Cloud 和 Document Cloud) 建立的資產。
 
-如需詳細資訊，請參閱 [Adobe 基本資料簡介](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)。
+如需詳細資訊，請參閱 [Adobe 基本資料簡介](https://helpx.adobe.com/tw/enterprise/kb/introducing-adobe-profiles.html)。
 
 ## 什麼是產品描述檔？ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
@@ -188,7 +188,7 @@ Analytics 使用者 ID 移轉工具可協助 Analytics 管理員將使用者帳�
 **相關說明**
 
 * [ Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant)
-* [Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)
 
 ## 管理 Adobe Target - 產品描述檔與工作區的比較 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -236,9 +236,9 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 * [!DNL Safari]
 * [!DNL Opera]
 
-**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) 不支援 [!DNL Opera]，而 [!DNL Adobe Target] 不支援 [!DNL Safari])。
+**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別應用程式並非所有瀏覽器都有支援。 (例如 [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-Hant) 不支援 [!DNL Opera]，而 [!DNL Adobe Target] 不支援 [!DNL Safari]。)
 
 ### 解決方案和產品要求
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=zh-Hant)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=zh-Hant)
