@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,28 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 如需文件更新的清單，請參閱 [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
+
+## 2023年7月至8月
+
+發行版本： **2023年7月20日至8月31日**
+
+Adobe正在更新其布建，以提供所有 [!DNL Experience Cloud] 客戶可存取基礎功能，這些功能可協助某些應用程式之間 [!DNL Experience Cloud] 產品。 使用者將擁有 [!DNL Experience Platform] 作為新增到他們的新權益 [!DNL Experience Cloud] 組織，具有 [資料彙集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) 作為附帶服務。 [!DNL Experience Platform] [!UICONTROL 資料彙集] 包括用於簡化通用標籤管理的標籤，並提供可信、強大且完整的串流資料基礎架構。 此更新可簡化您的體驗資料收集並簡化體驗傳送。
+
+透過此更新，管理員可能會看到Admin Console的變更或新增：
+
+* Adobe [!DNL Experience Platform] Admin Console中的產品卡將包含： [地點](https://experienceleague.adobe.com/docs/places/using/home.html)， [保證](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html)， [身分名稱空間](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)， [沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)， [體驗資料模型](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)， [結構描述](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)， [資料串流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)、和 [EXPERIENCE CLOUDID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
+   * 針對目前未使用的組織 [!DNL Experience Platform]，您現在會看到 [!DNL Experience Platform] 中的產品 [!UICONTROL Admin Console]，包括上方列出的功能。
+
+   * 針對目前使用的組織 [!DNL Experience Platform]， [!UICONTROL 地點] 將會合併至 [!DNL Experience Platform] 卡片。
+
+* Adobe [!DNL Experience Platform] [資料彙集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) (先前稱為 [!DNL Launch])和 [隱私權](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) 將繼續顯示為各自的產品卡，與其他產品卡分開 [!DNL Experience Platform] 功能
+
+## 2023 年 5 月
+
+發行版本：**2023 年 5 月 25 日**
+
+* 在[!DNL Experience Cloud]**[!UICONTROL 說明]**&#x200B;選單中，內容搜尋已更新為在 [Experience League](https://experienceleague.adobe.com/#home) 搜尋結果中按應用程式篩選。
 
 ## 2022 年 7 月
 
@@ -35,7 +57,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | ------- | ------- |
 | 整合首頁 - 快速存取 Widget | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘選功能來選取哪些應用程式出現在[!UICONTROL 快速存取]工具中。<br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新指派的應用程式顯示&#x200B;_新_&#x200B;徽章，並自動釘選到[!UICONTROL 快速存取]。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022 年 4 月
 
@@ -43,7 +65,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | ------- |-------|
 | 自然語言搜尋 | 透過單一介面的整合式搜尋，取得您所有協助問題的即時解答。 您一律可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每個頁面上使用此功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2022 年 3 月
 
@@ -66,7 +88,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 10 月
 
@@ -75,9 +97,9 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
 | 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 | Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hant)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
-| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自<https://experience.adobe.com/implement>移除。 |
+| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自 <https://experience.adobe.com/implement> 移除。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 8 月
 
@@ -96,17 +118,17 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `adobecustomer.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至 [Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant) 並使用「**[!UICONTROL 搜尋]**」欄位來找到教學課程、文件、課程等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2021 年 5 月
 
 | 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
-| Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
+| Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、綱要等。) |
 | Experience Cloud 語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 年 8 月
 
@@ -114,7 +136,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2020 年 4 月
 
@@ -127,7 +149,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | -----------| ---------- |
 | 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](admin-tool-experience-cloud.md)說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修正**
 
