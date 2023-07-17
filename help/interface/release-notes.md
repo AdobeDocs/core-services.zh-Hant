@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4770'
 ht-degree: 100%
 
@@ -259,7 +259,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 >[!NOTE]
 >
->Microsoft® 現[終止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
+>Microsoft® 現[終止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，我們將不修正針對這些特定版本 Internet Explorer 所回報的問題。
 
 ## 發行版本 15.10 - 2015 年 10 月 14 日 {#section_68123833D3634BD3A473C12862BF9606}
 
