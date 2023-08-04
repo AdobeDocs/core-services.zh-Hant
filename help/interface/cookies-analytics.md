@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 
 | 屬性 | 說明 |
 |--- |--- |
-| 儲存的資訊 | SelectMap 功能或 Activity Map 功能啟用時，JavaScript 程式碼會設定並讀取此 Cookie；此 Cookie 包含使用者所選的上一個連結的相關資訊 |
+| 儲存的資訊 | 此Cookie由JavaScript程式碼設定和讀取，當ClickMap功能或Activity Map功能啟用時；它包含使用者選取之先前連結的相關資訊 |
 | 過期 | 此 Cookie 是工作階段 Cookie，會在瀏覽器關閉時過期 |
 | 使用方式 | 只有一個 Cookie 供所有帳戶使用 |
 | 位置 | 此 Cookie 儲存在頁面的網域中 |
