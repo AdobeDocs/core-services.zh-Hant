@@ -1,26 +1,26 @@
 ---
-description: 了解 Adobe Ad Cloud Cookie，將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
-title: 'Advertising Cloud Cookie '
+description: 瞭解用於將廣告參與事件對應至轉換事件的Adobe AdvertisingCookie，並可能使用該資訊來最佳化廣告競標。
+title: Adobe AdvertisingCookie
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Advertising Cloud Cookie{#advertising-cloud-cookies}
+# Adobe AdvertisingCookie{#advertising-cloud-cookies}
 
-Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
+Adobe Advertising (前身為Adobe Advertising Cloud)會使用Cookie將廣告參與事件對應至轉換事件，並可能使用該資訊來最佳化廣告競標。
 
 >[!NOTE]
 >
->Beta 版 Advertising Cloud JavaScript 標記，它會使用 [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 建立[第一方 Experience Cloud s_ecid Cookie](cookies-first-party.md)，而不是 Advertising Cloud Cookie。
+>Beta版Adobe AdvertisingJavascript標籤，此標籤使用 [Adobe Experience Cloud ID (ECID)服務](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant) 建立 [第一方Experience Clouds_ecid Cookie](cookies-first-party.md)，而非Adobe AdvertisingCookie。
 
 ## Cookie 名稱：_lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>使用 Advertising Cloud DSP 追蹤的廣告參與編碼 ID 和時間戳記 </p> </td> 
+   <td colname="col2"> <p>使用Adobe Advertising DSP追蹤的廣告參與編碼ID和時間戳記 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
-   <td colname="col2"> <p>2021 年 2 月 24 日以前設定的 Cookie 將於 730 天後過期。2021 年 2 月 25 日以後設定的 Cookie 將於 364 天後過期。</p> </td> 
+   <td colname="col2"> <p>1 年</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用方式 </p> </td> 
-   <td colname="col2"> <p>將瀏覽者 ID 與相關對象區段和轉換建立關聯的第一方 Cookie </p> <p> 參考瀏覽者上次造訪的相關資訊，可避免向 Adobe 伺服器送出不必要的請求，進而最佳化頁面載入時間。 </p> <p>上次搜尋點擊的相關資訊有助於判斷轉換事件是由點擊還是觀看率 (因曝光但無點擊所產生的轉換) 所產生。 </p> </td> 
+   <td colname="col2"> <p>將瀏覽者 ID 與相關對象區段和轉換建立關聯的第一方 Cookie </p> <p> 上次造訪的相關資訊可避免向傳送不必要的請求，進而最佳化頁面載入時間。 [!DNL Adobe] 伺服器。 </p> <p>上次搜尋點擊的相關資訊有助於判斷轉換事件是由點擊還是觀看率 (因曝光但無點擊所產生的轉換) 所產生。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  </tbody> 
 </table>
 
-## Cookie 名稱：ev_sync_*
+## Cookie 名稱：ev_sync_&#42;
 
 (Ev_sync_ax、ev_sync_bk、ev_sync_dd、ev_sync_fs、ev_sync_ix、ev_sync_nx、ev_sync_ox、ev_sync_pm、ev_sync_rc、ev_sync_tm、ev_sync_yh)
 
@@ -143,7 +143,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用方式 </p> </td> 
-   <td colname="col2"> <p>協力廠商廣告交易特定 Cookie，可將 Advertising Cloud 瀏覽者 ID 與合作夥伴廣告交易同步。系統會為新瀏覽者建立此 Cookie，並在過期時傳送同步請求。 </p> </td> 
+   <td colname="col2"> <p>協力廠商廣告交易特定Cookie，可將Adobe Advertising瀏覽者ID與合作夥伴廣告交易同步。 系統會為新瀏覽者建立此 Cookie，並在過期時傳送同步請求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>位置 </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>1 年 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用方式 </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud 使用 Cookie 將廣告參與事件對應至轉換事件，並
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP (Demand Side Platform) ID </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP(Demand Side Platform) ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有效期限 </p> </td> 
