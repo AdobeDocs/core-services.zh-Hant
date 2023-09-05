@@ -6,9 +6,9 @@ title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
 source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 99%
       + [[!UICONTROL 資料連接器] Cookie](cookies-dc.md)
       + [[!UICONTROL Data Workbench] Cookie](cookies-insight.md)
       + [Experience Cloud Cookie](cookies-mc.md)
-      + [Adobe AdvertisingCookie](cookies-advertising-cloud.md)
+      + [Adobe Advertising Cookie](cookies-advertising-cloud.md)
       + [[!DNL Scene7] Cookie](cookies-s7.md)
       + [[!DNL Search and Promote] Cookie](cookies-snp.md)
       + [[!DNL Target] Cookie](cookies-target.md)
