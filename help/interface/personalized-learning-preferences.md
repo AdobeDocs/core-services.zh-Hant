@@ -2,9 +2,8 @@
 description: 了解 Experience Cloud 個人化學習偏好設定。這可讓客戶透過電子郵件、在 Adobe Experience Cloud 產品中以及在 Adobe Experience League 社群中，收到根據其使用情況資料所提供的個人化幫助和促銷。
 solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
-feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
