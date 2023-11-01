@@ -1,17 +1,16 @@
 ---
 description: 了解如何搭配 Experience Cloud 中不同的應用程式和服務實作 DNS 預先擷取，以縮短頁面載入時間。
 solution: Experience Cloud
-title: '搭配不同的應用程式和服務使用 DNS 預先擷取 '
+title: 搭配不同的應用程式和服務使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 ## DNS 預先擷取和 Adobe Experience Cloud 應用程式 {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這也表示，自動 DNS 預先擷取不適用於不同的 [!UICONTROL Experience Cloud] 應用程式和服務，原因如下：
+DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這也表示自動DNS預先擷取不適用於不同的 [!UICONTROL Experience Cloud] 應用程式和服務，因為：
 
 * 每個 Experience Cloud 應用程式或服務會在頁面載入時以動態方式產生 DNS 呼叫。
 * 發出這些呼叫之前，瀏覽器無法將網域名稱解析為 IP 位址。
@@ -38,7 +37,7 @@ DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這
 
 * **Analytics：**`<link rel="dns-prefetch" href="//insert tracking server name here">`。
 
-   如果您使用不安全和安全的追蹤伺服器，請為每個 DNS 名稱新增個別的標記。
+  如果您使用不安全和安全的追蹤伺服器，請為每個 DNS 名稱新增個別的標記。
 
 * **Audience Manager：**`<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這
 >[!MORELIKETHIS]
 >
 >* [DNS 預先擷取](https://www.chromium.org/developers/design-documents/dns-prefetching)
-

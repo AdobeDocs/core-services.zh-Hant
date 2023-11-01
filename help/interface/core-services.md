@@ -3,12 +3,12 @@ description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，
 solution: Experience Cloud
 title: 為跨應用程式服務啟用您的應用程式
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -118,7 +118,7 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://exper
 
 #### Analytics：將客戶ID與Data Warehouse回填方法同步
 
-客戶屬性首次開放使用時，有些客戶尚未實作Experience CloudID服務，且無法輕鬆使用客戶屬性。 為協助緩解此問題，Adobe建立了使用Adobe AnalyticsData Warehouse回填ID同步的方法。 此功能稱為Data Warehouse回填。 Data Warehouse回填現在通常不是必要專案，因此自2022年10月起將不再提供使用。
+客戶屬性首次開放使用時，有些客戶尚未實作Experience CloudID服務，且無法輕鬆使用客戶屬性。 為協助緩解此問題，Adobe建立了使用Adobe AnalyticsData Warehouse回填ID同步的方法。 此功能稱為Data Warehouse回填。 現在通常不需要Data Warehouse回填，因此從2022年10月起，將不再提供此功能。
 
 
 ### 行動 SDK
@@ -151,9 +151,9 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 * 如果您沒使用 [!UICONTROL Experience Platform Launch]，[請手動更新您的 mbox 資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hant)。
 * 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 
-   >[!IMPORTANT]
-   >
-   >所有 Analytics 客戶皆已佈建完成，可使用客戶屬性等核心服務。如果您還不是 Analytics 客戶，請連絡客戶服務，請他們幫您進行佈建。
+  >[!IMPORTANT]
+  >
+  >所有 Analytics 客戶皆已佈建完成，可使用客戶屬性等核心服務。如果您還不是 Analytics 客戶，請連絡客戶服務，請他們幫您進行佈建。
 
 ## 驗證實作 {#section_E641782A0F4F44AF8C9C91216BE330D5}
 

@@ -1,16 +1,16 @@
 ---
 description: 了解 Adobe Experience Cloud 使用者和產品管理、People (Audiences 和客戶屬性)、Journey Orchestration、Offers、Places、Experience Platform Launch 和 Mobile Services。
 solution: Experience Cloud
-title: 'Experience Cloud 服務總覽 '
-feature: Customer Attributes
+title: Experience Cloud 服務總覽
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 | [管理](admin-getting-started.md) | 了解如何登入 Admin Console、管理 Experience Cloud 的使用者權限和產品描述檔以及瀏覽器支援。 |
 | [Cookie](cookies-privacy.md) | 維護客戶隱私和資料安全是 Adobe 的首要任務。Adobe 加入多個隱私權機構，並與隱私權監管機構合作並採取自我監管原則。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->若需 Experience Platform 的產品文件，請前往[這裡](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)。技術文檔 [!UICONTROL Experience Platform] 開發人員 [Adobe開發人員](https://developer.adobe.com/apis)。
+>若需 Experience Platform 的產品文件，請前往[這裡](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)。的技術檔案 [!UICONTROL Experience Platform] 開發人員位於 [Adobe Developer](https://developer.adobe.com/apis).
