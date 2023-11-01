@@ -2,14 +2,15 @@
 description: 了解 Adobe Experience Cloud 中的術語，以及這些術語在 Creative Cloud 中的不同之處。
 solution: Experience Cloud
 title: 術語
-feature: Customer Attributes
+feature-set: Experience Cloud Services
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ad67ac4d64a181ba642f9314a2dc40df279c505f
 workflow-type: ht
-source-wordcount: '1445'
+source-wordcount: '1442'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 詞語 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | 資產 | 在 Creative Cloud 中，資產通常是影像檔案。<br>Assets 可以是 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案。 | 在 Experience Cloud 中，資產是可以多次轉譯且可以有子資產的數位文件、圖片、視訊或音訊。例如：<ul><li>檔案</li><li>文件</li><li>影像</li><li>影片</li><li>音訊片段</li><li>簡報</li><li>影像範本</li><li>影片範本</li></ul> |
-| 屬性 |  | 符合某[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)資格的人有哪些共同點(類似 Audience Manager 中的[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hant))。 |
+| 屬性 | | 符合某[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)資格的人有哪些共同點(類似 Audience Manager 中的[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hant))。 |
 | 對象 | 在 Creative Cloud 中，對象可能是觀看影片的人。 | 在 Experience Cloud 中，對象是您可以在行銷活動中鎖定的人士集合。<br>對象的成員資格是根據一組針對訪客上下文的規則決定，或是根據固定清單。例如，電子郵件訂閱者的清單或 Facebook 群組中的成員。<br>在 [Experience Cloud Audiences](audience-library.md) 中，建立和管理對象類似於建立及使用區段，只是額外加上可與 Experience Cloud 共用對象的功能。<br>**Adobe Target**<br> Adobe Target 中的對象原稱為區段。<br>**Adobe Analytics**<br> Analytics 中的對象可視為網站訪客。您可以建立對象區段並將對象發佈至 Experience Cloud。 |
 | Campaigns | 在 Creative Cloud 中，行銷活動可視為使用 Creative Cloud 影像資產的行銷活動。 | 在 Experience Cloud 中，行銷活動會決定要向對象顯示哪些內容，也會決定內容的顯示位置及時間。行銷活動具有特定目標，並以量度追蹤。<br>執行行銷活動需要訪客的上下文符合行銷活動中的規則集，並根據位置頻道的技術限制來傳送內容。<br>在 Adobe Target 中，行銷活動和活動是同義詞。 |
 | Channel | 在 Creative Cloud 中，管道可能是儲存不同資訊類型的灰階影像。這些是資訊管道和顏色管道。 | 在 Experience Cloud 中，管道是位置的屬性或行銷活動中的活動。<br>在 Analytics 中，行銷頻道通常用於提供訪客如何到達網站的分析 (例如透過電子郵件行銷活動)。<br>例如：<ul><li>電子郵件</li><li>顯示廣告</li><li>社交網路</li><li>付費搜尋</li><li>免費搜尋</li><li>反向連結網域</li></ul> |
@@ -46,4 +47,4 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | 解決方法 | 無特殊用法。 | 在 Experience Cloud 中，應用程式是指 Adobe Analytics、Adobe Social、Adobe Target 等產品。 |
 | 特徵 | 不適用 | 機碼值組，例如，顏色=藍色。在 Audience Manager 中，[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=zh-Hant)會用於建立區段。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
