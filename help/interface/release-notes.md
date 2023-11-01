@@ -3,12 +3,13 @@ description: 了解 Experience Cloud 服務 (例如客戶屬性、對象和使�
 solution: Experience Cloud
 title: 歷來的發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: Customer Attributes
+feature-set: Experience Cloud
+feature: Release Notes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: ht
 source-wordcount: '4770'
 ht-degree: 100%
