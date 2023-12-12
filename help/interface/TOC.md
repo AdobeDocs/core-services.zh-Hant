@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 中央介面元件
 title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '341'
 ht-degree: 98%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [[!DNL Target] Cookie](cookies-target.md)
       + [啟用瀏覽器 Cookie 的隱私設定](browser-cookie-settings.md)
       + [第三方 Cookie 支援的變更會如何影響客戶](cookies-thirdparty.md)
++ [Experience Cloud 觸發器](triggers.md)
 + Experience Cloud UI 發行說明 {#release-notes}
    + [中央介面元件的發行說明](release-notes.md)
    + [所有 Experience Cloud 的發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)
