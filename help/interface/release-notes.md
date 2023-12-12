@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 | ------- | ------- |
 | 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
 | 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
-| Experience Cloud [!UICONTROL 觸發器] 導覽 | [Experience Cloud 觸發器](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=zh-Hant)可用於從佈建使用者標題中的應用程式切換器進行直接導覽。 |
-| **注意：** 規劃的介面導覽更新 | 在 2021 年 11 月，_[!UICONTROL 前往啟動 / 資料彙集]_&#x200B;導覽功能將自 <https://experience.adobe.com/implement> 移除。 |
 
 {style="table-layout:auto"}
 
@@ -236,10 +234,6 @@ With this update, administrators may see changes or additions to the Admin Conso
 **修正**
 
 * 修正 Analytics 無法連結和 SSO 的問題。此問題顯示「通知：錯誤訊息：錯誤 IMS SSO 失敗：找不到連結的公司。」
-
-**已知問題**
-
-如果您透過「**[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]**」介面存取動態標記管理，但您的動態標記管理帳戶未連結至 Experience Cloud (Adobe ID)，便無法登入動態標記管理。 請在新的瀏覽器分頁中直接導覽至 `dtm.adobe.com`，即可避免此問題。
 
 ## 發行版本 16.1 - 2016 年 1 月 21 日 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -384,11 +378,7 @@ With this update, administrators may see changes or additions to the Admin Conso
    <td colname="col1"> <p>一對多對應 </p> </td> 
    <td colname="col2"> <p>在 Experience Cloud 中連結應用程式帳戶時，如果您有多個應用程式和組織，現在可以將多個產品和服務對應至單一組織。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> 現在顯示在 <span class="keyword">Experience Cloud</span> 的左側導覽器中。<span class="wintitle">啟用</span>是一項 <span class="keyword">Experience Cloud</span> 服務，目前包含動態標記管理技術；只要選取它，系統就會將您導向該處。 </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>文件更新 - 核心服務 </p> </td> 
    <td colname="col2"> <p>已新增<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">為核心服務啟用您的應用程式</a>主題，以協助您實作核心服務。 </p> </td> 
   </tr> 

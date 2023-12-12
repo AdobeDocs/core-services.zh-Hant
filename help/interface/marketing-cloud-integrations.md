@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '952'
 ht-degree: 99%
 
 ---
@@ -111,26 +111,6 @@ ID 服務提供永續性的通用 ID，可在 Experience Cloud 中識別所有�
 * [Analytics 伺服器端轉送功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)
 * [將 Audience Manager 區段傳送至 Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)
 * [Adobe Target 資料整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=zh-Hant)
-
-## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
-
-說明：[快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)
-
-使用 Experience Cloud Activation 應用程式設定 Experience Cloud 應用程式並進行偵錯。
-
-1. 使用 [Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)，插入會在您的頁面上啟用 Experience Cloud 解決方案的程式碼。
-1. 使用 [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hant) 測試您的實作成果。
-
-使用 Adobe Experience Cloud Debugger 擴充功能，對 Auditor 發現的問題進行偵錯，或檢查實作的其他相關資訊。
-
-**適用的應用程式或服務**
-
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)
-* [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=zh-Hant)
-* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
-* [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
-* [MAC ID 服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
-* [Nielsen 追蹤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
