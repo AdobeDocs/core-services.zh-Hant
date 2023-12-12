@@ -5,17 +5,17 @@ breadcrumb-title: Experience Cloud 中央介面元件
 title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 98%
 
 ---
 
 
 # Experience Cloud 中央介面元件 {#interface}
 
-+ [Experience Cloud 中央介面元件指南](experience-cloud.md)
++ [Experience Cloud中央介面元件指南](experience-cloud.md)
 + Experience Cloud 服務 {#services}
    + [Experience Cloud 服務](core-services-landing.md)
    + [Experience Cloud 中的整合式搜尋](search-experience-cloud.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [支援一般資料保護規範](gdpr.md)
       + [支援加州消費者隱私法](ccpa.md)
       + [客戶屬性的隱私權考量事項](privacy-mac.md)
-   + Experience Cloud Activation {#activation}
-      + [Activation 總覽](activation.md)
-      + [Experience Platform Launch 使用手冊](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
-      + [觸發器](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Experience Cloud 資產總覽](experience-cloud-assets.md)
       + [與 Creative Cloud 共用 Experience Cloud 資料夾和資產](creative-cloud.md)

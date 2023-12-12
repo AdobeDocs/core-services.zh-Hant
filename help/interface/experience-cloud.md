@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
-workflow-type: ht
-source-wordcount: '1347'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -175,9 +175,8 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=zh-Hant)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
-* [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=zh-Hant)
+* [Experience Platform標籤](https://experienceleague.adobe.com/docs/tags.html?lang=zh-Hant)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
-* [[!UICONTROL 動態標記管理]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)
 
 ## 教學課程
 

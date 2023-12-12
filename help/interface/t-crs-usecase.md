@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 1. [建立資料檔案](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [建立屬性來源及上傳資料檔案](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [驗證結構](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [設定訂閱並啟用屬性來源](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [設定訂閱及啟動屬性來源](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 啟動資料來源後，您可以：
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 >
 >建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢相關人員，以取得管理權限。
 
-1. 在 [!DNL Experience Cloud]，選取功能表  ![功能表](assets/menu-icon.png) 表徵圖。
+1. 在 [!DNL Experience Cloud]，選取功能表  ![功能表](assets/menu-icon.png) 圖示。
 1. 在 **[!DNL Experience Platform]** 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
@@ -81,52 +81,52 @@ ht-degree: 98%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。在 Experience Cloud 中，針對客戶屬性來源在「[!UICONTROL 別名 ID]」欄位中輸入的值，應與從實作傳入的值相符 (不論是透過 Data Collection (Launch)、Dynamic Tag Management 還是 Mobile SDK 的 JavaScript 傳入)。
+   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。在中輸入的值 [!UICONTROL 別名ID] Experience Cloud中客戶屬性來源的欄位應與從實作傳入的值相符（不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入）。
 
-      別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
+     別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
       * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
-         例如，下列位置中的&#x200B;*「crm_id」*：
+        例如，下列位置中的&#x200B;*「crm_id」*：
 
-         ```
-         "crm_id":"67312378756723456"
-         ```
+        ```
+        "crm_id":"67312378756723456"
+        ```
 
       * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant) 中的&#x200B;*「idType」*。
 
-         例如：
+        例如：
 
-         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
 
-         例如：
+        例如：
 
-         `identifiers.put(`**`"idType"`**`, "idValue");`
+        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解別名 ID 欄位和客戶 ID 的資料處理相關資訊。
+        請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解別名 ID 欄位和客戶 ID 的資料處理相關資訊。
+
    * **[!UICONTROL 檔案上傳：]**&#x200B;您可以拖放 `.csv` 資料檔案，或透過 FTP 上傳資料(使用 FTP 還需要 `.fin` 檔案)。請參閱[透過 FTP 上傳資料](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
-      >[!IMPORTANT]
-      >
-      >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
+     >[!IMPORTANT]
+     >
+     >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19)。
 
 
-      上傳檔案後，表格資料會顯示在此頁面上的[!UICONTROL 檔案上傳]標題底下。您可以驗證結構、設定訂閱或設定 FTP。
+     上傳檔案後，表格資料會顯示在此頁面上的[!UICONTROL 檔案上傳]標題底下。您可以驗證結構、設定訂閱或設定 FTP。
 
-      **檔案上傳圖**
+     **檔案上傳圖**
 
-      ![屬性](assets/file_upload_attributes.png)
+     ![屬性](assets/file_upload_attributes.png)
 
    * **[!UICONTROL 唯一客戶 ID：]**&#x200B;顯示您上傳多少個唯一 ID 至此屬性來源。
 
    * **[!UICONTROL 已將別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID：]**&#x200B;顯示有多少個 ID 已將別名傳送至 Experience Cloud 訪客 ID。
 
    * **[!UICONTROL 具有高別名數之客戶提供的 ID：]**&#x200B;顯示已將 500 個或更多別名傳送至 Experience Cloud 訪客 ID 之客戶提供的 ID 數。這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。到時候，系統會令客戶提供的 ID 失效，並不再發送關聯的屬性。
-
 
 ## 驗證結構 {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 

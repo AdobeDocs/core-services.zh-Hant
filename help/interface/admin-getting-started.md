@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
    * 資料串流
    * 訪客 ID
 
-   對於目前未使用 Experience Platform 的組織，您現在將在 Admin Console 中看到 _Adobe Experience Platform_ 產品，包括上方所列的功能。
+  對於目前未使用 Experience Platform 的組織，您現在將在 Admin Console 中看到 _Adobe Experience Platform_ 產品，包括上方所列的功能。
 
-   對於目前使用 Experience Platform 的組織，_地點_&#x200B;現在將合併到 Experience Platform 卡中。
+  對於目前使用 Experience Platform 的組織，_地點_&#x200B;現在將合併到 Experience Platform 卡中。
 
 * Adobe Experience Platform Data Collection (以前稱為 Launch) 和 Privacy 將繼續顯示為與其他 Experience Platform 功能分開的產品卡。
 
@@ -92,7 +92,7 @@ Admin Console
 * 個別的 Adobe ID 使用者將更新為 Business ID。
 * Business ID 目錄將新增到「**[!UICONTROL 設定]** > **[!UICONTROL 身分]** > **[!UICONTROL 目錄]**」中。
 
-   ![Admin Console 身分 - Business ID](assets/identity-home.png)
+  ![Admin Console 身分 - Business ID](assets/identity-home.png)
 
 ### 移轉後登入
 
@@ -208,13 +208,13 @@ Campaign 的&#x200B;*租用戶*&#x200B;在 Admin Console 的產品頁面中會�
 
 有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hant)。
 
-## 管理 Experience Platform Data Collection (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## 管理Experience Platform資料收集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) 會顯示在 [!UICONTROL Admin Console] 的「[!UICONTROL 產品]」頁面上。 您可以在 Launch 產品描述檔中加入其他應用程式和服務。
+Experience Platform [!UICONTROL 資料彙集] 顯示在 [!UICONTROL 產品] 中的頁面 [!UICONTROL Admin Console]. 您可以在資料收集產品描述檔中加入其他應用程式和服務。
 
-邀請使用者加入 [!UICONTROL Platform Launch] 並指派使用者角色和權限。
+邀請使用者加入 [!UICONTROL 平台資料彙集] 並指派使用者角色和許可權。
 
-如需 Admin Console 中的使用者權限，以及設定 Launch 專用選項 (包括指派描述檔的權限) 的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant)」。
+另請參閱 [使用者許可權](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant) 以取得有關Admin Console中的使用者許可權以及設定設定檔許可權的相關資訊。
 
 ## Experience Manager as a Cloud Service
 
