@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1229'
 ht-degree: 99%
 
 ---
@@ -155,7 +155,6 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 
 * [[!UICONTROL 對象庫]](audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes.md)
-* [[!UICONTROL 觸發器]](triggers.md)
 * [Experience Cloud [!UICONTROL 資產]](experience-cloud-assets.md)
 * [Experience Cloud Cookie](cookies-privacy.md)
 * [使用者和產品管理](admin-getting-started.md) (Admin Console)
