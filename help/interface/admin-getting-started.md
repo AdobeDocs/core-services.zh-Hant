@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -208,13 +208,13 @@ Campaign 的&#x200B;*租用戶*&#x200B;在 Admin Console 的產品頁面中會�
 
 有關安全群組和將使用者指派至安全群組的資訊，請參閱[管理群組和使用者](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=zh-Hant)。
 
-## 管理Experience Platform資料收集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## 管理 Experience Platform 資料彙集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 資料彙集] 顯示在 [!UICONTROL 產品] 中的頁面 [!UICONTROL Admin Console]. 您可以在資料收集產品描述檔中加入其他應用程式和服務。
+Experience Platform [!UICONTROL 資料彙集] 會顯示在[!UICONTROL 「產品」 ]頁面上 (位於 [!UICONTROL Admin Console])。您可以在資料彙集產品描述檔中加入其他應用程式和服務。
 
-邀請使用者加入 [!UICONTROL 平台資料彙集] 並指派使用者角色和許可權。
+邀請使用者加入 [!UICONTROL Platform 資料彙集]並指派使用者角色和權限。
 
-另請參閱 [使用者許可權](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant) 以取得有關Admin Console中的使用者許可權以及設定設定檔許可權的相關資訊。
+如需 Admin Console 中的使用者權限，以及設定描述檔權限的相關資訊，請參閱「[使用者權限](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=zh-Hant)」。
 
 ## Experience Manager as a Cloud Service
 
@@ -230,7 +230,7 @@ Adobe 企業客戶在 Adobe [!UICONTROL Admin Console] 中會呈現為「組織�
 
 ## Experience Cloud 中支援的瀏覽器
 
-* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
+* [!DNL Microsoft® Edge] (Microsoft® 已[終止支援](https://www.microsoft.com/zh-tw/WindowsForBusiness/End-of-IE-support) Internet Explorer 8、9 和 10。 有鑑於此，Adobe 將不會修正針對這些特定 Internet Explorer 版本所回報的問題。)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
