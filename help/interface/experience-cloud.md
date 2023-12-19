@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -174,14 +174,14 @@ Experience Cloud 使用下列主機來交付應用程式、改良效能和產品
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=zh-Hant)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
-* [Experience Platform標籤](https://experienceleague.adobe.com/docs/tags.html?lang=zh-Hant)
+* [Experience Platform 標記](https://experienceleague.adobe.com/docs/tags.html?lang=zh-Hant)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)
 
 ## 教學課程
 
 運用 Experience League 中的自助教學課程和快速操作說明：
 
-* [Experience League 的所有教學課程](https://experienceleague.adobe.com/?lang=zh-Hant#quick-how-tos)
+* [Experience League 的所有教學課程](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform 教學課程](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=zh-Hant)
 * [即時客戶資料平台](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=zh-Hant)
 
