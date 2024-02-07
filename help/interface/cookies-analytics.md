@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
+source-git-commit: a20d51e6e7d5ec72d59e06e6a4951778a5828d9a
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 95%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,6 @@ Analytics 會使用 Cookie 以匿名方式定義新訪客、協助分析點按�
 
 * [Cookie 名稱：s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie 名稱：AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
-* [Cookie 名稱：s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie 名稱：s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie 名稱：s_sq](cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Cookie 名稱：s_vi](cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
@@ -90,7 +89,7 @@ Analytics 說明中有提供有關[第一方 Cookie](cookies-first-party.md) 的
 |--- |--- |
 | 儲存的資訊 | 備援不重複訪客 ID 時間/日期戳記 |
 | 有效期限 | 2 年 |
-| 使用方式 | 該 Cookie 用於識別不重複訪客，如果標準的 `s_vi` Cookie 因第三方 Cookie 限制而無法取用。不用於使用第一方 Cookie 的實作。 |
+| 使用方式 | 如果為標準，則此Cookie用於識別不重複訪客  `s_vi` 由於第三方Cookie限制，無法使用Cookie。 不用於使用第一方 Cookie 的實作。 |
 | 位置 | 此 Cookie 會作為第一方 Cookie 儲存在您的網域中。 |
 | 大小 | 33 位元組 |
 
