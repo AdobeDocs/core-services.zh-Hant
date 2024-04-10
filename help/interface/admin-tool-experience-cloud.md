@@ -1,23 +1,23 @@
 ---
-description: 了解 Experience Cloud 管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
+title: 檢視使用者和使用者詳細資訊
+description: 瞭解Experience Cloud中的管理工具。 檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。
 application: Experience Cloud
-title: 檢視 Experience Cloud 使用者和使用者詳細資訊
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 94%
+source-wordcount: '1270'
+ht-degree: 83%
 
 ---
 
-# 在管理工具中檢視 Experience Cloud 使用者和原則
+# 在中檢視Experience Cloud使用者和原則 [!UICONTROL 管理工具]
 
-管理員可以在管理工具中，檢視所有 Experience Cloud 使用者和原則及其詳細資訊，且可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取權、角色和上次存取的資訊。原則詳細資訊包括原則的 (產品描述檔) 使用者、群組、開發人員、整合和管理員清單，以及原則的詳細權限和資源資訊。
+管理員可以檢視所有Experience Cloud使用者和原則的可排序和可篩選清單，以及詳細資訊位於 [!UICONTROL 管理工具]. 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 94%
 
    ![存取 Admin Console](assets/admin-tool.png)
 
-1. 在「[!UICONTROL 快速存取]」底下選取「**[!UICONTROL 管理工具]**」。
+1. 在 [!UICONTROL 快速存取]，按一下 **[!UICONTROL 管理工具]**.
 
    (或者，您可以將首頁 URL 中的 _home_ 取代為 _admin_。)
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者上次登入 Experience Cloud 的時間和日期。此欄可依遞增或遞減日期排序。<br> **重要：** 自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示 Experience Cloud 的目前登入活動，而不是建議對 2020 年 1 月 13 日之前的非作用帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者最近登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：** 自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud目前的登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -67,7 +67,7 @@ ht-degree: 94%
 
 ![在 Admin Console 中檢視使用者詳細資訊](assets/admin-tool-user-details.png)
 
-每位使用者的詳細檢視都會顯示有關使用者應用程式存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
+每位使用者的詳細檢視都會顯示有關使用者的應用程式存取權、管理員和產品角色以及上次存取資訊的重要詳細資訊。
 
 ## 區段簡介
 
@@ -77,7 +77,7 @@ ht-degree: 94%
 * 名稱
 * 電子郵件
 * 用戶名稱 (Federated ID 帳戶的使用者名稱必須與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
@@ -93,7 +93,7 @@ ht-degree: 94%
 |---------|----------|
 | [!UICONTROL 產品] | 與產品描述檔相關聯的產品名稱。 |
 | [!UICONTROL 例項] | 與產品和產品描述檔相關聯的例項名稱 (例如登入公司或租用戶)。 |
-| [!UICONTROL 產品描述檔] | 產品描述檔的不重複名稱。 |
+| [!UICONTROL 產品設定檔] | 產品描述檔的不重複名稱。 |
 | [!UICONTROL 依群組指派] | 為使用者與產品描述檔建立關聯的使用者群組名稱。空白結果表示使用者是直接指派至產品描述檔，而非透過群組。 |
 | [!UICONTROL 產品角色] | 產品描述檔中的使用者角色指派。目前此資訊僅適用於 Adobe Target 產品描述檔。 |
 
@@ -105,7 +105,7 @@ ht-degree: 94%
 
 | 元素 | 說明 |
 |---|---|
-| [!UICONTROL 產品描述檔] | 產品描述檔的名稱。欄可依 A-> Z、Z-> A 排序。若要查看有關原則的更多詳情，請選取產品描述檔的名稱。 |
+| [!UICONTROL 產品設定檔] | 產品描述檔的名稱。欄可依 A-> Z、Z-> A 排序。若要查看有關原則的更多詳情，請選取產品描述檔的名稱。 |
 | [!UICONTROL 產品] | 與產品描述檔相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 例項] | 與產品描述檔相關聯的例項 (例如租用戶或登入公司)。如果是沒有唯一例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL 使用者人數] | 與產品描述檔相關聯的不重複使用者人數，包括直接指派和群組指派。欄可以按最小值到最大值或最大值到最小值排序。 |
@@ -116,7 +116,7 @@ ht-degree: 94%
 您可以搜尋、排序或篩選欄以自訂原則清單。
 
 * 依名稱搜尋產品描述檔。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。此排序適用於「[!UICONTROL 產品描述檔]」、「[!UICONTROL 產品]」、「[!UICONTROL 例項]」、「[!UICONTROL 使用者人數]」和「[!UICONTROL 開發人員人數]」欄。
+* 依遞增或遞減值排序欄。此排序適用於 [!UICONTROL 產品設定檔，] [!UICONTROL 產品，] [!UICONTROL 例項，] [!UICONTROL 使用者人數，] 和 [!UICONTROL 開發人員人數，] 欄。
 * 選取「**[!UICONTROL 篩選器]**」圖示可套用多個篩選器，以列出符合特定條件的產品描述檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
@@ -130,7 +130,7 @@ ht-degree: 94%
 
 ![在 Admin Console 中檢視原則詳細資訊](assets/admin-tool-policy-detail.png)
 
-每個產品設定檔的詳細檢視都會顯示產品設定檔主體（使用者、群組等）的重要詳細資訊。 也會顯示產品描述檔啟用的權限和資源。
+每個產品設定檔的詳細檢視都會顯示產品設定檔主體（使用者、群組等）的重要詳細資訊， 也會顯示產品描述檔啟用的權限和資源。
 
 產品描述檔的詳細資訊可匯出為 CSV 檔案。[!UICONTROL 「匯出 CSV」]選項會產生兩個 CSV 檔案：
 
@@ -163,3 +163,7 @@ ht-degree: 94%
 ## 詳細的權限和資源清單
 
 本區段顯示完整的產品描述檔可用權限和資源清單。產品描述檔中包含的權限和資源會加上「✔」標示。權限和資源清單會分類為各個標記和欄，以便檢視。標記和欄會顯示適用於目前產品的區段清單。
+
+## 相關資訊
+
+* [管理使用者](https://helpx.adobe.com/tw/enterprise/using/users.html) 在 [!DNL Admin Console]

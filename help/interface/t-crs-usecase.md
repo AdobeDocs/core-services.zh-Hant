@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派給客戶屬性的產品描述檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*「客戶屬性」*&#x200B;顯示為其中一個[!UICONTROL 產品描述檔]，表示您可以開始使用了。加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
+>若要存取此功能，必須將使用者指派給客戶屬性的產品描述檔 (客戶屬性 - 預設存取)。導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果 *客戶屬性* 顯示為 [!UICONTROL 產品設定檔]，您已準備就緒。 加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
 >
 >若要使用客戶屬性功能，使用者也必須屬於應用程式層級的群組 (Analytics 或 [!DNL Target])。
 
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 ## 建立屬性來源及上傳資料檔案 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-在 Experience Cloud 的「建立新客戶屬性來源」頁面執行這些步驟。
+在Experience Cloud的「建立新客戶屬性來源」頁面執行這些步驟。
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ ht-degree: 94%
 
 ## 設定訂閱及啟動屬性來源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-設定訂閱可設定 Experience Cloud 和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
+設定訂閱可設定Experience Cloud和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF)。
 
@@ -163,7 +163,7 @@ ht-degree: 94%
 
 ![根據上傳的屬性的 Analytics 區段](assets/08_crs_usecase.png)
 
-您將區段發佈到 Experience Cloud 後，Experience Cloud Audiences 和 Audience Manager 可隨即使用該區段。
+當您發佈區段至Experience Cloud時，Experience Cloud受眾和Audience Manager即可使用該區段。
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

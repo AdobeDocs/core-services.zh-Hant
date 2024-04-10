@@ -1,21 +1,21 @@
 ---
-title: '一般資料保護規範的客戶屬性支援 '
+title: '"[!DNL Customer Attributes] 支援一般資料保護規範」'
 description: 了解一般資料保護規範的客戶屬性支援
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
-# 一般資料保護規範的客戶屬性支援
+# [!DNL Customer Attributes] 支援一般資料保護規範
 
-本頁面旨在說明[!UICONTROL 客戶屬性]如何支援一般資料保護規範 (GDPR)。
+此頁面說明如何進行 [!DNL Customer Attributes] 支援一般資料保護規範(GDPR)。
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。身為資料控管方，您可以決定要由 Adobe Experience Cloud 代表您處理和儲存哪些個人資料。
 
-本文件說明[!UICONTROL 客戶屬性]如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 GDPR 資料和刪除權限。
+本檔案說明如何 [!DNL Customer Attributes] 使用Adobe Experience Platform Privacy Service API和Privacy ServiceUI，支援資料主體存取GDPR資料和刪除許可權。
 
 如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
-## 傳送[!UICONTROL 客戶屬性]請求的必要設定
+## 傳送以下專案的請求的必要設定： [!DNL Customer Attributes]
 
-若要請求存取和刪除[!UICONTROL 客戶屬性]的資料，您必須：
+若要請求存取和刪除以下專案的資料： [!DNL Customer Attributes]，您必須：
 
 1. 識別下列項目：
 
@@ -41,9 +41,9 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
 
    您的[組織 ID](#organizations.md) 是 24 個字元的英數字串，後面接著 @AdobeOrg。您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
-1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
+1. 在 [!UICONTROL Privacy Service]，您可將存取和刪除請求提交至 [!DNL Customer Attributes]，並檢查現有請求的狀態。
 
-## [!UICONTROL 客戶屬性] JSON 請求中的必填欄位值
+## 中的必填欄位值 [!DNL Customer Attributes] JSON要求
 
 &quot;company context&quot;：
 
@@ -105,8 +105,8 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```

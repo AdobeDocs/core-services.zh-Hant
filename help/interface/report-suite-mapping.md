@@ -1,16 +1,16 @@
 ---
 description: 了解如何在 Experience Cloud 中將一個或多個報表套裝對應至組織。
-title: '將報表套裝對應至組織 '
+title: 將報表套裝對應至組織
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -89,19 +89,19 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 ## 常見問答 {#section_099E485805994C929FF9C9F75219BEE1}
 
-### 為何我看不到所有報表套裝？
+### 為什麼我看不到所有報表套裝？
 
 您的某些報表套裝可能會顯示在不同的登入公司底下。您可以使用畫面上方的下拉式清單，變更目前的登入公司。
 
 ### 如果我不認識其中一個報表套裝的下拉式清單中列出的某些組織，該怎麼辦？
 
-清單會顯示您的報表套裝可對應的所有&#x200B;*可能*&#x200B;組織，即使您並未擁有這些報表套裝的權限。如果您不確定報表套裝是否應對應至清單中其中一個灰色的報表套裝，請洽詢貴組織的 Experience Cloud 管理員以決定最佳選擇。
+清單會顯示所有 *可能* 即使您並未擁有這些報表套裝的許可權，報表套裝仍可對應的組織。 如果您不確定報表套裝是否應對應至清單中其中一個灰色的報表套裝，請洽詢貴組織的 Experience Cloud 管理員以決定最佳選擇。
 
-### 如果我不認識「只有登入公司能看見」欄中針對某個報表套裝列出的登入公司，該怎麼辦？
+### 如果我不認識「只有登入公司能看見」欄中針對報表套裝列出的某些登入公司，該怎麼辦？
 
 某種情況下此報表套裝曾與其他登入公司共用，而後者可能屬於不同的 Experience Cloud 組織。
 
-### 其他組織所產生有關報表套裝的這個「可能衝突」錯誤是什麼？其重要性為何？
+### 其他組織所產生有關報表套裝的「可能衝突」錯誤是什麼？ 其重要性為何？
 
 此通知可協助您針對報表套裝對應做出明智的決策。目的是要提醒您，此報表套裝原本是建立在不同組織底下，以防該組織更適合用於此報表套裝。
 
@@ -113,6 +113,6 @@ Experience Cloud 服務 (例如 Experience Cloud ID Service 和 [!UICONTROL Peop
 
 您可以在[組織和帳戶設定](organizations.md)中找到您的組織名稱。
 
-### 我在「已對應日期」欄中看到日期。該對應是誰執行的？
+### 我在「已對應日期」欄中看到日期。 該對應是誰執行的？
 
-您可以參閱 Analytics 介面中的報表套裝變更記錄檔，查看進行變更的使用者 ID。尋找「與 IMS 組織相關聯的套裝」事件。
+您可以參閱 Analytics 介面中的報表套裝變更記錄檔，查看進行變更的使用者 ID。尋找「與IMS組織相關聯的套裝」事件。

@@ -7,10 +7,10 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇�
 
 * 拒絕或核准應用程式。
 
-* 在 Experience Cloud 中發佈。
+* 在Experience Cloud中發佈。
 
 * 依類別、公司、類型、使用者等進行搜尋和篩選。
 

@@ -1,23 +1,23 @@
 ---
 description: 了解瀏覽器支援，並獲得 Adobe Experience Cloud 管理員的常見問題解答。
 solution: Experience Cloud
-title: 有關 Experience Cloud 的常見問題集
+title: 關於Experience Cloud的常見問答
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # 有關 Experience Cloud 的常見問題集
 
-了解 Experience Cloud 的瀏覽器支援及管理員的常見問題和解答。
+瞭解Experience Cloud的瀏覽器支援以及管理員的常見問題和答案。
 
 ## Experience Cloud 支援哪些瀏覽器？
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 如果尚未針對核心服務佈建實作，請參閱[為核心服務啟用您的應用程式](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)，其中會說明如何：
 
-1. [加入 Experience Cloud 並成為管理員](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [加入Experience Cloud並成為管理員](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [使用 Experience Platform 標記實作 Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=zh-Hant)。
 1. [將報表套裝對應至 Experience Cloud 組織](core-services.md#concept_apg_zq2_rw)
 1. [(僅限 Analytics) 導入最新的 Analytics AppMeasurement 程式碼](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ Experience Cloud 介面提供的功能可為貴公司增加新價值。此外，
 
 ## 什麼是&#x200B;_佈建_？
 
-Experience Cloud 中的佈建意思是：
+Experience Cloud中的布建意思是：
 
 * 您的使用者可以開始登入 [!DNL Experience Cloud] 及連結應用程式。
-* 他們可以開始使用透過 Experience Cloud 提供的功能，例如 People。
+* 他們可以開始使用Experience Cloud提供的功能，例如People。
 * 您可以準備好淘汰應用程式專用的登入程序。
 * 您可以保留對應用程式的存取控制。
 
@@ -77,7 +77,7 @@ Experience Cloud 中的佈建意思是：
 
 * **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，瞭解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
-## 如果有人無法登入 Experience Cloud，我該怎麼做？
+## 如果有人無法登入Experience Cloud，我該怎麼做？
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
@@ -95,7 +95,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 什麼是組織？
 
- [組織](organizations.md)是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
+一個 [組織](organizations.md) 是可讓管理員設定群組和使用者，以及控制單一登入Experience Cloud的實體。 組織的作用就像一個登入公司，涵蓋所有Experience Cloud產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
 ## 在哪裡可以找到我的 IMS 組織 ID？
 
@@ -103,7 +103,7 @@ Admin Console 管理員可授予使用者存取權。使用者會收到含有登
 
 ## 當我的使用者離職時，我該做什麼？
 
-應該從應用程式本身移除其存取權。 他們將無法從 Experience Cloud 或透過直接登入存取產品。您也應該在 Experience Cloud 層級移除其存取權。
+應該從應用程式本身移除其存取權。 他們將無法透過Experience Cloud或直接登入存取產品。 您也應該在 Experience Cloud 層級移除其存取權。
 
 ## 什麼是 Adobe ID？
 

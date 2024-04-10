@@ -1,17 +1,17 @@
 ---
 description: 了解如何啟用瀏覽器 Cookie 的隱私設定。您可將已封鎖桌面和行動瀏覽器上所有 Cookie 的使用者移除。
 solution: Experience Cloud, Analytics, Target
-title: 瀏覽器 Cookie 的隱私設定
+title: 瀏覽器Cookie的隱私權設定
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->許多行動應用程式 (例如 Facebook 或 Twitter 內建的應用程式瀏覽器) 或許看似一般行動瀏覽器，但並未允許所有 Cookie。若啟用此功能，可能會從 Analytics 報表中排除高比例的行動流量。
+>許多行動應用程式 (例如 Facebook 或 Twitter 內建的應用程式內瀏覽器) 或許看似一般行動瀏覽器，但並未允許所有 Cookie。若啟用此功能，可能會從 Analytics 報表中排除高比例的行動流量。
 
 **關於瀏覽器隱私設定**
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 89%
+source-wordcount: '2181'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 現有客戶可導入最新的應用程式實作並實施 Experience Cloud。 如此一來，您就可以運用 Adobe Analytics、Audience Manager 和 Adobe Target 的所有客戶屬性和對象功能。若要完成此實作，請執行以下作業：
 
-1. [加入 Experience Cloud 並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [加入Experience Cloud並成為管理員](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [實作 Experience Cloud ID Service](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [將報表套裝對應至 Experience Cloud 組織](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [更新 Analytics AppMeasurement 程式碼](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 ## 加入 Experience Cloud 並成為管理員 {#section_2423F0BD3DF642658103310EE5EA6154}
 
-若要加入 Experience Cloud，您必須先執行以下操作：
+若要加入Experience Cloud，您必須先執行下列動作：
 
 1. 確定您具有適當的 Adobe Analytics 或 Adobe Target SKU。
 
@@ -46,7 +46,7 @@ ht-degree: 89%
 1. 最實化實作，並取得已佈建的管理員。
 
    * 請依照下文「[實作 [!UICONTROL Experience Cloud ID Service]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354)」中的步驟操作。
-   * 請連絡您的客戶經理，並開始進行 Experience Cloud 佈建流程。
+   * 請聯絡您的客戶經理，並開始布建流程以進行Experience Cloud。
 
 1. 在 [!UICONTROL Admin Console] 中管理使用者和產品。
 
@@ -60,7 +60,7 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 ### 使用者登入
 
-若要登入 Experience Cloud，您的使用者必須：
+若要登入Experience Cloud，您的使用者必須：
 
 * 擁有貴公司的 Adobe ID (或 Enterprise ID)。
 * 在 [experience.adobe.com](https://experience.adobe.com) 登入。
@@ -73,13 +73,13 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 將這些群組對應至 Experience Cloud 企業群組時，這些使用者必須手動將其應用程式帳戶認證連結至其 Adobe ID。
 
-請參閱[在 Experience Cloud 中連結帳戶](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+另請參閱 [在Experience Cloud中連結帳戶](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >在企業群組和應用程式群組對應後，新使用者會自動產生連結。 (系統會自動建立解決方案憑證並連結至其 Adobe ID)。
 
-以下各節將說明如何導入最新實作。導入最新實作以啟用 Experience Cloud 中的核心服務。
+以下各節將說明如何導入最新實作。匯入最新實作以啟用Experience Cloud的核心服務。
 
 ## 實作 [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -107,7 +107,7 @@ Adobe 建議您針對 Analytics 和 [!DNL Target]，將[客戶 ID](https://exper
 
 在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。(請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant)。)
 
-訪客在您的網站上進行驗證或以其他方式識別他們自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。然後，您可以使用適當的函數呼叫，將客戶 ID 同步至 Experience Cloud。此同步會將訪客的 CRM 客戶 ID 儲存在 Experience Cloud 中，並啟動該客戶的屬性以用於 Experience Cloud。
+訪客在您的網站上進行驗證或以其他方式識別他們自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。然後，您可以使用適當的函式呼叫，將客戶ID同步至Experience Cloud。 此同步會將訪客的CRM客戶ID儲存在Experience Cloud中，並啟動該客戶的屬性以用於Experience Cloud。
 
 例如，假設在 CRM 系統中 Bob 的 Customer ID 為 `52mc210tr42`。當您的網站驗證 Bob 時，您必須在頁面上公開此 ID，然後以下述方法之一使用此 ID 進行同步化：
 
@@ -202,7 +202,7 @@ mbox 請求中的 Experience Cloud ID：
 
 ### [!UICONTROL People > 客戶屬性]
 
-如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
+如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至Experience Cloud的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
 請參閱[客戶屬性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 

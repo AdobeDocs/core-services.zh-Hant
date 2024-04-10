@@ -1,24 +1,24 @@
 ---
-description: 了解如何透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
+description: 瞭解如何透過FTP將客戶屬性資料上傳至Experience Cloud。
 solution: Experience Cloud
-title: 透過 FTP 上傳客戶屬性資料檔案
+title: 透過FTP上傳客戶屬性資料檔案
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 77%
 
 ---
 
 # 選用 - 透過 FTP 上傳資料檔案
 
-如果您不是以拖放方式上傳，可以透過 FTP 將客戶屬性資料上傳至 Experience Cloud。
+如果您不是以拖放方式上傳，可以透過FTP將客戶屬性資料上傳至Experience Cloud。
 
-在 Experience Cloud 中建立客戶屬性來源和 FTP 帳戶後，便可上傳資料。您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須是 `.csv` 格式，並另有一個 `.fin` 檔案用以指出上傳完成。
+在Experience Cloud中建立客戶屬性來源和FTP帳戶後，便可上傳資料。 您需為每個屬性來源建立一個 FTP 帳戶。上傳的檔案會儲存在該帳戶的根資料夾中。資料必須是 `.csv` 格式，並另有一個 `.fin` 檔案用以指出上傳完成。
 
 >[!IMPORTANT]
 >

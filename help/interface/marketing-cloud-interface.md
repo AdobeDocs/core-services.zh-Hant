@@ -1,19 +1,19 @@
 ---
 description: 閱讀Experience Cloud中的新功能和更新。
 solution: Experience Cloud
-title: Experience Cloud 的新功能
+title: Experience Cloud的新增功能
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
 
-# Experience Cloud 的新功能
+# Experience Cloud的新增功能
 
-Experience Cloud 的新功能和更新的概述。
+Experience Cloud中的新功能和更新概觀。
 
 ## 2018 年 8 月 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -59,9 +59,9 @@ Experience Cloud 的新功能和更新的概述。
 
 | 功能 | 說明 |
 |--- |--- |
-| 全新管理登陸頁面 | 登入 Experience Cloud 並導覽至「管理」頁面時，可使用全新的直覺式介面，幫助您快速存取 Experience Cloud 應用程式和核心服務。 |
+| 全新管理登陸頁面 | 登入Experience Cloud並導覽至「管理」頁面時，可使用全新的直覺式介面，幫助您快速存取Experience Cloud應用程式和核心服務。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修正**
 
@@ -84,16 +84,16 @@ Experience Cloud 的新功能和更新的概述。
 | 通知 - 維護通知 | 在「通知」設定中，您可以啟用產品和應用程式的維護通知。 |
 | 適用於 Experience Cloud 解決方案的 Admin Console | 新的 Experience Cloud 客戶可以開始使用 Admin Console，這是管理整個組織中 Adobe 權限的集中位置。<br>移轉至 Admin Console 來管理使用者的程序會按階段進行。Adobe 會在需要進行移轉時與您 (系統管理員) 聯絡。<br>Analytics 管理員請參閱 [Analytics 移轉](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2017 年 5 月 22 日 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | 功能 | 說明 |
 |--- |--- |
-| 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>[將報表套裝對應](core-services.md)至單一組織有助於在 Experience Cloud 中啟用跨應用程式功能與服務。 |
+| 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>[對應報表套裝](core-services.md) 至單一組織有助於在Experience Cloud中啟用跨應用程式功能與服務。 |
 | Experience Cloud Audiences 的更新 | **套用報表套裝**<br>&#x200B;您現已可將報表套裝套用至所有[對象規則](t-audience-create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時對象中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 2016 年 11 月 8 日 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -101,7 +101,7 @@ Experience Cloud 的新功能和更新的概述。
 |--- |--- |
 | 個人資料與密碼更新 | 使用者無法再到「編輯個人資料 > 個人資料和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分類型 (Adobe ID、Enterprise 及 Federated)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **修正**
 

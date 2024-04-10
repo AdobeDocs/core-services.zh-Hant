@@ -1,17 +1,17 @@
 ---
 description: 如何與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
 solution: Experience Cloud
-title: 共用 Experience Cloud 資產資料夾
+title: 共用Experience Cloud資產資料夾
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![在影像上新增註解](assets/asset_comment_cc.png)
 
-   在 Experience Cloud 中選取影像，然後選取時間軸圖示，在影像上新增註解。 註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
+   在Experience Cloud中，選取影像，然後選取時間軸圖示，在影像上新增註解。 註解會同步到 Creative Cloud 和 Experience Cloud 中的資產。
 
    ![在影像上新增註解](assets/asset_comment_mac.png)
 

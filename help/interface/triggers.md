@@ -1,5 +1,5 @@
 ---
-description: 了解如何設定Experience Cloud觸發程式。
+description: 瞭解如何設定Experience Cloud觸發程式。
 solution: Experience Cloud
 title: 觸發器總覽
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '677'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 >
 >目前存在 100 個觸發器的技術限制。
 
-1. 在Experience Cloud中，選取 ![功能表](assets/menu-icon.png)，然後選取 **[!UICONTROL 資料收集/啟動]**.
+1. 在Experience Cloud中選取 ![功能表](assets/menu-icon.png)，然後選取 **[!UICONTROL 資料收集/啟動]**.
 2. 在「[!UICONTROL 觸發器]」卡片上，選取「**[!UICONTROL 管理觸發器]**」。
 3. 選取「**[!UICONTROL 新增觸發器]**」，然後指定觸發器的類型：
 
@@ -66,7 +66,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
    | [!UICONTROL 容器] | [!UICONTROL 容器是設定和儲存定義觸發器的規則、條件或篩選器的位置。]如果您想讓事件同時發生，請將事件放在相同的容器中。這表示每個容器是在點擊層級獨立處理。例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
    | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. 選取「**[!UICONTROL 儲存]**」。
 6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hant)。

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 84%
 
 作業方式說明：
 
-* 在 Experience Cloud 中佈建您的公司。
+* 在Experience Cloud中布建您的公司。
 * 讓您成為管理員。
 * [實作 Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 * 最新化 [!DNL Analytics] 和 [!DNL Target] 實作，透過 [!UICONTROL 平台資料彙集].
-* 開始使用Experience Cloud服務，例如 [!UICONTROL 客戶屬性] 和 [!UICONTROL 受眾].
+* 開始使用Experience Cloud服務，例如 [[!DNL Customer Attributes]](attributes.md) 和 [[!DNL Audience Library]](audience-library.md).
 
 解決方案或服務：
 
@@ -40,7 +40,7 @@ ht-degree: 84%
 
 ## Experience Cloud ID 服務 {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-ID 服務提供永續性的通用 ID，可在 Experience Cloud 中識別所有應用程式中的訪客。 這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 應用程式和產品的 ID 產生碼。
+ID服務提供永續性的通用ID，可識別Experience Cloud中所有應用程式的訪客。 這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 應用程式和產品的 ID 產生碼。
 
 請參閱 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
@@ -69,7 +69,7 @@ ID 服務提供永續性的通用 ID，可在 Experience Cloud 中識別所有�
 
 說明：[客戶屬性](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
+如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至Experience Cloud的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
 **適用的解決方案或服務**
 
@@ -114,7 +114,7 @@ ID 服務提供永續性的通用 ID，可在 Experience Cloud 中識別所有�
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-說明：[將 Adobe Target 與 Experience Cloud 整合](audience-library.md)
+說明： [將Adobe Target與Experience Cloud整合](audience-library.md)
 
 將 Adobe Target 與 Adobe Analytics 及其他 Experience Cloud 應用程式整合後，即可在上述兩個應用程式中使用相同的資料、對象、屬性及量度。
 

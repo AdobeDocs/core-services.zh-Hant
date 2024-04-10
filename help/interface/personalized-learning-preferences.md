@@ -3,9 +3,9 @@ description: 了解 Experience Cloud 個人化學習偏好設定。這可讓客�
 solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,7 @@ ht-degree: 100%
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 您可以隨時在[使用者偏好設定](https://experience.adobe.com/preferences/)的「產品資料使用情況和收集」區段中更新您的選擇。
-
-
-
-
 
 ## 針對您的 Adobe 產品和服務提供的個人化訓練和支援推薦
 
@@ -53,8 +48,6 @@ ht-degree: 100%
   </tr>
 </tbody>
 </table>
-
-
 
 ## 有關 Adobe 產品、服務、活動和促銷的個人化資訊
 
@@ -85,9 +78,6 @@ ht-degree: 100%
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## 查看此自訂學習資訊的外觀範例。
 

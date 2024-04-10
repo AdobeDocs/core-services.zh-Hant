@@ -1,16 +1,16 @@
 ---
 description: 了解如何在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。
 solution: Experience Cloud
-title: 與 Creative Cloud 共用 Experience Cloud 資料夾和資產
+title: 與Creative Cloud共用Experience Cloud資料夾和資產
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 提高企業安全性
 * 創意人員與行銷人員之間可輕鬆共用、儲存和傳送檔案
 
-Creative Cloud 使用者先必須加入 Experience Cloud 的白名單，才能存取資產。請參閱[管理 Creative Cloud 使用者](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)。
+在Creative Cloud使用者存取資產之前，必須先將他們列在Experience Cloud的白名單中。 請參閱[管理 Creative Cloud 使用者](t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752)。
 
 ## 關於 Adobe Target 的資產共用 {#section_B7CD64CAB35D43A4B12957B304072DC9}
 

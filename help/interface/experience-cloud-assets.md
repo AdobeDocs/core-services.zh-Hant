@@ -1,17 +1,17 @@
 ---
 description: 了解您可在多個應用程式中共用的 Experience Cloud 資產。
 solution: Experience Cloud
-title: 資產總覽
+title: Assets概述
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程�
 
 >[!NOTE]
 >
->您必須先從Adobe Target活動移除資產，才能成功從 [!DNL Target].
+>資產必須先從Adobe Target活動中移除，您才能從中成功刪除它們 [!DNL Target].
 
 ## 編輯資產 {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

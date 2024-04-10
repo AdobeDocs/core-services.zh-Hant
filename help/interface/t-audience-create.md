@@ -1,17 +1,17 @@
 ---
-description: 了解如何使用屬性規則來建立受眾與定義 Adobe Experience Cloud 中的複合受眾。
+description: 了解如何使用屬性規則來建立對象與定義 Adobe Experience Cloud 中的複合對象。
 solution: Experience Cloud
-title: 建立受眾
+title: 建立對象
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 100%
 * 「家庭與花園」區域衍生自頁面資料或原始分析資料。
 * 從[發佈](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區段衍生出的 Chrome 和 Safari 使用者。
 
-   ![為複合對象建立規則](assets/audience_create.png)
+  ![為複合對象建立規則](assets/audience_create.png)
 
 **若要建立對象**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]」。**
-1. 在「[!UICONTROL 對象]」頁面上，選取「**[!UICONTROL 新增]**」。 ![add](assets/add_icon_small.png)
+1. 在 [!UICONTROL 受眾] 頁面，選取 **[!UICONTROL 新增]**. ![新增](assets/add_icon_small.png)
 
    ![步驟結果](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
    * **[!UICONTROL Real-Time Analytics：]**(或原始資料) 這是從即時 Analytics 影像請求衍生的屬性資料，並包含 eVars 和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
    >[!NOTE]
    >
-   >由於快取關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。
+   >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
    * **[!UICONTROL Experience Cloud：]**&#x200B;從 [!DNL Experience Cloud] 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的對象區段資料，或是 [!DNL Audience Manager] 中的資料。
 
