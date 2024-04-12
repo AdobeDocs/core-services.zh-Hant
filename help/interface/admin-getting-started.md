@@ -1,6 +1,6 @@
 ---
 title: 管理使用者和產品
-description: 登入Admin Console並管理Experience Cloud使用者許可權和產品（產品設定檔）。 了解如何委派管理權限給 Experience Cloud 使用者，以及有關 Experience Cloud 的瀏覽器支援。
+description: 登入 Admin Console 並管理 Experience Cloud 使用者權限和產品 (產品描述檔)。了解如何委派管理權限給 Experience Cloud 使用者，以及有關 Experience Cloud 的瀏覽器支援。
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 74%
 
 Adobe 正在更新其佈建，以便讓所有 Experience Cloud 客戶都能存取基礎功能，從而提升某些 Experience Cloud 產品之間的互通性。使用者會將 Adobe Experience Platform 作為新權益新增到其 Experience Cloud 組織，而 [!UICONTROL Data Collection] 作為附帶服務。
 
-Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用標記管理的[標記](https://experienceleague.adobe.com/en/docs/tags)，並提供可信、強固且完整的串流資料基礎架構。標籤簡化了客戶體驗資料收集和體驗交付流程。
+Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用標記管理的[標記](https://experienceleague.adobe.com/en/docs/tags)，並提供可信、強固且完整的串流資料基礎架構。標記簡化了客戶體驗資料收集和體驗交付流程。
 
 **中的變更[!DNL Admin Console]**
 
 管理員可看到 [!DNL Admin Console] 如下所示：
 
-* Admin Console中的Adobe Experience Platform產品卡包括：
+* Admin Console 中的 Adobe Experience Platform 產品卡包含：
 
    * 地點
    * 保證
@@ -104,13 +104,13 @@ Adobe Experience Platform [!UICONTROL Data Collection] 包括用於簡化通用�
 
 1. 選擇其中一個選項會帶來現有登陸頁面體驗。
 
-1. Adobe設定檔與每個業務計畫相關聯，並可讓您整理使用其他Adobe雲端產品/服務(Creative Cloud和Document Cloud)建立的資產。
+1. Adobe 基本資料與每個企業計劃相關聯，並可讓您整理使用其他 Adobe 雲端產品 (Creative Cloud 和 Document Cloud) 建立的資產。
 
 如需詳細資訊，請參閱 [Adobe 基本資料簡介](https://helpx.adobe.com/tw/enterprise/kb/introducing-adobe-profiles.html)。
 
 ## 什麼是產品描述檔？ {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL 產品設定檔]_ 是可指派給使用者的產品和服務群組。 在 Experience Cloud 中，權限取決於產品描述檔，而不是使用者。 (然而，您可以委派管理權限給特定使用者。)
+_[!UICONTROL 產品描述檔]_&#x200B;是您可以指派給使用者的產品和服務群組。 在 Experience Cloud 中，權限取決於產品描述檔，而不是使用者。 (然而，您可以委派管理權限給特定使用者。)
 
 例如，在 Analytics 中，您可以設定一系列報表工具，例如 Analysis Workspace 和 Report Builder，以及報表套裝、量度和維度。 您可以將使用者新增至產品描述檔來授予描述檔的權限給使用者。
 
@@ -191,7 +191,7 @@ Analytics使用者ID移轉工具可協助Analytics管理員將使用者帳戶從
 * [中的Analytics [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant)
 * [Analytics 使用者 ID 移轉](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)
 
-## 管理Adobe Target — 產品設定檔與Workspace的比較 {#section_3860AF177C9E4C7E9C390D36A414F353}
+## 管理 Adobe Target - 產品描述檔與工作區的比較 {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 在 Adobe Target 中，Workspace 是產品描述檔，可讓組織將特定一組使用者指派至特定一組屬性。Workspace 有許多地方與 Adobe Analytics 報表套裝相似。
 
@@ -211,7 +211,7 @@ Analytics使用者ID移轉工具可協助Analytics管理員將使用者帳戶從
 
 ## 管理 Experience Platform 資料彙集 {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL 資料彙集] 會顯示在[!UICONTROL 「產品」 ]頁面上 (位於 [!UICONTROL Admin Console])。您可以在資料收集產品設定檔中加入其他應用程式和服務。
+Experience Platform [!UICONTROL 資料彙集] 會顯示在[!UICONTROL 「產品」 ]頁面上 (位於 [!UICONTROL Admin Console])。您可以在資料彙集產品描述檔中加入其他應用程式和服務。
 
 邀請使用者加入 [!UICONTROL Platform 資料彙集]並指派使用者角色和權限。
 
