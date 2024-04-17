@@ -9,13 +9,13 @@ role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 的隱私權考量事項 [!DNL Customer Attributes]
+# [!DNL Customer Attributes] 的隱私權考量事項
 
 Adobe Experience Cloud 中已上傳及使用之個人身分資訊 (PII) 的相關考量事項和最佳做法。
 

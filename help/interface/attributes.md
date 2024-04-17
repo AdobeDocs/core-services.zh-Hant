@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: 瞭解 [!DNL Customer Attributes] 在Experience Cloud中。 了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
+description: 了解 Experience Cloud 中的  [!DNL Customer Attributes] 。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -8,33 +8,33 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# [!DNL Customer Attributes] 在Experience Cloud中
+# Experience Cloud 中的 [!DNL Customer Attributes]
 
-[!DNL Customer Attributes] Experience Cloud可讓您上傳從客戶關係管理(CRM)資料庫擷取的企業資料。 您可以將資料上傳至Experience Cloud中的客戶屬性資料來源，然後將資料用於 [!DNL Adobe Analytics] 和 [!DNL Adobe Target].
+Experience Cloud 中的 [!DNL Customer Attributes] 可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 [!DNL Adobe Analytics] 和 [!DNL Adobe Target]。
 
 ## 找到 [!DNL Customer Attributes] 功能
 
 1. 登入 Experience Cloud。
 
-1. 瀏覽至 **[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**.
+1. 導覽至「**[!DNL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
 
 ![客戶屬性總覽](assets/custom_reports.png)
 
-## 上傳的必要條件 [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## 上傳 [!DNL Customer Attributes] 的先決條件 {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 * **解決方案啟用：**[啟用 Experience Platform 服務的解決方案](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)。
 
 * **群組成員資格：**&#x200B;若要上傳客戶屬性資料，使用者必須是[客戶屬性群組](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)成員。您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
 
-  若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果 *[!DNL Customer Attributes]* 顯示為 [!UICONTROL 產品設定檔]，您已準備就緒。
+  若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果 *[!DNL Customer Attributes]* 以其中一個[!UICONTROL 產品設定檔]顯示，表示您可以開始使用了。
 
-  新增到的使用者 [!DNL Customer Attributes] 請參閱 [!UICONTROL 客戶屬性] Experience Cloud介面左側的功能表專案。
+  若是加入 [!DNL Customer Attributes] 的使用者，可在 Experience Cloud 介面的左側看到[!UICONTROL 客戶屬性]功能表項目。
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
@@ -54,7 +54,7 @@ ht-degree: 74%
 
 ## Analytics 和 Target 中的客戶屬性範例 {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-資料傳入Experience Cloud後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
+資料傳入 Experience Cloud 後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
 
 例如：
 

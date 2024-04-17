@@ -1,7 +1,7 @@
 ---
-description: 瞭解客戶屬性、受眾和使用者管理等Experience Cloud服務的最新功能、發行說明和已知問題。
+description: 了解 Experience Cloud 服務 (例如客戶屬性、對象和使用者管理) 的最新功能、發行說明和已知問題。
 solution: Experience Cloud
-title: Experience Cloud介面的累積發行說明
+title: Experience Cloud 介面的累計發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4735'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -260,8 +260,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知問題**
 
-* 客戶透過Experience Cloud以單一登入(SSO)方式登入Analytics時，無法登入Report Builder。 此問題不會影響使用舊版 Analytics 憑證的客戶。
-* Analytics 中「連結至報表」功能的已知問題。透過Experience Cloud登入Analytics的客戶嘗試共用報表時，會被導向至Analytics的非單一登入點登入頁面。
+* 客戶透過 Experience Cloud 以單一登入 (SSO) 方式登入 Analytics 時，無法登入 Report Builder。此問題不會影響使用舊版 Analytics 憑證的客戶。
+* Analytics 中「連結至報表」功能的已知問題。透過 Experience Cloud 登入 Analytics 的客戶嘗試共用報表時，會被導向至 Analytics 的非 SSO 登入頁面。
 
 ## 發行版本 15.9 - 2015 年 9 月 10 日 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
@@ -280,7 +280,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知問題**
 
-一個已知問題導致在 Audience Manager 中建立重複的自動產生帳戶，並自動將其連結至使用者的 Experience Cloud 身分識別。如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe建議您先將Audience Manager帳戶連結至Experience Cloud，再導覽至Audience Manager。 (MAC-25640)
+一個已知問題導致在 Audience Manager 中建立重複的自動產生帳戶，並自動將其連結至使用者的 Experience Cloud 身分識別。如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議先將 Audience Manager 帳戶連結至 Experience Cloud，再導覽至 Audience Manager。(MAC-25640)
 
 
 ## 發行版本 15.6.1 - 2015 年 6 月 11 日 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
@@ -340,7 +340,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知問題**
 
-* 將動態標籤管理組織與Experience Cloud連結及取消連結的功能，無法用於新建立的Experience Cloud組織。 我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過Experience Cloud以單一登入的方式登入動態標籤管理時發生問題，請在使用舊版登入 [!DNL dtm.adobe.com].
+* 將動態標記管理組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入動態標記管理時發生問題，請在 [!DNL dtm.adobe.com] 使用舊版登入。
 * 一個已知問題是對象無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
 
 ## 發行版本 15.3.2 - 2015 年 3 月 19 日 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -355,7 +355,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至Experience Cloud的客戶屬性資料來源。 上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的對象區段。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需為核心服務將您的應用程式現代化的相關資訊，請參閱<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">為核心服務啟用您的應用程式</a>。 </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的對象區段。 </p> <p>請參閱<a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">客戶屬性</a>產品文件。 </p> <p> 如需為核心服務將您的應用程式現代化的相關資訊，請參閱<a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">為核心服務啟用您的應用程式</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -376,7 +376,7 @@ With this update, administrators may see changes or additions to the Admin Conso
   </tr> 
   <tr> 
    <td colname="col1"> <p>一對多對應 </p> </td> 
-   <td colname="col2"> <p>在Experience Cloud中連結應用程式帳戶時，如果您有多個應用程式和組織，現在可以將多個產品和服務對應至單一組織。 </p> </td> 
+   <td colname="col2"> <p>在 Experience Cloud 中連結應用程式帳戶時，如果您有多個應用程式和組織，現在可以將多個產品和服務對應至單一組織。 </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>文件更新 - 核心服務 </p> </td> 
@@ -425,13 +425,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 在 User Management 中所做的群組和權限變更，只有在重新登入後才會生效。
 * 有些使用者無法上傳大型檔案類型至 Experience Cloud Assets。
 * 使用者的 Experience Cloud 卡片上未顯示來自 Advertising Cloud 的連結。
-* 有些管理員使用者在接受加入Experience Cloud的邀請後，無法順利連結帳戶。
+* 有些管理員使用者在接受加入 Experience Cloud 的邀請後，無法順利連結帳戶。
 * 多名使用者同時使用 Experience Cloud 介面時，會導致介面效能下滑。
 * 有些使用者可以刪除過時資產，而不會收到錯誤通知。
 * 有些使用者在使用相同 Adobe ID 同時登入兩個瀏覽器時可能會遇到問題。
 * 刪除 Creative Cloud 使用者後，有些使用者無法重新新增該 Creative Cloud 使用者至共用資料夾。
-* 從Experience Cloud共用資料夾到Creative Cloud時，有些使用者會遇到通知延遲的狀況。
-* 有些使用者在Experience Cloud和Creative Cloud之間共用資料夾時遇到問題。
+* 從 Experience Cloud 共用資料夾至 Creative Cloud 時，有些使用者會遇到通知延遲的問題。
+* 有些使用者在 Experience Cloud 和 Creative Cloud 之間共用資料夾時遇到問題。
 * 共用的對象已啟用後，有些使用者無法在 Analytics 報表套裝中建立對象。
 * 有些使用者無法將資產上傳至展示板。
 
@@ -590,7 +590,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 某些使用者無法將其對象管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
-* 15 分鐘無活動，系統就會將您登出。此外，您從某個位置登出後，系統會將您登出Experience Cloud。
+* 15 分鐘無活動，系統就會將您登出。此外，您從某個位置登出後，系統會將您登出 Experience Cloud。
 * 有些 Exchange 使用者顯示在註解中的名稱是長字串 ID，而非其名稱
 
 **修正**
