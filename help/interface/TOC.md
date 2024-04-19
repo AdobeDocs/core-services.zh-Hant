@@ -6,7 +6,7 @@ title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
 source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
