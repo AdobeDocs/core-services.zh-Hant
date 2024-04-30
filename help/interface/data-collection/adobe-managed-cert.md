@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,7 @@ Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據�
 
 +++支援哪些HTTPS憑證型別？
 
-Adobe同時支援RSA和ECC憑證型別，以滿足不同的客戶需求。 RSA憑證在使用者端上受到更廣泛的支援，但ECC憑證在伺服器和使用者端上使用的處理較少。 對於Adobe管理的憑證，會同時提供RSA和ECC。 對於客戶管理的憑證，建議同時使用RSA和ECC。 新式使用者端同時支援RSA和ECC。 下列使用者端通常只支援RSA憑證：
+Adobe同時支援RSA和ECC憑證型別，以滿足不同的客戶需求。 RSA憑證在使用者端上受到更廣泛的支援，但ECC憑證在伺服器和使用者端上使用的處理較少。 對於Adobe管理的憑證，會同時提供RSA和ECC。 對於客戶管理的憑證，需要RSA且建議使用ECC。 新式使用者端同時支援RSA和ECC。 下列使用者端通常只支援RSA憑證：
 
 * Windows Vista和較舊版本（最後更新於2012年）
 * Windows Phone 8.0 和較舊版本 (最後更新於 2014 年)
