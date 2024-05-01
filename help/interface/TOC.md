@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理指南
 title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 85%
+source-wordcount: '227'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 85%
 
 + [Experience Cloud 中央介面元件指南](experience-cloud.md)
 
-+ Experience Cloud 服務 {#services}
-   + [Experience Cloud 服務](services/overview.md)
++ 服務 {#services}
+   + [概觀](services/overview.md)
    + [快速入門](services/getting-started.md)
    + 資產 {#assets}
-      + [Experience Cloud 資產總覽](services/assets/experience-cloud-assets.md)
-      + [與 Creative Cloud 共用 Experience Cloud 資料夾和資產](services/assets/creative-cloud.md)
+      + [概觀](services/assets/experience-cloud-assets.md)
+      + [與Creative Cloud共用資料夾和資產](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
-      + [共用 Experience Cloud 資產資料夾](services/assets/share.md)
+      + [共用資產資料夾](services/assets/share.md)
       + [上傳資產至共用資料夾](services/assets/upload.md)
       + [針對共用的資產檔案需求](services/assets/file-reqs.md)
       + [共用資料夾的行為](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 85%
       + [客戶屬性的隱私權考量事項](services/customer-attributes/privacy-mac.md)
    + [觸發器](services/triggers.md)
 
-+ Experience Cloud功能 {#features}
++ 功能 {#features}
    + [帳戶偏好設定](features/account-preferences.md)
    + [整合式搜尋](features/search.md)
    + [個人化學習](features/personalized-learning.md)
 
-+ Experience Cloud 管理{#administration}
-   + [檢視 Experience Cloud 使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
++ 管理 {#administration}
+   + [檢視使用者詳細資訊（管理工具）](administration/admin-tool-experience-cloud.md)
    + [組織和帳戶綁定](administration/organizations.md)
-   + [Experience Cloud 整合](administration/integrations.md)
+   + [整合](administration/integrations.md)
 
-+ Experience Cloud資料彙集 {#data-collection}
++ 資料彙集 {#data-collection}
    + [Adobe管理的憑證方案](data-collection/adobe-managed-cert.md)
    + [IP位址](data-collection/ip-addresses.md)
    + [網域](data-collection/domains.md)

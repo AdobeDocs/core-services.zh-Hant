@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloud IP位址
+title: Adobe Experience Cloud使用的IP位址
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# Adobe Experience Cloud IP位址和網域
+# Adobe Experience Cloud使用的IP位址
 
 有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統(例如Adobe Analytics中的資料摘要)。
 
@@ -17,17 +17,16 @@ ht-degree: 27%
 >
 >雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入要求變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
-除了下列的IP位址區塊外，各個Adobe Experience Cloud產品也各有專屬使用的網域：
+除了下列IP位址區塊外，各個Adobe Experience Cloud產品也各有專屬的IP位址：
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## 所有 Adobe IP 位址區塊
 
 下表涵蓋Adobe擁有的所有IP位址。 此表格包含所有Adobe員工辦公室，以及由Adobe在全球執行的資料中心。 但不包含公用雲端上託管的服務。
 
-| IP 區塊 (CIDR 標記法) |
+| IP區塊（CIDR標籤法） |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -48,7 +47,7 @@ ht-degree: 27%
 
 上表包含本節中的所有IP範圍。
 
-| 位置 | IP 範圍 (CIDR 標記法) |
+| 位置 | IP範圍（CIDR標籤法） |
 | --- | --- |
 | 澳大利亞 | `63.140.55.0/24` |
 | 澳大利亞 | `63.140.56.0/23` |
