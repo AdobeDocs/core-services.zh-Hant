@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 80%
       + [與Creative Cloud共用資料夾和資產](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
       + [共用資產資料夾](services/assets/share.md)
-      + [上傳資產至共用資料夾](services/assets/upload.md)
+      + [將資產上傳到共用資料夾](services/assets/upload.md)
       + [針對共用的資產檔案需求](services/assets/file-reqs.md)
       + [共用資料夾的行為](services/assets/behavior.md)
-   + 對象庫 {#audiences}
+   + 對象庫{#audiences}
       + [概觀](services/audiences/overview.md)
       + [建立對象](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -57,19 +57,19 @@ ht-degree: 80%
    + [整合](administration/integrations.md)
 
 + 資料彙集 {#data-collection}
-   + [Adobe管理的憑證方案](data-collection/adobe-managed-cert.md)
-   + [IP位址](data-collection/ip-addresses.md)
+   + [Adobe 託管的憑證計劃](data-collection/adobe-managed-cert.md)
+   + [IP 位址](data-collection/ip-addresses.md)
    + [網域](data-collection/domains.md)
    + Cookie {#cookies}
-      + [Cookie概述](data-collection/cookies/overview.md)
-      + [廣告Cookie](data-collection/cookies/advertising.md)
+      + [Cookie 概觀](data-collection/cookies/overview.md)
+      + [Advertising cookies](data-collection/cookies/advertising.md)
       + [Analytics Cookie](data-collection/cookies/analytics.md)
       + [Audience Manager Cookie](data-collection/cookies/audience-manager.md)
       + [Experience Cloud Cookie](data-collection/cookies/experience-cloud.md)
       + [Target Cookie](data-collection/cookies/target.md)
-      + [Web SDK Cookie](data-collection/cookies/web-sdk.md)
+      + [Web SDK cookie](data-collection/cookies/web-sdk.md)
    + [地區資料收集](data-collection/rdc.md)
-   + [使用DNS預先擷取](data-collection/dns-prefetch.md)
+   + [使用 DNS 預先擷取](data-collection/dns-prefetch.md)
 
 + 更多資源 {#more-resources}
    + [發行說明](more-resources/release-notes.md)
