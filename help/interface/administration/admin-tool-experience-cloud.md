@@ -1,6 +1,6 @@
 ---
 title: 檢視使用者和使用者詳細資訊
-description: 瞭解Experience Cloud中的管理工具。 檢視所有Experience Cloud使用者和原則的可排序和可篩選清單。
+description: 了解 Experience Cloud 中的管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
