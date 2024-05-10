@@ -6,9 +6,9 @@ title: Experience Cloud 介面與管理指南
 description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
    + [快速入門](services/getting-started.md)
    + 資產 {#assets}
       + [概觀](services/assets/experience-cloud-assets.md)
-      + [與Creative Cloud共用資料夾和資產](services/assets/creative-cloud.md)
+      + [使用 Creative Cloud 共用資料夾和資產](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
       + [共用資產資料夾](services/assets/share.md)
       + [將資產上傳到共用資料夾](services/assets/upload.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [個人化學習](features/personalized-learning.md)
 
 + 管理 {#administration}
-   + [檢視使用者詳細資訊（管理工具）](administration/admin-tool-experience-cloud.md)
+   + [檢視使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
    + [組織和帳戶綁定](administration/organizations.md)
    + [整合](administration/integrations.md)
 
