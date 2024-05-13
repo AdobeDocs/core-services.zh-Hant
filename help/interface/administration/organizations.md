@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 ![Experience Cloud組織](../assets/organizations-menu.png)
 
-若要確認您已登入正確的組織，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
+若要確認您已登入正確的組織，請按一下您的個人資料頭像，以檢視組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
 
 ## Federated ID
 
@@ -45,7 +45,7 @@ ht-degree: 69%
 
    ![指派的組織 ID](../assets/assigned-organization.png)
 
-1. 在 **[!UICONTROL 使用者資訊]**，尋找 **[!UICONTROL 目前組織ID]**，您就會看到組織ID。
+1. 在 **[!UICONTROL 使用者資訊]**，尋找 **[!UICONTROL 目前組織ID]**，然後您可以找到組織ID。
 
    或者，管理員也可以登入Admin Console(瀏覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在URL中檢視您的組織ID。
 
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 ![編輯個人資料](../assets/edit-profile.png)
 
-在「預設組織和登陸頁面」下方，您可以自訂登入體驗。
+在 **[!UICONTROL 預設組織和登陸頁面]**，您可以自訂登入體驗。
 
 ![預設組織和登陸頁面](../assets/default-organization.png)
 
