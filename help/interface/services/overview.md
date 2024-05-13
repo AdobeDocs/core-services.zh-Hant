@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
+source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 | 核心服務 | 說明 |
 |--- |--- |
 | [中央介面元件](../experience-cloud.md) | 存取帳戶偏好設定、搜尋產品說明，以及存取應用程式和服務。 |
-| [人員 - [!DNL Audience Library]](audiences/overview.md) | 對象是訪客的集合 (訪客 ID 的清單)。Adobe 的 [!DNL Audience Library] 可讓您管理將訪客資料轉譯為對象細分的過程。  |
+| [人員 - [!DNL Audience Library]](audiences/overview.md) | 對象是訪客的集合 (訪客 ID 的清單)。Adobe的 [!DNL Audience Library] 可讓您管理將訪客資料轉譯為受眾細分的過程。 |
 | [People - 客戶屬性](customer-attributes/attributes.md) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
 | [資產](assets/experience-cloud-assets.md) | Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->若需 Experience Platform 的產品文件，請前往[這裡](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)。若需要 [!UICONTROL Experience Platform] 開發人員的技術文件，請前往 [Adobe Developer](https://developer.adobe.com/apis)。
+>的產品檔案： [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant) 可用。 若需要 [!UICONTROL Experience Platform] 開發人員的技術文件，請前往 [Adobe Developer](https://developer.adobe.com/apis)。
