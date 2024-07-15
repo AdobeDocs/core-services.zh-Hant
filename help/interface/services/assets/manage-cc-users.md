@@ -22,8 +22,8 @@ Experience Cloud 提供管理工具，可管理已核准 Creative Cloud 使用�
 >
 >您必須是管理員才能執行此程序。
 
-1. 在Experience Cloud中選取 **[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud共同作業人員]**.
+1. 在Experience Cloud中，選取&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud共同作業人員]**。
 1. 選取「**[!UICONTROL Creative Cloud 資產共用]**」。
-1. 選取 **[!UICONTROL 新增使用者]**.  ![新增使用者](../../assets/mac_add_icon.png)
+1. 選取&#x200B;**[!UICONTROL 新增使用者]**。  ![新增使用者](../../assets/mac_add_icon.png)
 1. 輸入電子郵件、顯示名稱、標題，並選擇性地新增頭像。
 1. 選取「**[!UICONTROL 建立]**」。

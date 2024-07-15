@@ -1,7 +1,7 @@
 ---
 description: 建立客戶屬性來源並將其上傳至Adobe Experience Cloud。
 solution: Experience Cloud
-title: 建立客戶屬性來源及上傳資料檔案
+title: 建立客戶屬性Source並上傳資料檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔（客戶屬性 — 預設存取）。 瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果 *客戶屬性* 顯示為 [!UICONTROL 產品設定檔]，您已準備就緒。 加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
+>若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔（客戶屬性 — 預設存取）。 瀏覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL Admin Console]** > **[!UICONTROL 產品」]**。如果&#x200B;*客戶屬性*&#x200B;顯示為[!UICONTROL 產品設定檔]之一，表示您已準備開始。 加入客戶屬性群組的使用者可在 Experience Cloud 介面的左側看到「[!UICONTROL 客戶屬性]」功能表。
 >
 >若要使用客戶屬性功能，使用者也必須屬於應用程式層級的群組 (Analytics 或 [!DNL Target])。
 
@@ -48,13 +48,13 @@ ht-degree: 84%
 
 ## 建立屬性來源及上傳資料檔案 {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-在Experience Cloud的「建立新客戶屬性來源」頁面執行這些步驟。
+在Experience Cloud的「建立新客戶屬性Source」頁面上執行這些步驟。
 
 >[!IMPORTANT]
 >
 >建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢相關人員，以取得管理權限。
 
-1. 在 [!DNL Experience Cloud]，選取功能表  ![功能表](assets/menu-icon.png) 圖示。
+1. 在[!DNL Experience Cloud]中，選取功能表![功能表](assets/menu-icon.png)圖示。
 1. 在 **[!DNL Experience Platform]** 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
@@ -71,13 +71,13 @@ ht-degree: 84%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。在中輸入的值 [!UICONTROL 別名ID] Experience Cloud中客戶屬性來源的欄位應與從實作傳入的值相符（不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入）。
+   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。針對Experience Cloud中的客戶屬性來源在[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入)。
 
      別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
       * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -141,7 +141,7 @@ ht-degree: 84%
 
 **啟動屬性來源**
 
-在 [!UICONTROL 建立新的或編輯客戶屬性來源] 頁面，找到 [!UICONTROL 啟動] 標題，然後選取 **[!UICONTROL 作用中]**.
+在[!UICONTROL 建立新或編輯客戶屬性Source]頁面上，找到[!UICONTROL 啟用]標題，然後選取&#x200B;**[!UICONTROL 啟用]**。
 
 ![步驟結果](assets/activate_attribute_source.png)
 
@@ -161,4 +161,4 @@ ht-degree: 84%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html??lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。

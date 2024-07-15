@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
-如需檔案更新的清單，請參閱 [檔案更新](doc-updates.md).
+如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
@@ -196,7 +196,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 修正某些環境中無法提供新租戶的問題。(CORE - 15509)
 
-* 修正將使用者重新導向至的問題 `experiencecloud.adobe.com` 使用 `http` 而非 `https`. (CORE - 15587)
+* 修正使用`http`而非`https`將使用者重新導向至`experiencecloud.adobe.com`的問題。 (CORE - 15587)
 
 * 修正某些新租戶的通知遭封鎖的問題。(CORE - 15240)
 
@@ -229,7 +229,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2017 年 10 月
 
-**已知問題**：通知電子郵件摘要中缺少許多有關排程維護/產品更新的維護通知。 我們正致力於確保所有維護通知都包含在電子郵件摘要中。
+**已知問題**：通知電子郵件摘要中遺失許多有關排程維護/產品更新的維護通知。 我們正致力於確保所有維護通知都包含在電子郵件摘要中。
 
 ## 2017 年 8 月
 
@@ -358,7 +358,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 已修正讓適用對象無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
 * 新增對客戶屬性中多位元組字元的支援。(MAC-25552)
 
-**已知問題**：一個已知問題導致在Audience Manager中建立重複的自動產生帳戶，並自動將其連結至使用者的Experience Cloud身分識別。 如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議先將 Audience Manager 帳戶連結至 Experience Cloud，再導覽至 Audience Manager。(MAC-25640)
+**已知問題**：一個已知問題導致在Audience Manager中建立重複的自動產生帳號，並自動將其連結到使用者的Experience Cloud身分識別。 如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議先將 Audience Manager 帳戶連結至 Experience Cloud，再導覽至 Audience Manager。(MAC-25640)
 
 
 ## 2015 年 5 月

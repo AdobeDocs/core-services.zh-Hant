@@ -52,7 +52,7 @@ ht-degree: 84%
 
 移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
-使用共用資產的更多方式包括載入或交換中的資產 [選件程式庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) 活動中的影像使用Adobe Target中的。
+更多使用共用資產的方式，包括載入或交換Adobe Target中[選件資料庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)中的資產，以用於活動中的影像。
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 

@@ -17,7 +17,7 @@ ht-degree: 91%
 
 # Experience Cloud Cookie
 
-Adobe Experience Cloud使用Cookie來儲存不同Experience Cloud應用程式所使用的訪客ID。 這些Cookie特別適用於在上存取Adobe Experience Cloud應用程式 [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloud使用Cookie來儲存不同Experience Cloud應用程式所使用的訪客ID。 這些Cookie特別適用於在[experience.adobe.com](https://experience.adobe.com)上存取Adobe Experience Cloud應用程式。
 
 **Cookie 名稱：s_ecid**
 

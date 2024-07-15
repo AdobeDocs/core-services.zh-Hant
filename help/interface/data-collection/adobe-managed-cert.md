@@ -1,7 +1,7 @@
 ---
 description: 瞭解如何設定安全憑證以與Adobe Experience Cloud第一方Cookie搭配使用。
 solution: Experience Cloud,Analytics
-title: Adobe管理的憑證方案
+title: Adobe 託管的憑證計劃
 index: y
 snippet: y
 feature: Cookies
@@ -12,11 +12,11 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 11%
+ht-degree: 4%
 
 ---
 
-# Adobe管理的憑證方案
+# Adobe 託管的憑證計劃
 
 Adobe管理的憑證方案是設定CNAME實作所需的第一方憑證的建議程式。 設定後，程式將完全自動化。 它會及時更新憑證，因此不會因為憑證過期而影響資料收集。 前100個CNAME可免費使用此程式。
 
@@ -26,11 +26,11 @@ Adobe管理的憑證方案是設定CNAME實作所需的第一方憑證的建議�
 
 請依照下列步驟，為第一方資料收集實作新憑證：
 
-1. 下載並填寫 [第一方網域請求表單](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. 下載並填寫[第一方網域要求表單](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. 向Adobe客戶服務開立票證，要求在Adobe管理的憑證方案上設定第一方資料收集。
 
-1. 在收到支援工單時，Adobe代表會提供CNAME記錄給您。 您必須在貴公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。 例如，主機名稱 `data.example.com` 指向 `hiodsibxvip01.data.adobedc.net`.
+1. 在收到支援工單時，Adobe代表會提供CNAME記錄給您。 您必須在貴公司的 DNS 伺服器上設定這些記錄，Adobe 才能代表您購買憑證。 例如，主機名稱`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。
 
 1. 當CNAME記錄位於您組織的伺服器上時，Adobe會與DigiCert合作，購買憑證並安裝到Adobe資料收集伺服器上。
 
@@ -40,17 +40,17 @@ Adobe管理的憑證方案是設定CNAME實作所需的第一方憑證的建議�
 
 +++**瀏覽器驗證**
 
-您可以使用任何瀏覽器來驗證憑證是否已正確安裝。 輸入您的CNAME，並附上 `_check` 做為位址列的路徑。 例如：
+您可以使用任何瀏覽器來驗證憑證是否已正確安裝。 在位址列中輸入`_check`作為路徑的CNAME。 例如：
 
 `data.example.com/_check`
 
-如果一切運作正常，瀏覽器會顯示 `SUCCESS`. 如果憑證未正確安裝，系統會顯示安全性警告。
+如果一切運作正常，瀏覽器會顯示`SUCCESS`。 如果憑證未正確安裝，系統會顯示安全性警告。
 
 +++
 
 +++**命令列(`curl`)**
 
-大部分的現代作業系統已經具備 [`curl`](https://curl.se) 已安裝。
+大部分的現代作業系統已安裝[`curl`](https://curl.se)。
 
 在命令列中鍵入下列內容：
 
@@ -58,11 +58,11 @@ Adobe管理的憑證方案是設定CNAME實作所需的第一方憑證的建議�
 curl data.example.com/_check
 ```
 
-如果一切正常運作，主控台會傳回 `SUCCESS`.
+如果一切正常運作，主控台會傳回`SUCCESS`。
 
 >[!TIP]
 >
->您可以使用 `-k` 此旗標可停用安全性警告以協助進行疑難排解。
+>您可以使用`-k`旗標停用安全性警告以協助疑難排解。
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 在驗證憑證正確運作後，您可以更新Adobe實作以使用這些值。
 
-* 針對Adobe AnalyticsAppMeasurement實作，請更新 [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) 設定變數。 如果您已有實作，請參閱 [訪客移轉](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) 瞭解如何防止將現有訪客計為新訪客的其他步驟。
-* 若為Web SDK實作，請更新 [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) 中的屬性 [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) 命令。
+* 針對Adobe AnalyticsAppMeasurement實作，請更新[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver)設定變數。 若您已有實作，請參閱[訪客移轉](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration)，以瞭解如何防止將現有訪客計為新訪客的其他步驟。
+* 針對Web SDK實作，請更新[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)屬性。
 
 ## 維護與更新
 
@@ -139,17 +139,17 @@ Adobe與DigiCert搭配使用，以核發SHA-2憑證。
 
 +++Adobe提供哪些密碼安全等級？
 
-Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。這些等級會決定與Adobe伺服器建立HTTPS連線時支援的加密演演算法。 Adobe會根據目前的安全實務，定期審查並更新支援的演演算法集。 如果您想要變更密碼安全設定，請聯絡客戶服務。
+Adobe提供兩種密碼安全等級，以滿足不同客戶對第一方資料收集的安全需求。 這些等級會決定與Adobe伺服器建立HTTPS連線時支援的加密演演算法。 Adobe會根據目前的安全實務，定期審查並更新支援的演演算法集。 如果您想要變更密碼安全設定，請聯絡客戶服務。
 
-* **標準** 需要TLS 1.2或更新版本，以及至少128位元加密。 其設計可提供最廣泛的裝置相容性，同時維持安全加密。
-* **高** 加密安全等級需要TLS 1.2或更新版本，並移除對較弱加密的支援。 它專為希望擁有最強大加密功能，且不擔心支援舊裝置的客戶所設計。
+* **Standard**&#x200B;需要TLS 1.2或更新版本，以及至少128位元加密。 其設計可提供最廣泛的裝置相容性，同時維持安全加密。
+* **高**&#x200B;加密安全等級需要TLS 1.2或更新版本，並移除對較弱加密的支援。 它專為希望擁有最強大加密功能，且不擔心支援舊裝置的客戶所設計。
 
-已知下列使用者端無法連線設定為 **高**：
+已知下列使用者端無法連線設定為&#x200B;**高**&#x200B;的加密安全性：
 
-* Windows 8.1 和較舊版本 (最後更新於 2018 年)
-* Windows Phone 8.1 和較舊版本 (最後更新於 2016 年)
-* OS X 10.10 和較舊版本 (最後更新於 2017 年)
-* iOS 8.4 和較舊版本 (最後更新於 2015 年)
+* Windows 8.1和較舊版本（最後更新於2018年）
+* Windows Phone 8.1和較舊版本（最後更新於2016年）
+* OS X 10.10和較舊版本（最後更新於2017年）
+* iOS 8.4和較舊版本（最後更新於2015年）
 
 +++
 
@@ -158,9 +158,9 @@ Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據�
 Adobe同時支援RSA和ECC憑證型別，以滿足不同的客戶需求。 RSA憑證在使用者端上受到更廣泛的支援，但ECC憑證在伺服器和使用者端上使用的處理較少。 對於Adobe管理的憑證，會同時提供RSA和ECC。 對於客戶管理的憑證，需要RSA且建議使用ECC。 新式使用者端同時支援RSA和ECC。 下列使用者端通常只支援RSA憑證：
 
 * Windows Vista和較舊版本（最後更新於2012年）
-* Windows Phone 8.0 和較舊版本 (最後更新於 2014 年)
-* OS X 10.8 和較舊版本 (最後更新於 2013 年)
-* iOS 5.1 和較舊版本 (最後更新於 2012 年)
+* Windows Phone 8.0和較舊版本（最後更新於2014年）
+* OS X 10.8和較舊版本（最後更新於2013年）
+* iOS 5.1和較舊版本（最後更新於2012年）
 * Android 4.3和較舊版本（最後更新於2013年）
 
 +++

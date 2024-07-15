@@ -185,13 +185,13 @@ mbox 請求中的 Experience Cloud ID：
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
-另請參閱 [客戶屬性](customer-attributes/attributes.md) 瞭解更多資訊。
+如需詳細資訊，請參閱[客戶屬性](customer-attributes/attributes.md)。
 
 ### [!UICONTROL People] > [!UICONTROL 對象庫]
 
 Experience Cloud [!UICONTROL Audiences] 介面可讓您建立對象、組合現有對象以建立複合對象，以及檢視所有共用對象。
 
-另請參閱 [受眾](audiences/overview.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[對象](audiences/overview.md)。
 
 ## 資料儲存和隱私洩露
 

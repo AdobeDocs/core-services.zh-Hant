@@ -1,7 +1,7 @@
 ---
 description: 了解如何搭配 Experience Cloud 中不同的應用程式和服務實作 DNS 預先擷取，以縮短頁面載入時間。
 solution: Experience Cloud
-title: 使用DNS預先擷取
+title: 使用 DNS 預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
@@ -10,11 +10,11 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# 使用DNS預先擷取
+# 使用 DNS 預先擷取
 
 實作 DNS 預先擷取以縮短不同應用程式和服務的頁面載入時間。
 
@@ -24,7 +24,7 @@ ht-degree: 90%
 
 ## DNS 預先擷取和 Adobe Experience Cloud 應用程式
 
-DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這也表示自動DNS預先擷取不適用於不同的 [!UICONTROL Experience Cloud] 應用程式和服務，因為：
+DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這也表示自動DNS預先擷取不適用於其他[!UICONTROL Experience Cloud]應用程式和服務，原因如下：
 
 * 每個 Experience Cloud 應用程式或服務會在頁面載入時以動態方式產生 DNS 呼叫。
 * 發出這些呼叫之前，瀏覽器無法將網域名稱解析為 IP 位址。
@@ -52,4 +52,4 @@ DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這
 
 >[!MORELIKETHIS]
 >
->* [DNS預先擷取](https://www.chromium.org/developers/design-documents/dns-prefetching) 在Chromium上
+>* Chromium上的[DNS預先擷取](https://www.chromium.org/developers/design-documents/dns-prefetching)

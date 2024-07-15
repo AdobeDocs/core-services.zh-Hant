@@ -1,5 +1,5 @@
 ---
-title: 共用資產的檔案需求
+title: 共用Assets的檔案需求
 description: 了解在 Adobe Experience Cloud 和 Creative Cloud 之間共用資產時允許的檔案類型和大小限制。
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

@@ -1,7 +1,7 @@
 ---
 description: 了解如何在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。
 solution: Experience Cloud
-title: 與Creative Cloud共用Experience Cloud資料夾和資產
+title: 與Creative Cloud共用Experience Cloud資料夾和Assets
 feature: Assets
 topic: Administration
 role: Admin

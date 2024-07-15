@@ -20,7 +20,7 @@ Experience Cloud產品檔案的更新資訊。
 
 **2024年4月26日**
 
-說明檔案架構全面改版。 亦已新增 [Adobe Experience Cloud IP位址](../data-collection/ip-addresses.md) 和 [地區資料收集](../data-collection/rdc.md).
+說明檔案架構全面改版。 也新增[Adobe Experience Cloud IP位址](../data-collection/ip-addresses.md)和[地區資料彙集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -104,7 +104,7 @@ Experience Cloud產品檔案的更新資訊。
 
 內容和畫面的一般更新。
 
-**2018年1月17**
+**2018年1月17日**
 
 重整部分內容及更新部分連結。
 
@@ -112,11 +112,11 @@ Experience Cloud產品檔案的更新資訊。
 
 將手冊修改為最新版本。
 
-**2017年3月15**
+**2017年3月15日**
 
 更新[建立對象](../services/audiences/create.md)中原始 Analytics 資料的定義。
 
-**2016年5月9**
+**2016年5月9日**
 
 新增 [Experience Cloud 整合](../administration/integrations.md)，提供整合概要說明文件。
 
@@ -124,7 +124,7 @@ Experience Cloud產品檔案的更新資訊。
 
 已新增 [Experience Cloud Assets](../services/assets/experience-cloud-assets.md)。
 
-**2015年1月15**
+**2015年1月15日**
 
 現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。請參閱[資產共用](../services/assets/creative-cloud.md)。
 
@@ -132,6 +132,6 @@ Experience Cloud產品檔案的更新資訊。
 
 新增適用於管理員的 [Experience Cloud 常見問答](faq.md)。
 
-**2014年5月22**
+**2014年5月22日**
 
-新增以下專案的檔案： [受眾](../services/audiences/overview.md)
+新增[對象](../services/audiences/overview.md)的檔案

@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # 加州消費者隱私法的客戶屬性支援
 
-此頁面說明 [!UICONTROL 客戶屬性]&#39;支援加州消費者隱私法(CCPA)。
+本頁面說明[!UICONTROL 客戶屬性]對加州消費者隱私法(CCPA)的支援。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
 &quot;company context&quot;：
 
 * &quot;namespace&quot;：**imsOrgID**
-* &quot;value&quot;： &lt;*您的組織ID值*>
+* &quot;value&quot;： &lt;*您的組織識別碼值*>
 
 &quot;users&quot;：
 

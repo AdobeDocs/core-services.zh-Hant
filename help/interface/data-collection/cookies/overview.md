@@ -2,13 +2,13 @@
 description: 了解 Adobe Experience Cloud 中的解決方案和服務如何使用 Cookie。
 title: Experience Cloud中Cookie的使用方式
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # Experience Cloud中使用的Cookie
 
@@ -22,10 +22,10 @@ Cookie 可用來在使用者造訪網站期間或多次造訪網站之間保留�
 
 Adobe Experience Cloud服務會使用Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。 Adobe會儘可能使用第一方Cookie來記錄您網站上的活動。 若要記錄不同網站 (例如您可能擁有的其他網域) 上的活動，則需要第三方 Cookie。
 
-許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie。 Adobe可確保即使第三方Cookie遭到封鎖，仍可隨時設定Cookie。 此特定行為會因您使用的是Experience PlatformIdentity服務（ECID服務）還是Analytics的舊型識別碼(例如 `s_vi` cookie)：
+許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie。 Adobe可確保即使第三方Cookie遭到封鎖，仍可隨時設定Cookie。 此特定行為會因您使用的是Experience PlatformIdentity服務（ECID服務）還是Analytics的舊型識別碼（例如`s_vi` Cookie）而異：
 
-* 此 [Experience PlatformIdentity服務（ECID服務）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant) 無論您的收集網域是否符合您網站的網域，都會自動設定第一方Cookie。 如果兩者不符，Identity Service會使用JavaScript在您網站的網域上設定Cookie。
-* 如果您使用 [Analytics舊型識別碼](analytics.md) (例如 `s_vi` cookie)，視您設定資料收集伺服器的方式而定。 如果資料收集伺服器符合您網站的網域，則 Cookie 會設定為第一方。如果資料收集伺服器不符合您目前的網域，則Cookie會設定為第三方。 在此情況下，如果封鎖第三方Cookie，Analytics會設定第一方備援ID (`s_fid`)而非標準 `s_vi` Cookie。
+* [Experience Platform識別服務（ECID服務）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)會自動設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 如果兩者不符，Identity Service會使用JavaScript在您網站的網域上設定Cookie。
+* 如果您使用[Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie），則將取決於您已如何設定您的資料收集伺服器。 如果資料收集伺服器符合您網站的網域，則 Cookie 會設定為第一方。如果資料收集伺服器不符合您目前的網域，則Cookie會設定為第三方。 在此情況下，如果第三方Cookie遭到封鎖，Analytics會設定第一方備援ID (`s_fid`)，而非標準`s_vi` Cookie。
 
 如果您想要確保您的資料收集伺服器符合您網站的網域，您可以使用CNAME實作，好讓您可以從CNAME實作中指定的自訂網域轉送到Adobe的資料收集伺服器。 此工作涉及貴公司的DNS設定變更，以便設定CNAME別名來指向Adobe代管網域。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。 如果您控制多個網域，這些網域可能會使用單一CNAME端點來追蹤其網域中的使用者，但只要網站網域不符合CNAME網域，Cookie就會設定為協力廠商。
 

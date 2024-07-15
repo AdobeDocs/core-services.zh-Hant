@@ -17,7 +17,7 @@ ht-degree: 64%
 
 # Experience Cloud 中的組織
 
-一個 *組織* （組織ID）是可讓管理員設定群組和使用者，以及控制單一登入Experience Cloud的實體。
+*組織* （組織ID）是可讓管理員設定群組和使用者，以及控制單一登入Experience Cloud的實體。
 
 組織的作用就像一間登入公司，涵蓋所有 Experience Cloud 產品和應用程式。 通常組織就是您的公司名稱，但是一間公司可以有多個組織。
 
@@ -37,17 +37,17 @@ ht-degree: 64%
 
 組織 ID 是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
-您可以使用鍵盤快速鍵檢視組織ID以及其他帳戶資訊 **Ctrl+i** 從任何頁面 `https://experience.adobe.com`.
+您可以在`https://experience.adobe.com`的任何頁面上使用鍵盤快速鍵&#x200B;**Ctrl+i**，檢視組織ID以及其他帳戶資訊。
 
-**若要檢視組織ID**
+**檢視您的組織ID**
 
-1. 在 [Experience Cloud](https://experience.adobe.com)，按下 **Ctrl+i** 在鍵盤上。
+1. 在[Experience Cloud](https://experience.adobe.com)中，按鍵盤上的&#x200B;**Ctrl+i**。
 
    ![指派的組織 ID](../assets/assigned-organization.png)
 
-1. 在 **[!UICONTROL 使用者資訊]**，尋找 **[!UICONTROL 目前組織ID]**，然後您可以找到組織ID。
+1. 在&#x200B;**[!UICONTROL 使用者資訊]**&#x200B;下，尋找&#x200B;**[!UICONTROL 目前的組織ID]**，您就可以找到組織ID。
 
-   或者，管理員也可以登入Admin Console(瀏覽至 [https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在URL中檢視您的組織ID。
+   或者，管理員也可以登入Admin Console(瀏覽至[https://adminconsole.adobe.com](https://adminconsole.adobe.com))，並在URL中檢視您的組織ID。
 
    舉例來說，在以下網址中：
 
@@ -65,7 +65,7 @@ ht-degree: 64%
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
 
-1. 選取應用程式選擇器。 ( ![功能表](../assets/menu-icon.png))。
+1. 選取應用程式選擇器。 （![功能表](../assets/menu-icon.png)）。
 
    ![將應用程式帳戶連結至 Adobe ID](../assets/solutions-active.png)
 
@@ -87,7 +87,7 @@ ht-degree: 64%
 
 ![編輯個人資料](../assets/edit-profile.png)
 
-在 **[!UICONTROL 預設組織和登陸頁面]**，您可以自訂登入體驗。
+在&#x200B;**[!UICONTROL 預設組織和登陸頁面]**&#x200B;下，您可以自訂登入體驗。
 
 ![預設組織和登陸頁面](../assets/default-organization.png)
 

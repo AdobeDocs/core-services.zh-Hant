@@ -1,9 +1,8 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '329'
-ht-degree: 98%
+source-wordcount: '326'
+ht-degree: 94%
 
 ---
 # 說明
@@ -51,4 +50,4 @@ ht-degree: 98%
 
 ## 更多資訊
 
-如需更多發佈說明、風格指南、範例及其他資源，請造訪[共同作業文件存放庫](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+如需更多發佈指示、風格指南、範例和其他資源，請造訪[合作檔案存放庫](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

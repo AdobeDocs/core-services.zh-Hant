@@ -15,15 +15,15 @@ ht-degree: 85%
 
 ---
 
-# 在中檢視Experience Cloud使用者和原則 [!UICONTROL 管理工具]
+# 在[!UICONTROL 管理工具]中檢視Experience Cloud使用者和原則
 
-管理員可以檢視所有Experience Cloud使用者和原則的可排序和可篩選清單，以及詳細資訊位於 [!UICONTROL 管理工具]. 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
+管理員可以在[!UICONTROL 管理工具]中檢視所有Experience Cloud使用者和原則及其詳細資訊，且清單可排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 
 1. 登入 `https://experience.adobe.com/.`
 
    ![存取 Admin Console](../assets/admin-tool.png)
 
-1. 在 [!UICONTROL 快速存取]，按一下 **[!UICONTROL 管理工具]**.
+1. 在[!UICONTROL 快速存取]下，按一下&#x200B;**[!UICONTROL 管理工具]**。
 
    (或者，您可以將首頁 URL 中的 _home_ 取代為 _admin_。)
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者最近登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：** 自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud目前的登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者最近登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud目前的登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -112,7 +112,7 @@ ht-degree: 85%
 您可以搜尋、排序或篩選欄以自訂原則清單。
 
 * 依名稱搜尋產品描述檔。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。此排序適用於 [!UICONTROL 產品設定檔，] [!UICONTROL 產品，] [!UICONTROL 例項，] [!UICONTROL 使用者人數，] 和 [!UICONTROL 開發人員人數，] 欄。
+* 依遞增或遞減值排序欄。此排序適用於[!UICONTROL 產品設定檔、] [!UICONTROL 產品、] [!UICONTROL 執行個體、] [!UICONTROL 使用者人數、]和[!UICONTROL 開發人員人數、]欄。
 * 選取「**[!UICONTROL 篩選器]**」圖示可套用多個篩選器，以列出符合特定條件的產品描述檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
@@ -162,4 +162,4 @@ ht-degree: 85%
 
 ## 相關資訊
 
-* [管理使用者](https://helpx.adobe.com/tw/enterprise/using/users.html) 在 [!DNL Admin Console]
+* 在[!DNL Admin Console]中[管理使用者](https://helpx.adobe.com/tw/enterprise/using/users.html)

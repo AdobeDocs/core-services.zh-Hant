@@ -68,12 +68,12 @@ ht-degree: 94%
 | 新增 | [建立對象](create.md)。 |
 | 標題與說明 | 用來識別和說明對象的欄標題。 |
 | 作者 | 建立對象區段的人。 |
-| 來源 | 識別建立對象的位置。<ul><li>**Analytics：** 在Adobe Analytics中建立區隔，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](create.md)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
+| 來源 | 識別建立對象的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](create.md)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的對象規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
 {style="table-layout:auto"}
 
-## 從Adobe Analytics發佈對象
+## 來自Adobe Analytics的Publish對象
 
-另請參閱 [將區段發佈至Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) 如需詳細資訊，請參閱Adobe Analytics檔案。
+如需詳細資訊，請參閱Adobe Analytics檔案中的[要Experience Cloud的Publish區段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。

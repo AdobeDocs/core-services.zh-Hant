@@ -45,7 +45,7 @@ ht-degree: 94%
 **若要建立對象**
 
 1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]」。**
-1. 在 [!UICONTROL 受眾] 頁面，選取 **[!UICONTROL 新增]**. ![新增](assets/add_icon_small.png)
+1. 在[!UICONTROL 對象]頁面上，選取&#x200B;**[!UICONTROL 新增]**。 ![新增](assets/add_icon_small.png)
 
    ![步驟結果](assets/audience_create_new.png)
 
