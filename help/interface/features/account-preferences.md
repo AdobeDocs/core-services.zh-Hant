@@ -1,16 +1,16 @@
 ---
 title: 帳戶偏好設定和通知
-description: 瞭解Experience Cloud中的使用者設定檔和帳戶偏好設定。 訂閱產品通知並取得產品提醒。
+description: 瞭解Experience Cloud中的使用者設定檔和帳戶偏好設定。 訂閱產品通知並取得產品提醒。 瞭解瀏覽器和語言支援。
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 選取「**[!UICONTROL 通知]**」，以取得相關和可操作更新資訊的提醒，其中包括產品發行版本、維護通知、共用項目及核准請求。
 
 ![通知和公告](../assets/notifications-menu-small.png)
+
+## Experience Cloud 中的瀏覽器支援 {#browser}
+
+為了提供最佳效能，Experience Cloud 已針對最熱門的瀏覽器 (包括最新版本及前兩個版本) 最佳化。
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+如果這裡未列出您使用的瀏覽器，該瀏覽器可能還是有受到支援，但建議您使用這裡列出的其中一個瀏覽器。
+
+>[!NOTE]
+>
+>並非在 Experience Cloud 網域上執行的所有應用程式都可支援所有瀏覽器。 如果您不確定，請查閱特定應用程式的文件。
 
 ## Experience Cloud 中的語言支援 {#languages}
 
