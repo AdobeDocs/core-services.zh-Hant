@@ -2,9 +2,9 @@
 title: Adobe Experience Cloud使用的IP位址
 description: 如果貴組織的防火牆封鎖源自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
+source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 5%
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
 ## 所有AdobeIP位址區塊
 
