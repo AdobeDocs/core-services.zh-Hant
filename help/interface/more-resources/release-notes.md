@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 服務 (例如客戶屬性、對象和使用者管理) 的最新功能、發行說明和已知問題。
+description: 了解 Experience Cloud 服務 (例如客戶屬性、客群和使用者管理) 的最新功能、發行說明和已知問題。
 solution: Experience Cloud
 title: Experience Cloud 介面的累計發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2690962f4b72d26fcde9883bb0bac3d49a9efa1a
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5089'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,10 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
+
+## 2024 年 9 月
+
+您可以設定Experience Cloud[偏好設定](/help\interface\features\account-preferences.md)的Slack通知。
 
 <!-- ## July - August 2023
 
@@ -186,7 +190,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 新增功能標記以控制 Experience Cloud 與 Creative Cloud 之間的資產同步。(CORE - 15938)
 
-* 改善「對象」區段的建立方式，包括更優異的搜尋和清單體驗。(CORE-5833、CORE-14278)
+* 改善「客群」細分群體的建立方式，包括更優異的搜尋和清單體驗。(CORE-5833、CORE-14278)
 * 修正封鎖從 Experience Cloud 到 Creative Cloud 資料夾共用作業的高優先順序問題。(CORE - 16677)
 
 
@@ -207,7 +211,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 更新測試版意見反應，限制可附加至意見反應的檔案類型。(CORE - 10474)
 
-* 修正從對象庫中刪除對象的問題。(CORE - 12792)
+* 修正從客群庫中刪除客群的問題。(CORE - 12792)
 
 * 修正使用 Federated ID 存取 Workspace 連結時導致空白畫面的問題。(CORE - 11620)
 
@@ -246,7 +250,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 |--- |--- |
 | 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>將報表套裝對應至單一組織有助於在Experience Cloud中啟用跨應用程式功能與服務。 |
-| Experience Cloud Audiences 的更新 | **套用報表套裝**<br>&#x200B;您現已可將報表套裝套用至所有[對象規則](../services/audiences/create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時對象中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
+| Experience Cloud Audiences 的更新 | **套用報告套裝**<br>&#x200B;您現已可將報告套裝套用至所有[客群規則](../services/audiences/create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時客群中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
 
 {style="table-layout:auto"}
 
@@ -326,8 +330,8 @@ With this update, administrators may see changes or additions to the Admin Conso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 對象庫訊息 </td> 
-   <td colname="col2"> <p> 我們改善了對象庫，在建立對象和發生逾時問題時提供實用資訊。 </p> <p>例如，新增超過 5 個規則時，系統會顯示訊息，指出您已超出允許的規則數上限。(MAC-27376、MAC-27375) </p> </td> 
+   <td colname="col1"> 客群庫訊息 </td> 
+   <td colname="col2"> <p> 我們改善了客群庫，在建立客群和發生逾時問題時提供實用資訊。 </p> <p>例如，新增超過 5 個規則時，系統會顯示訊息，指出您已超出允許的規則數上限。(MAC-27376、MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -340,14 +344,14 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **已知問題**
 
-* 客戶透過 Experience Cloud 以單一登入 (SSO) 方式登入 Analytics 時，無法登入 Report Builder。此問題不會影響使用舊版 Analytics 憑證的客戶。
+* 客戶透過 Experience Cloud 以單一登入 (SSO) 方式登入 Analytics 時，無法登入 Report Builder。此問題不會影響使用舊版 Analytics 認證的客戶。
 * Analytics 中「連結至報表」功能的已知問題。透過 Experience Cloud 登入 Analytics 的客戶嘗試共用報表時，會被導向至 Analytics 的非 SSO 登入頁面。
 
 ## 2015 年 9 月
 
 * 修正 Audience Manager API 效能問題，此問題造成上傳客戶屬性資料時發生間歇性逾時。(MAC-26305)
 * 修正使用者無法將最多 200 個客戶屬性新增至訂閱的問題。(MAC-26188)
-* 修正無法從 Analytics 區隔共用對象庫的問題。此問題會導致顯示「正在收集資料」(0 個對象)。為避免此問題，Adobe 建議將區段大小維持在每個區段少於 50,000 名對象成員。(MAC-25788)
+* 修正無法從 Analytics 客戶細分共用客群庫的問題。此問題會導致顯示「正在收集資料」(0 個客群)。為避免此問題，Adobe 建議將細分群體大小維持在每個細分群體少於 50,000 名客群成員。(MAC-25788)
 * 修正在「客戶屬性 - 編輯結構」頁面上變更顯示名稱時，造成內容感知錯誤的先前已知問題。(MAC-25589、AN-103834)
 
 ## 2015 年 7 月
@@ -355,7 +359,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 修正「檢視/編輯結構」頁面 (位於客戶屬性中) 上指定的屬性說明無法在 Analytics 報表中更新的問題。(MAC-25985)
 * 修正無法為已上傳的資產呈現縮圖的問題。(MAC-25863)
 * 修正在 Reports &amp; Analytics 中建立的新區段無法用於 Experience Cloud Audiences 的問題。(MAC-25817)
-* 已修正讓適用對象無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
+* 已修正讓適用客群無法在使用訪客 ID 服務時從 Analytic 共用的問題。(MAC-25788、MAC-25747)
 * 新增對客戶屬性中多位元組字元的支援。(MAC-25552)
 
 **已知問題**：一個已知問題導致在Audience Manager中建立重複的自動產生帳號，並自動將其連結到使用者的Experience Cloud身分識別。 如果嘗試在連結帳戶前導覽至 Audience Manager，就會發生此問題。Adobe 建議先將 Audience Manager 帳戶連結至 Experience Cloud，再導覽至 Audience Manager。(MAC-25640)
@@ -375,7 +379,7 @@ With this update, administrators may see changes or additions to the Admin Conso
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>左側導覽選單已更新和妥善排列，可由此存取所有核心服務和應用程式。顯著變更包括： </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">對象庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">對象</span>底下。 </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1"><span class="term">客群庫</span>和<span class="term">客戶屬性</span>功能表選取項目現在位於<span class="term">客群</span>底下。 </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">此 <span class="term">Exchange</span> 功能表選取項目從「說明」下拉式功能表移動至左側導覽邊欄。 </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">解決方案</span>已移除。您可以從導覽邊欄的下半部啟動所有應用程式。 </li> 
     </ul> </td> 
@@ -415,7 +419,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 **已知問題**
 
 * 將動態標記管理組織與 Experience Cloud 連結及取消連結的功能，無法用於新建立的 Experience Cloud 組織。我們正致力於修正此問題，並在 5 月發行版本中恢復正常功能。如果您在嘗試透過 Experience Cloud 以單一登入的方式登入動態標記管理時發生問題，請在 `dtm.adobe.com` 使用舊版登入。
-* 一個已知問題是對象無法分享不屬於已連結 Analytics 帳號的報表套裝。我們積極修正
+* 一個已知問題是客群無法分享不屬於已連結 Analytics 帳號的報告套裝。我們積極修正
 
 ## 2015 年 3 月
 
@@ -429,7 +433,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的對象區段。 </p> <p>請參閱<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客戶屬性</a>產品文件。 </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的客群細分群體。 </p> <p>請參閱<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客戶屬性</a>產品文件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -461,8 +465,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 改善帳戶佈建的使用者電子郵件邀請工作流程。
 * 修正 [!DNL Experience Cloud] 和 [!DNL Adobe Campaign] 資產無法顯示相同資料夾階層的資產資料夾問題。
-* 修正無法刪除隸屬於已停用 [!DNL Target] 活動之對象的問題。
-* 修正「[!UICONTROL 建立新對象]」頁面的「[!UICONTROL 規則]」下方無法顯示「新增」(加號) 圖示的問題。
+* 修正無法刪除隸屬於已停用 [!DNL Target] 活動之客群的問題。
+* 修正「[!UICONTROL 建立新客群]」頁面的「[!UICONTROL 規則]」下方無法顯示「新增」(加號) 圖示的問題。
 * 改善 Internet Explorer 9 的 Experience Cloud 介面支援。
 
 ## 2015 年 1 月
@@ -500,7 +504,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 刪除 Creative Cloud 使用者後，有些使用者無法重新新增該 Creative Cloud 使用者至共用資料夾。
 * 從 Experience Cloud 共用資料夾至 Creative Cloud 時，有些使用者會遇到通知延遲的問題。
 * 有些使用者在 Experience Cloud 和 Creative Cloud 之間共用資料夾時遇到問題。
-* 共用的對象已啟用後，有些使用者無法在 Analytics 報表套裝中建立對象。
+* 共用的客群已啟用後，有些使用者無法在 Analytics 報告套裝中建立客群。
 * 有些使用者無法將資產上傳至展示板。
 
 ## 2014 年 11 月
@@ -630,8 +634,8 @@ With this update, administrators may see changes or additions to the Admin Conso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 「對象」中的<span class="wintitle">儲存</span>按鈕 </p> </td> 
-   <td colname="col2"> <p>現在，當您建立對象時，<span class="wintitle">建立新對象</span>頁面上的<span class="wintitle">儲存</span>按鈕要在您填妥所有必要欄位之後才會停用。 
+   <td colname="col1"> <p> 「客群」中的<span class="wintitle">儲存</span>按鈕 </p> </td> 
+   <td colname="col2"> <p>現在，當您建立客群時，<span class="wintitle">建立新客群</span>頁面上的<span class="wintitle">儲存</span>按鈕要在您填妥所有必要欄位之後才會停用。 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -643,7 +647,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 比起拖放方式，上傳檔案可接受更多檔案類型。為達到最佳效果，請使用 Assets 上傳。
 * 無法從[!UICONTROL 「組織及產品存取」]頁面使用 [!DNL Search&Promote] 連結。
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
-* 某些使用者無法將其對象管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
+* 某些使用者無法將其客群管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
 * 15 分鐘無活動，系統就會將您登出。此外，您從某個位置登出後，系統會將您登出 Experience Cloud。
 * 有些 Exchange 使用者顯示在註解中的名稱是長字串 ID，而非其名稱
 
@@ -666,8 +670,8 @@ With this update, administrators may see changes or additions to the Admin Conso
    <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">說明</span> &gt; <span class="uicontrol">Exchange」</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴展元件的多合一路徑。 </p> <p>應用程式包括 Data Connectors、Adobe 核心產品的設定自訂功能、協力廠商應用程式、報表，以及 <span class="keyword">Experience Cloud</span> 資訊卡。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud 對象 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">對象」</span></p> <p> 您可以使用類似於處理區隔的方式，在<span class="wintitle">「對象」</span>建立、編輯及管理對象。例如，您可以在 Reports &amp; Analytics 中建立區隔，然後共用至 <span class="wintitle">Experience Cloud</span><span class="wintitle">對象</span>。共用後，您便可將對象用於 <span class="keyword">Adobe Target</span> 中的行銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>注意：若要在目標中請求存取啟用，請造訪 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>。 </p> </p> </td> 
+   <td colname="col1"> <p>Experience Cloud 客群 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">「Experience Cloud</span> &gt; <span class="uicontrol">客群」</span></p> <p> 您可以使用類似於處理細分群體的方式，在<span class="wintitle">「客群」</span>建立、編輯及管理客群。例如，您可以在 Reports &amp; Analytics 中建立細分群體，然後共用至 <span class="wintitle">Experience Cloud</span><span class="wintitle">客群</span>。共用後，您便可將對象用於 <span class="keyword">Adobe Target</span> 中的行銷活動以及 Adobe Audience Manager 中的區隔。 </p> <p> <p>注意：若要在目標中請求存取啟用，請造訪 <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -744,7 +748,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * 套用至 [!DNL Analytics] 趨勢報表的篩選器沒有套用至 [!DNL Experience Cloud] 中的卡片。
 * 套用至 Analytics 趨勢報表的篩選器沒有套用至 Experience Cloud 中的卡片。
 * 無法將某些 Excel 或 CSV 檔案上傳到留言板。
-* 某些使用者可能無法將其對象管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
+* 某些使用者可能無法將其客群管理帳戶與 [!DNL Experience Cloud] 帳戶建立連結。
 * 有些使用者在 [!DNL Analytics] 中共用 [!DNL Experience Cloud] 區段時遇到錯誤。
 * 有些使用者無法深入檢視 [!UICONTROL Asset Selector] 的子資料夾。
 * 某些使用者無法分享 [!DNL Experience Cloud] 中的 AdLens 小工具。

@@ -1,23 +1,23 @@
 ---
 description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 了解如何開始使用 Experience Cloud 服務。
 solution: Experience Cloud
-title: Experience Cloud服務快速入門
+title: 開始使用Experience Cloud服務
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 98%
 
 ---
 
-# Experience Cloud服務快速入門
+# 開始使用Experience Cloud服務
 
-如果您最近曾使用 Experience Platform Launch 標記 Experience Cloud，即已完成客戶屬性和 Experience Cloud 受眾的相關設定。您也可以在 Admin Console 中管理使用者和產品。
+如果您最近曾使用 Experience Platform Launch 標記 Experience Cloud，即已完成客戶屬性和 Experience Cloud 客群的相關設定。您也可以在 Admin Console 中管理使用者和產品。
 
 現有客戶可導入最新的應用程式實作並實施 Experience Cloud。 如此一來，您就可以運用 Adobe Analytics、Audience Manager 和 Adobe Target 的所有客戶屬性和對象功能。
 
@@ -61,7 +61,7 @@ Experience Cloud 選單導覽內有 **[!UICONTROL Admin Console]** 連結。
 
 >[!NOTE]
 >
->在企業群組和應用程式群組對應後，新使用者會自動產生連結。 (系統會自動建立解決方案憑證並連結至其 Adobe ID)。
+>在企業群組和應用程式群組對應後，新使用者會自動產生連結。 (系統會自動建立解決方案認證並連結至其 Adobe ID)。
 
 以下各節將說明如何導入最新實作。採用新型實作可啟用 Experience Cloud 中的核心服務。
 
@@ -177,7 +177,7 @@ mbox 請求中的 Experience Cloud ID：
 
 已新增至[!UICONTROL 客戶屬性]群組中的使用者可在 Experience Cloud 左邊看到[!UICONTROL 客戶屬性]功能表項目。
 
-## 開始共用屬性和對象資料 {#section_960C06093623462E8EA247B3E97274A1}
+## 開始共用屬性和客群資料 {#section_960C06093623462E8EA247B3E97274A1}
 
 善用以下核心服務功能。
 
@@ -187,7 +187,7 @@ mbox 請求中的 Experience Cloud ID：
 
 如需詳細資訊，請參閱[客戶屬性](customer-attributes/attributes.md)。
 
-### [!UICONTROL People] > [!UICONTROL 對象庫]
+### [!UICONTROL People] > [!UICONTROL 客群庫]
 
 Experience Cloud [!UICONTROL Audiences] 介面可讓您建立對象、組合現有對象以建立複合對象，以及檢視所有共用對象。
 
@@ -195,13 +195,13 @@ Experience Cloud [!UICONTROL Audiences] 介面可讓您建立對象、組合現�
 
 ## 資料儲存和隱私洩露
 
-如果您利用 Adobe [!DNL Experience Cloud] 中的對象資料即時設定及其他核心服務，則使用這些服務可能會影響您資料所在的資料中心 (和國家/地區)。具體來說，因為 [!DNL Experience Cloud] 使用 Audience Manager，[!UICONTROL People] 服務中使用的資料必須位於美國的 Audience Manager 伺服器。
+如果您利用 Adobe [!DNL Experience Cloud] 中的客群資料即時設定及其他核心服務，則使用這些服務可能會影響您資料所在的資料中心 (和國家/地區)。具體來說，因為 [!DNL Experience Cloud] 使用 Audience Manager，[!UICONTROL People] 服務中使用的資料必須位於美國的 Audience Manager 伺服器。
 
-透過 [!UICONTROL People] 服務使用所提供的服務時，從其他 Adobe 產品傳送至對象管理的資料類型為：
+透過 [!UICONTROL 人員] 服務使用所提供的服務時，從其他 Adobe 產品傳送至客群管理的資料類型為：
 
 * [!DNL Analytics] 金鑰/值配對 (小道具、eVars、清單變數等等)。依預設，記錄行包含 IP 位址，包含 IP 的最後一組八位數 (假設未以 Adobe [!DNL Analytics] 中的 IP 混淆設定修改 IP 位址)。
 * 根據 Audience Manager 中設定的規則，訪客符合資格的特徵和區段。
-* (選用) 您的一或多個 ID。視您實作的 ID 服務而定，您可能也會傳入一或多個 ID，例如 CRM ID 或雜湊的電子郵件地址。若將此資料傳入 Adobe [!DNL Analytics]，則會將其轉移至 Adobe 對象管理。Adobe 不建議您將個人資料提供給 Adobe [!DNL Analytics]。更建議先使用單向雜湊來將資料遮罩，再傳送給 Adobe。
+* (選用) 您的一或多個 ID。視您實作的 ID 服務而定，您可能也會傳入一或多個 ID，例如 CRM ID 或雜湊的電子郵件地址。若將此資料傳入 Adobe [!DNL Analytics]，則會將其轉移至 Adobe 客群管理。Adobe 不建議您將個人資料提供給 Adobe [!DNL Analytics]。更建議先使用單向雜湊來將資料遮罩，再傳送給 Adobe。
 * 透過後端區段分享功能，在 [!DNL Analytics] 中建立的區段
 * 如未封鎖第三方 Cookie，則會設置 demdex.net cookie。`AMCV_###@AdobeOrg` 第一方 Cookie 一律以 Experience Cloud ID Service 設定。
 

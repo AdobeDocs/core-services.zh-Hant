@@ -1,7 +1,7 @@
 ---
 description: 瞭解如何設定安全憑證以與Adobe Experience Cloud第一方Cookie搭配使用。
 solution: Experience Cloud,Analytics
-title: Adobe 託管的憑證計劃
+title: Adobe 託管的證書計劃
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 4%
@@ -105,7 +105,7 @@ Aliases: smetrics.example.com
 >
 >如果您組織的CNAME記錄已移除或不再對應至提供的Adobe安全主機名稱，Adobe將無法更新憑證。 Adobe系統中的專案會標示為移除，而不需進一步通訊。
 
-## 常見問答
+## 常見問題
 
 +++此程式是否安全？
 

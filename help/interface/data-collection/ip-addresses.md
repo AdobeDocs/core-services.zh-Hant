@@ -1,15 +1,15 @@
 ---
-title: Adobe Experience Cloud使用的IP位址
+title: Experience Cloud使用的IP位址
 description: 如果貴組織的防火牆封鎖源自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
 
-# Adobe Experience Cloud使用的IP位址
+# Experience Cloud使用的IP位址
 
 有些防火牆設定會封鎖來自Adobe的資料收集伺服器或負責存取資料的伺服器之IP位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統(例如Adobe Analytics中的資料摘要)。
 

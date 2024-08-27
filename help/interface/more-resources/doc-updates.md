@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud 說明的更新資訊。
+description: Experience Cloud說明的更新資訊。
 solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 82%
+source-wordcount: '545'
+ht-degree: 80%
 
 ---
 
@@ -114,7 +114,7 @@ Experience Cloud產品檔案的更新資訊。
 
 **2017年3月15日**
 
-更新[建立對象](../services/audiences/create.md)中原始 Analytics 資料的定義。
+更新[建立客群](../services/audiences/create.md)中原始 Analytics 資料的定義。
 
 **2016年5月9日**
 
