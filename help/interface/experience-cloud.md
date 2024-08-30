@@ -1,6 +1,6 @@
 ---
-description: 了解關於 Experience Cloud 中央介面元件。取得Admin Console中使用者和產品管理的說明，並啟用Experience Cloud服務的應用程式。 取得對象庫、客戶屬性、Experience CloudAssets等的說明。
-title: Experience Cloud介面檔案
+description: 了解關於 Experience Cloud 中央介面元件。在 Admin Console 中取得使用者和產品管理說明，啟用 Experience Cloud 服務的應用程式。取得客群庫、客戶屬性、Experience Cloud 資產等說明。
+title: Experience Cloud 介面文件
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
