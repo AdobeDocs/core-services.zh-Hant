@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2227bc64f5f294692df5c3c1419a5e376f0d136
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '5078'
+source-wordcount: '5109'
 ht-degree: 96%
 
 ---
@@ -24,9 +24,13 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
-<!-- ## September 2024
+## 2024年9月2日
 
-You can configure Slack notifications for Experience Cloud. -->
+| 功能 | 說明 |
+| -----------| ---------- |
+| Slack通知 | 您可以設定帳戶偏好設定，以傳送Experience Cloud通知給Slack。 如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
+
+請參閱[Experience Cloud管理工具](../administration/admin-tool-experience-cloud.md)
 
 <!-- ## July - August 2023
 

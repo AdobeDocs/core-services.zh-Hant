@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 81%
+source-wordcount: '529'
+ht-degree: 69%
 
 ---
 
@@ -45,34 +45,33 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 ![通知和公告](../assets/notifications-menu-small.png)
 
-<!-- ## [!DNL Slack] notifications
+## [!DNL Slack] 通知
 
-Releasing: **September 2, 2024**
+發行日期： **2024年9月2日**
 
-You can configure your account preferences to send Experience Cloud notifications to Slack.
+您可以設定帳戶偏好設定，以傳送Experience Cloud通知給Slack。
 
-**Prerequisites**
+**先決條件**
 
-* You must have an Experience Cloud account
-* You must have a [!DNL Slack] account
-* You must be a part of at least one [!DNL Slack] workspace
+* 您必須擁有Experience Cloud帳戶
+* 您必須擁有[!DNL Slack]帳戶
+* 您必須是至少一個[!DNL Slack]工作區的一部分
 
-### To configure Slack notifications
+### 設定Slack通知
 
-1. Sign in to Experience Cloud.
+1. 登入 Experience Cloud。
 
-1. Click your account icon, then click **[!UICONTROL Preferences]**.
+1. 按一下您的帳戶圖示，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
 
-1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+1. 在[!DNL Slack]底下，按一下&#x200B;**[!UICONTROL 新增至Slack]**。
 
-1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+1. 當[!DNL Slack]開啟時，按一下&#x200B;**[!UICONTROL 允許]**。
 
-1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+1. 在Experience Cloud偏好設定中，瀏覽至&#x200B;**[!UICONTROL 通知]**。
 
-   [Slack notifications](../assets/slack.png)
+[Slack通知](../assets/slack.png)
 
-1. Enable [!DNL Slack] notifications for your desired products and categories.
- -->
+1. 啟用所需產品和類別的[!DNL Slack]通知。
 
 ## Experience Cloud 中的瀏覽器支援 {#browser}
 
