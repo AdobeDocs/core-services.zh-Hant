@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: df6bff60d4eb2cac74bc83546affa9c6b212d76e
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 69%
@@ -69,7 +69,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳
 
 1. 在Experience Cloud偏好設定中，瀏覽至&#x200B;**[!UICONTROL 通知]**。
 
-[Slack通知](../assets/slack.png)
+   ![Slack通知](../assets/slack.png)
 
 1. 啟用所需產品和類別的[!DNL Slack]通知。
 
