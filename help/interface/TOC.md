@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 介面與管理指南
 breadcrumb-title: Experience Cloud 介面與管理指南
 title: Experience Cloud 介面與管理指南
-description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、對象庫、Cookie，以及共用 Experience Cloud 資產。
+description: 了解 Experience Cloud 介面和使用者帳戶偏好設定。了解如何搜尋商業物件，以及管理使用者和產品。設定客戶屬性、客群庫、Cookie，以及共用 Experience Cloud 資產。
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
       + [將資產上傳到共用資料夾](services/assets/upload.md)
       + [針對共用的資產檔案需求](services/assets/file-reqs.md)
       + [共用資料夾的行為](services/assets/behavior.md)
-   + 對象庫{#audiences}
+   + 客群庫{#audiences}
       + [概觀](services/audiences/overview.md)
-      + [建立對象](services/audiences/create.md)
+      + [建立客群](services/audiences/create.md)
    + [Exchange](services/exchange.md)
    + 客戶屬性 {#customer-attributes}
       + [概觀](services/customer-attributes/attributes.md)
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [觸發器](services/triggers.md)
 
 + 功能 {#features}
-   + [帳戶偏好設定](features/account-preferences.md)
+   + [通知和帳戶偏好設定](features/account-preferences.md)
    + [整合式搜尋](features/search.md)
    + [個人化學習](features/personalized-learning.md)
+   + [瀏覽器和語言支援](browser-language.md)
 
 + 管理 {#administration}
    + [檢視使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
    + [組織和帳戶綁定](administration/organizations.md)
-   + [整合](administration/integrations.md)
+   + [Experience Cloud 整合](administration/integrations.md)
 
 + 資料彙集 {#data-collection}
    + [Adobe 託管的憑證計劃](data-collection/adobe-managed-cert.md)
