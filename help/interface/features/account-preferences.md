@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 22%
+source-wordcount: '677'
+ht-degree: 21%
 
 ---
 
@@ -73,27 +73,15 @@ Experience Cloud[偏好設定](https://experience.adobe.com/preferences)包含�
 
 **訂閱Slack通知**
 
-1. 瀏覽至Experience Cloud[偏好設定](https://experience.adobe.com/preferences)
+1. 瀏覽至Experience Cloud[偏好設定](https://experience.adobe.com/preferences)。
 
 1. 找到[!DNL Slack]，然後按一下&#x200B;**[!UICONTROL 新增至Slack]**。
 
    ![新增至Slack](../assets/add-to-slack.png)
 
-   如果已安裝[!DNL Slack]，應用程式會開啟並顯示許可權要求訊息。
+   如果已安裝[!DNL Slack]，應用程式會開啟並顯示許可權要求訊息。 如果未安裝Slack，您必須[要求許可權](#slack-troubleshoot)。
 
-   * 按一下&#x200B;**[!UICONTROL 允許]**。
-
-   如果未安裝[!DNL Slack]，則會顯示&#x200B;_要求安裝_&#x200B;訊息：
-
-   ![要求Slack整合](../assets/slack-request.png)
-
-   * 在Slack中，從應用程式的右上角選擇工作區。
-
-   * 若要要求Slack工作區管理員的申請核准，請按一下&#x200B;**[!UICONTROL 提交]**。
-
-   * 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
-
-   * 收到[!DNL Slack]核准之後，請返回Experience Cloud **[!UICONTROL 通知]**，然後按一下&#x200B;**[!UICONTROL 新增至Slack]**。
+1. 按一下&#x200B;**[!UICONTROL 允許]**。
 
 1. 在&#x200B;**[!UICONTROL 通知]**&#x200B;底下，啟用您所需產品和類別的[!DNL Slack]通知。
 
@@ -101,9 +89,25 @@ Experience Cloud[偏好設定](https://experience.adobe.com/preferences)包含�
 
    通知的更新會自動儲存。
 
+### 在Slack中要求許可權 {#slack-troubleshoot}
+
+如果未安裝[!DNL Slack]，當您按一下&#x200B;**[!UICONTROL 新增至Slack]**&#x200B;後，Slack開啟時，會顯示&#x200B;_要求安裝_&#x200B;訊息。
+
+![要求Slack整合](../assets/slack-request.png)
+
+**在Slack**&#x200B;中要求許可權
+
+1. 在Slack中，從應用程式的右上角選擇工作區。
+
+1. 若要要求Slack工作區管理員的申請核准，請按一下&#x200B;**[!UICONTROL 提交]**。
+
+1. 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
+
+1. 收到[!DNL Slack]核准後，請返回Experience Cloud **[!UICONTROL 通知]**&#x200B;和[訂閱Slack](#slack-notifications) （如上所述）。
+
 ### 您將在[!DNL Slack]中看到的內容
 
-Slack通知會顯示下列資訊：
+成功整合Slack後，Slack通知會顯示下列資訊：
 
 * 將會從應用程式名稱&#x200B;_Adobe Experience Cloud_&#x200B;接收個人訊息。
 * 此訊息包含特定應用程式(例如Adobe Experience Platform、Adobe Experience Manager等)的產品標誌。
