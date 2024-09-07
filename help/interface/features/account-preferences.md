@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 21%
@@ -91,7 +91,7 @@ Experience Cloud[偏好設定](https://experience.adobe.com/preferences)包含�
 
 ### 在Slack中要求許可權 {#slack-troubleshoot}
 
-如果未安裝[!DNL Slack]，當您按一下&#x200B;**[!UICONTROL 新增至Slack]**&#x200B;後，Slack開啟時，會顯示&#x200B;_要求安裝_&#x200B;訊息。
+如果未安裝[!DNL Slack]，當您按一下&#x200B;**[!UICONTROL 新增至Slack]**&#x200B;後，Slack開啟時，會顯示&#x200B;_[!UICONTROL 要求安裝]_&#x200B;訊息。
 
 ![要求Slack整合](../assets/slack-request.png)
 
