@@ -7,16 +7,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '636'
 ht-degree: 8%
 
 ---
 
 # 帳戶偏好設定和通知 {#preferences}
 
-若要尋找Experience Cloud偏好設定，請按一下您的&#x200B;**[!UICONTROL 使用者帳戶]** ![偏好設定](../assets/preferences-icon-sm.png)圖示，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
+若要尋找Experience Cloud偏好設定，請按一下標題中的&#x200B;**[!UICONTROL 使用者帳戶]** ![偏好設定](../assets/preferences-icon-sm.png)圖示，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
+
+![偏好設定](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 在[!UICONTROL Experience Cloud偏好設定]頁面上，您可以管理下列帳戶功能：
 
