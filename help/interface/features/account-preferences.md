@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # 帳戶偏好設定和通知 {#preferences}
 
-Experience Cloud[偏好設定](https://experience.adobe.com/preferences)包含通知（應用程式內、電子郵件和[!DNL Slack]）、訂閱和警示。
+若要尋找Experience Cloud偏好設定，請按一下您的&#x200B;**[!UICONTROL 使用者帳戶]** ![偏好設定](../assets/preferences-icon-sm.png)圖示，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
 
-在偏好設定中，您可以：
-
-* 搜尋[組織](../administration/organizations.md)
-* 指定深色主題（並非所有應用程式都支援此主題）。
-* 設定使用者的帳戶偏好設定、通知和訂閱。
-* 登出Experience Cloud。
-
-## 管理偏好設定
-
-若要管理偏好設定，從您的帳戶選單選取「**[!UICONTROL 偏好設定]**」 ![偏好設定](../assets/preferences-icon-sm.png)。
-
-您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
+在[!UICONTROL Experience Cloud偏好設定]頁面上，您可以管理下列帳戶功能：
 
 | 功能 | 說明 |
 |--- |--- |
-| 預設[組織](../administration/organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
+| 輪廓 | 更新您的[Adobe帳戶設定檔](https://account.adobe.com/tw/profile)。 <p>當您登入Adobe.com、Adobe產品和服務以及公開網站（例如[!DNL Behance]）時，您的設定檔像片和名稱就會出現。 |
+| 一般 | 選取[組織](../administration/organizations.md)。<p>此組織是您登入Experience Cloud時使用的預設組織。 |
 | [!UICONTROL 產品資料收集] | 選擇 Adobe 可以使用哪些技術來收集有關您如何使用 Adobe 產品的資料。 |
-| [通知](#notifications-and-announcements) | 啟用[!UICONTROL 應用程式內]、[!UICONTROL 電子郵件]或[Slack](#slack-notifications)通知。 |
+| 通知 | 設定您想要產品[通知](#subscribe-to-notifications-in-experience-cloud)和警示的方式和時間： <ul><li>選取您要訂閱警示的產品</li><li>設定通知型別([!UICONTROL 應用程式內]、[!UICONTROL 電子郵件]或[Slack](#slack-notifications))</li><li>指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。)</li><li>決定警示優先順序。 應用程式內警報會在視窗的右上角出現幾秒鐘。 或者，您可以指定警示是否顯示，直到您將其關閉為止。</li></ul> |
 | [!UICONTROL 個人化學習推薦和促銷] | 選取您要接收Adobe產品[個人化說明](personalized-learning.md)的位置。 此說明可透過電子郵件、產品內和Experience League社群取得。 |
-| [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 [!UICONTROL 通知]彈出視窗和電子郵件中的通知。 |
-| [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別標示有[!UICONTROL 高]標籤，並且可以設定為像警示一樣遞送。 |
-| [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
-| 電子郵件 | 指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。) |
 
 ## 訂閱Experience Cloud中的通知 {#notifications}
 

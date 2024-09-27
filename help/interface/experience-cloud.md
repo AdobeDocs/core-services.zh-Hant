@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 在 Experience Cloud 標題中，您可以：
 
-* 存取您的應用程式和服務
+* 存取您的所有Experience Cloud應用程式和服務
 * 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
-* 管理您的帳戶偏好設定 (警示、通知和訂閱)
+* 管理您的帳戶[偏好設定](features/account-preferences.md) （警示、通知和訂閱）
 
 ## 登入 Experience Cloud {#signin}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
    **確認您的組織**
 
-   若要確認您已登入正確的[組織](administration/organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
+   若要確認您已登入正確的[組織](administration/organizations.md)，請按一下您的輪廓頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
@@ -68,35 +68,21 @@ ht-degree: 100%
 * **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
 * **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
 
-## 使用者個人資料和帳戶偏好設定 {#preferences}
+## 管理您的使用者設定檔
 
-Experience Cloud 偏好設定包括通知、訂閱和警示。您可以在「帳戶偏好設定」選單中進行以下操作：
+在使用者設定檔功能表中，您可以：
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
-* 搜尋[組織](administration/organizations.md)
+* 管理 Experience Cloud [偏好設定](features/account-preferences.md)
+* 選取或搜尋[組織](administration/organizations.md)
+* 檢視[!UICONTROL 法律注意事項]
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-若要管理偏好設定，從您的帳戶選單選取「**[!UICONTROL 偏好設定]**」 ![偏好設定](assets/preferences-icon-sm.png)。
+## 檢視產品內通知和公告 {#notifications}
 
-![使用者個人資料和帳戶偏好設定](assets/preferences-page.png)
-
-您可以在「[!UICONTROL Experience Cloud 偏好設定]」上設定以下功能：
-
-| 功能 | 說明 |
-|--- |--- |
-| 預設[組織](administration/organizations.md) | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
-| [!UICONTROL 產品資料收集] | 選擇 Adobe 可以使用哪些技術來收集有關您如何使用 Adobe 產品的資料。 |
-| [!UICONTROL 個人化學習推薦和促銷] | 選擇您想要在哪裡收到有關您 Adobe 產品的個人化幫助。這類幫助可透過電子郵件、在產品內和在 Experience League 社群中取得。[了解更多。](features/personalized-learning.md) |
-| [!UICONTROL 訂閱] | 選取您想要訂閱的產品和類別。 您的電子郵件中的「[!UICONTROL 通知]」快顯視窗中的通知。 |
-| [!UICONTROL 優先順序] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標記標記，而且可以設定為像警示一樣遞送。 |
-| [!UICONTROL 警示] | 選取您想要看到警示顯示在瀏覽器的通知。 警示會出現在視窗的右上角幾秒鐘。 |
-| 電子郵件 | 指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。) |
-
-{style="table-layout:auto"}
-
-## 通知和公告 {#notifications}
-
-選取「**[!UICONTROL 通知]**」，以取得相關和可操作更新資訊的提醒，其中包括產品發行版本、維護通知、共用項目及核准請求。
+按一下鈴鐺圖示可檢視通知和公告。 公告可以是相關且可操作的更新，包括產品版本、維護通知、共用專案及核准請求。
 
 ![通知和公告](assets/notifications-menu-small.png)
+
+若要管理通知和警示，請參閱[帳戶偏好設定和通知](features/account-preferences.md)
