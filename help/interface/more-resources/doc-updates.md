@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 80%
+source-wordcount: '557'
+ht-degree: 79%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 80%
 
 Experience Cloud產品檔案的更新資訊。
 
-<!-- **9 September 2024**
+**2024年9月**
 
-Added help about [subscribing to Slack notifications](../features/account-preferences.md#subscribe-to-slack-notifications). -->
+新增有關[訂閱Slack通知](../features/account-preferences.md#subscribe-to-slack-notifications)的說明。
+
+已更新[使用者偏好設定](../features/account-preferences.md)。
 
 **2024年4月26日**
 
@@ -46,7 +48,7 @@ Added help about [subscribing to Slack notifications](../features/account-prefer
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 

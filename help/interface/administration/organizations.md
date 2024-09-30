@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 64%
 
 ![Experience Cloud組織](../assets/organizations-menu.png)
 
-若要確認您已登入正確的組織，請按一下您的個人資料頭像，以檢視組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
+若要確認您已登入正確的組織，請按一下[設定檔] **[!UICONTROL 檢視預設組織名稱。]**&#x200B;如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ ht-degree: 64%
 
 ## 檢視您的組織ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-您可以找到指派的組織ID以方便支援。 您可以使用「**[!UICONTROL 組織]**」選單來確認自己所在的組織是否正確，或者切換組織。
+您可以找到指派的組織ID以方便支援。 您可以使用標頭中的&#x200B;**[!UICONTROL 組織]**&#x200B;選取器，確認自己所在的組織是否正確，或者切換組織。
 
 組織 ID 是與已佈建 Experience Cloud 公司相關聯的 ID。此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
@@ -65,31 +65,30 @@ ht-degree: 64%
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
 
-1. 選取應用程式選擇器。 （![功能表](../assets/menu-icon.png)）。
+1. 按一下&#x200B;**[!UICONTROL 應用程式選擇器]**。 （![功能表](../assets/menu-icon.png)）。
 
    ![將應用程式帳戶連結至 Adobe ID](../assets/solutions-active.png)
 
    系統會將您有權存取的應用程式標上顏色。
 
-1. 選取所需的應用程式。
+1. 按一下所需的應用程式。
 
-   ![選取所需的應用程式](../assets/analytics-link-accounts.png)
+   ![按一下您的應用程式](../assets/analytics-link-accounts.png)
 
    如果您隸屬於適當的群組 (並擁有應用程式的權限)，但尚未將帳戶認證與 Adobe ID 綁定，系統就會顯示這類訊息。
 
-1. 選取「**[!UICONTROL 連結帳戶]**」，然後提供您的認證。
+1. 按一下&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的認證。
 
-## 指定預設機構和登陸頁面 {#concept_6A191B42A9874A9780882903BA18F071}
+## 指定預設組織 {#concept_6A191B42A9874A9780882903BA18F071}
 
-您可指定在登入時使用的預設組織和登陸頁面。
+您可以指定登入時使用的預設組織。
 
-在您的個人資料中，選取「**[!UICONTROL 編輯個人資料]**」。
+1. 在標題中，按一下&#x200B;**[!UICONTROL 設定檔]**，然後按一下「偏好設定」。
 
-![編輯個人資料](../assets/edit-profile.png)
+1. 在[!UICONTROL 一般]下，選取預設組織。
 
-在&#x200B;**[!UICONTROL 預設組織和登陸頁面]**&#x200B;下，您可以自訂登入體驗。
 
-![預設組織和登陸頁面](../assets/default-organization.png)
+![編輯輪廓](../assets/edit-profile.png)
 
 ## 帳戶連結問題疑難排解 {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

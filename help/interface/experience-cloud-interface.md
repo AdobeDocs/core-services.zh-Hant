@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ca98d86c3559bf82c33c4fa3c7ec04bde26f1d8
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 96%
+source-wordcount: '724'
+ht-degree: 91%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
    ![確認您的組織](assets/organizations-menu.png)
 
-   若要確認您已登入正確的[組織](organizations.md)，請按一下您的個人資料頭像，以查看組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換到其他組織。
+   若要確認您已登入正確的[組織](organizations.md)，請按一下&#x200B;**[!UICONTROL 設定檔]**&#x200B;以檢視組織名稱。 如果您擁有多個組織的存取權，也可以使用&#x200B;**[!UICONTROL 組織]**&#x200B;選擇器檢視並切換至另一個組織。
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 

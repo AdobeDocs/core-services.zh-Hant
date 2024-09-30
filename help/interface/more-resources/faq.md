@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 69%
+source-wordcount: '700'
+ht-degree: 67%
 
 ---
 
@@ -87,7 +87,13 @@ Experience Cloud 中的佈建意思是：
 
 +++
 
-+++我該如何管理使用者和產品設定檔？
++++我該如何管理使用者偏好設定、通知和警示？
+
+* 檢視[帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
+
++++
+
++++我該如何管理產品設定檔和使用者帳戶認證？
 
 * 如需協助，請參閱 [Admin Console 使用手冊](https://helpx.adobe.com/tw/enterprise/admin-guide.html)。
 
