@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 77%
 
 在 Experience Cloud 標題中，您可以：
 
-* 存取您的所有Experience Cloud應用程式和服務
+* 存取您所有的 Experience Cloud 應用程式和服務
 * 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
-* 管理您的帳戶[偏好設定](features/account-preferences.md) （警示、通知和訂閱）
+* 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
 
 ## 登入 Experience Cloud {#signin}
 
@@ -74,15 +74,15 @@ ht-degree: 77%
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
 * 管理 Experience Cloud [偏好設定](features/account-preferences.md)
-* 選取或搜尋[組織](administration/organizations.md)
+* 選取或搜尋「[組織](administration/organizations.md)」
 * 檢視[!UICONTROL 法律注意事項]
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-## 檢視產品內通知和公告 {#notifications}
+## 檢視產品通知及公告 {#notifications}
 
-按一下鈴鐺圖示可檢視通知和公告。 公告可以是相關且可操作的更新，包括產品版本、維護通知、共用專案及核准請求。
+按一下鈴鐺圖示，檢視通知和公告。公告內容可能是提供相關和可操作的更新資訊，其中包括產品發行版本、維護通知、共用項目及核准請求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
-若要管理通知和警示，請參閱[帳戶偏好設定和通知](features/account-preferences.md)
+若要管理通知和提醒，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
