@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 91%
 
    **確認您的組織**
 
-   [組織](administration/organizations.md)會顯示在介面標題中。
+   [組織](administration/organizations.md)顯示在介面標題中。
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
@@ -57,7 +57,7 @@ ht-degree: 91%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL 說明中心]** （![資產](assets/help-icon.png)）來存取學習和說明，包括[Experience League](https://experienceleague.adobe.com/#home)上的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
+使用標題中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見並建立有優先權的支援票證。
 
 ![取得說明和支援](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ ht-degree: 91%
 
 ## 管理您的使用者設定檔
 
-在[!UICONTROL 設定檔]功能表中，您可以：
+在[!UICONTROL 設定檔]選單中，您可以：
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
 * 管理 Experience Cloud [偏好設定](features/account-preferences.md)
