@@ -1,6 +1,6 @@
 ---
 title: 帳戶偏好設定和通知
-description: 瞭解Experience Cloud中的使用者設定檔和帳戶偏好設定。 訂閱電子郵件和 [!DNL Slack]的產品通知，並設定產品警示。
+description: 了解 Experience Cloud 中的使用者設定檔和帳戶偏好設定。訂閱電子郵件和 [!DNL Slack]的產品通知，並設定產品警示。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
