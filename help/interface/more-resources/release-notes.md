@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,17 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
+## 2024年10月2日
+
+| 功能 | 說明 |
+| -----------| ---------- |
+| 可自訂首頁 | 在Experience Cloud登入頁面上，按一下&#x200B;**[!UICONTROL 編輯]**。 [!UICONTROL 編輯]模式可讓您透過存取Widget資料庫和自訂背景來個人化Experience Cloud首頁。 [!UICONTROL 編輯]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
+
 ## 2024年9月10日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Slack通知 | 您可以設定帳戶偏好設定，以傳送Experience Cloud通知給Slack。 如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
+| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
 
 <!-- ## July - August 2023
 
@@ -89,7 +95,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
@@ -158,7 +164,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **修正**
 
-* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他個人資料狀態。(MCUI-10231)
+* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他輪廓狀態。(MCUI-10231)
 * **觸發核心服務：**&#x200B;由於鮮少使用，建立「放棄」類型觸發時的傾向分數「30 天內回訪的可能性」現已移除。(MCUI-10056)
 
 ## 2020 年 1 月
@@ -260,7 +266,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 |--- |--- |
-| 個人資料與密碼更新 | 使用者無法再到「編輯個人資料 > 個人資料和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分類型 (Adobe ID、Enterprise 及 Federated)。 |
+| 輪廓與密碼更新 | 使用者無法再到「編輯輪廓 > 輪廓和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分類型 (Adobe ID、Enterprise 及 Federated)。 |
 
 {style="table-layout:auto"}
 
@@ -435,7 +441,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>客戶屬性 </p> </td> 
-   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客個人資料</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的客群細分群體。 </p> <p>請參閱<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客戶屬性</a>產品文件。 </p> </td> 
+   <td colname="col2"> <p>如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，則可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。上傳資料後，您可以在 Analytics 中執行<span class="uicontrol">「訪客輪廓</span> &gt;<span class="uicontrol"> 客戶屬性」</span>報告。 </p> <p>也可以使用上傳的資料做為 <span class="keyword">Adobe Target</span> 中的客群細分群體。 </p> <p>請參閱<a href="../services/customer-attributes/attributes.md" format="dita" scope="local">客戶屬性</a>產品文件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
