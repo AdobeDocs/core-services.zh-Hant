@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 43%
+source-wordcount: '244'
+ht-degree: 45%
 
 ---
 
@@ -32,9 +32,28 @@ ht-degree: 43%
 
 ## Experience Cloud 中的語言支援 {#languages}
 
-Experience Cloud支援每個使用者偏好的語言，以及次要語言。
+Experience Cloud使用者介面提供下列語言版本：
 
-若要檢視支援的語言：
+* 英文 (美國)
+* 法文 (法國)
+* 德文 (德國)
+* 義大利文 (義大利)
+* 西班牙文 (西班牙)
+* 葡萄牙文 (巴西)
+* 日文
+* 韓文
+* 繁體中文
+* 簡體中文
+
+此外，特定地區設定的格式（例如日期、時間、行事曆、數字）也可能以使用者介面支援的語言變體提供：
+
+* 英文 (以色列)
+* 英文 (英國)
+* 西班牙文 (墨西哥)
+* 西班牙文 (拉丁美洲)
+* 法文 (加拿大)
+
+**若要指定預設語言**
 
 1. 在Experience Cloud中，按一下&#x200B;**[!UICONTROL 設定檔]** > [偏好設定](https://experience.adobe.com/preferences)。
 
@@ -42,6 +61,6 @@ Experience Cloud支援每個使用者偏好的語言，以及次要語言。
 
 1. 在&#x200B;**[!UICONTROL 選取語言]**&#x200B;上，從&#x200B;**[!UICONTROL 第一語言]**&#x200B;功能表選取語言。
 
-   雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都有提供上述所有語言版本。 如果Experience Cloud應用程式不支援您的主要語言，您也可以將次要語言設定為預設語言（如適用）。
+   雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以介面中列出的所有語言提供。 如果Experience Cloud應用程式不支援您的主要語言，您可以設定次要預設語言（如適用）。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
