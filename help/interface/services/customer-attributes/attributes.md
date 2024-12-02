@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Customer Attributes]"
+title: '[!DNL Customer Attributes]'
 description: 了解 Experience Cloud 中的  [!DNL Customer Attributes] 。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes

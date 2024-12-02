@@ -1,5 +1,5 @@
 ---
-title: 「[!DNL Customer Attributes]支援一般資料保護規範」
+title: 一般資料保護規範的[!DNL Customer Attributes]支援
 description: 了解一般資料保護規範的客戶屬性支援
 feature: Customer Attributes
 topic: Administration
@@ -9,7 +9,7 @@ exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
 
    * [組織 ID](../../administration/organizations.md)
    * 您要對其採取動作之 CRS 資料來源的別名 ID
-   * 您要對其採取動作之個人資料的 CRM ID
+   * 您要對其採取動作之輪廓的 CRM ID
 
    您的[組織 ID](../../administration/organizations.md) 是 24 個字元的英數字串，後面接著 @AdobeOrg。您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
