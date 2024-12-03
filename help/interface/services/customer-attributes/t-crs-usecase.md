@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 84%
+source-wordcount: '1102'
+ht-degree: 77%
 
 ---
 
@@ -71,11 +71,15 @@ ht-degree: 84%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名 ID] 是用於客戶屬性來源代碼的唯一 ID。此 ID 應是唯一、小寫、無空格。針對Experience Cloud中的客戶屬性來源在[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入)。
+   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名ID]是用於[!UICONTROL 客戶屬性Source]程式碼的唯一識別碼。 此 ID 應是唯一、小寫、無空格。針對Experience Cloud中的客戶屬性來源在[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入)。
+
+     >[!IMPORTANT]
+     >
+     >刪除與別名ID相關聯的資料來源時，不會使該別名ID可用，因為別名ID會儲存在多個服務中，並用於對應多個服務之間的設定檔。
 
      別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
-      * **Dynamic Tag Management：**&#x200B;別名 ID 對應於 [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 工具中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **標籤：**&#x200B;別名ID對應至[Experience CloudID服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)工具中[!UICONTROL 客戶設定]下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客 API：**&#x200B;別名 ID 對應於您可與每位訪客建立關聯的其他[客戶 ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
@@ -99,7 +103,7 @@ ht-degree: 84%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以了解別名 ID 欄位和客戶 ID 的資料處理相關資訊。
 
-   * **[!UICONTROL 檔案上傳：]**&#x200B;您可以拖放 `.csv` 資料檔案，或透過 FTP 上傳資料(使用 FTP 還需要 `.fin` 檔案)。請參閱[透過 FTP 上傳資料](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
+   * **[!UICONTROL 檔案上傳：]**&#x200B;您可以拖放 `.csv` 資料檔案，或透過 FTP 上傳資料（使用FTP還需要`.fin`檔案）。 請參閱[透過FTP上傳資料](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)。
 
      >[!IMPORTANT]
      >
@@ -157,8 +161,8 @@ ht-degree: 84%
 
 ## 在 Adobe Target 中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-在 [!DNL Target] 中，您可在建立對象時，從[!UICONTROL 訪客資料]區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 `crs.`。您可視需求將這些屬性與其他資料屬性結合，以建立對象。
+在 [!DNL Target] 中，您可在建立客群時，從[!UICONTROL 「訪客輪廓」]區段選取客戶屬性。清單中的所有客戶屬性都會具備字首 `crs.`。您可視需求將這些屬性與其他資料屬性結合，以建立客群。
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
+請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
