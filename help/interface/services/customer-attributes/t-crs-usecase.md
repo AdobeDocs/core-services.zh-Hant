@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -75,7 +75,7 @@ ht-degree: 77%
 
      >[!IMPORTANT]
      >
-     >刪除與別名ID相關聯的資料來源時，不會使該別名ID可用，因為別名ID會儲存在多個服務中，並用於對應多個服務之間的設定檔。
+     >刪除與別名ID相關聯的資料來源時，別名ID將無法使用，因為別名ID會儲存在多個服務中，並用於在多個服務之間對應設定檔。
 
      別名 ID 會對應於您設定其他客戶 ID 值的特定區域。例如：
 
