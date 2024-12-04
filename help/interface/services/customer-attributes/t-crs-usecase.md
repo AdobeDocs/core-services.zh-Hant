@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
+source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -108,7 +108,6 @@ ht-degree: 77%
      >[!IMPORTANT]
      >
      >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
-
 
      上傳檔案後，表格資料會顯示在此頁面上的[!UICONTROL 檔案上傳]標題底下。您可以驗證結構、設定訂閱或設定 FTP。
 
