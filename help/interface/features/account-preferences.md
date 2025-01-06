@@ -1,16 +1,16 @@
 ---
 title: 帳戶偏好設定和通知
-description: 了解 Experience Cloud 中的使用者設定檔和帳戶偏好設定。訂閱電子郵件和 [!DNL Slack]的產品通知，並設定產品警示。
+description: 瞭解Experience Cloud中的使用者設定檔、帳戶偏好設定和產品使用資料。 訂閱電子郵件和 [!DNL Slack]的產品通知，並設定產品警示。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,23 @@ ht-degree: 10%
 
 | 功能 | 說明 |
 |--- |--- |
-| 輪廓 | 更新您的[Adobe帳戶設定檔](https://account.adobe.com/tw/profile)。 <p>當您登入Adobe.com、Adobe產品和服務以及公開網站（例如[!DNL Behance]）時，您的設定檔像片和名稱就會出現。 |
-| 一般 | 選取[組織](../administration/organizations.md)。<p>此組織是您登入Experience Cloud時使用的預設組織。 |
-| [!UICONTROL 產品資料收集] | 選擇 Adobe 可以使用哪些技術來收集有關您如何使用 Adobe 產品的資料。 |
-| 通知 | 設定您想要產品[通知](#subscribe-to-notifications-in-experience-cloud)和警示的方式和時間： <ul><li>選取您要訂閱警示的產品</li><li>設定通知型別([!UICONTROL 應用程式內]、[!UICONTROL 電子郵件]或[Slack](#slack-notifications))</li><li>指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。)</li><li>決定警示優先順序。 應用程式內警報會在視窗的右上角出現幾秒鐘。 或者，您可以指定警示是否顯示，直到您將其關閉為止。</li></ul> |
-| [!UICONTROL 個人化學習推薦和促銷] | 選取您要接收Adobe產品[個人化說明](personalized-learning.md)的位置。 此說明可透過電子郵件、產品內和Experience League社群取得。 |
+| [!UICONTROL 輪廓] | 更新您的[Adobe帳戶設定檔](https://account.adobe.com/tw/profile)。 <p>當您登入Adobe.com、Adobe產品和服務以及公開網站（例如[!DNL Behance]）時，您的設定檔像片和名稱就會出現。 |
+| [!UICONTROL 一般] | 選取[組織](../administration/organizations.md)。<p>此組織是您登入Experience Cloud時使用的預設組織。 |
+| [!UICONTROL 產品使用資料] | 使用Experience Cloud應用程式時，您可以控制哪些產品使用資料與Adobe共用。 這是您如何使用產品的資料，而非您組織的內容或資料本身。 Adobe使用這些資訊來幫助改進我們的產品、為您提供增強的產品內支援，以及個人化您的體驗和我們之間的通訊。 <p>若要深入瞭解，請參閱[產品使用資料](#product-usage-data) （在本頁）。 |
+| [!UICONTROL 通知] | 設定您想要產品[通知](#subscribe-to-notifications-in-experience-cloud)和警示的方式和時間： <ul><li>選取您要訂閱警示的產品</li><li>設定通知型別([!UICONTROL 應用程式內]、[!UICONTROL 電子郵件]或[Slack](#slack-notifications))</li><li>指定您想要接收通知電子郵件的頻率。 (未傳送、即時、每天或每週。)</li><li>決定警示優先順序。 應用程式內警報會在視窗的右上角出現幾秒鐘。 或者，您可以指定警示是否顯示，直到您將其關閉為止。</li></ul> |
+
+## [!UICONTROL 產品使用資料] {#product-usage-data}
+
+您選擇與Adobe共用的產品使用資料，包括下列型別的關於您如何使用及與Adobe應用程式互動的資訊：
+
+* 瀏覽器和裝置資訊，例如，裝置型號和作業系統、軟體和硬體資訊、瀏覽器和裝置設定、唯一識別碼（例如IP位址、Cookie ID或裝置ID）、安裝的記憶體數量、語言設定和熒幕解析度；
+* 如何與Adobe Experience Cloud應用程式互動，包括您使用的功能及選取的選項；
+* Adobe產品資訊，例如版本號碼；
+* 有關您的內容和檔案的資訊，例如頁數和唯一識別碼，但不包括內容本身；
+* 內容使用資訊，例如，您存取內容的次數，以及在應用程式中與內容的互動方式；
+* 當機和錯誤記錄。
+
+Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶服務為您提供支援，以及個人化您的體驗和我們之間的通訊。 深入瞭解[個人化體驗](personalized-learning.md)。
 
 ## 訂閱Experience Cloud中的通知 {#notifications}
 

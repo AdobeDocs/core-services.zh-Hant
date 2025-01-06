@@ -1,5 +1,5 @@
 ---
-description: Experience Cloud說明的更新資訊。
+description: 瞭解Experience Cloud常見介面元件的檔案更新發生位置。
 solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 79%
+source-wordcount: '580'
+ht-degree: 75%
 
 ---
 
-# 文件更新 - Experience Cloud
+# Experience Cloud的檔案更新
 
-Experience Cloud產品檔案的更新資訊。
+瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
+
+**2024 年 11 月**
+
+[產品使用資料](../features/account-preferences.md)和[個人化學習](../features/personalized-learning.md)的更新。
 
 **2024年9月**
 
@@ -49,7 +53,7 @@ Experience Cloud產品檔案的更新資訊。
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
-| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
 **2021年10月13日**

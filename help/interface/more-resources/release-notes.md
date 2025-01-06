@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,15 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
+## 2024 年 11 月
+
+為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud偏好設定頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，客戶可隨時在[Experience Cloud偏好設定](https://experience.adobe.com/preferences)上更新其偏好設定。
+
 ## 2024年10月2日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 可自訂首頁 | 在Experience Cloud登入頁面上，按一下&#x200B;**[!UICONTROL 編輯]**。 [!UICONTROL 編輯]模式可讓您透過存取Widget資料庫和自訂背景來個人化Experience Cloud首頁。 [!UICONTROL 編輯]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
+| 可自訂的首頁 | 在 Experience Cloud 登陸頁面上，按一下&#x200B;**[!UICONTROL 編輯]**。您可以利用[!UICONTROL 編輯]模式來存取小工具程式庫和自訂背景，以便自訂 Experience Cloud 首頁。[!UICONTROL 編輯]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
 
 ## 2024年9月10日
 
@@ -62,7 +66,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合首頁 - 快速存取 Widget | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘選功能來選取哪些應用程式出現在[!UICONTROL 快速存取]工具中。<br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新指派的應用程式顯示&#x200B;_新_&#x200B;徽章，並自動釘選到[!UICONTROL 快速存取]。 |
+| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘選功能來選取哪些應用程式出現在[!UICONTROL 快速存取]工具中。<br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新指派的應用程式顯示&#x200B;_新_&#x200B;徽章，並自動釘選到[!UICONTROL 快速存取]。 |
 
 {style="table-layout:auto"}
 
@@ -96,7 +100,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
-| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
 {style="table-layout:auto"}
@@ -257,8 +261,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 |--- |--- |
-| 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織(之前您必須個別對應這些報表套裝。)<br>將報表套裝對應至單一組織有助於在Experience Cloud中啟用跨應用程式功能與服務。 |
-| Experience Cloud Audiences 的更新 | **套用報告套裝**<br>&#x200B;您現已可將報告套裝套用至所有[客群規則](../services/audiences/create.md)。(之前您必須在每個規則定義中指定一個報表套裝。)<br>**Prop 和變數**<br>&#x200B;您現已可在即時客群中包含 Analytics Prop 和預設變數 (以及原有的 eVar 和事件)。 |
+| 大量報表套裝對應 | 在「管理 > 報表套裝對應」中，您現已可選取多個報表套裝，然後將它們對應至某個組織（先前您必須個別對應報表套裝。） <br>將報表套裝對應至單一組織有助於在Experience Cloud中啟用跨應用程式功能與服務。 |
+| Experience Cloud Audiences 的更新 | **套用報告套裝**<br>&#x200B;您現已可將報告套裝套用至所有[客群規則](../services/audiences/create.md)。（之前，您必須在每個規則定義中指定報表套裝。） <br>**Prop和變數**<br>&#x200B;您現在可以在即時對象中包含Analytics Prop和預設變數（以及原有的eVar和事件）。 |
 
 {style="table-layout:auto"}
 
@@ -266,7 +270,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 |--- |--- |
-| 輪廓與密碼更新 | 使用者無法再到「編輯輪廓 > 輪廓和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分類型 (Adobe ID、Enterprise 及 Federated)。 |
+| 輪廓與密碼更新 | 使用者無法再到「編輯輪廓 > 輪廓和密碼」編輯「個人詳細資料」底下的 IMS 使用者個人資訊。系統會改將使用者重新導向至 `accounts.adobe.com`。此更新適用於所有身分識別類型 (Adobe ID、Enterprise 及 Federated)。 |
 
 {style="table-layout:auto"}
 
