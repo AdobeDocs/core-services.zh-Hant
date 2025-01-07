@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
-## 2024 年 11 月
+## 2025 年 1 月
 
-為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud偏好設定頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，客戶可隨時在[Experience Cloud偏好設定](https://experience.adobe.com/preferences)上更新其偏好設定。
+| 日期 | 功能 | 說明 |
+| -----------| -----------| ---------- |
+| 9 年 1 月 | 產品使用資料 | 為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud[偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，您可以隨時在[Experience Cloud偏好設定](https://experience.adobe.com/preferences)更新您的偏好設定。 |
+| 1月30日（預計發行日期） | 頻譜2 | Experience Cloud應用程式框架（包含頁首列和從頁首列存取的元件）以及某些應用程式的左側導覽邊欄，將更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 不過，標頭中的數個元素會重新定位，以與其他Adobe網站和應用程式對齊。 |
 
 ## 2024年10月2日
 
