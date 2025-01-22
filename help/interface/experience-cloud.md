@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
-workflow-type: ht
+source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。若要直觀式介面，您可快速存取您的雲端應用程式、產品特性和服務。
 
-![Experience Cloud](assets/landing.png)
+![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
 
 在 Experience Cloud 標題中，您可以：
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
 
-   ![確認您隸屬於正確的組織](assets/organizations-menu.png)
+   ![確認您隸屬於正確的組織](assets/organizations-menu.png){width="100" zoomable="yes"}
 
    **確認您的組織**
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請前往應用程式選擇器![選單](assets/apps-icon.png)。
 
-![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
+![存取 Experience Cloud 應用程式](assets/platform-core-services.png){width="100" zoomable="yes"}
 
 ## 取得說明和支援 {#support}
 
 使用標題中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見並建立有優先權的支援票證。
 
-![取得說明和支援](assets/search-menu.png)
+![取得說明和支援](assets/search-menu.png){width="100" zoomable="yes"}
 
 「[!UICONTROL 說明]」選單也可讓您存取：
 
@@ -83,6 +83,6 @@ ht-degree: 100%
 
 按一下鈴鐺圖示，檢視通知和公告。公告內容可能是提供相關和可操作的更新資訊，其中包括產品發行版本、維護通知、共用項目及核准請求。
 
-![通知和公告](assets/notifications-menu-small.png)
+![通知和公告](assets/notifications-menu-small.png){width="100" zoomable="yes"}
 
 若要管理通知和提醒，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
