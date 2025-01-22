@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: ht
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
 
-若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請前往應用程式選擇器![選單](assets/menu-icon.png)。
+若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請前往應用程式選擇器![選單](assets/apps-icon.png)。
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 

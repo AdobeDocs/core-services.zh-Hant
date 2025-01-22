@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
+source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
 | 9 年 1 月 | 產品使用資料 | 為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud[偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，您可以隨時在[Experience Cloud偏好設定](https://experience.adobe.com/preferences)更新您的偏好設定。 |
-| 1月30日（預計發行日期） | 頻譜2 | Experience Cloud應用程式框架（包括標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 不過，標頭中的數個元素會重新定位，以與其他Adobe網站和應用程式對齊。 |
+| 2月5日（預計發行日期） | 頻譜2 | Experience Cloud應用程式框架（包括標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 不過，標頭中的數個元素會重新定位，以與其他Adobe網站和應用程式對齊。 |
 
 ## 2024年10月2日
 
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
+| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
 | 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 {style="table-layout:auto"}
@@ -121,7 +121,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| [!UICONTROL 整合式最近存取] - 已擴充對最近存取的商業物件的支援 | [!UICONTROL 整合式最近存取]已擴充到 Journey Optimizer 和 Experience Platform 中的其他商業物件。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、綱要、資料集、資料來源、事件、動作、來源和目的地)。 |
+| [!UICONTROL 整合式最近存取] - 已擴充對最近存取的商業物件的支援 | [!UICONTROL 整合式最近存取]已擴充到 Journey Optimizer 和 Experience Platform 中的其他商業物件。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、結構描述、資料集、資料來源、事件、動作、來源和目的地)。 |
 
 {style="table-layout:auto"}
 
@@ -143,7 +143,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | Experience Cloud 標頭與導覽 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
-| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、綱要等。) |
+| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
 | Experience Cloud 語言偏好設定 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style="table-layout:auto"}
