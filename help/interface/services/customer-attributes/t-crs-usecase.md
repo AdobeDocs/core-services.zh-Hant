@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ ht-degree: 77%
 >建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。您必須有 Audience Manager 管理權限，才能建立或修改客戶屬性來源。聯絡 Audience Manager 客戶服務或洽詢相關人員，以取得管理權限。
 
 1. 在[!DNL Experience Cloud]中，選取功能表![功能表](assets/menu-icon.png)圖示。
-1. 在 **[!DNL Experience Platform]** 底下，選取「**[!UICONTROL 人員]** > **[!UICONTROL 客戶屬性]**」。
+1. 在 **[!DNL Experience Platform]** 底下，按一下 **[!UICONTROL 「人員]** > **[!UICONTROL 客戶屬性」]**。
 
    您可以在[!UICONTROL 「客戶屬性」]頁面管理及編輯現有屬性資料來源。
 
    ![步驟結果](assets/03_crs_usecase.png)
 
-1. 選取「**[!UICONTROL 新增]**」。
+1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 
    ![步驟結果](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ ht-degree: 77%
 
    * **[!UICONTROL 說明：]**(選用) 資料屬性來源的說明。
 
-   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名ID]是用於[!UICONTROL 客戶屬性Source]程式碼的唯一識別碼。 此 ID 應是唯一、小寫、無空格。針對Experience Cloud中的客戶屬性來源在[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript傳入)。
+   * **[!UICONTROL 別名 ID：]** 代表客戶屬性資料的來源，如特定 CRM 系統。[!UICONTROL 別名ID]是用於[!UICONTROL 客戶屬性Source]程式碼的唯一識別碼。 此 ID 應是唯一、小寫、無空格。在Experience Cloud中客戶屬性來源的[!UICONTROL 別名ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript)。
 
      >[!IMPORTANT]
      >
@@ -144,7 +144,7 @@ ht-degree: 77%
 
 **啟動屬性來源**
 
-在[!UICONTROL 建立新或編輯客戶屬性Source]頁面上，找到[!UICONTROL 啟用]標題，然後選取&#x200B;**[!UICONTROL 啟用]**。
+在[!UICONTROL 建立新或編輯客戶屬性Source]頁面上，找到[!UICONTROL 啟用]標題，然後按一下&#x200B;**[!UICONTROL 啟用]**。
 
 ![步驟結果](assets/activate_attribute_source.png)
 

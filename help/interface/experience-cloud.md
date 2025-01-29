@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
-workflow-type: ht
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 100%
 登入並確認您隸屬於正確的[組織](administration/organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 輸入您的 Adobe 電子郵件地址，然後選取「**[!UICONTROL 繼續]**」。
-1. 選取帳戶。
+1. 輸入您的Adobe電子郵件地址，然後按一下[繼續]。****
+1. 按一下帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
 

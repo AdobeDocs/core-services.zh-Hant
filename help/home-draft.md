@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 80%
 
 在 Experience Cloud 標題中，您可以：
 
-* 存取您的所有Experience Cloud應用程式和服務
+* 存取您所有的 Experience Cloud 應用程式和服務
 * 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
-* 管理您的帳戶[偏好設定](features/account-preferences.md) （警示、通知和訂閱）
+* 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
 
 ## 登入 Experience Cloud {#signin}
 
 登入並確認您隸屬於正確的[組織](administration/organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 輸入您的 Adobe 電子郵件地址，然後選取「**[!UICONTROL 繼續]**」。
+1. 輸入您的Adobe電子郵件地址，然後按一下[繼續]。****
 1. 選取帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
@@ -41,7 +41,7 @@ ht-degree: 80%
 
    **確認您的組織**
 
-   [組織](administration/organizations.md)會顯示在介面標題中。
+   [組織](administration/organizations.md)顯示在介面標題中。
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
@@ -57,7 +57,7 @@ ht-degree: 80%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL 說明中心]** （![資產](assets/help-icon.png)）來存取學習和說明，包括[Experience League](https://experienceleague.adobe.com/#home)上的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見並建立有優先權的支援票證。
+使用標題中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見並建立有優先權的支援票證。
 
 ![取得說明和支援](assets/search-menu.png)
 
@@ -70,22 +70,22 @@ ht-degree: 80%
 
 ## 管理您的使用者設定檔
 
-在[!UICONTROL 設定檔]功能表中，您可以：
+在[!UICONTROL 設定檔]選單中，您可以：
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
 * 管理 Experience Cloud [偏好設定](features/account-preferences.md)
-* 選取或搜尋[組織](administration/organizations.md)
+* 選取或搜尋「[組織](administration/organizations.md)」
 * 檢視[!UICONTROL 法律注意事項]
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-## 檢視產品內通知和公告 {#notifications}
+## 檢視產品通知及公告 {#notifications}
 
-按一下鈴鐺圖示可檢視通知和公告。 公告可以是相關且可操作的更新，包括產品版本、維護通知、共用專案及核准請求。
+按一下鈴鐺圖示，檢視通知和公告。公告內容可能是提供相關和可操作的更新資訊，其中包括產品發行版本、維護通知、共用項目及核准請求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
-若要管理通知和警示，請參閱[帳戶偏好設定和通知](features/account-preferences.md)
+若要管理通知和提醒，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
 
 
 ## 新增功能
@@ -181,7 +181,7 @@ Android Firebase Cloud Messaging (FCM) 服務的一些重要變更將於 2024 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
+      <strong>開發人員資源</strong><br/><a href="dev/datamodel.md">Campaign v8 資料模型</a> - <a href="dev/schemas.md">結構描述</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

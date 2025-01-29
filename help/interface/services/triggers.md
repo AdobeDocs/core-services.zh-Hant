@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 97%
@@ -49,9 +49,9 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 >
 >目前存在 100 個觸發器的技術限制。
 
-1. 在Experience Cloud中，選取![功能表](../assets/menu-icon.png)，然後選取&#x200B;**[!UICONTROL 資料收集/啟動]**。
-2. 在「[!UICONTROL 觸發器]」卡片上，選取「**[!UICONTROL 管理觸發器]**」。
-3. 選取「**[!UICONTROL 新增觸發器]**」，然後指定觸發器的類型：
+1. 在Experience Cloud中，按一下![功能表](../assets/menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 資料收集/啟動]**。
+2. 在「[!UICONTROL 觸發器]」卡上，按一下「**[!UICONTROL 管理觸發器]**」。
+3. 按一下&#x200B;**[!UICONTROL 新增觸發器]**，然後指定觸發器的類型：
 
    ![步驟結果](../assets/add-trigger.png)
 
@@ -68,7 +68,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 
    {style="table-layout:auto"}
 
-5. 選取「**[!UICONTROL 儲存]**」。
+5. 按一下&#x200B;**[!UICONTROL 儲存]**。
 6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ### 範例觸發器

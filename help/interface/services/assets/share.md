@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 84%
+ht-degree: 70%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 84%
 
 與 Creative Cloud 使用者共用 Experience Cloud 資產資料夾。
 
-1. 在資產資料夾中，選取「**[!UICONTROL 分享到 Creative Cloud]**」。
+1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至 Creative Cloud]**。
 
    ![分享到 Creative Cloud](../../assets/asset-share-cc.png)
-1. 在「分享到 Creative Cloud」頁面上，搜尋該使用者，然後選取「**[!UICONTROL 新增]**」。
+1. 在共用至 Creative Cloud 頁面上搜尋使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
    ![新增 Creative Cloud 使用者](../../assets/asset-share-cc-page.png)
 
-1. 選取「**[!UICONTROL 分享]**」。
-1. 啟動 [!DNL Creative Cloud] 桌面 (或在瀏覽器中導覽至「[!UICONTROL Creative Cloud Files]」頁面)，然後尋找請求通知。
+1. 按一下&#x200B;**[!UICONTROL 共用]**。
+1. 啟動 [!DNL Creative Cloud] 桌面 (或在瀏覽器中導覽至 [!UICONTROL Creative Cloud「檔案」]頁面)，然後尋找要求通知。
 
    ![請求通知](../../assets/cc_share_request.png)
-1. 開啟請求，然後選取「**[!UICONTROL 接受]**」。
+1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
 
    ![接受請求](../../assets/cc_share_accept.png)
-1. 若要存取資料夾內容，請選取「**[!UICONTROL 開啟資料夾]**」(或「**[!UICONTROL 在網頁上檢視]**」)。
+1. 若要存取資料夾內容，按一下&#x200B;**[!UICONTROL 開啟資料夾]** (或&#x200B;**[!UICONTROL 在網頁上檢視]**)。
 
    ![在網頁上檢視](../../assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
 
-   在 Creative Cloud 中，您可以選取影像，然後選取「**[!UICONTROL 活動]**」，在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
+   在Creative Cloud中，您可以選取影像，然後按一下&#x200B;**[!UICONTROL 活動]**&#x200B;在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
 
    ![在影像上新增註解](../../assets/asset_comment_cc.png)
 
@@ -46,7 +46,7 @@ ht-degree: 84%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請選取「**[!UICONTROL 使用 Creative Cloud 共用]**」(類似於[步驟 3](share.md))，然後選取 X 來移除使用者，再選取「**[!UICONTROL 共用]**」。
+1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]]**（類似[步驟3](share.md)] [），然後選取X來移除使用者，再按一下[共用]****。**[!UICONTROL 
 
 ![取消共用資料夾](../../assets/asset_remove_user.png)
 
