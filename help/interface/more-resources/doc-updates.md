@@ -7,18 +7,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 75%
+source-wordcount: '605'
+ht-degree: 72%
 
 ---
 
-# Experience Cloud的檔案更新
+# Experience Cloud檔案更新
 
 瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
 
-**2024 年 11 月**
+**2025年2月**
+
+在Experience Cloud](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+
+**2024年11月**
 
 [產品使用資料](../features/account-preferences.md)和[個人化學習](../features/personalized-learning.md)的更新。
 
@@ -60,7 +64,7 @@ ht-degree: 75%
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>方案</li><li>區段</li><li>來源</li><li>優惠</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
+| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
 | 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 **2021年8月24日**
