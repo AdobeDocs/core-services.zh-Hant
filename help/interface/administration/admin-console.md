@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,43 @@ ht-degree: 5%
 如需適用於所有Adobe應用程式的一般身分管理說明，請參閱[企業和團隊管理指南](https://helpx.adobe.com/tw/enterprise/admin-guide.html)。
 
 以下小節提供Admin Console說明中的資源連結。
+
+## Admin Console中的管理角色
+
+Admin Console提供三種主要管理角色，各具有特定存取層級和職責：
+
+**系統管理員：**&#x200B;完整存取權 — 管理主控台的各個層面。
+
+主要職責：
+
+* 新增、移除和管理使用者。
+* 指派及撤銷產品授權。
+* 設定身分和驗證設定。
+* 檢視及管理帳單資訊。
+* 設定其他管理員和委派角色。
+
+  **最適合的：** IT管理員或團隊負責人負責監督整個組織的Adobe環境。
+
+**產品管理員：**&#x200B;產品特定管理 — 控制特定Adobe產品的存取權和許可權。
+
+主要職責：
+
+* 指派和管理特定產品的授權。
+* 建立和管理產品設定檔。
+* 在指派的產品中新增或移除使用者。
+
+  **最適合於：**&#x200B;管理特定軟體(如Marketo Engage或Adobe Creative Cloud)的團隊/使用者。
+
+**產品設定檔管理員：**&#x200B;精細角色管理 — 著重於管理產品內的使用者群組和許可權。
+
+* 主要職責：
+* 建立和管理產品設定檔。
+* 在設定檔中指派許可權和功能存取權。
+* 在設定檔中新增或移除使用者。
+
+  **最適合：**&#x200B;部門主管或團隊經理，負責監督有特殊需求的小型群組
+
+  管理員可以根據組織需求合併角色，以獲得更大的彈性。
 
 ## Admin Console設定
 
