@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Admin Console提供三種主要管理角色，各具有特定存取層級和職責：
 
-| 說明連結 | 說明 |
+| 角色 | 說明 |
 | ------- | ------- |
 | 系統管理員 | 完整存取 — 管理主控台的所有層面。 <br>主要職責： <br><ul><li>新增、移除和管理使用者。</li><li>指派及撤銷產品授權。</li><li>設定身分和驗證設定</li><li>檢視及管理帳單資訊。</li><li>設定其他管理員和委派角色。</li></ul> **最適合的：** IT管理員或團隊負責人負責監督整個組織的Adobe環境。 |
 | 產品管理員 | 產品特定管理 — 控制特定Adobe產品的存取權和許可權。<br>主要職責：<ul><li>指派和管理特定產品的授權。</li><li>建立和管理產品設定檔。</li><li>在指派的產品中新增或移除使用者。</li></ul>   **最適合於：**&#x200B;管理特定軟體(如Marketo Engage或Adobe Creative Cloud)的團隊/使用者。 |
@@ -37,7 +37,7 @@ Admin Console提供三種主要管理角色，各具有特定存取層級和職�
 
 以下是您在Admin Console中作為管理員快速入門時可能需要的資源：
 
-### 設定任務
+### 設定資源
 
 | 說明連結 | 說明 |
 | ------- | ------- |
