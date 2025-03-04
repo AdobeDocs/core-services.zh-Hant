@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
+source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Admin Console提供三種主要管理角色，各具有特定存取層級和職�
 ### 設定資源
 
 | 說明連結 | 說明 |
-| ------- | ------- |
+| ------- | ------ |
 | [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL 設定]** <br>瞭解如何設定包含或不包含單一登入(SSO)之不同ID型別的使用者帳戶。 為Adobe軟體設定SSO、設定SAML設定，並處理最常見的問題和錯誤。 |
 | [透過目錄信任設定組織](https://helpx.adobe.com/enterprise/using/directory-trust.html) | 針對其他組織已宣告的網域驗證您的使用者。 如需尋找和切換組織的相關資訊，請參閱[Experience Cloud中的組織](organizations.md)。 |
 | [驗證設定（企業）](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console支援數個密碼保護層級和原則，以確保安全性和安全性。 您可以指定使用密碼保護層級，以套用至整個組織的所有使用者。 |
