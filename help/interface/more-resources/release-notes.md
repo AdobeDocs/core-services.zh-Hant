@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025年3月6日 | 在功能表選項上按一下右鍵 | Experience Cloud應用程式框架修正標題導覽標籤，以允許按一下右鍵瀏覽器下拉式選單功能。 這修正了2月發行的Spectrum 2設計系統所引入的問題。 |
+| 2025年3月6日 | 在功能表選項上按一下右鍵 | Experience Cloud標題導覽標籤現在允許按一下右鍵、瀏覽器下拉式選單功能。 這修正了2月發行的Spectrum 2設計系統所引入的問題。 |
 
 ## 2025 年 2 月
 
