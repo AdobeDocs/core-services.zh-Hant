@@ -1,20 +1,20 @@
 ---
 description: 了解關於 Experience Cloud 中央介面元件。在 Admin Console 中取得使用者和產品管理說明，啟用 Experience Cloud 服務的應用程式。取得客群庫、客戶屬性、Experience Cloud 資產等說明。
-title: Experience Cloud 介面與管理指南
+title: Experience Cloud介面和管理
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
+source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '509'
+ht-degree: 99%
 
 ---
 
-# Experience Cloud介面與管理檔案
+# Experience Cloud 介面與管理
 
 [Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。若要直觀式介面，您可快速存取您的雲端應用程式、產品特性和服務。
 
