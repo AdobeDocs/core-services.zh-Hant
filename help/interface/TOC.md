@@ -2,13 +2,13 @@
 role: User,Admin
 user-guide-title: Experience Cloud 介面與管理
 breadcrumb-title: Experience Cloud 介面與管理
-title: Experience Cloud介面和管理
+title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和使用者帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud Assets。
 index: true
 source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
