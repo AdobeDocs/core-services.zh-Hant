@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 91%
@@ -76,7 +76,7 @@ Adobe Experience Cloud使用Cookie來儲存不同Experience Cloud應用程式所
   </tr> 
   <tr> 
    <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p> 2 年 </p> </td> 
+   <td colname="col2"> <p> 13 個月 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用方式 </p> </td> 
