@@ -1,5 +1,5 @@
 ---
-description: 了解關於 Experience Cloud 中央介面元件。在 Admin Console 中取得使用者和產品管理說明，啟用 Experience Cloud 服務的應用程式。取得客群庫、客戶屬性、Experience Cloud 資產等說明。
+description: 了解 Experience Cloud 中央介面元件。在 Admin Console 中取得使用者和產品管理的說明；啟用 Experience Cloud 服務的應用程式。取得客群庫、客戶屬性、Experience Cloud 資產等說明。
 title: Experience Cloud 介面文件
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,32 +7,154 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 82%
 
 ---
 
 # Experience Cloud 中央介面概觀
 
-[Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。若要直觀式介面，您可快速存取您的雲端應用程式、產品特性和服務。
+[Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。您可透過它的直觀式介面，快速存取您的雲端應用程式、產品功能和服務。
 
 ![Experience Cloud](assets/landing.png)
 
-在 Experience Cloud 標題中，您可以：
+在 Experience Cloud 封面中，您可以：
 
 * 存取您所有的 Experience Cloud 應用程式和服務
 * 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
 
+
+從GSPM提取：
+
+## 探索功能
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="右&gt;形箭號" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong>寫入有效提示</strong>
+         </a>
+      </div>
+      <p>
+         <em>製作描述性提示，以產生品牌內數位體驗。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="繪圖筆刷" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong>建立體驗</strong>
+         </a>
+      </div>
+      <p>
+         <em>建立績效、品牌內電子郵件和中繼廣告。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="核取記號" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong>檢閱與核准</strong>
+         </a>
+      </div>
+      <p>
+         <em>協調行銷資產的簡化稽核與核准。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="格線" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong>管理內容</strong>
+         </a>
+      </div>
+      <p>
+         <em>尋找、管理內容以及重新使用內容，同時維護品牌方針。</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="圖表" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong>檢視深入分析</strong>
+         </a>
+      </div>
+      <p>
+         <em>分析付費媒體管道的內容有效性。</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## 瞭解如何
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="新增准則" src="../assets/card-guidelines.png">
+      <strong>新增准則</strong>
+      </a>
+   </div>
+   <p>
+      <em>瞭解如何新增准則（品牌、產品和角色）至GenStudio for Performance Marketing。</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="創意、書籍、鉛筆、電腦" src="../assets/card-create-assets.png">
+      <strong>建立電子郵件體驗</strong>
+      </a>
+   </div>
+   <p>
+      <em>瞭解如何建立品牌內電子郵件體驗。</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="將檔案移至資料夾的人員" src="../assets/card-manage-content.png">
+      <strong>建立中繼廣告體驗</strong>
+      </a>
+   </div>
+   <p>
+      <em>瞭解如何建立品牌一致的中繼廣告體驗。</em>
+   </p>
+</td>
+</table>
+
+
+（GSPM結尾）
+
+
+
+
+
+
+
 ## 登入 Experience Cloud {#signin}
 
 登入並確認您隸屬於正確的[組織](administration/organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 輸入您的Adobe電子郵件地址，然後按一下[繼續]。****
+1. 輸入您的 Adobe 電子郵件地址，然後按一下「**[!UICONTROL 繼續]**」。
 1. 選取帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
@@ -41,15 +163,15 @@ ht-degree: 94%
 
    **確認您的組織**
 
-   [組織](administration/organizations.md)顯示在介面標題中。
+   [組織](administration/organizations.md)顯示在介面封面中。
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
-   例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
+   例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
 ## 存取 Experience Cloud 應用程式 {#navigation}
 
-在登入 Experience Cloud 之後，您可以從統一的標頭快速存取您的所有應用程式、服務和組織。
+登入 Experience Cloud 之後，您可以從統一的封面快速存取您的所有應用程式、服務和組織。
 
 若要存取貴組織內為您佈建的 Experience Cloud 應用程式和服務，請前往應用程式選擇器![選單](assets/menu-icon.png)。
 
@@ -57,16 +179,16 @@ ht-degree: 94%
 
 ## 取得說明和支援 {#support}
 
-使用標題中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見並建立有優先權的支援票證。
+使用封面中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習資源和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
 「[!UICONTROL 說明]」選單也可讓您存取：
 
-* **[!UICONTROL 支援]：**&#x200B;建立支援服務單或使用 Twitter 聯絡[!UICONTROL 支援人員]。
-* **[!UICONTROL 意見反應]：**&#x200B;分享您對 Experience Cloud 體驗的意見。您的意見是用來改善 Adobe 產品和服務。
-* **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud` 並檢查產品操作狀態及[!UICONTROL 管理訂閱]。
-* **[!UICONTROL 開發人員文件]：**&#x200B;瀏覽至 `adobe.io` 並尋找開發人員文件。
+* **[!UICONTROL 支援]：**&#x200B;建立支援服務單，或使用 Twitter 聯絡[!UICONTROL 支援人員]。
+* **[!UICONTROL 意見回饋]：**&#x200B;分享您對 Experience Cloud 體驗的意見。您的意見回饋會用於改善 Adobe 產品和服務。
+* **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud`，以檢查產品操作狀態及[!UICONTROL 管理訂閱]。
+* **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至 `adobe.io` 以尋找開發人員文件。
 
 ## 管理您的使用者設定檔
 
@@ -79,22 +201,22 @@ ht-degree: 94%
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-## 檢視產品通知及公告 {#notifications}
+## 檢視產品內通知及公告 {#notifications}
 
-按一下鈴鐺圖示，檢視通知和公告。公告內容可能是提供相關和可操作的更新資訊，其中包括產品發行版本、維護通知、共用項目及核准請求。
+按一下鈴鐺圖示，檢視通知和公告。公告可能會提供相關且可操作的更新資訊，包括產品發行版本、維護通知、共用項目及核准請求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
-若要管理通知和提醒，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
+若要管理通知和警報，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
 
 
 ## 新增功能
 
-瞭解關於Experience Cloud中央介面元件的最新增強功能。
+瞭解Experience Cloud中央介面元件的最新增強功能。
 
 >[!BEGINTABS]
 
->[!TAB Slack與Experience Cloud]整合
+>[!TAB Slack與Experience Cloud整合]
 
 您可以設定帳戶偏好設定，以將Experience Cloud通知傳送至[!DNL Slack]頻道。
 
