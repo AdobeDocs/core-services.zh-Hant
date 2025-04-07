@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
-
 
 # Experience Cloud應用程式中的AI
 
@@ -83,6 +83,26 @@ AEM Sites使用[產生變數](https://experienceleague.adobe.com/en/docs/experie
 請參閱[產生影像](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)。
 
 **與Adobe Firefly的相容性：**&#x200B;是
+
+## Adobe Journey Optimizer
+
+Journey Optimizer使用[AI小幫手](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)來回答兩類問題：
+
+**產品知識** — 查詢Adobe資料存放區(例如Experience League產品檔案)以取得產品insight。 此輸出不受客戶限制。 範例：
+
+* 一個Adobe Journey Optimizer沙箱中可以有多少個已上線活動？
+
+**Operational Insights (Beta)** — 查詢客戶特定的營運分析資料存放區，該資料存放區包含有關歷程的集中營運資料，依客戶的沙箱分割。 只會從商業物件提取中繼資料，不會存取沙箱中的資料。
+
+* 過去七天內已建立多少歷程？
+
+「營運分析」輸出取決於從客戶的業務物件中提取的中繼資料。
+
+歷程是Journey Optimizer中AI助理唯一可用的物件，而中繼資料是從目前沙箱中提取。
+
+如需詳細資訊，請參閱[使用AI助理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)和[欄位整備](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11)。
+
+**與Adobe Firefly的相容性：**&#x200B;否
 
 
 
