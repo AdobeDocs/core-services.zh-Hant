@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,10 @@ Generative AI是一種人工智慧，可以&#x200B;_建立_&#x200B;新內容和&
 
 ## 使用AI的Experience Cloud應用計畫
 
-Subhead版本（未完成）。..
+>[!TIP]
+>
+>Subhead版本（只是個開始）。..
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites (Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ AEM Sites使用[產生變數](https://experienceleague.adobe.com/en/docs/experie
 
 
 
-表格版本……
-
 ## 使用AI的Experience Cloud應用計畫
+
+>[!TIP]
+>
+>表格版本……
+
 
 瞭解Experience Cloud應用程式如何使用Generative AI或AI Assistant，以及是否支援Adobe Firefly。
 
