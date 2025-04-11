@@ -8,7 +8,7 @@ index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 + 功能 {#features}
    + [帳戶偏好設定和通知](features/account-preferences.md)
-   + [Experience Cloud應用程式中的AI](features/generative-ai.md)
+   + [Experience Cloud 應用程式中的 AI](features/generative-ai.md)
    + [整合式搜尋](features/search.md)
    + [個人化學習](features/personalized-learning.md)
    + [瀏覽器和語言支援](browser-language.md)
