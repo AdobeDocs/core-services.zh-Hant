@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1314'
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ### 輸入和輸出欄位
 
-**輸入：**&#x200B;輸入欄位包括：
+輸入欄位包括：
 
 * 要產生的變數數量
 * 對象Source
@@ -85,9 +85,9 @@ ht-degree: 3%
 * 其他內容
 * 客戶導向提示
 
-**輸出：**&#x200B;產生的內容/市場副本。 您也可以選擇使用Firefly的產生AI功能，在Adobe Express中產生影像。
+輸出是產生的內容或市場副本。
 
-請參閱[產生影像](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)以瞭解更多資訊。
+您也可以選擇使用Firefly的產生AI功能，在Adobe Express中產生影像。 [了解更多...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **與Adobe Firefly相容：**&#x200B;是
 
@@ -145,7 +145,7 @@ Campaign Managed Cloud Services使用[內容加速器](https://experienceleague.
 
 ## Customer Journey Analytics中的AI助理 {#cja}
 
-Customer Journey Analytics使用[AI助理](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)協助您探索Experience League的產品知識和深入分析。
+Customer Journey Analytics使用[AI助理](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)協助您探索Experience League的產品知識和深入分析。
 
 **範例提示：**&#x200B;如何建立計算量度？
 
@@ -173,7 +173,7 @@ Real-Time CDP使用[AI助理](https://experienceleague.adobe.com/zh-hant/docs/ex
 
 * 輸入： _我有多少資料集？_
 
-* 回應： _Operational Insights輸出取決於從客戶的業務物件（屬性、受眾、資料流、資料集、目的地、結構描述和來源）提取的中繼資料，並包括特定使用者介面頁面的連結，其中包含查詢的資料。_
+* 回應： Operational Insights輸出取決於從客戶的業務物件（屬性、受眾、資料流程、資料集、目的地、結構描述和來源）提取的中繼資料，並包括指向包含查詢資料的特定UI頁面的連結。
 
 如需更多範例，請參閱Experience Platform中[AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)中的&#x200B;_產品知識_&#x200B;和&#x200B;_營運分析_&#x200B;輸入表格
 
@@ -181,12 +181,22 @@ Real-Time CDP使用[AI助理](https://experienceleague.adobe.com/zh-hant/docs/ex
 
 ## Marketo中的Dynamic Chat {#marketo}
 
-[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview)使用自訂和預先核准的問題與答案，以及交談摘要，建立AI輔助交談 |<ul><li> **產生問題：**&#x200B;提供URL，內容會從中擷取並用於產生問題/回應。 </li><li> **交談摘要：**&#x200B;產生交談摘要。 </li></ul> [深入瞭解……](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | 否 |
+Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的生產力、深入瞭解網站的訪客意圖，並以安全的方式回應訪客問題。 您可以預先核准問題、答案和交談摘要。 [了解更多...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**與Firefly相容：**&#x200B;否
 
 ## Workfront中的AI助理 {#workfront}
 
-Workfront中的[AI小幫手](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)會在自然語言交談中提供應用程式內資訊和建議，協助您完成工作。 AI Assistant提供下列功能：摘要專案/工作/問題/檔案、提供從Experience League上的Workfront檔案提取的指示或參考資訊，為計算的自訂欄位產生或完善公式。  | <ul><li>**摘要專案輸入：**&#x200B;摘要此專案 </li><li> **摘要專案輸出：**&#x200B;傳回專案用途和狀態的簡短描述，提供已完成和仍在擱置中的任務範例，並提供一些其他詳細資訊和附註。</li><li> **產生/調整公式輸入：** 「重寫此公式以移除無效的運算式錯誤。」 </li><li> **產生/調整公式輸出：**&#x200B;產生或調整的公式。 </li></ul>**注意：** AI助理可能需要一些時間才能產生修訂後的公式，視公式的大小和複雜度而定。 | 否  |
+Workfront中的AI助理可提供應用程式內資訊和建議，協助您完成工作。 您可以：
 
+* 取得某些物件的摘要，讓您以高層級檢視物件的意圖或詳細資訊。
+* 提出問題並讓[!DNL AI Assistant]在Experience League上尋找答案。
+* 根據您的提示取得產生的公式。 您也可以解決計算欄位中無效自訂運算式的錯誤。
+* 尋找專案、任務和問題。
+
+[了解更多...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**與Firefly相容：**&#x200B;否
 
 <!-- ## Experience Cloud applications that use AI
 
