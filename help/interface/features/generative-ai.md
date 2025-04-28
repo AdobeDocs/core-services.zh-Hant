@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1174'
 ht-degree: 3%
 
 ---
@@ -36,15 +36,16 @@ ht-degree: 3%
 
 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**您的資料仍屬於您**
+<!-- **Your data remains yours**
 
-在AI助理中，安全性是優先順序：
+In AI Assistant, security is the priority:
 
-* 客戶資料不會用於訓練語言模型。
-* AI Assistant只會檢視您指示的檔案。 一切由您掌控。
-* 您的人員只能在其可以存取的檔案上使用AI助理。
-* 其可供稽核使用：回應可歸因於來原始檔。
-* 企業控制項可管理誰擁有公司中的AI存取權。
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## Experience Cloud產品中的AI可用性
 
