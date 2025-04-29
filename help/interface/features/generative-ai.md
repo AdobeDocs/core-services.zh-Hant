@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1149'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud產品中的AI
 
-此頁面可協助您瞭解哪些產品支援創作AI、[!DNL AI Assistant]，以及Adobe Firefly是否相容。 您也可以找到產品特定說明資源的連結，瞭解如何在Experience Cloud中使用AI。
+此頁面可協助您瞭解哪些產品支援創作AI、[!DNL AI Assistant]，以及Adobe Firefly是否相容。 您也可以找到如何在Experience Cloud應用程式中使用AI相關資訊的連結。
 
 **關於產生AI**
 
@@ -28,11 +28,11 @@ ht-degree: 3%
 
 **什麼是 [!DNL AI Assistant]？**
 
-[!DNL AI Assistant]是Experience Platform和相關應用程式支援的對話工具。 使用它可快速取得&#x200B;_產品知識_，並且在支援的應用程式中，幾乎立即取得&#x200B;_營運深入分析_。
+[!DNL AI Assistant]是Experience Platform和相關應用程式支援的對話工具。 使用它可快速取得&#x200B;_產品知識_，並且在支援的產品中幾乎立即取得&#x200B;_營運分析_。
 
-* **產品知識：**&#x200B;產品知識是以Experience League檔案為根據的概念和主題。 來自Experience League的回應是可驗證的，並可透過連結引用。 瞭解[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)的型別，以充分利用[!DNL AI Assistant]。
+* **產品知識：**&#x200B;產品知識是指以Experience League檔案為根據的概念和主題。 瞭解如何建立有效的[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)，以充份運用[!DNL AI Assistant]。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
 
-* **營運分析：**&#x200B;營運分析參考回答AI助理產生的中繼資料物件（屬性、對象、資料流、資料集、目的地、歷程、結構描述和來源），包括計數、查閱和歷程影響。 使用AI Assistant，您可以在數秒內發現營運深入分析，而非數小時。
+* **營運分析：** [營運分析](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)參考中繼資料物件（屬性、對象、資料流、資料集等）的相關回應。 有了AI助理，您可以在幾秒鐘內完成不然可能需要數小時或數天的作業。
 
 [了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## Experience Cloud產品中的AI可用性
 
-瞭解對Experience Cloud產品中generative AI或[!DNL AI Assistant]的支援。 也指出支援Adobe Firefly。
+瞭解下列Experience Cloud應用程式如何支援產生AI或[!DNL AI Assistant]。 也指出支援Adobe Firefly。
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -70,7 +70,7 @@ In AI Assistant, security is the priority:
 
 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)
 
-與Adobe Firefly的相容性： **是**
+Adobe Firefly相容性： **是**
 
 ## Adobe [!DNL Experience Manager Sites] {#aem-sites}
 
@@ -90,9 +90,10 @@ In AI Assistant, security is the priority:
 
 輸出是產生的內容或市場副本。
 
+Adobe Firefly相容性： **是**
+
 [深入瞭解產生變數](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-與Adobe Firefly的相容性： **是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -114,7 +115,7 @@ In AI Assistant, security is the priority:
 
 [了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)。
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ### 用於產生內容的AI助理(AJO Prime和Ultimate) {#ajo-prime}
 
@@ -124,7 +125,7 @@ In AI Assistant, security is the priority:
 
 [了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
-與Adobe Firefly的相容性： **是**
+Adobe Firefly相容性： **是**
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -138,7 +139,7 @@ Journey Optimizer B2B edition使用[!DNL AI Assistant]來協助您瞭解產品�
 
 [了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ## [!DNL Campaign]受管理的雲端服務 {#campaign-cs}
 
@@ -148,7 +149,7 @@ Campaign Managed Cloud Services使用[!DNL AI Assistant]來產生內容。 此�
 
 [了解更多](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
-與Adobe Firefly的相容性： **是**
+Adobe Firefly相容性： **是**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
@@ -162,7 +163,7 @@ Customer Journey Analytics使用[!DNL AI Assistant]協助您探索Experience Lea
 
 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
@@ -176,7 +177,7 @@ Customer Journey Analytics使用[!DNL AI Assistant]協助您探索Experience Lea
 
 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -186,7 +187,7 @@ Real-Time CDP使用[!DNL AI Assistant]協助您瞭解Experience League的產品�
 
 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ## [!DNL Marketo] {#marketo}
 
@@ -194,7 +195,7 @@ Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的
 
 [了解更多](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
 
 ## [!DNL Workfront] {#workfront}
 
@@ -207,4 +208,4 @@ Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的
 
 [了解更多](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-與Adobe Firefly的相容性： **否**
+Adobe Firefly相容性： **否**
