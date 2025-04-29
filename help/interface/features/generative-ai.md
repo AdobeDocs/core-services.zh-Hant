@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1168'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ In AI Assistant, security is the priority:
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services （Campaign v8網頁）](#campaign-cs)
+* [[!DNL Campaign]受管理的雲端服務](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Journey Optimizer B2B edition使用[!DNL AI Assistant]來協助您瞭解產品�
 
 與Adobe Firefly的相容性： **否**
 
-## [!DNL Campaign] Managed Services （Campaign v8網頁） {#campaign-cs}
+## [!DNL Campaign]受管理的雲端服務 {#campaign-cs}
 
-Campaign v8 (Campaign Managed Cloud Services)使用[!DNL AI Assistant]產生內容。 此功能可讓您根據行銷目標自動產生個人化、吸引人且有效的內容，其內容已針對品牌概述的樣式、版面、色調等最佳化。 您可以在電子郵件、簡訊和推播等管道間使用它。
+Campaign Managed Cloud Services使用[!DNL AI Assistant]來產生內容。 此功能可讓您根據行銷目標自動產生個人化、吸引人且有效的內容，其內容已針對品牌概述的樣式、版面、色調等最佳化。 您可以在電子郵件、簡訊和推播等管道間使用它。
 
 **注意：**&#x200B;在Campaign Managed Cloud Services中產生內容的輸出不會有任何損失。
 
