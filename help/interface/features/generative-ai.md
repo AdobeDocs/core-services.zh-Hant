@@ -1,22 +1,22 @@
 ---
 title: Experience Cloud 應用程式中的 AI
-description: 瞭解generative AI以及Experience Cloud應用程式如何使用genAI和 [!DNL AI Assistant]。
+description: 瞭解generative AI (GenAI)以及Experience Cloud應用程式如何使用GenAI和 [!DNL AI Assistant]。
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1421'
 ht-degree: 3%
 
 ---
 
 # Experience Cloud產品中的Generative AI
 
-此頁面可協助您瞭解哪些產品支援創作AI、[!DNL AI Assistant]，以及Adobe Firefly是否相容。 您也可以找到如何在Experience Cloud應用程式中使用AI相關資訊的連結。
+本頁可協助您瞭解哪些產品支援generative AI (GenAI)、[!DNL AI Assistant]，以及Adobe Firefly是否相容。 您也可以找到在Experience Cloud應用程式中使用AI各種方式相關資訊的連結。
 
 **關於產生AI**
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 * **營運分析：** [營運分析](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)參考中繼資料物件（屬性、對象、資料流、資料集等）的相關回應。 有了AI助理，您可以在幾秒鐘內完成不然可能需要數小時或數天的作業。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[瞭解AI助理](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 瞭解下列Experience Cloud應用程式如何支援產生AI或[!DNL AI Assistant]。 也指出支援Adobe Firefly。
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign]受管理的雲端服務](#campaign-cs)
@@ -71,7 +71,11 @@ In AI Assistant, security is the priority:
 
 Adobe Firefly相容性： **是**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+以下章節簡要說明AEM應用程式中的創作AI。
+
+### Experience Manager Sites
 
 在AEM Sites中，您可以使用&#x200B;_[!UICONTROL 產生變數]_。 此功能會使用產生式人工智慧，根據您的輸入提示建立內容變異。 提示是由Adobe提供，或由您建立及管理。
 
@@ -93,6 +97,15 @@ Adobe Firefly相容性： **是**
 
 [深入瞭解產生變數](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL Content Hub]是[!DNL Experience Manager Assets as a Cloud Service]的一部分，可讓組織及其業務夥伴對品牌上內容的存取權進行民主化。 其著重於大規模散發資產以供啟用，以及建立品牌內內容變體，以提升行銷靈敏度。
+
+在Content Hub中，您可以使用Adobe Express建立內容(如果您有Adobe Express許可權)。 您可以使用簡單的工具編輯現有內容、使用範本和品牌元素產生品牌上的變化，以及使用[!DNL Adobe Firefly]的最新GenAI功能建立內容。
+
+[了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Adobe Firefly相容性： **是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -152,7 +165,11 @@ Adobe Firefly相容性： **是**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics提供[!DNL AI Assistant]產品知識和深入分析，以及Workspace視覺效果中的[!UICONTROL 智慧型字幕]。
+Customer Journey Analytics可讓您透過以下方式使用創作AI：
+
+* [!DNL AI Assistant]產品知識與深入分析
+* Workspace視覺效果中的[!UICONTROL 智慧型字幕]
+* AI和GenAI會自動在[!DNL Content Analytics]中指派每個資產中繼資料
 
 **AI 助理**
 
@@ -176,6 +193,12 @@ Customer Journey Analytics提供[!DNL AI Assistant]產品知識和深入分析�
 
 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analytics使用AI和GenAI自動指派每個資產中繼資料，例如主題、場景、前景顏色等。 屬性是AI指派的中繼資料標籤，說明資產或體驗中的內容。
+
+例如：前景`color: red`是自動指派的屬性。 視覺效果可協助您識別哪些資產屬性對轉換的貢獻最大。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 Adobe Firefly相容性： **否**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
@@ -189,6 +212,21 @@ Real-Time CDP使用[!DNL AI Assistant]協助您瞭解Experience League的產品�
 Adobe Firefly相容性： **否**
 
 ## [!DNL Marketo] {#marketo}
+
+在Marketo中，互動式網路研討會和Dynamic Chat提供generative AI。
+
+**互動式網路研討會**
+
+為您錄製的網路研討會自動產生章節和摘要，讓對象更容易存取和導覽。 功能包括：
+
+* 自動產生章節
+* AI產生的文字摘要
+* 可編輯的內容 — 修改產生的章節和摘要
+* 輕鬆整合 — 將HTML程式碼複製到您選取的網頁編輯器，以將章節和摘要新增至您的登陸頁面
+
+[了解更多](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的生產力、深入瞭解網站的訪客意圖，並以安全的方式回應訪客問題。 您可以預先核准問題、答案和交談摘要。
 
