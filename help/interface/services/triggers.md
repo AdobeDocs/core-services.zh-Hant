@@ -31,7 +31,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
 
 >[!NOTE]
 >
->[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)中有更多關於使用[!UICONTROL 觸發器]的資訊。
+>[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)中有更多關於使用[!UICONTROL 觸發器]的資訊。
 
 ### 觸發器的類型
 
@@ -69,7 +69,7 @@ Experience Cloud 中的[!UICONTROL 觸發器]能讓您識別、定義及監控�
    {style="table-layout:auto"}
 
 5. 按一下&#x200B;**[!UICONTROL 儲存]**。
-6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hant)。
 
 ### 範例觸發器
 

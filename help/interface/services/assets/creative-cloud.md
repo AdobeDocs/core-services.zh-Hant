@@ -32,4 +32,4 @@ ht-degree: 75%
 
 若在 [!DNL Adobe Target] 中建立活動，可在調換[!UICONTROL 優惠方案庫]中的影像時使用共用的影像資產。
 
-請參閱 [!DNL Target] 說明中的[優惠方案庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。
+請參閱 [!DNL Target] 說明中的[優惠方案庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)。

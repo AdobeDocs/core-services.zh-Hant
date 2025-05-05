@@ -80,7 +80,7 @@ Experience Cloud 可支援每個使用者偏好的語言，如同您的 Adobe �
 
 ## Experience Cloud 中的搜尋和支援 {#search-support}
 
-Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/#home) 上的說明 (文件、教學課程和其他課程)。
+Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 上的說明 (文件、教學課程和其他課程)。
 
 ![Experience Cloud 中的搜尋和支援](assets/search-menu.png)
 

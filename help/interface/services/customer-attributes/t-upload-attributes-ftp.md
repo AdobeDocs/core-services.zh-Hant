@@ -27,7 +27,7 @@ ht-degree: 76%
 您可以透過 FTP 或 SFTP 將檔案上傳至客戶屬性 FTP 站台：
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所說明。
+* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hant)所說明。
 
 **透過 FTP 上傳資料檔案**
 

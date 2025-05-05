@@ -34,4 +34,4 @@ Analytics會使用Cookie以匿名方式定義新訪客、協助分析點按資�
 
 ## 外掛程式設定的 Cookie
 
-有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/plugins/impl-plugins)。

@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 在驗證憑證正確運作後，您可以更新Adobe實作以使用這些值。
 
-* 針對Adobe AnalyticsAppMeasurement實作，請更新[`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver)設定變數。 若您已有實作，請參閱[訪客移轉](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration)，以瞭解如何防止將現有訪客計為新訪客的其他步驟。
-* 針對Web SDK實作，請更新[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)屬性。
+* 針對Adobe AnalyticsAppMeasurement實作，請更新[`trackingServer`](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/config-vars/trackingserver)設定變數。 若您已有實作，請參閱[訪客移轉](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/visitor-migration)，以瞭解如何防止將現有訪客計為新訪客的其他步驟。
+* 針對Web SDK實作，請更新[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/edgedomain)屬性。
 
 ## 維護與更新
 
