@@ -53,6 +53,7 @@ ht-degree: 94%
 1. 在[!UICONTROL 規則]下，選擇屬性來源：
 
    * **[!UICONTROL Real-Time Analytics：]**(或原始資料) 這是從即時 Analytics 影像請求衍生的屬性資料，並包含 eVars 和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+
    >[!NOTE]
    >
    >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。

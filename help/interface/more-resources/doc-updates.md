@@ -20,7 +20,7 @@ ht-degree: 72%
 
 **2025年2月**
 
-在Experience Cloud](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在Experience Cloud[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 **2024年11月**
 
