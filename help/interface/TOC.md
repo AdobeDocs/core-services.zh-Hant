@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和使用者帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud Assets。
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [將資產上傳到共用資料夾](services/assets/upload.md)
       + [針對共用的資產檔案需求](services/assets/file-reqs.md)
       + [共用資料夾的行為](services/assets/behavior.md)
-   + 客群庫{#audiences}
+   + 客群庫 {#audiences}
       + [概觀](services/audiences/overview.md)
       + [建立客群](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [地區資料收集](data-collection/rdc.md)
    + [使用 DNS 預先擷取](data-collection/dns-prefetch.md)
 
-+ 更多資源 {#more-resources}
++ 發行說明和資源 {#more-resources}
    + [發行說明](more-resources/release-notes.md)
    + [文件更新](more-resources/doc-updates.md)
    + [常見問答](more-resources/faq.md)
