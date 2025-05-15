@@ -1,10 +1,10 @@
 ---
 title: Experience Cloud使用的IP位址
-description: 如果貴組織的防火牆封鎖源自Adobe的IP位址，請使用此清單來更新防火牆設定。
+description: 如果貴組織的防火牆封鎖來自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 11%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入要求變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
+>雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入需要變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
 除了下列IP位址區塊外，各個Adobe Experience Cloud產品也各有專屬的IP位址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## 所有AdobeIP位址區塊
+## 所有Adobe IP位址區塊
 
-下表涵蓋Adobe擁有的所有IP位址。 此表格包含所有Adobe員工辦公室，以及由Adobe在全球執行的資料中心。 但不包含公用雲端上託管的服務。
+下表涵蓋所有Adobe擁有的IP位址。 此表格包含Adobe在全球執行的所有Adobe員工辦公室和資料中心。 但不包含公用雲端上託管的服務。
 
 | IP區塊（CIDR標籤法） |
 | --- |
@@ -55,7 +55,6 @@ ht-degree: 11%
 | 加利福尼亞 | `63.140.32.0/23` |
 | 加利福尼亞 | `63.140.34.0/24` |
 | 法國 | `63.140.62.0/23` |
-| 印度 | `66.117.20.0/24` |
 | 印度 | `66.117.22.0/23` |
 | 日本 | `130.248.169.0/23` |
 | 日本 | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ ht-degree: 11%
 | 倫敦 | `185.34.188.0/22` |
 | 倫敦 | `130.248.152.0/22` |
 | 倫敦 | `130.248.244.0/23` |
+| 俄亥俄 | `66.117.20.0/24` |
 | 俄勒岡 | `66.235.132.0/22` |
 | 俄勒岡 | `130.248.130.0/23` |
 | 俄勒岡 | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ Adobe Experience Cloud也支援有限容量的IPv6。 這些IP區塊的資料收
 | 印度 | `2406:da1a:f34:6a00::/56` |
 | 愛爾蘭 | `2a05:d018:309:600::/56` |
 | 日本 | `2406:da14:b07:ab00::/56` |
+| 俄亥俄 | `2600:1f16:130f:7d00::/56` |
 | 俄勒岡 | `2600:1f14:1eb:7d00::/56` |
 | 俄勒岡 | `2600:1f14:9d3:2b00::/56` |
 | 新加坡 | `2406:da18:6e8:1e00::/56` |
