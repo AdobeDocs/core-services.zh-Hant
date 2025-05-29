@@ -32,20 +32,20 @@ Generative AI是可建立原始內容的AI型別。 例如，它可以建立文�
 
 * **產品知識：**&#x200B;產品知識是指以Experience League檔案為根據的概念和主題。 瞭解如何建立有效的[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)，以充份運用[!DNL AI Assistant]。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
 
-* **營運分析：** [營運分析](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions)參考中繼資料物件（屬性、對象、資料流、資料集等）的相關回應。 透過[!DNL AI Assistant]，您可以在數秒內完成其他可能需要數小時或數天的作業。
+* **營運分析：** [營運分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions#objects-questions)參考中繼資料物件（屬性、對象、資料流、資料集等）的相關回應。 透過[!DNL AI Assistant]，您可以在數秒內完成其他可能需要數小時或數天的作業。
 
-* **客戶支援**： [產品支援代理程式](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support)是[!DNL AI Assistant]的自助式偵錯和疑難排解功能，可供Experience Platform功能和應用程式使用。 在不離開工作流程的情況下疑難排解支援問題、建立客戶支援票證，並使用AI Assistant追蹤案例進度。
+* **客戶支援**： [產品支援代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/new-features/customer-support)是[!DNL AI Assistant]的自助式偵錯和疑難排解功能，可供Experience Platform功能和應用程式使用。 在不離開工作流程的情況下疑難排解支援問題、建立客戶支援票證，並使用AI Assistant追蹤案例進度。
 
   **注意：**&#x200B;此功能位於Alpha中，可能不適用於您的組織。 若要參與Alpha計畫並存取此功能，請聯絡您的Adobe客戶團隊。
 
 <!-- * **Model cards:**
 
-    * **AI Assistant Natural Language to SQL:** Translate customers' natural language queries about operational insights into SQL queries. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/natural-language-to-sql)
+    * **AI Assistant Natural Language to SQL:** Translate customers' natural language queries about operational insights into SQL queries. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/natural-language-to-sql)
 
-    * **Customer AI Propensity Scoring:** provide marketers and customer engagement teams with actionable insights by predicting the probability that a customer will perform a given action, such as making a purchase, signing up for a subscription, or engaging with an email campaign. The outputs allow businesses to optimize audience segmentation and personalize customer interactions based on predicted behaviors. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai)
+    * **Customer AI Propensity Scoring:** provide marketers and customer engagement teams with actionable insights by predicting the probability that a customer will perform a given action, such as making a purchase, signing up for a subscription, or engaging with an email campaign. The outputs allow businesses to optimize audience segmentation and personalize customer interactions based on predicted behaviors. [Learn more](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai)
  -->
 
-[瞭解AI助理](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[瞭解AI助理](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/landing)
 
 <!--## Adobe Marketing Agent for Microsoft 365 Copilot 
 
@@ -119,7 +119,7 @@ Adobe Firefly相容性： **是**
 
 Adobe Firefly相容性： **是**
 
-[了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Experience Manager Assets
 
@@ -127,13 +127,13 @@ Adobe Firefly相容性： **是**
 
 在Content Hub中，您可以使用Adobe Express建立內容(如果您有Adobe Express許可權)。 您可以使用簡單的工具編輯現有內容、使用範本和品牌元素產生品牌上的變化，以及使用[!DNL Adobe Firefly]的最新GenAI功能建立內容。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 Adobe Firefly相容性： **是**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助理](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)來取得&#x200B;_產品知識_&#x200B;和&#x200B;_營運深入分析_ （測試版）。
+在[!DNL Journey Optimizer] (AJO)中，您可以使用[AI助理](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-assistant)來取得&#x200B;_產品知識_&#x200B;和&#x200B;_營運深入分析_ （測試版）。
 
 ### 在AJO中使用AI助理的範例
 
@@ -149,17 +149,17 @@ Adobe Firefly相容性： **是**
 
   對於輸出，AI Assistant查詢客戶特定的資料存放區。 資料存放區包含有關[!UICONTROL 歷程]的集中操作資料。 此功能與客戶無關，只會從商業物件提取中繼資料。 它不會存取您沙箱中的資料。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-assistant)
 
 Adobe Firefly相容性： **否**
 
 ### 用於產生內容的AI助理(AJO Prime和Ultimate) {#ajo-prime}
 
-在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[內容產生](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)來產生內容，為文字和影像提供主動式內容變數建議。
+在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[內容產生](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)來產生內容，為文字和影像提供主動式內容變數建議。
 
 此功能適用於電子郵件、推播通知、網頁、內容和SMS頻道。 它提供提示式文字和影像產生。 AJO Prime和Ultimate中內容產生的輸出不會受到任何影響。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 Adobe Firefly相容性： **是**
 
@@ -173,7 +173,7 @@ Journey Optimizer B2B edition使用[!DNL AI Assistant]來協助您瞭解產品�
 
   產品知識輸出是從Experience League提取。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly相容性： **否**
 
@@ -183,7 +183,7 @@ Campaign Managed Cloud Services使用[!DNL AI Assistant]來產生內容。 此�
 
 **注意：**&#x200B;在Campaign Managed Cloud Services中產生內容的輸出不會有任何損失。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 Adobe Firefly相容性： **是**
 
@@ -206,7 +206,7 @@ Adobe Firefly相容性： **否**
 
 經驗豐富的使用者可獲得進階使用案例或學習策略，以更快的速度執行任務。 您可以快速瞭解概念、疑難排解問題或搜尋資訊。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **智慧型字幕**
 
@@ -218,13 +218,13 @@ Adobe Firefly相容性： **否**
 
 * **輸出：**&#x200B;檢視自動產生的自然語言註解，顯示內容與主要內容。 接著，您可對產生的資料執行動作，例如檢閱、複製資料並與組織共用。 [檢視方式](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics使用AI和GenAI自動指派每個資產中繼資料，例如主題、場景、前景顏色等。 屬性是AI指派的中繼資料標籤，說明資產或體驗中的內容。
 
-例如：前景`color: red`是自動指派的屬性。 視覺效果可協助您識別哪些資產屬性對轉換的貢獻最大。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+例如：前景`color: red`是自動指派的屬性。 視覺效果可協助您識別哪些資產屬性對轉換的貢獻最大。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report#template)
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -249,13 +249,13 @@ Adobe Firefly相容性： **否**
 * 可編輯的內容 — 修改產生的章節和摘要
 * 輕鬆整合 — 將HTML程式碼複製到您選取的網頁編輯器，以將章節和摘要新增至您的登陸頁面
 
-[了解更多](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的生產力、深入瞭解網站的訪客意圖，並以安全的方式回應訪客問題。 您可以預先核准問題、答案和交談摘要。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 Adobe Firefly相容性： **否**
 
@@ -268,12 +268,12 @@ Adobe Firefly相容性： **否**
 * 根據您的提示取得產生的公式。 您也可以解決計算欄位中無效自訂運算式的錯誤。
 * 尋找專案、任務和問題。
 
-[了解更多](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[了解更多](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
 Adobe Firefly相容性： **否**
 
 ## 其他資源
 
-* [信任中心上的AI資源](https://www.adobe.com/trust/responsible-ai.html)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [信任中心上的AI資源](https://www.adobe.com/trust/responsible-ai.html)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 **免責宣告：**&#x200B;此頁面上的資訊僅供一般參考。 我們的目標是要保持其正確性和最新狀態，但軟體和AI功能可能會經常變更。 我們並不保證資訊的完整或可靠性。 在根據此內容做出決定之前，請仔細檢查任何重要細節。
