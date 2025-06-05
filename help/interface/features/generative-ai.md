@@ -44,7 +44,7 @@ Generative AI是可建立原始內容的AI型別。 例如，它可以建立文�
 
 下列Experience Cloud應用程式支援產生AI或[!UICONTROL AI助理]。 也依產品說明支援Adobe Firefly。
 
-更新日期： 2025年6月5日&#x200B;****
+更新日期： 2025年6月5日&#x200B;**&#x200B;**
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager]](#aem)
