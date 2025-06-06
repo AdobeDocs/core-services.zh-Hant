@@ -44,7 +44,7 @@ AI助理在支援的應用程式中也包含交談代理程式AI功能（稱為&
 
 下列Experience Cloud應用程式支援產生AI或[!UICONTROL AI助理]。 也依產品說明支援Adobe Firefly。
 
-更新日期： 2025年6月6日&#x200B;****
+更新日期： 2025年6月6日&#x200B;**&#x200B;**
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager]](#aem)
