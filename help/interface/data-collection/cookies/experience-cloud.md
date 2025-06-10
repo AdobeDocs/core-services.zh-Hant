@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud使用Cookie來儲存不同Experience Cloud應用程式所
   </tr> 
   <tr> 
    <td colname="col1"> <p> 過期 </p> </td> 
-   <td colname="col2"> <p>2 年 </p> </td> 
+   <td colname="col2"> <p>2年，不過大部分的現代瀏覽器都會截斷為13個月</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 使用方式 </p> </td> 
@@ -58,9 +58,9 @@ Adobe Experience Cloud使用Cookie來儲存不同Experience Cloud應用程式所
 
 **Cookie 名稱：AMCV_###@AdobeOrg**
 
-[Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
+另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
