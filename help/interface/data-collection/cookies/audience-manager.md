@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。這些功能�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他屬性</b> </p> </td> 
@@ -129,7 +129,7 @@ dextp Cookie 資料語法：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hant" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 

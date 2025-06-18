@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 72%
@@ -20,7 +20,7 @@ ht-degree: 72%
 
 **2025年2月**
 
-在Experience Cloud[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在Experience Cloud](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 **2024年11月**
 
@@ -112,7 +112,7 @@ ht-degree: 72%
 
 **2018年6月8日**
 
-更新[客戶屬性的相關資料檔案和資料來源](../services/customer-attributes/crs-data-file.md)，並隨附上傳多個檔案的相關資訊。
+更新[關於客戶屬性的資料檔案和資料來源](../services/customer-attributes/crs-data-file.md)，提供有關如何上傳多個檔案的資訊。
 
 **2018年6月6日**
 

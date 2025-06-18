@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -53,12 +53,11 @@ ht-degree: 94%
 1. 在[!UICONTROL 規則]下，選擇屬性來源：
 
    * **[!UICONTROL Real-Time Analytics：]**(或原始資料) 這是從即時 Analytics 影像請求衍生的屬性資料，並包含 eVars 和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
-
    >[!NOTE]
    >
    >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
-   * **[!UICONTROL Experience Cloud：]**&#x200B;從 [!DNL Experience Cloud] 來源衍生的屬性資料。例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
+   * **[!UICONTROL Experience Cloud：]**&#x200B;從[!DNL Experience Cloud]來源衍生的屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
 
 1. 定義客群規則，然後按一下&#x200B;**[!UICONTROL 儲存]。**
 

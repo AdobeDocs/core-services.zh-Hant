@@ -1,15 +1,15 @@
 ---
 title: 加州消費者隱私法的客戶屬性支援
-description: 了解加州消費者隱私法的客戶屬性支援
+description: 瞭解加州消費者隱私法的客戶屬性支援
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 82%
+ht-degree: 57%
 
 ---
 
@@ -27,11 +27,11 @@ CCPA是加州的最新隱私權法，自2020年1月1日起生效。 CCPA 賦予�
 
 Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience Cloud 產品和服務相關的事務，Adobe Experience Cloud 均可支援您的企業履行 CCPA 所規定的相關義務。此支持包括管理存取和刪除個人資訊的請求。
 
-本文件說明[!UICONTROL 客戶屬性]如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 CCPA 資料和刪除權限。
+本檔案說明[!UICONTROL 客戶屬性]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI，支援您的資料主體存取CCPA資料和刪除許可權。
 
 如需 CCPA 適用 Adobe 隱私權服務的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/privacy/ccpa.html)。
 
-## 傳送[!UICONTROL 客戶屬性]請求的必要設定
+## 傳送[!UICONTROL 客戶屬性]要求的必要設定
 
 若要請求存取和刪除[!UICONTROL 客戶屬性]的資料，您必須：
 
@@ -39,13 +39,13 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
 
    * [組織 ID](../../administration/organizations.md)
    * 您要對其採取動作之 CRS 資料來源的別名 ID
-   * 您要對其採取動作之個人資料的 CRM ID
+   * 您要對其採取動作之輪廓的 CRM ID
 
    您的組織ID是24個字元的英數字串，後面接著@AdobeOrg。 您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
-1. 在[!UICONTROL 隱私權服務]中，您可以將存取和刪除請求提交至客戶屬性，以及查看現有請求的狀態。
+1. 在[!UICONTROL Privacy Service]中，您可以將存取和刪除要求提交至客戶屬性，以及檢查現有要求的狀態。
 
-## [!UICONTROL 客戶屬性] JSON 請求中的必填欄位值
+## [!UICONTROL 客戶屬性] JSON要求中的必要欄位值
 
 &quot;company context&quot;：
 

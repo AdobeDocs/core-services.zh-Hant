@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 介面與管理
 breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
-description: 了解 Experience Cloud 介面、Cookie 和使用者帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud Assets。
+description: 了解 Experience Cloud 介面、Cookie 和使用者帳戶偏好設定。管理產品並設定People服務，包括客戶屬性和對象庫。 共用 Experience Cloud Assets。
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
    + [Exchange](services/exchange.md)
    + 客戶屬性 {#customer-attributes}
       + [概觀](services/customer-attributes/attributes.md)
-      + [關於客戶屬性的常見問答](services/customer-attributes/faq-crs.md)
+      + [關於客戶屬性的常見問題](services/customer-attributes/faq-crs.md)
       + [關於客戶屬性的資料檔案和資料來源](services/customer-attributes/crs-data-file.md)
       + [建立客戶屬性來源及上傳資料檔案](services/customer-attributes/t-crs-usecase.md)
       + [選用 - 透過 FTP 上傳資料檔案](services/customer-attributes/t-upload-attributes-ftp.md)

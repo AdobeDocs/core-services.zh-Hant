@@ -2,16 +2,15 @@
 description: 了解如何驗證 Adobe Experience Cloud 中的客戶屬性結構。
 solution: Experience Cloud
 title: 如何驗證客戶屬性結構
-uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 84%
+ht-degree: 72%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 84%
 >
 >在驗證後更新結構會刪除客戶屬性。請參閱[更新結構 (也會刪除屬性)](t-crs-usecase.md)。
 
-**[!UICONTROL 客戶屬性來源]** > **[!UICONTROL 建立新的客戶屬性來源]** > **[!UICONTROL 檢視/編輯結構]**
+**[!UICONTROL 客戶屬性Source]** > **[!UICONTROL 建立新的客戶屬性Source]** > **[!UICONTROL 檢視/編輯結構描述]**
 
 ![編輯結構](assets/view_edit_schema.png)
 
@@ -35,13 +34,13 @@ ht-degree: 84%
 
 * **[!UICONTROL 檢視/編輯結構：]**&#x200B;將顯示名稱對應至屬性資料，如下一個步驟所述。
 
-* **[!UICONTROL FTP 設定：]**&#x200B;[透過 FTP 上傳資料](t-upload-attributes-ftp.md)。
+* **[!UICONTROL FTP 設定：]**[透過 FTP 上傳資料](t-upload-attributes-ftp.md)。
 
-* **[!UICONTROL ID 查閱：]**&#x200B;輸入您的 `.csv` 中的客戶 ID (CID) 以查閱該 ID 的 Experience Cloud 資訊。在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
+* **[!UICONTROL ID查閱：]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查閱該ID的Experience Cloud資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
 
    * **[!UICONTROL ECID (Experience Cloud ID)：]**&#x200B;顯示您是否使用最新的 Experience Cloud ID Service。如果您使用MCID服務，但此處並未列出ID，表示Experience Cloud尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
-   * **[!UICONTROL CID (客戶 ID)：]**&#x200B;與此 CID 關聯的屬性。如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
+   * **[!UICONTROL CID （客戶識別碼）：]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
 
    * **[!UICONTROL AVID (Analytics 訪客 ID)：]**&#x200B;顯示您是否使用 prop 或 eVar 上傳 CID。如果這些ID正傳遞至Experience Cloud，則此處會顯示與您輸入的CID相關聯的任何訪客ID。
 
@@ -49,7 +48,7 @@ ht-degree: 84%
 
 您套用至字串、整數、數字的名稱是用於建立 [!DNL Analytics] 度量。
 
-* **[!UICONTROL 屬性：]**&#x200B;從上傳的 `.csv` 檔案讀取的屬性資料。
+* 從上傳的`.csv`檔案讀取的&#x200B;**[!UICONTROL 屬性：]**&#x200B;屬性資料。
 
 * **[!UICONTROL 類型：]**&#x200B;資料類型，例如：
 
@@ -59,6 +58,6 @@ ht-degree: 84%
 
    * **數字：**&#x200B;最多可以有兩位小數。
 
-* **[!UICONTROL 顯示名稱：]**&#x200B;好記的屬性名稱。例如，您可能會將&#x200B;*客戶年齡*&#x200B;屬性變更為「*客戶加入時間*」。
+* **[!UICONTROL 顯示名稱：]**&#x200B;好記的屬性名稱。例如，您可以將屬性&#x200B;*客戶年齡*&#x200B;變更為&#x200B;*客戶自*&#x200B;起。
 
 * **[!UICONTROL 說明：]**&#x200B;好記的屬性說明。

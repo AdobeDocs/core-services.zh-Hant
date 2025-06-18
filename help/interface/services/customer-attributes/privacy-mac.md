@@ -2,20 +2,19 @@
 description: 了解在 Experience Cloud 中上傳和使用的個人識別資訊 (PII) 的相關考量事項和最佳實務。
 solution: Experience Cloud
 title: 客戶屬性的隱私權考量事項
-uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# [!DNL Customer Attributes] 的隱私權考量事項
+# [!DNL customer attributes] 的隱私權考量事項
 
 Adobe Experience Cloud 中已上傳及使用之個人身分資訊 (PII) 的相關考量事項和最佳做法。
 
@@ -44,4 +43,4 @@ Adobe 建議廣告商仔細考慮哪些資訊適合用於行銷目的，以及�
 1. 據實以告 (在您的隱私權政策中)。
 1. 不要讓消費者感到驚訝。
 
-考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化內容，指出消費者已通過驗證。此情況的範例是在網站標題中包含問候語。Adobe 也建議廣告商在其隱私權政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。最後，Adobe 強烈建議廣告商檢閱自己提供給消費者的選擇退出選項，瞭解是否可以以及如何在選擇退出後使用未經驗證的個人資料資訊。
+考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化內容，指出消費者已通過驗證。此情況的範例是在網站標題中包含問候語。Adobe 也建議廣告商在其隱私權政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。最後，Adobe 強烈建議廣告商檢閱自己提供給消費者的選擇退出選項，瞭解是否可以以及如何在選擇退出後使用未經驗證的輪廓資訊。
