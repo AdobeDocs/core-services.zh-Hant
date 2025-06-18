@@ -34,7 +34,7 @@ ht-degree: 72%
 
 * **[!UICONTROL 檢視/編輯結構：]**&#x200B;將顯示名稱對應至屬性資料，如下一個步驟所述。
 
-* **[!UICONTROL FTP 設定：]**[透過 FTP 上傳資料](t-upload-attributes-ftp.md)。
+* **[!UICONTROL FTP 設定：]**&#x200B;[透過 FTP 上傳資料](t-upload-attributes-ftp.md)。
 
 * **[!UICONTROL ID查閱：]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查閱該ID的Experience Cloud資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
 

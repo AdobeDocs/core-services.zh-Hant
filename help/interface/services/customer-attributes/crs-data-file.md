@@ -103,7 +103,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可檢視上一個檔案是在何時移至[！UICONTROL客戶屬性] FTP帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可檢視上一個檔案是在何時移至[!UICONTROL 客戶屬性] FTP帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -111,7 +111,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至[!DNL Analytics]中的基礎訪客設定檔。 因此在[!DNL Analytics]中，該訪客設定檔的整個生命週期中，[！UICONTROL客戶屬性]都會與該訪客相關聯。 此輪廓包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再提供使用。 </td> 
+   <td colname="col2"> <p> 客戶屬性會繫結至[!DNL Analytics]中的基礎訪客設定檔。 因此在[!DNL Analytics]中，該訪客設定檔的整個生命週期中，[!UICONTROL 客戶屬性]都會與該訪客相關聯。 此輪廓包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再提供使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 

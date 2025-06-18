@@ -157,6 +157,6 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 如需深入了解如何存取 Adobe Experience Cloud 和輪廓與客群，以及 [!DNL Adobe Advertising] 與 Adobe Experience Cloud 客群之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也有使用 Adobe Target，您發佈至 Adobe Experience Cloud 的客群也可以用於 Adobe Target 中的活動。
 
-**Experience Cloud 資產:** (可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須透過Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard) [登入Adobe Advertising，才能存取Adobe Experience Cloud資產。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
+**Experience Cloud 資產:** (可管理顯示內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為顯示廣告的廣告創意。您必須透過Adobe Experience Cloud[&#128279;](https://enterprise.efrontier.com/CMDashboard) 登入Adobe Advertising，才能存取Adobe Experience Cloud資產。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
 
 **Experience Cloud 通知：**&#x200B;在每個頁面上方的通知連結中，您可以查看搜尋測試版提示範本產生的所有提示。您還可以取得 Experience Cloud 系統更新、貼文、相關記錄和共用的資產。您必須[透過Adobe Experience Cloud登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
