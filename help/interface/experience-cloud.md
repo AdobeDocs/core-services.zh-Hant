@@ -57,7 +57,7 @@ ht-degree: 97%
 
 ## 取得說明和支援 {#support}
 
-使用封面中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習資源和說明，包括有關 [Experience League](https://experienceleague.adobe.com/#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用封面中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習資源和說明，包括有關 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
