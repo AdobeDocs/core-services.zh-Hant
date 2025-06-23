@@ -8,7 +8,7 @@ index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 88%
 
 + 功能 {#features}
    + [帳戶偏好設定和通知](features/account-preferences.md)
-   + [Generative AI](features/generative-ai.md)
-   + [Agentic AI](features/agentic-ai.md)
+   + [生成式 AI](features/generative-ai.md)
+   + [代理式 AI](features/agentic-ai.md)
    + [整合式搜尋](features/search.md)
    + [個人化學習](features/personalized-learning.md)
    + [瀏覽器和語言支援](browser-language.md)
