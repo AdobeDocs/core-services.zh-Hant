@@ -36,7 +36,7 @@ Experience Cloud 中的 [!DNL Customer attributes] 可讓您上傳從客戶關�
 
 * 客戶屬性需要 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)」。
 
 ## 什麼是企業客戶資料？ {#enterprise_data}
 
