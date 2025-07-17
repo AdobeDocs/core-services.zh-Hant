@@ -3,47 +3,49 @@ description: 了解 Adobe Experience Cloud 中的解決方案和服務如何使�
 title: Experience Cloud中Cookie的使用方式
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: d6dc659104b3b24b60495cd97adb21ebb3962fc7
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 58%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
 # Experience Cloud中使用的Cookie
 
-Adobe Experience Cloud 中的許多服務都會使用 Cookie。Cookie 是網站向網頁瀏覽器顯示的一小段資料。瀏覽器會儲存這段資料，讓網站在需要時可參考其資料。 此動作會在之後每次收到頁面和影像請求時執行。
+Adobe Experience Cloud使用Cookie。 Cookie是網站傳送給您的瀏覽器的一小段資料，會儲存以供日後使用。 Cookie可協助網站記住您再次造訪或在頁面之間移動時的內容。 Cookie有助於追蹤瀏覽次數，並將一個裝置與其他裝置區分開來。
 
-Cookie 可用來在使用者造訪網站期間或多次造訪網站之間保留資訊。Cookie 可做為裝置與其他檢視網站之瀏覽器之間獨特的區別。
-
-法律、法規及自我規範原則可能會要求您先徵詢訪客同意，才能儲存或擷取電腦或其他與 Web 連線之裝置的資訊。Adobe建議您與組織的法律顧問一起檢閱哪些法律、法規和原則可控制您對Cookie的使用。
+法律通常要求您先取得許可權，才能在某人的裝置上儲存或使用Cookie。 Adobe建議您洽詢法律團隊，瞭解適用的規則。
 
 ## 關於第一方 Cookie
 
-Adobe Experience Cloud服務會使用Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。 Adobe會儘可能使用第一方Cookie來記錄您網站上的活動。 若要記錄不同網站 (例如您可能擁有的其他網域) 上的活動，則需要第三方 Cookie。
+Adobe Experience Cloud使用Cookie來追蹤不會維持在頁面檢視或瀏覽器作業之間的資訊。 Adobe儘可能使用第一方Cookie （與您自己的網站連結）。 若要追蹤您擁有的多個網站或網域中的活動，則需要協力廠商Cookie。
 
-許多瀏覽器與反間諜軟體應用程式在設計上會拒絕及刪除第三方 Cookie。 Adobe可確保即使第三方Cookie遭到封鎖，仍可隨時設定Cookie。 此特定行為會因您使用的是Experience PlatformIdentity服務（ECID服務）還是Analytics的舊型識別碼（例如`s_vi` Cookie）而異：
+有些瀏覽器和防間諜軟體工具會封鎖協力廠商Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 其運作方式取決於您使用Experience Platform Identity Service (ECID)還是舊版Analytics Cookie （如`s_vi` Cookie）：
 
-* [Experience Platform識別服務（ECID服務）](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)會自動設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 如果兩者不符，Identity Service會使用JavaScript在您網站的網域上設定Cookie。
-* 如果您使用[Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie），則將取決於您已如何設定您的資料收集伺服器。 如果資料收集伺服器符合您網站的網域，則 Cookie 會設定為第一方。如果資料收集伺服器不符合您目前的網域，則Cookie會設定為第三方。 在此情況下，如果第三方Cookie遭到封鎖，Analytics會設定第一方備援ID (`s_fid`)，而非標準`s_vi` Cookie。
+* [Experience Cloud Identity服務](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)： ECID服務一律會設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
 
-如果您想要確保您的資料收集伺服器符合您網站的網域，您可以使用CNAME實作，好讓您可以從CNAME實作中指定的自訂網域轉送到Adobe的資料收集伺服器。 此工作涉及貴公司的DNS設定變更，以便設定CNAME別名來指向Adobe代管網域。 請注意，雖然有多項 Adobe 產品支援使用 CNAME，但在所有情況下，CNAME 都是用來為特定客戶建立受信任的第一方端點，且擁有權屬於該客戶。 如果您控制多個網域，這些網域可能會使用單一CNAME端點來追蹤其網域中的使用者，但只要網站網域不符合CNAME網域，Cookie就會設定為協力廠商。
+* [Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie）： Cookie是第一方還是第三方取決於您的設定：
+
+   * 如果您的資料收集伺服器符合您網站的網域，則Cookie為第一方。
+   * 如果不符，Cookie為協力廠商。 如果第三方Cookie遭到封鎖，Adobe會設定一個備援Cookie (`s_fid`)，而非一般的備援Cookie。
+
+為確保您的集合伺服器符合您網站的網域，您可以使用&#x200B;**CNAME設定**。 這涉及更新您的DNS設定，以將自訂網域（您擁有）指向Adobe的伺服器。 如此一來，追蹤Cookie會顯示為第一方。 雖然一個CNAME可以跨多個網域運作，但任何不符合CNAME的網域仍會設定第三方Cookie。
 
 >[!NOTE]
 >
->無論您的資料收集網域是否符合您網站的網域，Apple的智慧型追蹤預防(ITP)計畫會使得Adobe設定的第一方Cookie在受ITP控管的瀏覽器上短暫存在，其中包括macOS上的Safari以及iOS和iPadOS上的所有瀏覽器。 截至 2020 年 11 月，透過 CNAME 設定的 Cookie 也與透過 JavaScript 設定的 Cookie 具有相同有效期。 此有效期可能會有變動。
+>Apple的智慧型追蹤預防(ITP)會限制Adobe的第一方Cookie持續多久，即使您的收集網域符合您網站的網域亦然。 ITP會影響macOS上的Safari，以及iOS和iPadOS上的所有瀏覽器。 自2020年11月起，使用CNAME設定的Cookie將與使用JavaScript設定的Cookie一樣快速地過期。 此時間限制未來可能會變更。
+
+以下是文字的簡化版本：
 
 ## Cookie 與隱私權
 
-維護客戶隱私和資料安全是 Adobe 的首要任務。 Adobe 加入多個隱私權機構，並與隱私權監管機構合作，以及採取自我監管原則。這項合作包括數位廣告聯盟 Adchoices 計劃，為客戶提供有關如何使用他們資訊的訊息，以及關於資訊使用的選擇。
+Adobe嚴肅看待隱私權與資料安全性。 它可與隱私權組織、監管機構及AdChoices等程式合作，讓使用者掌控其資料的使用方式。
 
-Experience Cloud 產品設定的 Cookie 大多不含可識別的個人資訊。這些 Cookie 和相關資料安全無虞，且僅用於貴公司的報表，以及提供相關的內容和廣告。除非用於彙總的產業報告，否則協力廠商或其他 Adobe 客戶無法取得這些資料。例如，[!DNL Digital Marketing Insight Report] 會分析各個零售商的彙整匿名資料。
+Adobe Experience Cloud的大多數Cookie不會儲存個人資訊。 它們是安全的，僅供您的公司用於報表、內容和廣告。 Adobe不會與其他客戶或第三方共用這些資料，除非是匿名且涵蓋整個產業的報告(例如Digital Marketing Insight報告)。
 
-Adobe 不會合併各家公司的瀏覽器層級資訊。為了保護客戶資料的隱私和安全，Experience Cloud 中有些服務能讓公司針對每個追蹤的網站使用個別的 Cookie 集合。部分產品專案也讓客戶能使用其專屬的網域名稱作為Cookie的擁有者。 此做法可額外建立一層隱私與安全性，因為會使 Experience Cloud Cookie 成為永久屬於該公司網站的&#x200B;*第一方 Cookie*。
+Adobe不會合併跨不同公司的瀏覽器資料。 為了保護隱私權，有些Adobe工具可讓每個網站使用自己的Cookie集。 有些客戶也允許使用您自己的網域來處理Cookie，使其成為第一方且更安全。
 
-Cookie 只能儲存和提供先前儲放在 Cookie 中的資訊，無法執行程式碼或存取儲存在電腦上的其他資訊。同時，網頁瀏覽器會限制 Cookie 資料的存取。瀏覽器會強制執行 Cookie 安全性原則，讓所有 Cookie 資料僅供最初設定資訊的網站使用。
-
-例如，Adobe.com 網站中 Cookie 集所包含的資料，不能讓 Adobe.com 以外的任何其他網站檢視。
+Cookie只能儲存先前儲存於其中的資訊。 他們無法在您的裝置上執行程式碼或讀取其他資料。 此外，網頁瀏覽器僅允許Cookie由設定它們的網站讀取。 例如，只有Adobe.com可以讀取其設定的Cookie。
 
 下圖說明標準影像請求的 Cookie 使用方式：
 
