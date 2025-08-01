@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 72%
+source-wordcount: '614'
+ht-degree: 71%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 72%
 
 瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
 
+**2025 年 8 月**
+
+新增有關[重設您的Adobe ID](../features/account-preferences.md)的資訊。
+
 **2025年2月**
 
-在Experience Cloud[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在Experience Cloud[中新增](../administration/admin-console.md)管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 **2024年11月**
 
