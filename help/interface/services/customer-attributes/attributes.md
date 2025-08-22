@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 78%
 
 ---
@@ -36,7 +36,7 @@ Experience Cloud 中的 [!DNL Customer attributes] 可讓您上傳從客戶關�
 
 * 客戶屬性需要 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)」。
 
 ## 什麼是企業客戶資料？ {#enterprise_data}
 

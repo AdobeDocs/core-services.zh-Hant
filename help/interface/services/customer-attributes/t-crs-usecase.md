@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 50%
+source-wordcount: '1113'
+ht-degree: 49%
 
 ---
 
@@ -79,9 +79,9 @@ ht-degree: 50%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)工具中[!UICONTROL 客戶設定]下的&#x200B;*整合代碼*&#x200B;值。
+      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL 客戶設定]下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -89,7 +89,7 @@ ht-degree: 50%
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS：**&#x200B;別名 ID 對應於 [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant) 中的&#x200B;*「idType」*。
+      * **iOS：**&#x200B;別名識別碼對應至&#x200B;*visitorSyncIdentifiers*[中的:identifiers&quot;idType&quot;](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)。
 
         例如：
 
@@ -103,7 +103,7 @@ ht-degree: 50%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
 
 ## 上傳檔案 {#upload}
 
@@ -170,4 +170,4 @@ ht-degree: 50%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。

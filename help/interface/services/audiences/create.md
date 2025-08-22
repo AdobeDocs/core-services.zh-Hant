@@ -1,23 +1,23 @@
 ---
-description: 了解如何使用屬性規則來建立客群與定義 Adobe Experience Cloud 中的複合客群。
+title: 如何在對象庫中建立對象
+description: 瞭解如何使用屬性規則在對象庫中建立可共用的對象。 瞭解如何設定規則及定義複合對象。
 solution: Experience Cloud
-title: 建立對象
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
 # 建立客群
 
-了解如何使用屬性規則來建立客群與定義 Experience Cloud 中的複合客群。
+在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象以便在Experience Cloud應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -38,21 +38,22 @@ ht-degree: 92%
 下列範例說明如何建立複合客群的規則。此客群包括：
 
 * 「家庭與花園」區域衍生自頁面資料或原始分析資料。
-* 從[發佈](overview.md)至 [!DNL Experience Cloud] 的 [!DNL Adobe Analytics] 區段衍生出的 Chrome 和 Safari 使用者。
+* 衍生自[!DNL Adobe Analytics]區段[的Chrome和Safari使用者](overview.md)已發佈至[!DNL Experience Cloud]。
 
   ![為複合客群建立規則](assets/audience_create.png)
 
 **若要建立客群**
 
-1. 在 [!DNL Experience Cloud] 中的 [!DNL Experience Platform] 底下，按一下 **[!UICONTROL 人員]** > **[!UICONTROL 客群庫]。**
-1. 在[!UICONTROL 對象]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![新增](assets/add_icon_small.png)
+1. 按一下[!DNL Experience Cloud]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]。**
 
-   ![步驟結果](assets/audience_create_new.png)
+1. 在[!UICONTROL 對象]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![新對象](assets/add_icon_small.png)
 
-1. 在[!UICONTROL 建立新客群]頁面上，指定標題和說明。
-1. 在[!UICONTROL 規則]下，選擇屬性來源：
+   ![建立客群](assets/audience_create_new.png)
 
-   * **[!UICONTROL Real-Time Analytics：]**(或原始資料) 這是從即時 Analytics 影像請求衍生的屬性資料，並包含 eVars 和事件等資料。使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+1. 在[!UICONTROL 建立新對象]頁面上，完成&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;欄位。
+1. 在[!UICONTROL 規則]下，選取參考報表套裝，然後選取屬性來源：
+
+   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
 
    >[!NOTE]
    >
@@ -94,4 +95,4 @@ ht-degree: 92%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-在儲存客群後，可以將其用於其他應用程式。例如，您可以在 Adobe Target 活動中加入共用客群。
+對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
