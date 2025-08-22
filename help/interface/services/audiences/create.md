@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
@@ -63,6 +63,8 @@ ht-degree: 66%
 
 1. 定義客群規則，然後按一下&#x200B;**[!UICONTROL 儲存]。**
 
+**範例：定義複合對象的規則**
+
 >[!NOTE]
 >
 >定義客群規則時，您應該了解您的實作變數。
@@ -95,4 +97,4 @@ ht-degree: 66%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
