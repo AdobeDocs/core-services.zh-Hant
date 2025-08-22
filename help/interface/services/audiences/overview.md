@@ -69,7 +69,7 @@ ht-degree: 81%
 | 新增 | [建立客群](create.md)。 |
 | 標題與說明 | 用來識別和說明客群的欄標題。 |
 | 作者 | 建立客群區段的人。 |
-| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](create.md)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
+| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**&#x200B;[在 Experience Cloud Audiences 中建立](create.md)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的客群規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
