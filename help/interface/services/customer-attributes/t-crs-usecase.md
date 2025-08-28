@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 48%
+source-wordcount: '1132'
+ht-degree: 50%
 
 ---
 
@@ -19,17 +19,25 @@ ht-degree: 48%
 
 建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
 
-**客戶屬性工作流程**
+**[!DNL Customer Attributes]工作流程**
 
 ![客戶屬性工作流程](assets/crs.png)
 
-## 先決條件
+## 尋找[!DNL Customer Attributes]
 
-**產品存取：**&#x200B;若要存取[!DNL Customer Attributes]，必須將使用者指派給Admin Console (**[!UICONTROL )中的客戶屬性產品設定檔（]**&#x200B;客戶屬性 — 預設存取`adminconsole.adobe.com`）。
+在[!DNL Experience Cloud]中，按一下&#x200B;**[!UICONTROL 應用程式]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品]**。 如果&#x200B;*客戶屬性*&#x200B;顯示為其中一個產品（[!UICONTROL 產品設定檔]），表示您已準備開始。 已新增至客戶屬性產品設定檔的使用者，請參閱&#x200B;**[!DNL Customer Attributes]**&#x200B;應用程式&#x200B;**[!UICONTROL 選取器中的]**。 （![客戶屬性工作流程](assets/menu-icon.png)）
+## 使用[!DNL Customer Attributes]的必要條件 {#prerequisites}
 
-**應用程式群組：**&#x200B;若要使用&#x200B;**[!DNL Customer Attributes]**&#x200B;功能，使用者也必須屬於應用程式層級的群組(Adobe [!DNL Analytics]或[!DNL Adobe Target])。
+* **群組成員資格：**&#x200B;若要上傳資料，使用者必須是[!DNL Customer Attributes]群組的成員。 您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
+
+  若要知道您的公司是否具有客戶屬性的存取權，您的[!DNL Experience Cloud]管理員應登入[Experience Cloud](https://experience.adobe.com)。 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品]**。 如果 *[!DNL Customer Attributes]* 以其中一個[!UICONTROL 產品設定檔]顯示，表示您可以開始使用了。
+
+  新增至[!DNL Customer Attributes]的使用者可在Experience Cloud介面的左側看到[!DNL Customer Attributes]功能表專案。
+
+* 客戶屬性需要 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
+
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)」。
 
 ## 建立資料檔案 {#create-data}
 
@@ -50,7 +58,7 @@ ht-degree: 48%
 
 ## 建立屬性來源及上傳資料檔案 {#create-source}
 
-在Experience Cloud的「建立新客戶屬性來源」頁面執行這些步驟。
+在Experience Cloud的[!UICONTROL 建立客戶屬性Source]頁面上執行這些步驟。
 
 >[!IMPORTANT]
 >
@@ -78,9 +86,9 @@ ht-degree: 48%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL 客戶設定]下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)值。
+      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL 客戶設定]下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -102,7 +110,7 @@ ht-degree: 48%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
@@ -154,7 +162,7 @@ ht-degree: 48%
 
 請參閱[設定訂閱及啟用資料來源](subscription.md)。
 
-## 在Adobe Analytics中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
+## 在Adobe Analytics中使用[!DNL Customer Attributes]資料 {#task_7EB0680540CE4B65911B2C779210915D}
 
 現在有了 Adobe Analytics 等應用程式所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
 
@@ -164,10 +172,10 @@ ht-degree: 48%
 
 您將區段發佈至Experience Cloud後，Experience Cloud Audiences和Audience Manager可隨即使用該區段。
 
-## 在Adobe Target中使用客戶屬性 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## 在Adobe Target中使用[!DNL Customer Attributes]資料 {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 在 [!DNL Target] 中，您可在建立客群時，從[!UICONTROL 訪客資料區段]選取客戶屬性。清單中的所有客戶屬性都有前置詞`crs.`。 您可視需求將這些屬性與其他資料屬性結合，以建立客群。
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)。
+請參閱[說明中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)建立對象[!DNL Target]。
