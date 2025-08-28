@@ -1,19 +1,19 @@
 ---
-title: 加州消費者隱私法的客戶屬性支援
-description: 瞭解加州消費者隱私法的客戶屬性支援
+title: '[!DNL Customer Attributes]加州消費者隱私法的支援'
+description: 瞭解加州消費者隱私法 [!DNL Customer Attributes] 支援
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 63%
+source-wordcount: '399'
+ht-degree: 64%
 
 ---
 
-# 加州消費者隱私法的客戶屬性支援
+# 加州消費者隱私法[!DNL Customer Attributes]支援
 
 本頁面說明加州消費者隱私法(CCPA)的[!DNL Customer Attributes]支援。
 

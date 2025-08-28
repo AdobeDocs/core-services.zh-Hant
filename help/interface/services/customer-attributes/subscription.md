@@ -1,28 +1,28 @@
 ---
-description: 瞭解如何設定Analytics和Target的客戶屬性訂閱，以及啟用資料來源。
+description: 瞭解如何在 [!DNL Customer Attributes] 中設定Analytics和Target的訂閱，以及啟用資料來源。
 solution: Experience Cloud
-title: 如何設定訂閱
+title: 如何在 [!DNL Customer Attributes]中設定訂閱
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # 設定訂閱及啟動資料來源
 
-訂閱可讓客戶屬性資料在Experience Cloud和應用程式（[!DNL Analytics]和[!DNL Target]）之間流動。
+[!DNL Customer Attributes]訂閱可讓客戶屬性資料在Experience Cloud和應用程式（[!DNL Analytics]和[!DNL Target]）之間流動。
 
-例如，Adobe Analytics 訂閱可啟用報表中的屬性資料。若您使用 Adobe Target，則可以上傳客戶屬性以用於目標鎖定和細分。
+例如，Adobe Analytics 訂閱可啟用報表中的屬性資料。如果您使用[!DNL Adobe Target]，則可上傳客戶屬性以用於目標定位和細分。
 
 **若要設定訂閱及啟用資料來源**
 
-1. 找出要編輯的客戶屬性來源：
+1. 在[!DNL Customer Attributes]中找到您的資料來源以進行編輯：
 
    在[!DNL Experience Cloud]中，按一下&#x200B;**[!UICONTROL 應用程式]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
@@ -32,9 +32,9 @@ ht-degree: 65%
 
    ![在 Experience Cloud 中設定訂閱](assets/configure-subscriptions.png)
 
-1. 若要啟用客戶屬性來源，請按一下[啟用] **&#x200B;**，然後按一下[儲存] **&#x200B;**。
+1. 若要啟用客戶屬性來源，請按一下[啟用] ****，然後按一下[儲存] ****。
 
-1. 若要設定[!DNL Analytics]或[!DNL Target]的訂閱，請按一下[設定]。**&#x200B;**
+1. 若要設定[!DNL Analytics]或[!DNL Target]的訂閱，請按一下[設定]。****
 
    下列範例顯示[!DNL Target]訂閱：
 

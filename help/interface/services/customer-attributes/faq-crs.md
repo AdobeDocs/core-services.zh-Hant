@@ -1,5 +1,5 @@
 ---
-description: 對於 Adobe Analytics 和 Adobe Target，在 Adobe Experience Cloud 中關於 [!DNL Customer Attributes]  的常見問題集。
+description: 取得有關Adobe Experience Cloud中Adobe Analytics和Adobe Target中 [!DNL Customer Attributes] 常見問題的解答。
 solution: Experience Cloud
 title: 關於  [!DNL Customer Attributes] 的常見問題集
 feature: Customer Attributes
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 80%
+source-wordcount: '1036'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 80%
 
 | 問題 | 說明 |
 |--- |--- |
-| [!UICONTROL 客戶屬性]訂閱限制 | 升級至 Analytics Premium 後，必須等待 24 小時才能使用更多屬性。在這段延遲期間，您可能會看到已核發的[!UICONTROL 屬性訂閱上限]錯誤。 |
+| [!DNL Customer Attribute]訂閱限制 | 升級至 Analytics Premium 後，必須等待 24 小時才能使用更多屬性。在這段延遲期間，您可能會看到已核發的[!UICONTROL 屬性訂閱上限]錯誤。 |
 | 同一部裝置上多次登入 | 使用 [!DNL Customer Attributes] 將客戶輪廓上傳至資料來源時，Adobe 不建議使用者共用裝置 (亦即使用同一個 Experience Cloud ID)。Experience Cloud ID (ECID) 會留存於裝置上。如果共用裝置，可能使多個使用者連結至相同的 ECID，導致 [!DNL Target] 出現非預期的結果。**注意：**&#x200B;若使用行動裝置，行動應用程式安裝後 ECID 會永久存在。重新安裝應用程式以產生新的 ECID。若使用網頁，系統會在瀏覽器 Cookie 清除後產生新的 ECID。 |
 | 每日頻率上傳限制 | Adobe 建議每天只需更新一次 [!DNL Customer Attributes]。您至少必須等待 24 小時，才能為同一組輪廓上傳另一個客戶輪廓資料檔案。 |
 | 自訂 Analytics ID (`s.visitorID`) | 使用`s.visitorID`設定客戶ID是在Adobe Analytics中識別使用者的方法。 不過，在使用 `s.visitorID.`<br> 識別訪客時，透過 ID Service 匯出或匯入 [!DNL Analytics] 資料的整合功能無法使用，其中包含但不限於共用 Audiences、Adobe Target (A4T) 的 [!DNL Analytics] 和 [!DNL Customer Attributes]。<br>對於這類整合內容，設定自訂 Analytics ID 的方法便不受支援。 |
@@ -45,7 +45,7 @@ ht-degree: 80%
 | **(僅限 Adobe Target)** 我是否可以預先載入或上傳 Adobe Target 從未看過的客戶資料？ | 可以。訪客第一次向 Adobe Target 提出請求時，系統會從 [!DNL Customer Attributes] 擷取與 Adobe 有關的現有資訊，並使用這些資料進行目標鎖定。**注意：**&#x200B;如果訪客是第一次與 Adobe Target 互動，則擷取此資料可能需花費最長達 20 分鐘。 |
 | **(僅限 Adobe Target)** 我是否可藉由結合客戶屬性資料和共用的客群資料來建立超級客群？ | 不會。共用的客群資料是已完成的客群。 |
 | **(僅限Adobe Target)** [!DNL Customer Attributes]與Adobe Target的大量設定檔API有何不同？ | 大量輪廓 API 可以透過 API 以個別或大量的方式直接更新 Adobe Target 輪廓。此功能與 [!DNL Customer Attributes] 類似，主要差異如下：<ul><li>輪廓 API 是一種 REST API 呼叫，而 [!DNL Customer Attributes] 會使用 FTP。</li><li>Adobe Target 的輪廓 API 只會將資料傳送至 Adobe Target，而非整個 Experience Cloud。</li><li>[!DNL Customer Attributes] 提供簡單的介面，用於建立和管理這些外部資料。</li></ul> |
-| **(僅限 Adobe Target)** 以 [!DNL Customer Attributes] 將資料上傳至 Adobe Target 是否會延長 Adobe Target 訪客的輪廓存留期限？ | 是。請參閱 Adobe Target 說明中的[訪客輪廓存留期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=zh-Hant)。 |
+| **(僅限 Adobe Target)** 以 [!DNL Customer Attributes] 將資料上傳至 Adobe Target 是否會延長 Adobe Target 訪客的輪廓存留期限？ | 是。請參閱 Adobe Target 說明中的[訪客輪廓存留期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html)。 |
 | **(僅限 Adobe Target)** 我是否可在透過客戶 ID 識別訪客後，立即鎖定 [!DNL Customer Attributes] 所上傳的資料？ | 可以。對Adobe Target發出伺服器呼叫時（包括mbox第三方ID），所有客戶屬性資料都可供使用。 |
 | **(僅限 Adobe Target)** 對於已上傳至客戶屬性來源的檔案而言，**[!UICONTROL 同步狀態]**&#x200B;欄代表什麼？ | 對特定屬性檔案選取「同步狀態」圖示，即可檢視 Adobe Target 所發佈和同步的記錄數。 `Sync %` 是即時量度，可指明 Adobe Target 中已同步的輪廓百分比。<br> **注意：**&#x200B;與 Adobe Target 同步屬性可能需花費最多 24 小時。 |
 | 「[!DNL Customer Attributes] 來源」中的檔案上傳量度代表什麼？ | 在下列量度的協助下，您可以檢查已上傳至 [!DNL Customer Attributes] 的屬性之狀態： <ul><li>記錄數：屬性檔案中的記錄數。</li><li>**新記錄數：**&#x200B;屬性檔案中存在的新記錄數。</li> <li>**更新記錄數：** N存在於 [!DNL Customer Attributes] 中且檔案中有更新值的記錄數。</li><li>**所有資料 (記錄) 數：**&#x200B;已成功上傳至 [!DNL Customer Attributes] 的記錄總數。</li></ul> |

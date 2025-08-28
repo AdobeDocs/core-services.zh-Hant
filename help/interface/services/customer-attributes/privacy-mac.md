@@ -1,15 +1,15 @@
 ---
 description: 了解在 Experience Cloud 中上傳和使用的個人識別資訊 (PII) 的相關考量事項和最佳實務。
 solution: Experience Cloud
-title: 客戶屬性的隱私權考量事項
+title: ' [!DNL Customer Attributes]的隱私權考量事項'
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 99%
 
 ---
