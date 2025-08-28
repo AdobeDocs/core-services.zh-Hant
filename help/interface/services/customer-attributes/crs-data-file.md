@@ -1,5 +1,5 @@
 ---
-description: 瞭解上傳 [!DNL customer attributes] 至Experience Cloud的資料檔案需求和多個資料來源。
+description: 瞭解上傳客戶屬性至Experience Cloud的資料檔案需求和多個資料來源。
 solution: Experience Cloud
 title: 資料檔案和資料來源
 feature: Customer Attributes
@@ -7,20 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1148'
 ht-degree: 64%
 
 ---
 
-# 關於[!DNL customer attributes]的資料檔案和資料來源
+# 關於[!DNL Customer Attributes]的資料檔案和資料來源
 
-上傳[!DNL customer attributes]至Experience Cloud的資料檔案需求和多個資料來源。
+上傳客戶屬性資料至Experience Cloud的資料檔案需求和多個資料來源。
 
 您需要存取企業的 CRM 或類似資料。您上傳至Experience Cloud的資料必須是`.csv`檔案。 如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
-[!DNL customer attributes]的設計每天處理一些檔案。 為減緩許多小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
+[!DNL Customer Attributes]的設計每天處理一些檔案。 為減緩許多小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
 ## 允許的檔案類型和命名需求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -59,7 +59,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶識別碼欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至Experience Cloud之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至Experience Cloud之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
@@ -103,7 +103,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
-   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可檢視上一個檔案是在何時移至[!UICONTROL 客戶屬性] FTP帳戶內的已處理或失敗資料夾，藉此監控進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
+   <td colname="col2"> <p>上傳客戶屬性資料時，如果您想要連續快速上傳多個檔案，尤其是如果檔案很大，請先確認上一個檔案已處理完畢，然後再上傳下一個檔案。您可檢視上一個檔案是在何時移至[!DNL Customer Attributes] FTP帳戶內的已處理或失敗資料夾，藉此監控此進度。 </p> <p> 如果您將大型檔案分割為較小的檔案並連續快速地提交這些檔案，除非您可確保每個檔案都處理完畢，然後再提交下一個檔案，否則實際上會讓處理速度變慢。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
@@ -111,7 +111,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
-   <td colname="col2"> <p> 客戶屬性會繫結至[!DNL Analytics]中的基礎訪客設定檔。 因此在[!DNL Analytics]中，該訪客設定檔的整個生命週期中，[!UICONTROL 客戶屬性]都會與該訪客相關聯。 此輪廓包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再提供使用。 </td> 
+   <td colname="col2"> <p> 客戶屬性會繫結至[!DNL Analytics]中的基礎訪客設定檔。 因此在[!DNL Customer Attributes]中，[!DNL Analytics]在訪客設定檔的整個生命週期內都與該訪客相關聯。 此輪廓包括客戶首次登入前發生的行為。 </p> <p> 如果您使用 Data Warehouse 回填方法，資料會連結至以 Analytics ID (AID) 為基礎的 post_visid_high/low。如果您使用 Experience Cloud ID Service，資料會繫結至以 Experience Cloud ID (MID) 為基礎的 post_visid_high/low。 </p> <p> 請注意，自2022年10月起，Data Warehouse回填方法將不再提供使用。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料摘要 </p> </td> 
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。）
+（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
-在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL 客戶屬性]**&#x200B;中：
+在&#x200B;**[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;中：
 
 使用與上述客戶 ID 對應的不重複別名 ID，建立兩個客戶屬性來源。使用此方法可將相同的參考 ID 傳送至多個客戶屬性來源。

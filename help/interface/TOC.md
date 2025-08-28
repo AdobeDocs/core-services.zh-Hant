@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
       + [建立客戶屬性來源及上傳資料檔案](services/customer-attributes/t-crs-usecase.md)
       + [選用 - 透過 FTP 上傳資料檔案](services/customer-attributes/t-upload-attributes-ftp.md)
       + [驗證結構](services/customer-attributes/validate-schema.md)
-      + [設定訂閱](services/customer-attributes/subscription.md)
+      + [設定訂閱及啟用資料來源](services/customer-attributes/subscription.md)
       + [更新結構](services/customer-attributes/t-update-schema.md)
       + [支援一般資料保護規範](services/customer-attributes/gdpr.md)
       + [支援加州消費者隱私法](services/customer-attributes/ccpa.md)

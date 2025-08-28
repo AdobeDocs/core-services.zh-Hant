@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # Experience Cloud 服務 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-本文件適用於 Experience Cloud 統一標題的功能，例如 [!DNL People] 服務 ([!DNL Audience Library] 和 [!DNL customer attributes])、Experience Cloud 使用者和產品管理、Cookie、帳戶偏好設定、通知等。
+本文件適用於 Experience Cloud 統一標題的功能，例如 [!DNL People] 服務 ([!DNL Audience Library] 和 [!DNL Customer Attributes])、Experience Cloud 使用者和產品管理、Cookie、帳戶偏好設定、通知等。
 
 若要在 Experience Cloud 中存取這些服務，請選取&#x200B;**[!UICONTROL 應用程式選擇器]**
 ![服務選擇器](../assets/apps-icon.png)。

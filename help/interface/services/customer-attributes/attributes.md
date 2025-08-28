@@ -1,42 +1,42 @@
 ---
-title: '[!DNL Customer attributes]'
-description: 了解 Experience Cloud 中的  [!DNL customer attributes] 。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
+title: '[!DNL Customer Attributes]'
+description: 了解 Experience Cloud 中的  [!DNL Customer Attributes] 。了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 78%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 
-# Experience Cloud 中的 [!DNL Customer attributes]
+# Experience Cloud 中的 [!DNL Customer Attributes]
 
-Experience Cloud 中的 [!DNL Customer attributes] 可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 [!DNL Adobe Analytics] 和 [!DNL Adobe Target]。
+Experience Cloud 中的 [!DNL Customer Attributes] 可讓您上傳從客戶關係管理 (CRM) 資料庫擷取的企業資料。您可以將資料上傳至 Experience Cloud 中的客戶屬性資料來源，然後將資料用於 [!DNL Adobe Analytics] 和 [!DNL Adobe Target]。
 
-## 找到 [!DNL customer attributes] 功能
+## 找到 [!DNL Customer Attributes] 功能
 
 1. 登入[!DNL Experience Cloud]並選取功能表![功能表](assets/menu-icon.png)圖示。
 
-1. 選取&#x200B;**[!UICONTROL 客戶屬性]**。
+1. 選擇「**[!DNL Customer Attributes]**」。
 
 ![客戶屬性概觀](assets/custom_reports.png)
 
-## 上傳 [!DNL customer attributes] 的先決條件 {#prerequisites}
+## 上傳客戶屬性資料的先決條件 {#prerequisites}
 
 * **群組成員資格：**&#x200B;若要上傳客戶屬性資料，使用者必須是客戶屬性群組的成員。 您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
 
   若要知道您的公司是否具有客戶屬性的存取權，您的[!DNL Experience Cloud]管理員應登入[Experience Cloud](https://experience.adobe.com)。 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品]**。 如果 *[!DNL Customer Attributes]* 以其中一個[!UICONTROL 產品設定檔]顯示，表示您可以開始使用了。
 
-  若是加入 [!DNL Customer Attributes] 的使用者，可在 Experience Cloud 介面的左側看到[!UICONTROL 客戶屬性]功能表項目。
+  新增至[!DNL Customer Attributes]的使用者可在Experience Cloud介面的左側看到[!DNL Customer Attributes]功能表專案。
 
 * 客戶屬性需要 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)」。
 
 ## 什麼是企業客戶資料？ {#enterprise_data}
 

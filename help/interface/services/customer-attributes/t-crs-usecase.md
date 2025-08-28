@@ -1,33 +1,35 @@
 ---
-description: 建立客戶屬性來源並將其上傳至Adobe Experience Cloud。
+description: 瞭解如何建立客戶屬性來源並將其上傳至Adobe Experience Cloud。
 solution: Experience Cloud
-title: 建立客戶屬性Source並上傳資料檔案
+title: 建立及上傳客戶屬性資料Source檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1110'
 ht-degree: 49%
 
 ---
 
 # 建立客戶屬性來源及上傳資料檔案
 
-建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。資料來源生效後，將屬性資料共用給 Analytics 和 Target。
+建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
 
-## 客戶屬性工作流程 {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**客戶屬性工作流程**
 
 ![客戶屬性工作流程](assets/crs.png)
 
->[!IMPORTANT]
->
->若要存取此功能，必須將使用者指派給客戶屬性的產品設定檔（客戶屬性 — 預設存取）。 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品]**。 如果&#x200B;*客戶屬性*&#x200B;顯示為[!UICONTROL 產品設定檔]之一，表示您可以開始使用了。 加入客戶屬性群組的使用者可在Experience Cloud介面的左側看到[!UICONTROL 客戶屬性]功能表。
->
->若要使用客戶屬性功能，使用者也必須屬於應用程式層級的群組(Adobe Analytics或[!DNL Target])。
+## 先決條件
+
+**產品存取：**&#x200B;若要存取[!DNL Customer Attributes]，必須將使用者指派給Admin Console (**[!UICONTROL )中的客戶屬性產品設定檔（]**&#x200B;客戶屬性 — 預設存取`adminconsole.adobe.com`）。
+
+導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 產品]**。 如果&#x200B;*客戶屬性*&#x200B;顯示為其中一個產品（[!UICONTROL 產品設定檔]），表示您已準備開始。 已新增至客戶屬性產品設定檔的使用者，請參閱&#x200B;**[!DNL Customer Attributes]**&#x200B;應用程式&#x200B;**[!UICONTROL 選取器中的]**。 （![客戶屬性工作流程](assets/menu-icon.png)）
+
+**應用程式群組：**&#x200B;若要使用&#x200B;**[!DNL Customer Attributes]**&#x200B;功能，使用者也必須屬於應用程式層級的群組(Adobe [!DNL Analytics]或[!DNL Adobe Target])。
 
 ## 建立資料檔案 {#create-data}
 
@@ -44,7 +46,7 @@ ht-degree: 49%
    ![企業客戶資料檔案範例](assets/01_crs_usecase.png)
 
 1. 繼續進行之前，請先檢閱[資料檔案需求](crs-data-file.md)中的重要資訊，然後再上傳檔案。
-1. [建立客戶屬性來源及上傳資料](t-crs-usecase.md)，如下所述。
+1. [建立客戶屬性來源及上傳資料](t-crs-usecase.md#create-source)，如下所述。
 
 ## 建立屬性來源及上傳資料檔案 {#create-source}
 
@@ -54,16 +56,13 @@ ht-degree: 49%
 >
 >建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。聯絡Audience Manager客戶服務或洽詢如何取得管理許可權。
 
-1. 在[!DNL Experience Cloud]中，選取功能表![功能表](assets/menu-icon.png)圖示。
-1. 選取&#x200B;**[!UICONTROL 客戶屬性]**。
+1. 在[!DNL Experience Cloud]中，按一下&#x200B;**[!UICONTROL 應用程式]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
-   [!UICONTROL 客戶屬性]頁面可讓您管理和編輯現有的屬性資料來源。
-
-   ![客戶屬性主畫面](assets/cust-attr.png)
+   ![客戶屬性頁面](assets/cust-attr.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-   ![步驟結果](assets/04_crs_usecase.png)
+   ![步驟結果](assets/new-customer-attribute-source.png)
 
 1. 在[!UICONTROL 建立客戶屬性Source]頁面上，設定下列欄位：
 
@@ -79,9 +78,9 @@ ht-degree: 49%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL 客戶設定]下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)值。
+      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL 客戶設定]下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
 
-      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -103,21 +102,27 @@ ht-degree: 49%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 上傳檔案 {#upload}
 
+客戶屬性記錄已建立，您可以編輯客戶屬性來上傳檔案。
 
-1. 按一下「檔案上傳」。
+1. 在[!DNL Customer Attributes]頁面上，按一下屬性來源。
 
-2. 將`.csv`或`.zip`或`.gzip`資料檔案拖放至拖放視窗中。
+1. 在[!UICONTROL 編輯客戶資料Source]頁面上按一下&#x200B;**[!UICONTROL 檔案上傳]**。
+
+   ![檔案上傳和結構描述驗證](assets/file-upload-schema-validation.png)
+
+1. 將`.csv`或`.zip`或`.gzip`資料檔案拖放至拖放視窗中。
 
 >[!IMPORTANT]
 >
 >需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
 
 上傳檔案後，表格資料會顯示在此頁面上的[!UICONTROL 檔案上傳]標題底下。您可以驗證結構、設定訂閱或設定 FTP。
-
 
 ![屬性](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ ht-degree: 49%
 
 如何在結構中刪除屬性及取代屬性。
 
-1. 在[!UICONTROL 編輯客戶屬性Source]頁面上，移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;訂閱（位於[!UICONTROL 設定訂閱]下）。
+1. 在[!UICONTROL 編輯客戶屬性來源]頁面上，移除 **[!UICONTROL Target]** 或 **[!UICONTROL Analytics]** 訂閱 (位於&#x200B;**[!UICONTROL 設定訂閱]**&#x200B;底下)。
+
 1. [上傳含有更新欄位的新資料檔案](t-crs-usecase.md)。
 
 ## 設定訂閱及啟動屬性來源 {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 設定訂閱可設定Experience Cloud和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
-請參閱[設定訂閱](subscription.md)。
-
-**啟動屬性來源**
-
-在[!UICONTROL 建立新或編輯客戶屬性Source]頁面上，找到[!UICONTROL 啟用]標題，然後按一下&#x200B;**[!UICONTROL 啟用]**。
-
-![步驟結果](assets/activate_attribute_source.png)
+請參閱[設定訂閱及啟用資料來源](subscription.md)。
 
 ## 在Adobe Analytics中使用客戶屬性 {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ ht-degree: 49%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[建立新客群](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)。
