@@ -32,9 +32,9 @@ ht-degree: 65%
 
    ![在 Experience Cloud 中設定訂閱](assets/configure-subscriptions.png)
 
-1. 若要啟用客戶屬性來源，請按一下[啟用] ****，然後按一下[儲存] ****。
+1. 若要啟用客戶屬性來源，請按一下[啟用] **&#x200B;**，然後按一下[儲存] **&#x200B;**。
 
-1. 若要設定[!DNL Analytics]或[!DNL Target]的訂閱，請按一下[設定]。****
+1. 若要設定[!DNL Analytics]或[!DNL Target]的訂閱，請按一下[設定]。**&#x200B;**
 
    下列範例顯示[!DNL Target]訂閱：
 
