@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 49%
@@ -32,11 +32,11 @@ ht-degree: 49%
 
 1. 在[!UICONTROL 檔案上傳和結構描述驗證]頁面上，按一下&#x200B;**[!UICONTROL 動作]** > **[!UICONTROL 檢視/編輯結構描述]**
 
-   ![編輯結構](assets/view_edit_schema.png)
+   ![編輯結構](assets/actions.png)
 
    在[!UICONTROL 編輯結構描述]頁面上，結構描述的每一列代表上傳之CSV檔案的一欄。
 
-   ![在Experience Cloud中編輯結構描述頁面](assets/edit-schema.png)
+   ![在Experience Cloud中編輯結構描述頁面](assets/schema-edit.png)
 
 **動作**
 
