@@ -1,22 +1,22 @@
 ---
 description: 了解用於管理 Experience Cloud 中已核准 Creative Cloud 使用者的管理工具。
 solution: Experience Cloud
-title: 管理Creative Cloud使用者
+title: 在Experience Cloud中管理Creative Cloud使用者
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 73%
+source-wordcount: '122'
+ht-degree: 71%
 
 ---
 
 # 管理 Creative Cloud 使用者
 
-Experience Cloud 提供管理工具，可管理已核准 Creative Cloud 使用者。這些使用者可臨機受邀加入促銷活動資料夾。只有管理員已新增至清單的使用者，才能受邀加入促銷活動。新增的使用者會以Experience Cloud顯示在自動完成使用者清單中。
+Experience Cloud 提供管理工具，可管理已核准 Creative Cloud 使用者。這些使用者可臨機受邀加入促銷活動資料夾。只有管理員已新增至清單的使用者，才能受邀加入促銷活動。新增的使用者會顯示在Experience Cloud的自動完成使用者清單中。
 
 >[!NOTE]
 >

@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 88%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 100%
    + [Exchange](services/exchange.md)
    + 客戶屬性 {#customer-attributes}
       + [概觀](services/customer-attributes/attributes.md)
-      + [關於客戶屬性的常見問答](services/customer-attributes/faq-crs.md)
-      + [關於客戶屬性的資料檔案和資料來源](services/customer-attributes/crs-data-file.md)
-      + [建立客戶屬性來源及上傳資料檔案](services/customer-attributes/t-crs-usecase.md)
-      + [選用 - 透過 FTP 上傳資料檔案](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [常見問題集](services/customer-attributes/faq-crs.md)
+      + [關於資料檔案和資料來源](services/customer-attributes/crs-data-file.md)
+      + [建立及上傳資料檔案](services/customer-attributes/t-crs-usecase.md)
+      + [選用 — 透過FTP上傳](services/customer-attributes/t-upload-attributes-ftp.md)
       + [驗證結構](services/customer-attributes/validate-schema.md)
       + [設定訂閱及啟動資料來源](services/customer-attributes/subscription.md)
       + [更新結構](services/customer-attributes/t-update-schema.md)
-      + [支援一般資料保護規範](services/customer-attributes/gdpr.md)
-      + [支援加州消費者隱私法](services/customer-attributes/ccpa.md)
-      + [客戶屬性的隱私權考量事項](services/customer-attributes/privacy-mac.md)
+      + [支援GDPR](services/customer-attributes/gdpr.md)
+      + [支援CCPA](services/customer-attributes/ccpa.md)
+      + [隱私權考量事項](services/customer-attributes/privacy-mac.md)
    + [觸發程序](services/triggers.md)
 
 + 功能 {#features}
@@ -56,7 +56,7 @@ ht-degree: 100%
 + 管理 {#administration}
    + [使用者管理和產品授權](administration/admin-console.md)
    + [檢視使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
-   + [組織和帳戶綁定](administration/organizations.md)
+   + [組織](administration/organizations.md)
    + [Experience Cloud 整合](administration/integrations.md)
 
 + 資料彙集 {#data-collection}
