@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 71%
@@ -144,7 +144,7 @@ ht-degree: 71%
 
 **2015年1月15日**
 
-現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。請參閱[資產共用](../services/assets/creative-cloud.md)。
+現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。請參閱[資產共用](../services/assets/share.md)。
 
 **2014年7月17日**
 

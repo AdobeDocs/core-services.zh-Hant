@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
    + [快速入門](services/getting-started.md)
    + 資產 {#assets}
       + [概觀](services/assets/experience-cloud-assets.md)
-      + [使用 Creative Cloud 共用資料夾和資產](services/assets/creative-cloud.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
       + [共用資產資料夾](services/assets/share.md)
       + [將資產上傳到共用資料夾](services/assets/upload.md)
