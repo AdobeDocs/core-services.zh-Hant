@@ -31,10 +31,10 @@ ht-degree: 13%
 | 代理程式名稱 | 可用性 | 支援的應用程式 | 功能 |
 |---|----------|------------|----------|
 | **Audience Agent** | 即將推出 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 使用自然語言提示建立及最佳化對象。 |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | <ul><li>Customer Journey Analytics</li></ul> | 在Analysis Workspace中回答資料問題並建立視覺效果。 |
+| [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | <ul><li>Customer Journey Analytics</li></ul> | 在Analysis Workspace中回答資料問題並建立視覺效果。 |
 | **實驗代理程式** | 即將推出 | <ul><li>AJO Experimentation Accelerator</li></ul> | 自動化分析，找出實驗與成長機會。* |
 | **Journey Agent** | 即將推出 | <ul><li>Adobe Journey Optimizer</li></ul> | 大規模建立、分析和最佳化客戶歷程。 |
-| [產品支援代理程式](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | 使用AI助理進行疑難排解、建立支援票證及追蹤進度。 |
+| [產品支援代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | 使用AI助理進行疑難排解、建立支援票證及追蹤進度。 |
 | **Site Optimization Agent** | 即將推出 | <ul><li>AEM Sites Optimizer</li></ul> | 使用創作AI尋找並啟動可提升流量、參與度和整體業務成效的網站改進專案。* |
 
 
@@ -42,8 +42,8 @@ ht-degree: 13%
 [!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
 
 <!-- 
-* [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
-* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
+* [Product Support Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
+* [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
 
 
 
