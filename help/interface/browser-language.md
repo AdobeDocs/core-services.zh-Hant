@@ -10,7 +10,7 @@ exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
 source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 45%
+ht-degree: 56%
 
 ---
 
@@ -45,7 +45,7 @@ Experience Cloud使用者介面提供下列語言版本：
 * 繁體中文
 * 簡體中文
 
-此外，特定地區設定的格式（例如日期、時間、行事曆、數字）也可能以使用者介面支援的語言變體提供：
+此外，特定地區設定的格式 (例如日期、時間、日曆、數字) 也可能適用於使用者介面支援的語言變體：
 
 * 英文 (以色列)
 * 英文 (英國)

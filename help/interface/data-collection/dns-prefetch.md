@@ -24,7 +24,7 @@ ht-degree: 91%
 
 ## DNS 預先擷取和 Adobe Experience Cloud 應用程式
 
-DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這也表示自動DNS預先擷取不適用於其他[!UICONTROL Experience Cloud]應用程式和服務，原因如下：
+DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於其他[!UICONTROL Experience Cloud]應用程式和服務，原因如下：
 
 * 每個 Experience Cloud 應用程式或服務會在頁面載入時以動態方式產生 DNS 呼叫。
 * 發出這些呼叫之前，瀏覽器無法將網域名稱解析為 IP 位址。
@@ -41,7 +41,7 @@ DNS 預先擷取可自動與頁面上的靜態內嵌式連結搭配使用。 這
 
 * **Audience Manager：**`<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience CloudID服務：** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Experience Cloud ID服務：** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud：**
 

@@ -29,7 +29,7 @@ Experience Cloud中的[!UICONTROL 觸發器]可讓您識別、定義及監控重
 
 >[!NOTE]
 >
->[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)中有更多關於使用[!UICONTROL 觸發器]的資訊。
+>[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)中有更多關於使用[!UICONTROL 觸發器]的資訊。
 
 ## 觸發器的型別
 
@@ -60,14 +60,14 @@ Experience Cloud中的[!UICONTROL 觸發器]可讓您識別、定義及監控重
    | [!UICONTROL 名稱] | 此觸發器的易記名稱。 |
    | [!UICONTROL 說明] | 此觸發器的說明、使用方式等資訊。 |
    | [!UICONTROL 報表套裝] | 用於此觸發器的 Analytics [報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hant)。此設定可識別要使用的報表資料。 |
-   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是：<ul><li>造訪必須包括：[!UICONTROL 新增購物車 &#x200B;] (量度) 和[!UICONTROL 存在]。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括：[!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包括中繼資料]：可讓您新增與訪客的行為相關的特定 [!DNL Campaign] 行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以在容器內或容器之間指定[!UICONTROL 任何]、[!UICONTROL 以及]、 [!UICONTROL 或]的邏輯，實際取決於您判斷對規則來說很重要的準則。 |
+   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。例如，簡單的購物車丟棄觸發器的規則可能是：<ul><li>造訪必須包括：[!UICONTROL 新增購物車 ] (量度) 和[!UICONTROL 存在]。(您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括：[!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包括中繼資料]：可讓您新增與訪客的行為相關的特定 [!DNL Campaign] 行銷活動維度或變數。此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以在容器內或容器之間指定[!UICONTROL 任何]、[!UICONTROL 以及]、 [!UICONTROL 或]的邏輯，實際取決於您判斷對規則來說很重要的準則。 |
    | [!UICONTROL 容器] | [!UICONTROL 容器是設定和儲存定義觸發器的規則、條件或篩選器的位置。]如果您想讓事件同時發生，請將事件放在相同的容器中。這表示每個容器是在點擊層級獨立處理。例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
    | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
 
    {style="table-layout:auto"}
 
 5. 按一下&#x200B;**[!UICONTROL 儲存]**。
-6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hant)。
+6. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ## 範例觸發器
 

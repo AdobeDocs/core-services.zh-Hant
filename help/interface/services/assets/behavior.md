@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->共用的 Experience Cloud 資料夾和資產是以 1:1 的關係鏡像到 Creative Cloud 桌面。如果 Experience Cloud 使用者變更資料夾 (刪除、新增或移除共用)，動作會反映到 Creative Cloud 桌面版和網頁版。因此，如果資料夾取消共用，資料夾和資產會從本機電腦中刪除。移除共用後，資料夾及其內容會移至本機電腦上的垃圾桶，您可在此手動將它們還原至電腦。
+>共用的Experience Cloud資料夾和資產是以1:1的關係映象到Creative Cloud案頭。 如果 Experience Cloud 使用者變更資料夾 (刪除、新增或移除共用)，動作會反映到 Creative Cloud 桌面版和網頁版。因此，如果資料夾取消共用，資料夾和資產會從本機電腦中刪除。移除共用後，資料夾及其內容會移至本機電腦上的垃圾桶，您可在此手動將它們還原至電腦。
 
 ## 非共用資料夾放入共用資料夾 {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

@@ -10,14 +10,14 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
 # 在[!UICONTROL 管理工具]中檢視Experience Cloud使用者和原則
 
-管理員可以在[!UICONTROL 管理工具]中檢視所有Experience Cloud使用者和原則及其詳細資訊，且清單可排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
+管理員可以在[!UICONTROL 管理工具]中檢視所有Experience Cloud使用者和原則及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 
 1. 登入 `https://experience.adobe.com/.`
 
@@ -41,7 +41,7 @@ ht-degree: 82%
 | [!UICONTROL 電子郵件] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID 類型] | 使用者帳戶的身分識別類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL 解決方案] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL 上次登入] | 使用者最近登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud目前的登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL 上次登入] | 使用者上次登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -158,8 +158,8 @@ ht-degree: 82%
 
 ## 詳細的權限和資源清單
 
-本區段顯示完整的產品設定檔可用權限和資源清單。產品設定檔中包含的權限和資源會加上「✔」標示。權限和資源清單會分類為各個標記和欄，以便檢視。標記和欄會顯示適用於目前產品的區段清單。
+本區段顯示完整的產品設定檔可用權限和資源清單。產品設定檔中包含的許可權和資源已標示&quot;✔&quot;。 權限和資源清單會分類為各個標記和欄，以便檢視。標記和欄會顯示適用於目前產品的區段清單。
 
 ## 相關資訊
 
-* 在[!DNL Admin Console]中[管理使用者](https://helpx.adobe.com/tw/enterprise/using/users.html)
+* 在[中](https://helpx.adobe.com/tw/enterprise/using/users.html)管理使用者[!DNL Admin Console]
