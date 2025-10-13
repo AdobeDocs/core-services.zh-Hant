@@ -99,7 +99,7 @@ Experience Cloud 中的佈建意思是：
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
+* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
 +++
 
@@ -107,7 +107,7 @@ Experience Cloud 中的佈建意思是：
 
 Admin Console 管理員可授予使用者存取權。使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
 
 +++
 

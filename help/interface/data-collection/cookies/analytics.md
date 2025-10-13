@@ -32,13 +32,13 @@ Analytics會使用Cookie以匿名方式定義新訪客、協助分析點按資�
 
 ## 外掛程式設定的 Cookie
 
-有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/plugins/impl-plugins)。
 
 ## 刪除Analytics Cookie的後果
 
 如果訪客刪除其Analytics Cookie，請考慮下列事項：
 
-* **訪客識別遺失：**&#x200B;刪除Cookie時，Adobe Analytics無法識別再度訪問的訪客。 使用者下次造訪您的網站時，即會計為新訪客。 [跨裝置分析](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview)可協助減輕此影響。
+* **訪客識別遺失：**&#x200B;刪除Cookie時，Adobe Analytics無法識別再度訪問的訪客。 使用者下次造訪您的網站時，即會計為新訪客。 [跨裝置分析](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/cda/overview)可協助減輕此影響。
 * **工作階段連續性中斷：**&#x200B;任何以工作階段為基礎或多次造訪的分析（例如歸因或轉換追蹤）都會中斷。 Cookie刪除後發生的事件和轉換無法由相同使用者繫結至先前的活動。
 * **Personalization和分段受到影響：**&#x200B;根據訪客歷史記錄或行為的區段或個人化體驗會重設，因為先前的資料不再與目前的造訪相關聯。
 * **跨網域追蹤已中斷：**&#x200B;若是第三方Cookie，刪除它們會讓Adobe Analytics無法連結您擁有之多個網域的使用者活動。
