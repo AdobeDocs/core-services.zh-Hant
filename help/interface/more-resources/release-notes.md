@@ -80,7 +80,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud]**[!UICONTROL 說明]**&#x200B;選單中，內容搜尋已更新為在 [Experience League](https://experienceleague.adobe.com/#home) 搜尋結果中按應用程式篩選。
+* 在[!DNL Experience Cloud]&#x200B;**[!UICONTROL 說明]**&#x200B;選單中，內容搜尋已更新為在 [Experience League](https://experienceleague.adobe.com/#home) 搜尋結果中按應用程式篩選。
 
 ## 2022 年 7 月
 

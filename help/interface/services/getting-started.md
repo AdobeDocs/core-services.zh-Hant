@@ -32,7 +32,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >若使用 [!DNL Target]，需從 `mbox.js` 移轉至 at.js。請參閱 [ 從 at.js 1.x 升級為 at.js 2.x。x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html)。
+   >若使用 [!DNL Target]，需從 `mbox.js` 移轉至 at.js。請參閱 [&#x200B; 從 at.js 1.x 升級為 at.js 2.x。x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html)。
 
 1. 在 [!UICONTROL Admin Console] 中管理使用者和產品。
 

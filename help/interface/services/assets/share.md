@@ -58,7 +58,7 @@ ht-degree: 67%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]**[!UICONTROL （類似[步驟3]**] [），然後選取X來移除使用者，再按一下[共用]](share.md)**[!UICONTROL 。]**
+1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]&#x200B;**[!UICONTROL （類似[步驟3]**] [），然後選取X來移除使用者，再按一下[共用]](share.md)**[!UICONTROL 。]**
 
    ![取消共用資料夾](../../assets/asset_remove_user.png)
 
