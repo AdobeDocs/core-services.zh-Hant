@@ -1,10 +1,14 @@
 ---
-source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
+title: 說明
+description: 指示讀我檔案
+source-git-commit: 7392d95436664364e32f3e78f2ea3292ce8fb7e9
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 94%
+source-wordcount: '330'
+ht-degree: 93%
 
 ---
+
+
 # 說明
 
 **附註: 此頁面 (或任何 readme.md 頁面) 不會發佈至面對客戶的文件**
