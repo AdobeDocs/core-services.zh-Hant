@@ -41,7 +41,7 @@ Adobe Experience Platform [Agent Orchestrator](https://experienceleague.adobe.co
 
 * Experience Cloud中的[AI](https://experienceleague.adobe.com/en/docs/ai)檔案首頁
 
-[!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
+[!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
 
 
 
