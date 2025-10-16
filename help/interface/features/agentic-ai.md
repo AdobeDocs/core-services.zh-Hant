@@ -1,16 +1,16 @@
 ---
 title: Experience Cloud應用程式中的Agentic AI
-description: 瞭解代理AI以及Experience Cloud應用程式如何使用Adobe的代理架構。
+description: 瞭解AI代理程式、AI-First代理程式和支援的應用程式的可用性。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: ab39a22191955ce427f3f3f438401a1a7b9cdeca
+source-git-commit: 1a7c9307153f8c14542af5f9c1ad097e4faa8efa
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 12%
+source-wordcount: '342'
+ht-degree: 7%
 
 ---
 
@@ -18,30 +18,35 @@ ht-degree: 12%
 
 Adobe Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)和平台代理程式啟用我們解決方案中的代理程式功能。 您可以透過以下方式存取AEP Agent Orchestrator和AEP代理程式的功能：
 
-* **現有的[!DNL Experience Cloud]應用程式：**&#x200B;這些應用程式可自行運作，但新增[!DNL AEP Agents]可提供額外的功能和影響。 如果您有[!DNL Platform Agent Orchestrator]的授權，則可以在您有權使用的應用程式中使用[!DNL Platform Agents]。
+* [現有 [!DNL Experience Cloud] 個應用程式](#existing-apps)
+* [AI優先 [!DNL Experience Cloud] 應用程式](#ai-first-apps)
 
-* **AI優先的Experience Cloud應用程式：**&#x200B;這些應用程式是以AI為核心所建置。 他們使用產生式或代理式AI執行關鍵任務，並且代理式功能已包含在應用程式授權中，無需Agent Orchestrator附加元件。
+## 現有[!DNL Experience Cloud]個應用程式 {#existing-apps}
 
-  AI優先應用程式標示為<b>*</b>。
+這些App可自行運作，但新增[!DNL AEP Agents]可為您提供額外的功能和影響力。 如果您有[!DNL Platform Agent Orchestrator]的授權，則可以在您有權使用的應用程式中使用[!DNL Platform Agents]。
 
-## 可用性與支援的應用程式
+| 代理程式名稱 | 可用性 | 功能 | 支援的應用程式 |
+|---|----------|----------|----------|
+| [Audience Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 可用 | 使用自然語言提示建立及最佳化對象。 | <ul><li>Real-Time CDP （B2B和B2C新增）</li><li>Adobe Journey Optimizer （B2B和B2C新增）</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | 在Analysis Workspace中回答資料問題並建立視覺效果。 | <ul><li>Customer Journey Analytics</li></ul> |
+| [Journey Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 可用 | 大規模建立、分析和最佳化客戶歷程。 | <ul><li>Adobe Journey Optimizer （B2B和B2C新增）</li></ul> |
+| [產品支援代理程式](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | 使用AI助理進行疑難排解、建立支援票證及追蹤進度。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP （B2B和B2C新增）</li><li>Adobe Journey Optimizer （B2B和B2C新增）</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-瞭解AI代理程式和支援的應用程式的可用性：
+## AI優先Experience Cloud應用程式 {#ai-first-apps}
 
-| 代理程式名稱 | 可用性 | 支援的應用程式 | 功能 |
-|---|----------|------------|----------|
-| [產品支援代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/new-features/customer-support) | 可用 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | 使用AI助理進行疑難排解、建立支援票證及追蹤進度。 |
-| [Site Optimization Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/home)<b>*</b> | 可用 | <ul><li>AEM Sites Optimizer</li></ul> | 使用創作AI尋找並啟動可提升流量、參與度和整體業務成效的網站改進專案。 |
-| [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 可用 | <ul><li>Customer Journey Analytics</li></ul> | 在Analysis Workspace中回答資料問題並建立視覺效果。 |
-| [Audience Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | 可用 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 使用自然語言提示建立及最佳化對象。 |
-| [Journey Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 可用 | <ul><li>Adobe Journey Optimizer</li></ul> | 大規模建立、分析和最佳化客戶歷程。 |
-| [實驗代理程式](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security)<b>*</b> | 可用 | <ul><li>AJO Experimentation Accelerator</li></ul> | 自動化分析，找出實驗與成長機會。 |
+這些應用程式是以AI為核心所建置。 他們使用產生式或代理式AI執行關鍵任務，並且代理式功能已包含在應用程式授權中，無需Agent Orchestrator附加元件。
+
+| 代理程式名稱 | 可用性 | 功能 | 支援的應用程式 |
+|---|----------|----------|----------|
+| [實驗代理程式](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 可用 | 自動化分析，找出實驗與成長機會。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
+| [LLM最佳化代理程式](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home) | 可用 | 增強AI驅動搜尋環境的可見度、準確性和影響力、在AI產生的答案中提供品牌存在的深入分析、提供規範性的內容建議，以及自動化最佳化修正 | <ul><li>Adobe LLM Optimizer</li></ul> |
+| [Site Optimization Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/home) | 可用 | 使用創作AI尋找並啟動可提升流量、參與度和整體業務成效的網站改進專案。 | <ul><li>AEM Sites Optimizer</li></ul> |
 
 ## 有關此主題的更多說明
 
 * Experience Cloud中的[AI](https://experienceleague.adobe.com/en/docs/ai)檔案首頁
 
-[!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
+[!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
 
 
 
