@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Experience Cloud 介面與管理 {#interface}
 
 + [Experience Cloud 介面與管理](experience-cloud.md)
-
 + 服務 {#services}
    + [概觀](services/overview.md)
    + [快速入門](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [支援 CCPA](services/customer-attributes/ccpa.md)
       + [隱私權考量事項](services/customer-attributes/privacy-mac.md)
    + [觸發程序](services/triggers.md)
-
 + 功能 {#features}
    + [帳戶偏好設定和通知](features/account-preferences.md)
    + [生成式 AI](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [整合式搜尋](features/search.md)
    + [個人化學習](features/personalized-learning.md)
    + [瀏覽器和語言支援](browser-language.md)
-
 + 管理 {#administration}
    + [使用者管理和產品授權](administration/admin-console.md)
    + [檢視使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
    + [組織](administration/organizations.md)
    + [Experience Cloud 整合](administration/integrations.md)
-
 + 資料彙集 {#data-collection}
    + [Adobe 託管的憑證計劃](data-collection/adobe-managed-cert.md)
    + [IP 位址](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Web SDK cookie](data-collection/cookies/web-sdk.md)
    + [地區資料收集](data-collection/rdc.md)
    + [使用 DNS 預先擷取](data-collection/dns-prefetch.md)
-
 + 發行說明和資源 {#more-resources}
    + [發行說明](more-resources/release-notes.md)
    + [文件更新](more-resources/doc-updates.md)
    + [常見問答](more-resources/faq.md)
    + [術語](more-resources/terms.md)
-
