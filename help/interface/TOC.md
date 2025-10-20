@@ -6,7 +6,7 @@ title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
 source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
 ht-degree: 100%
 
