@@ -86,7 +86,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 ### 在[!DNL Slack]中要求許可權（疑難排解）
 
-如果未安裝[!DNL Slack]，則當您按一下&#x200B;_[!UICONTROL Request to install]_後，Slack開啟時會顯示&#x200B;**[!UICONTROL Add to Slack]**訊息。 例如：
+如果未安裝[!DNL Slack]，則當您按一下&#x200B;_[!UICONTROL Request to install]_&#x200B;後，Slack開啟時會顯示&#x200B;**[!UICONTROL Add to Slack]**&#x200B;訊息。 例如：
 
 ![要求Slack整合](../assets/slack-workspace.png)
 
