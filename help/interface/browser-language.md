@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 56%
 
 ---
 
-# Experience Cloud 中的瀏覽器支援 {#browser}
+# Experience Cloud 中的瀏覽器支援
 
 為了提供最佳效能，Experience Cloud 已針對最熱門的瀏覽器 (包括最新版本及前兩個版本) 最佳化。
 
@@ -30,7 +30,7 @@ ht-degree: 56%
 >
 >並非在 Experience Cloud 網域上執行的所有應用程式都可支援所有瀏覽器。 如果您不確定，請查閱特定應用程式的文件。
 
-## Experience Cloud 中的語言支援 {#languages}
+## Experience Cloud 中的語言支援
 
 Experience Cloud使用者介面提供下列語言版本：
 
@@ -55,12 +55,12 @@ Experience Cloud使用者介面提供下列語言版本：
 
 **若要指定預設語言**
 
-1. 在Experience Cloud中，按一下&#x200B;**[!UICONTROL 設定檔]** > [偏好設定](https://experience.adobe.com/preferences)。
+1. 在Experience Cloud中，按一下&#x200B;**[!UICONTROL Profile]** > [偏好設定](https://experience.adobe.com/preferences)。
 
-1. 在&#x200B;**[!UICONTROL 設定檔]**&#x200B;下，按一下語言連結。
+1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;下，按一下語言連結。
 
-1. 在&#x200B;**[!UICONTROL 選取語言]**&#x200B;上，從&#x200B;**[!UICONTROL 第一語言]**&#x200B;功能表選取語言。
+1. 在&#x200B;**[!UICONTROL Select language]**&#x200B;上，從&#x200B;**[!UICONTROL First language]**&#x200B;功能表選取語言。
 
    雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以介面中列出的所有語言提供。 如果Experience Cloud應用程式不支援您的主要語言，您可以設定次要預設語言（如適用）。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下「**[!UICONTROL Save]**」。

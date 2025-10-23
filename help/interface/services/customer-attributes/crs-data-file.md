@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 [!DNL Customer Attributes]的設計每天處理一些檔案。 為減緩許多小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
-## 允許的檔案類型和命名需求 {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## 允許的檔案類型和命名需求
 
 | 檔案類型 | 說明 |
 |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 64%
 | `.gz`或`.zip` | `.gz` (gzip)或`.zip` — 適用於壓縮檔。 `.zip`檔案的封存不可包含超過一個檔案。 命名需求： `.zip`或`.gz`的名稱應該符合`.csv`檔案的名稱。 例如，若您的`.csv`檔案為`crm_small.csv`，則`.zip`檔案應為`crm_small.csv.zip`。 `.fin`檔案必須與`.csv`相符。 |
 
 
-## 屬性資料檔案的需求 {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## 屬性資料檔案的需求
 
 **範例 CSV**
 
@@ -59,7 +59,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶識別碼欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至Experience Cloud之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。使用的 ID 應該對應至傳遞到 Experience Cloud ID Service 的 ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。其餘欄是來自您 CRM 的屬性。您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至Experience Cloud之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
@@ -120,7 +120,7 @@ CSV 檔案必須符合下列格式：
  </tbody> 
 </table>
 
-## 使用多項資料來源 {#multiple}
+## 使用多項資料來源
 
 建立、修改或刪除客戶屬性來源時，大約會有一小時的延遲，之後 ID 就會開始與新資料來源同步。
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。）
+（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
 在&#x200B;**[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**&#x200B;中：
 

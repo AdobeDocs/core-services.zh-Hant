@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 100%
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
 
-## 登入 Experience Cloud {#signin}
+## 登入 Experience Cloud
 
 登入並確認您隸屬於正確的[組織](administration/organizations.md)。
 
 1. 瀏覽至 [Adobe Experience Cloud](https://experience.adobe.com)。
-1. 輸入您的 Adobe 電子郵件地址，然後按一下「**[!UICONTROL 繼續]**」。
+1. 輸入您的Adobe電子郵件地址，然後按一下&#x200B;**[!UICONTROL Continue]**。
 1. 按一下帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
-## 存取 Experience Cloud 應用程式 {#navigation}
+## 存取 Experience Cloud 應用程式
 
 登入 Experience Cloud 之後，您可以從統一的封面快速存取您的所有應用程式、服務和組織。
 
@@ -55,31 +55,31 @@ ht-degree: 100%
 
 ![存取 Experience Cloud 應用程式](assets/platform-core-services.png)
 
-## 取得說明和支援 {#support}
+## 取得說明和支援
 
-使用封面中的&#x200B;**[!UICONTROL 說明中心]** (![資產](assets/help-icon.png)) 來存取學習資源和說明，包括有關 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 的說明內容 (文件、教學課程和其他課程)，以及個別應用程式的其他資源。您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
-「[!UICONTROL 說明]」選單也可讓您存取：
+[!UICONTROL Help]功能表也可讓您存取：
 
-* **[!UICONTROL 支援]：**&#x200B;建立支援服務單，或使用 Twitter 聯絡[!UICONTROL 支援人員]。
-* **[!UICONTROL 意見回饋]：**&#x200B;分享您對 Experience Cloud 體驗的意見。您的意見回饋會用於改善 Adobe 產品和服務。
-* **[!UICONTROL 狀態]：**&#x200B;瀏覽至 `https://status.adobe.com/experience_cloud`，以檢查產品操作狀態及[!UICONTROL 管理訂閱]。
-* **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至 `adobe.io` 以尋找開發人員文件。
+* **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
+* **[!UICONTROL Feedback]：**&#x200B;分享您對Experience Cloud體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
+* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 管理您的使用者設定檔
 
-在[!UICONTROL 設定檔]選單中，您可以：
+在[!UICONTROL Profile]功能表中，您可以：
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
 * 管理 Experience Cloud [偏好設定](features/account-preferences.md)
 * 選取或搜尋「[組織](administration/organizations.md)」
-* 檢視[!UICONTROL 法律注意事項]
+* 檢視[!UICONTROL Legal Notices]
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 
-## 檢視產品內通知及公告 {#notifications}
+## 檢視產品內通知及公告
 
 按一下鈴鐺圖示，檢視通知和公告。公告可能會提供相關且可操作的更新資訊，包括產品發行版本、維護通知、共用項目及核准請求。
 

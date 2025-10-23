@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 67%
+source-wordcount: '413'
+ht-degree: 51%
 
 ---
 
@@ -31,26 +31,26 @@ ht-degree: 67%
 
 **共用Experience Cloud資產資料夾**
 
-1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至 Creative Cloud]**。
+1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL Share to Creative Cloud]**。
 
    ![分享到 Creative Cloud](../../assets/asset-share-cc.png)
-1. 在共用至 Creative Cloud 頁面上搜尋使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下&#x200B;**[!UICONTROL Add]**。
 
    ![新增 Creative Cloud 使用者](../../assets/asset-share-cc-page.png)
 
-1. 按一下&#x200B;**[!UICONTROL 共用]**。
-1. 啟動 [!DNL Creative Cloud] 桌面 (或在瀏覽器中導覽至 [!UICONTROL Creative Cloud「檔案」]頁面)，然後尋找要求通知。
+1. 按一下「**[!UICONTROL Share]**」。
+1. 啟動[!DNL Creative Cloud]案頭（或在瀏覽器中導覽至[!UICONTROL Creative Cloud Files]頁面）並尋找請求通知。
 
    ![請求通知](../../assets/cc_share_request.png)
-1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
+1. 開啟要求，然後按一下&#x200B;**[!UICONTROL Accept]**。
 
    ![接受請求](../../assets/cc_share_accept.png)
-1. 若要存取資料夾內容，按一下&#x200B;**[!UICONTROL 開啟資料夾]** (或&#x200B;**[!UICONTROL 在網頁上檢視]**)。
+1. 若要存取資料夾內容，請按一下&#x200B;**[!UICONTROL Open Folder]** （或&#x200B;**[!UICONTROL View on Web]**）。
 
    ![在網頁上檢視](../../assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
 
-   在Creative Cloud中，您可以選取影像，然後按一下&#x200B;**[!UICONTROL 活動]**&#x200B;在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
+   在Creative Cloud中，您可以選取影像，然後按一下「**[!UICONTROL Activity]**」在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL Experience Cloud] 中的資產。
 
    ![在影像上新增註解](../../assets/asset_comment_cc.png)
 
@@ -58,13 +58,13 @@ ht-degree: 67%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]&#x200B;**[!UICONTROL （類似[步驟3]**] [），然後選取X來移除使用者，再按一下[共用]](share.md)**[!UICONTROL 。]**
+1. 若要取消共用資料夾，請按一下&#x200B;**[!UICONTROL Share Using Creative Cloud]** （類似[步驟3](share.md)），然後選取X來移除使用者，再按一下&#x200B;**[!UICONTROL Share]**。
 
    ![取消共用資料夾](../../assets/asset_remove_user.png)
 
    移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
-更多使用共用資產的方式，包括載入或交換Adobe Target中[選件資料庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)中的資產，以用於活動中的影像。
+更多使用共用資產的方式，包括載入或交換Adobe Target中[選件資料庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)中的資產，以用於活動中的影像。
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
@@ -76,8 +76,8 @@ ht-degree: 67%
 * [Creative Cloud 說明 - 與他人共同作業](https://helpx.adobe.com/tw/creative-cloud/help/collaboration.html)
 * [Creative Cloud 說明 - 共同作業常見問題集](https://helpx.adobe.com/tw/creative-cloud/help/collaboration-faq.html)
 
-## 關於 Adobe Target 的資產共用 {#section_B7CD64CAB35D43A4B12957B304072DC9}
+## 關於 Adobe Target 的資產共用
 
-若在 [!DNL Adobe Target] 中建立活動，可在調換[!UICONTROL 產品建議庫]中的影像時使用共用的影像資產。
+在[!DNL Adobe Target]中建立活動時，您可以在[!UICONTROL Offers Library]中交換影像時使用共用的影像資產。
 
-請參閱 [!DNL Target] 說明中的[產品建議庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[產品建議庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。

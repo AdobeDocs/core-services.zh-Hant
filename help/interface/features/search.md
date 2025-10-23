@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL 整合式搜尋]，用來搜尋物件和實體 {#globally-search}
+# 物件和實體的[!UICONTROL Unified Search]
 
-[!UICONTROL 整合式搜尋]可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋也會顯示您最近存取的物件。
+[!UICONTROL Unified Search]搜尋可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋也會顯示您最近存取的物件。
 
 ![全域搜尋物件和實體](../assets/platform-search.png)
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-例如，_如何建立結構描述_&#x200B;會從 Experience League 的&#x200B;_[!UICONTROL 學習]_&#x200B;底下產生結果：
+例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_下的Experience League產生結果：
 
 ![Experience Cloud 說明中的整合式搜尋](../assets/unified-search-learning.png)
 
@@ -68,12 +68,12 @@ ht-degree: 91%
 * 存取物件的使用者權限
 * 相符的百分比
 * 完全符合的項目
-* _[!UICONTROL 排名最前結果]_&#x200B;區段會顯示排名前 30 的結果。
+* _[!UICONTROL Top Results]_區段會顯示前30個結果。
 
 若要調整搜尋，請按一下下列其中一項：
 
-* **[!UICONTROL 所有學習]**：在Experience League中開啟搜尋。
-* **[!UICONTROL 全部顯示...]**：讓您進一步調整及篩選結果。
+* **[!UICONTROL All Learning]**：在Experience League中開啟搜尋。
+* **[!UICONTROL Show all...]**：讓您進一步調整及篩選結果。
 
 ## 整合式搜尋功能
 
