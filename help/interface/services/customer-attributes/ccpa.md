@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 64%
 
 ---
@@ -43,7 +43,7 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
 
    您的組織ID是24個字元的英數字串，後面接著@AdobeOrg。 您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
-1. 在[!UICONTROL Privacy Service]中，您可以將存取和刪除要求提交至客戶屬性，以及檢查現有要求的狀態。
+1. 在[!UICONTROL Privacy Service]中，您可以將存取和刪除請求提交至客戶屬性，以及檢查現有請求的狀態。
 
 ## [!DNL Customer Attributes] JSON要求中的必要欄位值
 
@@ -105,3 +105,4 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
+

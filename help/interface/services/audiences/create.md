@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 65%
+source-wordcount: '507'
+ht-degree: 62%
 
 ---
 
 # 建立客群
 
-在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象以便在Experience Cloud應用程式中共用。
+在[!UICONTROL Audience Library]中，您可以使用屬性規則來建立對象，並定義複合對象以便在Experience Cloud應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -44,24 +44,24 @@ ht-degree: 65%
 
 **若要建立客群**
 
-1. 按一下[!DNL Experience Cloud]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]。**
+1. 按一下[!DNL Experience Cloud]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL People]** > **[!UICONTROL Audience Library]。**
 
-1. 在[!UICONTROL 對象]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![新對象](assets/add_icon_small.png)
+1. 在[!UICONTROL Audiences]頁面上，按一下&#x200B;**[!UICONTROL New]**。 ![新對象](assets/add_icon_small.png)
 
    ![建立客群](assets/audience_create_new.png)
 
-1. 在[!UICONTROL 建立新對象]頁面上，完成&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;欄位。
-1. 在[!UICONTROL 規則]下，選取參考報表套裝，然後選取屬性來源：
+1. 在[!UICONTROL Create New Audience]頁面上，完成&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位。
+1. 在[!UICONTROL Rules]下，選取參考報表套裝，然後選取屬性來源：
 
-   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+   * **[!UICONTROL Real-Time Analytics Data:]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
 
    >[!NOTE]
    >
    >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
-   * **[!UICONTROL Experience Cloud：]**&#x200B;從[!DNL Experience Cloud]來源衍生的屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
+   * 從&#x200B;**[!UICONTROL Experience Cloud:]**&#x200B;來源衍生的[!DNL Experience Cloud]屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
 
-1. 定義客群規則，然後按一下&#x200B;**[!UICONTROL 儲存]。**
+1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL Save].**
 
 **範例：定義複合對象的規則**
 
@@ -69,18 +69,18 @@ ht-degree: 65%
 >
 >定義客群規則時，您應該了解您的實作變數。
 
-在[!UICONTROL 規則]底下，定義 *`Home & Garden`* 屬性選取項目：
+在[!UICONTROL Rules]底下，定義&#x200B;*`Home & Garden`*&#x200B;屬性選取專案：
 
-* **[!UICONTROL 屬性來源：]**&#x200B;原始 Analytics 資料
-* **[!UICONTROL 報表套裝：]**&#x200B;報表套裝 31
-* 維度 = **[!UICONTROL 商店 (商品) (v6)]** > **[!UICONTROL 等於]** > **[!UICONTROL 家庭與花園]**
+* **[!UICONTROL Attribute Source:]**&#x200B;原始Analytics資料
+* **[!UICONTROL Report Suite:]**&#x200B;報告套裝31
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![客群庫中的屬性選擇](assets/home_garden.png)
 
 *Chrome 和 Safari 訪客*&#x200B;是從 Analytics 共用的客群區段：
 
-* **[!UICONTROL 屬性來源：]** Experience Cloud
-* **[!UICONTROL 維度：]** Chrome 與 Safari 訪客
+* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Dimension:]**&#x200B;個Chrome與Safari訪客
 
 ![Chrome 與 Safari 的訪客](assets/chrome_safari.png)
 
@@ -97,4 +97,5 @@ ht-degree: 65%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
+
