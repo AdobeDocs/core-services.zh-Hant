@@ -49,7 +49,7 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >貴組織的管理員可依IP位址限制對Adobe產品的存取。 若是如此，您可能在登入Experience Cloud或切換至啟用此功能的組織後，收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/enterprise/using/ip-based-access.html)。
+   >貴組織的管理員可依IP位址限制對Adobe產品的存取。 若是如此，您可能在登入Experience Cloud或切換至啟用此功能的組織後，收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/tw/enterprise/using/ip-based-access.html)。
 
 
 ## 存取 Experience Cloud 應用程式
@@ -62,7 +62,7 @@ ht-degree: 77%
 
 ## 取得說明和支援
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
