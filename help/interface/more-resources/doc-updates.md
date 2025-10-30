@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
+source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 71%
+source-wordcount: '636'
+ht-degree: 69%
 
 ---
 
 # Experience Cloud檔案更新
 
 瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
+
+**2025年10月**
+
+更新[如果管理員依IP位址限制對Adobe產品的存取，請用錯誤訊息的附註驗證您的組織](../experience-cloud.md)。
 
 **2025 年 8 月**
 
