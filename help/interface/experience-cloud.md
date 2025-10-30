@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c5e1dc926496bc8a8f5e6731fa81934c830c6bea
+source-git-commit: 9258c1f8562eb77ff51e22572c91d705f9675f4c
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 77%
 
 ---
@@ -47,9 +47,7 @@ ht-degree: 77%
 
    例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
 
-   >[!NOTE]
-   >
-   >貴組織的管理員可依IP位址限制對Adobe產品的存取。 若是如此，您可能在登入Experience Cloud或切換至啟用此功能的組織後，收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/tw/enterprise/using/ip-based-access.html)。
+   **注意：**&#x200B;您組織的管理員可能會依IP位址限制對Adobe產品的存取。 若是如此，您可能在登入Experience Cloud或切換至啟用此功能的組織後，收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/enterprise/using/ip-based-access.html)。
 
 
 ## 存取 Experience Cloud 應用程式
@@ -62,7 +60,7 @@ ht-degree: 77%
 
 ## 取得說明和支援
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
