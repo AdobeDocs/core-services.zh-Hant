@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 67%
@@ -38,3 +38,4 @@ ht-degree: 67%
 >[!NOTE]
 >
 >已提供[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)的產品檔案。 在[!UICONTROL Experience Platform]Adobe Developer[上找到](https://developer.adobe.com/apis)開發人員的技術檔案。
+
