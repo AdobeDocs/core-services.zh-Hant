@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 05c1155bb551568ecbedafb00ea190f00fd52427
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 91%
+source-wordcount: '343'
+ht-degree: 92%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 91%
 
 ## 了解 DNS 預先擷取
 
-瀏覽器會使用 DNS 預先擷取功能，自動將網頁上連結的網域名稱解析為其對應的 IP 位址。預先擷取程序會在瀏覽器載入網頁時開始執行。例如，假設您的網頁含有連結至 `www.adobe.com` 的可選取連結。 瀏覽器載入此網頁時，會透過 [DNS 系統](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/)來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。DNS 預先擷取功能有助於改善頁面效能，因為網站訪客點按該連結或按鈕之前，網域名稱已解析為 IP 位址。DNS 預先擷取程序向使用者公開呈現。
+瀏覽器會使用 DNS 預先擷取功能，自動將網頁上連結的網域名稱解析為其對應的 IP 位址。預先擷取程序會在瀏覽器載入網頁時開始執行。例如，假設您的網頁含有連結至 `www.adobe.com` 的可選取連結。 瀏覽器載入此網頁時，會透過 _DNS 系統_&#x200B;來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。DNS 預先擷取功能有助於改善頁面效能，因為網站訪客點按該連結或按鈕之前，網域名稱已解析為 IP 位址。DNS 預先擷取程序向使用者公開呈現。
 
 ## DNS 預先擷取和 Adobe Experience Cloud 應用程式
 
-DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於其他[!UICONTROL Experience Cloud]應用程式和服務，原因如下：
+DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於不同的[!UICONTROL Experience Cloud]應用程式和服務，原因如下：
 
 * 每個 Experience Cloud 應用程式或服務會在頁面載入時以動態方式產生 DNS 呼叫。
 * 發出這些呼叫之前，瀏覽器無法將網域名稱解析為 IP 位址。
