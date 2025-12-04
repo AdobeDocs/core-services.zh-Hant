@@ -31,7 +31,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | **強制資料使用方式** | 無特殊用法。 | 由系統 (應用程式、App、服務、SDK、API 等) 制定和定義的原則、系統設計、做法和程序，用於透過資料使用方式中繼資料，讓資料使用方式符合 Adobe 公司隱私權政策、合約對價和一般隱私權原則。 |
 | **裝置** | 無特殊用法。 | 執行應用程式的硬體裝置，例如平板電腦、手機或桌上型電腦。 |
 | **Device Co-op** | 無特殊用法。 | 品牌類組；這些品牌均同意共用消費者使用哪些裝置的資料，以便更有效識別跨裝置的個人，並提供更有意義且一致的體驗。 |
-| **[!UICONTROL Experience Cloud ID Service](ECID)** | 無特殊用法。 | 指派給網站訪客的不重複、永久性 ID。這個確切實體可供 Experience Platform 身分識別服務使用。[更多內容...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
+| **[!UICONTROL Experience Cloud ID Service] (ECID)** | 無特殊用法。 | 指派給網站訪客的不重複、永久性 ID。這個確切實體可供 Experience Platform 身分識別服務使用。[更多內容...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
 | **[!UICONTROL Experience Platform Identity Service]** | 無特殊用法。 | 可連結身分識別的服務。這項裝置連結服務主要是依人員提供體驗管理功能。 |
 | **連結** | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在 Experience Cloud 中，連結通常是指將不同的應用程式帳戶連接至介面。<br>請參閱[組織和帳戶連結](../administration/organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
 | **位置** | 在 Creative Cloud 中，位置是指檔案位置或已開啟影像或文件上的位置。 | 在 Experience Cloud 中，位置是向客群顯示內容 (且可進行互動) 的地方。位置和內容之間的關聯大致上為靜態，也可以根據行銷活動規則進行動態管理。位置一律屬於特定管道，決定了傳遞內容及收集量度的方式。<br>例如：<ul><li>網站</li><li>屬性 (Social)</li><li>顯示庫存</li><li>登陸頁面</li><li>行動應用程式</li><li>插槽 (影片)</li></ul> |
