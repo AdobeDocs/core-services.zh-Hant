@@ -28,9 +28,9 @@ ht-degree: 67%
 | 核心服務 | 說明 |
 |--- |--- |
 | [中央介面元件](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud) | 存取帳戶偏好設定、搜尋產品說明，以及存取應用程式和服務。 |
-| [客群庫](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview) | 客群是訪客的集合 (訪客 ID 的清單)。Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
-| [客戶屬性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
-| [資產](https://experienceleague.adobe.com/en/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
+| [客群庫](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/overview) | 客群是訪客的集合 (訪客 ID 的清單)。Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
+| [客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
+| [資產](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets 提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
 
 {style="table-layout:auto"}
 

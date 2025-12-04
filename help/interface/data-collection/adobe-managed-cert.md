@@ -93,10 +93,10 @@ Aliases: smetrics.example.com
 
 * **網頁SDK標籤擴充功能**：設定擴充功能時更新[[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)欄位。
 * **網頁SDK (alloy)**：更新[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)命令中的[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)屬性。
-* **Adobe Analytics擴充功能**：設定擴充功能時更新[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)欄位。 請確定您已安裝[訪客ID服務標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)。 如需詳細資訊，請參閱[使用Analytics標籤延伸識別訪客](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)。
-* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)設定變數。 確定您也使用[實作](https://experienceleague.adobe.com/en/docs/id-service/using/home)訪客ID服務`VisitorAPI.js`。 如需詳細資訊，請參閱[使用AppMeasurement的訪客身分識別](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)。
+* **Adobe Analytics擴充功能**：設定擴充功能時更新[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/analytics/overview)欄位。 請確定您已安裝[訪客ID服務標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)。 如需詳細資訊，請參閱[使用Analytics標籤延伸識別訪客](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/analytics-extension)。
+* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/config-vars/trackingserversecure)設定變數。 確定您也使用[實作](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/home)訪客ID服務`VisitorAPI.js`。 如需詳細資訊，請參閱[使用AppMeasurement的訪客身分識別](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/analytics-extension)。
 
-如果您的網站使用多種實作方法，且您無法同時更新所有方法，請考慮設定寬限期。 請參閱[訪客ID服務移轉考量事項](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)，以取得如何防止訪客在您的網站上被計為新訪客的其他步驟。
+如果您的網站使用多種實作方法，且您無法同時更新所有方法，請考慮設定寬限期。 請參閱[訪客ID服務移轉考量事項](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/migration)，以取得如何防止訪客在您的網站上被計為新訪客的其他步驟。
 
 ## 維護與更新
 

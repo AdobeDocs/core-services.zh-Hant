@@ -37,7 +37,7 @@ ht-degree: 45%
 
 * 客戶屬性需要 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant)」。
 
 ## 建立資料檔案
 
@@ -86,9 +86,9 @@ ht-degree: 45%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL customer Settings]底下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)值。
+      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL customer Settings]底下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)值。
 
-      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
+      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -178,4 +178,4 @@ ht-degree: 45%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱[說明中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)建立對象[!DNL Target]。
+請參閱[說明中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant)建立對象[!DNL Target]。
