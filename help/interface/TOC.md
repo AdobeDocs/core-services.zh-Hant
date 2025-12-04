@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: ab9191b6327f28bdb88ec3e1a90d912523a6cc66
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 96%
@@ -77,4 +77,3 @@ ht-degree: 96%
    + [文件更新](more-resources/doc-updates.md)
    + [常見問答](more-resources/faq.md)
    + [術語](more-resources/terms.md)
-

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 6%
@@ -86,7 +86,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 ### 在[!DNL Slack]中要求許可權（疑難排解）
 
-如果未安裝[!DNL Slack]，則當您按一下&#x200B;_[!UICONTROL Request to install]_&#x200B;後，Slack開啟時會顯示&#x200B;**[!UICONTROL Add to Slack]**&#x200B;訊息。 例如：
+如果未安裝[!DNL Slack]，則當您按一下&#x200B;_[!UICONTROL Request to install]_後，Slack開啟時會顯示&#x200B;**[!UICONTROL Add to Slack]**訊息。 例如：
 
 ![要求Slack整合](../assets/slack-workspace.png)
 
@@ -118,3 +118,4 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 1. 按一下「**[!UICONTROL Notifications]**」或「**[!UICONTROL Announcements]**」。
 
    您可以在此位置接收產品、與其他使用者的共同作業以及其他相關更新的重要資訊。 更新包括產品版本、維護通知、共用專案及核准請求。
+

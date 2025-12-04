@@ -2,10 +2,10 @@
 title: Experience Cloud使用的IP位址
 description: 如果貴組織的防火牆封鎖來自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 11%
 
 除了下列IP位址區塊外，各個Adobe Experience Cloud產品也各有專屬的IP位址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP位址區塊
 
@@ -51,10 +51,10 @@ ht-degree: 11%
 
 | 位置 | IP範圍（CIDR標籤法） |
 | --- | --- |
-| 澳大利亞 | `63.140.55.0/24` |
-| 澳大利亞 | `63.140.56.0/23` |
-| 加利福尼亞 | `63.140.32.0/23` |
-| 加利福尼亞 | `63.140.34.0/24` |
+| 澳洲 | `63.140.55.0/24` |
+| 澳洲 | `63.140.56.0/23` |
+| 加州 | `63.140.32.0/23` |
+| 加州 | `63.140.34.0/24` |
 | 法國 | `63.140.62.0/23` |
 | 印度 | `66.117.22.0/23` |
 | 日本 | `130.248.169.0/23` |
@@ -65,11 +65,11 @@ ht-degree: 11%
 | 倫敦 | `130.248.152.0/22` |
 | 倫敦 | `130.248.244.0/23` |
 | 俄亥俄 | `66.117.20.0/24` |
-| 俄勒岡 | `66.235.132.0/22` |
-| 俄勒岡 | `130.248.130.0/23` |
-| 俄勒岡 | `130.248.150.0/24` |
-| 俄勒岡 | `130.248.160.0/21` |
-| 俄勒岡 | `192.243.242.0/24` |
+| 奧勒岡州 | `66.235.132.0/22` |
+| 奧勒岡州 | `130.248.130.0/23` |
+| 奧勒岡州 | `130.248.150.0/24` |
+| 奧勒岡州 | `130.248.160.0/21` |
+| 奧勒岡州 | `192.243.242.0/24` |
 | 新加坡 | `130.248.170.0/23` |
 | 新加坡 | `130.248.240.0/24` |
 | 新加坡 | `63.140.44.0/22` |
@@ -87,16 +87,16 @@ Adobe Experience Cloud也支援有限容量的IPv6。 這些IP區塊的資料收
 
 | 位置 | Host |
 | --- | --- |
-| 澳大利亞 | `2406:da1c:406:1a00::/56` |
-| 澳大利亞 | `2406:da1c:ce5:b400::/56` |
-| 加利福尼亞 | `2600:1f1c:366:d900::/56` |
+| 澳洲 | `2406:da1c:406:1a00::/56` |
+| 澳洲 | `2406:da1c:ce5:b400::/56` |
+| 加州 | `2600:1f1c:366:d900::/56` |
 | 法國 | `2a05:d012:706:d000::/56` |
 | 印度 | `2406:da1a:f34:6a00::/56` |
 | 愛爾蘭 | `2a05:d018:309:600::/56` |
 | 日本 | `2406:da14:b07:ab00::/56` |
 | 俄亥俄 | `2600:1f16:130f:7d00::/56` |
-| 俄勒岡 | `2600:1f14:1eb:7d00::/56` |
-| 俄勒岡 | `2600:1f14:9d3:2b00::/56` |
+| 奧勒岡州 | `2600:1f14:1eb:7d00::/56` |
+| 奧勒岡州 | `2600:1f14:9d3:2b00::/56` |
 | 新加坡 | `2406:da18:6e8:1e00::/56` |
 | 維吉尼亞 | `2600:1f18:1a20:e800::/56` |
 | 維吉尼亞 | `2600:1f18:4fd:6000::/56` |
@@ -106,3 +106,4 @@ Adobe Experience Cloud也支援有限容量的IPv6。 這些IP區塊的資料收
 >[!TIP]
 >
 >Adobe Analytics匯出功能的FTP連線(包括Data Warehouse和資料摘要)只會來自倫敦、奧勒岡和新加坡位置的IPv4位址。
+

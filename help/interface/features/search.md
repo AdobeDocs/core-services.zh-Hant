@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 84%
@@ -59,7 +59,7 @@ ht-degree: 84%
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_&#x200B;下的Experience League產生結果：
+例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_下的Experience League產生結果：
 
 ![Experience Cloud 說明中的整合式搜尋](../assets/unified-search-learning.png)
 
@@ -68,7 +68,7 @@ ht-degree: 84%
 * 存取物件的使用者權限
 * 相符的百分比
 * 完全符合的項目
-* _[!UICONTROL Top Results]_&#x200B;區段會顯示前30個結果。
+* _[!UICONTROL Top Results]_區段會顯示前30個結果。
 
 若要調整搜尋，請按一下下列其中一項：
 
@@ -100,3 +100,4 @@ ht-degree: 84%
 * 檢查拼寫
 * 設法寫出完整的搜尋字詞
 * 確保您對於要搜尋的物件擁有權限
+

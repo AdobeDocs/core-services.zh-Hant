@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 08713a68-8a24-4f18-9d77-c332f434eea6
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 42%
@@ -22,4 +22,3 @@ ht-degree: 42%
 1. 移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;的對映值。
 
 1. [上傳含有更新欄位的新資料檔案](t-crs-usecase.md)。
-

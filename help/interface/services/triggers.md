@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 78%
@@ -29,7 +29,7 @@ Experience Cloud中的[!UICONTROL Triggers]可讓您識別、定義及監控重�
 
 >[!NOTE]
 >
->有關使用[!UICONTROL Triggers]的更多資訊可在[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)中取得。
+>有關使用[!UICONTROL Triggers]的更多資訊可在[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)中取得。
 
 ## 觸發器的型別
 
@@ -67,7 +67,7 @@ Experience Cloud中的[!UICONTROL Triggers]可讓您識別、定義及監控重�
    {style="table-layout:auto"}
 
 1. 按一下「**[!UICONTROL Save]**」。
-1. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hant)。
+1. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
 
 ## 範例觸發器
 
@@ -84,3 +84,4 @@ Experience Cloud 觸發器範例：
 當點擊隨「男靴」產品和 Facebook 的反向連結傳入時，便會引發下列觸發器。為了在同一個點擊中評估這兩個條件 (*產品*&#x200B;和&#x200B;*反向連結*)，應該將它們新增至相同的容器中。
 
 ![反向連結觸發器](../assets/fb-boots-promo.png)
+

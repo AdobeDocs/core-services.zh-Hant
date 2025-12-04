@@ -2,7 +2,7 @@
 title: 地區資料收集
 description: 瞭解Experience Cloud中的地區資料收集。
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -45,3 +45,4 @@ _*中國RDC需要「中國效能最佳化」附加元件套件，且僅適用於
 | 預設+中國* | 北京*、奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
 
 {style="table-layout:auto"}
+
