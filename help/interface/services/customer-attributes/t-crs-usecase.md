@@ -110,7 +110,7 @@ ht-degree: 45%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL Namespace Code:]**&#x200B;在AEP WebSDK實作中使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL Namespace Code:]**&#x200B;在AEP WebSDK實作中使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)時，使用此值來識別客戶屬性來源。
 
 1. 按一下「**[!UICONTROL Save]**」。
 
