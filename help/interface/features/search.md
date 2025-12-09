@@ -59,7 +59,7 @@ Experience Cloud![[!UICONTROL Unified Search]中的](../assets/unified-search-re
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_下的Experience League產生結果：
+例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_&#x200B;下的Experience League產生結果：
 
 Experience Cloud說明中的![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
@@ -68,7 +68,7 @@ Experience Cloud說明中的![[!UICONTROL Unified Search]](../assets/unified-sea
 * 存取物件的使用者權限
 * 相符的百分比
 * 完全符合的項目
-* _[!UICONTROL Top Results]_區段會顯示前30個結果。
+* _[!UICONTROL Top Results]_&#x200B;區段會顯示前30個結果。
 
 若要調整搜尋，請按一下下列其中一項：
 
