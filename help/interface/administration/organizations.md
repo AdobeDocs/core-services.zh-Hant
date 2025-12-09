@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 50%
 
 ---
 
-# Experience Cloud 中的組織
+# 組織和帳戶綁定
 
 *組織* （組織ID）是可讓管理員設定群組和使用者，以及控制Experience Cloud單一登入的實體。
 
@@ -100,6 +100,6 @@ ht-degree: 50%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在問題待解決之際，您仍可使用標準登入存取應用程式。
 

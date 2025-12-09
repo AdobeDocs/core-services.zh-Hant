@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1178'
 ht-degree: 76%
 
 ---
 
-# 在[!UICONTROL Admin Tool]中檢視Experience Cloud使用者和原則
+# Experience Cloud [!UICONTROL Admin Tool]
 
 管理員可以在[!UICONTROL Admin Tool]中檢視所有Experience Cloud使用者和原則及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 

@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 84%
+source-wordcount: '633'
+ht-degree: 80%
 
 ---
 
-# 物件和實體的[!UICONTROL Unified Search]
+# Experience Cloud 中的 [!UICONTROL Unified Search]
 
 [!UICONTROL Unified Search]搜尋可讓您透過順暢一致的一鍵式體驗，尋找可搜尋的商業物件或實體。 此搜尋也會顯示您最近存取的物件。
 
 ![全域搜尋物件和實體](../assets/platform-search.png)
 
-## 存取整合式搜尋
+## 存取 [!UICONTROL Unified Search]
 
-整合式搜尋可在每一頁頁面最上方的 Experience Cloud 標頭中找到。您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
+[!UICONTROL Unified Search]可在每個頁面頁面最上方的Experience Cloud標題中使用。 您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
 
 此功能只提供給受支援的產品，目前包括：
 
@@ -40,7 +40,7 @@ ht-degree: 84%
 
 您的功能和物件權限、相符的百分比、是否有完全相符的項目
 
-![Experience Cloud 中的整合式搜尋](../assets/unified-search-results.png)
+Experience Cloud![[!UICONTROL Unified Search]中的](../assets/unified-search-results.png)
 
 可搜尋的商業物件包括：
 
@@ -59,23 +59,23 @@ ht-degree: 84%
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_&#x200B;下的Experience League產生結果：
+例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_下的Experience League產生結果：
 
-![Experience Cloud 說明中的整合式搜尋](../assets/unified-search-learning.png)
+Experience Cloud說明中的![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
 搜尋演算法會最先顯示最相關的記錄。 結果的順序取決於幾個因素，例如：
 
 * 存取物件的使用者權限
 * 相符的百分比
 * 完全符合的項目
-* _[!UICONTROL Top Results]_&#x200B;區段會顯示前30個結果。
+* _[!UICONTROL Top Results]_區段會顯示前30個結果。
 
 若要調整搜尋，請按一下下列其中一項：
 
 * **[!UICONTROL All Learning]**：在Experience League中開啟搜尋。
 * **[!UICONTROL Show all...]**：讓您進一步調整及篩選結果。
 
-## 整合式搜尋功能
+## [!UICONTROL Unified Search]功能
 
 整合式搜尋中可提供以下功能。
 

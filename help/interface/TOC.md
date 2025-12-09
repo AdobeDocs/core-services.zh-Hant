@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 89%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Experience Cloud 介面與管理 {#interface}
 
 + [Experience Cloud 介面與管理](experience-cloud.md)
-+ [隱藏首頁](hidden-experience-cloud.md)
 + 服務 {#services}
-   + [概觀](services/overview.md)
+   + [服務總覽](services/overview.md)
    + [快速入門](services/getting-started.md)
-   + [隱藏的概觀](services/hidden-overview.md)
-   + [隱藏開始使用](services/hidden-getting-started.md)
    + 資產 {#assets}
-      + [概觀](services/assets/experience-cloud-assets.md)
+      + [Assets概觀](services/assets/experience-cloud-assets.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
       + [共用資產資料夾](services/assets/share.md)
       + [將資產上傳到共用資料夾](services/assets/upload.md)
       + [針對共用的資產檔案需求](services/assets/file-reqs.md)
       + [共用資料夾的行為](services/assets/behavior.md)
    + 客群庫 {#audiences}
-      + [概觀](services/audiences/overview.md)
+      + [客群概觀](services/audiences/overview.md)
       + [建立客群](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
+   + [Adobe Exchange](services/exchange.md)
    + 客戶屬性 {#customer-attributes}
-      + [概觀](services/customer-attributes/attributes.md)
+      + [客戶屬性概觀](services/customer-attributes/attributes.md)
       + [常見問題集](services/customer-attributes/faq-crs.md)
-      + [關於資料檔案和資料來源](services/customer-attributes/crs-data-file.md)
-      + [建立及上傳資料檔案](services/customer-attributes/t-crs-usecase.md)
+      + [資料檔案和來源](services/customer-attributes/crs-data-file.md)
+      + [建立及上傳資料](services/customer-attributes/t-crs-usecase.md)
       + [選用 - 透過 FTP 上傳](services/customer-attributes/t-upload-attributes-ftp.md)
       + [驗證結構描述](services/customer-attributes/validate-schema.md)
-      + [設定訂閱及啟動資料來源](services/customer-attributes/subscription.md)
+      + [設定訂閱](services/customer-attributes/subscription.md)
       + [更新結構描述](services/customer-attributes/t-update-schema.md)
       + [支援 GDPR](services/customer-attributes/gdpr.md)
       + [支援 CCPA](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [生成式 AI](features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
    + [整合式搜尋](features/search.md)
-   + [個人化學習](features/personalized-learning.md)
+   + [個人化學習偏好設定](features/personalized-learning.md)
    + [瀏覽器和語言支援](browser-language.md)
 + 管理 {#administration}
-   + [使用者管理和產品授權](administration/admin-console.md)
-   + [檢視使用者詳細資訊 (管理工具)](administration/admin-tool-experience-cloud.md)
-   + [組織](administration/organizations.md)
-   + [Experience Cloud 整合](administration/integrations.md)
+   + [使用者和產品管理](administration/admin-console.md)
+   + [管理工具](administration/admin-tool-experience-cloud.md)
+   + [組織和帳戶綁定](administration/organizations.md)
+   + [整合](administration/integrations.md)
 + 資料彙集 {#data-collection}
    + [Adobe 託管的憑證計劃](data-collection/adobe-managed-cert.md)
    + [IP 位址](data-collection/ip-addresses.md)
@@ -75,5 +72,5 @@ ht-degree: 96%
 + 發行說明和資源 {#more-resources}
    + [發行說明](more-resources/release-notes.md)
    + [文件更新](more-resources/doc-updates.md)
-   + [常見問答](more-resources/faq.md)
+   + [常見問題集](more-resources/faq.md)
    + [術語](more-resources/terms.md)
