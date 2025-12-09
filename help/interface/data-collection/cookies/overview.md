@@ -22,7 +22,7 @@ Adobe Experience Cloud使用Cookie來追蹤不會維持在頁面檢視或瀏覽�
 
 有些瀏覽器和防間諜軟體工具會封鎖協力廠商Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 其運作方式取決於您使用Experience Platform Identity Service (ECID)還是舊版Analytics Cookie （如`s_vi` Cookie）：
 
-* [Experience Cloud Identity服務](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)： ECID服務一律會設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
+* [Experience Cloud Identity服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/overview)： ECID服務一律會設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
 
 * [Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie）： Cookie是第一方還是第三方取決於您的設定：
 
