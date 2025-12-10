@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 63%
+source-wordcount: '361'
+ht-degree: 55%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->請先檢閱[上傳客戶屬性的資料檔案需求](crs-data-file.md)，然後再上傳檔案。
+>請先檢閱[客戶屬性資料檔案和來源](crs-data-file.md)，再上傳檔案。
 
 您可透過FTP或SFTP將檔案上傳至客戶屬性FTP站台：
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hant)所說明。
+* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所說明。
 
 **透過 FTP 上傳資料檔案**
 
@@ -43,7 +43,7 @@ ht-degree: 63%
 
    如果上傳成功，兩個檔案都會移至名為 **processed** 的資料夾。
 
-   請參閱[針對上傳客戶屬性的資料檔案需求](crs-data-file.md)，以取得有關檔案名稱和結構的重要資訊。
+   請參閱[客戶屬性資料檔案和來源](crs-data-file.md)，以取得有關檔案名稱和結構的重要資訊。
 
 ## 設定FTP帳戶
 

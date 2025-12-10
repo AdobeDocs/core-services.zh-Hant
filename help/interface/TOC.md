@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Experience Cloud 介面與管理
 breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
-description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定人員服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
+description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 89%
+source-wordcount: '199'
+ht-degree: 88%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 # Experience Cloud 介面與管理 {#interface}
 
 + [Experience Cloud 介面與管理](experience-cloud.md)
-+ 服務 {#services}
-   + [服務總覽](services/overview.md)
++ 介面服務 {#services}
+   + [介面概觀](services/overview.md)
    + [快速入門](services/getting-started.md)
    + 資產 {#assets}
       + [Assets概觀](services/assets/experience-cloud-assets.md)

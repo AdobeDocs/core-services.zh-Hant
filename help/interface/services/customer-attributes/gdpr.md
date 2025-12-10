@@ -1,12 +1,12 @@
 ---
-title: 一般資料保護規範的[!DNL Customer attributes]支援
+title: 一般資料保護規範的[!DNL Customer Attributes]支援
 description: 瞭解一般資料保護規範的客戶屬性支援
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 91%
@@ -21,13 +21,13 @@ ht-degree: 91%
 >
 >本文件的內容並非法律建議，且宗旨並非取代專業的法律建議。如需 GDPR 的相關建議，請諮詢法律顧問。
 
-2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。此外，也簡化國際業務的監管環境。針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
+2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。此外，也簡化國際業務的監管環境。針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
 
 Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。身為資料控管方，您可以決定要由 Adobe Experience Cloud 代表您處理和儲存哪些個人資料。
 
 本文件說明 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 GDPR 資料和刪除權限。
 
-如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)。
+如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 傳送 [!DNL Customer Attributes] 請求的必要設定
 

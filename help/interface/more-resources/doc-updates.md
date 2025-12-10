@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 68%
@@ -124,7 +124,7 @@ ht-degree: 68%
 
 **2018年6月8日**
 
-更新[關於客戶屬性的資料檔案和資料來源](../services/customer-attributes/crs-data-file.md)，提供有關如何上傳多個檔案的資訊。
+更新[客戶屬性的相關資料檔案和資料來源](../services/customer-attributes/crs-data-file.md)，並隨附上傳多個檔案的相關資訊。
 
 **2018年6月6日**
 
