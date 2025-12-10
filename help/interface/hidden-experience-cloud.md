@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -47,7 +47,7 @@ ht-degree: 83%
 
    如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
-   例如，如果組織擁有 Federated ID 和網域 `adobecustomer.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@adobecustomer.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`。)
+   例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
 
 ## 存取 Experience Cloud 應用程式 {#navigation}
 
@@ -59,7 +59,7 @@ ht-degree: 83%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
