@@ -54,7 +54,7 @@ ht-degree: 47%
 
 ## 建立屬性來源及上傳資料檔案
 
-在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_頁面上執行這些步驟。
+在Experience Cloud的&#x200B;_[!UICONTROL Create Customer Attribute Source]_&#x200B;頁面上執行這些步驟。
 
 >[!IMPORTANT]
 >
