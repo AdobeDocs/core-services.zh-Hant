@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 76%
+source-wordcount: '1182'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 76%
 
 ## 「使用者」頁面
 
-此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它提供有關應用程式權限和上次登入的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
+此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它會提供有關應用程式許可權和上次登入的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
 
 ![Admin Console 使用者頁面](../assets/admin-tool-users.png)
 
@@ -41,7 +41,7 @@ ht-degree: 76%
 | [!UICONTROL Email] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID Type] | 使用者帳戶的身分識別類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL Solutions] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL Last Login] | 使用者上次登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料會保留365天。 這項資訊的用途是顯示Experience Cloud中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL Last Login] | 使用者上次登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊的用途是顯示Experience Cloud中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
