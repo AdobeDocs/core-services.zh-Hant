@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
+source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 75%
+source-wordcount: '1330'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| **2026年1月15日** | 可自訂的左側導覽 | Experience Cloud中的Unified Shell左側導覽現在可自訂。 您可以重新排序導覽專案，並快速存取最重要的功能。 此更新透過簡化工作流程、減少認知負載並支援完整的鍵盤協助工具來提高效率。 它保留了跨應用程式的一致現代化設計，並可實現未來的個人化。 |
+| **2026年1月15日** | 可自訂的左側導覽 | 您現在可以在Experience Cloud中自訂左側導覽。 重新排序導覽專案並快速存取最重要的功能。 此更新可幫助您簡化工作流程、減少認知負擔，並支援完整的鍵盤協助工具。 它保留了跨應用程式的一致現代化設計，並可實現未來的個人化。 |
 
 ## 2025 年 9 月
 
