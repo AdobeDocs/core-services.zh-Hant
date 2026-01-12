@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 75%
 
 ---
 
@@ -23,6 +23,12 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
+
+## 2026 年 1 月
+
+| 日期 | 更新 | 說明 |
+| -----------| -----------| ---------- |
+| **2026年1月15日** | 可自訂的左側導覽 | Experience Cloud中的Unified Shell左側導覽現在可自訂。 您可以重新排序導覽專案，並快速存取最重要的功能。 此更新透過簡化工作流程、減少認知負載並支援完整的鍵盤協助工具來提高效率。 它保留了跨應用程式的一致現代化設計，並可實現未來的個人化。 |
 
 ## 2025 年 9 月
 
@@ -40,7 +46,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 2 月 13 日 | Spectrum 2 | Experience Cloud應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
+| 13 年 2 月 | Spectrum 2 | Experience Cloud應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
 
 ## 2025 年 1 月
 
