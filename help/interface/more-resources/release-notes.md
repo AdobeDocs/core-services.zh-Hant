@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
+source-git-commit: f04dc50d480befa9c9f94711871ce2ecea51f9c8
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1337'
 ht-degree: 76%
 
 ---
@@ -26,9 +26,9 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 ## 2026 年 1 月
 
-| 日期 | 更新 | 說明 |
-| -----------| -----------| ---------- |
-| **2026年1月15日** | 可自訂的左側導覽 | 您現在可以在Experience Cloud中自訂左側導覽。 重新排序導覽專案並快速存取最重要的功能。 此更新可幫助您簡化工作流程、減少認知負擔，並支援完整的鍵盤協助工具。 它保留了跨應用程式的一致現代化設計，並可實現未來的個人化。 |
+| 日期 | 更新 | 說明 | 適用的產品 |
+| -----------| -----------| ---------- | ---------- |
+| **2026年1月14日** | 可自訂的左側導覽功能表 | 您現在可以在Experience Cloud中自訂應用程式的左側導覽功能表。 重新排序導覽專案並控制其可見性，以快速存取最重要的功能。 此更新可幫助您簡化工作流程、減少認知負擔，並支援完整的鍵盤協助工具。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
