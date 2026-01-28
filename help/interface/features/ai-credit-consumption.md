@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 9%
@@ -16,19 +16,19 @@ ht-degree: 9%
 ---
 
 
-## 代理程式工作與AI信用沖銷
+# 代理程式工作與AI信用沖銷
 
-### 代理程式工作
+## 代理程式工作
 
 **代理程式工作**&#x200B;是「代理程式」根據客戶輸入的指示，為達成特定結果而執行的一系列工作與動作。
 
 透過AI Assistant使用自然語言提示，客戶可以要求Agent執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的Experience Cloud應用程式中執行每個步驟。
 
-### AI積分
+## AI積分
 
 **AI評分**&#x200B;是以使用量為基礎的量度，可量化代理程式工作的執行。 AI積分不適用於AI優先的應用程式。
 
-### AI信用沖銷
+## AI信用沖銷
 
 AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
 
@@ -36,7 +36,7 @@ AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
 * 複雜（通常為多步驟）的工作會消耗更多積分
 * 涉及進階推理、驗證、多代理程式協調或整合的工作會消耗更多評分
 
-#### 預估的AI信用消耗率
+### 預估的AI信用消耗率
 
 | 代理程式 | 工作 | 支援的應用程式 | 預估的AI積分 |
 |------|-----|------------------------|----------------------|
