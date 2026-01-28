@@ -2,21 +2,20 @@
 title: 代理程式工作與AI信用沖銷
 description: 瞭解Experience Cloud應用程式中的代理程式工作和AI點數消耗。
 solution: Experience Cloud
-landing-page-name: ai
-landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
+source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 14%
 
 ---
 
+# 代理程式工作和AI信用消耗
 
-# 代理程式工作與AI信用沖銷
+瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。
 
 ## 代理程式工作
 
@@ -28,7 +27,7 @@ ht-degree: 14%
 
 **AI評分**&#x200B;是以使用量為基礎的量度，可量化代理程式工作的執行。 AI積分不適用於AI優先的應用程式。
 
-## AI信用沖銷
+## AI信用消耗
 
 AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
 
@@ -58,5 +57,6 @@ AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
 | Brand Experience Agent | 部署支援 | <ul><li>Adobe Experience Manager雲端服務</li></ul> | 5 |
 | Brand Experience Agent | 網站現代化 | <ul><li>Adobe Experience Manager雲端服務</li></ul> | 100 |
 
-**注意：**&#x200B;實際AI點數消耗可能會因執行的步驟數以及每個步驟的反複專案而有所不同。
-
+>[!NOTE]
+>
+>實際的AI點數消耗可能會因執行的步驟數以及每個步驟的反複專案而異。
