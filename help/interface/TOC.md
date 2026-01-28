@@ -5,10 +5,10 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: d30ce2e18e40d774ff2af1a9e6739e9d20f7b4d7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '205'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 + [Experience Cloud 介面與管理](experience-cloud.md)
 + 介面服務 {#services}
    + [介面概觀](services/overview.md)
-   + [快速入門](services/getting-started.md)
+   + [開始使用](services/getting-started.md)
    + 資產 {#assets}
       + [Assets概觀](services/assets/experience-cloud-assets.md)
       + [管理 Creative Cloud 使用者](services/assets/manage-cc-users.md)
@@ -47,6 +47,7 @@ ht-degree: 88%
    + [帳戶偏好設定和通知](features/account-preferences.md)
    + [生成式 AI](features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
+      + [代理程式工作與AI信用沖銷](features/ai-credit-consumption.md)
    + [整合式搜尋](features/search.md)
    + [個人化學習偏好設定](features/personalized-learning.md)
    + [瀏覽器和語言支援](browser-language.md)
