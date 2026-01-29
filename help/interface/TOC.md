@@ -5,9 +5,9 @@ breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
 description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。管理產品和設定 People 服務，包括客戶屬性和客群庫。共用 Experience Cloud 資產。
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 86%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 86%
 # Experience Cloud 介面與管理 {#interface}
 
 + [Experience Cloud 介面與管理](/help/interface/experience-cloud.md)
++ Experience Cloud 中的 AI {#features}
+   + [生成式 AI](/help/interface/features/generative-ai.md)
+   + [代理式 AI](/help/interface/features/agentic-ai.md)
+   + [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
++ 管理 {#administration}
+   + [帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
+   + [瀏覽器和語言支援](/help/interface/browser-language.md)
+   + [使用者和產品管理](/help/interface/administration/admin-console.md)
+   + [管理工具](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [組織和帳戶綁定](/help/interface/administration/organizations.md)
+   + [整合](/help/interface/administration/integrations.md)
+   + [整合式搜尋](/help/interface/features/search.md)
+   + [個人化學習偏好設定](/help/interface/features/personalized-learning.md)
 + 介面服務 {#services}
    + [介面概觀](/help/interface/services/overview.md)
    + [開始使用](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 86%
    + 客群庫 {#audiences}
       + [客群概觀](/help/interface/services/audiences/overview.md)
       + [建立客群](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + 客戶屬性 {#customer-attributes}
       + [客戶屬性概觀](/help/interface/services/customer-attributes/attributes.md)
       + [常見問題集](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 86%
       + [支援 CCPA](/help/interface/services/customer-attributes/ccpa.md)
       + [隱私權考量事項](/help/interface/services/customer-attributes/privacy-mac.md)
    + [觸發程序](/help/interface/services/triggers.md)
-+ 功能 {#features}
-   + [帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
-   + [生成式 AI](/help/interface/features/generative-ai.md)
-   + [代理式 AI](/help/interface/features/agentic-ai.md)
-   + [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-   + [整合式搜尋](/help/interface/features/search.md)
-   + [個人化學習偏好設定](/help/interface/features/personalized-learning.md)
-   + [瀏覽器和語言支援](/help/interface/browser-language.md)
-+ 管理 {#administration}
-   + [使用者和產品管理](/help/interface/administration/admin-console.md)
-   + [管理工具](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [組織和帳戶綁定](/help/interface/administration/organizations.md)
-   + [整合](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 資料彙集 {#data-collection}
    + [Adobe 託管的憑證計劃](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP 位址](/help/interface/data-collection/ip-addresses.md)
