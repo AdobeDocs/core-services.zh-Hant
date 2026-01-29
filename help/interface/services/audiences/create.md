@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ ht-degree: 62%
 
    * **[!UICONTROL Real-Time Analytics Data:]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。這個報表套裝選取項目提供了報表套裝所使用的變數結構。
 
-   >[!NOTE]
-   >
-   >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。
+     >[!NOTE]
+     >
+     >由於快取關係，Experience Cloud會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
    * 從&#x200B;**[!UICONTROL Experience Cloud:]**&#x200B;來源衍生的[!DNL Experience Cloud]屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
 
@@ -97,4 +97,4 @@ ht-degree: 62%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+對象儲存後就可供其他Experience Cloud應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
