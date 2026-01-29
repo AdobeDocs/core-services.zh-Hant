@@ -6,10 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 14%
+source-wordcount: '369'
+ht-degree: 13%
 
 ---
 
@@ -19,17 +21,17 @@ ht-degree: 14%
 
 ## 代理程式工作
 
-**代理程式工作**&#x200B;是「代理程式」根據客戶輸入的指示，為達成特定結果而執行的一系列工作與動作。
+_代理程式工作_&#x200B;是「代理程式」根據客戶輸入的指示，為達成特定結果而執行的一系列工作與動作。
 
-透過AI Assistant使用自然語言提示，客戶可以要求Agent執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的Experience Cloud應用程式中執行每個步驟。
+透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的Experience Cloud應用程式中執行每個步驟。
 
 ## AI積分
 
-**AI評分**&#x200B;是以使用量為基礎的量度，可量化代理程式工作的執行。 AI積分不適用於AI優先的應用程式。
+_AI評分_&#x200B;是以使用量為基礎的量度，可量化代理程式工作的執行。 AI積分不適用於[AI優先應用程式](/help/interface/features/agentic-ai.md)。
 
 ## AI信用消耗
 
-AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
+AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * 簡單（通常是單步）工作消耗的積分較少
 * 複雜（通常為多步驟）的工作會消耗更多積分
@@ -45,7 +47,6 @@ AI評分的使用方式可能會因所執行工作的複雜性和價值而異：
 | Audience 代理 | 對象/帳戶分析 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Audience 代理 | 購買團體創意 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | 資料分析和視覺效果 | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | 資料storytelling和共用 | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | 歷程構想 | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | 歷程建立 | <ul><li>Adobe Journey Optimizer (B2B， B2C)</li></ul> | 30 |
 | Journey Agent | 歷程分析 | <ul><li>Adobe Journey Optimizer (B2B， B2C)</li></ul> | 50 |
