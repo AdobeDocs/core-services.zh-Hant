@@ -1,21 +1,21 @@
 ---
 title: 代理程式工作與AI信用沖銷
-description: 瞭解Experience Cloud應用程式中的代理程式工作和AI點數消耗。
+description: 瞭解Experience Cloud應用程式中的代理程式工作和AI信用消費率。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 13%
+source-wordcount: '388'
+ht-degree: 12%
 
 ---
 
 # 代理程式工作和AI信用消耗
 
-瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。
+瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有Experience Cloud應用程式中啟用代理程式人工智慧功能的資訊，請參閱[Experience Cloud中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
 ## 代理程式工作
 
