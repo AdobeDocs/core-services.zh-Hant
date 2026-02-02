@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
+source-git-commit: 7eb6c6e463102ca445093c69797619202202b35e
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '405'
 ht-degree: 12%
 
 ---
@@ -59,3 +59,8 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 >[!NOTE]
 >
 >實際的AI點數消耗可能會因執行的步驟數以及每個步驟的反複專案而異。
+
+## 有關此主題的更多說明
+
+* [Experience Cloud中的Agentic AI](/help/interface/features/agentic-ai.md)
+* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

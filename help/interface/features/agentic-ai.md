@@ -9,9 +9,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 46163c8e95de36914f9a4ec5336712a2b137a587
+source-git-commit: 7eb6c6e463102ca445093c69797619202202b35e
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 1%
 
 ---
@@ -76,6 +76,7 @@ AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們
 
 ## 有關此主題的更多說明
 
+* [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
 * Experience Cloud中的[AI](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁
 * [AEM代理程式概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
