@@ -2,15 +2,19 @@
 title: 檢視使用者和使用者詳細資訊
 description: 了解 Experience Cloud 中的管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
 application: Experience Cloud
-index: true
+index: yes
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: 1182
 ht-degree: 75%
 
 ---
