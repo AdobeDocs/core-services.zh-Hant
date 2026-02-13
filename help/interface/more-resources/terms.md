@@ -8,9 +8,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: 1218
 ht-degree: 96%
 
 ---
@@ -19,7 +34,7 @@ ht-degree: 96%
 
 Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud 中的使用方式 (如適用)。
 
-| 詞語 | Creative Cloud | Experience Cloud |
+| 術語 | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | **資產** | 在 Creative Cloud 中，資產通常是影像檔案。<br>Assets 可以是 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案。 | 在 Experience Cloud 中，資產是可以多次轉譯且可以有子資產的數位文件、圖片、視訊或音訊。例如：<ul><li>檔案</li><li>文件</li><li>影像</li><li>影片</li><li>音訊片段</li><li>簡報</li><li>影像範本</li><li>影片範本</li></ul> |
 | **屬性** | | 符合某[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)資格的人有哪些共同點(類似 Audience Manager 中的[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hant))。 |

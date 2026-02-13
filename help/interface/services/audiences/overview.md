@@ -9,9 +9,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 70%
 
 ---
@@ -46,7 +59,7 @@ ht-degree: 70%
 | Mobile Services | 使用[!UICONTROL Device Types]報表中的放射環狀圖視覺效果分析行動流量。 |
 | [!DNL Target] | [ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)會將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種應用程式。 Adobe Analytics區段建立程式中會顯示[!UICONTROL Publish to Experience Cloud]核取方塊，一旦勾選，該區段即可供Adobe Target的自訂對象庫使用。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中建立的區段皆適用於 [!DNL Target] 中的活動。例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和客群區段來建立行銷活動。 |
 | [!DNL Audience Manager] | 在 [!DNL Audience Manager] 細分中可用共用客群。[!DNL Audience Manager] 原本就可使用所有 Experience Cloud 客群，並提供：<ul><li>內建有關如何在應用程式工作流程中共用和使用對象的自動化功能</li><li>離站目的地</li><li>相似建模</li></ul> |
-| Campaign | <ul><li>從不同的 Adobe Experience Cloud 應用程式將共用客群匯入到 Adobe Campaign。</li><li>以共用客群的形式匯出收件者清單。 這些共用客群可用於您所使用的不同 Adobe Experience Cloud 應用程式。</li></ul> |
+| 促銷活動 | <ul><li>從不同的 Adobe Experience Cloud 應用程式將共用客群匯入到 Adobe Campaign。</li><li>以共用客群的形式匯出收件者清單。 這些共用客群可用於您所使用的不同 Adobe Experience Cloud 應用程式。</li></ul> |
 | Advertising Cloud | 使用客群作為目標。 |
 
 {style="table-layout:auto"}
