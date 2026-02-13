@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
 source-wordcount: 1218
@@ -37,7 +46,7 @@ Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud
 | **強制資料使用方式** | 無特殊用法。 | 由系統 (應用程式、App、服務、SDK、API 等) 制定和定義的原則、系統設計、做法和程序，用於透過資料使用方式中繼資料，讓資料使用方式符合 Adobe 公司隱私權政策、合約對價和一般隱私權原則。 |
 | **裝置** | 無特殊用法。 | 執行應用程式的硬體裝置，例如平板電腦、手機或桌上型電腦。 |
 | **Device Co-op** | 無特殊用法。 | 品牌類組；這些品牌均同意共用消費者使用哪些裝置的資料，以便更有效識別跨裝置的個人，並提供更有意義且一致的體驗。 |
-| **[!UICONTROL Experience Cloud ID Service](ECID)** | 無特殊用法。 | 指派給網站訪客的不重複、永久性 ID。這個確切實體可供 Experience Platform 身分識別服務使用。[更多內容...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
+| **[!UICONTROL Experience Cloud ID Service] (ECID)** | 無特殊用法。 | 指派給網站訪客的不重複、永久性 ID。這個確切實體可供 Experience Platform 身分識別服務使用。[更多內容...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
 | **[!UICONTROL Experience Platform Identity Service]** | 無特殊用法。 | 可連結身分識別的服務。這項裝置連結服務主要是依人員提供體驗管理功能。 |
 | **連結** | 無特殊用法。連結是指超連結導覽，和連結項目 (如字體、屬性、圖層等等)。 | 在 Experience Cloud 中，連結通常是指將不同的應用程式帳戶連接至介面。<br>請參閱[組織和帳戶連結](../administration/organizations.md)。<br>連結也指傳送給其他使用者之 Analytics 報告的標準 URL。 |
 | **位置** | 在 Creative Cloud 中，位置是指檔案位置或已開啟影像或文件上的位置。 | 在 Experience Cloud 中，位置是向客群顯示內容 (且可進行互動) 的地方。位置和內容之間的關聯大致上為靜態，也可以根據行銷活動規則進行動態管理。位置一律屬於特定管道，決定了傳遞內容及收集量度的方式。<br>例如：<ul><li>網站</li><li>屬性 (Social)</li><li>顯示庫存</li><li>登陸頁面</li><li>行動應用程式</li><li>插槽 (影片)</li></ul> |
