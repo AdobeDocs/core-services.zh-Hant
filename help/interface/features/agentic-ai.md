@@ -31,9 +31,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c76a89731baf86762bf65453346af8171fdb0ad3
+source-git-commit: 24bb9ca50606aaa9462f2b32d140d522c65e6c3d
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 903
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品
 | **內容顧問代理程式** | <ul><li>[內容探索](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/discovery/overview)：協助團隊使用自然語言，在整個企業內快速找到最相關的內容，減少搜尋所花費的時間，並加快決策與執行的速度。</li><li>[內容最佳化](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-optimization/overview)：使用自然語言提示簡化從來源資產建立視覺內容變體的程式。</li></ul> | <ul><li>Adobe Experience Manager （內容探索）</li></ul><ul><li>Adobe Experience Manager與Dynamic Media （內容最佳化）</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 快速解答有關您資料的問題。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。 | <ul><li>Customer Journey Analytics （B2B和B2C版本）</li></ul> |
 | **品牌體驗代理程式** | <ul><li>[體驗現代化](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/modernization/overview)：透過自動重新建構、豐富和驗證現有網站，讓團隊能夠以更小的風險和手動作業，更快速地移轉至現代、AI就緒的體驗，以加速數位體驗的移轉和現代化。</li><li>[體驗生產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/production/overview)*：進行大量體驗建立和更新，大幅減少手動工作量和週期時間，讓團隊能夠在不犧牲品質或一致性的情況下更快速地移動。</li><li>[建立Forms](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/production/form-creation)：透過自動產生、建構和驗證表單體驗，加速建立最佳化、符合品牌的表單，讓團隊能夠更快速地啟動，並擷取更高品質的資料，而只需最少的手動工作。</li><li>[開發支援](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview)：協助AEM CS開發人員和技術管理員疑難排解Cloud Manager管線中的建置步驟失敗，方法是分析根本原因並提出修正建議。</li></ul> | <ul><li>Adobe Experience Manager Sites雲端服務（體驗現代化）</li></ul><ul><li>Adobe Experience Manager Sites （體驗生產）</li></ul><ul><li>Adobe Experience Manager Forms （建立表單）</li></ul><ul><li>所有雲端型Adobe Experience Manager應用程式（開發支援）</li></ul> |
-| **品牌治理代理程式*** | <ul><li>[品牌治理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview):Safeguard品牌完整性與法規遵循可透過自動化品牌原則檢查、許可權、智慧來支援DRM與即時治理。</li><li>[體驗生產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/production/overview)：在CMS中自動執行大量工作和大量工作。 此代理程式將手動、冗長的流程轉換為快速的AI輔助工作流程，讓每個體驗保持最新且一致，協助您的企業達成目標。</li> | <ul><li>Adobe Experience Manager Assets</li></li></ul> |
+| **品牌治理代理程式*** | <ul><li>[品牌治理](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview):Safeguard品牌完整性與法規遵循可透過自動化品牌原則檢查、許可權、智慧來支援DRM與即時治理。</li></li></ul> | |
 | [Journey Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | 讓您的團隊快速建立、分析和最佳化大規模的多點觸控客戶歷程。 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> |
 | [產品支援代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/new-features/customer-support) | 在不離開工作流程的情況下疑難排解支援問題、建立客戶支援票證，並使用AI Assistant追蹤案例進度。 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer （B2B和B2C版本）</li><li>Customer Journey Analytics （B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 
