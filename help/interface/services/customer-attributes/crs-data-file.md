@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +37,7 @@ ht-degree: 64%
 ## 允許的檔案類型和命名需求
 
 | 檔案類型 | 說明 |
-|--- |--- |
+| --- | --- |
 | `.csv` | 逗號分隔值檔案 (例如在 Excel 中建立的檔案)。此檔案包含客戶屬性資料。   命名需求：請確定副檔名不包含空格。 |
 | `.fin` | （必要） `.fin`檔案會告訴系統您已完成上傳資料。 `.fin`檔案的名稱必須符合`.csv`檔案的名稱。  Adobe建議建立副檔名為`.fin`的空白文字檔。 空白檔案可節省空間和上傳時間。 **注意：**&#x200B;不允許重新命名`.fin`檔案。 `.fin`檔案必須另外上傳，且不能將先前上傳的檔案重新命名。 在您以客戶屬性FTP上傳`.fin`檔案後，系統會快速擷取資料（約一分鐘內）。 其他以Adobe FTP為基礎的系統，則擷取資料的頻率較低（大約每小時一次），有此差異。 使用拖放上傳方法時不需要`.fin`檔案。 |
 | `.gz`或 `.zip` | `.gz` (gzip)或`.zip` — 適用於壓縮檔。 `.zip`檔案的封存不可包含超過一個檔案。 命名需求： `.zip`或`.gz`的名稱應該符合`.csv`檔案的名稱。 例如，若您的`.csv`檔案為`crm_small.csv`，則`.zip`檔案應為`crm_small.csv.zip`。 `.fin`檔案必須與`.csv`相符。 |

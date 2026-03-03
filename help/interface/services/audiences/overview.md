@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
 ht-degree: 70%
@@ -53,7 +53,7 @@ ht-degree: 70%
 下表說明如何在 Experience Cloud 應用程式中使用客群：
 
 | 解決方案 | 說明 |
-|--- |--- |
+| --- | --- |
 | Experience Cloud 客群 | 使用對象庫以原生方式建立、管理和共用對象。 您可以：<ul><li>透過原始分析屬性來使用即時受眾。</li><li>結合對象以建立複合對象，加入即時和歷史資料。</li><li>檢視預估對象規模的圖形檢視。</li></ul><br>如需您要建立何種客群類型的建議，請參閱 [客群建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)。 |
 | Analytics | 您可以利用細分功能來建立區段、將其與報表套裝結合，然後將區段發佈至 Experience Cloud。區段發佈後，會顯示於 Experience Cloud 的「[!DNL Audience Library]」頁面(如需詳細資訊，請參閱[說明中的](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)將區段發佈至Experience Cloud[!DNL Analytics]。) 受眾也可作為[!DNL Adobe Target]及[!DNL Audience Manager]所傳遞行銷活動體驗的目標受眾。 當您共用[!DNL Adobe Analytics]的對象並選擇在作用中的行銷活動中使用後，符合過去90天達到區段定義條件的訪客設定檔會傳送至[!UICONTROL Audience Services]。 共用客群的限制數已提高至 75 個。透過 [!DNL Analytics] 與 Experience Cloud 共用的客群不能超過 2,000 萬個不重複的成員。而且，由於快取的關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。 |
 | Mobile Services | 使用[!UICONTROL Device Types]報表中的放射環狀圖視覺效果分析行動流量。 |
@@ -78,7 +78,7 @@ ht-degree: 70%
 
 
 | 元素 | 說明 |
-|--- |--- |
+| --- | --- |
 | 新增 | [建立客群](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/create)。 |
 | 標題與說明 | 用來識別和說明客群的欄標題。 |
 | 作者 | 建立客群區段的人。 |

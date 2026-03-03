@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -111,7 +111,7 @@ Experience Cloud 偏好設定包括通知、訂閱和警示。
 您可以在[!UICONTROL Experience Cloud preferences]上設定下列功能：
 
 | 功能 | 說明 |
-|--- |--- |
+| --- | --- |
 | 預設組織 | 選取當您啟動 Experience Cloud 時想要看到的組織。 |
 | [!UICONTROL Subscriptions] | 選取您想要訂閱的產品和類別。 [!UICONTROL Notifications]快顯視窗和電子郵件中的通知。 |
 | [!UICONTROL Priority] | 選取您希望被視為高優先順序的類別。 這些類別會以「高」優先順序標記標記，而且可以設定為像警示一樣遞送。 |

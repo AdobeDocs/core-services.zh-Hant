@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 96%
@@ -35,7 +35,7 @@ ht-degree: 96%
 Experience Cloud 使用者的術語參考，以及這些術語在 Creative Cloud 中的使用方式 (如適用)。
 
 | 術語 | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **資產** | 在 Creative Cloud 中，資產通常是影像檔案。<br>Assets 可以是 Photoshop 檔案中的圖層、PowerPoint 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案。 | 在 Experience Cloud 中，資產是可以多次轉譯且可以有子資產的數位文件、圖片、視訊或音訊。例如：<ul><li>檔案</li><li>文件</li><li>影像</li><li>影片</li><li>音訊片段</li><li>簡報</li><li>影像範本</li><li>影片範本</li></ul> |
 | **屬性** | | 符合某[區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)資格的人有哪些共同點(類似 Audience Manager 中的[特徵](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=zh-Hant))。 |
 | **對象** | 在 Creative Cloud 中，客群可能是觀看影片的人。 | 在 Experience Cloud 中，客群是您可以在行銷活動中鎖定的人員集合。<br>客群的成員資格是根據一組針對訪客上下文的規則決定，或是根據固定清單。例如，電子郵件訂閱者的清單或 Facebook 群組中的成員。<br>在 [Experience Cloud Audiences](../services/audiences/overview.md) 中，建立和管理對象類似於建立及使用區段，只是額外加上可與 Experience Cloud 共用對象的功能。<br>**Adobe Target**<br> Adobe Target 中的客群原稱為區段/細分群體。<br>**Adobe Analytics**<br> Analytics 中的客群可視為網站訪客。您可以建立客群區段並將客群發佈至 Experience Cloud。 |

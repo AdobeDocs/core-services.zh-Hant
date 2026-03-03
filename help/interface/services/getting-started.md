@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1942
 ht-degree: 75%
@@ -106,7 +106,7 @@ Experience Cloud功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#
 如果您沒有使用[!UICONTROL Experience Platform tags]，請透過JavaScript部署(`VisitorAPI.js`)手動實作ID服務，如下所示：
 
 | 任務 | 說明 |
-|--- |--- |
+| --- | --- |
 | [實作適用於 Analytics 的 Experience Cloud ID Service](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/authenticated-state)。這些 ID 與每個訪客相關聯，實現了 Experience Cloud 中的現有和未來功能。 |
 | 將現有的 `s_code` 更新為 H.27.3 或更新版本，或將現有的 `AppMeasurement.js` 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hant)中下載。(如果您需要更多 `AppMeasurement.js` 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/js/overview#js)指南。) |
 

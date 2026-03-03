@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 6%
@@ -43,7 +43,7 @@ ht-degree: 6%
 在[!UICONTROL Experience Cloud preferences]頁面上，您可以管理下列帳戶功能：
 
 | 功能 | 說明 |
-|--- |--- |
+| --- | --- |
 | [!UICONTROL Profile] | 更新您的[Adobe帳戶設定檔](https://account.adobe.com/tw/profile)。 <p>當您登入Adobe.com、Adobe產品和服務以及公開網站（例如[!DNL Behance]）時，您的設定檔像片和名稱就會顯示。 |
 | [!UICONTROL General] | 選取[組織](../administration/organizations.md)。<p>此組織是您登入Experience Cloud時使用的預設組織。 |
 | [!UICONTROL Product usage data] | 使用Experience Cloud應用程式時，您可以控制哪些產品使用資料與Adobe共用。 這是您如何使用產品的資料，而非您組織的內容或資料本身。 Adobe使用這些資訊來協助改善我們的產品、為您提供增強的產品內支援，以及個人化您的體驗和我們之間的通訊。 <p>若要深入瞭解，請參閱[產品使用資料](#product-usage-data) （在本頁）。 |

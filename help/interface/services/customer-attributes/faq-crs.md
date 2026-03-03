@@ -23,7 +23,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1044
 ht-degree: 74%
@@ -39,7 +39,7 @@ ht-degree: 74%
 使用 [!DNL Customer Attributes] 時的指導和限制。
 
 | 問題 | 說明 |
-|--- |--- |
+| --- | --- |
 | [!DNL Customer Attributes] [訂閱](subscription.md)限制 | 升級至 Analytics Premium 後，必須等待 24 小時才能使用更多屬性。在這段延遲期間，您可能會看到已發出[!UICONTROL attribute Subscription Max]錯誤。 |
 | 同一部裝置上多次登入 | 使用 [!DNL Customer Attributes] 將客戶輪廓上傳至資料來源時，Adobe 不建議使用者共用裝置 (亦即使用同一個 Experience Cloud ID)。Experience Cloud ID (ECID) 會留存於裝置上。如果共用裝置，可能使多個使用者連結至相同的 ECID，導致 [!DNL Target] 出現非預期的結果。**注意：**&#x200B;若使用行動裝置，行動應用程式安裝後 ECID 會永久存在。重新安裝應用程式以產生新的 ECID。若使用網頁，系統會在瀏覽器 Cookie 清除後產生新的 ECID。 |
 | 每日頻率上傳限制 | Adobe 建議每天只需更新一次 [!DNL Customer Attributes]。您至少必須等待 24 小時，才能為同一組輪廓上傳另一個客戶輪廓資料檔案。 |
@@ -51,7 +51,7 @@ ht-degree: 74%
 ## 關於 [!DNL Customer Attributes] 的常見問題集
 
 | 問題 | 回答 |
-|--- |--- |
+| --- | --- |
 | 我是否可以收到關於 [!DNL Customer Attributes] 上傳狀態的通知？ | 可以。 |
 | 我要如何開始使用 [!DNL Customer Attributes]？ | <ol><li>完成佈建程序。如果您是Adobe Analytics客戶，Adobe正在布建您[!DNL Customer Attributes]。 如果您只使用Adobe Target而沒有使用Analytics，請聯絡客戶服務，申請布建核心服務。</li> <li>與您的 CRM 團隊溝通。了解您想要在 Analytics 和整個 Experience Cloud 使用的客戶資料中有哪些類型可用。</li><li>實作核心服務。</li></ol> 在上傳資料之前，請先參閱[必要條件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)，瞭解如何讓使用者使用此功能。 |
 | 我可以使用多少個客戶屬性？ | 您可以將數百個 `.csv` 欄上傳至客戶屬性服務。但是在設定訂閱及選取屬性時，系統會根據您擁有的應用程式套用以下限制 (針對每個報表套裝)：  <ul><li>Foundation：0 個</li><li>Select：3 個</li><li>Prime：15 個</li><li>Ultimate：200 個</li><li>Standard：共 3 個</li><li>Premium：200 個</li><li>Adobe Target Standard：5 個</li><li>Adobe Target Premium：200 個</li></ul> |
