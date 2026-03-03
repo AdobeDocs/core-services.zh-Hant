@@ -9,13 +9,10 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +40,7 @@ ht-degree: 75%
 ![Admin Console 使用者頁面](../assets/admin-tool-users.png)
 
 | 元素 | 說明 |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | 使用者的名字和姓氏。您可以將此欄由A到Z和Z到A排序。按一下使用者名稱即可檢視有關該使用者的詳細資訊。 |
 | [!UICONTROL Email] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID Type] | 使用者帳戶的身分識別類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
@@ -59,7 +56,7 @@ ht-degree: 75%
 * 若要套用多個篩選器以列出具有特定條件的使用者，請按一下&#x200B;**[!UICONTROL Filter By]**。 套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
 
 | 元素 | 說明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Email Domain]篩選器 | 在「電子郵件」欄中搜尋字元字串，將結果縮小至一或多個網域。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器 |
 | [!UICONTROL ID Type]篩選器 | 從可用的 ID 類型中選擇。多個 ID 類型均可作為篩選器使用。 |
 | [!UICONTROL Solution]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
@@ -93,7 +90,7 @@ ht-degree: 75%
 本區段顯示使用者所有產品設定檔成員資格的完整清單。
 
 | 元素 | 說明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | 與產品設定檔相關聯的產品名稱。 |
 | [!UICONTROL Instance] | 與產品和產品設定檔相關聯的例項名稱 (例如登入公司或租用戶)。 |
 | [!UICONTROL Product profile] | 產品設定檔的不重複名稱。 |
@@ -107,7 +104,7 @@ ht-degree: 75%
 ![Admin Console 中的原則頁面](../assets/admin-tool-policies.png)
 
 | 元素 | 說明 |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | 產品設定檔的名稱。欄可依 A-> Z、Z-> A 排序。若要查看有關原則的更多詳情，請選取產品設定檔的名稱。 |
 | [!UICONTROL Product] | 與產品設定檔相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL Instance] | 與產品設定檔相關聯的例項 (例如租用戶或登入公司)。如果是沒有唯一例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
@@ -123,7 +120,7 @@ ht-degree: 75%
 * 按一下&#x200B;**[!UICONTROL Filter By]**&#x200B;圖示可套用多個篩選器，以列出符合特定條件的產品設定檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Instance]篩選器 | 在「例項」欄中搜尋字元字串，將結果範圍縮小至一或多個例項。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器。 |
 | [!UICONTROL Solution]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
 
@@ -156,7 +153,7 @@ ht-degree: 75%
 本區段顯示指派給產品設定檔的所有使用者、使用者群組、開發人員、整合和管理員的完整清單。
 
 | 標記 | 說明 |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | 產品設定檔中包含的使用者清單。使用者群組關聯出現在[!UICONTROL Assigned by group]欄中。 |
 | [!UICONTROL User Groups] | 與產品設定檔相關聯的使用者群組清單。 |
 | [!UICONTROL Developers] | 與產品設定檔相關聯的開發人員清單。 |

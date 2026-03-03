@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -29,7 +29,7 @@ ht-degree: 67%
 本說明介紹下列產品和服務：
 
 | 核心服務 | 說明 |
-|--- |--- |
+| --- | --- |
 | [中央介面元件](../experience-cloud.md) | 存取帳戶偏好設定、搜尋產品說明，以及存取應用程式和服務。 |
 | [客群庫](audiences/overview.md) | 客群是訪客的集合 (訪客 ID 的清單)。Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
 | [客戶屬性](customer-attributes/attributes.md) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |

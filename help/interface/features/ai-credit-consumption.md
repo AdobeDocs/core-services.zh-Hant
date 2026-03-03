@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d4734c4b43defedb20b7eb65556f56987dce02ae
+source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
-更新日期： 2026年3月3日&#x200B;**&#x200B;**
+更新日期： 2026年3月3日&#x200B;****
 
 瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有Experience Cloud應用程式中啟用代理程式人工智慧功能的資訊，請參閱[Experience Cloud中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
@@ -55,7 +55,7 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 | 產品支援代理 | 支援案例建立和追蹤 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li>Adobe Journey Optimizer （B2C和B2B版本）<li>Customer Journey Analytics （B2C和B2B版本）</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_為我失敗的分段工作建立新的支援票證_</li><li>_票證E-001772068的狀態為何？_</li></ul> |
 | 內容建議程式代理程式 | 內容探索 | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_顯示建立WKND選件行銷活動的內容片段。_</li><li>_尋找產品封裝PNG影像。_</li><li>_在資料夾WKND中顯示已標籤的Office影像。_</li><li>_資料夾WKND中是否有任何svg？_</li><li>_顯示所有貸款申請表單。_</li><li>_我正在尋找員工入職表格。_</li></ul> |
 | 內容建議程式代理程式 | <ul><li>內容最佳化</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_以80%品質建立2000px轉譯為JPEG。_</li><li>_建立Instagram劇本的轉譯。_</li><li>_將影像以30%折扣的圖形覆蓋在促銷橫幅上，從中心放置100px。_</li><li>_將PNG的背景顏色變更為#ff8932。_</li></ul> |
-| Brand Experience Agent | <ul><li>內容更新</li><li>Forms建立</li><li>管道疑難排解</li></ul> | <ul><li>Adobe Experience Manager雲端服務</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_疑難排解我失敗的管道_</li><li>_列出主要方案的失敗管道。_</li><li>_分析我的失敗管道，稱為「開發管道」。_</li><li>_疑難排解管道執行1234567_</li></ul> |
+| Brand Governance Agent | <ul><li>內容更新</li><li>Forms建立</li><li>管道疑難排解</li></ul> | <ul><li>Adobe Experience Manager雲端服務</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_疑難排解我失敗的管道_</li><li>_列出主要方案的失敗管道。_</li><li>_分析我的失敗管道，稱為「開發管道」。_</li><li>_疑難排解管道執行1234567_</li></ul> |
 | Brand Experience Agent | 網站現代化 | Adobe Experience Manager雲端服務 | 100 | <ul><li>_移轉頁面`https://wknd-trendsetters.site`_</li></ul> |
 
 >[!NOTE]
@@ -65,4 +65,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 ## 有關此主題的更多說明
 
 * [Experience Cloud中的Agentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
