@@ -10,11 +10,18 @@ role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 684
@@ -75,7 +82,7 @@ ht-degree: 70%
 | 新增 | [建立客群](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)。 |
 | 標題與說明 | 用來識別和說明客群的欄標題。 |
 | 作者 | 建立客群區段的人。 |
-| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**[在 Experience Cloud Audiences 中建立](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
+| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**&#x200B;[在 Experience Cloud Audiences 中建立](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的客群規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
