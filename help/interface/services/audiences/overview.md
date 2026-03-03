@@ -55,9 +55,9 @@ ht-degree: 70%
 | 解決方案 | 說明 |
 | --- | --- |
 | Experience Cloud 客群 | 使用對象庫以原生方式建立、管理和共用對象。 您可以：<ul><li>透過原始分析屬性來使用即時受眾。</li><li>結合對象以建立複合對象，加入即時和歷史資料。</li><li>檢視預估對象規模的圖形檢視。</li></ul><br>如需您要建立何種客群類型的建議，請參閱 [客群建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)。 |
-| Analytics | 您可以利用細分功能來建立區段、將其與報表套裝結合，然後將區段發佈至 Experience Cloud。區段發佈後，會顯示於 Experience Cloud 的「[!DNL Audience Library]」頁面(如需詳細資訊，請參閱[說明中的](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)將區段發佈至Experience Cloud[!DNL Analytics]。) 受眾也可作為[!DNL Adobe Target]及[!DNL Audience Manager]所傳遞行銷活動體驗的目標受眾。 當您共用[!DNL Adobe Analytics]的對象並選擇在作用中的行銷活動中使用後，符合過去90天達到區段定義條件的訪客設定檔會傳送至[!UICONTROL Audience Services]。 共用客群的限制數已提高至 75 個。透過 [!DNL Analytics] 與 Experience Cloud 共用的客群不能超過 2,000 萬個不重複的成員。而且，由於快取的關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。 |
+| Analytics | 您可以利用細分功能來建立區段、將其與報表套裝結合，然後將區段發佈至 Experience Cloud。區段發佈後，會顯示於 Experience Cloud 的「[!DNL Audience Library]」頁面(如需詳細資訊，請參閱[說明中的](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)將區段發佈至Experience Cloud[!DNL Analytics]。) 受眾也可作為[!DNL Adobe Target]及[!DNL Audience Manager]所傳遞行銷活動體驗的目標受眾。 當您共用[!DNL Adobe Analytics]的對象並選擇在作用中的行銷活動中使用後，符合過去90天達到區段定義條件的訪客設定檔會傳送至[!UICONTROL Audience Services]。 共用客群的限制數已提高至 75 個。透過 [!DNL Analytics] 與 Experience Cloud 共用的客群不能超過 2,000 萬個不重複的成員。而且，由於快取的關係，Experience Cloud 會在 12 小時後才顯示 Analytics 中刪除的報表套裝資訊。 |
 | Mobile Services | 使用[!UICONTROL Device Types]報表中的放射環狀圖視覺效果分析行動流量。 |
-| [!DNL Target] | [ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)會將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種應用程式。 Adobe Analytics區段建立程式中會顯示[!UICONTROL Publish to Experience Cloud]核取方塊，一旦勾選，該區段即可供Adobe Target的自訂對象庫使用。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中建立的區段皆適用於 [!DNL Target] 中的活動。例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和客群區段來建立行銷活動。 |
+| [!DNL Target] | [ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)會將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種應用程式。 Adobe Analytics區段建立程式中會顯示[!UICONTROL Publish to Experience Cloud]核取方塊，一旦勾選，該區段即可供Adobe Target的自訂對象庫使用。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中建立的區段皆適用於 [!DNL Target] 中的活動。例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和客群區段來建立行銷活動。 |
 | [!DNL Audience Manager] | 在 [!DNL Audience Manager] 細分中可用共用客群。[!DNL Audience Manager] 原本就可使用所有 Experience Cloud 客群，並提供：<ul><li>內建有關如何在應用程式工作流程中共用和使用對象的自動化功能</li><li>離站目的地</li><li>相似建模</li></ul> |
 | 促銷活動 | <ul><li>從不同的 Adobe Experience Cloud 應用程式將共用客群匯入到 Adobe Campaign。</li><li>以共用客群的形式匯出收件者清單。 這些共用客群可用於您所使用的不同 Adobe Experience Cloud 應用程式。</li></ul> |
 | Advertising Cloud | 使用客群作為目標。 |
@@ -79,10 +79,10 @@ ht-degree: 70%
 
 | 元素 | 說明 |
 | --- | --- |
-| 新增 | [建立客群](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)。 |
+| 新增 | [建立客群](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/create)。 |
 | 標題與說明 | 用來識別和說明客群的欄標題。 |
 | 作者 | 建立客群區段的人。 |
-| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**&#x200B;[在 Experience Cloud Audiences 中建立](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
+| 來源 | 識別建立客群的位置。<ul><li>**Analytics：**&#x200B;在Adobe Analytics中建立區段，然後發佈至Experience Cloud。</li><li>**Experience Cloud：**&#x200B;[在 Experience Cloud Audiences 中建立](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/create)的新對象。</li><li>**Audience Manager：**&#x200B;在 Audience Manager 中建立的對象會自動顯示在 Experience Cloud Audiences 中。</li></ul> |
 | 目前規模 | 目前的客群規模。 |
 | 作用中 | 區段的作用中狀態。 |
 
@@ -90,4 +90,4 @@ ht-degree: 70%
 
 ## 從Adobe Analytics發佈對象
 
-如需詳細資訊，請參閱Adobe Analytics檔案中的[將區段發佈至Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。
+如需詳細資訊，請參閱Adobe Analytics檔案中的[將區段發佈至Experience Cloud](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。
