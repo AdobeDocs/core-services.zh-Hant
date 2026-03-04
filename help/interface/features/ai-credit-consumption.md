@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 9afed61de0d83cf56e5d2447af68ab6851e4a716
+source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
-更新日期： 2026年3月4日&#x200B;**&#x200B;**
+更新日期： 2026年3月4日&#x200B;****
 
 瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有Experience Cloud應用程式中啟用代理程式人工智慧功能的資訊，請參閱[Experience Cloud中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
@@ -52,7 +52,7 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 | Journey Agent | 歷程分析 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> | 50 | <ul><li><em>我想針對7月4日的行銷活動歷程依節點分析流失。</em></li><li><em>歷程X</em>是否有任何排程衝突</li><li><em>顯示歷程X</em>的對象重疊衝突</li></ul> |
 | Journey Agent | 歷程管理 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> | 25 | <ul><li><em>我有多少個即時歷程？</em></li><li><em>列出使用對象X的所有歷程。</em></li><li><em>列出目前處於測試模式的所有歷程</em></li></ul> |
 | 產品支援代理 | 知識型疑難排解 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer （B2C和B2B版本）</li><li>Customer Journey Analytics （B2C和B2B版本）</li></ul> | 0 | <ul><li><em>為什麼我的設定檔計數在[授權使用儀表板]和Experience Platform首頁上不同？</em></li><li><em>歷程未觸發的原因是什麼？</em></li><li><em>Adobe Experience Platform如何建立即時體驗？</em></li><li><em>如何在Adobe Experience Platform中設定和使用警示？</em></li><li><em>在Adobe Experience Platform Activation中的平均設定檔豐富度限制是多少？</em></li></ul> |
-| 產品支援代理 | 支援案例建立和追蹤 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li>Adobe Journey Optimizer （B2C和B2B版本）<li>Customer Journey Analytics （B2C和B2B版本）</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li><em>為我失敗的分段工作建立新的支援票證</em></li><li><em>票證E-001772068的狀態為何？</em></li></ul> |
+| 產品支援代理 | 支援案例建立和追蹤 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer （B2C和B2B版本）</li><li>Customer Journey Analytics （B2C和B2B版本）</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li><em>為我失敗的分段工作建立新的支援票證</em></li><li><em>票證E-001772068的狀態為何？</em></li></ul> |
 | 內容建議程式代理程式 | 內容探索 | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li><em>顯示建立WKND選件行銷活動的內容片段。</em></li><li><em>尋找產品封裝PNG影像。</em></li><li><em>在資料夾WKND中顯示已標籤的Office影像。</em></li><li><em>資料夾WKND中是否有任何svg？</em></li><li><em>顯示所有貸款申請表單。</em></li><li><em>我正在尋找員工入職表格。</em></li></ul> |
 | 內容建議程式代理程式 | <ul><li>內容最佳化</li></ul> | <ul><li>Adobe Experience Manager Assets與Dynamic Media</li></ul> | 10 | <ul><li><em>以80%品質建立2000px轉譯為JPEG。</em></li><li><em>建立Instagram劇本的轉譯。</em></li><li><em>將影像以30%折扣的圖形覆蓋在促銷橫幅上，從中心放置100px。</em></li><li><em>將PNG的背景顏色變更為#ff8932。</em></li></ul> |
 | Brand Governance Agent | <ul><li>品牌原則檢查</li></ul><ul><li>Content Hub的許可權</li></ul><ul><li>資產有效期</li></ul> | <ul><li>Adobe Experience Manager Sites （品牌政策）</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>此頁面是否符合我的品牌？`https://www.website/en.html`</em></li><li><em>顯示所有現有的Content Hub ABAC規則</em></li><li><em>我的任何資產是否即將到期？</em></li></ul> |
@@ -67,4 +67,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [Experience Cloud中的GenAI](/help/interface/features/generative-ai.md)
 * [Experience Cloud中的Agentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
