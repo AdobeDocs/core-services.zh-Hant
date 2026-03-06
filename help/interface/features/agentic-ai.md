@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
+source-wordcount: 892
 ht-degree: 4%
 
 ---
 
 # Adobe Experience Cloud中的Agentic AI
 
-更新日期： 2026年3月4日&#x200B;**&#x200B;**
+更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)提供技術支援，可在Experience Cloud應用程式中啟用代理程式人工智慧功能。
 
@@ -63,7 +63,7 @@ Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator]
 * 您被包含在符合使用規定的試用中（提供的有限AI積分）
 * 您已交易Agent Orchestrator促銷SKU （限定時間試用授權）
 
-使用AI代理程式執行&#x200B;_代理程式工作_&#x200B;會使用AI積分。 深入瞭解&#x200B;_[代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)_&#x200B;中的代理程式工作和AI信用消耗。
+使用AI代理程式執行&#x200B;_代理程式工作_&#x200B;會使用AI積分。 深入瞭解[代理程式工作和AI信用消耗](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中的代理程式工作和AI信用消耗。
 
 AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品層級的存取控制。 您只能執行您獲授權可在基礎Experience Cloud應用程式中使用的工作或存取資料。
 

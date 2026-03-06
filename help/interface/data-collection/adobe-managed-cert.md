@@ -2,7 +2,7 @@
 description: 瞭解如何設定安全憑證以與Adobe Experience Cloud第一方Cookie搭配使用。
 solution: Experience Cloud,Analytics
 title: Adobe 託管的證書計劃
-index: y
+index: true
 snippet: y
 feature: Cookies
 topic: Administration
@@ -32,7 +32,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
 workflow-type: tm+mt
 source-wordcount: 1106
 ht-degree: 3%
