@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
+source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
-更新日期： 2026年3月4日&#x200B;**&#x200B;**
+更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有Experience Cloud應用程式中啟用代理程式人工智慧功能的資訊，請參閱[Experience Cloud中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
