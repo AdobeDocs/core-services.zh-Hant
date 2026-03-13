@@ -10,24 +10,12 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: dab36b01-8bfa-48f3-8392-626455a058e6
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-  - id: e53834d3-a86e-47ae-8257-15f5f3639855
-  - id: ecb4a972-6786-444c-a014-abc528b9407a
-  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: e53834d3-a86e-47ae-8257-15f5f3639855id: ecb4a972-6786-444c-a014-abc528b9407aid: f1299f18-ec4b-4531-b2a2-df3b94ff9a68id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -38,7 +26,7 @@ ht-degree: 80%
 
 Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
-如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
+有關文檔更新的清單，請參閱[文檔更新](doc-updates.md)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
@@ -52,7 +40,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| **2025 年 9 月 25 日** | 支援 IP 存取清單 | 對於在 Admin Console 中提供並啟用 IP 存取清單的組織，Experience Cloud 存取 `https://experience.adobe.com` 網域上的應用程式時將遵守這些 IP 限制。此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
+| **2025 年 9 月 25 日** | 支援 IP 存取清單 | 對於在 Admin Console 中提供並啟用 IP 存取清單的組織，Experience Cloud 存取 `https://experience.adobe.com` 網域上的應用程式時將遵守這些 IP 限制。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
 
 ## 2025 年 3 月
 
@@ -64,53 +52,55 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 13 年 2 月 | Spectrum 2 | Experience Cloud應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
+| 13 年 2 月 | Spectrum 2 | Experience Cloud應用框架包括標題欄和從標題欄訪問的元件，以及某些應用的左導航欄，將更新為Adobe最新設計系統Spectrum 2。 此刷新的設計包括更新的表徵圖，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
 
 ## 2025 年 1 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 9 年 1 月 | 產品使用資料 | 為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這次簡化，我們保留了目前的使用者喜好設定，您可以隨時在 [Experience Cloud 喜好設定](https://experience.adobe.com/preferences)中更新您的喜好設定。 |
+| 9 年 1 月 | 產品使用資料 | 為了更輕鬆地控制Experience Cloud產品使用資料首選項，我們簡化了Experience Cloud[首選項](../features/account-preferences.md#product-usage-data)頁，以刪除重複選項。 透過這次簡化，我們保留了目前的使用者喜好設定，您可以隨時在 [Experience Cloud 喜好設定](https://experience.adobe.com/preferences)中更新您的喜好設定。 |
 
 ## 2024年10月2日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 可自訂的首頁 | 在Experience Cloud登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式可讓您存取Widget程式庫和自訂背景，以個人化Experience Cloud首頁。 [!UICONTROL Edit]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
+| 可自訂的首頁 | 在Experience Cloud登錄頁上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允許您通過訪問小部件庫和自定義背景來個性化Experience Cloud首頁。 [!UICONTROL Edit]模式提供無縫、直觀的控制項，用於移動、調整大小和管理小部件，包括批量操作和佈局調整，提供更美觀、量身定製的體驗。 |
 
 ## 2024年9月10日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。如需詳細資訊，請參閱&#x200B;_偏好設定_&#x200B;說明中的[Slack通知](../features/account-preferences.md)。 |
+| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。有關詳細資訊，請參閱&#x200B;_首選項_&#x200B;幫助中的[Slack通知](../features/account-preferences.md)。 |
 
-<!-- ## July - August 2023
+<!--
+## July - August 2023
 
 NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hant), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+-->
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;功能表中，內容搜尋已更新，以便在[Experience League](https://experienceleague.adobe.com/zh-hant#home)搜尋結果中依應用程式篩選。
+* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜單中，內容搜索已更新為[Experience League](https://experienceleague.adobe.com/#home)搜索結果中的應用程式篩選。
 
 ## 2022 年 7 月
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘選功能來選取哪些應用程式出現在您[!UICONTROL Quick Access]的前面和中心。 <br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新指派的應用程式顯示&#x200B;_新_&#x200B;徽章並自動釘選到[!UICONTROL Quick Access]。 |
+| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘扎功能選擇[!UICONTROL Quick Access]上哪些應用程式顯示在前面和中心。 <br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新分配的應用程式顯示&#x200B;_新_&#x200B;徽章和自動固定到[!UICONTROL Quick Access]。 |
 
 {style="table-layout:auto"}
 
@@ -126,7 +116,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 透過搜尋列存取Experience Platform和Journey Optimizer中的[!UICONTROL Recents] | 使用者現在可以透過整合搜尋列從 AEP 和 AJO 的每個頁面存取最近存取的物件。 |
+| 通過搜索欄訪問Experience Platform和Journey Optimizer的[!UICONTROL Recents] | 使用者現在可以透過整合搜尋列從 AEP 和 AJO 的每個頁面存取最近存取的物件。 |
 
 {style="table-layout:auto"}
 
@@ -134,8 +124,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 捷徑(**[!UICONTROL Recents]**)已新增到[Experience Cloud](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
-| **[!UICONTROL Sandboxes]**&#x200B;已移至標頭列 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
+| 快捷方式(**[!UICONTROL Recents]**)已添加到[Experience Cloud](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
+| **[!UICONTROL Sandboxes]**&#x200B;已移到標題欄 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
 
 {style="table-layout:auto"}
 
@@ -162,7 +152,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| [!UICONTROL Unified Recents] — 最近存取之企業物件的延伸支援 | [!UICONTROL Unified Recents]已擴充到Journey Optimizer和Experience Platform中的其他商業物件。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、結構描述、資料集、資料來源、事件、動作、來源和目的地)。 |
+| [!UICONTROL Unified Recents] — 對最近訪問的業務對象的擴展支援 | [!UICONTROL Unified Recents]擴展到Journey Optimizer和Experience Platform的其他業務對象。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、結構描述、資料集、資料來源、事件、動作、來源和目的地)。 |
 
 {style="table-layout:auto"}
 
@@ -175,7 +165,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
 | Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
+| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導航到[Experience League](https://experienceleague.adobe.com/docs/)，然後使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位查找教程、文檔、課程等。 |
 
 {style="table-layout:auto"}
 
@@ -184,7 +174,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | Experience Cloud 標頭與導覽 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
-| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何商業物件，例如區段、資料集、結構描述等。) |
+| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 全局搜索[!UICONTROL Platform]使您能夠搜索Experience Cloud中的任何業務對象，如段、資料集、架構等。) |
 | Experience Cloud 語言偏好設定 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style="table-layout:auto"}
@@ -199,7 +189,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2020 年 4 月
 
-* 已棄用Experience Cloud [!UICONTROL Feed]頁面。 (EXC-8505)
+* Experience Cloud[!UICONTROL Feed]頁已棄用。 (EXC-8505)
 * Experience Cloud 登入頁面更新，反映新的品牌元素。(EXC-10747)
 
 ## 2020 年 2 月
@@ -219,7 +209,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * 「摘要」頁面已於 2019 年 12 月淘汰。請參閱產品中的淘汰通知。(MCUI-10039)
 
-<!-- ## August 2019
+<!--
+## August 2019
 
 * Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
 * Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
@@ -284,7 +275,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -428,7 +419,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
