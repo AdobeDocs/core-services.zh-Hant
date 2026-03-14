@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
+source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
 workflow-type: tm+mt
-source-wordcount: 1337
-ht-degree: 80%
+source-wordcount: 1386
+ht-degree: 77%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 80%
 
 Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
-有關文檔更新的清單，請參閱[文檔更新](doc-updates.md)。
+如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
@@ -58,31 +58,31 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日 | 修正右鍵選單選項 | Experience Cloud 標題導覽索引標籤現已支援按右鍵點選和瀏覽器下拉式選單功能。此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
+| 2025 年 3 月 6 日 | 修正右鍵選單選項 | Experience Cloud 標題導覽索引標籤現已支援按右鍵點選和瀏覽器下拉式選單功能。 此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
 
 ## 2025 年 2 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 13 年 2 月 | Spectrum 2 | Experience Cloud應用框架包括標題欄和從標題欄訪問的元件，以及某些應用的左導航欄，將更新為Adobe最新設計系統Spectrum 2。 此刷新的設計包括更新的表徵圖，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
+| 13 年 2 月 | Spectrum 2 | Experience Cloud應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
 
 ## 2025 年 1 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 9 年 1 月 | 產品使用資料 | 為了更輕鬆地控制Experience Cloud產品使用資料首選項，我們簡化了Experience Cloud[首選項](../features/account-preferences.md#product-usage-data)頁，以刪除重複選項。 透過這次簡化，我們保留了目前的使用者喜好設定，您可以隨時在 [Experience Cloud 喜好設定](https://experience.adobe.com/preferences)中更新您的喜好設定。 |
+| 9 年 1 月 | 產品使用資料 | 為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這次簡化，我們保留了目前的使用者喜好設定，您可以隨時在 [Experience Cloud 喜好設定](https://experience.adobe.com/preferences)中更新您的喜好設定。 |
 
 ## 2024年10月2日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 可自訂的首頁 | 在Experience Cloud登錄頁上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式允許您通過訪問小部件庫和自定義背景來個性化Experience Cloud首頁。 [!UICONTROL Edit]模式提供無縫、直觀的控制項，用於移動、調整大小和管理小部件，包括批量操作和佈局調整，提供更美觀、量身定製的體驗。 |
+| 可自訂的首頁 | 在Experience Cloud登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。[!UICONTROL Edit] 模式可讓您存取Widget程式庫和自訂背景，以個人化Experience Cloud首頁。[!UICONTROL Edit] 模式針對移動、調整大小和管理Widget提供順暢、直覺式的控制項，包括大量動作和版面調整，以提供更美觀且量身打造的體驗。 |
 
 ## 2024年9月10日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。有關詳細資訊，請參閱&#x200B;_首選項_&#x200B;幫助中的[Slack通知](../features/account-preferences.md)。 |
+| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。 如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
 
 <!--
 ## July - August 2023
@@ -106,13 +106,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;菜單中，內容搜索已更新為[Experience League](https://experienceleague.adobe.com/zh-hant#home)搜索結果中的應用程式篩選。
+* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;功能表中，內容搜尋已更新，以便在[Experience League](https://experienceleague.adobe.com/zh-hant#home)搜尋結果中依應用程式篩選。
 
 ## 2022 年 7 月
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。使用新的釘扎功能選擇[!UICONTROL Quick Access]上哪些應用程式顯示在前面和中心。 <br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。新分配的應用程式顯示&#x200B;_新_&#x200B;徽章和自動固定到[!UICONTROL Quick Access]。 |
+| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。 使用新的釘選功能來選取哪些應用程式出現在您[!UICONTROL Quick Access]的前面和中心。<br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。 新指派的應用程式顯示&#x200B;_新_&#x200B;徽章並自動釘選到[!UICONTROL Quick Access]。 |
 
 {style="table-layout:auto"}
 
@@ -120,7 +120,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 自然語言搜尋 | 透過單一介面的整合式搜尋，取得您所有協助問題的即時解答。 您一律可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每個頁面上使用此功能。 |
+| 自然語言搜尋 | 透過整合式搜尋的單一介面，即時取得所有說明問題的答案。 您一律可以在 [!DNL Experience Platform] 和 [!DNL Journey Optimizer] 的每個頁面上使用此功能。 |
 
 {style="table-layout:auto"}
 
@@ -128,7 +128,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 通過搜索欄訪問Experience Platform和Journey Optimizer的[!UICONTROL Recents] | 使用者現在可以透過整合搜尋列從 AEP 和 AJO 的每個頁面存取最近存取的物件。 |
+| 透過搜尋列存取Experience Platform和Journey Optimizer中的[!UICONTROL Recents] | 使用者現在可以透過整合搜尋列從 AEP 和 AJO 的每個頁面存取最近存取的物件。 |
 
 {style="table-layout:auto"}
 
@@ -136,8 +136,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 快捷方式(**[!UICONTROL Recents]**)已添加到[Experience Cloud](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
-| **[!UICONTROL Sandboxes]**&#x200B;已移到標題欄 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
+| 捷徑(**[!UICONTROL Recents]**)已新增到[Experience Cloud](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
+| **[!UICONTROL Sandboxes]**&#x200B;已移至標頭列 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
 
 {style="table-layout:auto"}
 
@@ -146,8 +146,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
-| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
-| AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
+| AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
 {style="table-layout:auto"}
 
@@ -155,8 +155,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
-| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
+| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。 在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
+| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 {style="table-layout:auto"}
 
@@ -164,7 +164,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| [!UICONTROL Unified Recents] — 對最近訪問的業務對象的擴展支援 | [!UICONTROL Unified Recents]擴展到Journey Optimizer和Experience Platform的其他業務對象。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、結構描述、資料集、資料來源、事件、動作、來源和目的地)。 |
+| [!UICONTROL Unified Recents] — 最近存取之企業物件的延伸支援 | [!UICONTROL Unified Recents]已擴充到Journey Optimizer和Experience Platform中的其他商業物件。 Journey Optimizer 客戶可以找到其最近從 Adobe Journey Optimizer 首頁存取的物件 (訊息、歷程、區段、結構描述、資料集、資料來源、事件、動作、來源和目的地)。 |
 
 {style="table-layout:auto"}
 
@@ -176,8 +176,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。<br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。導航到[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)，然後使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位查找教程、文檔、課程等。 |
+| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。 若要使用此功能，請新增`#/sso:@domain`至Experience Cloud URL。<br>例如，假設您擁有網域`example.com`且想要登入Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
 
 {style="table-layout:auto"}
 
@@ -186,7 +186,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | Experience Cloud 標頭與導覽 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
-| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 全局搜索[!UICONTROL Platform]使您能夠搜索Experience Cloud中的任何業務對象，如段、資料集、架構等。) |
+| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何商業物件，例如區段、資料集、結構描述等。) |
 | Experience Cloud 語言偏好設定 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style="table-layout:auto"}
@@ -195,31 +195,32 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單， 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 
 ## 2020 年 4 月
 
-* Experience Cloud[!UICONTROL Feed]頁已棄用。 (EXC-8505)
-* Experience Cloud 登入頁面更新，反映新的品牌元素。(EXC-10747)
+* 已棄用Experience Cloud [!UICONTROL Feed]頁面。 (EXC-8505)
+* Experience Cloud 登入頁面更新，反映新的品牌元素。 (EXC-10747)
 
 ## 2020 年 2 月
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 
 **修正**
 
-* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他輪廓狀態。(MCUI-10231)
-* **觸發核心服務：**&#x200B;由於鮮少使用，建立「放棄」類型觸發時的傾向分數「30 天內回訪的可能性」現已移除。(MCUI-10056)
+* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他輪廓狀態。 (MCUI-10231)
+* **觸發核心服務：**&#x200B;由於鮮少使用，建立「放棄」類型觸發時的傾向分數「30 天內回訪的可能性」現已移除。 (MCUI-10056)
 
 ## 2020 年 1 月
 
-* 「摘要」頁面已於 2019 年 12 月淘汰。請參閱產品中的淘汰通知。(MCUI-10039)
+* 「摘要」頁面已於 2019 年 12 月淘汰。 請參閱產品中的淘汰通知。 (MCUI-10039)
+
 
 <!--
 ## August 2019
