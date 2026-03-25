@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 484
 ht-degree: 1%
 
 ---
@@ -32,9 +32,10 @@ ht-degree: 1%
 Adobe Experience Platform Web SDK使用Cookie來儲存實作特有的值。
 
 | 名稱 | 最大年齡 | 大小 | 說明 |
-| ---| ---| ---| ---|
+| --- | --- | --- | --- |
 | **`AMCV_###@AdobeOrg`** | 34128000 （395天） | 100-120位元組（變數） | [`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)啟用時出現。 當網站某些部分仍使用`visitor.js`時，轉換至網頁SDK會有所幫助。 Web SDK在移轉期間會讀取和寫入此Cookie。 |
-| **`demdex`** | 15552000 （180天） | 因情況而異 | 在啟用Audience Manager ID同步時顯示。 Audience Manager設定此Cookie以指派唯一ID，並支援ID同步、細分、建模和報告。 檢視`demdex`Audience Manager Cookie[中的](audience-manager.md)。 |
+| **`com.adobe.alloy.getTld`** | 無（立即刪除） | 不適用 | 臨時協助程式Cookie，供Web SDK內部使用，以判斷目前網站的頂層網域。 建立最上層網域後，就會刪除Cookie。 不會儲存行為或設定檔資料。 |
+| **`demdex`** | 15552000 （180天） | 因情況而異 | 在啟用Audience Manager ID同步時顯示。 Audience Manager設定此Cookie以指派唯一ID，並支援ID同步、細分、建模和報告。 檢視[Audience Manager Cookie](audience-manager.md)中的`demdex`。 |
 | **`kndctr_<orgId>_identity`** | 34128000 （395天） | 100-120位元組（變數） | 儲存該裝置的ECID和其他相關資訊。 |
 | **`kndctr_<orgId>_cluster`** | 1800 （30分鐘） | 3-5位元組 | 儲存Edge Network區域（位置提示），用於提供目前使用者的請求。 URL路徑會使用地區，這樣Edge Network就能將請求路由至正確的地區。 如果使用者在Cookie期限內，以不同的IP位址連線，請求會再次路由至最接近的區域。 |
 | **`kndctr_<orgId>_consent`** | 15552000 （180天） | 10-11位元組 | 儲存訪客的同意偏好設定。 無論同意與否一律設定，因為它會儲存同意偏好設定本身。 |
