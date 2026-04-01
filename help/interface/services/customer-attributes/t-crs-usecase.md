@@ -22,16 +22,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1117
 ht-degree: 47%
 
 ---
 
 # 建立及上傳客戶屬性資料
 
-建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
+建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。 資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
 
 **[!DNL Customer Attributes]工作流程**
 
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 * **群組成員資格：**&#x200B;若要上傳資料，使用者必須是[!DNL Customer Attributes]群組的成員。 您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
 
-  若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;顯示為其中一個[!UICONTROL product profiles]，表示您已準備開始。
+  若要知道您公司是否擁有客戶屬性的存取權，您的 [!DNL Experience Cloud] 管理員應先登入 [Experience Cloud](https://experience.adobe.com)。 導覽至&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Products]**。 如果&#x200B;*[!DNL Customer Attributes]*&#x200B;顯示為其中一個[!UICONTROL product profiles]，表示您已準備開始。
 
   新增至[!DNL Customer Attributes]的使用者可在Experience Cloud介面的左側看到[!DNL Customer Attributes]功能表專案。
 
@@ -51,7 +51,7 @@ ht-degree: 47%
 
 ## 建立資料檔案
 
-此資料是來自您 CRM 的企業客戶資料。資料可能包含產品的訂閱者資料，包括成員 ID、已授權產品、最常啟動的產品等。
+此資料是來自您 CRM 的企業客戶資料。 資料可能包含產品的訂閱者資料，包括成員 ID、已授權產品、最常啟動的產品等。
 
 1. 建立`.csv`檔案。
 
@@ -72,7 +72,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。聯絡Audience Manager客戶服務或洽詢如何取得管理許可權。
+>建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。 您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。 聯絡Audience Manager客戶服務或洽詢如何取得管理許可權。
 
 1. 若要開啟[!UICONTROL Customer Attributes]，請按一下&#x200B;**[!UICONTROL Apps]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
 
@@ -84,11 +84,11 @@ ht-degree: 47%
 
 1. 在[!UICONTROL Create Customer Attribute Source]頁面上，設定下列欄位：
 
-   * **[!UICONTROL Name:]**&#x200B;好記的資料屬性來源名稱。 若為 [!DNL Adobe Target]，屬性名稱不得包含空格。如果傳遞了包含空格的屬性，[!DNL Target] 會忽略該屬性。其他不支援的字元包括：`< , >, ', "`.
+   * **[!UICONTROL Name:]**&#x200B;好記的資料屬性來源名稱。 若為 [!DNL Adobe Target]，屬性名稱不得包含空格。 如果傳遞了包含空格的屬性，[!DNL Target] 會忽略該屬性。 其他不支援的字元包括：`< , >, ', "`.
 
    * **[!UICONTROL Description:]** （選用）資料屬性來源的說明。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;代表客戶屬性資料的來源，例如特定的CRM系統。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]程式碼中使用的唯一識別碼。 此 ID 應是唯一、小寫、無空格。在Experience Cloud中，針對客戶屬性來源在[!UICONTROL Alias ID]欄位中輸入的值，應與從實作傳入的值相符(不論是透過Platform Data Collection還是Mobile SDK的JavaScript)。
+   * **[!UICONTROL Alias ID:]**&#x200B;代表客戶屬性資料的來源，例如特定的CRM系統。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]程式碼中使用的唯一識別碼。 此 ID 應是唯一、小寫、無空格。 在Experience Cloud中，針對客戶屬性來源在[!UICONTROL Alias ID]欄位中輸入的值，應與從實作傳入的值相符（不論是透過Platform Data Collection還是Mobile SDK的JavaScript）。
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ ht-degree: 47%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至&#x200B;*Experience Cloud ID服務*&#x200B;工具中[!UICONTROL customer Settings]底下的[整合代碼](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)值。
+      * **標籤：**&#x200B;別名ID對應至[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)工具中[!UICONTROL customer Settings]底下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
@@ -106,7 +106,7 @@ ht-degree: 47%
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS：**&#x200B;別名識別碼對應至&#x200B;*visitorSyncIdentifiers*[中的:identifiers&quot;idType&quot;](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)。
+      * **iOS：**&#x200B;別名識別碼對應至[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)中的&#x200B;*&quot;idType&quot;*。
 
         例如：
 
@@ -138,7 +138,7 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->需符合特定的資料檔案需求。如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
+>需符合特定的資料檔案需求。 如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
 
 上傳檔案後，表格資料會顯示在此頁面的[!UICONTROL File Upload]標題下。 您可以驗證結構、設定訂閱或設定 FTP。
 
@@ -148,11 +148,11 @@ ht-degree: 47%
 
 * **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;顯示有多少個ID已將別名傳送至Experience Cloud訪客ID。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至Experience Cloud訪客ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。—>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至Experience Cloud訪客ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。 -->
 
 ## 驗證結構 {#validate-schema}
 
-驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。您也可以更新結構以刪除屬性。
+驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。 您也可以更新結構以刪除屬性。
 
 請參閱[驗證結構](validate-schema.md)。
 
@@ -176,7 +176,7 @@ ht-degree: 47%
 
 現在有了 Adobe Analytics 等應用程式所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
 
-以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
+以下範例示範以上傳屬性為依據的 [!DNL Analytics] 區隔。 此區段顯示最常啟動 Photoshop 產品的 [!DNL Photoshop Lightroom] 訂閱者。
 
 ![根據上傳的屬性的 Analytics 區段](assets/08_crs_usecase.png)
 
@@ -188,4 +188,4 @@ ht-degree: 47%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱[說明中的](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)建立對象[!DNL Target]。
+請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)。
