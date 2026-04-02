@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
+source-git-commit: d57b222077b83d52344a31c8a6b4ccf165843147
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1118
 ht-degree: 47%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 47%
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/overview)」。
 
 ## 建立資料檔案
 
@@ -146,9 +146,9 @@ ht-degree: 47%
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;顯示您上傳多少個唯一ID至此屬性來源。
 
-* **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;顯示有多少個ID已將別名傳送至Experience Cloud訪客ID。
+* **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]**&#x200B;顯示有多少個ID已將別名傳送至Experience Cloud訪客ID。
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至Experience Cloud訪客ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。 -->
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至Experience Cloud訪客ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些 ID 相關的屬性分配給最近設定別名的 500 個 Experience Cloud 訪客 ID，直到別名數達到 10,000 個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。
 
 ## 驗證結構 {#validate-schema}
 
