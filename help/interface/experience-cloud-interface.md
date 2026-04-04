@@ -88,7 +88,7 @@ Experience Cloud 搜尋可讓您搜尋 [Experience League](https://experiencelea
 
 * **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;使用意見反應聯絡Adobe並讓我們知道您的想法。
-* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 帳戶偏好設定
