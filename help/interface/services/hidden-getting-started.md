@@ -131,7 +131,7 @@ Experience Cloud服務（例如Experience Cloud ID Service）與Experience Cloud
 
 ## 更新您的 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[Experience Cloud ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL Experience Cloud ID Service]更新&#x200B;****，Adobe Target才能使用人員服務。
+* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[Experience Cloud ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL Experience Cloud ID Service]更新&#x200B;**&#x200B;**，Adobe Target才能使用人員服務。
 * 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動更新您的mbox資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
 * 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
