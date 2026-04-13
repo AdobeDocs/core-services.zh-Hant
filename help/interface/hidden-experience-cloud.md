@@ -59,7 +59,7 @@ ht-degree: 84%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
@@ -67,7 +67,7 @@ ht-degree: 84%
 
 * **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;分享您對Experience Cloud體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
-* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 管理您的使用者設定檔
