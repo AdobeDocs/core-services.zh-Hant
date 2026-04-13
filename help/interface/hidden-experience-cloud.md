@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 中央介面元件。在 Admin Console 中取得使用者和產品管理的說明；啟用 Experience Cloud 服務的應用程式。取得客群庫、客戶屬性、Experience Cloud 資產等項目的相關說明。
+description: 了解 Experience Cloud 中央介面元件。 在 Admin Console 中取得使用者和產品管理的說明；啟用 Experience Cloud 服務的應用程式。 取得客群庫、客戶屬性、Experience Cloud 資產等項目的相關說明。
 title: Experience Cloud 介面與管理
 hide: true
 hidefromtoc: true
@@ -7,16 +7,16 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 83%
+source-wordcount: '504'
+ht-degree: 84%
 
 ---
 
 # Experience Cloud 介面與管理
 
-[Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。您可透過它的直觀式介面，快速存取您的雲端應用程式、產品功能和服務。
+[Experience Cloud](https://experience.adobe.com) 為 Adobe 的整合式數位行銷應用程式產品和服務系列。 您可透過它的直觀式介面，快速存取您的雲端應用程式、產品功能和服務。
 
 10月30日隱藏
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 在 Experience Cloud 封面中，您可以：
 
 * 存取您所有的 Experience Cloud 應用程式和服務
-* 在「說明」選單中搜尋產品文件、教學課程和社群貼文。在 Experience League 中檢視結果。
+* 在「說明」選單中搜尋產品文件、教學課程和社群貼文。 在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
 
@@ -45,9 +45,9 @@ ht-degree: 83%
 
    [組織](administration/organizations.md)顯示在介面封面中。
 
-   如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
+   如果貴組織使用 Federated ID，Experience Cloud 可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。 將 `#/sso:@domain` 新增到 Experience Cloud URL (`https://experience.adobe.com`) 以完成此任務。
 
-   例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。(例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
+   例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
 
 ## 存取 Experience Cloud 應用程式 {#navigation}
 
@@ -59,7 +59,7 @@ ht-degree: 83%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
@@ -67,7 +67,7 @@ ht-degree: 83%
 
 * **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;分享您對Experience Cloud體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
-* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 管理您的使用者設定檔
@@ -83,7 +83,7 @@ ht-degree: 83%
 
 ## 檢視產品內通知及公告 {#notifications}
 
-按一下鈴鐺圖示，檢視通知和公告。公告可能會提供相關且可操作的更新資訊，包括產品發行版本、維護通知、共用項目及核准請求。
+按一下鈴鐺圖示，檢視通知和公告。 公告可能會提供相關且可操作的更新資訊，包括產品發行版本、維護通知、共用項目及核准請求。
 
 ![通知和公告](assets/notifications-menu-small.png)
 
