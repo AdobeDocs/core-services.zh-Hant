@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 77%
+source-wordcount: 1426
+ht-degree: 78%
 
 ---
 
@@ -42,17 +42,23 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
+## 2026年4月
+
+| 日期 | 更新 | 說明 |
+| ------- | ------- | ------- |
+| 2026年4月20日 | 重新整理的首頁 | 在`https://experience.adobe.com/home`處重新整理首頁的外觀與風格。 在此版本中，所有功能都維持不變，更新UI、支援完整&#x200B;_深色模式_&#x200B;並改善協助工具。 |
+
 ## 2026 年 1 月
 
 | 日期 | 更新 | 說明 | 適用的產品 |
 | -----------| -----------| ---------- | ---------- |
-| **2026 年 1 月 14 日** | 可自訂的左側導覽功能表 | 您現在可於 Experience Cloud 中自訂應用程式的左側導覽功能表。 將導覽項目重新排列並控制其可見度，以便快速存取最重要的功能。 這項更新能協助您簡化工作流程、減少認知負荷，並支援完整的鍵盤無障礙功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版</li><li>Dynamic Chat</li></ul> |
+| 2026年1月14日 | 可自訂的左側導覽功能表 | 您現在可於 Experience Cloud 中自訂應用程式的左側導覽功能表。 將導覽項目重新排列並控制其可見度，以便快速存取最重要的功能。 這項更新能協助您簡化工作流程、減少認知負荷，並支援完整的鍵盤無障礙功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| **2025 年 9 月 25 日** | 支援 IP 存取清單 | 對於在 Admin Console 中提供並啟用 IP 存取清單的組織，Experience Cloud 存取 `https://experience.adobe.com` 網域上的應用程式時將遵守這些 IP 限制。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
+| 2025年9月25日 | 支援 IP 存取清單 | 對於在 Admin Console 中提供並啟用 IP 存取清單的組織，Experience Cloud 存取 `https://experience.adobe.com` 網域上的應用程式時將遵守這些 IP 限制。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
 
 ## 2025 年 3 月
 
@@ -76,7 +82,7 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 可自訂的首頁 | 在Experience Cloud登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。[!UICONTROL Edit] 模式可讓您存取Widget程式庫和自訂背景，以個人化Experience Cloud首頁。[!UICONTROL Edit] 模式針對移動、調整大小和管理Widget提供順暢、直覺式的控制項，包括大量動作和版面調整，以提供更美觀且量身打造的體驗。 |
+| 可自訂的首頁 | 在Experience Cloud登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式可讓您存取Widget程式庫和自訂背景，以個人化Experience Cloud首頁。 [!UICONTROL Edit]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
 
 ## 2024年9月10日
 
@@ -112,7 +118,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。 使用新的釘選功能來選取哪些應用程式出現在您[!UICONTROL Quick Access]的前面和中心。<br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。 新指派的應用程式顯示&#x200B;_新_&#x200B;徽章並自動釘選到[!UICONTROL Quick Access]。 |
+| 整合首頁 - 快速存取小工具 | **更快速瀏覽：**&#x200B;現在，您可以進一步個人化首頁體驗，並決定哪些應用程式是觸手可及的。 使用新的釘選功能來選取哪些應用程式出現在您[!UICONTROL Quick Access]的前面和中心。 <br>**透過智慧釘選保持資訊靈通：**&#x200B;您的新應用程式現在更容易找到。 新指派的應用程式顯示&#x200B;_新_&#x200B;徽章並自動釘選到[!UICONTROL Quick Access]。 |
 
 {style="table-layout:auto"}
 
@@ -176,7 +182,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。 若要使用此功能，請新增`#/sso:@domain`至Experience Cloud URL。<br>例如，假設您擁有網域`example.com`且想要登入Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。 若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。 <br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
 
 {style="table-layout:auto"}

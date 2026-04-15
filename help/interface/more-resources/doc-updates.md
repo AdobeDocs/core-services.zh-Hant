@@ -23,16 +23,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 71%
+source-wordcount: 656
+ht-degree: 70%
 
 ---
 
 # 文件更新
 
 瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
+
+**2026 年 3 月**
+
+已新增[AI工作與積分消耗](../features/ai-credit-consumption.md)
 
 **2025年11月**
 
@@ -48,7 +52,7 @@ ht-degree: 71%
 
 **2025 年 2 月**
 
-在Experience Cloud[中新增](../administration/admin-console.md)管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在Experience Cloud[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 **2024年11月**
 
@@ -85,15 +89,15 @@ ht-degree: 71%
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
-| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
-| AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
+| AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
 **2021年10月13日**
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
-| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
+| 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。 在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
+| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 **2021年8月24日**
 
@@ -136,7 +140,7 @@ ht-degree: 71%
 
 **更新日期：2018 年 9 月 5 日**
 
-新增如何刪除客戶屬性。請參閱 [(選用) 更新結構 (刪除屬性)](../services/customer-attributes/t-crs-usecase.md)。
+新增如何刪除客戶屬性。 請參閱 [(選用) 更新結構 (刪除屬性)](../services/customer-attributes/t-crs-usecase.md)。
 
 **2018 年 6 月 8 日**
 
@@ -168,7 +172,7 @@ ht-degree: 71%
 
 **2015年1月15日**
 
-現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。請參閱[資產共用](../services/assets/share.md)。
+現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。 請參閱[資產共用](../services/assets/share.md)。
 
 **2014年7月17日**
 
