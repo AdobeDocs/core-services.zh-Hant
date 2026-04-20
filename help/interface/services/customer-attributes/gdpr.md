@@ -7,17 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 91%
+source-wordcount: 407
+ht-degree: 82%
 
 ---
 
@@ -27,15 +23,15 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->本文件的內容並非法律建議，且宗旨並非取代專業的法律建議。如需 GDPR 的相關建議，請諮詢法律顧問。
+>本文件的內容並非法律建議，且宗旨並非取代專業的法律建議。 如需 GDPR 的相關建議，請諮詢法律顧問。
 
-2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。此外，也簡化國際業務的監管環境。針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
+2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。 此外，也簡化國際業務的監管環境。 針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
 
-Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。身為資料控管方，您可以決定要由 Adobe Experience Cloud 代表您處理和儲存哪些個人資料。
+Adobe CX Enterprise代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。 身為資料控管單位，您可以決定要由Adobe CX Enterprise代表您處理和儲存哪些個人資料。
 
 本文件說明 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 GDPR 資料和刪除權限。
 
-如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)。
+如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 傳送 [!DNL Customer Attributes] 請求的必要設定
 
@@ -47,7 +43,7 @@ Adobe Experience Cloud 代表客戶擔任資料處理者的角色，依指示接
    * 您要對其採取動作之 CRS 資料來源的別名 ID
    * 您要對其採取動作之輪廓的 CRM ID
 
-   您的[組織 ID](../../administration/organizations.md) 是 24 個字元的英數字串，後面接著 @AdobeOrg。您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
+   您的[組織 ID](../../administration/organizations.md) 是 24 個字元的英數字串，後面接著 @AdobeOrg。 您需先取得組織 ID，才能向隱私權 API 提交請求。 如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
 1. 在[!UICONTROL Privacy Service]中，您可以將存取和刪除要求提交至[!DNL Customer Attributes]，並檢查現有要求的狀態。
 

@@ -1,45 +1,45 @@
 ---
-title: Experience Cloud UI 元件和服務
-description: 了解 Adobe Admin Console、客群庫、客戶屬性、Experience Cloud Assets 等項目中的 UI 元件、使用者和產品管理。
+title: Experience Cloud UI元件和服務
+description: 瞭解Adobe Admin Console、對象庫、客戶屬性、CX Enterprise Assets等專案中的UI元件、使用者和產品管理。
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.zh-Hant
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+git-repo: https://github.com/AdobeDocs/core-services.en
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 66%
 
 ---
 
 
-# 供內部使用的中繼資料
+# 僅限內部使用的中繼資料
 
-metadata.md 檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊 TOC.md 檔案。如果您想變更任何使用手冊的 metadata.md 內容，可以在任何 TOC.md 檔案中進行更改。
+metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
-| 中繼資料您應留意但不影響分數的問題。 | 作用 |
+| 中繼資料 | 功能說明 |
 | --- | --- |
-| solution-title | 在文章標題中作為連結使用 |
-| solution-hub-url | 開啟 helpx 中樞頁面 |
-| solution-icon | 在解決方案標題旁邊顯示解決方案圖示。尚未實作 |
+| solution-title | 可用來當作文章標題中的連結 |
+| solution-hub-url | 開啟 HelpX 中心頁面 |
+| solution-icon | 會在解決方案標題旁，顯示解決方案圖示。 尚未執行 |
 | getting-started-title | 教學課程不適合時極少使用 |
-| getting-started-url | helpx 快速入門頁面的連結 |
+| getting-started-url | 連結至 HelpX 快速入門頁面 |
 | tutorials-title | 教學課程不適合時極少使用 |
-| tutorials-url | 教學課程影片 (helpx 或 KT 教學課程其中之一) 的連結 |
-| mini-toc-levels | 決定右邊欄中顯示的標頭層級數。預設為 2 |
-| git-repo | 指定共同作業存放庫的位置。針對公開文件使用 github.com 鏡像 |
+| tutorials-url | 連結至影片教學課程，包含 HelpX 教學課程，或是 KT 教學課程 |
+| mini-toc-levels | 決定右側邊欄中顯示的標題層級數量。 預設值為 2 |
+| git-repo | 指定共同作業存放庫的位置。 針對公開檔案使用github.com映象 |
 
 在 TOC.md 檔案中
 
-| 中繼資料 | 作用 |
+| 中繼資料 | 功能說明 |
 | --- | --- |
-| user-guide-title | 在文章標題中作為連結使用 |
-| user-guide-url | 開啟 helpx 中樞頁面 |
+| user-guide-title | 可用來當作文章頁首中的連結 |
+| user-guide-url | 開啟 helpx 說明中心頁面 |

@@ -1,5 +1,5 @@
 ---
-description: 瞭解Experience Cloud常見介面元件的檔案更新發生位置。
+description: 瞭解CX Enterprise常見介面元件的檔案更新發生位置。
 solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -8,31 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 70%
+ht-degree: 50%
 
 ---
 
 # 文件更新
 
-瞭解在哪裡會針對Experience Cloud的中央介面和管理進行檔案更新。
+瞭解在哪裡會針對CX Enterprise的中央介面和管理進行檔案更新。
 
 **2026 年 3 月**
 
@@ -40,7 +30,7 @@ ht-degree: 70%
 
 **2025年11月**
 
-更新Experience Cloud中的[Agentic AI](../features/agentic-ai.md)
+更新CX Enterprise中的[Agentic AI](../features/agentic-ai.md)
 
 **2025 年 10 月**
 
@@ -52,7 +42,7 @@ ht-degree: 70%
 
 **2025 年 2 月**
 
-在Experience Cloud[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在CX Enterprise](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 **2024年11月**
 
@@ -66,7 +56,7 @@ ht-degree: 70%
 
 **2024年4月26日**
 
-說明檔案架構全面改版。 也新增[Adobe Experience Cloud IP位址](../data-collection/ip-addresses.md)和[地區資料彙集](../data-collection/rdc.md)。
+說明檔案架構全面改版。 也新增[Adobe CX Enterprise IP位址](../data-collection/ip-addresses.md)和[地區資料彙集](../data-collection/rdc.md)。
 
 **2024年4月9日**
 
@@ -88,7 +78,7 @@ ht-degree: 70%
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
@@ -97,7 +87,7 @@ ht-degree: 70%
 | 功能 | 說明 |
 | ------- | ------- |
 | 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。 在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
-| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
+| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便Adobe根據您的CX Enterprise產品使用資料，提供實用、個人化的內容（例如教學課程、指南、快速提示、建議、學習影片等）。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 **2021年8月24日**
 
@@ -113,11 +103,11 @@ ht-degree: 70%
 
 **2021 年 6 月 1 日**
 
-已更新[登陸頁面](../experience-cloud.md)，以及存取 Experience Cloud、全域搜尋、偏好設定和通知的全部說明。
+已更新[登陸頁面](../experience-cloud.md)，以及存取CX Enterprise、全域搜尋、偏好設定和通知的相關新說明。
 
 **2020年8月19日**
 
-更新[檢視 Experience Cloud 使用者詳細資訊 (管理工具)](../administration/admin-tool-experience-cloud.md) 的「原則」資訊。
+更新[檢視CX Enterprise使用者詳細資訊（管理工具）](../administration/admin-tool-experience-cloud.md)和原則資訊。
 
 **2020年5月19日**
 
@@ -136,7 +126,7 @@ ht-degree: 70%
 
 **2020 年 2 月 20 日**
 
-新增[檢視 Experience Cloud 使用者詳細資訊 (管理工具)](../administration/admin-tool-experience-cloud.md)。
+新增[檢視CX Enterprise使用者詳細資訊（管理工具）](../administration/admin-tool-experience-cloud.md)。
 
 **更新日期：2018 年 9 月 5 日**
 
@@ -164,19 +154,19 @@ ht-degree: 70%
 
 **2016年5月9日**
 
-新增 [Experience Cloud 整合](../administration/integrations.md)，提供整合概要說明文件。
+新增[CX Enterprise整合](../administration/integrations.md)，此為整合檔案的彙總。
 
 **2016 年 2 月 11 日**
 
-已新增 [Experience Cloud Assets](../services/assets/experience-cloud-assets.md)。
+已新增[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)。
 
 **2015年1月15日**
 
-現在 Added Experience Cloud 的使用者可以將資料夾共用至 Creative Cloud，並在這兩種雲端產品之間同步資產和註解。 請參閱[資產共用](../services/assets/share.md)。
+新增CX Enterprise的使用者現在可以將資料夾共用至Creative Cloud，並在這兩種雲端產品之間同步資產和註解。 請參閱[資產共用](../services/assets/share.md)。
 
 **2014年7月17日**
 
-新增適用於管理員的 [Experience Cloud 常見問答](faq.md)。
+新增管理員的[CX Enterprise常見問題集](faq.md)。
 
 **2014年5月22日**
 

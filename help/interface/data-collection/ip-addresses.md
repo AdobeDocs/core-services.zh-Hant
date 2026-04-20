@@ -3,35 +3,30 @@ title: Experience Cloud使用的IP位址
 description: 如果貴組織的防火牆封鎖來自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 9%
+source-wordcount: 426
+ht-degree: 8%
 
 ---
 
-# Experience Cloud使用的IP位址
+# CX Enterprise使用的IP位址
 
-有些防火牆設定會封鎖來自Adobe的資料收集伺服器或負責存取資料的伺服器之IP位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統(例如Adobe Analytics中的資料摘要)。
+有些防火牆設定會封鎖來自Adobe的資料收集伺服器或負責存取資料的伺服器之IP位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統（例如Adobe Analytics中的資料摘要）。
 
 >[!IMPORTANT]
 >
 >雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入需要變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
-除了下列IP位址區塊外，各個Adobe Experience Cloud產品也各有專屬的IP位址：
+除了下列IP位址區塊外，各個Adobe CX Enterprise產品也各有專屬的IP位址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP位址區塊
 
@@ -49,12 +44,12 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud資料收集和FTP IP位址區塊
+## Adobe CX Enterprise資料收集和FTP IP位址區塊
 
 如果您的組織偏好使用特定的IP位址範圍，請參閱下表。 其功能包括:
 
-* 所有Experience Cloud產品的資料收集伺服器
-* 適用於所有Experience Cloud產品的FTP伺服器
+* 所有CX Enterprise產品的資料收集伺服器
+* 適用於所有CX Enterprise產品的FTP伺服器
 
 上表包含本節中的所有IP範圍。
 
@@ -92,7 +87,7 @@ ht-degree: 9%
 
 {style="table-layout:auto"}
 
-Adobe Experience Cloud也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
+Adobe CX Enterprise也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
 
 | 位置 | Host |
 | --- | --- |
@@ -114,5 +109,5 @@ Adobe Experience Cloud也支援有限容量的IPv6。 這些IP區塊的資料收
 
 >[!TIP]
 >
->Adobe Analytics匯出功能的FTP連線(包括Data Warehouse和資料摘要)只會來自倫敦、奧勒岡和新加坡位置的IPv4位址。
+>Adobe Analytics匯出功能的FTP連線（包括Data Warehouse和資料摘要）只會來自倫敦、奧勒岡和新加坡位置的IPv4位址。
 

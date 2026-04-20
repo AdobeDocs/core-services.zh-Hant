@@ -1,29 +1,29 @@
 ---
 title: 代理程式工作與AI信用沖銷
-description: 瞭解Experience Cloud應用程式中的代理程式工作和AI信用消費率。
+description: 瞭解CX Enterprise應用程式中的代理程式工作和AI信用消費率。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1055'
 ht-degree: 4%
 
 ---
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
-更新日期： 2026年3月5日&#x200B;**&#x200B;**
+更新日期： 2026年3月5日&#x200B;****
 
-瞭解Experience Cloud應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有Experience Cloud應用程式中啟用代理程式人工智慧功能的資訊，請參閱[Experience Cloud中的代理程式人工智慧](agentic-ai.md#existing-apps)。
+瞭解CX Enterprise應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有CX Enterprise應用程式中啟用代理程式人工智慧功能的資訊，請參閱[CX Enterprise中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
 ## 代理程式工作
 
 _代理程式工作_&#x200B;是代理程式根據客戶輸入的指示，為達成特定結果所執行的一系列工作與動作。
 
-透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的Experience Cloud應用程式中執行每個步驟。
+透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的CX Enterprise應用程式中執行每個步驟。
 
 ## AI 點數
 
@@ -65,6 +65,6 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 ## 有關此主題的更多說明
 
-* [Experience Cloud中的GenAI](/help/interface/features/generative-ai.md)
-* [Experience Cloud中的Agentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform代理程式使用量繫結試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [CX Enterprise中的GenAI](/help/interface/features/generative-ai.md)
+* [CX Enterprise中的Agentic AI](/help/interface/features/agentic-ai.md)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

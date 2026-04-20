@@ -1,5 +1,5 @@
 ---
-description: 了解 Experience Cloud 服務 (例如客戶屬性、客群和使用者管理) 的最新功能、發行說明和已知問題。
+description: 瞭解客戶屬性、受眾和使用者管理等CX Enterprise服務的最新功能、發行說明和已知問題。
 solution: Experience Cloud
 title: Experience Cloud 介面的累計發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -10,39 +10,27 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: dab36b01-8bfa-48f3-8392-626455a058e6
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-  - id: e53834d3-a86e-47ae-8257-15f5f3639855
-  - id: ecb4a972-6786-444c-a014-abc528b9407a
-  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: e53834d3-a86e-47ae-8257-15f5f3639855id: ecb4a972-6786-444c-a014-abc528b9407aid: f1299f18-ec4b-4531-b2a2-df3b94ff9a68id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1426
-ht-degree: 78%
+ht-degree: 51%
 
 ---
 
 # 累計發行說明
 
-Experience Cloud 中央介面元件的功能、發行說明和已知問題。
+CX Enterprise中央介面元件的功能、發行說明和已知問題。
 
 如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
-如需涵蓋所有應用程式的發行說明，請參閱 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
+如需涵蓋所有應用程式的發行說明，請參閱[CX Enterprise發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
-## 2026年4月
+## 2026 年 4 月
 
 | 日期 | 更新 | 說明 |
 | ------- | ------- | ------- |
@@ -52,43 +40,43 @@ Experience Cloud 中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 | 適用的產品 |
 | -----------| -----------| ---------- | ---------- |
-| 2026年1月14日 | 可自訂的左側導覽功能表 | 您現在可於 Experience Cloud 中自訂應用程式的左側導覽功能表。 將導覽項目重新排列並控制其可見度，以便快速存取最重要的功能。 這項更新能協助您簡化工作流程、減少認知負荷，並支援完整的鍵盤無障礙功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版</li><li>Dynamic Chat</li></ul> |
+| 2026年1月14日 | 可自訂的左側導覽功能表 | 您現在可以在CX Enterprise中自訂應用程式的左側導覽功能表。 將導覽項目重新排列並控制其可見度，以便快速存取最重要的功能。 這項更新能協助您簡化工作流程、減少認知負荷，並支援完整的鍵盤無障礙功能。 | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B 版</li><li>Dynamic Chat</li></ul> |
 
 ## 2025 年 9 月
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025年9月25日 | 支援 IP 存取清單 | 對於在 Admin Console 中提供並啟用 IP 存取清單的組織，Experience Cloud 存取 `https://experience.adobe.com` 網域上的應用程式時將遵守這些 IP 限制。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
+| 2025年9月25日 | 支援 IP 存取清單 | 對於已在Admin Console中使用並啟用IP存取清單的組織，CX Enterprise將遵循這些IP限制來存取`https://experience.adobe.com`網域上的應用程式。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
 
 ## 2025 年 3 月
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日 | 修正右鍵選單選項 | Experience Cloud 標題導覽索引標籤現已支援按右鍵點選和瀏覽器下拉式選單功能。 此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
+| 2025 年 3 月 6 日 | 修正右鍵選單選項 | CX Enterprise標題導覽標籤現在允許按一下右鍵、瀏覽器下拉式選單功能。 此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
 
 ## 2025 年 2 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 13 年 2 月 | Spectrum 2 | Experience Cloud應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
+| 13 年 2 月 | Spectrum 2 | CX Enterprise應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
 
 ## 2025 年 1 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 9 年 1 月 | 產品使用資料 | 為了更方便控制Experience Cloud產品使用資料偏好設定，我們簡化了Experience Cloud [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這次簡化，我們保留了目前的使用者喜好設定，您可以隨時在 [Experience Cloud 喜好設定](https://experience.adobe.com/preferences)中更新您的喜好設定。 |
+| 9 年 1 月 | 產品使用資料 | 為了更方便控制CX Enterprise產品使用資料偏好設定，我們簡化了CX Enterprise [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，您可以隨時在[CX Enterprise偏好設定](https://experience.adobe.com/preferences)上更新您的偏好設定。 |
 
 ## 2024年10月2日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 可自訂的首頁 | 在Experience Cloud登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式可讓您存取Widget程式庫和自訂背景，以個人化Experience Cloud首頁。 [!UICONTROL Edit]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
+| 可自訂的首頁 | 在CX Enterprise登陸頁面上，按一下&#x200B;**[!UICONTROL Edit]**。 [!UICONTROL Edit]模式可讓您存取Widget程式庫和自訂背景，以個人化CX Enterprise首頁。 [!UICONTROL Edit]模式提供順暢、直覺式的控制，用於移動、調整大小和管理Widget，包括大量動作和版面調整，提供更美觀且量身打造的體驗。 |
 
 ## 2024年9月10日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Slack 通知 | 您可以設定帳戶偏好，以便傳送 Experience Cloud 通知至 Slack。 如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
+| Slack 通知 | 您可以設定帳戶偏好設定，以將CX Enterprise通知傳送至Slack。 如需詳細資訊，請參閱[偏好設定](../features/account-preferences.md)說明中的&#x200B;_Slack通知_。 |
 
 <!--
 ## July - August 2023
@@ -97,22 +85,22 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers access to foundational capabilities that aid interoperability between some [!DNL CX Enterprise] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL CX Enterprise] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hant), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=zh-Hant), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=zh-Hant), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=zh-Hant) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
 -->
 
 ## 2023 年 5 月
 
-* 在[!DNL Experience Cloud] **[!UICONTROL Help]**&#x200B;功能表中，內容搜尋已更新，以便在[Experience League](https://experienceleague.adobe.com/zh-hant#home)搜尋結果中依應用程式篩選。
+* 在[!DNL CX Enterprise] **[!UICONTROL Help]**&#x200B;功能表中，內容搜尋已更新，以便在[Experience League](https://experienceleague.adobe.com/#home)搜尋結果中依應用程式篩選。
 
 ## 2022 年 7 月
 
@@ -142,7 +130,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | -------|
-| 捷徑(**[!UICONTROL Recents]**)已新增到[Experience Cloud](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
+| 捷徑(**[!UICONTROL Recents]**)已新增到[CX Enterprise](https://experience.adobe.com/home)首頁 | 您可以在登陸頁面上的新&#x200B;_最近_&#x200B;標題底下存取最近 Journey Optimizer 和 Experience Platform 工作的捷徑。 此更新也包含一般版面和回應能力的改進。 |
 | **[!UICONTROL Sandboxes]**&#x200B;已移至標頭列 | 「沙箱」指標現在已整合到所有 Experience Platform 介面應用程式的標頭內。 如需詳細資訊，請參閱 Experience Platform 中的[沙箱](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。 |
 
 {style="table-layout:auto"}
@@ -151,7 +139,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶輪廓卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
@@ -162,7 +150,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | 功能 | 說明 |
 | ------- | ------- |
 | 整合式搜尋 | 整合式搜尋持續新增物件類型到搜尋索引。 在此次更新中，全域搜尋目前會在 Experience League 內容與下列 Journey Optimizer 物件內進行搜尋。 <ul><li>資料集</li><li>目的地</li><li>查詢</li><li>結構描述</li><li>區段</li><li>來源</li><li>產品建議</li><li>元件</li><li>訊息</li><li>歷程</li></ul> |
-| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便 Adobe 根據您的 Experience Cloud 產品使用資料，提供實用、個人化的內容 (例如教學課程、指南、快速) 給您。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
+| 產品使用資料同意書 | 初次登入後，系統便會要求您提交偏好設定，以便Adobe根據您的CX Enterprise產品使用資料，提供實用、個人化的內容（例如教學課程、指南、快速提示、建議、學習影片等）。 此請求也包括在 <https://experience.adobe.com/preferences> 收集和使用這些資料的偏好設定更新。 |
 
 {style="table-layout:auto"}
 
@@ -182,8 +170,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用 Federated ID，則不必輸入電子郵件或密碼即可登入 Experience Cloud。 若要使用此功能，請新增 `#/sso:@domain` 至 Experience Cloud URL。 <br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
+| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用Federated ID，則不必輸入電子郵件地址或密碼即可登入CX Enterprise。 若要使用此功能，請新增`#/sso:@domain`至CX Enterprise URL。 <br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
 
 {style="table-layout:auto"}
 
@@ -191,9 +179,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| Experience Cloud 標頭與導覽 | Adobe Experience Cloud 更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從 Experience Cloud 標頭上的使用者頭像連結，以控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
-| Experience Cloud 全域搜尋 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/zh-hant#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何商業物件，例如區段、資料集、結構描述等。) |
-| Experience Cloud 語言偏好設定 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
+| CX Enterprise標題和導覽 | Adobe CX Enterprise更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從CX Enterprise標頭的使用者頭像連結，以控制其他偏好設定。 雖然並非CX Enterprise中的所有應用程式都支援佈景主題，這項功能開啟了未來佈景主題支援的可能性。 |
+| CX Enterprise全域搜尋 | 在此版本中，CX Enterprise全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋CX Enterprise中的任何商業物件，例如區段、資料集、結構描述等。) |
+| CX Enterprise語言偏好設定 | 此更新包含在CX Enterprise [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style="table-layout:auto"}
 
@@ -201,20 +189,20 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 原則 | 此頁面顯示貴組織中的完整 Experience Cloud 原則清單， 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 原則 | 此頁面顯示貴組織中CX Enterprise原則的完整清單。 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。 如需詳細資訊，請參閱[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 
 ## 2020 年 4 月
 
-* 已棄用Experience Cloud [!UICONTROL Feed]頁面。 (EXC-8505)
-* Experience Cloud 登入頁面更新，反映新的品牌元素。 (EXC-10747)
+* 已棄用CX Enterprise [!UICONTROL Feed]頁面。 (EXC-8505)
+* CX Enterprise登入頁面更新，反映新的品牌元素。 (EXC-10747)
 
 ## 2020 年 2 月
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的「管理工具」中，檢視所有CX Enterprise使用者及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 如需詳細資訊，請參閱[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 
@@ -231,31 +219,31 @@ With this update, administrators may see changes or additions to the Admin Conso
 <!--
 ## August 2019
 
-* Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
-* Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Fixed a critical issue in CX Enterprise login that led to session logout for some users. (MCUI-6908)
+* Updated CX Enterprise login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Updated interface cosmetically. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
+* Fixed an issue with CX Enterprise [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
 
 ## April 2019
 
-* Updated the app switcher to include Marketo in Experience Cloud application suite, and branding updates to Experience Platform. (MCUI-6529)
-* Updated Experience Cloud Home to include navigation links to the Feed and Administration pages. (MCUI-6682)
+* Updated the app switcher to include Marketo in CX Enterprise application suite, and branding updates to Experience Platform. (MCUI-6529)
+* Updated CX Enterprise Home to include navigation links to the Feed and Administration pages. (MCUI-6682)
 * Fixed an issue in the [!UICONTROL Trigger] definition for correct usage of "like" clause. (MCUI-6611)
 * Improvements to Customer Attributes for better logging in the Subscription service. (MCUI-6519)
 
 ## January 2019
 
-**Note:** In March 2019, The Experience Cloud interface will not support Internet Explorer 11.
+**Note:** In March 2019, The CX Enterprise interface will not support Internet Explorer 11.
 
 * Fixed an issue preventing the help search from returning results. (MCUI-1670)
 * Fixed and improved eVar management in Triggers. (MCUI-6400)
 
 ## August 2018
 
-* Made improvements on assets comment sync across Creative Cloud and Experience Cloud. (CORE-15971)
-* Added feature flag to control Experience Cloud-Creative Cloud asset sync. (CORE-15938)
+* Made improvements on assets comment sync across Creative Cloud and CX Enterprise. (CORE-15971)
+* Added feature flag to control CX Enterprise-Creative Cloud asset sync. (CORE-15938)
 * Made improvements to Audience segments creation, including better search and listing experience. (CORE-5833, CORE-14278)
-* Fixed a high priority issue that blocked folder sharing from Experience Cloud to Creative Cloud. (CORE-16677)
+* Fixed a high priority issue that blocked folder sharing from CX Enterprise to Creative Cloud. (CORE-16677)
 
 ## July 2018
 
@@ -275,7 +263,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Feature | Description |
 | --- | --- |
-|New administration landing page|When you sign in to Experience Cloud and navigate to the Administration page, a new intuitive interface is available to help you quickly access your Experience Cloud applications and Core Services.|
+|New administration landing page|When you sign in to CX Enterprise and navigate to the Administration page, a new intuitive interface is available to help you quickly access your CX Enterprise applications and Core Services.|
 
 {style="table-layout:auto"}
 
@@ -294,7 +282,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant).|
+|Admin Console for CX Enterprise Solutions|New CX Enterprise customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -302,8 +290,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Feature | Description |
 | --- | --- |
-|Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in Experience Cloud.|
-|Updates to Experience Cloud Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
+|Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in CX Enterprise.|
+|Updates to CX Enterprise Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
 
 {style="table-layout:auto"}
 
@@ -317,7 +305,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Fixes** 
 
-* Fixed an issue with technical passwords that caused an error in folder sharing between Creative Cloud and Experience Cloud. (MAC-31067, MAC-32014)
+* Fixed an issue with technical passwords that caused an error in folder sharing between Creative Cloud and CX Enterprise. (MAC-31067, MAC-32014)
 * Fixed an issue with the upload of certain file types, including PDF, that was found after the October release in Assets Core Service. (MAC-32517)
 
 ## May 2016
@@ -332,18 +320,18 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Pre-configured product configurations in the Admin Console </p> </td> 
-   <td colname="col2"> <p>Experience Cloud customer administrators can use product configurations that are pre-created and mapped to default permission groups for Analytics and Dynamic Tag Management. </p> <p>This optimization is available for newly provisioned organizations, and it reduces the amount of time required by organizations to manage users in the Admin Console. </p> </td> 
+   <td colname="col2"> <p>CX Enterprise customer administrators can use product configurations that are pre-created and mapped to default permission groups for Analytics and Dynamic Tag Management. </p> <p>This optimization is available for newly provisioned organizations, and it reduces the amount of time required by organizations to manage users in the Admin Console. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed improvement </p> </td> 
-   <td colname="col2"> <p> When creating a post in the Experience Cloud Feed, the To line now uses the currently active topic instead using the organization by default.</p> </td> 
+   <td colname="col2"> <p> When creating a post in the CX Enterprise Feed, the To line now uses the currently active topic instead using the organization by default.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Fixes**
 
-* Fixed an issue preventing thumbnails from showing for assets shared from Assets on Demand to the Experience Cloud Feed. (MAC-29955) 
+* Fixed an issue preventing thumbnails from showing for assets shared from Assets on Demand to the CX Enterprise Feed. (MAC-29955) 
 
 ## February 2016
 
@@ -356,12 +344,12 @@ With this update, administrators may see changes or additions to the Admin Conso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Assets improvements </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud Assets, you can store, share, and synchronize your digital assets from one central location. Experience Cloud Assets uses some of the features available in <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>See <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>CX Enterprise Assets improvements </p> </td> 
+   <td colname="col2"> <p>In CX Enterprise Assets, you can store, share, and synchronize your digital assets from one central location. CX Enterprise Assets uses some of the features available in <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>See <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> CX Enterprise</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Account linking improvements </p> </td> 
-   <td colname="col2"> <p>Improved the interface workflow for linking application accounts with the Experience Cloud (Adobe ID). This new workflow locates all the user's accounts associated with an organization, and lets you choose which account to link. We also streamlined the account linking experience, so that you no longer must access the Manage Organizations page to manually link accounts. </p> </td> 
+   <td colname="col2"> <p>Improved the interface workflow for linking application accounts with the CX Enterprise (Adobe ID). This new workflow locates all the user's accounts associated with an organization, and lets you choose which account to link. We also streamlined the account linking experience, so that you no longer must access the Manage Organizations page to manually link accounts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -395,8 +383,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Known Issues** 
 
-* Customers are not able to log into Report Builder if they SSO into Analytics via Experience Cloud. This issue does not impact customers using legacy Analytics credentials.
-* Known issue with the "Link to Report" function in Analytics. Customers logging into Analytics via Experience Cloud are directed to a non-SSO login page for Analytics when trying to share a report.
+* Customers are not able to log into Report Builder if they SSO into Analytics via CX Enterprise. This issue does not impact customers using legacy Analytics credentials.
+* Known issue with the "Link to Report" function in Analytics. Customers logging into Analytics via CX Enterprise are directed to a non-SSO login page for Analytics when trying to share a report.
 
 ## September 2015
 
@@ -409,11 +397,11 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * Fixed an issue that prevented attribute descriptions specified on the View/Edit Schema page (in customer attributes) from being updated in Analytics reports. (MAC-25985)
 * Fixed an issue preventing the thumbnails from rendering for uploaded assets. (MAC-25863)
-* Fixed an issue that prevented new segments created in reports & analytics from being available in Experience Cloud Audiences. (MAC-25817)
+* Fixed an issue that prevented new segments created in reports & analytics from being available in CX Enterprise Audiences. (MAC-25817)
 * Fixed an issue that prevented audience sharing from Analytics, when using the visitor ID service. (MAC-25788, MAC-25747)
 * Added support for multibyte characters in customer attributes. (MAC-25552)
 
-**Known Issue**: A known issue is causing duplicate auto-generated accounts to be created in Audience Manager, and automatically linking them to a user's Experience Cloud identity. This issue occurs if you attempt to navigate to Audience Manager before linking your accounts. Adobe recommends that you link your Audience Manager accounts to Experience Cloud before navigating to Audience Manager. (MAC-25640) 
+**Known Issue**: A known issue is causing duplicate auto-generated accounts to be created in Audience Manager, and automatically linking them to a user's CX Enterprise identity. This issue occurs if you attempt to navigate to Audience Manager before linking your accounts. Adobe recommends that you link your Audience Manager accounts to CX Enterprise before navigating to Audience Manager. (MAC-25640) 
 
 ## May 2015
 
@@ -438,8 +426,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant) page from displaying in Japanese.
-* Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL CX Enterprise].
 
 ## April 2015
 
@@ -457,18 +445,18 @@ With this update, administrators may see changes or additions to the Admin Conso
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise and Federated ID support </li> 
     </ul> </td> 
-   <td colname="col2"> <p>User and group management functionality has been moved to the Admin Console. The new navigation path is: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Launch Admin Console</span></p> <p> Also, support for enterprise and federated IDs has been added. You can use enterprise IDs, federated IDs, and Adobe IDs in the same enterprise deployment. For example, use Adobe IDs for users who may use other Adobe product and services. Use enterprise or federated IDs for users where you want to strictly manage their accounts. </p> </td> 
+   <td colname="col2"> <p>User and group management functionality has been moved to the Admin Console. The new navigation path is: </p> <p> <span class="uicontrol"> CX Enterprise</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Launch Admin Console</span></p> <p> Also, support for enterprise and federated IDs has been added. You can use enterprise IDs, federated IDs, and Adobe IDs in the same enterprise deployment. For example, use Adobe IDs for users who may use other Adobe product and services. Use enterprise or federated IDs for users where you want to strictly manage their accounts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Fixes** 
 
-* Fixed an issue preventing single sign-on between [!DNL Experience Cloud] and [!DNL Advertising Cloud].
+* Fixed an issue preventing single sign-on between [!DNL CX Enterprise] and [!DNL Advertising Cloud].
 
 **Known Issues** 
 
-* Linking and unlinking your dynamic tag management organization with Experience Cloud is not working for newly created Experience Cloud organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via Experience Cloud, use the legacy login at `dtm.adobe.com`.
+* Linking and unlinking your dynamic tag management organization with CX Enterprise is not working for newly created CX Enterprise organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via CX Enterprise, use the legacy login at `dtm.adobe.com`.
 * A known issue is preventing audience sharing from report suites which are not owned by the linked Analytics account. Remedial efforts are underway
 
 ## March 2015
@@ -483,7 +471,7 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Customer Attributes </p> </td> 
-   <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a customer attribute data source in Experience Cloud. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> customer attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> customer attributes</a> product documentation. </p> </td> 
+   <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a customer attribute data source in CX Enterprise. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> customer attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> customer attributes</a> product documentation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -500,11 +488,11 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Group Mapping </p> </td> 
-   <td colname="col2"> <p>The Group Management page has been redesigned as an administrative interface that lets you create groups, add users to groups, and apply permissions across Experience Cloud applications. </p> </td> 
+   <td colname="col2"> <p>The Group Management page has been redesigned as an administrative interface that lets you create groups, add users to groups, and apply permissions across CX Enterprise applications. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>One-to-many mapping </p> </td> 
-   <td colname="col2"> <p>When linking application accounts in Experience Cloud, if you have multiple applications and organizations, you can now map multiple products and services to a single organization. </p> </td> 
+   <td colname="col2"> <p>When linking application accounts in CX Enterprise, if you have multiple applications and organizations, you can now map multiple products and services to a single organization. </p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -514,10 +502,10 @@ With this update, administrators may see changes or additions to the Admin Conso
 **Fixes**
 
 * Improved the user email invitation workflow for account provisioning.
-* Fixed an asset folder issue preventing [!DNL Experience Cloud] and [!DNL Adobe Campaign] assets from displaying identical folder hierarchies.
+* Fixed an asset folder issue preventing [!DNL CX Enterprise] and [!DNL Adobe Campaign] assets from displaying identical folder hierarchies.
 * Fixed an issue preventing the deletion of audiences that were part of deactivated [!DNL Target] activities.
 * Fixed an issue preventing the Add (plus) icon from displaying under [!UICONTROL Rules] on the [!UICONTROL Create New Audience] page.
-* Improved Experience Cloud interface support for Internet Explorer 9.
+* Improved CX Enterprise interface support for Internet Explorer 9.
 
 ## January 2015
 
@@ -539,21 +527,21 @@ With this update, administrators may see changes or additions to the Admin Conso
 **Fixes** 
 
 * Fixed an issue in which PNG files could not be rendered on a card.
-* Fixed an issue with uploading files to Experience Cloud Assets via drag and drop.
+* Fixed an issue with uploading files to CX Enterprise Assets via drag and drop.
 
 **Known Issues** 
 
 * Users are not able to share PowerPoint files on boards.
 * Group and entitlement changes made in User Management take effect only after a new login.
-* Some users might have issues uploading large file-types to Experience Cloud Assets.
-* Users might be missing links on their Experience Cloud cards from Advertising Cloud.
-* Some administrative users might experience issues linking their accounts after accepting an invitation to join Experience Cloud.
-* Experience Cloud interface can reduce in performance when in parallel use by multiple users.
+* Some users might have issues uploading large file-types to CX Enterprise Assets.
+* Users might be missing links on their CX Enterprise cards from Advertising Cloud.
+* Some administrative users might experience issues linking their accounts after accepting an invitation to join CX Enterprise.
+* CX Enterprise interface can reduce in performance when in parallel use by multiple users.
 * Some users are able to delete an out-of-date asset instead of receiving an error notification.
 * Some users might experience issues when logging into two browsers with the same Adobe ID simultaneously.
 * Some users might be unable to re-add a Creative Cloud user to a shared folder after the Creative Cloud user has been deleted.
-* Some users might experience a delay in the notification that occurs when a folder is shared from Experience Cloud to Creative Cloud.
-* Some users might experience an issue sharing a folder between Experience Cloud and Creative Cloud.
+* Some users might experience a delay in the notification that occurs when a folder is shared from CX Enterprise to Creative Cloud.
+* Some users might experience an issue sharing a folder between CX Enterprise and Creative Cloud.
 * Some users may have trouble creating an audience within an Analytics report suite after shared audiences have been enabled.
 * Some users may have trouble uploading assets to a board.
 
@@ -567,7 +555,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Group and entitlement changes made in user management only take effect after a new login.
 * Admins must log out and back in to see changes made in Account Settings.
 * Users are not able to share PowerPoint files on boards.
-* Experience Cloud interface can reduce in performance when in parallel use by many users.
+* CX Enterprise interface can reduce in performance when in parallel use by many users.
 * Adobe Experience Manager to Creative Cloud synchronization is not working.
 
 ## October 2014
@@ -603,7 +591,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Some users may not be able to create a card from a PDF and share it to a board.
 * Some users are able to delete an out-of-date asset instead of receiving an error notification.
 * Users are not able to share PowerPoint files on boards.
-* Experience Cloud interface can reduce in performance when in parallel use by many users.
+* CX Enterprise interface can reduce in performance when in parallel use by many users.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 
 ## September 2014
@@ -621,9 +609,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Some users are able to delete an out-of-date asset instead of receiving an error notification.
 * Users are not able to share PowerPoint files on boards.
 * Some [!DNL .png] files cannot be rendered on a card.
-* [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
+* [!DNL CX Enterprise] interface can reduce in performance when in parallel use by many users.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL Experience Cloud].
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL CX Enterprise].
 
 ## August 2014
 
@@ -647,30 +635,30 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Group and entitlement changes made in user management only take effect after a new login.
 * Some users may not be able to create a card from a PDF and share it to a board.
 * Some users may have trouble uploading assets to a board.
-* Some users may not be able to log in from [!DNL Target] to [!DNL Experience Cloud].
-* Some Audience Manager users cannot log into [!DNL Experience Cloud].
+* Some users may not be able to log in from [!DNL Target] to [!DNL CX Enterprise].
+* Some Audience Manager users cannot log into [!DNL CX Enterprise].
 * Some users are able to delete an out-of-date asset instead of receiving an error notification.
-* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Files deleted from [!DNL CX Enterprise] are not being deleted from [!DNL Digital Asset Management].
 * Users are not able to share PowerPoint files on boards.
 * Some [!DNL .png] files cannot be rendered on a card.
-* [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
+* [!DNL CX Enterprise] interface can reduce in performance when in parallel use by many users.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL Experience Cloud].
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in [!DNL CX Enterprise].
 
 ## July 2014
 
 **Known Issues** 
 
-* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Files deleted from [!DNL CX Enterprise] are not being deleted from [!DNL Digital Asset Management].
 * Some [!UICONTROL Exchange] users may find their names in the comments to be a long string ID instead of their names
 * Some [!DNL .png] files cannot be rendered on a card
 * Uploading files allows more file types than the drag-and-drop method. For best results, upload using [!UICONTROL Assets].
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 * [!DNL Exchange] users must clear their cookies to improve their experience.
-* [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
-* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder if the content is unshared in [!DNL Experience Cloud].
-* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of [!DNL Experience Cloud].
-* Some users may not be able to link their Audience Manager accounts to [!DNL Experience Cloud].
+* [!DNL CX Enterprise] interface can slow down when in parallel use by many users.
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder if the content is unshared in [!DNL CX Enterprise].
+* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of [!DNL CX Enterprise].
+* Some users may not be able to link their Audience Manager accounts to [!DNL CX Enterprise].
 * [!UICONTROL Exchange] users can only see English in language selector.
 
 ## June 2014
@@ -693,12 +681,12 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Known Issues** 
 
-* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Files deleted from [!DNL CX Enterprise] are not being deleted from [!DNL Digital Asset Management].
 * Uploading files allows more file types than the drag-and-drop method. For best results, upload using Assets.
 * The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
-* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL Experience Cloud].
-* Some users are not able to link their audience management account with their [!DNL Experience Cloud] account.
-* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of Experience Cloud.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL CX Enterprise].
+* Some users are not able to link their audience management account with their [!DNL CX Enterprise] account.
+* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of CX Enterprise.
 * Some Exchange users may find their names in the comments to be a long string ID instead of their names
 
 **Fixes** 
@@ -716,16 +704,16 @@ With this update, administrators may see changes or additions to the Admin Conso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Help</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>The <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> is a single destination where you can search, browse, select, pay, and download digital marketing extensions via apps. </p> <p>Apps include data connectors, custom configurations to Adobe's core product, third-party applications, reports, and <span class="keyword"> Experience Cloud</span> cards. </p> </td> 
+   <td colname="col1"> <p>CX Enterprise Exchange </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> CX Enterprise</span> &gt; <span class="uicontrol"> Help</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>The <span class="keyword"> CX Enterprise</span><span class="wintitle"> Exchange</span> is a single destination where you can search, browse, select, pay, and download digital marketing extensions via apps. </p> <p>Apps include data connectors, custom configurations to Adobe's core product, third-party applications, reports, and <span class="keyword"> CX Enterprise</span> cards. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle"> Audiences</span> is where you create, edit, and manage audiences, similar to how you work with segments. For example, you can create a segment in Reports & Analytics, then share it to <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Audiences</span>. Once shared, the audience is available in <span class="keyword"> Adobe Target</span> for campaign activities, and in Adobe Audience Manager for segmentation. </p> <p> <p>Note: To request enablement in Target, visit <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col1"> <p>CX Enterprise Audiences </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> CX Enterprise</span> &gt; <span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle"> Audiences</span> is where you create, edit, and manage audiences, similar to how you work with segments. For example, you can create a segment in Reports & Analytics, then share it to <span class="wintitle"> CX Enterprise</span><span class="wintitle"> Audiences</span>. Once shared, the audience is available in <span class="keyword"> Adobe Target</span> for campaign activities, and in Adobe Audience Manager for segmentation. </p> <p> <p>Note: To request enablement in Target, visit <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Users who are mentioned on <span class="keyword"> Experience Cloud</span> cards now have permissions to that card. </p> </td> 
+   <td colname="col2"> <p>Users who are mentioned on <span class="keyword"> CX Enterprise</span> cards now have permissions to that card. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -733,25 +721,25 @@ With this update, administrators may see changes or additions to the Admin Conso
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asset synchronization. </p> </td> 
-   <td colname="col2"> <p> You can share assets within Experience Manager Assets with Experience Cloud and Creative Cloud. Any changes to these assets are reflected in the shared copies of the assets in Experience Cloud and Creative Cloud. </p> </td> 
+   <td colname="col2"> <p> You can share assets within Experience Manager Assets with CX Enterprise and Creative Cloud. Any changes to these assets are reflected in the shared copies of the assets in CX Enterprise and Creative Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Fixes** 
 
-* [!DNL Experience Cloud] was not linking to [!DNL Adobe Target]. This issue occurred if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
-* [!DNL Adobe Advertising Cloud] was not creating users automatically when the user has been created in [!DNL Experience Cloud].
+* [!DNL CX Enterprise] was not linking to [!DNL Adobe Target]. This issue occurred if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
+* [!DNL Adobe Advertising Cloud] was not creating users automatically when the user has been created in [!DNL CX Enterprise].
 * Options in combo boxes used for adding new users temporarily disappeared while typing.
 * The Comments link on asset card view was not selectable.
 * After adding a custom tag to an asset, no other metadata changes were not persisting.
 * Deleting an image, Assets does not warn if the image is used in Adobe Target Essentials.
-* Slow [!UICONTROL Experience Cloud] interface performance when in parallel use by many users.
-* Deleting an image in [!UICONTROL Experience Cloud Assets] was not issuing a warning if the image was used in [!DNL Adobe Target Essentials].
+* Slow [!UICONTROL CX Enterprise] interface performance when in parallel use by many users.
+* Deleting an image in [!UICONTROL CX Enterprise Assets] was not issuing a warning if the image was used in [!DNL Adobe Target Essentials].
 * When **[!UICONTROL remember me]** was not selected during login, the user was logged out after 15 minutes.
 * Users were having to log out and back in for all permission and entitlement changes to take effect.
-* Logging in to [!DNL Experience Cloud] was taking longer than a second.
-* For certain users, deleting files from [!DNL Experience Cloud] did not synchronizing with [!DNL Digital Asset Management].
+* Logging in to [!DNL CX Enterprise] was taking longer than a second.
+* For certain users, deleting files from [!DNL CX Enterprise] did not synchronizing with [!DNL Digital Asset Management].
 * Users were being logged out after only 15 minutes of browser inactivity.
 * User were not able to share PowerPoint files on boards.
 * Some users were experiencing poor visual layout in Internet Explorer 10.
@@ -768,11 +756,11 @@ With this update, administrators may see changes or additions to the Admin Conso
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Create cards from help topics </p> </td> 
-   <td colname="col2"> <p>After you enable the Share to Adobe Experience Cloud feature in your browser's Bookmark toolbar, you can now share help pages from the microsite URL. </p> <p> <b>To share a help topic</b> </p> 
+   <td colname="col2"> <p>After you enable the Share to Adobe CX Enterprise feature in your browser's Bookmark toolbar, you can now share help pages from the microsite URL. </p> <p> <b>To share a help topic</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>In the <span class="keyword"> Experience Cloud</span>, select <span class="uicontrol"> Administration</span>. </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Drag the <span class="uicontrol"> Share to Adobe Experience Cloud</span> button to your Bookmark toolbar. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigate to a help page (or remain on this one), then select <span class="uicontrol"> Share to Adobe Experience Cloud</span> in your browser's Bookmarks toolbar. </p> <p>This step creates a card, which you can view in the <span class="wintitle"> Experience Cloud</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>In the <span class="keyword"> CX Enterprise</span>, select <span class="uicontrol"> Administration</span>. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Drag the <span class="uicontrol"> Share to Adobe CX Enterprise</span> button to your Bookmark toolbar. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigate to a help page (or remain on this one), then select <span class="uicontrol"> Share to Adobe CX Enterprise</span> in your browser's Bookmarks toolbar. </p> <p>This step creates a card, which you can view in the <span class="wintitle"> CX Enterprise</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -788,20 +776,20 @@ With this update, administrators may see changes or additions to the Admin Conso
 * Deleting an image, [!UICONTROL Assets] does not warn if the image is used in [!DNL Adobe Target Essentials].
 * Comments link on asset card view is not selectable.
 * Options in combo boxes for adding new users temporarily disappear while typing.
-* Logging in to [!DNL Experience Cloud] takes longer than a second.
-* Data shared from [!DNL Advertising Cloud] is misrepresented in [!DNL Experience Cloud].
-* Adobe [!DNL Advertising Cloud] does not create users automatically when user has been created in [!DNL Experience Cloud].
-* [!DNL Experience Cloud] cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
-* [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
+* Logging in to [!DNL CX Enterprise] takes longer than a second.
+* Data shared from [!DNL Advertising Cloud] is misrepresented in [!DNL CX Enterprise].
+* Adobe [!DNL Advertising Cloud] does not create users automatically when user has been created in [!DNL CX Enterprise].
+* [!DNL CX Enterprise] cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
+* [!DNL CX Enterprise] interface can slow down when in parallel use by many users.
 * [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 * [!DNL Adobe Advertising Cloud] simulation cards are not rendering correctly.
-* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL Experience Cloud].
-* Filters applied to trended reports from Analytics are not applied to cards in Experience Cloud.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL CX Enterprise].
+* Filters applied to trended reports from Analytics are not applied to cards in CX Enterprise.
 * Some Excel or CSV files cannot be uploaded to a board.
-* Some users may not be able to link their audience management account with their [!DNL Experience Cloud].
-* Some users may experience error when sharing [!DNL Analytics] segments in [!DNL Experience Cloud].
+* Some users may not be able to link their audience management account with their [!DNL CX Enterprise].
+* Some users may experience error when sharing [!DNL Analytics] segments in [!DNL CX Enterprise].
 * Some users may not be able to drill down to subfolders in [!UICONTROL Asset Selector].
-* Some users are not able to share AdLens gadgets in [!DNL Experience Cloud].
+* Some users are not able to share AdLens gadgets in [!DNL CX Enterprise].
 
 ## March 2014
 
@@ -812,21 +800,21 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 **Known Issues** 
 
-* Deleting an image in Experience Cloud Assets does not warn if the image is used in Adobe Target Essentials.
+* Deleting an image in CX Enterprise Assets does not warn if the image is used in Adobe Target Essentials.
 * Refreshing a card from [!DNL Analytics] can sometimes lead to an empty chart in the expanded card.
 * Users must log out and log back in for all permission and entitlement changes to take effect.
 * When *`Remember me`* is not selected during login, the user will be logged out after 15 minutes.
 * [!DNL Analytics] application landing page shows formatting errors.
 * The Comments link on asset card view is not selectable.
-* Experience Cloud interface can slow down when in parallel use by many users
-* Experience Cloud cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple Target servers.
-* Logging in to Experience Cloud takes longer than a second.
+* CX Enterprise interface can slow down when in parallel use by many users
+* CX Enterprise cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple Target servers.
+* Logging in to CX Enterprise takes longer than a second.
 * After adding a custom tag to an asset, no other metadata changes can be persisted.
-* [!DNL Adobe Advertising Cloud] does not create users automatically when user has been created in Experience Cloud.
+* [!DNL Adobe Advertising Cloud] does not create users automatically when user has been created in CX Enterprise.
 * Options in combo boxes for adding new users temporarily disappear while typing.
-* Data shared from [!DNL Advertising Cloud] is mis-represented in Experience Cloud.
+* Data shared from [!DNL Advertising Cloud] is mis-represented in CX Enterprise.
 * Sharing Flickr images fails.
-* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in Experience Cloud.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in CX Enterprise.
 * Group and entitlement changes made in user management only take effect after a new login.
 * [!DNL Search&Promote] linking is not available from [!UICONTROL Organizations & Product Access].
 * Users have to refresh the board to make the deleted cards disappear from view.
@@ -860,7 +848,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 **Fixes** 
 
 * Fixed an issue that prevented shared [!DNL Analytics] reports from applying segment filters.
-* Fixed an issue causing applications to display on the [!UICONTROL Experience Cloud Solutions] page as linked, even if the applications accounts were not linked.
-* Fixed an issue that prevented [!DNL Adobe Target] customers in Asia from being able to select the **[!UICONTROL Continue to Experience Cloud]** button on the linking page.
+* Fixed an issue causing applications to display on the [!UICONTROL CX Enterprise Solutions] page as linked, even if the applications accounts were not linked.
+* Fixed an issue that prevented [!DNL Adobe Target] customers in Asia from being able to select the **[!UICONTROL Continue to CX Enterprise]** button on the linking page.
 * Fixed an issue that prevented the sharing of YouTube videos.
 -->
