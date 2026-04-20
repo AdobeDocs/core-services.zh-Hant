@@ -40,7 +40,7 @@ ht-degree: 42%
 
 # 開始使用CX Enterprise
 
-如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)實作CX Enterprise，則您已為[客戶屬性](../services/overview.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
+如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)實作CX Enterprise，則您已為[客戶屬性](../services/overview.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
 
 現有客戶可匯入最新的應用程式實作並實施CX Enterprise。 如此一來，您就可以橫跨Adobe Analytics、Audience Manager和Adobe Target使用客戶屬性和受眾功能。
 
@@ -56,7 +56,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 將這些群組對應至CX Enterprise企業群組時，這些使用者必須手動將其應用程式帳戶認證連結至其Adobe ID。
 
-檢視CX Enterprise中的[連結帳戶](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)
+檢視CX Enterprise中的[連結帳戶](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)
 
 >[!NOTE]
 >
@@ -94,11 +94,11 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 [!UICONTROL CX Enterprise ID Service]提供跨應用程式整合的通用ID。 它提供跨網域訪客身分識別，以及根據透過[!DNL Customer Attributes]上傳的CRM資料跨裝置/瀏覽器鎖定目標和個人化的路徑。
 
-啟用CX Enterprise核心服務最簡單的方法，就是透過[!UICONTROL Experience Platform Launch]中的[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，為Analytics和Adobe Target自動啟用。
+啟用CX Enterprise核心服務最簡單的方法，就是透過[!UICONTROL Experience Platform Launch]中的[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)，為Analytics和Adobe Target自動啟用。
 
 >[!NOTE]
 >
->如需完整的CX Enterprise ID Service說明（先前稱為訪客ID），請參閱[CX Enterprise Identity Service概觀](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)。
+>如需完整的CX Enterprise ID Service說明（先前稱為訪客ID），請參閱[CX Enterprise Identity Service概觀](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant#intro)。
 
 
 **未使用[!UICONTROL Experience Platform tags]？**
@@ -107,14 +107,14 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 | 任務 | 說明 |
 | --- | --- |
-| [實作適用於Analytics的CX Enterprise ID服務](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state)。 這些ID與每個訪客相關聯，實現了CX Enterprise中現有和未來的功能。 |
-| 將現有的 `s_code` 更新為 H.27.3 或更新版本，或將現有的 `AppMeasurement.js` 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)中下載。 (如果您需要更多 `AppMeasurement.js` 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js)指南。) |
+| [實作適用於Analytics的CX Enterprise ID服務](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/authenticated-state)。 這些ID與每個訪客相關聯，實現了CX Enterprise中現有和未來的功能。 |
+| 將現有的 `s_code` 更新為 H.27.3 或更新版本，或將現有的 `AppMeasurement.js` 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hant)中下載。 (如果您需要更多 `AppMeasurement.js` 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/js/overview#js)指南。) |
 
 ### Analytics與Adobe Target — 同步客戶ID {#sync-ids}
 
-在設定CX Enterprise ID Service時，Adobe建議您針對Analytics和[!DNL Target]將[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)與CX Enterprise同步。
+在設定CX Enterprise ID Service時，Adobe建議您針對Analytics和[!DNL Target]將[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)與CX Enterprise同步。
 
-在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。 (請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。)
+在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。 (請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant&?lang=zh-Hant)。)
 
 訪客在您的網站上進行驗證或以其他方式識別他們自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。 然後，您可以使用適當的函式呼叫，將客戶ID同步至CX Enterprise。 此同步會將訪客的CRM客戶ID儲存在CX Enterprise中，並啟動該客戶的屬性以用於CX Enterprise。
 
@@ -149,15 +149,15 @@ CX Enterprise服務（例如CX Enterprise ID Service）與CX Enterprise組織相
 
 ## 更新 Analytics AppMeasurement 程式碼
 
-如果您使用第一方Cookie，請參閱[CNAME和CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)，以取得資料收集CNAME和跨網域追蹤的相關資訊。
+如果您使用第一方Cookie，請參閱[CNAME和CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=zh-Hant)，以取得資料收集CNAME和跨網域追蹤的相關資訊。
 
-建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。 完成此步驟最簡單的方式是在 Experience Platform Data Collection 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)。
+建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。 完成此步驟最簡單的方式是在 Experience Platform Data Collection 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)。
 
 ## 更新您的 Adobe Target 實作
 
-* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;**&#x200B;**，Adobe Target才能使用人員服務。
-* 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動更新您的mbox資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
-* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
+* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hant)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;**&#x200B;**，Adobe Target才能使用人員服務。
+* 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動更新您的mbox資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hant)。
+* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 
   >[!IMPORTANT]
   >
@@ -210,13 +210,13 @@ mbox要求中的![CX Enterprise ID](../assets/mbox_request.png)
 
 如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至CX Enterprise的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
-如需詳細資訊，請參閱[客戶屬性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)。
+如需詳細資訊，請參閱[客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes)。
 
 ### [!UICONTROL People] > [!UICONTROL Audience Library]
 
 CX Enterprise [!UICONTROL Audiences]介面可讓您建立對象、組合現有對象以建立複合對象，以及檢視所有共用對象。
 
-如需詳細資訊，請參閱[對象](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview)。
+如需詳細資訊，請參閱[對象](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/overview)。
 
 ## 資料儲存和隱私洩露
 
