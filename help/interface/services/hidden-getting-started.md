@@ -107,7 +107,7 @@ CX Enterprise功能表導覽內有&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 ### 行動 SDK
 
-如需在[CX Enterprise](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[Android](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*iOS ID服務™1}一節。*
+如需在[CX Enterprise](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[Android](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*iOS ID服務™1&rbrace;一節。*
 
 ### 啟用歷史資料的屬性
 
@@ -131,7 +131,7 @@ CX Enterprise服務（例如CX Enterprise ID Service）與CX Enterprise組織相
 
 ## 更新您的 Adobe Target 實作 {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;****，Adobe Target才能使用人員服務。
+* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;**&#x200B;**，Adobe Target才能使用人員服務。
 * 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動更新您的mbox資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
 * 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
@@ -154,7 +154,7 @@ CX Enterprise服務（例如CX Enterprise ID Service）與CX Enterprise組織相
 
 包含CX Enterprise ID （也稱為`mid`或&#x200B;_訪客ID_）的Analytics影像要求：
 
-包含CX Enterprise ID ](../assets/mid.png)的![Analytics影像要求
+包含CX Enterprise ID ![&#128279;](../assets/mid.png)的Analytics影像要求
 
 mbox請求中的CX Enterprise ID：
 

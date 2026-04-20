@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
-更新日期： 2026年3月5日&#x200B;****
+更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 瞭解CX Enterprise應用程式中的代理式AI工作和AI點數消耗。 如需有關在現有CX Enterprise應用程式中啟用代理程式人工智慧功能的資訊，請參閱[CX Enterprise中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 

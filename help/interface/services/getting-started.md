@@ -9,11 +9,28 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 TQID: https://experienceleague.adobe.com/5SyRdqyQkymJJygKeQ9FXIYoVe70br51DY2VKmqSC0E
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: ecb4a972-6786-444c-a014-abc528b9407aid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 2150
@@ -114,7 +131,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 ### 行動 SDK
 
-如需在[CX Enterprise](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[Android](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*iOS ID服務™1}一節。*
+如需在[CX Enterprise](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[Android](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*iOS ID服務™1&rbrace;一節。*
 
 ### 啟用歷史資料的屬性
 
@@ -138,7 +155,7 @@ CX Enterprise服務（例如CX Enterprise ID Service）與CX Enterprise組織相
 
 ## 更新您的 Adobe Target 實作
 
-* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;****，Adobe Target才能使用人員服務。
+* 建議您在[!UICONTROL Experience Platform]標籤中新增[Adobe Target擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以使用[!UICONTROL Experience Platform]標籤為Adobe Target （和其他應用程式）設定[CX Enterprise ID服務擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)。 需要[!UICONTROL CX Enterprise ID Service]更新&#x200B;**&#x200B;**，Adobe Target才能使用人員服務。
 * 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動更新您的mbox資料庫](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)。
 * 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
@@ -161,7 +178,7 @@ CX Enterprise服務（例如CX Enterprise ID Service）與CX Enterprise組織相
 
 包含CX Enterprise ID （也稱為`mid`或&#x200B;_訪客ID_）的Analytics影像要求：
 
-包含CX Enterprise ID ](../assets/mid.png)的![Analytics影像要求
+包含CX Enterprise ID ![&#128279;](../assets/mid.png)的Analytics影像要求
 
 mbox請求中的CX Enterprise ID：
 
