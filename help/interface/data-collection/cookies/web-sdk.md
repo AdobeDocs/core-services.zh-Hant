@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
 source-wordcount: 484
 ht-degree: 1%
@@ -43,6 +43,6 @@ Adobe Experience Platform Web SDK使用Cookie來儲存實作特有的值。
 | **`kndctr_<orgId>_personalization`** | 34128000 （395天） | | 儲存Adobe Target用來個人化內容的工作階段資訊。 |
 | **`mbox`** | 63072000 （2年） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)啟用時出現。 它允許網頁SDK設定Target [mbox Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)。 |
 | **`mboxEdgeCluster`** | 1800 （30分鐘） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)啟用時出現。 它可讓Web SDK將正確的邊緣叢集通訊給`at.js`，以便在使用者瀏覽網站時，Target設定檔可以保持同步。 |
-| **`s_ecid`** | 63115200 （2年） | ~45 位元組 | 包含格式為`s_ecid=MCMID\|<ECID>`的Experience Cloud ID (ECID/MID)復本。 主要針對CNAME （第一方）案例，用作ECID的第一方備份。 |
+| **`s_ecid`** | 63115200 （2年） | ~45 位元組 | 包含格式為`s_ecid=MCMID\|<ECID>`的CX Enterprise ID (ECID/MID)復本。 主要針對CNAME （第一方）案例，用作ECID的第一方備份。 |
 
 Edge Network會設定具有`secure`和`sameSite="none"`屬性的所有Cookie。 如果您的網站上目前同時有安全和非安全區段，則使用者識別可能會不準確。 當使用者從網站的安全區段導覽到不安全的區段時，Edge Network會使用請求產生新的`ECID`。

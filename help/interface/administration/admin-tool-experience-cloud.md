@@ -1,6 +1,6 @@
 ---
 title: 檢視使用者和使用者詳細資訊
-description: 了解 Experience Cloud 中的管理工具。檢視所有 Experience Cloud 使用者和原則的可排序和可篩選清單。
+description: 瞭解CX Enterprise中的管理工具。 檢視所有CX Enterprise使用者和原則的可排序和可篩選清單。
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -15,16 +15,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# CX Enterprise [!UICONTROL Admin Tool]
 
-管理員可以在[!UICONTROL Admin Tool]中檢視所有Experience Cloud使用者和原則及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
+管理員可以在[!UICONTROL Admin Tool]中檢視所有CX Enterprise使用者和原則及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 
 1. 登入 `https://experience.adobe.com/.`
 
@@ -38,30 +38,30 @@ ht-degree: 75%
 
 ## 「使用者」頁面
 
-此頁面顯示貴組織中可存取 Experience Cloud 的使用者完整清單。它會提供有關應用程式許可權和上次登入的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
+此頁面顯示貴組織中可存取CX Enterprise的使用者完整清單。 它會提供有關應用程式許可權和上次登入的資訊。 您可以搜尋、排序和篩選使用者清單以取得自訂檢視。
 
 ![Admin Console 使用者頁面](../assets/admin-tool-users.png)
 
 | 元素 | 說明 |
 | --- | ---|
-| [!UICONTROL Name] | 使用者的名字和姓氏。您可以將此欄由A到Z和Z到A排序。按一下使用者名稱即可檢視有關該使用者的詳細資訊。 |
-| [!UICONTROL Email] | 與使用者相關聯的電子郵件地址。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL ID Type] | 使用者帳戶的身分識別類型。可套用篩選器以檢視特定 ID 類型。如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
-| [!UICONTROL Solutions] | 使用者可存取的 Experience Cloud 應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL Last Login] | 使用者上次登入Experience Cloud的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊的用途是顯示Experience Cloud中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL Name] | 使用者的名字和姓氏。 您可以將此欄由A到Z和Z到A排序。按一下使用者名稱即可檢視有關該使用者的詳細資訊。 |
+| [!UICONTROL Email] | 與使用者相關聯的電子郵件地址。 欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL ID Type] | 使用者帳戶的身分識別類型。 可套用篩選器以檢視特定 ID 類型。 如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
+| [!UICONTROL Solutions] | 使用者可存取的CX Enterprise應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
+| [!UICONTROL Last Login] | 使用者上次登入CX Enterprise的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊的用途是顯示CX Enterprise中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
 您可以搜尋、排序或篩選欄以自訂使用者清單。
 
-* 依名稱或電子郵件搜尋使用者。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。此排序適用於[!UICONTROL Name,] [!UICONTROL Email,]和[!UICONTROL Last Login]欄。
+* 依名稱或電子郵件搜尋使用者。 搜尋會比對您輸入的文字字串。
+* 依遞增或遞減值排序欄。 此排序適用於[!UICONTROL Name,] [!UICONTROL Email,]和[!UICONTROL Last Login]欄。
 * 若要套用多個篩選器以列出具有特定條件的使用者，請按一下&#x200B;**[!UICONTROL Filter By]**。 套用多個篩選器類別時，搜尋會包含「電子郵件網域」`AND`「ID 類型」`AND`「解決方案」。
 
 | 元素 | 說明 |
 | ---------| ----------|
-| [!UICONTROL Email Domain]篩選器 | 在「電子郵件」欄中搜尋字元字串，將結果縮小至一或多個網域。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器 |
-| [!UICONTROL ID Type]篩選器 | 從可用的 ID 類型中選擇。多個 ID 類型均可作為篩選器使用。 |
+| [!UICONTROL Email Domain]篩選器 | 在「電子郵件」欄中搜尋字元字串，將結果縮小至一或多個網域。 在每個搜尋詞後按 Enter 鍵即可新增多個篩選器 |
+| [!UICONTROL ID Type]篩選器 | 從可用的 ID 類型中選擇。 多個 ID 類型均可作為篩選器使用。 |
 | [!UICONTROL Solution]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
 
 ## 檢視使用者詳細資訊
@@ -80,13 +80,13 @@ ht-degree: 75%
 * 名稱
 * 電子郵件
 * 用戶名稱 (Federated ID 帳戶的使用者名稱必須與電子郵件地址不同)
-* [ID 類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)
+* [ID型別](https://helpx.adobe.com/tw/enterprise/using/identity.html)
 * 國家/地區
 * 上次登入
 
 ## 解決方案摘要
 
-本區段顯示使用者可存取的 Experience Cloud 應用程式摘要。 包含產品管理角色 (如果適用)。
+本區段顯示使用者可存取的CX Enterprise應用程式摘要。 包含產品管理角色 (如果適用)。
 
 ## 詳細的產品存取清單
 
@@ -97,34 +97,34 @@ ht-degree: 75%
 | [!UICONTROL Product] | 與產品設定檔相關聯的產品名稱。 |
 | [!UICONTROL Instance] | 與產品和產品設定檔相關聯的例項名稱 (例如登入公司或租用戶)。 |
 | [!UICONTROL Product profile] | 產品設定檔的不重複名稱。 |
-| [!UICONTROL Assigned by Group] | 為使用者與產品設定檔建立關聯的使用者群組名稱。空白結果表示使用者是直接指派至產品設定檔，而非透過群組。 |
-| [!UICONTROL Product Roles] | 產品設定檔中的使用者角色指派。目前此資訊僅適用於 Adobe Target 產品設定檔。 |
+| [!UICONTROL Assigned by Group] | 為使用者與產品設定檔建立關聯的使用者群組名稱。 空白結果表示使用者是直接指派至產品設定檔，而非透過群組。 |
+| [!UICONTROL Product Roles] | 產品設定檔中的使用者角色指派。 目前此資訊僅適用於 Adobe Target 產品設定檔。 |
 
 ## 「原則」頁面
 
-此頁面顯示貴組織中的完整 Experience Cloud 原則清單，提供產品、例項、使用者和開發人員的相關資訊。您可以搜尋、排序和篩選原則清單，以自訂檢視內容。
+此頁面顯示貴組織中CX Enterprise原則的完整清單。 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。
 
 ![Admin Console 中的原則頁面](../assets/admin-tool-policies.png)
 
 | 元素 | 說明 |
 | ---| ---|
-| [!UICONTROL Product rofile] | 產品設定檔的名稱。欄可依 A-> Z、Z-> A 排序。若要查看有關原則的更多詳情，請選取產品設定檔的名稱。 |
-| [!UICONTROL Product] | 與產品設定檔相關聯的產品。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL Instance] | 與產品設定檔相關聯的例項 (例如租用戶或登入公司)。如果是沒有唯一例項或租用戶的產品，其值會顯示為「-」。欄可以按 A->Z、Z->A 排序。 |
-| [!UICONTROL Number of Users] | 與產品設定檔相關聯的不重複使用者人數，包括直接指派和群組指派。欄可以按最小值到最大值或最大值到最小值排序。 |
-| [!UICONTROL Number of Developers] | 與產品設定檔相關聯的開發人員角色數。欄可以按最小值到最大值或最大值到最小值排序。 |
+| [!UICONTROL Product rofile] | 產品設定檔的名稱。 欄可依 A-> Z、Z-> A 排序。若要查看有關原則的更多詳情，請選取產品設定檔的名稱。 |
+| [!UICONTROL Product] | 與產品設定檔相關聯的產品。 欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL Instance] | 與產品設定檔相關聯的例項 (例如租用戶或登入公司)。 如果是沒有唯一例項或租用戶的產品，其值會顯示為「-」。 欄可以按 A->Z、Z->A 排序。 |
+| [!UICONTROL Number of Users] | 與產品設定檔相關聯的不重複使用者人數，包括直接指派和群組指派。 欄可以按最小值到最大值或最大值到最小值排序。 |
+| [!UICONTROL Number of Developers] | 與產品設定檔相關聯的開發人員角色數。 欄可以按最小值到最大值或最大值到最小值排序。 |
 
 ## 自訂原則清單檢視
 
 您可以搜尋、排序或篩選欄以自訂原則清單。
 
-* 依名稱搜尋產品設定檔。搜尋會比對您輸入的文字字串。
-* 依遞增或遞減值排序欄。此排序適用於[!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,]和[!UICONTROL Number of Developers,]欄。
+* 依名稱搜尋產品設定檔。 搜尋會比對您輸入的文字字串。
+* 依遞增或遞減值排序欄。 此排序適用於[!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,]和[!UICONTROL Number of Developers,]欄。
 * 按一下&#x200B;**[!UICONTROL Filter By]**&#x200B;圖示可套用多個篩選器，以列出符合特定條件的產品設定檔。 套用多個篩選類別時，搜尋會包含與`AND`例項`AND`解決方案相關聯的群組。
 
 | 元素 | 說明 |
 | ---------| ----------|
-| [!UICONTROL Instance]篩選器 | 在「例項」欄中搜尋字元字串，將結果範圍縮小至一或多個例項。在每個搜尋詞後按 Enter 鍵即可新增多個篩選器。 |
+| [!UICONTROL Instance]篩選器 | 在「例項」欄中搜尋字元字串，將結果範圍縮小至一或多個例項。 在每個搜尋詞後按 Enter 鍵即可新增多個篩選器。 |
 | [!UICONTROL Solution]篩選器 | 從可用的應用程式中選擇。 多個應用程式篩選器會搜尋包含「解決方案 1」`OR`「解決方案 2」的結果。 |
 
 ## 檢視原則詳細資訊
@@ -135,7 +135,7 @@ ht-degree: 75%
 
 每個產品設定檔的詳細檢視都會顯示產品設定檔主體（使用者、群組等）的重要詳細資訊， 也會顯示產品設定檔啟用的權限和資源。
 
-產品設定檔的詳細資訊可匯出為 CSV 檔案。[!UICONTROL Export CSV]選項會產生兩個CSV檔案：
+產品設定檔的詳細資訊可匯出為 CSV 檔案。 [!UICONTROL Export CSV]選項會產生兩個CSV檔案：
 
 * 主體詳細資訊 (使用者、使用者群組、開發人員、整合項目、管理員)
 * 權限和資源項目
@@ -157,7 +157,7 @@ ht-degree: 75%
 
 | 標記 | 說明 |
 | ---------| ----------|
-| [!UICONTROL Users] | 產品設定檔中包含的使用者清單。使用者群組關聯出現在[!UICONTROL Assigned by group]欄中。 |
+| [!UICONTROL Users] | 產品設定檔中包含的使用者清單。 使用者群組關聯出現在[!UICONTROL Assigned by group]欄中。 |
 | [!UICONTROL User Groups] | 與產品設定檔相關聯的使用者群組清單。 |
 | [!UICONTROL Developers] | 與產品設定檔相關聯的開發人員清單。 |
 | [!UICONTROL Integrations] | 與產品設定檔相關聯的整合清單。 |
@@ -165,8 +165,8 @@ ht-degree: 75%
 
 ## 詳細的權限和資源清單
 
-本區段顯示完整的產品設定檔可用權限和資源清單。產品設定檔中包含的許可權和資源已標示&quot;✔&quot;。 權限和資源清單會分類為各個標記和欄，以便檢視。標記和欄會顯示適用於目前產品的區段清單。
+本區段顯示完整的產品設定檔可用權限和資源清單。 產品設定檔中包含的許可權和資源已標示&quot;✔&quot;。 權限和資源清單會分類為各個標記和欄，以便檢視。 標記和欄會顯示適用於目前產品的區段清單。
 
 ## 相關資訊
 
-* 在[中](https://helpx.adobe.com/tw/enterprise/using/users.html)管理使用者[!DNL Admin Console]
+* 在[!DNL Admin Console]中[管理使用者](https://helpx.adobe.com/tw/enterprise/using/users.html)

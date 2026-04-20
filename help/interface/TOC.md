@@ -3,20 +3,19 @@ role: User,Admin
 user-guide-title: Experience Cloud 介面與管理
 breadcrumb-title: Experience Cloud 介面與管理
 title: Experience Cloud 介面與管理
-description: 了解 Experience Cloud 介面、Cookie 和帳戶偏好設定。 管理產品和設定 People 服務，包括客戶屬性和客群庫。 共用 Experience Cloud 資產。
+description: 瞭解CX Enterprise介面、Cookie和帳戶偏好設定。 管理產品和設定 People 服務，包括客戶屬性和客群庫。 共用CX Enterprise Assets。
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 71%
 
 ---
 
+# CX Enterprise介面和管理 {#interface}
 
-# Experience Cloud 介面與管理 {#interface}
-
-+ [Experience Cloud 介面與管理](/help/interface/experience-cloud.md)
-+ Experience Cloud 中的 AI {#features}
++ [CX Enterprise介面和管理](/help/interface/experience-cloud.md)
++ CX Enterprise中的AI {#features}
    + [生成式 AI](/help/interface/features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
    + {hide-from-toc}[AI監視](/help/interface/features/ai-monitoring.md)
@@ -66,7 +65,7 @@ ht-degree: 85%
       + [Advertising cookies](/help/interface/data-collection/cookies/advertising.md)
       + [Analytics Cookie](/help/interface/data-collection/cookies/analytics.md)
       + [Audience Manager Cookie](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Experience Cloud Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [CX Enterprise Cookie](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Target Cookie](/help/interface/data-collection/cookies/target.md)
       + [Web SDK cookie](/help/interface/data-collection/cookies/web-sdk.md)
    + [地區資料收集](/help/interface/data-collection/rdc.md)

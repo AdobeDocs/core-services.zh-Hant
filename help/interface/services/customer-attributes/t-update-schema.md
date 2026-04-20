@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何刪除和取代Adobe Experience Cloud結構中的屬性。
+description: 瞭解如何刪除和取代Adobe CX Enterprise結構中的屬性。
 title: 更新結構（刪除屬性）
 feature: Customer Attributes
 topic: Administration
@@ -13,7 +13,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 54
 ht-degree: 42%

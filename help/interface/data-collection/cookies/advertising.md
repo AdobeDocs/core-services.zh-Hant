@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 12%
+source-wordcount: 309
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Advertising （前身為Adobe Advertising Cloud）使用Cookie將廣告參
 
 >[!NOTE]
 >
->使用[Adobe Advertising ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)的Beta版Adobe Experience Cloud Javascript標籤會建立第一方[Experience Cloud](experience-cloud.md) `s_ecid` Cookie，而不是Adobe Advertising Cookie。
+>使用[Adobe Advertising ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant)的Beta版Adobe CX Enterprise Javascript標籤會建立第一方[CX Enterprise](experience-cloud.md) `s_ecid` Cookie，而不是Adobe Advertising Cookie。
 
 | Cookie 名稱 | 有效期限 | 大小 | 位置 | 說明 |
 | --- | --- | --- | --- | --- |

@@ -14,10 +14,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 64%
+source-wordcount: 402
+ht-degree: 52%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->本文件的內容並非法律建議，其宗旨並非取代專業的法律建議。如需 CCPA 的相關建議，請諮詢法律顧問。
+>本文件的內容並非法律建議，其宗旨並非取代專業的法律建議。 如需 CCPA 的相關建議，請諮詢法律顧問。
 
-CCPA是加州的最新隱私權法，自2020年1月1日起生效。 CCPA 賦予加州居民個人資訊方面的新權利，並針對在加州營運的特定實體加諸資料保護責任。CCPA給予消費者存取及刪除其個人資訊的權利，且消費者有權選擇退出能將個人資訊「銷售」給第三方的某些活動。
+CCPA是加州的最新隱私權法，自2020年1月1日起生效。 CCPA 賦予加州居民個人資訊方面的新權利，並針對在加州營運的特定實體加諸資料保護責任。 CCPA給予消費者存取及刪除其個人資訊的權利，且消費者有權選擇退出能將個人資訊「銷售」給第三方的某些活動。
 
-企業能決定哪些個人資料要交由 Adobe Experience Cloud 代表您處理和儲存。
+企業能決定哪些個人資料要交由Adobe CX Enterprise代表您處理和儲存。
 
-Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience Cloud 產品和服務相關的事務，Adobe Experience Cloud 均可支援您的企業履行 CCPA 所規定的相關義務。此支持包括管理存取和刪除個人資訊的請求。
+身為您的服務提供者，Adobe CX Enterprise會為貴企業提供支援，以履行CCPA所規範的義務，這些義務適用於使用CX Enterprise產品和服務。 此支持包括管理存取和刪除個人資訊的請求。
 
 本檔案說明[!DNL Customer Attributes]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI，支援您的資料主體存取CCPA資料和刪除許可權。
 
@@ -49,7 +49,7 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
    * 您要對其採取動作之 CRS 資料來源的別名 ID
    * 您要對其採取動作之輪廓的 CRM ID
 
-   您的組織ID是24個字元的英數字串，後面接著@AdobeOrg。 您需先取得組織 ID，才能向隱私權 API 提交請求。如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
+   您的組織ID是24個字元的英數字串，後面接著@AdobeOrg。 您需先取得組織 ID，才能向隱私權 API 提交請求。 如果您找不到 ID，請聯絡 Adobe 客戶服務`gdprsupport@adobe.com`。
 
 1. 在[!UICONTROL Privacy Service]中，您可以將存取和刪除請求提交至客戶屬性，以及檢查現有請求的狀態。
 
@@ -58,7 +58,7 @@ Adobe Experience Cloud 是您的服務提供者，只要是與使用 Experience 
 &quot;company context&quot;：
 
 * &quot;namespace&quot;：**imsOrgID**
-* &quot;value&quot;： &lt;*您的組織識別碼值*>
+* &quot;value&quot;： &lt;*您的組織ID值*>
 
 &quot;users&quot;：
 

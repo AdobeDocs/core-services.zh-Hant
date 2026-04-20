@@ -1,6 +1,6 @@
 ---
 title: 關於 [!DNL Customer Attributes]
-description: 瞭解Adobe Experience Cloud中的 [!DNL Customer Attributes] 。 了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
+description: 瞭解Adobe CX Enterprise中的 [!DNL Customer Attributes] 。 了解如何上傳客戶屬性資料，以便在 Adobe Analytics 和 Adobe Target 使用。
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,36 +23,36 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 55%
+source-wordcount: 313
+ht-degree: 47%
 
 ---
 
-# Experience Cloud 中的 [!DNL Customer Attributes]
+# CX Enterprise中的[!DNL Customer Attributes]
 
 **[!UICONTROL Apps]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Adobe Experience Cloud中的[!DNL Customer Attributes]可讓您上傳從客戶關係管理(CRM)資料庫擷取的企業資料。 您可以[將資料](t-crs-usecase.md)上傳到Experience Cloud中的[!DNL Customer Attributes]資料來源，然後在[!DNL Adobe Analytics]和[!DNL Adobe Target]中使用資料。
+Adobe CX Enterprise中的[!DNL Customer Attributes]可讓您上傳從客戶關係管理(CRM)資料庫擷取的企業資料。 您可以[將資料](t-crs-usecase.md)上傳到CX Enterprise中的[!DNL Customer Attributes]資料來源，然後在[!DNL Adobe Analytics]和[!DNL Adobe Target]中使用資料。
 
 ![客戶屬性概觀](assets/custom_reports.png)
 
 ## 關於企業客戶資料 {#customer-data}
 
-企業客戶資料是指收集到的有關客戶、潛在客戶和合作夥伴的全組織資訊。這些資料位於其他系統上，可包含成員資格、忠誠度、年齡、性別、擁有的產品、興趣和終身價值等資訊。
+企業客戶資料是指收集到的有關客戶、潛在客戶和合作夥伴的全組織資訊。它位在其他系統上，可能包含成員資格、忠誠度、年齡、性別、擁有的產品、興趣和終身價值等資訊。
 
 下列影像是&#x200B;_資料檔_&#x200B;的範例，顯示產品的訂閱者資料，包括成員ID、已授權產品、最常啟動的產品等。
 
 ![什麼是企業客戶資料？](assets/01_crs_usecase.png)
 
-建立資料檔案後，可將其上傳至您在&#x200B;**[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**&#x200B;中建立的客戶屬性來源。
+建立資料檔案後，可將其上傳至您在&#x200B;**[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]**&#x200B;中建立的客戶屬性來源。
 
 請參閱[上傳客戶屬性資料](t-crs-usecase.md)以瞭解此工作流程。
 
 ## Analytics 和 Target 中的客戶屬性範例
 
-資料傳入 Experience Cloud 後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
+資料傳入CX Enterprise後，您就可以自訂資料，並共用至解決方案以用於報表、細分、活動和行銷活動。
 
 例如：
 

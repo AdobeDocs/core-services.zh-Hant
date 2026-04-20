@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud應用程式中的Agentic AI
-description: 瞭解Experience Cloud應用程式中可在何處使用Agentic AI。
+description: 瞭解CX Enterprise應用程式中可在何處使用Agentic AI。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,33 +9,33 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da76627141c73cea8cc777b7aca7456af5938d82
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '1131'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# Adobe Experience Cloud中的Agentic AI
+# Adobe CX Enterprise中的Agentic AI
 
 更新日期： **2026年4月6日**
 
-Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)提供技術支援，可在Experience Cloud應用程式中啟用代理程式人工智慧功能。
+Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)提供技術支援，可在CX Enterprise應用程式中啟用代理程式人工智慧功能。
 
-這些代理程式有助於自動化工作、更快地提供見解並簡化工作流程。 因此，團隊可以更有效率地工作，並從Experience Cloud中獲得更多價值。
+這些代理程式有助於自動化工作、更快地提供見解並簡化工作流程。 因此，團隊可以更有效率地工作，並從CX Enterprise中獲得更多價值。
 
-您可透過下列任一方式存取Experience Cloud中的AI代理程式：
+您可透過下列任一方式存取CX Enterprise中的AI代理程式：
 
-* [現有的Experience Cloud應用程式](#existing-apps)
-* [AI優先的Experience Cloud應用程式](#ai-first-apps)
+* [現有的CX Enterprise應用程式](#existing-apps)
+* [AI優先的CX Enterprise應用程式](#ai-first-apps)
 
-以下幾節將說明在Experience Cloud中啟用代理式AI的兩種方式。
+以下幾節將說明在CX Enterprise中啟用代理式AI的兩種方式。
 
-## 現有的Experience Cloud應用程式 {#existing-apps}
+## 現有的CX Enterprise應用程式 {#existing-apps}
 
 在現有應用程式中，您可以使用自然語言，透過[AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)交談介面來指示Adobe Experience Platform代理程式。 AI Assistant可用於全熒幕和右邊欄檢視。
 
-您可以在現有的Experience Cloud應用程式中，為具有以下類別之一的客戶啟用代理程式：
+您可以在現有的CX Enterprise應用程式中，為具有以下類別之一的客戶啟用代理程式：
 
 * 您已購買Adobe Experience Platform Agents AI信用授權
 * 您被包含在符合使用規定的試用中（提供的有限AI積分）
@@ -43,11 +43,11 @@ Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator]
 
 使用AI代理程式執行&#x200B;_代理程式工作_&#x200B;會使用AI積分。 深入瞭解&#x200B;_[代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)_&#x200B;中的代理程式工作和AI信用消耗。
 
-AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品層級的存取控制。 您只能執行您獲授權可在基礎Experience Cloud應用程式中使用的工作或存取資料。
+AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品層級的存取控制。 您只能執行您獲授權可在基礎CX Enterprise應用程式中使用的工作或存取資料。
 
-### 現有Experience Cloud應用程式中的AI代理程式 {#existing-apps-table}
+### 現有CX Enterprise應用程式中的AI代理程式 {#existing-apps-table}
 
-下表列出現有Experience Platform應用程式中可用的Experience Cloud代理程式。
+下表列出現有Experience Platform應用程式中可用的CX Enterprise代理程式。
 
 | 代理程式名稱 | 功能 | 支援的應用程式 |
 |---|----------|----------|
@@ -60,7 +60,7 @@ AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品
 | [產品支援代理程式](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | 在不離開工作流程的情況下疑難排解支援問題、建立客戶支援票證，並使用AI Assistant追蹤案例進度。 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer （B2B和B2C版本）</li><li>Customer Journey Analytics （B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> |
 | [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | 將Experience Platform直接連線至Microsoft 365 Copilot。 您可以在Microsoft 365應用程式（例如Teams、Word、Powerpoint和Excel）中詢問自然語言問題，以便立即從Experience Platform擷取行銷深入分析，而不會中斷您的工作流程。 | <ul><li> Adobe Agent Orchestrator支援Audience Agent、Journey Agent、Customer Journey Analytics Data Insights、Experience Platform Operational Insights</li></ul> |
 
-## AI優先的Experience Cloud應用程式 {#ai-first-apps}
+## AI優先的CX Enterprise應用程式 {#ai-first-apps}
 
 AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們使用產生式或無代理式Al來執行關鍵任務，而無代理式功能已包含在Al-first應用程式授權中。 因此，它們不需要Experience Platform Agent Orchestrator授權。
 
@@ -76,7 +76,7 @@ AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們
 ## 有關此主題的更多說明
 
 * [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-* Experience Cloud中的[AI](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁
+* CX Enterprise中的[AI](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁
 * [AEM代理程式概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}

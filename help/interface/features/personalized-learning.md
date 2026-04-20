@@ -1,5 +1,5 @@
 ---
-description: 透過電子郵件、在您的Experience Cloud產品中以及在Experience League社群中，根據您的使用情況資料，接收個人化的幫助和促銷。
+description: 透過電子郵件、在您的CX Enterprise產品中以及在Experience League社群中，根據您的使用情況資料，接收個人化的幫助和促銷。
 solution: Experience Cloud
 title: Experience Cloud 個人化學習偏好設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -16,16 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 103
-ht-degree: 19%
+source-wordcount: 105
+ht-degree: 20%
 
 ---
 
 # 個人化學習偏好設定
 
-Adobe會根據您在Adobe產品中的工作，為您提供量身打造的實用內容。 產品使用資料會告知我們如何為您量身打造此內容。 您可以在[Experience Cloud偏好設定](https://experience.adobe.com/preferences)頁面上選擇加入或選擇退出分享您的產品使用資料。
+Adobe會根據您在Adobe產品中的工作，為您提供量身打造的實用內容。 產品使用資料會告知我們如何為您量身打造此內容。 您可以在[CX Enterprise偏好設定](https://experience.adobe.com/preferences)頁面上選擇加入或選擇退出分享您的產品使用資料。
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

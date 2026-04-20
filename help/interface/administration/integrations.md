@@ -1,5 +1,5 @@
 ---
-description: 尋找Adobe Experience Cloud中可用的應用程式整合。
+description: 尋找Adobe CX Enterprise中可用的應用程式整合。
 solution: Experience Cloud
 title: Experience Cloud 整合
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
@@ -30,39 +30,39 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 898
-ht-degree: 68%
+source-wordcount: 1111
+ht-degree: 30%
 
 ---
 
-# Experience Cloud 整合
+# CX Enterprise整合
 
-本頁說明開始整合Experience Cloud應用程式的幾種方法。 如需詳細資訊，請瀏覽Experience League上的[整合教學課程影片](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)資料庫。
+本頁說明開始整合CX Enterprise應用程式的幾種方法。 如需詳細資訊，請瀏覽Experience League上的[整合教學課程影片](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)資料庫。
 
-## 為 Platform 服務啟用您的 Experience Cloud 應用程式
+## 為平台服務啟用您的CX Enterprise應用程式
 
 作業方式說明：
 
-* 在Experience Cloud中布建您的公司。
+* 在CX Enterprise中布建您的公司。
 * 讓您成為管理員。
-* [實作 Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
-* 透過[!DNL Analytics]更新您的[!DNL Target]和[!UICONTROL Platform Data Collection]實作。
-* 開始使用Experience Cloud服務，例如[客戶屬性](../services/customer-attributes/attributes.md)和[對象庫](../services/audiences/overview.md)。
+* [實作CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 透過[!UICONTROL Platform Data Collection]更新您的[!DNL Analytics]和[!DNL Target]實作。
+* 開始使用CX Enterprise服務，例如[客戶屬性](../services/customer-attributes/attributes.md)和[對象庫](../services/audiences/overview.md)。
 
 解決方案或服務：
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=zh-Hant)
-* [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
+* [CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
-## Experience Cloud ID 服務
+## CX Enterprise ID服務
 
-ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式中的訪客。 這可取代 Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他 Experience Cloud 應用程式和產品的 ID 產生碼。
+ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式中的訪客。 這可取代Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他CX Enterprise應用程式和產品的ID產生碼。
 
-請參閱 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
+請參閱[CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
 **適用的應用程式或服務**
 
@@ -73,10 +73,10 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 說明：[客群](/help/interface/services/audiences/overview.md)
 
-在Experience Cloud [!UICONTROL Audience Library]中建立和管理對象。 您可以建立客群，或從各種來源衍生出客群，例如：
+在CX Enterprise [!UICONTROL Audience Library]中建立和管理對象。 您可以建立客群，或從各種來源衍生出客群，例如：
 
-* 在[!DNL Experience Cloud]中建立新的對象。
-* 從[!DNL Analytics]個區段發佈至[!DNL Experience Cloud]。
+* 在[!DNL CX Enterprise]中建立新的對象。
+* 從[!DNL Analytics]個區段發佈至[!DNL CX Enterprise]。
 * 開始日期 [!DNL Audience Manager].
 
 **適用的解決方案或服務**
@@ -89,22 +89,22 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 說明：[客戶屬性](/help/interface/services/customer-attributes/attributes.md)
 
-如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至Experience Cloud的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
+如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至CX Enterprise的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
 **適用的解決方案或服務**
 
 * Adobe Analytics：客戶屬性報表
 * Adobe Target：設定Adobe Target的[訂閱](/help/interface/services/customer-attributes/subscription.md)以使用客戶屬性
 
-## Experience Cloud 資產
+## CX Enterprise Assets
 
-說明：[與 Creative Cloud 共用 Experience Cloud 資料夾](/help/interface/services/assets/share.md)
+說明： [與Creative Cloud共用CX Enterprise資料夾](/help/interface/services/assets/share.md)
 
-在 Experience Cloud 和 Creative Cloud 之間共用資料夾和資產。共同作業、為共用資產加上註釋，以及在Experience Cloud應用程式(例如Adobe Target)中使用這些資產。
+在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX Enterprise應用程式（例如Adobe Target）中使用這些資產。
 
 **適用的應用程式或服務**
 
-* Adobe Experience Cloud
+* Adobe CX Enterprise
 * Adobe Creative Cloud
 * Adobe Target
 
@@ -123,24 +123,24 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=zh-Hant)
 
-在 Audience Manager 中處理 Experience Cloud 應用程式或其他外部系統的資料。
+在Audience Manager中處理CX Enterprise應用程式或其他外部系統的資料。
 
 **適用的應用程式或服務**
 
-* [Analytics 伺服器端轉送功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)
-* [將 Audience Manager 區段傳送至 Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)
-* [Adobe Target 資料整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=zh-Hant)
+* [Analytics伺服器端轉送功能](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)
+* [將Audience Manager區段傳送至Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)
+* [Adobe Target資料整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=zh-Hant)
 
 ## Adobe Target
 
-說明： [整合Adobe Target與Experience Cloud](/help/interface/services/audiences/overview.md)
+說明： [整合Adobe Target與CX Enterprise](/help/interface/services/audiences/overview.md)
 
-將 Adobe Target 與 Adobe Analytics 及其他 Experience Cloud 應用程式整合後，即可在上述兩個應用程式中使用相同的資料、客群、屬性及量度。
+將Adobe Target與Adobe Analytics及其他CX Enterprise應用程式整合後，即可在上述兩個應用程式中使用相同的資料、對象、屬性及量度。
 
 **適用的應用程式或服務**
 
 * 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](/help/interface/services/customer-attributes/subscription.md)
-* Experience Cloud Audiences：[Experience Cloud 對象庫](/help/interface/services/audiences/overview.md)
+* CX Enterprise對象： [CX Enterprise對象庫](/help/interface/services/audiences/overview.md)
 * Analytics：[Adobe Analytics 作為 Adobe Target 的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 * Audience Manager：[Adobe Target 資料與 Adobe Audience Manager 整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hant)
 * Campaign：[將 Adobe Target 與 Campaign 整合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hant)
@@ -153,19 +153,19 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 ## Experience Manager - Assets
 
-說明：[設定 AEM Assets 與 Experience Cloud 和 Creative Cloud 的整合](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
+說明： [設定AEM Assets與CX Enterprise和Creative Cloud的整合](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
 
-將 Adobe Experience Manager (AEM) Assets 中的資產與 Adobe Creative Cloud 同步，反之亦然。您也可以將資產與 Experience Cloud 同步，反之亦然。您可以透過 Experience Cloud 設定此同步。
+將 Adobe Experience Manager (AEM) Assets 中的資產與 Adobe Creative Cloud 同步，反之亦然。 您也可以將資產與CX Enterprise同步，反之亦然。 您可以透過CX Enterprise設定此同步。
 
 **適用的應用程式或服務**
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
+* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
 
 ## [!DNL Adobe Advertising]
 
-* 說明 (需登入)：[與 Adobe Experience Cloud 解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 說明（需要登入）： [與Adobe CX Enterprise解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 * Experience League上的[Adobe Advertising檔案](https://experienceleague.adobe.com/docs/advertising.html?lang=zh-Hant)
 
@@ -175,11 +175,11 @@ ID服務提供永續性的通用ID，可識別Experience Cloud所有應用程式
 
 **標籤：**&#x200B;您可以使用[Experience Platform標籤，為您的搜尋、社交和顯示廣告登陸頁面建立Advertising畫素式轉換追蹤標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)和協力廠商追蹤標籤。 (您也可以直接在 [!DNL Advertising] 中建立 [!DNL Advertising] 標記。)
 
-**Experience Cloud 客群：**(可管理多媒體廣告的廣告商) 您可以使用任何 [Adobe Experience Cloud 客群](../services/audiences/overview.md)作為多媒體廣告的目標。 您可以自動使用已在Experience Cloud中建立的受眾和已發佈至Experience Cloud的Analytics受眾。 當[!DNL Adobe Advertising]帳戶設定為允許時，您也可從Audience Manager使用對象。
+**CX Enterprise對象：** （可管理顯示內容的廣告商）您可以使用任何[Adobe CX Enterprise對象](../services/audiences/overview.md)作為顯示廣告的目標。 您可以自動使用已在CX Enterprise中建立的受眾和已發佈至CX Enterprise的Analytics受眾。 當[!DNL Adobe Advertising]帳戶設定為允許時，您也可從Audience Manager使用對象。
 
-如需深入了解如何存取 Adobe Experience Cloud 和輪廓與客群，以及 [!DNL Adobe Advertising] 與 Adobe Experience Cloud 客群之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也有使用 Adobe Target，您發佈至 Adobe Experience Cloud 的客群也可以用於 Adobe Target 中的活動。
+如需深入瞭解如何存取Adobe CX Enterprise和設定檔與受眾，以及[!DNL Adobe Advertising]與Adobe CX Enterprise受眾之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也使用Adobe Target，您發佈至Adobe CX Enterprise的對象也可供Adobe Target中的活動使用。
 
-**Experience Cloud 資產:** (可管理多媒體內容的廣告商) 您可以透過 New Display 測試版檢視，使用任何 Adobe Experience Cloud 資產作為多媒體廣告的廣告創意。您必須透過Adobe Experience Cloud[&#x200B; &#x200B;](https://enterprise.efrontier.com/CMDashboard)登入Adobe Advertising，才能存取Adobe Experience Cloud資產。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
+**CX Enterprise Assets：** （可管理顯示內容的廣告商）您可以透過「全新顯示Beta」檢視，使用任何Adobe CX Enterprise資產作為顯示廣告的廣告創意。 您必須透過Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard) 登入Adobe Advertising，才能存取Adobe CX Enterprise資產。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 
-**Experience Cloud 通知：**&#x200B;在每個頁面上方的通知連結中，您可以查看搜尋測試版提示範本產生的所有提示。您還可以取得 Experience Cloud 系統更新、貼文、相關記錄和共用的資產。您必須[透過Adobe Experience Cloud登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取 Adobe Experience Cloud 的相關資訊，請聯絡您的客戶經理。
+**CX Enterprise通知：**&#x200B;從每頁頂端的通知連結中，您可以檢視搜尋測試版提示範本產生的所有提示。 您也可以取得CX Enterprise系統更新、貼文、相關記錄和共用的資產。 您必須[透過Adobe CX Enterprise登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 
