@@ -1,5 +1,5 @@
 ---
-description: 瞭解客戶屬性、受眾和使用者管理等CX Enterprise服務的最新功能、發行說明和已知問題。
+description: 瞭解CX Enterprise服務（例如客戶屬性、對象和使用者管理）的最新功能、發行說明和已知問題。
 solution: Experience Cloud
 title: Experience Cloud 介面的累計發行說明
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -27,16 +27,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
 workflow-type: tm+mt
-source-wordcount: 1426
+source-wordcount: 1429
 ht-degree: 51%
 
 ---
 
 # 累計發行說明
 
-CX Enterprise中央介面元件的功能、發行說明和已知問題。
+CX Enterprise Central Interface Components的功能、發行說明和已知問題。
 
 如需檔案更新的清單，請參閱[檔案更新](doc-updates.md)。
 
@@ -46,7 +46,7 @@ CX Enterprise中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | ------- | ------- | ------- |
-| 2026年4月20日 | 重新整理的首頁 | 在`https://experience.adobe.com/home`處重新整理首頁的外觀與風格。 在此版本中，所有功能都維持不變，更新UI、支援完整&#x200B;_深色模式_&#x200B;並改善協助工具。 |
+| 2026年4月20日 | Adobe CX企業版介面重新整理 | 在`https://experience.adobe.com/home`處重新整理首頁的外觀與風格。 透過此品牌重塑，所有功能保持不變，更新的UI，支援完整的&#x200B;_深色模式_，並改善協助工具。 |
 
 ## 2026 年 1 月
 
@@ -58,25 +58,25 @@ CX Enterprise中央介面元件的功能、發行說明和已知問題。
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025年9月25日 | 支援 IP 存取清單 | 對於已在Admin Console中使用並啟用IP存取清單的組織，CX Enterprise將遵循這些IP限制來存取`https://experience.adobe.com`網域上的應用程式。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
+| 2025年9月25日 | 支援 IP 存取清單 | 對於已在Admin Console中取得並啟用IP存取清單的組織，CX Enterprise將遵循這些IP限制來存取`https://experience.adobe.com`網域上的應用程式。 此更新會影響透過該網域存取的所有網頁應用程式，而在該組織中，在登入以及載入新頁面時會進行檢查。 |
 
 ## 2025 年 3 月
 
 | 日期 | 更新 | 說明 |
 | -----------| -----------| ---------- |
-| 2025 年 3 月 6 日 | 修正右鍵選單選項 | CX Enterprise標題導覽標籤現在允許按一下右鍵、瀏覽器下拉式選單功能。 此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
+| 2025 年 3 月 6 日 | 修正右鍵選單選項 | CX Enterprise頁首導覽標籤現在允許按一下滑鼠右鍵、瀏覽器下拉式功能表功能。 此更新修正了 Spectrum 2 設計系統 2 月版本引入的問題。 |
 
 ## 2025 年 2 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 13 年 2 月 | Spectrum 2 | CX Enterprise應用程式框架（包含標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將會更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
+| 13 年 2 月 | Spectrum 2 | CX Enterprise應用程式框架（包括標題列和從標題列存取的元件）以及某些應用程式的左側導覽邊欄，將更新為Adobe的最新設計系統Spectrum 2。 此更新後的設計包含更新的影象，但功能相同。 然而，標題中的幾個元素已重新定位，以便與其他 Adobe 網站和應用程式保持一致。 |
 
 ## 2025 年 1 月
 
 | 日期 | 功能 | 說明 |
 | -----------| -----------| ---------- |
-| 9 年 1 月 | 產品使用資料 | 為了更方便控制CX Enterprise產品使用資料偏好設定，我們簡化了CX Enterprise [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，您可以隨時在[CX Enterprise偏好設定](https://experience.adobe.com/preferences)上更新您的偏好設定。 |
+| 9 年 1 月 | 產品使用資料 | 為了更方便控制CX Enterprise產品使用資料偏好設定，我們簡化了CX Enterprise [偏好設定](../features/account-preferences.md#product-usage-data)頁面，以移除重複選項。 透過這項簡化，我們已保留目前的使用者偏好設定，您可以隨時在[CX Enterprise偏好設定](https://experience.adobe.com/preferences)更新您的偏好設定。 |
 
 ## 2024年10月2日
 
@@ -151,7 +151,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者設定檔卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
@@ -182,7 +182,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 日期 | 說明 |
 | ------- | ------- | ------- |
-| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用Federated ID，則不必輸入電子郵件地址或密碼即可登入CX Enterprise。 若要使用此功能，請新增`#/sso:@domain`至CX Enterprise URL。 <br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Adobe Federated ID 的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用Federated ID，則不必輸入電子郵件地址或密碼即可登入CX Enterprise。 若要使用此功能，請將`#/sso:@domain`新增至CX Enterprise URL。 <br>例如，假設您擁有 `example.com` 網域，且您要登入 Adobe Analytics。 URL 將是：`https://experience.adobe.com/#/sso:@example.com/analytics`. |
 | Experience League 搜尋 | 2021 年 6 月 1 日 | Experience League 文件搜尋已獲改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=zh-Hant)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
 
 {style="table-layout:auto"}
@@ -191,9 +191,9 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | ------- | ------- |
-| CX Enterprise標題和導覽 | Adobe CX Enterprise更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從CX Enterprise標頭的使用者頭像連結，以控制其他偏好設定。 雖然並非CX Enterprise中的所有應用程式都支援佈景主題，這項功能開啟了未來佈景主題支援的可能性。 |
-| CX Enterprise全域搜尋 | 在此版本中，CX Enterprise全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/zh-hant#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋CX Enterprise中的任何商業物件，例如區段、資料集、結構描述等。) |
-| CX Enterprise語言偏好設定 | 此更新包含在CX Enterprise [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
+| CX Enterprise頁首與導覽 | Adobe CX Enterprise更新包括將標頭變更為淺色主題，且能夠輕鬆切換回深色主題，並從CX Enterprise標頭的使用者頭像連結，以控制其他偏好設定。 雖然並非CX Enterprise中的所有應用程式都支援佈景主題，但此功能開啟了未來佈景主題支援的可能性。 |
+| CX企業通用搜尋 | 在這個版本中，CX Enterprise全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/zh-hant#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋CX Enterprise中的任何商業物件，例如區段、資料集、結構描述等。) |
+| CX企業語言喜好設定 | 此更新包含在CX Enterprise [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style="table-layout:auto"}
 
@@ -201,20 +201,20 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 原則 | 此頁面顯示貴組織中CX Enterprise原則的完整清單。 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。 如需詳細資訊，請參閱[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 原則 | 此頁面顯示貴組織中CX Enterprise原則的完整清單。 提供產品、例項、使用者和開發人員的相關資訊。 您可以搜尋、排序和篩選原則清單，以自訂檢視內容。 如需詳細資訊，請參閱[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 
 ## 2020 年 4 月
 
 * 已棄用CX Enterprise [!UICONTROL Feed]頁面。 (EXC-8505)
-* CX Enterprise登入頁面更新，反映新的品牌元素。 (EXC-10747)
+* CX Enterprise登入頁面已更新，反映新的品牌元素。 (EXC-10747)
 
 ## 2020 年 2 月
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的「管理工具」中，檢視所有CX Enterprise使用者及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 如需詳細資訊，請參閱[CX Enterprise管理工具](../administration/admin-tool-experience-cloud.md)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有CX Enterprise使用者及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 如需詳細資訊，請參閱[CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md)說明。 |
 
 {style="table-layout:auto"}
 

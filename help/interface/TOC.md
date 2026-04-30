@@ -1,14 +1,14 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud 介面與管理
-breadcrumb-title: Experience Cloud 介面與管理
-title: Experience Cloud 介面與管理
-description: 瞭解CX Enterprise介面、Cookie和帳戶偏好設定。 管理產品和設定 People 服務，包括客戶屬性和客群庫。 共用CX Enterprise Assets。
+user-guide-title: CX Enterprise中央介面與管理指南
+breadcrumb-title: CX Enterprise介面和管理
+title: CX企業介面與管理指南
+description: 瞭解CX Enterprise介面和管理。 瀏覽有關AI、管理、共用服務、資料收集、Cookie、發行說明和常見問答集的主題。
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 71%
+source-wordcount: '209'
+ht-degree: 58%
 
 ---
 
