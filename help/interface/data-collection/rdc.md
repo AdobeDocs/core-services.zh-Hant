@@ -3,35 +3,28 @@ title: 地區資料收集
 description: 瞭解CX Enterprise中的地區資料收集。
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 233d1554de9e37fccd5cf47fec2c4222d7a5e807
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: 361
 ht-degree: 0%
 
 ---
 
 # 地區資料收集
 
-Adobe CX Enterprise使用地區資料收集(RDC)，因此訪客與Adobe之間的互動儘可能貼近訪客。 在邊緣網站本機收集的資料會安全地轉送至核心網站以供處理。 處理之後，資料即可用於Adobe CX Enterprise產品和服務。
+Adobe CX Enterprise使用地區資料收集(RDC)，因此訪客與Adobe之間的互動儘可能貼近訪客。 在邊緣網站本機收集的資料會安全地轉送至核心網站以供處理。 處理之後，資料即可供Adobe CX Enterprise產品和服務使用。
 
 地區資料收集工作流程提供數個優點：
 
 * **效能**：透過RDC，您的訪客可連線至最近的邊緣網站。 此最佳化提供最快的回應時間，進而實現更準確的追蹤並加快載入時間。
 * **備援**：如果任何邊緣站台與核心站台之間的通訊中斷，Adobe的基礎架構會在本機儲存資料，然後在通訊還原時將資料轉送至核心站台。 如果特定位置發生中斷，Adobe也可以將流量路由至其他邊緣網站。
 
-RDC目前包括下列位置（可能隨時變更）：
-
 ## 第一方資料收集
+
+第一方資料收集使用CNAME實作，透過您自己的網域將資料路由至Adobe。 您的RDC型別已選取為[Adobe-Managed Certificate Program](adobe-managed-cert.md)安裝程式的一部分。 若要檢查或更新您的RDC型別，請聯絡您的Adobe客戶團隊。 可以使用下列RDC型別和相關資料中心：
 
 | RDC型別 | 資料收集中心 |
 | --- | --- |
@@ -42,18 +35,15 @@ RDC目前包括下列位置（可能隨時變更）：
 | 僅限亞太地區 | 孟買、新加坡、東京、雪梨 |
 | 僅限中國* | 北京 |
 
-{style="table-layout:auto"}
-
 _*中國RDC需要「中國效能最佳化」附加元件套件，且僅適用於使用AppMeasurement資料收集的Adobe Analytics。 不支援其他CX Enterprise服務和Web SDK資料收集。 請連絡您的Adobe客戶團隊，以進一步瞭解中國效能最佳化附加元件套件。_
 
 ## 協力廠商資料收集
 
-第三方資料收集包含不符合您網站網域的Cookie網域。 範例包括`adobedc.net`、`omtrdc.net`和`2o7.net`。
+第三方資料收集使用不符合您網站網域的Cookie網域。 範例包括`adobedc.net`、`omtrdc.net`和`2o7.net`。
 
 | RDC型別 | 資料收集中心 |
 | --- | --- |
 | 預設 | 奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
 | 預設+中國* | 北京*、奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
 
-{style="table-layout:auto"}
-
+_*需要中國效能最佳化附加元件套件。 如需詳細資訊，請參閱上述第一方資料收集區段。_
