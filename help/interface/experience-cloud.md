@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
+source-git-commit: b46d8d782c26f14cf77da1c29cb79936b9e1f0da
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 45%
+source-wordcount: 579
+ht-degree: 43%
 
 ---
 
@@ -96,4 +96,8 @@ ht-degree: 45%
 ![通知和公告](assets/notifications-menu-small.png)
 
 若要管理通知和警報，請參閱「[帳戶偏好設定和通知](features/account-preferences.md)」
+
+## 詞彙
+
+Adobe在行銷應用程式、Creative Cloud、Experience League和支援網站上使用類似名稱。 如需這些術語在CX Enterprise與其他地方的適用方式比較，請參閱[術語](more-resources/terms.md)。
 
