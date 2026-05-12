@@ -8,26 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 TQID: https://experienceleague.adobe.com/2IL6hUlA1oNxJIFMwbVQUbxEGkJoghVUTyMi5wSRBsE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
-  - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
-  - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: e1eba07e-ab89-466f-9ab5-ceb891d7a67did: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: dc42f745-24d2-44a4-99c3-dece518fa4bcid: eaef3029-0844-43fe-9e1c-7666a24f4d03id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 802
 ht-degree: 5%
@@ -62,7 +49,7 @@ ht-degree: 5%
 
 Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶服務為您提供支援，以及個人化您的體驗和我們之間的通訊。 深入瞭解[個人化體驗](personalized-learning.md)。
 
-## 在CX Enterprise中訂閱通知
+## 訂閱CX Enterprise中的通知
 
 您可以選取要訂閱的產品和類別。 通知會顯示在[!UICONTROL Notifications]彈出視窗（應用程式內）、電子郵件或[Slack](#slack-notifications) （視您的訂閱而定）中。
 
@@ -78,7 +65,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 ### 訂閱[!DNL Slack]個通知
 
-您可以設定帳戶偏好設定，以將CX Enterprise通知傳送至[!DNL Slack]頻道。
+您可以設定帳戶偏好設定，將CX Enterprise通知傳送至[!DNL Slack]頻道。
 
 **先決條件**
 
@@ -106,7 +93,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 ### 在[!DNL Slack]中要求許可權（疑難排解）
 
-如果未安裝[!DNL Slack]，則當您按一下&#x200B;**[!UICONTROL Add to Slack]**&#x200B;後，Slack開啟時會顯示&#x200B;_[!UICONTROL Request to install]_&#x200B;訊息。 例如：
+如果未安裝[!DNL Slack]，則當您按一下&#x200B;**[!UICONTROL Add to Slack]**&#x200B;後，Slack開啟時會顯示&#x200B;_[!UICONTROL Request to install]_訊息。 例如：
 
 ![要求Slack整合](../assets/slack-workspace.png)
 
@@ -118,7 +105,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 1. 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL Notifications]**&#x200B;並依照步驟[訂閱Slack](#slack-notifications) （如上所述）。
+1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL Notifications]**，然後依照步驟進行[訂閱Slack](#slack-notifications) （如上所述）。
 
 ### 您將在[!DNL Slack]中看到的內容
 
@@ -127,9 +114,9 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 * 將會從應用程式名稱&#x200B;_Adobe[!DNL CX Enterprise]_&#x200B;接收個人訊息。
 * 訊息包含特定應用程式的產品標誌，例如Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager]等。
 * 檢視CX Enterprise上所有通知的連結。
-* 管理CX Enterprise上通知偏好設定的連結。
+* 管理CX Enterprise通知偏好設定的連結。
 
-## 在CX Enterprise中檢視[!UICONTROL notifications]和宣告
+## 檢視CX Enterprise中的[!UICONTROL notifications]和公告
 
 在[!DNL CX Enterprise]標題中，您可以檢視您[已訂閱](#notifications)的通知，以及檢視公告。
 

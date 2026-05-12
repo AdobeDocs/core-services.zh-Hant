@@ -1,5 +1,5 @@
 ---
-description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console中使用者和產品管理功能的說明，並為CX Enterprise服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
+description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console的使用者和產品管理說明，為CX企業服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
 title: Experience Cloud 介面文件
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 60%
@@ -179,7 +179,7 @@ To access CX Enterprise applications and services provisioned for you within you
 
 ## Get help and support 
 
-Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/zh-hant#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
 ![Get help and support](assets/search-menu.png)
 
@@ -187,7 +187,7 @@ The [!UICONTROL Help] menu also gives you access to:
 
 * **[!UICONTROL Support]:** Create a support ticket or contact [!UICONTROL Support] using Twitter.
 * **[!UICONTROL Feedback]:** Share feedback about your CX Enterprise experience. Your feedback is used to improve Adobe's products and services.
-* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/zh-tw/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigation to `adobe.io` and find developer documentation.
 
 ## Manage your user profile
@@ -220,7 +220,7 @@ Learn about the latest enhancements to CX Enterprise central interface component
 
 You can configure your account preferences to send CX Enterprise notifications to a [!DNL Slack] channel. 
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
 >[!TAB New Campaign Web User Interface] 
@@ -308,7 +308,6 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
-
 ## 其他資源
 
 [Adobe Campaign v8 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web 使用者介面文件](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=zh-Hant){target="_blank"} - [教學課程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=zh-Hant){target="_blank"} - [[!DNL Adobe Campaign] 自動化指南](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=zh-Hant){target="_blank"} - [Campaign v8 的控制面板](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=zh-Hant){target="_blank"}

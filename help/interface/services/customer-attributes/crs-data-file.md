@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 59%
@@ -30,7 +24,7 @@ ht-degree: 59%
 
 上傳客戶屬性資料至CX Enterprise的資料檔案需求和多個資料來源。
 
-您需要存取企業的 CRM 或類似資料。 您上傳至CX Enterprise的資料必須是`.csv`檔案。 如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
+您需要存取企業的 CRM 或類似資料。 上傳至CX Enterprise的資料必須是`.csv`檔案。 如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
 [!DNL Customer Attributes]的設計每天處理一些檔案。 為減緩許多小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
@@ -70,7 +64,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶識別碼欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。 使用的ID應該對應至傳遞至CX Enterprise ID Service的ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。 其餘欄是來自您 CRM 的屬性。 您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。 上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。 這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至CX Enterprise之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。 系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。 使用的ID應該對應至傳遞至CX Enterprise ID服務的ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。 其餘欄是來自您 CRM 的屬性。 您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。 上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。 這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至CX Enterprise之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。 系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
@@ -148,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。）
+（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
 在&#x200B;**[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**&#x200B;中：
 

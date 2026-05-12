@@ -9,19 +9,12 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -76,9 +69,9 @@ ht-degree: 33%
 
 ## 將應用程式帳戶連結至 Adobe ID
 
-通常CX Enterprise管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式認證連結至Adobe ID。
+通常CX企業管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式認證連結至Adobe ID。
 
-1. 依照邀請您前往CX Enterprise的電子郵件中的步驟進行。
+1. 請依照邀請您加入CX Enterprise的電子郵件中的步驟進行。
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
 
@@ -113,6 +106,6 @@ ht-degree: 33%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。 帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在我們著手解決問題的同時，使用標準登入存取您的應用程式。
 

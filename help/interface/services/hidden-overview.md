@@ -8,14 +8,14 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 41%
 
 ---
 
-# CX Enterprise服務 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# CX企業服務 {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 範例
 

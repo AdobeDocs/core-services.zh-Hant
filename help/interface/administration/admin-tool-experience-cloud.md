@@ -9,13 +9,10 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1198
 ht-degree: 69%
@@ -24,7 +21,7 @@ ht-degree: 69%
 
 # CX Enterprise [!UICONTROL Admin Tool]
 
-管理員可以在[!UICONTROL Admin Tool]中檢視所有CX Enterprise使用者和原則及其詳細資訊，且可將清單加以排序及篩選。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
+管理員可以在[!UICONTROL Admin Tool]中檢視所有CX Enterprise使用者和原則的可排序和可篩選清單。 使用者詳細資料包括使用者的產品存取權、角色以及上次存取的資訊。 原則詳細資訊包括原則的（產品設定檔）使用者、群組、開發人員、整合和管理員清單，以及原則的詳細許可權和資源資訊。
 
 1. 登入 `https://experience.adobe.com/.`
 
@@ -48,7 +45,7 @@ ht-degree: 69%
 | [!UICONTROL Email] | 與使用者相關聯的電子郵件地址。 欄可以按 A->Z、Z->A 排序。 |
 | [!UICONTROL ID Type] | 使用者帳戶的身分識別類型。 可套用篩選器以檢視特定 ID 類型。 如需詳細資訊，請參閱[管理身分識別類型](https://helpx.adobe.com/tw/enterprise/using/identity.html)。 |
 | [!UICONTROL Solutions] | 使用者可存取的CX Enterprise應用程式摘要。 您可以套用篩選器，依特定應用程式存取權縮小使用者清單的範圍。 |
-| [!UICONTROL Last Login] | 使用者上次登入CX Enterprise的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料將保留365天。 這項資訊的用途是顯示CX Enterprise中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
+| [!UICONTROL Last Login] | 使用者最近登入CX Enterprise的時間和日期。 此欄可依遞增或遞減日期排序。<br> **重要：**&#x200B;自2020年1月13日起，使用者的上次登入資料將保留365天。 此資訊旨在顯示CX Enterprise中的目前登入活動，而不是建議在2020年1月13日之前對非作用中帳戶採取行動。 |
 
 ## 自訂使用者清單檢視
 
@@ -86,7 +83,7 @@ ht-degree: 69%
 
 ## 解決方案摘要
 
-本區段顯示使用者可存取的CX Enterprise應用程式摘要。 包含產品管理角色 (如果適用)。
+此段落顯示使用者可存取的CX Enterprise應用程式摘要。 包含產品管理角色 (如果適用)。
 
 ## 詳細的產品存取清單
 

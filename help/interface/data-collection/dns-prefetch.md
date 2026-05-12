@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 TQID: https://experienceleague.adobe.com/oAe81mw-qFetDM0zky2eS6DNf-XZ67H68Qw-Sa8mk0Y
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -34,7 +28,7 @@ ht-degree: 77%
 
 瀏覽器會使用 DNS 預先擷取功能，自動將網頁上連結的網域名稱解析為其對應的 IP 位址。 預先擷取程序會在瀏覽器載入網頁時開始執行。 例如，假設您的網頁含有連結至 `www.adobe.com` 的可選取連結。 瀏覽器載入此網頁時，會透過 _DNS 系統_&#x200B;來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。 DNS 預先擷取功能有助於改善頁面效能，因為網站訪客點按該連結或按鈕之前，網域名稱已解析為 IP 位址。 DNS 預先擷取程序向使用者公開呈現。
 
-## dns預先擷取和Adobe CX Enterprise應用程式
+## DNS預先擷取和Adobe CX企業版應用程式
 
 DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於不同的[!UICONTROL CX Enterprise]應用程式和服務，原因如下：
 

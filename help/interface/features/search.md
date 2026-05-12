@@ -9,20 +9,13 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 76%
@@ -37,7 +30,7 @@ ht-degree: 76%
 
 ## 存取 [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search]可在每個頁面頁面最上方的CX Enterprise標題中使用。 您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
+[!UICONTROL Unified Search]可在每個頁面最上方的CX Enterprise標頭中使用。 您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
 
 此功能只提供給受支援的產品，目前包括：
 
@@ -56,7 +49,7 @@ ht-degree: 76%
 相符的百分比
 是否有完全相符的專案
 
-CX Enterprise![&#128279;](../assets/unified-search-results.png)中的[!UICONTROL Unified Search]
+CX Enterprise中的![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
 
 可搜尋的商業物件包括：
 
@@ -75,7 +68,7 @@ CX Enterprise![&#128279;](../assets/unified-search-results.png)中的[!UICONTROL
 
 您也可以從 Experience League 和 Communities 尋找說明文件。 支援自然語言查詢。
 
-例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_&#x200B;下的Experience League產生結果：
+例如，_如何建立結構描述_&#x200B;會從&#x200B;_[!UICONTROL Learning]_下的Experience League產生結果：
 
 CX Enterprise說明中的![[!UICONTROL Unified Search]](../assets/unified-search-learning.png)
 
@@ -84,7 +77,7 @@ CX Enterprise說明中的![[!UICONTROL Unified Search]](../assets/unified-search
 * 存取物件的使用者權限
 * 相符的百分比
 * 完全符合的項目
-* _[!UICONTROL Top Results]_&#x200B;區段會顯示前30個結果。
+* _[!UICONTROL Top Results]_區段會顯示前30個結果。
 
 若要調整搜尋，請按一下下列其中一項：
 
