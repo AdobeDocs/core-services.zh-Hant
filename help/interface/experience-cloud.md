@@ -54,7 +54,7 @@ ht-degree: 43%
 
    例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
 
-   **注意：**&#x200B;您組織的管理員可能會依IP位址限制對Adobe產品的存取。 若是如此，您登入CX Enterprise或切換到已啟用此功能的組織後，可能會收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/enterprise/using/ip-based-access.html)。
+   **注意：**&#x200B;您組織的管理員可能會依IP位址限制對Adobe產品的存取。 若是如此，您登入CX Enterprise或切換到已啟用此功能的組織後，可能會收到錯誤。 如需詳細資訊，請參閱[依IP位址限制產品存取](https://helpx.adobe.com/tw/enterprise/using/ip-based-access.html)。
 
 
 ## 存取CX企業應用程式
@@ -67,7 +67,7 @@ ht-degree: 43%
 
 ## 取得說明和支援
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
@@ -75,7 +75,7 @@ ht-degree: 43%
 
 * **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
 * **[!UICONTROL Feedback]：**&#x200B;分享您對CX Enterprise體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
-* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 管理您的使用者設定檔

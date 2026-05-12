@@ -113,6 +113,6 @@ ht-degree: 33%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。 帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
 * 在我們著手解決問題的同時，使用標準登入存取您的應用程式。
 
