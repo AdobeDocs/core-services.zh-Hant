@@ -1,5 +1,5 @@
 ---
-description: 瞭解CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳作法。
+description: 瞭解CX Enterprise中已上傳及使用之個人識別資訊(PII)的相關考量事項和最佳作法。
 solution: Experience Cloud
 title: ' [!DNL Customer Attributes]的隱私權考量事項'
 feature: Customer Attributes
@@ -22,7 +22,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 511
 ht-degree: 92%
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 # [!DNL Customer Attributes] 的隱私權考量事項
 
-Adobe CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳做法。
+Adobe CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳作法。
 
 * 名字和姓氏
 * 住家或其他實體地址

@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 >
 >雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入需要變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
-除了下列IP位址區塊外，各個Adobe CX Enterprise產品也各有專屬的IP位址：
+除了下列的IP位址區塊外，個別Adobe CX Enterprise產品也有各自使用的IP位址：
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/ip-addresses)
@@ -49,7 +49,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-## Adobe CX Enterprise資料收集和FTP IP位址區塊
+## Adobe CX企業資料收集和FTP IP位址區塊
 
 如果您的組織偏好使用特定的IP位址範圍，請參閱下表。 其功能包括:
 
@@ -92,7 +92,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-Adobe CX Enterprise也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
+Adobe CX企業版也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
 
 | 位置 | Host |
 | --- | --- |

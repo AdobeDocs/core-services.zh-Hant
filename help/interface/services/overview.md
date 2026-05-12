@@ -23,20 +23,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 36%
 
 ---
 
-# CX Enterprise介面概觀
+# CX Enterprise介面概述
 
 CX Enterprise的介面功能有時稱為&#x200B;_核心服務_。 它們是統一的標頭功能，包括[!DNL People]服務（[!DNL Audience Library]和[!DNL Customer Attributes]）。
 
-其他共用功能包括CX Enterprise、Cookie、帳戶偏好設定、通知等的管理（使用者和產品管理）。
+其他共用功能包括CX Enterprise的管理（使用者和產品管理）、Cookie、帳戶偏好設定、通知等。
 
-若要在CX Enterprise中存取共用服務和應用程式，請按一下 **[!UICONTROL Application Selector]**
+若要存取CX Enterprise中的共用服務與應用程式，請按一下 **[!UICONTROL Application Selector]**
 ![服務選擇器](../assets/apps-icon.png)。
 
 **應用程式選擇器**

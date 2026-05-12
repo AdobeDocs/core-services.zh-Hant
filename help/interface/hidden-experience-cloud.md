@@ -1,5 +1,5 @@
 ---
-description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console中使用者和產品管理功能的說明，並為CX Enterprise服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
+description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console的使用者和產品管理說明，為CX企業服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
 title: Experience Cloud 介面與管理
 hide: true
 hidefromtoc: true
@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 50%
@@ -22,9 +22,9 @@ ht-degree: 50%
 
 ![CX Enterprise](assets/landing.png)
 
-在CX Enterprise標題中，您可以：
+從CX Enterprise的標頭，您可以：
 
-* 存取所有CX Enterprise應用程式和服務
+* 存取您的所有CX Enterprise應用程式和服務
 * 在「說明」選單中搜尋產品文件、教學課程和社群貼文。 在 Experience League 中檢視結果。
 * 在「搜尋」欄位使用全域搜尋功能，全域搜尋商業物件 (僅適用於 Experience Platform 使用者)。
 * 管理您的帳戶[偏好設定](features/account-preferences.md) (警示、通知和訂閱)
@@ -49,9 +49,9 @@ ht-degree: 50%
 
    例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
 
-## 存取CX Enterprise應用程式 {#navigation}
+## 存取CX企業應用程式 {#navigation}
 
-登入CX Enterprise後，您可以從統一的標題快速存取您的所有應用程式、服務和組織。
+在登入CX Enterprise後，您可以從統一標題快速存取您的所有應用程式、服務和組織。
 
 若要存取貴組織內為您布建的CX Enterprise應用程式和服務，請移至應用程式選擇器![功能表](assets/apps-icon.png)。
 

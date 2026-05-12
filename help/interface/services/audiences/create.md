@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 515
 ht-degree: 60%
@@ -31,7 +31,7 @@ ht-degree: 60%
 
 # 建立客群
 
-在[!UICONTROL Audience Library]中，您可以使用屬性規則來建立對象，並定義複合對象以便在CX Enterprise應用程式中共用。
+在[!UICONTROL Audience Library]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -104,11 +104,11 @@ ht-degree: 60%
 
 產生的規則是已定義的客群，其中包括造訪過「家庭與花園」的 Chrome 與 Safari 使用者。 「中庭與家具」區段可洞察造訪該網站區域的所有訪客。
 
-在CX Enterprise中![已定義的對象](assets/defined_audience.png)
+CX Enterprise中的![已定義的對象](assets/defined_audience.png)
 
 * **歷史預估：**(虛線圓形) 代表根據 [!DNL Analytics] 資料建立的規則。
 * **實際對象：**(實線圓形) 任何已建立且具有來自 Audience Manager 的 30 天資料之規則。 Audience Manager 資料達到 30 天時，虛線就會變成實線，並呈現實際數字。
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-對象儲存後就可供其他CX Enterprise應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。

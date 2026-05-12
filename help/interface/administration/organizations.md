@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -76,9 +76,9 @@ ht-degree: 33%
 
 ## 將應用程式帳戶連結至 Adobe ID
 
-通常CX Enterprise管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式認證連結至Adobe ID。
+通常CX企業管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式認證連結至Adobe ID。
 
-1. 依照邀請您前往CX Enterprise的電子郵件中的步驟進行。
+1. 請依照邀請您加入CX Enterprise的電子郵件中的步驟進行。
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1118
 ht-degree: 43%
@@ -88,7 +88,7 @@ ht-degree: 43%
 
    * **[!UICONTROL Description:]** （選用）資料屬性來源的說明。
 
-   * **[!UICONTROL Alias ID:]**&#x200B;代表客戶屬性資料的來源，例如特定的CRM系統。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]程式碼中使用的唯一識別碼。 此 ID 應是唯一、小寫、無空格。 在CX Enterprise中，針對客戶屬性來源在[!UICONTROL Alias ID]欄位中輸入的值，應與從實作傳入的值相符（不論是透過Platform Data Collection還是Mobile SDK的JavaScript）。
+   * **[!UICONTROL Alias ID:]**&#x200B;代表客戶屬性資料的來源，例如特定的CRM系統。 [!UICONTROL Alias ID]是在您的[!UICONTROL customer attribute Source]程式碼中使用的唯一識別碼。 此 ID 應是唯一、小寫、無空格。 在CX Enterprise中，針對客戶屬性來源在[!UICONTROL Alias ID]欄位中輸入的值，應與從實作傳入的值相符（不論是透過Platform Data Collection或Mobile SDK的JavaScript傳入）。
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ ht-degree: 43%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至[CX Enterprise ID服務](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)工具中[!UICONTROL customer Settings]底下的&#x200B;*整合代碼*&#x200B;值。
+      * **標籤：**&#x200B;別名ID對應至[CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)工具中[!UICONTROL customer Settings]底下的&#x200B;*整合代碼*&#x200B;值。
 
       * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
 
@@ -146,9 +146,9 @@ ht-degree: 43%
 
 * **[!UICONTROL Unique customer ID:]**&#x200B;顯示您上傳多少個唯一ID至此屬性來源。
 
-* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]**&#x200B;顯示有多少個ID已將別名傳送至CX Enterprise訪客ID。
+* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]**&#x200B;顯示有多少個ID已將別名傳送至CX Enterprise Visitor ID。
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至CX Enterprise訪客ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些ID相關聯的屬性分配給最近設定別名的500個CX Enterprise訪客ID，直到別名數達到10,000個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]**&#x200B;顯示已將500個或更多別名傳送至CX Enterprise Visitor ID之客戶提供的ID計數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些ID相關的屬性分配給最近設定別名的500個CX Enterprise Visitor ID，直到別名數達到10,000個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。
 
 ## 驗證結構 {#validate-schema}
 
@@ -168,7 +168,7 @@ ht-degree: 43%
 
 ## 設定訂閱及啟動屬性來源
 
-設定訂閱可設定CX Enterprise和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
+設定訂閱設定CX Enterprise和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱及啟用資料來源](subscription.md)。
 
@@ -180,7 +180,7 @@ ht-degree: 43%
 
 ![根據上傳的屬性的 Analytics 區段](assets/08_crs_usecase.png)
 
-您將區段發佈至CX Enterprise後，CX Enterprise Audiences和Audience Manager可隨即使用該區段。
+您將區段發佈至CX Enterprise後，CX Enterprise Audiences和Audience Manager即可使用該區段。
 
 ## 在Adobe Target中使用[!DNL Customer Attributes]資料
 

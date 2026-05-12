@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
@@ -30,7 +30,7 @@ ht-degree: 39%
 
 # 共用CX Enterprise資產資料夾
 
-在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX Enterprise應用程式（例如Adobe Target）中使用這些資產。 共用的資料夾必須源自CX Enterprise。
+在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX企業應用程式（例如Adobe Target）中使用這些資產。 共用資料夾必須源自CX Enterprise。
 
 **共用的優點**
 
@@ -40,7 +40,7 @@ ht-degree: 39%
 * 提高企業安全性
 * 創意人員與行銷人員之間可輕鬆共用、儲存和傳送檔案
 
-在Creative Cloud使用者存取資產之前，他們必須先在CX Enterprise中列入允許清單。 請參閱[管理 Creative Cloud 使用者](manage-cc-users.md)。
+在Creative Cloud使用者存取資產之前，必須先在CX Enterprise中將他們加入允許清單。 請參閱[管理 Creative Cloud 使用者](manage-cc-users.md)。
 
 **共用CX Enterprise資產資料夾**
 

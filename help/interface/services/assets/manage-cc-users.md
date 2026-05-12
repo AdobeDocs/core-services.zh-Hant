@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 111
 ht-degree: 53%
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 # 管理 Creative Cloud 使用者
 
-CX Enterprise提供管理工具，可管理已核准的Creative Cloud使用者。 這些使用者可臨機受邀加入促銷活動資料夾。 只有管理員已新增至清單的使用者，才能受邀加入促銷活動。 新增的使用者會顯示在CX Enterprise的自動完成使用者清單中。
+CX企業版提供管理工具，可管理核准的Creative Cloud使用者。 這些使用者可臨機受邀加入促銷活動資料夾。 只有管理員已新增至清單的使用者，才能受邀加入促銷活動。 新增的使用者會顯示在CX Enterprise的自動完成使用者清單中。
 
 >[!NOTE]
 >

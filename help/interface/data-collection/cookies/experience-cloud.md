@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
@@ -86,7 +86,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p> CX Enterprise解決方案使用的不重複訪客ID。 </p> </td> 
+   <td colname="col2"> <p> CX企業解決方案使用的不重複訪客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有效期限 </p> </td> 
@@ -106,7 +106,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
   </tr> 
   <tr> 
    <td colname="col1"> <p>未增加值。 Chrome 預設為 Lax。 </p> </td> 
-   <td colname="col2"> <p> 唯有瀏覽器 URL 中顯示的網域與 Cookie 的網域相符時，系統才會傳送採用此設定的 Cookie。 此設定是 Chrome 對 Cookie 的新預設值。 </p> </td> 
+   <td colname="col2"> <p> 唯有瀏覽器 URL 中顯示的網域符合 Cookie 的網域時，系統才會傳送具有此設定的 Cookie。 此設定是 Chrome 對 Cookie 的新預設值。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

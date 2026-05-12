@@ -1,5 +1,5 @@
 ---
-description: 瞭解CX Enterprise常見介面元件的檔案更新發生位置。
+description: 瞭解CX Enterprise常用介面元件的檔案更新發生位置。
 solution: Experience Cloud
 title: 文件更新
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 50%
@@ -32,7 +32,7 @@ ht-degree: 50%
 
 # 文件更新
 
-瞭解在哪裡會針對CX Enterprise的中央介面和管理進行檔案更新。
+瞭解CX Enterprise中央介面和管理檔案更新的發生位置。
 
 **2026 年 3 月**
 
@@ -40,7 +40,7 @@ ht-degree: 50%
 
 **2025年11月**
 
-更新CX Enterprise中的[Agentic AI](../features/agentic-ai.md)
+CX Enterprise中[Agentic AI的更新](../features/agentic-ai.md)
 
 **2025 年 10 月**
 
@@ -88,7 +88,7 @@ ht-degree: 50%
 
 | 功能 | 說明 |
 | ------- | ------- |
-| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
+| 首頁 | CX Enterprise首頁頁尾資訊已移至使用者設定檔卡片，包括偏好設定中的法律注意事項和語言選擇。 |
 | AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform 小工具建立工作流程中提供圖表推薦。 指定資料選擇 (目前為單一變數資料選擇)，Helios 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。 它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
@@ -113,7 +113,7 @@ ht-degree: 50%
 
 **2021 年 6 月 1 日**
 
-已更新[登陸頁面](../experience-cloud.md)，以及存取CX Enterprise、全域搜尋、偏好設定和通知的相關新說明。
+已更新[登陸頁面](../experience-cloud.md)，並提供存取CX Enterprise、全域搜尋、偏好設定和通知的新說明。
 
 **2020年8月19日**
 
@@ -164,7 +164,7 @@ ht-degree: 50%
 
 **2016年5月9日**
 
-新增[CX Enterprise整合](../administration/integrations.md)，此為整合檔案的彙總。
+新增[CX Enterprise Integrations](../administration/integrations.md)，此為整合檔案的彙總。
 
 **2016 年 2 月 11 日**
 
@@ -172,7 +172,7 @@ ht-degree: 50%
 
 **2015年1月15日**
 
-新增CX Enterprise的使用者現在可以將資料夾共用至Creative Cloud，並在這兩種雲端產品之間同步資產和註解。 請參閱[資產共用](../services/assets/share.md)。
+Added CX Enterprise使用者現在可以將資料夾共用至Creative Cloud，並在這兩種雲端產品之間同步資產和註解。 請參閱[資產共用](../services/assets/share.md)。
 
 **2014年7月17日**
 

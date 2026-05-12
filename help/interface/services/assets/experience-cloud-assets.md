@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 69%
@@ -35,7 +35,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 資產服務包括：
 
 * 資產儲存空間、管理介面、嵌入式選擇介面 (需透過應用程式存取)。
-* 與Creative Cloud、CX Enterprise共同作業和CX Enterprise應用程式整合。
+* 與Creative Cloud、CX Enterprise Collaboration和CX Enterprise應用程式整合。
 
 使用資產可改善一致性和品牌合規性，且可縮短上市時間。 您可以簡化應用程式中的工作流程：
 

@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 76%
@@ -37,7 +37,7 @@ ht-degree: 76%
 
 ## 存取 [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search]可在每個頁面頁面最上方的CX Enterprise標題中使用。 您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
+[!UICONTROL Unified Search]可在每個頁面最上方的CX Enterprise標頭中使用。 您也可以使用鍵盤快速鍵 `command /` 或 `ctrl /` 來存取該搜尋。
 
 此功能只提供給受支援的產品，目前包括：
 
@@ -56,7 +56,7 @@ ht-degree: 76%
 相符的百分比
 是否有完全相符的專案
 
-CX Enterprise![&#128279;](../assets/unified-search-results.png)中的[!UICONTROL Unified Search]
+CX Enterprise中的![[!UICONTROL Unified Search]](../assets/unified-search-results.png)
 
 可搜尋的商業物件包括：
 

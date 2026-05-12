@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 142
 ht-degree: 73%
@@ -29,7 +29,7 @@ ht-degree: 73%
 
 # 共用資產的檔案需求
 
-在CX Enterprise和Creative Cloud之間共用資產時允許的檔案型別和大小限制。
+在CX企業版和Creative Cloud之間共用資產時允許的檔案型別和大小限制。
 
 ## 針對上傳的允許檔案類型
 

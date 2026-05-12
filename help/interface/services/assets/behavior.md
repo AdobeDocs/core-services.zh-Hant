@@ -1,5 +1,5 @@
 ---
-description: 瞭解共用資料夾在CX Enterprise中遭到移動、刪除和還原時的行為規則。
+description: 瞭解共用資料夾在CX Enterprise中移動、刪除和還原時的行為規則。
 keywords: 資產共用;Creative Cloud;核心服務
 solution: Experience Cloud
 title: 共用資料夾的行為
@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 627
 ht-degree: 90%

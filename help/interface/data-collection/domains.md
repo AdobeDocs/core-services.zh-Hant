@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,9 +23,9 @@ ht-degree: 15%
 
 # CX Enterprise使用的網域
 
-CX Enterprise使用下列主機來交付應用程式、改善效能及改善產品體驗。 Adobe建議允許這些網域通過貴組織的網路或防火牆，以獲得最佳體驗。
+CX Enterprise使用下列主機來提供應用程式、改善效能並改善產品體驗。 Adobe建議允許這些網域通過貴組織的網路或防火牆，以獲得最佳體驗。
 
-除了下列網域外，各個Adobe CX Enterprise產品也會使用自己的網域：
+除了下列網域外，各個Adobe CX Enterprise產品也有各自使用的網域：
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/domains)
