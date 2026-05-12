@@ -76,7 +76,7 @@ AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們
 ## 有關此主題的更多說明
 
 * [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-* CX Enterprise](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁中的[AI
+* CX Enterprise[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁中的AI
 * [AEM代理程式概觀](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
