@@ -5,20 +5,20 @@ breadcrumb-title: CX Enterprise介面和管理
 title: CX企業介面與管理指南
 description: 瞭解CX Enterprise介面和管理。 瀏覽有關AI、管理、共用服務、資料收集、Cookie、發行說明和常見問答集的主題。
 index: true
-source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
+source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 58%
+source-wordcount: '208'
+ht-degree: 61%
 
 ---
 
 # CX Enterprise介面和管理 {#interface}
 
 + [CX Enterprise介面和管理](/help/interface/experience-cloud.md)
-+ CX Enterprise中的AI {#features}
++ CX Enterprise 中的 AI {#features}
    + [生成式 AI](/help/interface/features/generative-ai.md)
    + [代理式 AI](features/agentic-ai.md)
-   + {hide-from-toc}[AI監視](/help/interface/features/ai-monitoring.md)
+   + {hide-from-toc}[監視](/help/interface/features/monitoring.md)
    + [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
 + 管理 {#administration}
    + [帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
@@ -56,7 +56,7 @@ ht-degree: 58%
       + [隱私權考量事項](/help/interface/services/customer-attributes/privacy-mac.md)
    + [觸發程序](/help/interface/services/triggers.md)
    + [Adobe Exchange](/help/interface/services/exchange.md)
-+ 資料彙集 {#data-collection}
++ 資料收集 {#data-collection}
    + [Adobe 託管的憑證計劃](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP 位址](/help/interface/data-collection/ip-addresses.md)
    + [網域](/help/interface/data-collection/domains.md)
