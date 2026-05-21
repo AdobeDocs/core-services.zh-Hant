@@ -1,21 +1,20 @@
 ---
 title: 代理程式工作與AI信用沖銷
-description: 瞭解CX Enterprise應用程式中的代理程式工作與AI信用使用率。
+description: 瞭解 CX Enterprise 應用程式中的 AI 代理工作和 AI 點數消耗率。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+last-update: '2026-05-21T00:00:00.000Z'
+source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 4%
+source-wordcount: '935'
+ht-degree: 6%
 
 ---
 
 # Adobe Experience Platform代理程式工作和AI點數消耗
-
-更新日期： 2026年3月5日&#x200B;**&#x200B;**
 
 瞭解CX Enterprise應用程式中的Agential AI工作和AI信用消耗。 如需有關在現有CX Enterprise應用程式中啟用代理程式人工智慧功能的資訊，請參閱[CX Enterprise中的代理程式人工智慧](agentic-ai.md#existing-apps)。
 
@@ -42,13 +41,11 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 | 代理程式 | 工作 | 支援的應用程式 | 預估的AI積分 | 範例提示 |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
 | Audience 代理 | 對象/帳戶概念 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 50 | <ul><li><em>為我顯示富裕買家的欄位</em></li><li><em>尋找與客戶偏好設定相關的所有欄位</em></li></ul> |
-| Audience 代理 | 以知識為基礎的對象/帳戶建立 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 150 | <ul><li><em>建立由住在加州的人組成的對象</em></li><li><em>產生本季花費超過$1000的VIP成員對象</em></li><li><em>建立已購買服裝但過去60天內未購買的使用者對象</em></li></ul> |
 | Audience 代理 | 對象/帳戶管理 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>我有任何重複的對象嗎？</em></li><li><em>顯示我的5大對象。</em></li><li><em>顯示未啟用至任何目的地的對象</em></li><li><em>列出即時歷程中使用的所有對象</em></li></ul> |
 | Audience 代理 | 對象/帳戶分析 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>哪些對象在上星期增加了超過20%？</em></li><li><em>與30天前的值相比，對象「忠誠白金」有多少變化？</em></li><li><em>我增長最快的對象是哪個？</em></li></ul> |
 | Audience 代理 | 購買團體創意 | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>哪些帳戶顯示這些產品的目的？</em></li><li><em>依產品意向顯示XYZ排名最前的人員。</em></li><li><em>哪些購買群組擁有超過5名成員？</em></li></ul> |
 | Data Insights Agent | 資料分析和視覺效果 | <ul><li>Customer Journey Analytics （B2C和B2B版本）</li></ul> | 25 | <ul><li><em>7月趨勢訂單</em></li><li><em>依地區顯示收入。</em></li><li><em>依性別顯示從3月到6月的訂單。</em></li><li><em>我在6月獲利的前10大SKU為何</em></li><li><em>按月份計算的購買比例</em></li><li><em>依產品類別劃分的收入份額</em></li></ul> |
 | Journey Agent | 歷程構想 | <ul><li>Adobe Journey Optimizer (B2B edition)</li></ul> | 25 | <ul><li><em>為想要用於我的解決方案的空白帳戶建立歷程，著重於參與網站內容的人員</em></li></ul> |
-| Journey Agent | 歷程建立 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> | 30 | <ul><li><em>產生歷程以傳送提醒給過去7天內未完成首次購買的使用者</em></li><li><em>當使用者完成首次購買時，請在3天後透過電子郵件傳送簡訊確認及後續權益說明</em></li></ul> |
 | Journey Agent | 歷程分析 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> | 50 | <ul><li><em>我想針對7月4日的行銷活動歷程依節點分析流失。</em></li><li><em>歷程X</em>是否有任何排程衝突</li><li><em>顯示歷程X</em>的對象重疊衝突</li></ul> |
 | Journey Agent | 歷程管理 | <ul><li>Adobe Journey Optimizer （B2B和B2C版本）</li></ul> | 25 | <ul><li><em>我有多少個即時歷程？</em></li><li><em>列出使用對象X的所有歷程。</em></li><li><em>列出目前處於測試模式的所有歷程</em></li></ul> |
 | 產品支援代理 | 知識型疑難排解 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer （B2C和B2B版本）</li><li>Customer Journey Analytics （B2C和B2B版本）</li></ul> | 0 | <ul><li><em>為什麼我的設定檔計數在[授權使用儀表板]和Experience Platform首頁上不同？</em></li><li><em>歷程未觸發的原因是什麼？</em></li><li><em>Adobe Experience Platform如何建立即時體驗？</em></li><li><em>如何在Adobe Experience Platform中設定和使用警示？</em></li><li><em>在Adobe Experience Platform Activation中的平均設定檔豐富度限制是多少？</em></li></ul> |
@@ -67,4 +64,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [CX Enterprise中的GenAI](/help/interface/features/generative-ai.md)
 * [CX Enterprise中的Agentic AI](/help/interface/features/agentic-ai.md)
-* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
