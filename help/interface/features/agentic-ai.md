@@ -10,7 +10,8 @@ role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
 source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
 source-wordcount: 1130
@@ -76,7 +77,7 @@ AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們
 ## 有關此主題的更多說明
 
 * [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-* CX Enterprise](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁中的[AI
+* CX Enterprise[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/ai)檔案首頁中的AI
 * [AEM代理程式概觀](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE 進一步瞭解Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="前往Business.adobe.com"}
