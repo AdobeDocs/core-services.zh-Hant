@@ -8,10 +8,15 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
 workflow-type: tm+mt
 source-wordcount: 948
@@ -23,7 +28,7 @@ ht-degree: 2%
 
 CX Enterprise提供兩種儀表板，可監視現有CX Enterprise應用程式中的代理程式AI使用情形。 這些儀表板可協助您瞭解使用者透過[!DNL AI Assistant]和其他對話介面存取的[!DNL Experience Platform Agents]的採用、參與、意見品質和AI點數消耗。
 
-使用狀況監視範圍內的代理程式列在Adobe CX Enterprise ](agentic-ai.md)檔案的[Agentic AI中，現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)的[AI代理程式中。
+使用狀況監視範圍內的代理程式列在Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案的[Agentic AI中，現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)的AI代理程式中。
 
 ## 授權使用量儀表板
 
