@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 39%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 39%
 
 ## 2026年6月
 
-* 已發佈[Agentic AI使用監控](../features/monitoring.md)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
+* 已發佈[Agentic AI監控](../features/monitoring.md)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
 * 已新增[2026年6月發行說明](release-notes.md) （用於代理式AI使用監控）。
 
 ## 2026年5月

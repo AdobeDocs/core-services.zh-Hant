@@ -1,6 +1,6 @@
 ---
 title: Agentic AI使用監控
-description: 瞭解CX Enterprise中的AI使用監控。 追蹤採用、檢閱交談和意見回饋，並管理使用、品質和成本可見度的AI評分。
+description: 瞭解CX Enterprise中用於AI使用量監視的儀表板。 追蹤採用、檢閱交談和意見回饋，並管理使用、品質和成本可見度的AI評分。
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Agentic AI使用量監視儀表板
+# Agentic AI監視
 
 CX Enterprise提供兩種儀表板，可監視現有CX Enterprise應用程式中的代理程式AI使用情形。 這些儀表板可協助您瞭解使用者透過[!DNL AI Assistant]和其他對話介面存取的[!DNL Experience Platform Agents]的採用、參與、意見品質和AI點數消耗。
 
