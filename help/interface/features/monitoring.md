@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
+source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 866
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Agentic AI監控儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 您可以檢視7天或30天期間的趨勢，以瞭解誰使用[!DNL AI Assistant]或其他對話介面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動、他們在這些互動中做什麼，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
 
-Agentic AI監控儀表板包含下列檢視：
+[!UICONTROL 監視]儀表板包含下列檢視：
 
 | 控制面板 | 目的 |
 | --- | --- |
@@ -39,7 +39,7 @@ Agentic AI監控儀表板包含下列檢視：
 
 使用狀況監視範圍內的代理程式列在Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案的[Agentic AI中，現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)的AI代理程式中。
 
-[觀看入門影片](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 啟用儀表板許可權 {#permissions}
 
@@ -86,7 +86,7 @@ Agentic AI監控儀表板包含下列檢視：
 * **每個交談的平均提示數：**&#x200B;每個交談的參與深度。
 * **意見：**&#x200B;使用者向上和向下拇指的意見分佈（僅適用於[!DNL AI Assistant]個互動）。
 
-[檢視影片](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 交談重播
 
@@ -95,7 +95,7 @@ Agentic AI監控儀表板包含下列檢視：
 * **提示與回應歷史記錄：**&#x200B;使用者的提示與回應已傳遞。
 * **意見反應訊號：**&#x200B;使用者以豎起或豎下大拇指標示的互動，以識別摩擦、封鎖或啟用需求。 此資訊可協助您的組織改善即時關聯性，並協助Adobe改善長期以來的回應品質。
 
-[檢視影片](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 使用者儀表板
 
@@ -112,7 +112,7 @@ Agentic AI監控儀表板包含下列檢視：
 * **交談活動：**&#x200B;每個使用者的交談和提示數目。
 * **最活躍的使用者：**&#x200B;高度參與的使用者和團隊，推動代理程式採用。
 
-[檢視影片](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 意見反應儀表板
 
@@ -126,7 +126,7 @@ Agentic AI監控儀表板包含下列檢視：
 * **提示和回應歷史記錄：**&#x200B;使用者提示和與提交的意見相關的回應。
 * **意見詳細資料和附註：**&#x200B;使用者在意見提交期間的其他內容與註解。
 
-[檢視影片](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI積分儀表板
 
@@ -138,7 +138,7 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 * **每日和每月趨勢：**&#x200B;消費模式的尖峰、下降和變更。
 * **AI剩餘信用額度：**&#x200B;剩餘餘額，讓您能夠主動計畫並避免超額。
 
-[檢視影片](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 有關此主題的更多說明
 
