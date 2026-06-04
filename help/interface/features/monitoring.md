@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Agentic AI監控儀表板包含下列檢視：
 
 [觀看入門影片](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## 啟用儀表板許可權（管理員） {#permissions}
+## 啟用儀表板許可權 {#permissions}
 
 更新每個授權使用者的產品設定檔或角色，以在[!DNL Adobe Experience Platform]中授與儀表板存取權。 啟用許可權後，[!UICONTROL 監視]功能會顯示給CX Enterprise首頁上的使用者。
 
@@ -73,7 +73,7 @@ Agentic AI監控儀表板包含下列檢視：
 
 1. 若要檢視儀表板，請返回CX Enterprise首頁，然後按一下&#x200B;**[!UICONTROL 監視]**。
 
-![代理式AI監視儀表板](../features/assets/monitoring.png)
+   ![代理式AI監視儀表板](../features/assets/monitoring.png)
 
 ## 總覽儀表板
 
