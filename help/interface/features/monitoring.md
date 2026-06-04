@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -37,11 +32,11 @@ Agentic AI監控儀表板包含下列檢視：
 | **意見反應** | 回應品質和使用者滿意度訊號 |
 | **AI積分** | 信用沖銷趨勢與餘額 |
 
-使用狀況監視範圍內的代理程式列在Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案的[Agentic AI中，現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)的AI代理程式中。
+使用狀況監視範圍內的代理程式列在Adobe CX Enterprise ](agentic-ai.md)檔案的[Agentic AI中，現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)的[AI代理程式中。
 
 [觀看入門影片](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## 啟用儀表板許可權（管理員） {#permissions}
+## 啟用儀表板許可權 {#permissions}
 
 更新每個授權使用者的產品設定檔或角色，以在[!DNL Adobe Experience Platform]中授與儀表板存取權。 啟用許可權後，[!UICONTROL 監視]功能會顯示給CX Enterprise首頁上的使用者。
 
@@ -73,7 +68,7 @@ Agentic AI監控儀表板包含下列檢視：
 
 1. 若要檢視儀表板，請返回CX Enterprise首頁，然後按一下&#x200B;**[!UICONTROL 監視]**。
 
-![代理式AI監視儀表板](../features/assets/monitoring.png)
+   ![代理式AI監視儀表板](../features/assets/monitoring.png)
 
 ## 總覽儀表板
 
@@ -142,7 +137,7 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 
 ## 有關此主題的更多說明
 
-* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage)
+* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的Agentic AI](agentic-ai.md)
 * [代理程式工作和AI信用消耗](ai-credit-consumption.md)
-* [授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
