@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
+source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 917
 ht-degree: 2%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 2%
 # Agentic AI監控儀表板
 
 Agentic AI監控儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 您可以檢視7天或30天期間的趨勢，以瞭解誰使用[!DNL AI Assistant]或其他對話介面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動、他們在這些互動中做什麼，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
+
+**可用性**
+
+* 目前，任何帳戶只要擁有至少一個Experience Platform原生應用程式（Customer Journey Analytics、Journey Optimizer或Real-Time CDP）的授權，即可存取此儀表板
+* [AI優先應用程式](agentic-ai.md#ai-first-cx-enterprise-applications) （例如Experimentation Accelerator、LLM Optimizer、Sites Optimizer等）的使用和採用量度不在此儀表板的範圍內
 
 [!UICONTROL 監視]儀表板包含下列檢視：
 
