@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 6%
 # Adobe Experience Platform代理程式工作和AI點數消耗
 
 瞭解CX Enterprise應用程式中的Agential AI工作和AI信用消耗。 如需有關在現有CX Enterprise應用程式中啟用代理程式人工智慧功能的資訊，請參閱[CX Enterprise中的代理程式人工智慧](agentic-ai.md#existing-apps)。
+
+## 新增功能
+
+| 功能 | 說明 |
+| --- | --- |
+| [CX Enterprise Agentic AI功能目錄](https://agentic-capability-explorer.entapp.adproto.com/) | 探索您的授權CX Enterprise應用程式中有哪些代理程式AI工作。 |
 
 ## 代理程式工作
 
@@ -35,6 +41,8 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 * 簡單（通常是單步）工作消耗的積分較少
 * 複雜（通常為多步驟）的工作會消耗更多積分
 * 涉及進階推理、驗證、多代理程式協調或整合的工作會消耗更多評分
+
+**注意：** [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/)也可協助您探索您的授權CX Enterprise應用程式中有哪些代理AI工作。
 
 ### 預估的AI信用消耗率
 
