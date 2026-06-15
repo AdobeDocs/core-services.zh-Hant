@@ -24,7 +24,7 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 745
+source-wordcount: 760
 ht-degree: 44%
 
 ---
@@ -54,10 +54,10 @@ ht-degree: 44%
 
 | 解決方案 | 說明 |
 | --- | --- |
-| CX Enterprise對象 | 使用對象庫以原生方式建立、管理和共用對象。 您可以：<ul><li>透過原始分析屬性來使用即時受眾。</li><li>結合對象以建立複合對象，加入即時和歷史資料。</li><li>檢視預估對象規模的圖形檢視。</li></ul><br>如需您要建立何種客群類型的建議，請參閱 [客群建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)。 |
-| Analytics | 在細分中，您可以建立區段、將其與報表套裝結合，然後將區段發佈至CX Enterprise。 發佈區段會顯示在CX Enterprise的[!DNL Audience Library]頁面上。 （如需詳細資訊，請參閱[!DNL Analytics]說明中的[將區段發佈至CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)。） 對象也可作為[!DNL Adobe Target]提供之行銷活動體驗以及[!DNL Audience Manager]中的目標對象。 當您共用[!DNL Adobe Analytics]的對象並選擇在作用中的行銷活動中使用後，符合過去90天達到區段定義條件的訪客設定檔會傳送至[!UICONTROL Audience Services]。 共用客群的限制數已提高至 75 個。 透過[!DNL Analytics]與CX Enterprise共用的對象不能超過2,000萬個不重複的成員。 此外，由於快取關係，CX Enterprise會在12小時後才顯示Analytics中刪除的報表套裝資訊。 |
-| Mobile Services | 使用[!UICONTROL Device Types]報表中的放射環狀圖視覺效果分析行動流量。 |
-| [!DNL Target] | [ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)會將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種應用程式。 Adobe Analytics區段建立程式中會顯示[!UICONTROL Publish to CX Enterprise]核取方塊，一旦勾選，該區段即可供Adobe Target的自訂對象庫使用。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中建立的區段皆適用於 [!DNL Target] 中的活動。 例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和客群區段來建立行銷活動。 |
+| CX Enterprise 客群 | 使用對象庫以原生方式建立、管理和共用對象。 您可以：<ul><li>透過原始分析屬性來使用即時受眾。</li><li>結合對象以建立複合對象，加入即時和歷史資料。</li><li>檢視預估對象規模的圖形檢視。</li></ul><br>如需您要建立何種客群類型的建議，請參閱 [客群建立選項](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=zh-Hant)。 |
+| Analytics | 在細分中，您可以建立區段、將其與報表套裝結合，然後將區段發佈至CX Enterprise。 發佈區段會顯示在CX Enterprise的[!DNL Audience Library]頁面上。 （如需詳細資訊，請參閱[!DNL Analytics]說明中的[將區段發佈至CX Enterprise](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=zh-Hant)。） 對象也可作為[!DNL Adobe Target]提供之行銷活動體驗以及[!DNL Audience Manager]中的目標對象。 當您共用[!DNL Adobe Analytics]的對象並選擇在作用中的行銷活動中使用後，符合過去90天達到區段定義條件的訪客設定檔會傳送至[!UICONTROL 對象服務]。 共用客群的限制數已提高至 75 個。 透過[!DNL Analytics]與CX Enterprise共用的對象不能超過2,000萬個不重複的成員。 此外，由於快取關係，CX Enterprise會在12小時後才顯示Analytics中刪除的報表套裝資訊。 |
+| Mobile Services | 使用[!UICONTROL 裝置型別]報表中的放射環狀圖視覺效果來分析行動流量。 |
+| [!DNL Target] | [ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)會將訪客 ID 與資料統整於單一可操作的輪廓中，以便用於各種應用程式。 在Adobe Analytics中建立區段程式期間的[!UICONTROL 發佈至CX Enterprise]核取方塊可讓該區段在Adobe Target的自訂對象庫中提供。 在 [!DNL Analytics] 或 [!DNL Audience Manager] 中建立的區段皆適用於 [!DNL Target] 中的活動。 例如，您可以根據 [!DNL Analytics] 中建立的 [!DNL Analytics] 轉換量度和客群區段來建立行銷活動。 |
 | [!DNL Audience Manager] | 在 [!DNL Audience Manager] 細分中可用共用客群。 所有CX Enterprise對象都可在[!DNL Audience Manager]中以原生方式使用，提供：<ul><li>內建有關如何在應用程式工作流程中共用和使用對象的自動化功能</li><li>離站目的地</li><li>相似建模</li></ul> |
 | 促銷活動 | <ul><li>從不同的Adobe CX Enterprise應用程式匯入共用對象至Adobe Campaign。</li><li>以共用客群的形式匯出收件者清單。 這些共用對象可用於您所使用的不同Adobe CX Enterprise應用程式。</li></ul> |
 | Advertising Cloud | 使用客群作為目標。 |
@@ -72,7 +72,7 @@ ht-degree: 44%
 
 [!DNL CX Enterprise]提供一個資料庫，能讓您利用原始的即時對象識別來建立和管理對象。
 
-**[!UICONTROL CX Enterprise]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Audience Library]**
+**[!UICONTROL CX Enterprise]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL 人員]** > **[!UICONTROL 對象庫]**
 
 ![在客群庫中新增客群](assets/audience_library.png)
 

@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,13 +69,13 @@ CX Enterprise使用者介面提供下列語言版本：
 
 **若要指定預設語言**
 
-1. 在CX Enterprise中，按一下&#x200B;**[!UICONTROL Profile]** > [偏好設定](https://experience.adobe.com/preferences)。
+1. 在CX Enterprise中，按一下&#x200B;**[!UICONTROL 設定檔]** > [偏好設定](https://experience.adobe.com/preferences)。
 
-1. 在&#x200B;**[!UICONTROL Profile]**&#x200B;下，按一下語言連結。
+1. 在&#x200B;**[!UICONTROL 設定檔]**&#x200B;下，按一下語言連結。
 
-1. 在&#x200B;**[!UICONTROL Select language]**&#x200B;上，從&#x200B;**[!UICONTROL First language]**&#x200B;功能表選取語言。
+1. 在&#x200B;**[!UICONTROL 選取語言]**&#x200B;上，從&#x200B;**[!UICONTROL 第一語言]**&#x200B;功能表選取語言。
 
    雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以介面中列出的所有語言提供。 如果CX Enterprise應用程式不支援您的主要語言，您可以視情況設定次要預設語言。
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 

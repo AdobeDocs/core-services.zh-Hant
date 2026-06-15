@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 43%
+source-wordcount: 345
+ht-degree: 39%
 
 ---
 
@@ -42,28 +42,28 @@ ht-degree: 43%
 
 1. 在[!DNL Customer Attributes]中，按一下要編輯的屬性來源。
 
-1. 在&#x200B;**[!UICONTROL Edit Customer Attribute Source]**&#x200B;上，按一下&#x200B;**[!UICONTROL File Upload]**。
+1. 在&#x200B;**[!UICONTROL 編輯客戶屬性Source]**&#x200B;上，按一下&#x200B;**[!UICONTROL 檔案上傳]**。
 
-1. 在[!UICONTROL File Upload and Schema Validation]頁面上，按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
+1. 在[!UICONTROL 檔案上傳和結構描述驗證]頁面上，按一下&#x200B;**[!UICONTROL 動作]** > **[!UICONTROL 檢視/編輯結構描述]**
 
    ![編輯結構](assets/actions.png)
 
-   在[!UICONTROL Edit Schema]頁面上，結構描述的每一列代表上傳之CSV檔案的一欄。
+   在[!UICONTROL 編輯結構描述]頁面上，結構描述的每一列代表上傳之CSV檔案的一欄。
 
    在CX Enterprise中![編輯結構描述頁面](assets/schema-edit.png)
 
 **動作**
 
-* **[!UICONTROL Add Data:]**&#x200B;上傳新的屬性資料到此資料來源。
+* **[!UICONTROL 新增資料：]**&#x200B;將新的屬性資料上傳至此資料來源。
 
-* **[!UICONTROL View/Edit Schema:]**&#x200B;將顯示名稱對應至屬性資料，如下一個步驟所述。
+* **[!UICONTROL 檢視/編輯結構描述：]**&#x200B;將顯示名稱對應至屬性資料，如下一個步驟所述。
 
-* **[!UICONTROL FTP Setup:]**&#x200B;建立您的FTP帳戶以[透過FTP上傳您的資料](t-upload-attributes-ftp.md) （選擇性）。
+* **[!UICONTROL FTP設定：]**&#x200B;建立您的FTP帳戶以[透過FTP上傳您的資料](t-upload-attributes-ftp.md) （選擇性）。
 
-* **[!UICONTROL ID Lookup:]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查詢該ID的CX Enterprise資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
+* **[!UICONTROL ID查閱：]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查閱該ID的CX Enterprise資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]**&#x200B;在您使用最新的CX Enterprise ID服務時顯示。 如果您使用MCID服務，但此處未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
+   * **[!UICONTROL ECID (CX Enterprise ID)：]**&#x200B;顯示您是否使用最新的CX Enterprise ID服務。 如果您使用MCID服務，但此處未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
-   * **[!UICONTROL CID (customer ID):]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
+   * **[!UICONTROL CID （客戶識別碼）：]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]**&#x200B;在您使用prop或eVar上傳CID時顯示。 如果這些ID正傳遞至CX Enterprise，則此處會顯示與您輸入的CID相關聯的任何訪客ID。
+   * **[!UICONTROL AVID （Analytics訪客ID）：]**&#x200B;顯示您是否使用prop或eVar上傳CID。 如果這些ID正傳遞至CX Enterprise，則此處會顯示與您輸入的CID相關聯的任何訪客ID。

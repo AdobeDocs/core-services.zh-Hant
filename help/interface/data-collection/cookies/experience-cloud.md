@@ -48,7 +48,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
    <td colname="col2"> <p> 包含CX Enterprise ID (ECID)或MID的復本。 MID 儲存在遵循此語法 (s_ecid=MCMID|&lt;ECID&gt;) 的機碼值組中 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 有效期限 </p> </td> 
+   <td colname="col1"> <p> 過期 </p> </td> 
    <td colname="col2"> <p>2年，不過大部分的現代瀏覽器都會截斷為13個月</p> </td> 
   </tr> 
   <tr> 

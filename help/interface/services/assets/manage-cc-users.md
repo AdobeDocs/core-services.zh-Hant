@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 53%
+source-wordcount: 124
+ht-degree: 46%
 
 ---
 
@@ -34,8 +34,8 @@ CX企業版提供管理工具，可管理核准的Creative Cloud使用者。 這
 >
 >您必須是管理員才能執行此程序。
 
-1. 在CX Enterprise中，按一下&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**。
-1. 按一下「**[!UICONTROL Creative Cloud Asset Sharing]**」。
-1. 按一下 **[!UICONTROL Add New User]**。  ![新增使用者](../../assets/mac_add_icon.png)
+1. 在CX Enterprise中，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理Creative Cloud共同作業人員]**。
+1. 按一下&#x200B;**[!UICONTROL Creative Cloud資產共用]**。
+1. 按一下&#x200B;**[!UICONTROL 新增使用者]**。  ![新增使用者](../../assets/mac_add_icon.png)
 1. 輸入電子郵件、顯示名稱、標題，並選擇性地新增頭像。
-1. 按一下「**[!UICONTROL Create]**」。
+1. 按一下「**[!UICONTROL 建立]**」。

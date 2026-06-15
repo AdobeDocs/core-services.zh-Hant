@@ -32,8 +32,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 30%
+source-wordcount: 1116
+ht-degree: 31%
 
 ---
 
@@ -73,7 +73,7 @@ ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的
 
 說明：[客群](/help/interface/services/audiences/overview.md)
 
-在CX Enterprise [!UICONTROL Audience Library]中建立和管理對象。 您可以建立客群，或從各種來源衍生出客群，例如：
+在CX Enterprise [!UICONTROL 對象庫]中建立和管理對象。 您可以建立客群，或從各種來源衍生出客群，例如：
 
 * 在[!DNL CX Enterprise]中建立新的對象。
 * 從[!DNL Analytics]個區段發佈至[!DNL CX Enterprise]。
@@ -96,7 +96,7 @@ ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的
 * Adobe Analytics：客戶屬性報表
 * Adobe Target：設定Adobe Target的[訂閱](/help/interface/services/customer-attributes/subscription.md)以使用客戶屬性
 
-## CX Enterprise Assets
+## CX Enterprise 資產
 
 說明： [與Creative Cloud共用CX企業資料夾](/help/interface/services/assets/share.md)
 
@@ -161,7 +161,7 @@ ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的
 
 * AEM
 * Creative Cloud
-* [CX企業版](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
+* [CX Enterprise](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
 
 ## [!DNL Adobe Advertising]
 

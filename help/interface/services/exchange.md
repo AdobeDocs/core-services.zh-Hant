@@ -22,8 +22,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 88%
+source-wordcount: 131
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 
 Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。 應用程式包括 Data Connectors、Adobe 核心產品的設定自訂設定、第三方應用程式及報告。
 
-**[!UICONTROL CX Enterprise]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
+**[!UICONTROL CX Enterprise]** > **[!UICONTROL 說明]** > **[!UICONTROL Exchange]**
 
 * 下載 SDK、閱讀文件，以及將應用程式提交至 Digital Marketing 進行審核。
 

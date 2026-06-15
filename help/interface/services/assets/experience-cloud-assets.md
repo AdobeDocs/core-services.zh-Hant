@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +50,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 ## 存取工具列
 
-導覽至資產（或資產目錄），然後按一下&#x200B;**[!UICONTROL Select]**。
+導覽至資產（或資產目錄），然後按一下&#x200B;**[!UICONTROL 選取]**。
 
 工具列可讓您快速存取功能，包括搜尋、時間軸、轉譯、編輯、注釋和下載。
 
@@ -78,13 +78,13 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 ## 為資產加上注釋
 
-按一下&#x200B;**[!UICONTROL Annotate]**，在影像上畫圓或箭頭，並在資產上加上註釋，以供同事檢閱。
+按一下&#x200B;**[!UICONTROL 「註釋]**」，在影像上畫圓或箭頭，以及在資產上加入註釋，以供同事檢閱。
 
 ![為資產加上注釋](../../assets/assets-annotate.png)
 
 ## 以全螢幕檢視資產並縮放
 
-按一下&#x200B;**[!UICONTROL Views]** > **[!UICONTROL Image]**&#x200B;以檢視完整資產影像並啟用縮放。
+按一下&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 影像]**&#x200B;以檢視完整資產影像並啟用縮放。
 
 ![以全螢幕檢視資產](../../assets/asset-zoom.png)
 
@@ -92,7 +92,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 使用屬性、清單檢視及欄檢視在卡片檢視之間選擇，更輕鬆地找到您的資產。
 
-按一下「**[!UICONTROL Views]** > **[!UICONTROL Properties]**」以檢視資產屬性：
+按一下&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 屬性]**&#x200B;以檢視資產屬性：
 
 ![檢視資產屬性](../../assets/asset-properties.png)
 
@@ -100,6 +100,6 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 可查看使用者人數、已使用的儲存空間，以及資產總計。
 
-按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+按一下「**[!UICONTROL 工具]**」>「**[!UICONTROL 報表]**」>「**[!UICONTROL 使用情況報表]**」
 
 ![執行使用情況報表](../../assets/assets-usage-report.png)

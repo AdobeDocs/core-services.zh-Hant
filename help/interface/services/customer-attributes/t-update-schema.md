@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 42%
 
 如何在結構中刪除及取代屬性。
 
-1. 在[!UICONTROL Edit Customer Attribute Source]頁面上，按一下「設定訂閱」。
+1. 在[!UICONTROL 編輯客戶屬性Source]頁面上，按一下「設定訂閱」。
 
-1. 移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;的對映值。
+1. 移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;的對應值。
 
 1. [上傳含有更新欄位的新資料檔案](t-crs-usecase.md)。

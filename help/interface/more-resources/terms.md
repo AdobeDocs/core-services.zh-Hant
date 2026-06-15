@@ -1,5 +1,5 @@
 ---
-description: 瞭解Adobe產品和介面術語在CX企業版、Experience Cloud解決方案、Creative Cloud、Experience League和其他支援體驗之間有何差異。
+description: 瞭解Adobe產品和介面術語在CX Enterprise、Experience Cloud解決方案、Creative Cloud、Experience League和其他支援體驗之間的差異。
 solution: Experience Cloud
 title: 術語
 feature-set: Experience Cloud Services

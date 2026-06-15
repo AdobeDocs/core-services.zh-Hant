@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # 建立客群
 
-在[!UICONTROL Audience Library]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
+在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -58,24 +58,24 @@ ht-degree: 60%
 
 **若要建立客群**
 
-1. 按一下[!DNL CX Enterprise]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL People]** > **[!UICONTROL Audience Library]。**
+1. 按一下[!DNL CX Enterprise]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]。**
 
-1. 在[!UICONTROL Audiences]頁面上，按一下&#x200B;**[!UICONTROL New]**。 ![新對象](assets/add_icon_small.png)
+1. 在[!UICONTROL 對象]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![新對象](assets/add_icon_small.png)
 
    ![建立客群](assets/audience_create_new.png)
 
-1. 在[!UICONTROL Create New Audience]頁面上，完成&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位。
-1. 在[!UICONTROL Rules]下，選取參考報表套裝，然後選取屬性來源：
+1. 在[!UICONTROL 建立新對象]頁面上，完成&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;欄位。
+1. 在[!UICONTROL 規則]下，選取參考報表套裝，然後選取屬性來源：
 
-   * **[!UICONTROL Real-Time Analytics Data:]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。 這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。 這個報表套裝選取項目提供了報表套裝所使用的變數結構。
 
      >[!NOTE]
      >
      >由於快取關係，CX Enterprise會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
-   * 從[!DNL CX Enterprise]來源衍生的&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
+   * **[!UICONTROL CX Enterprise：]**&#x200B;從[!DNL CX Enterprise]來源衍生的屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
 
-1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL Save].**
+1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL 儲存].**
 
 **範例：定義複合對象的規則**
 
@@ -83,18 +83,18 @@ ht-degree: 60%
 >
 >定義客群規則時，您應該了解您的實作變數。
 
-在[!UICONTROL Rules]底下，定義&#x200B;*`Home & Garden`*&#x200B;屬性選取專案：
+在[!UICONTROL 規則]下，定義&#x200B;*`Home & Garden`*&#x200B;屬性選取專案：
 
-* **[!UICONTROL Attribute Source:]**&#x200B;原始Analytics資料
-* **[!UICONTROL Report Suite:]**&#x200B;報告套裝31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL 屬性Source：]**&#x200B;原始Analytics資料
+* **[!UICONTROL 報表套裝：]**&#x200B;報表套裝31
+* Dimension = **[!UICONTROL 商店(Merch) (v6)]** > **[!UICONTROL 等於]** > **[!UICONTROL 家庭與花園]**
 
 ![客群庫中的屬性選擇](assets/home_garden.png)
 
 *Chrome 和 Safari 訪客*&#x200B;是從 Analytics 共用的客群區段：
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
-* **[!UICONTROL Dimension:]**&#x200B;個Chrome與Safari訪客
+* **[!UICONTROL 屬性Source：]** CX Enterprise
+* **[!UICONTROL Dimension：]** Chrome與Safari訪客
 
 ![Chrome 與 Safari 的訪客](assets/chrome_safari.png)
 

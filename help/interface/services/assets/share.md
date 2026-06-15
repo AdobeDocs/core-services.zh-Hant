@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 39%
+source-wordcount: 474
+ht-degree: 37%
 
 ---
 
@@ -44,26 +44,26 @@ ht-degree: 39%
 
 **共用CX Enterprise資產資料夾**
 
-1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL Share to Creative Cloud]**。
+1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至Creative Cloud]**。
 
    ![分享到 Creative Cloud](../../assets/asset-share-cc.png)
-1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下&#x200B;**[!UICONTROL Add]**。
+1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下[新增]。**&#x200B;**
 
    ![新增 Creative Cloud 使用者](../../assets/asset-share-cc-page.png)
 
-1. 按一下「**[!UICONTROL Share]**」。
-1. 啟動[!DNL Creative Cloud]案頭（或在瀏覽器中導覽至[!UICONTROL Creative Cloud Files]頁面）並尋找請求通知。
+1. 按一下&#x200B;**[!UICONTROL 共用]**。
+1. 啟動[!DNL Creative Cloud]案頭（或在瀏覽器中導覽至[!UICONTROL Creative Cloud Files]頁面），並尋找要求通知。
 
    ![請求通知](../../assets/cc_share_request.png)
-1. 開啟要求，然後按一下&#x200B;**[!UICONTROL Accept]**。
+1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
 
    ![接受請求](../../assets/cc_share_accept.png)
-1. 若要存取資料夾內容，請按一下&#x200B;**[!UICONTROL Open Folder]** （或&#x200B;**[!UICONTROL View on Web]**）。
+1. 若要存取資料夾內容，請按一下[開啟資料夾] **（或[在網頁上檢視]**）。**&#x200B;**
 
    ![在網頁上檢視](../../assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
 
-   在Creative Cloud中，您可以選取影像，然後按一下「**[!UICONTROL Activity]**」在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL CX Enterprise] 中的資產。
+   在Creative Cloud中，您可以選取影像，然後按一下&#x200B;**[!UICONTROL 活動]**&#x200B;在影像上新增註解。 註解會同步至 [!DNL Creative Cloud] 和 [!DNL CX Enterprise] 中的資產。
 
    ![在影像上新增註解](../../assets/asset_comment_cc.png)
 
@@ -71,7 +71,7 @@ ht-degree: 39%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下&#x200B;**[!UICONTROL Share Using Creative Cloud]** （類似[步驟3](share.md)），然後選取X來移除使用者，再按一下&#x200B;**[!UICONTROL Share]**。
+1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]&#x200B;**（類似[步驟3](share.md)&rbrack; &lbrack;），然後選取X來移除使用者，再按一下[共用]**&#x200B;**。**
 
    ![取消共用資料夾](../../assets/asset_remove_user.png)
 
@@ -91,7 +91,7 @@ ht-degree: 39%
 
 ## 關於 Adobe Target 的資產共用
 
-在[!DNL Adobe Target]中建立活動時，您可以在[!UICONTROL Offers Library]中交換影像時使用共用的影像資產。
+在[!DNL Adobe Target]中建立活動時，您可以在交換[!UICONTROL 選件資料庫]中的影像時使用共用的影像資產。
 
 請參閱 [!DNL Target] 說明中的[產品建議庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)。
 
