@@ -10,8 +10,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 41%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 41%
 
 本檔案適用於CX Enterprise中統一標題的功能，例如[!DNL People]服務（[!DNL Audience Library]和[!DNL Customer Attributes]）、CX Enterprise的使用者和產品管理、Cookie、帳戶偏好設定、通知等。
 
-若要在CX Enterprise中存取這些服務，請選取 **[!UICONTROL Application Selector]**
+若要在CX Enterprise中存取這些服務，請選取&#x200B;**[!UICONTROL 應用程式選擇器]**
 ![服務選擇器](../assets/apps-icon.png)。
 
 ![CX Enterprise服務](../assets/platform-core-services.png)
@@ -32,12 +32,12 @@ ht-degree: 41%
 | --- | --- |
 | [中央介面元件](../experience-cloud.md) | 存取帳戶偏好設定、搜尋產品說明，以及存取應用程式和服務。 |
 | [客群庫](audiences/overview.md) | 客群是訪客的集合 (訪客 ID 的清單)。 Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
-| [客戶屬性](customer-attributes/attributes.md) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration] 是與 Experience Platform 整合的應用程式服務。 |
+| [客戶屬性](customer-attributes/attributes.md) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration]是與Experience Platform整合的應用程式服務。 |
 | [資產](assets/experience-cloud-assets.md) | CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->已提供[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)的產品檔案。 在[Adobe Developer](https://developer.adobe.com/apis)上找到[!UICONTROL Experience Platform]開發人員的技術檔案。
+>已提供[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hant)的產品檔案。 [!UICONTROL Experience Platform]開發人員的技術檔案位於[Adobe Developer](https://developer.adobe.com/apis)。
 

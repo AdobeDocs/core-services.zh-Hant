@@ -9,29 +9,21 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 TQID: https://experienceleague.adobe.com/xXhiBeGGEVpvdjZdpL2Q9-3eDn-gN58dynb56daQcig
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # 建立客群
 
-在[!UICONTROL Audience Library]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
+在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -58,24 +50,24 @@ ht-degree: 60%
 
 **若要建立客群**
 
-1. 按一下[!DNL CX Enterprise]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL People]** > **[!UICONTROL Audience Library]。**
+1. 按一下[!DNL CX Enterprise]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]。**
 
-1. 在[!UICONTROL Audiences]頁面上，按一下&#x200B;**[!UICONTROL New]**。 ![新對象](assets/add_icon_small.png)
+1. 在[!UICONTROL 對象]頁面上，按一下&#x200B;**[!UICONTROL 新增]**。 ![新對象](assets/add_icon_small.png)
 
    ![建立客群](assets/audience_create_new.png)
 
-1. 在[!UICONTROL Create New Audience]頁面上，完成&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**&#x200B;欄位。
-1. 在[!UICONTROL Rules]下，選取參考報表套裝，然後選取屬性來源：
+1. 在[!UICONTROL 建立新對象]頁面上，完成&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;欄位。
+1. 在[!UICONTROL 規則]下，選取參考報表套裝，然後選取屬性來源：
 
-   * **[!UICONTROL Real-Time Analytics Data:]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。 這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。 這個報表套裝選取項目提供了報表套裝所使用的變數結構。
 
      >[!NOTE]
      >
      >由於快取關係，CX Enterprise會在12小時後才顯示Analytics中刪除的報表套裝資訊。
 
-   * 從[!DNL CX Enterprise]來源衍生的&#x200B;**[!UICONTROL CX Enterprise:]**&#x200B;屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
+   * **[!UICONTROL CX Enterprise：]**&#x200B;從[!DNL CX Enterprise]來源衍生的屬性資料。 例如，這可以是您在 [!DNL Analytics] 中建立的客群區段資料，或是 [!DNL Audience Manager] 中的資料。
 
-1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL Save].**
+1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL 儲存].**
 
 **範例：定義複合對象的規則**
 
@@ -83,18 +75,18 @@ ht-degree: 60%
 >
 >定義客群規則時，您應該了解您的實作變數。
 
-在[!UICONTROL Rules]底下，定義&#x200B;*`Home & Garden`*&#x200B;屬性選取專案：
+在[!UICONTROL 規則]下，定義&#x200B;*`Home & Garden`*&#x200B;屬性選取專案：
 
-* **[!UICONTROL Attribute Source:]**&#x200B;原始Analytics資料
-* **[!UICONTROL Report Suite:]**&#x200B;報告套裝31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL 屬性Source：]**&#x200B;原始Analytics資料
+* **[!UICONTROL 報表套裝：]**&#x200B;報表套裝31
+* Dimension = **[!UICONTROL 商店(Merch) (v6)]** > **[!UICONTROL 等於]** > **[!UICONTROL 家庭與花園]**
 
 ![客群庫中的屬性選擇](assets/home_garden.png)
 
 *Chrome 和 Safari 訪客*&#x200B;是從 Analytics 共用的客群區段：
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
-* **[!UICONTROL Dimension:]**&#x200B;個Chrome與Safari訪客
+* **[!UICONTROL 屬性Source：]** CX Enterprise
+* **[!UICONTROL Dimension：]** Chrome與Safari訪客
 
 ![Chrome 與 Safari 的訪客](assets/chrome_safari.png)
 
@@ -111,4 +103,4 @@ CX Enterprise中的![已定義的對象](assets/defined_audience.png)
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。

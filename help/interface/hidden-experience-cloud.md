@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 50%
+source-wordcount: '519'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 50%
 登入並確認您隸屬於正確的[組織](administration/organizations.md)。
 
 1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)。
-1. 輸入您的Adobe電子郵件地址，然後按一下&#x200B;**[!UICONTROL Continue]**。
+1. 輸入您的Adobe電子郵件地址，然後按一下&#x200B;**[!UICONTROL 繼續]**。
 1. 按一下帳戶。
 1. 輸入密碼。
 1. 確認您隸屬於正確的組織。
@@ -59,25 +59,25 @@ ht-degree: 50%
 
 ## 取得說明和支援 {#support}
 
-使用標頭中的&#x200B;**[!UICONTROL Help center]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
+使用標頭中的&#x200B;**[!UICONTROL 說明中心]** （![資產](assets/help-icon.png)）來存取學習和說明，包括有關[Experience League](https://experienceleague.adobe.com/#home)的說明內容（檔案、教學課程和其他課程），以及個別應用程式的其他資源。 您還可以提交開放式意見回饋，並建立有優先權的支援服務單。
 
 ![取得說明和支援](assets/search-menu.png)
 
-[!UICONTROL Help]功能表也可讓您存取：
+[!UICONTROL 說明]功能表也可讓您存取：
 
-* **[!UICONTROL Support]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL Support]。
-* **[!UICONTROL Feedback]：**&#x200B;分享您對CX Enterprise體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
-* **[!UICONTROL Status]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL Manage Subscriptions]。
+* **[!UICONTROL 支援]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL 支援]。
+* **[!UICONTROL 意見反應]：**&#x200B;分享您對CX Enterprise體驗的意見。 您的意見回饋會用於改善 Adobe 產品和服務。
+* **[!UICONTROL 狀態]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL 管理訂閱]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 管理您的使用者設定檔
 
-在[!UICONTROL Profile]功能表中，您可以：
+在[!UICONTROL 設定檔]功能表中，您可以：
 
 * 指定深色主題 (並非所有應用程式都支援這個主題)
 * 管理CX Enterprise [偏好設定](features/account-preferences.md)
 * 選取或搜尋「[組織](administration/organizations.md)」
-* 檢視[!UICONTROL Legal Notices]
+* 檢視[!UICONTROL 法律注意事項]
 * 登出
 * 設定帳戶偏好設定、通知和訂閱
 

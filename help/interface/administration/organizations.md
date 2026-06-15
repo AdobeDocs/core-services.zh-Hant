@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 33%
+source-wordcount: 598
+ht-degree: 32%
 
 ---
 
@@ -36,7 +29,7 @@ ht-degree: 33%
 
 ![CX Enterprise組織](../assets/organizations-menu.png)
 
-若要確認您已登入正確的組織，請按一下&#x200B;**[!UICONTROL Profile]**&#x200B;檢視預設組織名稱。 如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
+若要確認您已登入正確的組織，請按一下[設定檔] **[!UICONTROL 檢視預設組織名稱。]**&#x200B;如果您可以存取多個組織，您也可以在標題列中檢視並切換至另一個組織。
 
 >[!NOTE]
 >
@@ -50,7 +43,7 @@ ht-degree: 33%
 
 ## 檢視您的組織ID
 
-您可以找到指派的組織ID以方便支援。 您可以使用標頭中的&#x200B;**[!UICONTROL Organization]**&#x200B;選取器來確認自己所在的組織是否正確，或者切換組織。
+您可以找到指派的組織ID以方便支援。 您可以使用標頭中的&#x200B;**[!UICONTROL 組織]**&#x200B;選取器，確認自己所在的組織是否正確，或者切換組織。
 
 組織ID是與已布建CX Enterprise公司相關聯的ID。 此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) `@AdobeOrg`。
 
@@ -62,7 +55,7 @@ ht-degree: 33%
 
    ![指派的組織 ID](../assets/assigned-organization.png)
 
-1. 在&#x200B;**[!UICONTROL User Information]**&#x200B;下方，尋找&#x200B;**[!UICONTROL Current Org ID]**，您就可以找到組織ID。
+1. 在&#x200B;**[!UICONTROL 使用者資訊]**&#x200B;下，尋找&#x200B;**[!UICONTROL 目前的組織ID]**，您就可以找到組織ID。
 
    或者，管理員也可以登入Admin Console （導覽至[https://adminconsole.adobe.com](https://adminconsole.adobe.com)），並在URL中檢視您的組織ID。
 
@@ -82,7 +75,7 @@ ht-degree: 33%
 
 1. 使用您的 Adobe ID 或 Enterprise ID 登入。
 
-1. 按一下&#x200B;**[!UICONTROL Application selector]**。 （![功能表](../assets/apps-icon.png)）。
+1. 按一下&#x200B;**[!UICONTROL 應用程式選擇器]**。 （![功能表](../assets/apps-icon.png)）。
 
    ![將應用程式帳戶連結至 Adobe ID](../assets/solutions-active.png)
 
@@ -94,15 +87,15 @@ ht-degree: 33%
 
    如果您隸屬於適當的群組 (並擁有應用程式的權限)，但尚未將帳戶認證與 Adobe ID 綁定，系統就會顯示這類訊息。
 
-1. 按一下&#x200B;**[!UICONTROL Link Account]**，然後提供您的認證。
+1. 按一下&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的認證。
 
 ## 指定預設組織
 
 您可以指定登入時使用的預設組織。
 
-1. 在標題中，按一下&#x200B;**[!UICONTROL Profile]**，然後按一下「偏好設定」。
+1. 在標題中，按一下&#x200B;**[!UICONTROL 設定檔]**，然後按一下「偏好設定」。
 
-1. 在[!UICONTROL General]下，選取預設組織。
+1. 在[!UICONTROL 一般]下，選取預設組織。
 
 
 ![編輯輪廓](../assets/edit-profile.png)
@@ -113,6 +106,6 @@ ht-degree: 33%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。 帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在我們著手解決問題的同時，使用標準登入存取您的應用程式。
 

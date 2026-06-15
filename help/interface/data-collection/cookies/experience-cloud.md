@@ -9,19 +9,11 @@ role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 TQID: https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
@@ -48,7 +40,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
    <td colname="col2"> <p> 包含CX Enterprise ID (ECID)或MID的復本。 MID 儲存在遵循此語法 (s_ecid=MCMID|&lt;ECID&gt;) 的機碼值組中 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 有效期限 </p> </td> 
+   <td colname="col1"> <p> 過期 </p> </td> 
    <td colname="col2"> <p>2年，不過大部分的現代瀏覽器都會截斷為13個月</p> </td> 
   </tr> 
   <tr> 
@@ -72,9 +64,9 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
 
 **Cookie 名稱：AMCV_###@AdobeOrg**
 
-[Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
+另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
