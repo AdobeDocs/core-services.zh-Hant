@@ -45,7 +45,7 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
 
 >[!NOTE]
 >
->有關使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html)。
+>有關使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)。
 
 ## 觸發器的型別
 
@@ -83,7 +83,7 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
    {style="table-layout:auto"}
 
 1. 按一下「**[!UICONTROL 儲存]**」。
-1. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html)。
+1. 在 [!DNL Adobe Campaign] 中使用這些觸發器進行[即時再行銷](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=zh-Hant)。
 
 ## 範例觸發器
 

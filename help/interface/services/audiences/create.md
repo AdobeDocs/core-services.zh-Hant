@@ -111,4 +111,4 @@ CX Enterprise中的![已定義的對象](assets/defined_audience.png)
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
+儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。

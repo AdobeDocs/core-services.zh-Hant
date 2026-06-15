@@ -147,7 +147,7 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 
 ## 有關此主題的更多說明
 
-* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的Agentic AI](agentic-ai.md)
 * [代理程式工作和AI信用消耗](ai-credit-consumption.md)
-* [授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
