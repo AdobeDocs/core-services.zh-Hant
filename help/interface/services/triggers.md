@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 72%
+source-wordcount: 817
+ht-degree: 64%
 
 ---
 
 # CX Enterprise Triggers
 
-CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在進行即時決策和個人化時使用觸發器。
+CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在進行即時決策和個人化時使用觸發器。 如需搭配Adobe Campaign使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)。
 
 例如:
 
@@ -45,7 +45,7 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
 
 >[!NOTE]
 >
->有關使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)。
+>觸發器的本質不是決定性的。 如果有多個使用者共用一個瀏覽器或裝置（例如共用或公用裝置），就無法將觸發器對應到正確的訪客ID。
 
 ## 觸發器的型別
 
@@ -101,3 +101,6 @@ CX Enterprise Triggers範例：
 
 ![反向連結觸發器](../assets/fb-boots-promo.png)
 
+## 驗證觸發程式活動
+
+若要確認觸發程式已觸發，請使用[!UICONTROL 觸發程式]介面檢閱觸發程式的最近活動。 介面會顯示有限數量的最新觸發事件，因此對於資料量高的實作，可能不會顯示所有觸發活動。 目前不支援透過API程式化驗證。
