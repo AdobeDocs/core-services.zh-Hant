@@ -72,9 +72,9 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
 
 **Cookie 名稱：AMCV_###@AdobeOrg**
 
-[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)使用JavaScript在目前網站網域上的`AMCV_###@AdobeOrg` Cookie中儲存不重複訪客ID，其中`###`代表隨機字元字串，例如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)使用JavaScript在目前網站網域上的`AMCV_###@AdobeOrg` Cookie中儲存不重複訪客ID，其中`###`代表隨機字元字串，例如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱[Cookie和訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
+另請參閱[Cookie和訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
