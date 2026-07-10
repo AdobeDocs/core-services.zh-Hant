@@ -1,7 +1,7 @@
 ---
-description: 瞭解組織（IMS組織ID）以及將解決方案帳戶連結至CX Enterprise。
+description: 瞭解組織（IMS組織ID）、切換帳戶及連結解決方案帳戶。
 solution: Experience Cloud
-title: 組織和帳戶連結
+title: 組織和帳戶
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
 topic: Administration
@@ -9,26 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 32%
+source-wordcount: 660
+ht-degree: 29%
 
 ---
 
-# 組織和帳戶綁定
+# 組織和帳戶
 
 *組織* （組織ID）是可讓管理員設定群組和使用者，以及控制CX Enterprise單一登入的實體。
 
@@ -47,6 +40,14 @@ ht-degree: 32%
 如果您的組織使用Federated ID，CX Enterprise可讓您使用組織的單一登入進行登入，而不需要輸入您的電子郵件地址和密碼。 將`#/sso:@domain`新增至CX Enterprise URL (`https://experience.adobe.com`)以完成此工作。
 
 例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
+
+### 同盟來賓帳戶
+
+您可以啟用[同盟訪客存取](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
+
+若要切換到同盟來賓帳戶，請在任何[CX Enterprise](https://experience.adobe.com)頁面上的&#x200B;**[!UICONTROL 組織]**&#x200B;功能表中找到&#x200B;**[!UICONTROL 其他帳戶]**。
+
+![同盟帳戶切換器](../assets/federated-account-switcher.png)
 
 ## 檢視您的組織ID
 
@@ -113,6 +114,6 @@ ht-degree: 32%
 
 通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。 帳戶連結失敗時，您可以：
 
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
+* [聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)。
 * 在我們著手解決問題的同時，使用標準登入存取您的應用程式。
 
