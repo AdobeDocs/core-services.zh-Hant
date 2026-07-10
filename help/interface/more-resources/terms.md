@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0H
 | **Admin Console** | 位於`adminconsole.adobe.com`的Enterprise控制面，適用於使用者、產品設定檔和身分；連結自CX Enterprise **管理**&#x200B;主題。 請參閱[使用者和產品管理](../administration/admin-console.md)。 | 不同於&#x200B;**產品內管理員** （在每個應用程式中，例如Analytics管理工具或Journey Optimizer許可權畫面）。 |
 | **產品設定檔** | Admin Console中的授權套件組合可授予產品或功能的存取權；使用者必須屬於可取得許可權的設定檔。 請參閱[管理產品和輪廓](https://helpx.adobe.com/tw/enterprise/using/manage-products.html)。 | 不可與產品內的所有「工作區」、「容器」或「屬性」名稱互換；這些名稱會因解決方案而異。 |
 | **帳戶連結** | 為組織將應用程式登入（例如，Analytics或Target憑證）連線至您的Adobe ID，讓服務可識別一位使用者。 檢視[組織和帳戶連結](../administration/organizations.md)。 | 與&#x200B;**目錄同步**、**SSO**&#x200B;或&#x200B;**同盟**&#x200B;安裝程式不同（這些是Admin Console中的組織範圍身分識別決策）。 |
-| **Experience Cloud ID服務/ ECID** | 跨解決方案使用的永久性訪客識別碼；通常使用標籤或網頁SDK部署。 在舊版Analytics討論中，仍常被當作&#x200B;**Experience Cloud ID**&#x200B;或&#x200B;**MID**&#x200B;參考。 請參閱[ID服務總覽](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 | 與單一應用程式的舊版Cookie名稱或&#x200B;**Experience Platform**&#x200B;身分圖表概念不同，不過這些概念在實施中可能有所關聯。 |
+| **訪客ID服務/ ECID** | 跨解決方案使用的永久性訪客識別碼；通常使用標籤或網頁SDK部署。 在舊版Analytics討論中通常參照為&#x200B;**MID**。 檢視[訪客ID服務總覽](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 | 與單一應用程式的舊版Cookie名稱或&#x200B;**Experience Platform Identity Service**&#x200B;概念不同，不過這些概念在實施中可能有所關聯。 |
 | **客戶屬性** | 您可透過People服務上傳及對應，用於Analytics、Target及相關工作流程的CRM或企業屬性。 請參閱[客戶屬性](../services/customer-attributes/attributes.md)主題。 | 在未檢查產品界限的情況下，不要單獨等同於&#x200B;**Audience Manager特徵**，或等同於每個&#x200B;**Real-Time CDP**&#x200B;設定檔欄位。 |
 | **客群庫** | CX Enterprise UI可在整合的應用程式間撰寫和共用對象。 | **Audience Manager**&#x200B;和&#x200B;**Target**&#x200B;也使用「對象」，但區段規則和目的地會依產品而有所不同。 |
 | **區段** （分析） | 規則型對象定義，您可以在Adobe Analytics中建立，並在支援時發佈至共用對象。 | 在&#x200B;**Audience Manager**&#x200B;中，區段結合&#x200B;**特徵**；命名重疊，但實作不相同。 在&#x200B;**Target**&#x200B;中，「對象」在許多位置取代舊版的「區段」標籤。 |

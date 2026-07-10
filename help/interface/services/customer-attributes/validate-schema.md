@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 39%
 
 * **[!UICONTROL ID查閱：]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查閱該ID的CX Enterprise資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
 
-   * **[!UICONTROL ECID (CX Enterprise ID)：]**&#x200B;顯示您是否使用最新的CX Enterprise ID服務。 如果您使用MCID服務，但此處未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
+   * **[!UICONTROL ECID：]**&#x200B;在您使用訪客ID服務時顯示。 如果您使用訪客ID服務，但此處未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
    * **[!UICONTROL CID （客戶識別碼）：]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
 

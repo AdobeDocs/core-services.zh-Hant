@@ -1,5 +1,5 @@
 ---
-description: 瞭解ID服務如何在CX Enterprise應用程式間儲存和使用。
+description: 瞭解如何跨CX企業應用程式儲存及使用訪客ID服務。
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 370
-ht-degree: 77%
+source-wordcount: 371
+ht-degree: 67%
 
 ---
 
@@ -72,9 +72,9 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
 
 **Cookie 名稱：AMCV_###@AdobeOrg**
 
-[Experience Platform ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 會使用 JavaScript 將不重複訪客 ID 儲存在現行網站網域的 `AMCV_###@AdobeOrg` Cookie 中，其中 `###` 代表隨機的字元字串，例如 `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)使用JavaScript在目前網站網域上的`AMCV_###@AdobeOrg` Cookie中儲存不重複訪客ID，其中`###`代表隨機字元字串，例如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱 [Cookie 和 ID Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
+另請參閱[Cookie和訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

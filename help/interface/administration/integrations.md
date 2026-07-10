@@ -30,10 +30,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
-ht-degree: 31%
+source-wordcount: 1137
+ht-degree: 30%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 31%
 
 * 在CX Enterprise中布建您的公司。
 * 讓您成為管理員。
-* [實作CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* [實作訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 * 透過[!UICONTROL Platform Data Collection]更新您的[!DNL Analytics]和[!DNL Target]實作。
 * 開始使用CX Enterprise服務，例如[客戶屬性](../services/customer-attributes/attributes.md)和[對象庫](../services/audiences/overview.md)。
 
@@ -56,20 +56,20 @@ ht-degree: 31%
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=zh-Hant)
-* [CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
+* [訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
-## CX Enterprise ID服務
+## 訪客 ID 服務
 
-ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的訪客。 這可取代Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他CX Enterprise應用程式和產品的ID產生碼。
+訪客ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的訪客。 這可取代Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他CX Enterprise應用程式和產品的ID產生碼。
 
-請參閱[CX Enterprise ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
+檢視[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
 **適用的應用程式或服務**
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)
 * [Adobe Target](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/setup-target)
 
-## 客群
+## 對象
 
 說明：[客群](/help/interface/services/audiences/overview.md)
 

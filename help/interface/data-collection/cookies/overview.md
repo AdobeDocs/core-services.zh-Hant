@@ -15,9 +15,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +32,9 @@ Adobe CX Enterprise使用Cookie。 Cookie是網站傳送給您的瀏覽器的一
 
 Adobe CX Enterprise使用Cookie來追蹤不會在頁面檢視或瀏覽器作業之間持續的資訊。 Adobe儘可能使用第一方Cookie （與您自己的網站連結）。 若要追蹤您擁有的多個網站或網域中的活動，則需要協力廠商Cookie。
 
-有些瀏覽器和防間諜軟體工具會封鎖協力廠商Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 其運作方式取決於您使用Experience Platform Identity Service (ECID)還是舊版Analytics Cookie （如`s_vi` Cookie）：
+有些瀏覽器和防間諜軟體工具會封鎖協力廠商Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 其運作方式取決於您是使用訪客ID服務(`VisitorAPI.js`)還是舊版Analytics Cookie （如`s_vi` Cookie）：
 
-* [CX Enterprise Identity Service](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/overview)： ECID服務一律會設定第一方Cookie，無論您的收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
+* [訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/overview)：訪客ID服務一律會設定第一方Cookie，無論您的資料收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
 
 * [Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie）： Cookie是第一方還是第三方取決於您的設定：
 

@@ -23,10 +23,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1064
-ht-degree: 59%
+source-wordcount: 1058
+ht-degree: 60%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 59%
 | 問題 | 說明 |
 | --- | --- |
 | [!DNL Customer Attributes] [訂閱](subscription.md)限制 | 升級至 Analytics Premium 後，必須等待 24 小時才能使用更多屬性。 在這段延遲期間，您可能會看到已核發的[!UICONTROL 屬性訂閱上限]錯誤。 |
-| 同一部裝置上多次登入 | 使用[!DNL Customer Attributes]將客戶設定檔上傳至資料來源時，Adobe不建議使用者共用相同的裝置（亦即相同的CX Enterprise ID）。 CX Enterprise ID (ECID)會留存於裝置上。 如果共用裝置，可能使多個使用者連結至相同的 ECID，導致 [!DNL Target] 出現非預期的結果。 **注意：**&#x200B;若使用行動裝置，行動應用程式安裝後ECID會永久存在。 重新安裝應用程式以產生新的ECID。 若使用網頁，系統會在瀏覽器 Cookie 清除後產生新的 ECID。 |
+| 同一部裝置上多次登入 | 使用[!DNL Customer Attributes]將客戶設定檔上傳至資料來源時，Adobe不建議使用者共用裝置（亦即使用相同的ECID）。 ECID會持續存在裝置上。 如果共用裝置，可能使多個使用者連結至相同的 ECID，導致 [!DNL Target] 出現非預期的結果。 **注意：**&#x200B;若使用行動裝置，行動應用程式安裝後ECID會永久存在。 重新安裝應用程式以產生新的ECID。 若使用網頁，系統會在瀏覽器 Cookie 清除後產生新的 ECID。 |
 | 每日頻率上傳限制 | Adobe 建議每天只需更新一次 [!DNL Customer Attributes]。 您至少必須等待 24 小時，才能為同一組輪廓上傳另一個客戶輪廓資料檔案。 |
-| 自訂 Analytics ID (`s.visitorID`) | 使用`s.visitorID`設定客戶ID是在Adobe Analytics中識別使用者的方法。 不過，使用`s.visitorID.`<br>來識別訪客時，透過ID Service匯出或匯入的[!DNL Analytics]資料將無法進行整合。這包含但不限於共用對象、Adobe Target (A4T)的[!DNL Analytics]以及[!DNL Customer Attributes]。<br>對於這些整合，不支援設定自訂Analytics ID。 |
+| 自訂 Analytics ID (`s.visitorID`) | 使用`s.visitorID`設定客戶ID是在Adobe Analytics中識別使用者的方法。 不過，使用`s.visitorID.`<br>來識別訪客時，使用訪客ID服務匯出或匯入的[!DNL Analytics]資料將無法進行整合。這包含但不限於共用對象、Adobe Target (A4T)的[!DNL Analytics]以及[!DNL Customer Attributes]。<br>對於這些整合，不支援設定自訂Analytics ID。 |
 | 中的字元長度限制[!DNL Analytics] | 建立[!DNL Analytics] [訂閱](subscription.md)時，已上傳檔案的欄位長度會截斷為255。 |
 
 {style="table-layout:auto"}
@@ -55,7 +55,7 @@ ht-degree: 59%
 | 我是否可以收到關於 [!DNL Customer Attributes] 上傳狀態的通知？ | 可以。 |
 | 我要如何開始使用 [!DNL Customer Attributes]？ | <ol><li>完成佈建程序。 如果您是Adobe Analytics客戶，Adobe正在布建您[!DNL Customer Attributes]。 如果您只使用Adobe Target而沒有使用Analytics，請聯絡客戶服務，申請布建核心服務。</li> <li>與您的 CRM 團隊溝通。 瞭解您可在Analytics和整個CX Enterprise中使用的客戶資料型別。</li><li>實作核心服務。</li></ol> 在上傳資料之前，請先參閱[必要條件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)，瞭解如何讓使用者使用此功能。 |
 | 我可以使用多少個客戶屬性？ | 您可以將數百個 `.csv` 欄上傳至客戶屬性服務。 但是在設定訂閱及選取屬性時，系統會根據您擁有的應用程式套用以下限制 (針對每個報表套裝)：  <ul><li>Foundation：0 個</li><li>Select：3 個</li><li>Prime：15 個</li><li>Ultimate：200 個</li><li>Standard：共 3 個</li><li>Premium：200 個</li><li>Adobe Target Standard：5 個</li><li>Adobe Target Premium：200 個</li></ul> |
-| 是否需要移轉至CX Enterprise ID服務？ | 是否需移轉取決於您使用的應用程式。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必須移轉。 </li></ul>使用CX Enterprise ID服務會啟用最新的CX Enterprise功能，包括即時受眾、Adobe Target現代化、Analytics整合和視訊活動訊號追蹤。 |
+| 是否需要移轉至訪客ID服務？ | 是否需移轉取決於您使用的應用程式。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必須移轉。 </li></ul>使用訪客ID服務會啟用最新的CX Enterprise功能，包括即時受眾、Adobe Target現代化、Analytics整合和視訊活動訊號追蹤。 |
 | 客戶屬性功能與 Adobe Audience Manager 有何關係？ | 雖然 Audience Manager 可接收資料以辨識受眾，但無法執行將屬性與過往行為資料關聯的分析功能， 亦無法提供 Adobe Analytics 中可使用的報表、分析和分段功能。 [!DNL Customer Attributes]可讓不同應用程式的豐富資料繫結在一起，並與單一ID建立關聯，以便在CX Enterprise中使用。 <br>在 Adobe Target 中，客戶屬性會顯示為個別屬性，可與其他規則結合以建立客群。 共用給[!UICONTROL People]服務的對象是無法修改的完整對象。 |
 | **（僅限Adobe Analytics）**&#x200B;此功能與Analytics Premium中提供的功能有何不同？ | 過去，有意將客戶屬性資料與Analytics資料結合的客戶，為了這項功能對Data Workbench的依賴程度很高。 [!DNL Customer Attributes]在Report Builder中提供客戶屬性作為維度和量度，因此可讓更廣大的受眾運用此功能。 Analytics Standard 客戶可存取 [!DNL Customer Attributes]，但可用的功能受限。 Analytics Premium 客戶可使用完整功能。 |
 | **(僅限 Adobe Target)** 我是否可以預先載入或上傳 Adobe Target 從未看過的客戶資料？ | 可以。 訪客第一次向 Adobe Target 提出請求時，系統會從 [!DNL Customer Attributes] 擷取與 Adobe 有關的現有資訊，並使用這些資料進行目標鎖定。 **注意：**&#x200B;如果訪客是第一次與 Adobe Target 互動，則擷取此資料可能需花費最長達 20 分鐘。 |
