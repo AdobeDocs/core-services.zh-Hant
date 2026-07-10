@@ -20,7 +20,7 @@ ht-degree: 57%
    + [代理式 AI](features/agentic-ai.md)
    + [Agentic AI監視](/help/interface/features/monitoring.md)
    + [代理程式工作和AI信用消耗](/help/interface/features/ai-credit-consumption.md)
-   + [代理工具](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+   + [代理工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)
 + 管理 {#administration}
    + [帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
    + [瀏覽器和語言支援](/help/interface/browser-language.md)
