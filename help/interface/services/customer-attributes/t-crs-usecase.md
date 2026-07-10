@@ -9,22 +9,14 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1181
 ht-degree: 41%
 
 ---
@@ -47,7 +39,7 @@ ht-degree: 41%
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/overview)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)」。
 
 ## 建立資料檔案
 
@@ -96,9 +88,9 @@ ht-degree: 41%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如:
 
-      * **標籤：**&#x200B;別名ID對應至[CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)工具中[!UICONTROL 客戶設定]下的&#x200B;*整合代碼*&#x200B;值。
+      * **標籤：**&#x200B;別名ID對應至[[!UICONTROL Experience Cloud ID服務]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)標籤擴充功能中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客API：**&#x200B;別名ID對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+      * **訪客ID服務：**&#x200B;別名ID會對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
         例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -120,7 +112,7 @@ ht-degree: 41%
 
         請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
@@ -146,9 +138,9 @@ ht-degree: 41%
 
 * **[!UICONTROL 唯一客戶ID：]**&#x200B;顯示您上傳多少個唯一ID至此屬性來源。
 
-* **[!UICONTROL 已將別名傳送至CX Enterprise訪客ID之客戶提供的ID：]**&#x200B;顯示有多少個ID已將別名傳送至CX Enterprise訪客ID。
+* 已將別名傳送至Experience Cloud訪客ID的&#x200B;**[!UICONTROL 客戶提供的ID：]**&#x200B;顯示有多少個ID已將別名傳送至ECID。
 
-* **[!UICONTROL 具有高別名數之客戶提供的ID：]**&#x200B;顯示已將500個或更多別名傳送至CX企業訪客ID之客戶提供的ID數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些ID相關的屬性分配給最近設定別名的500個CX Enterprise Visitor ID，直到別名數達到10,000個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。
+* **[!UICONTROL 具有高別名數之客戶提供的ID：]**&#x200B;顯示已將500個或更多別名傳送至ECID之客戶提供的ID數。 這些客戶提供的 ID 很可能不代表個人，而代表某種共用登入名稱。 系統會將與這些ID相關聯的屬性分配給最近設定別名的500個ECID，直到別名數達到10,000個。 到時候，系統會令客戶提供的ID失效，並不再傳送關聯的屬性。
 
 ## 驗證結構 {#validate-schema}
 
@@ -188,4 +180,4 @@ ht-degree: 41%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)。
+請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html??lang=zh-Hant)。
