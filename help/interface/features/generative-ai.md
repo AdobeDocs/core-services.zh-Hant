@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 24583e75dd85c719b8f9eb14a948f58d714c2aa6
+source-git-commit: eb23813e6456ec3ec3c3014d2d699875c98012b7
 workflow-type: tm+mt
-source-wordcount: 3196
+source-wordcount: 3308
 ht-degree: 13%
 
 ---
@@ -88,25 +88,9 @@ Generative AI是可建立原始內容的AI型別。 例如，它可以建立文�
 
 ### 生成式 AI
 
-<!--
-| Product | Key AI features | Firefly Compatibility |
-| ----------------| -----------------| ---------|
-| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
-| Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
-| Adobe Experience Manager 6.5 | AI Assistant support | Yes |
-| Adobe Experience Manager 6.5 LTS | AI Assistant support | Yes |
-| Adobe Experience Platform | AI Assistant for product knowledge and operational insights | No |
-| Adobe Journey Optimizer | AI Assistant, content generation (Prime/Ultimate) | Yes |
-| Adobe Journey Optimizer B2B Edition | AI Assistant for product knowledge | No |
-| Campaign Managed Cloud Services | Content Accelerator for cross-channel personalization | Yes |
-| Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
-| Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
-| Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
-| Workfront | AI Assistant for work management and recommendations | Yes |
--->
-
 | **產品名稱** | **重要GenAI功能** | **Firefly相容性** |
 | ------------------| -------------------------| -------------------|
+| [CX Enterprise Co-worker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 無 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI建立個人化的品牌內內容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI提供於： <ul><li>在&#x200B;**AEM Sites**&#x200B;中產生變數（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智慧標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
