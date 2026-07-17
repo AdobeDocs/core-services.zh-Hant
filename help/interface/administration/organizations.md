@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 29%
+source-wordcount: 677
+ht-degree: 28%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 29%
 *組織* （組織ID）是可讓管理員設定群組和使用者，以及控制CX Enterprise單一登入的實體。
 
 組織的作用就像一個登入公司，涵蓋所有CX Enterprise產品和應用程式。 通常組織就是您的公司名稱， 但是一間公司可以有多個組織。
+
+**組織功能表**
 
 ![CX Enterprise組織](../assets/organizations-menu.png)
 
@@ -48,11 +50,13 @@ ht-degree: 29%
 
 例如，如果組織擁有 Federated ID 和網域 `example.com`，請將您的 URL 連結設定為 `https://experience.adobe.com/#/sso:@example.com`。 您也可以將此 URL (有附加應用程式路徑) 加入書籤，即可直接前往特定的應用程式。 (例如，Adobe Analytics 的 URL 為 `https://experience.adobe.com/#/sso:@example.com/analytics`。)
 
-### 同盟來賓帳戶
+## 同盟來賓帳戶
 
-您可以啟用[同盟訪客存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
+您可以啟用[同盟訪客存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 啟用後，「組織」功能表會變更，讓這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
 
 若要切換到同盟來賓帳戶，請在任何[CX Enterprise](https://experience.adobe.com)頁面上的&#x200B;**[!UICONTROL 組織]**&#x200B;功能表中找到&#x200B;**[!UICONTROL 其他帳戶]**。
+
+**同盟來賓帳戶的組織功能表**
 
 ![同盟帳戶切換器](../assets/federated-account-switcher.png)
 
