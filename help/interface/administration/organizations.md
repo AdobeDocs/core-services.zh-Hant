@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ ht-degree: 28%
 
 ## 同盟來賓帳戶
 
-您可以啟用[同盟訪客存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 啟用後，「組織」功能表會變更，讓這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
+您可以啟用[同盟訪客存取](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 啟用後，「組織」功能表會變更，讓這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
 
 若要切換到同盟來賓帳戶，請在任何[CX Enterprise](https://experience.adobe.com)頁面上的&#x200B;**[!UICONTROL 組織]**&#x200B;功能表中找到&#x200B;**[!UICONTROL 其他帳戶]**。
 
@@ -86,28 +79,6 @@ ht-degree: 28%
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## 將應用程式帳戶連結至 Adobe ID
-
-通常CX企業管理員會授予應用程式和服務的存取權。 在少數情況下，您可以將應用程式認證連結至Adobe ID。
-
-1. 請依照邀請您加入CX Enterprise的電子郵件中的步驟進行。
-
-1. 使用您的 Adobe ID 或 Enterprise ID 登入。
-
-1. 按一下&#x200B;**[!UICONTROL 應用程式選擇器]**。 （![功能表](../assets/apps-icon.png)）。
-
-   ![將應用程式帳戶連結至 Adobe ID](../assets/solutions-active.png)
-
-   系統會將您有權存取的應用程式標上顏色。
-
-1. 按一下所需的應用程式。
-
-   ![按一下您的應用程式](../assets/analytics-link-accounts.png)
-
-   如果您隸屬於適當的群組 (並擁有應用程式的權限)，但尚未將帳戶認證與 Adobe ID 綁定，系統就會顯示這類訊息。
-
-1. 按一下&#x200B;**[!UICONTROL 連結帳戶]**，然後提供您的認證。
-
 ## 指定預設組織
 
 您可以指定登入時使用的預設組織。
@@ -118,13 +89,3 @@ ht-degree: 28%
 
 
 ![編輯輪廓](../assets/edit-profile.png)
-
-## 帳戶連結問題疑難排解
-
-帳戶連結所產生問題的說明。
-
-通常帳戶連結之所以失敗，是因為 Adobe ID 已連結至先前的使用者。 帳戶連結失敗時，您可以：
-
-* [聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)。
-* 在我們著手解決問題的同時，使用標準登入存取您的應用程式。
-

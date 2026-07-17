@@ -6,15 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-TQID: https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+TQID: 'https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho'
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
 source-wordcount: 404
 ht-degree: 52%
@@ -65,9 +60,9 @@ CCPA是加州的最新隱私權法，自2020年1月1日起生效。 CCPA 賦予�
 * &quot;key&quot;：&lt;*通常是客戶名稱*>
 * &quot;action&quot;：**存取**&#x200B;或&#x200B;**刪除**
 * &quot;user IDs&quot;：
-   * &quot;namespace&quot;：&lt;*CRS 資料來源的別名 ID*>
-   * &quot;type&quot;：**integrationCode**
-   * &quot;value&quot;：&lt;*CRM ID*>
+  * &quot;namespace&quot;：&lt;*CRS 資料來源的別名 ID*>
+  * &quot;type&quot;：**integrationCode**
+  * &quot;value&quot;：&lt;*CRM ID*>
 * &quot;include&quot;：**CRS** (適用於此請求的 Adobe 產品)
 * &quot;regulation&quot;：**ccpa** (適用於此請求的隱私權法規)
 
