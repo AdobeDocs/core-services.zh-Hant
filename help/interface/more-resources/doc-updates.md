@@ -36,7 +36,7 @@ ht-degree: 35%
 
 ## 2026年7月
 
-* 已新增[2026年7月發行說明](release-notes.md)，以瞭解[同盟來賓存取](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)的CX Enterprise支援，包括組織切換器之來賓使用者的帳戶切換。
+* 已新增[2026年7月發行說明](release-notes.md)，以瞭解[同盟來賓存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)的CX Enterprise支援，包括組織切換器之來賓使用者的帳戶切換。
 
 ## 2026 年 6 月
 
