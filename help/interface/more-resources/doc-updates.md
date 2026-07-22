@@ -23,10 +23,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
 workflow-type: tm+mt
-source-wordcount: 820
-ht-degree: 37%
+source-wordcount: 872
+ht-degree: 35%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 37%
 
 ## 2026 年 6 月
 
-* 已發佈[Agentic AI監控](../features/monitoring.md)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
+* 已發佈[Agentic AI監控](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
 * 已新增[2026年6月發行說明](release-notes.md) （用於代理式AI使用監控）。
 
 ## 2026年5月
@@ -49,16 +49,16 @@ CX Enterprise Central介面指南的4月和5月更新：
 
 * 指南中的說明檔案從Experience Cloud重新命名為&#x200B;**CX Enterprise**，包括說明、連結文字和自動標籤中繼資料。
 * 已在`https://experience.adobe.com/home`為重新整理的首頁新增[2026年4月發行說明](release-notes.md) （UI重新整理、深色模式和協助工具改良）。
-* 更新CX Enterprise中的[代理程式AI](../features/agentic-ai.md)：Adobe Marketing Agent for Microsoft 365 Copilot、修訂代理程式功能，以及現有應用程式代理程式表格中的&#x200B;**健全狀況資料/HIPAA就緒**&#x200B;欄。
+* 更新CX Enterprise中的[代理程式AI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修訂代理程式功能，以及現有應用程式代理程式表格中的&#x200B;**健全狀況資料/HIPAA就緒**&#x200B;欄。
 * 小幅更新[地區資料彙集](../data-collection/rdc.md)、[驗證主機名稱轉送](../data-collection/adobe-managed-cert.md)和[術語](terms.md)。
 
 ## 2026年3月
 
-已新增[AI工作與積分消耗](../features/ai-credit-consumption.md)
+已新增[AI工作與積分消耗](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025 年 11 月
 
-CX Enterprise中[Agentic AI的更新](../features/agentic-ai.md)
+CX Enterprise中[Agentic AI的更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025 年 10 月
 
