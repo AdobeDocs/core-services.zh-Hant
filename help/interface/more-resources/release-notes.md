@@ -53,7 +53,7 @@ CX Enterprise Central Interface Components的功能、發行說明和已知問�
 | 日期 | 更新 | 說明 |
 | ------- | ------- | ------- |
 | 2026年6月11日 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)是代理式AI應用程式，可自動化端對端客戶體驗工作流程。 [!DNL Coworker]會偵測訊號、建立對象，並在小時內透過內建治理功能啟動行銷活動。 檔案即將推出。 |
-| 2026 年 6 月 1 日 | [!UICONTROL 監視] | CX Enterprise 現在提供監視現有應用程式中代理式 AI 使用情況的儀表板。 針對透過 AI 助理和其他對話式介面存取的 Experience Platform 代理，追蹤採用情況、檢閱交談內容和意見回饋，以及管理 AI 點數消耗。 「概觀」、「使用者」、「意見回饋」和「AI 點」視圖，協助治理利害關係人利用資料來引導 AI 採用。 檢視[Agentic AI監視](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)儀表板存取和許可權。 |
+| 2026 年 6 月 1 日 | [!UICONTROL 監視] | CX Enterprise 現在提供監視現有應用程式中代理式 AI 使用情況的儀表板。 針對透過 AI 助理和其他對話式介面存取的 Experience Platform 代理，追蹤採用情況、檢閱交談內容和意見回饋，以及管理 AI 點數消耗。 「概觀」、「使用者」、「意見回饋」和「AI 點」視圖，協助治理利害關係人利用資料來引導 AI 採用。 檢視[Agentic AI監視](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)儀表板存取和許可權。 |
 
 ## 2026 年 4 月
 
