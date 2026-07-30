@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: 1282
 ht-degree: 2%
 
 ---
@@ -43,16 +43,17 @@ ht-degree: 2%
 
 Adobe管理的憑證方案是設定CNAME實作所需的第一方憑證的建議程式。 設定後，程式將完全自動化。 它會及時更新憑證，因此不會因為憑證過期而影響資料收集。 前100個CNAME可免費使用此程式。
 
-如果您目前管理自己的憑證，便需負責購買、維護憑證，並提供給Adobe用於第一方Cookie的憑證。 您可以聯絡Adobe客戶服務，討論移轉至Adobe管理的憑證計畫事宜。
+如果您目前管理自己的憑證，便需負責購買、維護憑證，並提供給Adobe用於第一方Cookie的憑證。 若要討論移轉至Adobe管理的憑證方案，請聯絡Adobe客戶服務。
 
 ## 實作
 
-請依照下列步驟，為第一方資料收集實作新憑證：
+若要針對第一方資料收集實作新憑證，請遵循下列步驟：
 
 1. 下載並填寫[第一方網域要求表單](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 1. 向Adobe客戶服務開立票證，要求在Adobe管理的憑證方案上設定第一方資料收集。 如果您的組織有資料駐留或法規遵循要求，請在您的要求中指定您想要的[RDC型別](rdc.md)。
 1. Adobe代表在收到支援工單後，會提供CNAME記錄給您。 您必須在貴公司的DNS伺服器上設定此記錄，Adobe才能代表您購買憑證。 例如，主機名稱`data.example.com`指向`hiodsibxvip01.data.adobedc.net`。
 1. 當CNAME記錄位於您組織的伺服器上時，Adobe會與DigiCert合作，購買憑證並安裝到Adobe資料收集伺服器上。
+1. 如果您需要在Adobe CNAME代管時更新您的`robots.txt`檔案以用於第一方用途，請提出要求聯絡客戶服務。 當您想要更新`robots.txt`檔案以防止抓取您的子網域時，這類請求會具有相關性。
 
 ## 驗證主機名稱轉送
 
@@ -112,7 +113,7 @@ Aliases: data.example.com
 
 ## 更新實作程式碼
 
-在驗證憑證正確運作後，您可以更新Adobe實作以使用新的CNAME主機名稱。
+若要使用新的CNAME主機名稱，請在驗證憑證正確運作後，更新您的Adobe實作。
 
 * **Web SDK標籤擴充功能**：設定擴充功能時更新[[!UICONTROL Edge網域]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)欄位。
 * **網頁SDK (alloy)**：更新`configure`命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/edgedomain)屬性。
@@ -133,13 +134,13 @@ Aliases: data.example.com
 
 +++此程式是否安全？
 
-可以。 Adobe管理的憑證計畫比為Adobe提供憑證的組織更安全。 憑證或私密金鑰不會在Adobe和發行憑證授權機構以外的地方易手。
+可以。 Adobe管理的憑證計畫比為Adobe提供憑證的組織更安全。 在Adobe和核發憑證授權單位之外不會傳輸憑證或私密金鑰。
 
 +++
 
 +++Adobe如何為網域購買憑證？
 
-唯有當您將指定的主機名稱指向Adobe擁有的主機名稱時，才能購買憑證。 基本上，您將此主機名稱委派給Adobe，並允許Adobe代表您購買憑證。
+唯有當您將指定的主機名稱指向Adobe擁有的主機名稱時，才能購買憑證。 您將此主機名稱委派給Adobe，並允許Adobe代表您購買憑證。
 
 +++
 
@@ -163,7 +164,7 @@ Adobe與DigiCert合作，核發SHA-2憑證。
 
 +++Adobe提供哪些密碼安全等級？
 
-Adobe提供兩種密碼安全等級，以滿足不同客戶對第一方資料收集的安全需求。 這些層級會決定與Adobe伺服器建立HTTPS連線時支援的加密演演算法。 Adobe會根據目前的安全實務，定期審查並更新支援的演演算法集。 如果您想要變更密碼安全設定，請聯絡客戶服務。
+Adobe提供兩種密碼安全等級，以滿足不同客戶對第一方資料收集的安全需求。 這些層級會決定與Adobe伺服器建立HTTPS連線時支援的加密演演算法。 Adobe會根據目前的安全實務，定期審查並更新支援的演演算法集。 若要變更您的密碼安全設定，請聯絡客戶服務。
 
 * **Standard**&#x200B;需要TLS 1.2或更新版本，以及至少128位元加密。 其設計可提供最廣泛的裝置相容性，同時維持安全加密。
 * **高**&#x200B;需要TLS 1.2或更新版本，並移除對較弱加密的支援。 它專為希望擁有最強大加密功能，且不擔心支援舊裝置的客戶所設計。
@@ -179,7 +180,7 @@ Adobe提供兩種密碼安全等級，以滿足不同客戶對第一方資料收
 
 +++支援哪些HTTPS憑證型別？
 
-Adobe同時支援RSA和ECC憑證型別，以滿足不同的客戶需求。 RSA憑證在使用者端上受到更廣泛的支援，但ECC憑證在伺服器和使用者端上使用的處理較少。 對於Adobe管理的憑證，會同時提供RSA和ECC。 對於客戶管理的憑證，需要RSA且建議使用ECC。 新式使用者端同時支援RSA和ECC。 下列使用者端通常只支援RSA憑證：
+Adobe同時支援RSA和ECC憑證型別，以滿足不同的客戶需求。 RSA憑證在使用者端上受到更廣泛的支援，但ECC憑證在伺服器和使用者端上使用的處理較少。 對於Adobe管理的憑證，會同時提供RSA和ECC。 對於客戶管理的憑證，需要RSA且建議使用ECC。 新式使用者端同時支援RSA和ECC。 下列使用者端僅支援RSA憑證：
 
 * Windows Vista和較舊版本（最後更新於2012年）
 * Windows Phone 8.0和較舊版本（最後更新於2014年）
