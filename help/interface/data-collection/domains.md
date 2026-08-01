@@ -27,7 +27,7 @@ CX Enterprise使用下列主機來提供應用程式、改善效能並改善產�
 
 * [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | 技術 | 網域 |
 | --- | --- |
