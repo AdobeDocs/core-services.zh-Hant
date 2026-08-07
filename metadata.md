@@ -3,28 +3,26 @@ title: CX Enterprise Central UI和管理
 description: 瞭解Adobe Admin Console、對象庫、客戶屬性、CX Enterprise Assets等專案中的UI元件、使用者和產品管理。
 cloud: Experience Cloud
 product: experience cloud
-solution: Experience Cloud Services
-feature-set: Experience Cloud Services,Experience Cloud
+solution: CX Enterprise
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.zh-Hant
+git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.zh-Hant
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 200
-ht-degree: 66%
+source-wordcount: 202
+ht-degree: 65%
 
 ---
 
 
-# 僅限內部使用的中繼資料
+# 內部專用中繼資料
 
 metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
