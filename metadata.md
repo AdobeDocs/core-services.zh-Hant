@@ -3,20 +3,19 @@ title: CX Enterprise Central UI和管理
 description: 瞭解Adobe Admin Console、對象庫、客戶屬性、CX Enterprise Assets等專案中的UI元件、使用者和產品管理。
 cloud: Experience Cloud
 product: experience cloud
-solution: Experience Cloud Services
+solution: CX Enterprise
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.zh-Hant
+git-repo: https://github.com/AdobeDocs/core-services.en
 usetq: true
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 593321fb53538f88b28e20e76cb27cd0fc7cc2b9
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 66%
