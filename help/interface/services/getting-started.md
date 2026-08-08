@@ -1,7 +1,7 @@
 ---
 description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 瞭解如何開始使用CX企業服務。
 solution: Experience Cloud
-title: 開始使用Experience Cloud服務
+title: 開始使用CX Enterprise
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -31,9 +31,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+source-git-commit: 6b2470a7d7bb71228c7707dbb59111451495b358
 workflow-type: tm+mt
-source-wordcount: 2083
+source-wordcount: 2082
 ht-degree: 41%
 
 ---
