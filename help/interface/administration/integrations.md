@@ -198,7 +198,7 @@ ht-degree: 31%
 
 如需深入瞭解如何存取Adobe CX Enterprise和設定檔與對象，以及[!DNL Adobe Advertising]與Adobe CX Enterprise對象之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也使用Adobe Target，您發佈至Adobe CX Enterprise的受眾也可供Adobe Target中的活動使用。
 
-**CX Enterprise Assets：** （可管理顯示內容的廣告商）您可以使用Adobe CX Enterprise assets的任何廣告創意，透過New Display Beta檢視，作為顯示廣告的創意。 您必須透過Adobe CX Enterprise [登入Adobe Advertising，才能存取Adobe CX Enterprise資產。 ](https://enterprise.efrontier.com/CMDashboard)如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
+**CX Enterprise Assets：** （可管理顯示內容的廣告商）您可以使用Adobe CX Enterprise assets的任何廣告創意，透過New Display Beta檢視，作為顯示廣告的創意。 您必須透過Adobe CX Enterprise [登入Adobe Advertising，才能存取Adobe CX Enterprise資產。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 
 **CX Enterprise Notifications：**&#x200B;從每頁頂端的通知連結中，您可以檢視搜尋測試版警示範本產生的所有警示。 您也可以取得CX Enterprise系統更新、貼文、相關記錄和共用的資產。 您必須透過Adobe CX Enterprise [登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 

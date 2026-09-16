@@ -126,7 +126,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 1. 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟訂閱Slack](#slack-notifications) （如上所述）。[
+1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟訂閱Slack[&#128279;](#slack-notifications) （如上所述）。
 
 ### 您將在[!DNL Slack]中看到的內容
 

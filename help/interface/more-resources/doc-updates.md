@@ -81,7 +81,7 @@ CX Enterprise中[Agentic AI的更新](https://experienceleague.adobe.com/en/docs
 
 ## 2025 年 2 月
 
-在CX Enterprise](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在CX Enterprise[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 ## 2024 年 11 月
 

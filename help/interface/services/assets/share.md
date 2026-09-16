@@ -55,7 +55,7 @@ ht-degree: 37%
 1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至Creative Cloud]**。
 
    ![分享到 Creative Cloud](../../assets/asset-share-cc.png)
-1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下[新增]。****
+1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下[新增]。**&#x200B;**
 
    ![新增 Creative Cloud 使用者](../../assets/asset-share-cc-page.png)
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
 
    ![接受請求](../../assets/cc_share_accept.png)
-1. 若要存取資料夾內容，請按一下[開啟資料夾] ]**（或[在網頁上檢視]]**）。**[!UICONTROL **[!UICONTROL 
+1. 若要存取資料夾內容，請按一下[開啟資料夾] **（或[在網頁上檢視]**）。**&#x200B;**
 
    ![在網頁上檢視](../../assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
@@ -79,7 +79,7 @@ ht-degree: 37%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]]**（類似[步驟3](share.md)] [），然後選取X來移除使用者，再按一下[共用]****。**[!UICONTROL 
+1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]&#x200B;**（類似[步驟3](share.md)&rbrack; &lbrack;），然後選取X來移除使用者，再按一下[共用]**&#x200B;**。**
 
    ![取消共用資料夾](../../assets/asset_remove_user.png)
 
