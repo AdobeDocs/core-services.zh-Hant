@@ -50,11 +50,11 @@ Analytics會使用Cookie以匿名方式定義新訪客、協助分析點按資�
 | **`s_fid`** | 2 年 | 33 位元組 | 第一方 | 儲存遞補不重複訪客ID和時間戳記。 如果因協力廠商Cookie限制而無法設定標準`s_vi` Cookie，則由JavaScript設定。 不用於第一方Cookie實作。 |
 | **`s_ac`** | 立即 | 1位元組 | 第一方 | 協助判斷正確網域以設定AppMeasurement Cookie。 包含靜態值`"1"`。 設定此Cookie後，便會立即刪除。 |
 
-請參閱Adobe Analytics中的[訪客身分識別](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)，以取得有關Adobe Analytics如何使用Cookie來識別訪客的詳細資訊。
+請參閱Adobe Analytics中的[訪客身分識別](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview)，以取得有關Adobe Analytics如何使用Cookie來識別訪客的詳細資訊。
 
 ## 外掛程式設定的 Cookie
 
-有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins)。
+有些實施會使用外掛程式，這些程式碼片段可為Analytics提供額外功能。 這些外掛程式可設定上方未列出的Cookie。 如需可用外掛程式及其設定的Cookie清單，請參閱[Analytics外掛程式總覽](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/plugins/impl-plugins)。
 
 ## 刪除Analytics Cookie的後果
 

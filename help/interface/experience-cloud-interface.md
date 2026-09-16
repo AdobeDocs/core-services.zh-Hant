@@ -90,7 +90,7 @@ CX Enterprise支援每個使用者偏好的語言，如您的Adobe使用者帳�
 
 ## CX Enterprise中的搜尋與支援
 
-CX企業搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/#home)的說明（檔案、教學課程和其他課程）。
+CX企業搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明（檔案、教學課程和其他課程）。
 
 CX Enterprise中的![搜尋與支援](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ CX Enterprise中的![搜尋與支援](assets/search-menu.png)
 
 * **[!UICONTROL 支援]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL 支援]。
 * **[!UICONTROL 意見反應]：**&#x200B;使用意見反應聯絡Adobe，告訴我們您的想法。
-* **[!UICONTROL 狀態]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL 管理訂閱]。
+* **[!UICONTROL 狀態]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL 管理訂閱]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 帳戶偏好設定
