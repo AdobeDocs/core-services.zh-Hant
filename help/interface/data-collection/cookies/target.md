@@ -8,26 +8,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-TQID: https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE
+TQID: 'https://experienceleague.adobe.com/nLAm--3HmxWHqWupFrmLTo9TbdAHajPR44VwWAVM9pE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '706'
 ht-degree: 22%
-
 ---
-
 # Adobe Target Cookie
 
 Adobe Target 使用 Cookie 讓網站操作人員能夠測試哪些線上內容和方案與訪客的關聯性較強。
@@ -36,7 +44,7 @@ Adobe Target 使用 Cookie 讓網站操作人員能夠測試哪些線上內容�
 >
 >本文中的資訊僅適用於[Adobe Target JavaScript資料庫](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} (`at.js`)。 請參閱[Adobe Experience Platform Web SDK Cookie](web-sdk.md)，取得使用Web SDK的Target實作資訊。
 >
->如有需要，您可以變更本文中討論的設定，但Cookie持續時間除外。 [變更Cookie設定時，請洽詢您的帳戶代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=zh-Hant){target=_blank}。
+>如有需要，您可以變更本文中討論的設定，但Cookie持續時間除外。 [變更Cookie設定時，請洽詢您的帳戶代表](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank}。
 
 ## 第一方Cookie
 
@@ -44,7 +52,7 @@ Adobe Target 使用 Cookie 讓網站操作人員能夠測試哪些線上內容�
 
 | Cookie | 詳細資料 |
 | --- | --- |
-| `mbox` | 儲存訪客的匿名識別碼。<P>**Cookie網域**：您提供mbox的網域。 因為此Cookie來自您公司的網域，所以此Cookie是第一方Cookie。 如果您的網域名稱包含國碼（例如`example.co.uk`），請和客戶服務代表合作設定`at.js`以支援此代碼。 如需有關自訂Cookie網域的資訊，如有必要，請參閱Adobe Target開發人員指南中[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}底下的`cookieDomain`。<P>**伺服器網域**： `clientcode.tt.omtrdc.net`，使用您Adobe Target帳戶的使用者端代碼。<P>**Cookie持續時間**：自上次登入起，Cookie會保留在訪客的瀏覽器上兩年。 Cookie 持續時間無法變更。<P>Cookie會保留一些值，用於管理訪客體驗[!DNL Target]活動的方式：<P>**工作階段識別碼**：特定使用者工作階段的唯一識別碼。 根據預設，工作階段會在閒置 30 分鐘後過期。 如果您要自行產生`sessionId` （例如，針對[伺服器端實作](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}），請確定下列事項：<ul><li>工作階段ID可以是任何可列印的字串，除了空格、問號( ？ )、大括弧( { } )或正斜線( / )。</li><li>工作階段ID的長度應該介於1到128個字元之間。</li><li>針對特定工作階段，Cookie的值在多個要求中必須維持不變。</li><li>特定訪客在任何時間點絕對不應該有平行工作階段（不同的`sessionIds`）。</li></ul>路由傳送到邊緣叢集內的特定節點是使用工作階段ID完成的。<ul><li>工作階段在伺服器端會維持 30 分鐘的有效狀態。 因此，您不應在與`tntId/thirdPartyId`發出上次要求後的30分鐘內，針對特定`tntId/thirdPartyId`使用不同的工作階段ID。 否則，輪廓的變更可能會不一致且無法預測。</li><li>訪客閒置30分鐘後，必須使用該新的工作階段ID。</li><li>搭配多個`tntIds/thirdPartyIds`使用相同工作階段ID可能會對`tntId/thirdPartyIDs`所識別的基本資料造成無法預測的變更。</li></ul>注意：請參閱指定工作階段識別碼的並行要求數目[限制](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=zh-Hant#content-delivery){target=_blank}。<P>**電腦ID**：訪客瀏覽器的半永久ID。 持續到手動刪除 Cookie 為止。<P>**check**：用來判斷訪客是否支援Cookie的簡單測試值。 每次訪客請求頁面時都會進行設定。<P>**停用**：如果訪客的載入時間超過at.js檔案中所設定的逾時時間，則設定此選項。 根據預設，此逾時會持續一小時。 |
+| `mbox` | 儲存訪客的匿名識別碼。<P>**Cookie網域**：您提供mbox的網域。 因為此Cookie來自您公司的網域，所以此Cookie是第一方Cookie。 如果您的網域名稱包含國碼（例如`example.co.uk`），請和客戶服務代表合作設定`at.js`以支援此代碼。 如需有關自訂Cookie網域的資訊，如有必要，請參閱Adobe Target開發人員指南中[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}底下的`cookieDomain`。<P>**伺服器網域**： `clientcode.tt.omtrdc.net`，使用您Adobe Target帳戶的使用者端代碼。<P>**Cookie持續時間**：自上次登入起，Cookie會保留在訪客的瀏覽器上兩年。 Cookie 持續時間無法變更。<P>Cookie會保留一些值，用於管理訪客體驗[!DNL Target]活動的方式：<P>**工作階段識別碼**：特定使用者工作階段的唯一識別碼。 根據預設，工作階段會在閒置 30 分鐘後過期。 如果您要自行產生`sessionId` （例如，針對[伺服器端實作](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}），請確定下列事項：<ul><li>工作階段ID可以是任何可列印的字串，除了空格、問號( ？ )、大括弧( { } )或正斜線( / )。</li><li>工作階段ID的長度應該介於1到128個字元之間。</li><li>針對特定工作階段，Cookie的值在多個要求中必須維持不變。</li><li>特定訪客在任何時間點絕對不應該有平行工作階段（不同的`sessionIds`）。</li></ul>路由傳送到邊緣叢集內的特定節點是使用工作階段ID完成的。<ul><li>工作階段在伺服器端會維持 30 分鐘的有效狀態。 因此，您不應在與`tntId/thirdPartyId`發出上次要求後的30分鐘內，針對特定`tntId/thirdPartyId`使用不同的工作階段ID。 否則，輪廓的變更可能會不一致且無法預測。</li><li>訪客閒置30分鐘後，必須使用該新的工作階段ID。</li><li>搭配多個`tntIds/thirdPartyIds`使用相同工作階段ID可能會對`tntId/thirdPartyIDs`所識別的基本資料造成無法預測的變更。</li></ul>注意：請參閱指定工作階段識別碼的並行要求數目[限制](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html#content-delivery){target=_blank}。<P>**電腦ID**：訪客瀏覽器的半永久ID。 持續到手動刪除 Cookie 為止。<P>**check**：用來判斷訪客是否支援Cookie的簡單測試值。 每次訪客請求頁面時都會進行設定。<P>**停用**：如果訪客的載入時間超過at.js檔案中所設定的逾時時間，則設定此選項。 根據預設，此逾時會持續一小時。 |
 | `at_check` | 臨時Cookie ，用於檢查瀏覽器上是否已啟用Cookie讀取/寫入功能。 |
 | `mboxEdgeCluster` | 只有當[overrideMboxEdgeServer設定](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}設為`true`時，此Cookie才會出現。 |
 

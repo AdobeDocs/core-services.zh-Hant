@@ -7,40 +7,51 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
+TQID: 'https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 872
+source-wordcount: '872'
 ht-degree: 35%
-
 ---
-
 # 文件更新
 
 瞭解CX Enterprise中央介面和管理檔案更新的發生位置。
 
-## 2026年7月
+## 2026 年 7 月
 
-* 已新增[2026年7月發行說明](release-notes.md)，以瞭解[同盟來賓存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)的CX Enterprise支援，包括組織切換器之來賓使用者的帳戶切換。
+* 已新增[2026年7月發行說明](release-notes.md)，以瞭解[同盟來賓存取](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html)的CX Enterprise支援，包括組織切換器之來賓使用者的帳戶切換。
 
 ## 2026 年 6 月
 
-* 已發佈[Agentic AI監控](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
+* 已發佈[Agentic AI監控](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)，涵蓋授權使用和Agentic AI監控儀表板，包括總覽、使用者、意見和AI點數檢視、交談重播，以及治理使用者的許可權。
 * 已新增[2026年6月發行說明](release-notes.md) （用於代理式AI使用監控）。
 
 ## 2026年5月
@@ -49,16 +60,16 @@ CX Enterprise Central介面指南的4月和5月更新：
 
 * 指南中的說明檔案從Experience Cloud重新命名為&#x200B;**CX Enterprise**，包括說明、連結文字和自動標籤中繼資料。
 * 已在`https://experience.adobe.com/home`為重新整理的首頁新增[2026年4月發行說明](release-notes.md) （UI重新整理、深色模式和協助工具改良）。
-* 更新CX Enterprise中的[代理程式AI](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修訂代理程式功能，以及現有應用程式代理程式表格中的&#x200B;**健全狀況資料/HIPAA就緒**&#x200B;欄。
+* 更新CX Enterprise中的[代理程式AI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)：Adobe Marketing Agent for Microsoft 365 Copilot、修訂代理程式功能，以及現有應用程式代理程式表格中的&#x200B;**健全狀況資料/HIPAA就緒**&#x200B;欄。
 * 小幅更新[地區資料彙集](../data-collection/rdc.md)、[驗證主機名稱轉送](../data-collection/adobe-managed-cert.md)和[術語](terms.md)。
 
 ## 2026年3月
 
-已新增[AI工作與積分消耗](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+已新增[AI工作與積分消耗](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## 2025 年 11 月
 
-CX Enterprise中[Agentic AI的更新](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+CX Enterprise中[Agentic AI的更新](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## 2025 年 10 月
 
@@ -70,7 +81,7 @@ CX Enterprise中[Agentic AI的更新](https://experienceleague.adobe.com/zh-hant
 
 ## 2025 年 2 月
 
-在CX Enterprise[&#128279;](../administration/admin-console.md)中新增管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
+在CX Enterprise](../administration/admin-console.md)中新增[管理使用者和產品。 此頁面可協助管理員尋找所有應用程式的使用者和產品管理(Admin Console)說明。
 
 ## 2024 年 11 月
 

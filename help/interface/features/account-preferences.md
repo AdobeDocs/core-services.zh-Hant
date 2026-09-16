@@ -1,6 +1,6 @@
 ---
 title: 帳戶偏好設定和通知
-description: 瞭解CX Enterprise中的使用者設定檔、帳戶偏好設定和產品使用資料。 訂閱電子郵件和 [!DNL Slack]的產品通知，並設定產品警示。
+description: 瞭解CX Enterprise中的使用者設定檔、帳戶偏好設定和產品使用資料。 訂閱電子郵件和[!DNL Slack]的產品通知，並設定產品警示。
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -11,31 +11,37 @@ autotag-review: '2026-05-27T17:08:16.511Z'
 TQID: 'https://experienceleague.adobe.com/wn3EBV0rf2PLh649pY8KqLjIHjvpGwpBkDxX4Ib03uw'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: e1eba07e-ab89-466f-9ab5-ceb891d7a67d
+    internal-label: Account preferences and notifications
+  - id: f41eca2a-7270-51d6-bfa7-4a123d0d38ab
+    internal-label: Account Preferences
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: dc42f745-24d2-44a4-99c3-dece518fa4bc
+    internal-label: Alerts
   - id: eaef3029-0844-43fe-9e1c-7666a24f4d03
+    internal-label: Subscriptions
   - id: eb1ae5c4-ef16-4998-851c-73cc9f0b7f06
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Notifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: '841'
 ht-degree: 4%
-
 ---
-
 # 帳戶偏好設定和通知
 
 若要尋找CX Enterprise偏好設定，請按一下標題中的&#x200B;**[!UICONTROL 設定檔]** ![偏好設定](../assets/preferences-icon-sm.png)，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
@@ -120,7 +126,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 1. 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟訂閱Slack[&#128279;](#slack-notifications) （如上所述）。
+1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟訂閱Slack](#slack-notifications) （如上所述）。[
 
 ### 您將在[!DNL Slack]中看到的內容
 

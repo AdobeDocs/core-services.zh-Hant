@@ -6,21 +6,26 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
+TQID: 'https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 81%
-
 ---
-
 # [!DNL Customer Attributes] 支援一般資料保護規範
 
 本頁面旨在說明 [!DNL Customer Attributes] 如何支援一般資料保護規範 (GDPR)。
@@ -29,13 +34,13 @@ ht-degree: 81%
 >
 >本文件的內容並非法律建議，且宗旨並非取代專業的法律建議。 如需 GDPR 的相關建議，請諮詢法律顧問。
 
-2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。 此外，也簡化國際業務的監管環境。 針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
+2018 年 5 月 25 日生效的[一般資料保護規範](https://business.adobe.com/privacy/general-data-protection-regulation.html)賦予歐盟 (EU) 境內所有個人 (資料主體) 掌控其個人資料的權利。 此外，也簡化國際業務的監管環境。 針對向歐盟境內之個人提供商品或服務、監控其行為或收集其個人資料的所有企業 (資料控管單位)，不論資料控管單位的營業地點為何，其資料處理行為均需接受本法規範。
 
 Adobe CX Enterprise代表客戶擔任資料處理者的角色，依指示接收和儲存的任何個人資料。 身為資料控管單位，您可以決定要由Adobe CX Enterprise代表您處理和儲存哪些個人資料。
 
 本文件說明 [!DNL Customer Attributes] 如何使用 Adobe Experience Platform Privacy Service API 和隱私權服務 UI，支援您的資料主體存取 GDPR 資料和刪除權限。
 
-如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)。
+如需深入了解 GDPR 對您業務所代表的意義，請參閱 [GDPR 與您的業務](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## 傳送 [!DNL Customer Attributes] 請求的必要設定
 
@@ -63,9 +68,9 @@ Adobe CX Enterprise代表客戶擔任資料處理者的角色，依指示接收�
 * &quot;key&quot;：&lt;*通常是客戶名稱*>
 * &quot;action&quot;：**存取**&#x200B;或&#x200B;**刪除**
 * &quot;user IDs&quot;：
-   * &quot;namespace&quot;：&lt;*CRS 資料來源的別名 ID*>
-   * &quot;type&quot;：**integrationCode**
-   * &quot;value&quot;：&lt;*CRM ID*>
+  * &quot;namespace&quot;：&lt;*CRS 資料來源的別名 ID*>
+  * &quot;type&quot;：**integrationCode**
+  * &quot;value&quot;：&lt;*CRM ID*>
 * &quot;include&quot;：**CRS** (適用於此請求的 Adobe 產品)
 * &quot;regulation&quot;：**gdpr** (適用於此請求的隱私權法規)
 

@@ -1,34 +1,43 @@
 ---
-description: 瞭解如何建立 [!DNL Customer Attributes] 資料來源並將其上傳至CX Enterprise。
+description: 瞭解如何建立[!DNL Customer Attributes]資料來源並將其上傳至CX Enterprise。
 solution: Experience Cloud
-title: 建立及上傳 [!DNL Customer Attributes] 資料Source檔案
+title: 建立及上傳[!DNL Customer Attributes]資料Source檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+TQID: 'https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: '1183'
 ht-degree: 41%
-
 ---
-
 # 建立及上傳客戶屬性資料
 
 建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。 資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
@@ -47,7 +56,7 @@ ht-degree: 41%
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/overview)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)」。
 
 ## 建立資料檔案
 
@@ -94,33 +103,33 @@ ht-degree: 41%
      >
      >刪除與別名ID相關聯的資料來源時，別名ID將無法使用，因為別名ID會儲存在多個服務中，並用於在多個服務之間對應設定檔。
 
-     別名ID會對應至您設定其他客戶ID值的特定區域。 例如:
+     別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-      * **標籤：**&#x200B;別名ID對應至[[!UICONTROL Experience Cloud ID服務]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)標籤擴充功能中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+     * **標籤：**&#x200B;別名ID對應至[[!UICONTROL Experience Cloud ID服務]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)標籤擴充功能中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-      * **訪客ID服務：**&#x200B;別名ID會對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+     * **訪客ID服務：**&#x200B;別名ID會對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
-        例如，下列位置中的&#x200B;*「crm_id」*：
+       例如，下列位置中的&#x200B;*「crm_id」*：
 
-        ```
-        "crm_id":"67312378756723456"
-        ```
+       ```
+       "crm_id":"67312378756723456"
+       ```
 
-      * **iOS：**&#x200B;別名識別碼對應至[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)中的&#x200B;*&quot;idType&quot;*。
+     * **iOS：**&#x200B;別名識別碼對應至[visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)中的&#x200B;*&quot;idType&quot;*。
 
-        例如:
+       例如：
 
-        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+       `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
+     * **Android™：** 別名 ID 對應至 [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant) 中的 *&quot;idType&quot;*。
 
-        例如:
+       例如：
 
-        `identifiers.put(`**`"idType"`**`, "idValue");`
+       `identifiers.put(`**`"idType"`**`, "idValue");`
 
-        請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
+       請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
@@ -188,4 +197,4 @@ ht-degree: 41%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)。
+請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html??lang=zh-Hant)。

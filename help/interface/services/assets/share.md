@@ -8,26 +8,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
+TQID: 'https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 37%
-
 ---
-
 # 共用CX Enterprise資產資料夾
 
 在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX企業應用程式（例如Adobe Target）中使用這些資產。 共用資料夾必須源自CX Enterprise。
@@ -47,7 +55,7 @@ ht-degree: 37%
 1. 在資產資料夾中，按一下&#x200B;**[!UICONTROL 共用至Creative Cloud]**。
 
    ![分享到 Creative Cloud](../../assets/asset-share-cc.png)
-1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下[新增]。**&#x200B;**
+1. 在[共用至Creative Cloud]頁面上，搜尋使用者，然後按一下[新增]。****
 
    ![新增 Creative Cloud 使用者](../../assets/asset-share-cc-page.png)
 
@@ -58,7 +66,7 @@ ht-degree: 37%
 1. 開啟要求，然後按一下&#x200B;**[!UICONTROL 接受]**。
 
    ![接受請求](../../assets/cc_share_accept.png)
-1. 若要存取資料夾內容，請按一下[開啟資料夾] **（或[在網頁上檢視]**）。**&#x200B;**
+1. 若要存取資料夾內容，請按一下[開啟資料夾] ]**（或[在網頁上檢視]]**）。**[!UICONTROL **[!UICONTROL 
 
    ![在網頁上檢視](../../assets/creative_cloud_open_folder.png)
 1. 繼續操作，在共用資產上新增註解：
@@ -71,13 +79,13 @@ ht-degree: 37%
 
    ![在影像上新增註解](../../assets/asset_comment_mac.png)
 
-1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]&#x200B;**（類似[步驟3](share.md)&rbrack; &lbrack;），然後選取X來移除使用者，再按一下[共用]**&#x200B;**。**
+1. 若要取消共用資料夾，請按一下[使用Creative Cloud共用]]**（類似[步驟3](share.md)] [），然後選取X來移除使用者，再按一下[共用]****。**[!UICONTROL 
 
    ![取消共用資料夾](../../assets/asset_remove_user.png)
 
    移除所有 Creative Cloud 使用者後，資料夾便不再共用，Creative Cloud 使用者也不能再存取資料夾。
 
-更多使用共用資產的方式，包括載入或交換Adobe Target中[選件資料庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)中的資產，以用於活動中的影像。
+更多使用共用資產的方式，包括載入或交換Adobe Target中[選件資料庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)中的資產，以用於活動中的影像。
 
 系統會在與 Creative Cloud 共用的資料夾上顯示 Creative Cloud 標誌。
 
@@ -93,5 +101,5 @@ ht-degree: 37%
 
 在[!DNL Adobe Target]中建立活動時，您可以在交換[!UICONTROL 選件資料庫]中的影像時使用共用的影像資產。
 
-請參閱 [!DNL Target] 說明中的[產品建議庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=zh-Hant)。
+請參閱 [!DNL Target] 說明中的[產品建議庫](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html)。
 
