@@ -16,7 +16,7 @@ product_v2:
     internal-label: Admin Console
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
@@ -51,16 +51,16 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 31%
 ---
-# CX企業整合
+# CX Enterprise整合
 
-本頁面說明開始整合CX Enterprise應用程式的幾種方法。 如需詳細資訊，請瀏覽Experience League上的[整合教學課程影片](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)資料庫。
+本頁說明開始整合CX Enterprise應用程式的幾種方法。 如需詳細資訊，請瀏覽Experience League上的[整合教學課程影片](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)資料庫。
 
-## 為平台服務啟用您的CX企業應用程式
+## 為平台服務啟用您的CX Enterprise應用程式
 
 作業方式說明：
 
@@ -79,7 +79,7 @@ ht-degree: 31%
 
 ## 訪客 ID 服務
 
-訪客ID服務提供永續性的通用ID，可識別CX Enterprise所有應用程式的訪客。 這可取代Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他CX Enterprise應用程式和產品的ID產生碼。
+訪客ID服務提供永久性的通用ID，可識別CX Enterprise所有應用程式中的訪客。 這可取代Analytics、Audience Manager、Adobe Target、視訊心率等服務及其他CX Enterprise應用程式和產品的ID產生碼。
 
 檢視[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)
 
@@ -117,9 +117,9 @@ ht-degree: 31%
 
 ## CX Enterprise 資產
 
-說明： [與Creative Cloud共用CX企業資料夾](/help/interface/services/assets/share.md)
+說明： [與Creative Cloud共用CX Enterprise資料夾](/help/interface/services/assets/share.md)
 
-在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX企業應用程式（例如Adobe Target）中使用這些資產。
+在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX Enterprise應用程式（例如Adobe Target）中使用這些資產。
 
 **適用的應用程式或服務**
 
@@ -142,7 +142,7 @@ ht-degree: 31%
 
 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=zh-Hant)
 
-在Audience Manager中處理CX企業應用程式或其他外部系統的資料。
+在Audience Manager中處理CX Enterprise應用程式或其他外部系統的資料。
 
 **適用的應用程式或服務**
 
@@ -154,12 +154,12 @@ ht-degree: 31%
 
 說明： [整合Adobe Target與CX Enterprise](/help/interface/services/audiences/overview.md)
 
-將Adobe Target與Adobe Analytics及其他CX企業應用程式整合，以便在這兩個應用程式中使用相同的資料、對象、屬性和量度。
+將Adobe Target與Adobe Analytics及其他CX Enterprise應用程式整合後，即可在上述兩個應用程式中使用相同的資料、對象、屬性及量度。
 
 **適用的應用程式或服務**
 
 * 客戶屬性：設定 Adobe Target 的客戶屬性[訂閱](/help/interface/services/customer-attributes/subscription.md)
-* CX Enterprise Audiences： [CX Enterprise Audience Library](/help/interface/services/audiences/overview.md)
+* CX Enterprise對象： [CX Enterprise對象庫](/help/interface/services/audiences/overview.md)
 * Analytics：[Adobe Analytics 作為 Adobe Target 的報表來源](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 * Audience Manager：[Adobe Target 資料與 Adobe Audience Manager 整合](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=zh-Hant)
 * Campaign：[將 Adobe Target 與 Campaign 整合](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=zh-Hant)
@@ -174,7 +174,7 @@ ht-degree: 31%
 
 說明： [設定AEM Assets與CX Enterprise和Creative Cloud的整合](https://experienceleague.adobe.com/docs/?lang=zh-Hant)
 
-將 Adobe Experience Manager (AEM) Assets 中的資產與 Adobe Creative Cloud 同步，反之亦然。 您也可以將資產與CX Enterprise同步，反之亦然。 您可以透過CX Enterprise設定此同步處理。
+將 Adobe Experience Manager (AEM) Assets 中的資產與 Adobe Creative Cloud 同步，反之亦然。 您也可以將資產與CX Enterprise同步，反之亦然。 您可以透過CX Enterprise設定此同步。
 
 **適用的應用程式或服務**
 
@@ -184,7 +184,7 @@ ht-degree: 31%
 
 ## [!DNL Adobe Advertising]
 
-* 說明（需要登入）： [與Adobe CX企業解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* 說明（需要登入）： [與Adobe CX Enterprise解決方案和服務整合](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
 * Experience League上的[Adobe Advertising檔案](https://experienceleague.adobe.com/docs/advertising.html?lang=zh-Hant)
 
@@ -194,11 +194,11 @@ ht-degree: 31%
 
 **標籤：**&#x200B;您可以使用[Experience Platform標籤，為您的搜尋、社交和顯示廣告登陸頁面建立Advertising畫素式轉換追蹤標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)和協力廠商追蹤標籤。 (您也可以直接在 [!DNL Advertising] 中建立 [!DNL Advertising] 標記。)
 
-**CX Enterprise Audiences：** （可管理顯示內容的廣告商）您可以使用任何[Adobe CX Enterprise Audiences](../services/audiences/overview.md)作為顯示廣告的目標。 您可以自動使用已在CX Enterprise中建立的受眾以及Analytics中已發佈至CX Enterprise的受眾。 當[!DNL Adobe Advertising]帳戶設定為允許時，您也可從Audience Manager使用對象。
+**CX Enterprise對象：** （可管理顯示內容的廣告商）您可以使用任何[Adobe CX Enterprise對象](../services/audiences/overview.md)作為顯示廣告的目標。 您可以自動使用已在CX Enterprise中建立的受眾和已發佈至CX Enterprise的Analytics受眾。 當[!DNL Adobe Advertising]帳戶設定為允許時，您也可從Audience Manager使用對象。
 
-如需深入瞭解如何存取Adobe CX Enterprise和設定檔與對象，以及[!DNL Adobe Advertising]與Adobe CX Enterprise對象之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也使用Adobe Target，您發佈至Adobe CX Enterprise的受眾也可供Adobe Target中的活動使用。
+如需深入瞭解如何存取Adobe CX Enterprise和設定檔與受眾，以及[!DNL Adobe Advertising]與Adobe CX Enterprise受眾之間的初始設定，請聯絡您的客戶經理。 **注意：**&#x200B;如果您也使用Adobe Target，您發佈至Adobe CX Enterprise的對象也可供Adobe Target中的活動使用。
 
-**CX Enterprise Assets：** （可管理顯示內容的廣告商）您可以使用Adobe CX Enterprise assets的任何廣告創意，透過New Display Beta檢視，作為顯示廣告的創意。 您必須透過Adobe CX Enterprise [登入Adobe Advertising，才能存取Adobe CX Enterprise資產。 &#x200B;](https://enterprise.efrontier.com/CMDashboard)如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
+**CX Enterprise Assets：** （可管理顯示內容的廣告商）您可以透過「全新顯示Beta」檢視，使用任何Adobe CX Enterprise資產作為顯示廣告的廣告創意。 您必須透過Adobe CX Enterprise[&#128279;](https://enterprise.efrontier.com/CMDashboard) 登入Adobe Advertising，才能存取Adobe CX Enterprise資產。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 
-**CX Enterprise Notifications：**&#x200B;從每頁頂端的通知連結中，您可以檢視搜尋測試版警示範本產生的所有警示。 您也可以取得CX Enterprise系統更新、貼文、相關記錄和共用的資產。 您必須透過Adobe CX Enterprise [登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
+**CX Enterprise通知：**&#x200B;從每頁頂端的通知連結中，您可以檢視搜尋測試版提示範本產生的所有提示。 您也可以取得CX Enterprise系統更新、貼文、相關記錄和共用的資產。 您必須[透過Adobe CX Enterprise登入Adobe Advertising](https://enterprise.efrontier.com/CMDashboard)，才能存取通知。 如需存取Adobe CX Enterprise的相關資訊，請聯絡您的客戶經理。
 

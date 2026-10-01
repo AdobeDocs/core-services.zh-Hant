@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -145,13 +145,13 @@ ht-degree: 41%
 
 1. 將`.csv`或`.zip`或`.gzip`資料檔案拖放至拖放視窗中。
 
->[!IMPORTANT]
->
->需符合特定的資料檔案需求。 如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
+   >[!IMPORTANT]
+   >
+   >需符合特定的資料檔案需求。 如需詳細資訊，請參閱[資料檔案需求](crs-data-file.md)。
 
-上傳檔案後，表格資料會顯示在此頁面的[!UICONTROL 檔案上傳]標題下。 您可以驗證結構、設定訂閱或設定 FTP。
+   上傳檔案後，表格資料會顯示在此頁面的[!UICONTROL 檔案上傳]標題下。 您可以驗證結構描述、設定訂閱或設定 FTP。
 
-![屬性](assets/file_upload_attributes.png)
+   ![屬性](assets/file_upload_attributes.png)
 
 * **[!UICONTROL 唯一客戶ID：]**&#x200B;顯示您上傳多少個唯一ID至此屬性來源。
 
@@ -161,7 +161,7 @@ ht-degree: 41%
 
 ## 驗證結構 {#validate-schema}
 
-驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。 您也可以更新結構以刪除屬性。
+驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。 您也可以更新結構描述以刪除屬性。
 
 請參閱[驗證結構](validate-schema.md)。
 
@@ -169,7 +169,7 @@ ht-degree: 41%
 
 ## (選用) 更新結構 (刪除屬性)
 
-如何在結構中刪除屬性及取代屬性。
+如何在結構描述中刪除屬性及取代屬性。
 
 1. 在[!UICONTROL 編輯客戶屬性Source]頁面上，移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;訂閱（位於&#x200B;**[!UICONTROL 設定訂閱]**&#x200B;下）。
 
@@ -177,7 +177,7 @@ ht-degree: 41%
 
 ## 設定訂閱及啟動屬性來源
 
-設定訂閱設定CX Enterprise和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
+設定訂閱可設定CX Enterprise和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱及啟用資料來源](subscription.md)。
 
@@ -189,7 +189,7 @@ ht-degree: 41%
 
 ![根據上傳的屬性的 Analytics 區段](assets/08_crs_usecase.png)
 
-您將區段發佈至CX Enterprise後，CX Enterprise Audiences和Audience Manager即可使用該區段。
+您將區段發佈至CX Enterprise後，CX Enterprise Audiences和Audience Manager可隨即使用該區段。
 
 ## 在Adobe Target中使用[!DNL Customer Attributes]資料
 
