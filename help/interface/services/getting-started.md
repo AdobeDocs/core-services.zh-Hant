@@ -1,5 +1,5 @@
 ---
-description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 瞭解如何開始使用CX企業服務。
+description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 瞭解如何開始使用CX Enterprise服務。
 solution: Experience Cloud
 title: 開始使用CX Enterprise
 index: true
@@ -14,7 +14,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -51,28 +51,28 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%
 ---
 # 開始使用CX Enterprise
 
-如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)實作CX Enterprise，表示您已為[客戶屬性](../services/overview.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
+如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)實作CX Enterprise，則您已為[客戶屬性](../services/overview.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
 
-現有客戶可匯入最新的應用程式實作，並實作CX Enterprise。 如此一來，您就可以橫跨Adobe Analytics、Audience Manager和Adobe Target使用客戶屬性和受眾功能。
+現有客戶可匯入最新的應用程式實作並實施CX Enterprise。 如此一來，您就可以橫跨Adobe Analytics、Audience Manager和Adobe Target使用客戶屬性和受眾功能。
 
 ## 以管理員身分登入 {#admin-sign-in}
 
 當您成為管理員後，即可在 [experience.adobe.com](https://experience.adobe.com) 登入。
 
-CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;連結，用於管理使用者和產品授權。
+CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;連結，用於管理使用者和產品授權。
 
 ### 可選：連結現有的使用者帳戶 {#link-accounts}
 
 最有可能的情況是，您的使用者已是應用程式群組的成員，例如您先前在[!UICONTROL Analytics] > [!UICONTROL 管理工具]中管理的Analytics群組。
 
-將這些群組對應至CX企業群組時，這些使用者必須手動將其應用程式帳戶認證連結至其Adobe ID。
+將這些群組對應至CX Enterprise企業群組時，這些使用者必須手動將其應用程式帳戶認證連結至其Adobe ID。
 
 檢視CX Enterprise中的[連結帳戶](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)
 
@@ -80,7 +80,7 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 >
 >在企業群組和應用程式群組對應後，新使用者會自動產生連結。 (系統會自動建立解決方案認證並連結至其 Adobe ID)。
 
-以下各節將說明如何導入最新實作。 匯入最新實作以啟用CX Enterprise的核心服務。
+以下各節將說明如何導入最新實作。 匯入最新實作以啟用CX Enterprise中的核心服務。
 
 ## 以使用者身分登入 {#user-sign-in}
 
@@ -112,9 +112,9 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 訪客ID服務提供跨應用程式整合的通用ID。 它提供跨網域訪客身分識別，以及根據透過[!DNL Customer Attributes]上傳的CRM資料跨裝置/瀏覽器鎖定目標和個人化的路徑。
 
-啟用CX Enterprise核心服務最簡單的方法，就是透過實作訪客ID服務的[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)，為Analytics和Adobe Target自動啟用。
+啟用CX Enterprise核心服務最簡單的方法，就是透過實作訪客ID服務的[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，為Analytics和Adobe Target自動啟用。
 
-如需完整的訪客ID服務說明，請參閱[訪客ID服務概觀](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=zh-Hant#intro)。
+如需完整的訪客ID服務說明，請參閱[訪客ID服務概觀](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro)。
 
 
 **未使用[!UICONTROL Experience Platform標籤]？**
@@ -123,18 +123,18 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 | 任務 | 說明 |
 | --- | --- |
-| [實作Analytics的訪客ID服務(`VisitorAPI.js`)](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/overview) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/authenticated-state)。 這些ID與每個訪客相關聯，以啟用CX Enterprise中現有和未來的功能。 |
-| 將現有的 `s_code` 更新為 H.27.3 或更新版本，或將現有的 `AppMeasurement.js` 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hant)中下載。 (如果您需要更多 `AppMeasurement.js` 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/js/overview#js)指南。) |
+| [實作Analytics的訪客ID服務(`VisitorAPI.js`)](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | Adobe 也建議設定其他[客戶 ID](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state)。 這些ID與每個訪客相關聯，實現了CX Enterprise中現有和未來的功能。 |
+| 將現有的 `s_code` 更新為 H.27.3 或更新版本，或將現有的 `AppMeasurement.js` 更新為 1.4 或更新版本。 | 這些檔案可在 Analytics 分析管理工具的[代碼管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html)中下載。 (如果您需要更多 `AppMeasurement.js` 的相關資訊，請參閱 [JavaScript 實作](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js)指南。) |
 
 ### Analytics與Adobe Target — 同步客戶ID {#sync-ids}
 
-在設定訪客ID服務時，Adobe建議您針對Analytics和[!DNL Target]將[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)與CX Enterprise同步。
+在設定訪客ID服務時，Adobe建議您針對Analytics和[!DNL Target]將[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)與CX Enterprise同步。
 
-在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。 (請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=zh-Hant&?lang=zh-Hant)。)
+在 Adobe Target 中，`mbox3rdpartyid` 需取得客戶 ID 並將其傳送到 [!DNL Target]。 (請參閱 [!DNL Target] 中的[使用客戶屬性](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html??lang=zh-Hant)。)
 
 訪客在您的網站上進行驗證或以其他方式識別他們自己身分時，您的實作必須將其 CRM 客戶 ID 公開給頁面或應用程式。 然後，您可以使用適當的函式呼叫，將客戶ID同步至CX Enterprise。 此同步會將訪客的CRM客戶ID儲存在CX Enterprise中，並啟動該客戶的屬性以用於CX Enterprise。
 
-例如，假設在 CRM 系統中 Bob 的 Customer ID 為 `52mc210tr42`。 當您的網站驗證 Bob 時，您必須在頁面上公開此 ID，然後以下述方法之一使用此 ID 進行同步化：
+例如，假設在 CRM 系統中 Bob 的 Customer ID 為 `52mc210tr42`。 當 Bob 在您的網站上驗證身分時，您必須在頁面上公開此 ID，然後以下述方法之一使用此 ID 進行同步化：
 
 * 使用訪客ID服務呼叫`visitor.setCustomerIDs({"crm_id":"52mc210tr42"})`。 或,
 * 在 prop 或 eVar 中填入 *`Customer ID (52mc210tr42)`*。
@@ -147,7 +147,7 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 ### 行動 SDK
 
-如需在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*訪客ID服務™1&rbrace;一節。*
+如需在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*訪客ID服務™1}一節。*
 
 ### 啟用歷史資料的屬性
 
@@ -159,13 +159,13 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 如果您使用第一方Cookie，請參閱[Adobe管理的憑證方案](/help/interface/data-collection/adobe-managed-cert.md)，以取得資料收集CNAME和跨網域追蹤的相關資訊。
 
-建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。 完成此步驟最簡單的方式是在 Experience Platform Data Collection 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)。
+建議您更新 JavaScript 程式庫 (包括訪客 API)，以將 Analytics 實作最新化。 完成此步驟最簡單的方式是在 Experience Platform Data Collection 中新增 [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)。
 
 ## 更新您的 Adobe Target 實作
 
-* 建議您在[!UICONTROL Adobe Target]標籤中新增[Experience Platform擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=zh-Hant)，以便讓資料庫擷取作業自動執行。 您也可以設定[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh-Hant)，其會使用標籤實作Adobe Target （和其他應用程式）的訪客ID服務。 此標籤延伸是&#x200B;**必要的**，Adobe Target才能使用People服務。
-* 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=zh-Hant)更新您的mbox資料庫。
-* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
+* 建議您在[!UICONTROL Adobe Target]標籤中新增[Experience Platform擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html)，以便讓資料庫擷取作業自動執行。 您也可以設定[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，其會使用標籤實作Adobe Target （和其他應用程式）的訪客ID服務。 此標籤延伸是&#x200B;**必要的**，Adobe Target才能使用People服務。
+* 如果您沒有使用[!UICONTROL Experience Platform]標籤，請[手動](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html)更新您的mbox資料庫。
+* 請求存取權以使用 Adobe Analytics 作為 [!DNL Adobe Target] 的報表來源。 [!DNL Target] 和 [!DNL Analytics] 資料會在處理期間合併到相同伺服器呼叫上，好讓訪客可在兩個應用程式之間連線。 請參閱 [Analytics for Target 實作](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)。
 
   >[!IMPORTANT]
   >
@@ -186,7 +186,7 @@ CX Enterprise功能表導覽提供&#x200B;**[!UICONTROL Admin Console]**&#x200B;
 
 包含ECID （也稱為`mid`或&#x200B;_訪客ID_）的Analytics影像要求：
 
-包含ECID ![&#128279;](../assets/mid.png)的Analytics影像要求
+包含ECID ](../assets/mid.png)的![Analytics影像要求
 
 mbox請求中的ECID：
 
@@ -208,7 +208,7 @@ mbox要求中的![ECID](../assets/mbox_request.png)
 
 ### 客戶屬性
 
-加入至[!DNL Customer Attributes]群組的使用者可以在CX Enterprise的左側看到[!DNL Customer Attributes]功能表專案。
+已新增至[!DNL Customer Attributes]群組的使用者可在CX Enterprise左側看到[!DNL Customer Attributes]功能表專案。
 
 ## 開始共用屬性和客群資料
 
@@ -222,7 +222,7 @@ mbox要求中的![ECID](../assets/mbox_request.png)
 
 ### [!UICONTROL 人員] > [!UICONTROL 對象庫]
 
-CX Enterprise [!UICONTROL 對象]介面可讓您建立對象、組合現有對象以建立複合對象，以及檢視所有共用對象。
+CX Enterprise [!UICONTROL 受眾]介面可讓您建立受眾、組合現有受眾以建立複合受眾，以及檢視所有共用受眾。
 
 如需詳細資訊，請參閱[對象](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/overview)。
 
