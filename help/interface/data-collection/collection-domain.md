@@ -56,12 +56,12 @@ ht-degree: 3%
 
 當您變更資料收集網域時，請更新每個將資料傳送至Adobe的實作：
 
-* **Web SDK標籤擴充功能**：設定擴充功能時更新[[!UICONTROL Edge網域]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)欄位。
-* **網頁SDK (alloy)**：更新`configure`命令中的[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain)屬性。
-* **Adobe Analytics擴充功能**：設定擴充功能時更新[[!UICONTROL SSL追蹤伺服器]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)欄位。 請確定您已安裝[訪客ID服務標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)。 如需詳細資訊，請參閱[使用Analytics標籤延伸識別訪客](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)。
-* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure)設定變數。 確定您也使用`VisitorAPI.js`實作[訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/home)。 如需詳細資訊，請參閱[使用AppMeasurement的訪客身分識別](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)。
+* **Web SDK標籤擴充功能**：設定擴充功能時更新[[!UICONTROL Edge網域]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)欄位。
+* **網頁SDK (alloy)**：更新`configure`命令中的[`edgeDomain`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/edgedomain)屬性。
+* **Adobe Analytics擴充功能**：設定擴充功能時更新[[!UICONTROL SSL追蹤伺服器]](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/analytics/overview)欄位。 請確定您已安裝[訪客ID服務標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)。 如需詳細資訊，請參閱[使用Analytics標籤延伸識別訪客](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/analytics-extension)。
+* **AppMeasurement**：更新[`trackingServerSecure`](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/config-vars/trackingserversecure)設定變數。 確定您也使用`VisitorAPI.js`實作[訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/home)。 如需詳細資訊，請參閱[使用AppMeasurement的訪客身分識別](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/appmeasurement)。
 * **其他實作**：更新將資料傳送至Adobe的任何其他實作中的資料收集網域，例如行動應用程式或伺服器端實作。
 
 如果您的實作不使用訪客ID服務或網頁SDK，變更您的資料收集網域會變更訪客Cookie的網域，而回頭的訪客可計為新訪客。
 
-如果您的網站使用多種實作方法，且您無法同時更新所有方法，請考慮設定寬限期。 請參閱[訪客ID服務移轉考量事項](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)，以取得如何防止訪客在您的網站上被計為新訪客的其他步驟。
+如果您的網站使用多種實作方法，且您無法同時更新所有方法，請考慮設定寬限期。 請參閱[訪客ID服務移轉考量事項](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/id/migration)，以取得如何防止訪客在您的網站上被計為新訪客的其他步驟。
