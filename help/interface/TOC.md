@@ -2,16 +2,14 @@
 role: User,Admin
 user-guide-title: CX Enterprise中央介面與管理指南
 breadcrumb-title: CX Enterprise介面和管理
-title: CX企業介面與管理指南
+title: CX Enterprise介面與管理指南
 description: 瞭解CX Enterprise介面和管理。 瀏覽有關AI、管理、共用服務、資料收集、Cookie、發行說明和常見問答集的主題。
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 61%
-
+source-wordcount: '207'
+ht-degree: 57%
 ---
-
 # CX Enterprise介面和管理 {#interface}
 
 + [CX Enterprise介面和管理](/help/interface/experience-cloud.md)
@@ -52,7 +50,10 @@ ht-degree: 61%
   + [觸發程序](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + 資料收集 {#data-collection}
+  + [選擇資料收集網域](/help/interface/data-collection/collection-domain.md)
   + [Adobe 託管的憑證計劃](/help/interface/data-collection/adobe-managed-cert.md)
+  + [客戶管理的憑證](/help/interface/data-collection/customer-managed-cert.md)
+  + [透過CDN路由資料收集](/help/interface/data-collection/cdn.md)
   + [IP 位址](/help/interface/data-collection/ip-addresses.md)
   + [網域](/help/interface/data-collection/domains.md)
   + Cookie {#cookies}
