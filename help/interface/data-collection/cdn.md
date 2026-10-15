@@ -79,7 +79,7 @@ Adobe資料收集程式庫（例如AppMeasurement和Web SDK）包含Adobe在每�
 1. 尋找您組織的租使用者ID。 請參閱[尋找您的租使用者ID](collection-domain.md#tenant-id)。
 1. 在您的CDN設定中，將原始主機名稱設定為`data.adobedc.net`的租使用者ID子網域。 例如 `example.data.adobedc.net`。
 1. 啟用來源的伺服器名稱指示(SNI)。 將SNI主機名稱設定為原始主機名稱（例如`example.data.adobedc.net`），而非您網站的主機名稱。
-1. 設定您的CDN以符合上述所有CDN實作](#requirements)的[需求。
+1. 設定您的CDN以符合上述所有CDN實作[&#128279;](#requirements)的需求。
 1. 如果您的實作傳送資料以進行變更的主機名稱，[請更新您的實作](collection-domain.md#update-implementation)。 如果您保留相同的主機名稱，實作上就不需要變更。
 
 >[!WARNING]
@@ -98,7 +98,7 @@ Adobe資料收集程式庫（例如AppMeasurement和Web SDK）包含Adobe在每�
 1. 請連絡Adobe客戶服務，為您的第一方主機名稱（例如`data.example.com`）設定[客戶管理的憑證](customer-managed-cert.md)。 如果您的組織需要地區鎖定RDC型別，請在請求中指定。
 1. 在您的CDN設定中，將原始主機名稱設定為您的第一方主機名稱。
 1. 啟用來源的伺服器名稱指示(SNI)。 將SNI主機名稱設定為您的第一方主機名稱，並設定您的CDN以預期您的第一方憑證來自來源。
-1. 設定您的CDN以符合上述所有CDN實作](#requirements)的[需求。
+1. 設定您的CDN以符合上述所有CDN實作[&#128279;](#requirements)的需求。
 1. 如果您的實作傳送資料以進行變更的主機名稱，[請更新您的實作](collection-domain.md#update-implementation)。 如果您保留相同的主機名稱，實作上就不需要變更。
 
 >[!IMPORTANT]
