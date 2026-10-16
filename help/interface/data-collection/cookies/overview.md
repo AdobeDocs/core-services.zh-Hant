@@ -6,22 +6,28 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # CX Enterprise中Cookie的使用方式
 
 Adobe CX Enterprise使用Cookie。 Cookie是網站傳送給您的瀏覽器的一小段資料，會儲存以供日後使用。 Cookie可協助網站記住您再次造訪或在頁面之間移動時的內容。 Cookie有助於追蹤瀏覽次數，並將一個裝置與其他裝置區分開來。
@@ -30,18 +36,18 @@ Adobe CX Enterprise使用Cookie。 Cookie是網站傳送給您的瀏覽器的一
 
 ## 關於第一方 Cookie
 
-Adobe CX Enterprise使用Cookie來追蹤不會在頁面檢視或瀏覽器作業之間持續的資訊。 Adobe儘可能使用第一方Cookie （與您自己的網站連結）。 若要追蹤您擁有的多個網站或網域中的活動，則需要協力廠商Cookie。
+Adobe CX Enterprise使用Cookie來追蹤不會維持在頁面檢視或瀏覽器作業之間的資訊。 Adobe儘可能使用第一方Cookie （與您自己的網站連結）。 若要追蹤您擁有的多個網站或網域中的活動，則需要協力廠商Cookie。
 
-有些瀏覽器和防間諜軟體工具會封鎖協力廠商Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 其運作方式取決於您是使用訪客ID服務(`VisitorAPI.js`)還是舊版Analytics Cookie （如`s_vi` Cookie）：
+有些瀏覽器會封鎖第三方Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 此程式的運作方式取決於您是使用訪客ID服務(`VisitorAPI.js`)還是舊版Analytics Cookie （如`s_vi` Cookie）：
 
 * [訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/overview)：訪客ID服務一律會設定第一方Cookie，無論您的資料收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
 
 * [Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie）： Cookie是第一方還是第三方取決於您的設定：
 
-   * 如果您的資料收集伺服器符合您網站的網域，則Cookie為第一方。
-   * 如果不符，Cookie為協力廠商。 如果第三方Cookie遭到封鎖，Adobe會設定一個備援Cookie (`s_fid`)，而非一般的備援Cookie。
+  * 如果您的資料收集伺服器符合您網站的網域，則Cookie為第一方。
+  * 如果不符，Cookie為協力廠商。 如果第三方Cookie遭到封鎖，Adobe會設定一個備援Cookie (`s_fid`)，而非一般的備援Cookie。
 
-為確保您的集合伺服器符合您網站的網域，您可以使用&#x200B;**CNAME設定**。 這涉及更新您的DNS設定，以將自訂網域（您擁有）指向Adobe的伺服器。 如此一來，追蹤Cookie會顯示為第一方。 雖然一個CNAME可以跨多個網域運作，但任何不符合CNAME的網域仍會設定第三方Cookie。
+為確保您的集合伺服器符合您網站的網域，您可以使用&#x200B;**CNAME設定**。 此設定包括更新您的DNS設定，以將自訂網域（您擁有）指向Adobe的伺服器。 此設定會讓追蹤Cookie顯示為第一方。 雖然一個CNAME可以跨多個網域運作，但任何不符合CNAME的網域仍會設定第三方Cookie。 您也可以[透過使用您自己的網域的CDN](../cdn.md)路由資料收集。 請參閱[為所有選項選擇資料收集網域](../collection-domain.md)。
 
 >[!NOTE]
 >
@@ -53,7 +59,7 @@ Adobe CX Enterprise使用Cookie來追蹤不會在頁面檢視或瀏覽器作業�
 
 Adobe嚴肅看待隱私權與資料安全性。 它可與隱私權組織、監管機構及AdChoices等程式合作，讓使用者掌控其資料的使用方式。
 
-Adobe CX Enterprise大部分的Cookie不會儲存個人資訊。 它們是安全的，僅供您的公司用於報表、內容和廣告。 Adobe不會與其他客戶或第三方共用這些資料，除非是匿名且涵蓋整個產業的報告（例如Digital Marketing Insight報告）。
+Adobe CX Enterprise的大多數Cookie不會儲存個人資訊。 它們是安全的，僅供您的公司用於報表、內容和廣告。 Adobe不會與其他客戶或第三方共用這些資料，除非是匿名且涵蓋整個產業的報告（例如Digital Marketing Insight報告）。
 
 Adobe不會合併跨不同公司的瀏覽器資料。 為了保護隱私權，有些Adobe工具可讓每個網站使用自己的Cookie集。 有些客戶也允許使用您自己的網域來處理Cookie，使其成為第一方且更安全。
 
