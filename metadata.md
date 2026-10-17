@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Central UI和管理
+title: CX Enterprise中央介面和管理
 description: 瞭解Adobe Admin Console、對象庫、客戶屬性、CX Enterprise Assets等專案中的UI元件、使用者和產品管理。
 cloud: Experience Cloud
 product: experience cloud
@@ -7,24 +7,23 @@ solution: CX Enterprise
 solution-title: Experience Platform
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/tw/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.zh-Hant
+git-repo: https://github.com/Adobe-Enterprise-Docs/core-services.en
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 source-git-commit: cedbdaa0a783bd9777c169b1257ca5ebf6b48c08
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 65%
-
+source-wordcount: '195'
+ht-degree: 68%
 ---
-
 
 # 內部專用中繼資料
 
-metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
+metadata.md 檔案包含存放庫層級的後設資料，會將這些資料傳遞至存放庫中的使用者指南 TOC.md 檔案。 如果您想變更任何使用者指南的 metadata.md 內容，請在任何 TOC.md 檔案中進行變更。
 
 | 中繼資料 | 功能說明 |
 | --- | --- |
@@ -34,7 +33,7 @@ metadata.md 檔案包含存放庫層級的中繼資料，會將這些資料傳�
 | getting-started-title | 教學課程不適合時極少使用 |
 | getting-started-url | 連結至 HelpX 快速入門頁面 |
 | tutorials-title | 教學課程不適合時極少使用 |
-| tutorials-url | 連結至影片教學課程，包含 HelpX 教學課程，或是 KT 教學課程 |
+| tutorials-url | 連結至影片教學課程：HelpX 教學課程或 KT 教學課程 |
 | mini-toc-levels | 決定右側邊欄中顯示的標題層級數量。 預設值為 2 |
 | git-repo | 指定共同作業存放庫的位置。 針對公開檔案使用github.com映象 |
 
