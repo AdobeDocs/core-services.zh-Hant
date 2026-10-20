@@ -39,7 +39,7 @@ CCPA是加州的最新隱私權法，自2020年1月1日起生效。 CCPA 賦予�
 
 本檔案說明[!DNL Customer Attributes]如何使用Adobe Experience Platform Privacy Service API和Privacy Service UI，支援您的資料主體存取CCPA資料和刪除許可權。
 
-如需 CCPA 適用 Adobe 隱私權服務的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/privacy/ccpa.html)。
+如需 CCPA 適用 Adobe 隱私權服務的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy/ccpa.html)。
 
 ## 傳送 [!DNL Customer Attributes] 請求的必要設定
 
