@@ -37,18 +37,18 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 64%
+source-wordcount: '877'
+ht-degree: 59%
 ---
 # CX Enterprise Triggers
 
-CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在進行即時決策和個人化時使用觸發器。 如需搭配Adobe Campaign使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)。
+CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在即時決策和個人化中使用觸發器。 如需搭配Adobe Campaign使用[!UICONTROL 觸發器]的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=zh-Hant)。
 
 例如：
 
-* 針對放棄購物車或透過移除產品放棄購物車設定快速再行銷
+* 針對放棄購物車，或從購物車移除產品後放棄購物車的情況設定快速再行銷
 * 不完整的表單和應用程式
 * 網站上的任何動作或動作順序
 
@@ -66,9 +66,13 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
 * **動作：**&#x200B;您可以建立觸發器，在電子報註冊、電子郵件訂閱或信用卡申請 (確認) 等動作後引發。 如果您是零售商，可針對註冊忠誠度計畫的訪客建立觸發器。 若為媒體和娛樂產業，可針對觀看特定節目的訪客建立觸發器，而您可能會想透過意見調查給予回應。
 * **工作階段開始和工作階段結束：**&#x200B;針對工作階段開始和工作階段結束事件建立觸發器。
 
-## 建立CX Enterprise觸發程式
+## 放棄觸發器的保留期間
 
-建立觸發器並設定觸發器的條件。 例如，您可以指定造訪期間觸發器規則的條件，例如「購物車放棄」等量度，或產品名稱等維度。 符合規則時，觸發器就會執行。
+廢棄觸發程式在觸發程式工作階段結束後有一小時的固定保留期間，無論觸發程式是否引發。 在此期間，不會為該訪客啟動相同放棄觸發器的新工作階段，即使訪客回訪並再次符合觸發條件亦然。 無法設定保留期間。
+
+## 建立CX Enterprise觸發器
+
+建立觸發程序並設定觸發程序的條件。 例如，您可以指定造訪期間觸發器規則的條件，例如「購物車放棄」等量度，或產品名稱等維度。 符合規則時，觸發器就會執行。
 
 >[!NOTE]
 >
@@ -87,9 +91,9 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
    | [!UICONTROL 名稱] | 此觸發器的易記名稱。 |
    | [!UICONTROL 說明] | 此觸發器的說明、使用方式等資訊。 |
    | [!UICONTROL 報告套裝] | 用於此觸發器的 Analytics [報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hant)。 此設定可識別要使用的報表資料。 |
-   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。 例如，簡單的購物車丟棄觸發器的規則可能是：<ul><li>造訪必須包括： [!UICONTROL 新增購物車] （量度）和[!UICONTROL 存在]。 (您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括： [!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包含Meta資料]：可讓您新增與訪客的行為相關的特定[!DNL Campaign]維度或變數。 此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以根據您判斷對規則來說很重要的准則，在容器內或容器之間指定[!UICONTROL 任何]、[!UICONTROL 和]或[!UICONTROL 或]邏輯。 |
+   | 造訪必須包括<br>造訪不得包括<br>在無動作後觸發<br>包括中繼資料 | 您可以定義準則或您要發生的訪客行為，以及您不要發生的訪客行為。 例如，簡單的購物車丟棄觸發程序的規則可能是：<ul><li>造訪必須包括： [!UICONTROL 新增購物車] （量度）和[!UICONTROL 存在]。 (您可以進一步調整具有特定產品檢視或具有瀏覽器類型之類維度的規則)。</li><li>造訪不得包括： [!UICONTROL 結帳]。</li><li>無動作達下列時間後觸發：10 分鐘。</li><li>[!UICONTROL 包含Meta資料]：可讓您新增與訪客的行為相關的特定[!DNL Campaign]維度或變數。 此欄位有助於 Adobe Campaign 建置正確的再行銷電子郵件。</li></ul><br>您可以根據您判斷對規則來說很重要的准則，在容器內或容器之間指定[!UICONTROL 任何]、[!UICONTROL 和]或[!UICONTROL 或]邏輯。 |
    | [!UICONTROL 容器] | [!UICONTROL 容器]是您設定並儲存定義觸發器的規則、條件或篩選器的位置。 如果您想讓事件同時發生，請將事件放在相同的容器中。 這表示每個容器是在點擊層級獨立處理。 例如，如果您有兩個以和運算子聯結的容器，您可預期規則在兩個點擊符合要求時符合資格。 |
-   | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發器。 |
+   | 發生後開始新工作階段 | 為工作階段開始和工作階段結束事件建立觸發程序。 |
 
    {style="table-layout:auto"}
 
@@ -98,7 +102,7 @@ CX Enterprise中的[!UICONTROL 觸發器]可讓您識別、定義及監控重要
 
 ## 範例觸發器
 
-CX Enterprise Triggers範例：
+CX Enterprise觸發器範例：
 
 ### 購物車放棄觸發器
 
