@@ -1,7 +1,7 @@
 ---
 description: 瞭解用於管理CX Enterprise中已核准Creative Cloud使用者的管理工具。
 solution: Experience Cloud
-title: 在Experience Cloud中管理Creative Cloud使用者
+title: 在CX Enterprise中管理Creative Cloud使用者
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # 管理 Creative Cloud 使用者
 
-CX企業版提供管理工具，可管理核准的Creative Cloud使用者。 這些使用者可臨機受邀加入促銷活動資料夾。 只有管理員已新增至清單的使用者，才能受邀加入促銷活動。 新增的使用者會顯示在CX Enterprise的自動完成使用者清單中。
+CX Enterprise提供管理工具，可管理已核准的Creative Cloud使用者。 這些使用者可臨機受邀加入促銷活動資料夾。 只有管理員已新增至清單的使用者，才能受邀加入促銷活動。 新增的使用者會顯示在CX Enterprise的自動完成使用者清單中。
 
 >[!NOTE]
 >

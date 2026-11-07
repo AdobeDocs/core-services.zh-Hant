@@ -1,5 +1,5 @@
 ---
-title: Experience Cloud使用的IP位址
+title: CX Enterprise使用的IP位址
 description: 如果貴組織的防火牆封鎖來自Adobe的IP位址，請使用此清單來更新防火牆設定。
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 8%
-
 ---
-
 # CX Enterprise使用的IP位址
 
 有些防火牆設定會封鎖來自Adobe的資料收集伺服器或負責存取資料的伺服器之IP位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統（例如Adobe Analytics中的資料摘要）。
@@ -31,12 +29,12 @@ ht-degree: 8%
 >
 >雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路登入需要變更Adobe的IP位址空間，或網際網路服務供應商停止運作。
 
-除了下列的IP位址區塊外，個別Adobe CX Enterprise產品也有各自使用的IP位址：
+除了下列IP位址區塊外，各個Adobe CX Enterprise產品也各有專屬的IP位址：
 
-* [Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## 所有Adobe IP位址區塊
 
@@ -54,7 +52,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-## Adobe CX企業資料收集和FTP IP位址區塊
+## Adobe CX Enterprise資料收集和FTP IP位址區塊
 
 如果您的組織偏好使用特定的IP位址範圍，請參閱下表。 其功能包括:
 
@@ -97,7 +95,7 @@ ht-degree: 8%
 
 {style="table-layout:auto"}
 
-Adobe CX企業版也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
+Adobe CX Enterprise也支援有限容量的IPv6。 這些IP區塊的資料收集用途與上方的IPv4區塊類似，但不包含FTP。
 
 | 位置 | Host |
 | --- | --- |

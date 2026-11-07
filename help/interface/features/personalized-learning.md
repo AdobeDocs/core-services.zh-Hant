@@ -1,7 +1,7 @@
 ---
 description: 透過電子郵件、在您的CX Enterprise產品中以及在Experience League社群中，根據您的使用情況資料，接收個人化的幫助和促銷。
 solution: Experience Cloud
-title: Experience Cloud 個人化學習偏好設定
+title: CX Enterprise個人化學習偏好設定
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
 product_v2:
@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 20%
+ht-degree: 16%
 ---
 # 個人化學習偏好設定
 

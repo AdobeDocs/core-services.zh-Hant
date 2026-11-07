@@ -1,7 +1,7 @@
 ---
-description: 瞭解瀏覽器支援，並取得Adobe CX Enterprise管理員的常見問題解答。
+description: 瞭解瀏覽器支援，並獲得Adobe CX Enterprise管理員的常見問題解答。
 solution: Experience Cloud
-title: 有關 Experience Cloud 的常見問題集
+title: 關於CX Enterprise的常見問題
 index: true
 feature: Admin Console
 topic: Administration
@@ -33,16 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 47%
+ht-degree: 46%
 ---
 # 關於CX Enterprise的常見問題
 
-瞭解CX Enterprise的瀏覽器支援，以及管理員的常見問題和解答。
+瞭解CX Enterprise的瀏覽器支援及管理員的常見問題和答案。
 
-+++CX企業版支援哪些瀏覽器？
++++CX Enterprise支援哪些瀏覽器？
 
 Adobe支援下列瀏覽器的目前和先前兩個版本：
 
@@ -62,7 +62,7 @@ Adobe支援下列瀏覽器的目前和先前兩個版本：
 
 +++支援哪些語言？
 
-CX Enterprise支援每個使用者偏好的語言，如您的Adobe使用者帳戶偏好設定中所設定。 目前支援的語言如下：
+CX Enterprise支援每位使用者偏好的語言，如同您的Adobe使用者帳戶偏好設定中所設定。 目前支援的語言如下：
 
 * 中文
 * 英文
@@ -75,19 +75,19 @@ CX Enterprise支援每個使用者偏好的語言，如您的Adobe使用者帳�
 * 西班牙文
 * 繁體中文 (台灣)
 
-雖然應用程式團隊致力於提供全球語言支援，但並非所有應用程式都提供上述所有語言版本。 如果CX Enterprise應用程式不支援您的主要語言，您也可以將次要語言設定為預設語言（如適用）。 這可以在[CX Enterprise使用者偏好設定](https://experience.adobe.com/preferences)中完成。
+雖然應用程式團隊致力於提供全球語言支援，但並非所有應用程式都提供上述所有語言版本。 如果CX Enterprise應用程式不支援您的主要語言，您也可以將次要語言設定為預設語言（如適用）。 您可以在[CX Enterprise使用者偏好設定](https://experience.adobe.com/preferences)中進行這項設定。
 
 +++
 
-+++Adobe會向公司收取Adobe CX企業版存取費嗎？
++++Adobe會向公司收取Adobe CX Enterprise的使用費嗎？
 
-不會。 隨附Adobe CX Enterprise，不需額外付費， 不過某些核心服務可能會產生額外費用。
+不會。 Adobe CX Enterprise不需額外付費。 不過某些核心服務可能會產生額外費用。
 
 +++
 
-+++為什麼我的公司必須透過CX企業介面登入？
++++為什麼我的公司必須透過CX Enterprise介面登入？
 
-CX Enterprise介面提供的功能可為您的業務增加新價值。 此外，這也是日後存取應用程式的標準途徑，最終將取代其他個別應用程式登入流程。 透過CX Enterprise登入，便於日後更順暢轉換。
+CX Enterprise介面提供的功能可為貴企業增加新價值。 此外，這也是日後存取應用程式的標準途徑，最終將取代其他個別應用程式登入流程。 透過CX Enterprise登入有助於日後更順暢轉換。
 
 +++
 
@@ -101,10 +101,10 @@ Adobe客戶服務可提交模擬要求，您將收到一封包含Adobe品牌的�
 
 +++什麼是「布建」？
 
-CX Enterprise中的隨需分配表示：
+CX Enterprise中的布建意思是：
 
 * 您的使用者可以開始登入CX Enterprise並連結應用程式。
-* 他們可以開始使用CX Enterprise所提供的功能。
+* 他們可以開始使用CX Enterprise提供的功能。
 * 您可以準備好淘汰應用程式專用的登入程序。
 * 您可以保留對應用程式的存取控制。
 
@@ -122,7 +122,7 @@ CX Enterprise中的隨需分配表示：
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
+* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
 +++
 
@@ -130,7 +130,7 @@ CX Enterprise中的隨需分配表示：
 
 Admin Console 管理員可授予使用者存取權。 使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
 
 +++
 
@@ -142,7 +142,7 @@ Admin Console 管理員可授予使用者存取權。 使用者會收到含有�
 
 +++
 
-+++我該如何管理使用者帳戶輪廓和組織？
++++我該如何管理使用者帳戶設定檔和組織？
 
 請參閱[管理使用者帳戶](../administration/organizations.md)。
 
@@ -162,7 +162,7 @@ Admin Console 管理員可授予使用者存取權。 使用者會收到含有�
 
 +++當我的使用者離職時，我該做什麼？
 
-應該從應用程式本身移除其存取權。 他們將無法從CX Enterprise或透過直接登入存取產品。 您也應該在CX Enterprise層級移除它們。
+應該從應用程式本身移除其存取權。 他們將無法從CX Enterprise或透過直接登入存取產品。 您也應該在CX Enterprise層級移除這些專案。
 
 +++
 

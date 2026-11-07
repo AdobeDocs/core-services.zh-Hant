@@ -1,7 +1,7 @@
 ---
-description: 瞭解如何跨CX企業應用程式儲存及使用訪客ID服務。
+description: 瞭解如何跨CX Enterprise應用程式儲存和使用訪客ID服務。
 solution: Experience Cloud,Analytics,Target
-title: Experience Cloud Cookie
+title: CX Enterprise Cookie
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
 # CX Enterprise Cookie
@@ -54,7 +54,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p> 包含CX Enterprise ID (ECID)或MID的復本。 MID 儲存在遵循此語法 (s_ecid=MCMID|&lt;ECID&gt;) 的機碼值組中 </p> </td> 
+   <td colname="col2"> <p> 包含ECID或MID的復本。 MID 儲存在遵循此語法 (s_ecid=MCMID|&lt;ECID&gt;) 的鍵值組中 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 過期 </p> </td> 
@@ -81,9 +81,9 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
 
 **Cookie 名稱：AMCV_###@AdobeOrg**
 
-[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)使用JavaScript在目前網站網域上的`AMCV_###@AdobeOrg` Cookie中儲存不重複訪客ID，其中`###`代表隨機字元字串，例如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)使用JavaScript將ECID儲存在目前網站網域上的`AMCV_###@AdobeOrg` Cookie中，其中`###`代表隨機字元字串，例如`AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-另請參閱[Cookie和訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)。
+另請參閱[Cookie和訪客ID服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)。
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -95,7 +95,7 @@ Adobe CX Enterprise使用Cookie來儲存不同CX Enterprise應用程式所使用
  <tbody> 
   <tr> 
    <td colname="col1"> <p>儲存的資訊 </p> </td> 
-   <td colname="col2"> <p> CX企業解決方案使用的不重複訪客ID。 </p> </td> 
+   <td colname="col2"> <p> CX Enterprise解決方案使用的不重複訪客ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 有效期限 </p> </td> 
