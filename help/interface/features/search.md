@@ -1,7 +1,7 @@
 ---
 description: 瞭解CX Enterprise中特定應用程式的整合式搜尋功能。
 solution: Experience Cloud
-title: Experience Cloud 整合式搜尋
+title: CX Enterprise整合式搜尋
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 74%
+ht-degree: 73%
 ---
 # CX Enterprise中的[!UICONTROL 整合式搜尋]
 

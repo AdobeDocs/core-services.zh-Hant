@@ -1,7 +1,7 @@
 ---
 description: 瞭解如何與Creative Cloud使用者共用CX Enterprise資產資料夾。
 solution: Experience Cloud
-title: 共用Experience Cloud資產資料夾
+title: 共用CX Enterprise資產資料夾
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
@@ -31,14 +31,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%
 ---
 # 共用CX Enterprise資產資料夾
 
-在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX企業應用程式（例如Adobe Target）中使用這些資產。 共用資料夾必須源自CX Enterprise。
+在CX Enterprise和Creative Cloud之間共用資料夾和資產。 共同作業、為共用資產加上註釋，以及在CX Enterprise應用程式（例如Adobe Target）中使用這些資產。 共用的資料夾必須源自CX Enterprise。
 
 **共用的優點**
 
@@ -48,7 +48,7 @@ ht-degree: 37%
 * 提高企業安全性
 * 創意人員與行銷人員之間可輕鬆共用、儲存和傳送檔案
 
-在Creative Cloud使用者存取資產之前，必須先在CX Enterprise中將他們加入允許清單。 請參閱[管理 Creative Cloud 使用者](manage-cc-users.md)。
+在Creative Cloud使用者存取資產之前，他們必須先在CX Enterprise中列入允許清單。 請參閱[管理 Creative Cloud 使用者](manage-cc-users.md)。
 
 **共用CX Enterprise資產資料夾**
 

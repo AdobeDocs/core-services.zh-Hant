@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7b12d5debfccd62ab7b416e9a6fe278d251a4ca5
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '981'
 ht-degree: 0%
 ---
 # Adobe Experience Platform Web SDK Cookie
@@ -53,7 +53,7 @@ Adobe Experience Platform Web SDK使用Cookie來儲存實作特有的值。
 | **`kndctr_<orgId>_bc_session_id`** | 無（工作階段Cookie） | | 於使用Brand Concierge元件(Beta)時呈現。 儲存Brand Concierge聊天工作階段ID。 Web SDK僅在啟用[`stickyConversationSession`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/conversation)時才讀取此Cookie，因此聊天工作階段會在頁面載入之間持續存在。 |
 | **`mbox`** | 63072000 （2年） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)啟用時出現。 它允許網頁SDK設定Target [mbox Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/)。 |
 | **`mboxEdgeCluster`** | 1800 （30分鐘） | | [`targetMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled)啟用時出現。 它可讓Web SDK將正確的邊緣叢集通訊給`at.js`，以便在使用者瀏覽網站時，Target設定檔可以保持同步。 當`kndctr_<orgId>_cluster` Cookie不存在時，Web SDK也會讀取此Cookie，以將請求路由到相符的Edge Network區域。 |
-| **`s_ecid`** | 63115200 （2年） | ~45 位元組 | 包含格式為`s_ecid=MCMID\|<ECID>`的CX Enterprise ID (ECID/MID)復本。 主要針對CNAME （第一方）案例，用作ECID的第一方備份。 啟用[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)時，Web SDK會讀取此Cookie以重複使用現有的ECID。 |
+| **`s_ecid`** | 63115200 （2年） | ~45 位元組 | 包含`s_ecid=MCMID\|<ECID>`格式的ECID/MID復本。 主要針對CNAME （第一方）案例，用作ECID的第一方備份。 啟用[`idMigrationEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/idmigrationenabled)時，Web SDK會讀取此Cookie以重複使用現有的ECID。 |
 | **Audience Manager Cookie目的地** （名稱不盡相同） | 864000 （10天），除非目的地指定不同的存留期 | 因情況而異 | 當Edge Network傳回訪客的Audience Manager [Cookie目的地](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/features/destinations/custom-destinations/create-cookie-destination)時出現。 Web SDK會使用目的地中定義的Cookie名稱、值和網域來寫入第一方Cookie。 值採用URL編碼，與Audience Manager Data Integration Library (DIL)一致。 |
 
 Edge Network使用`secure`和`sameSite="none"`屬性來設定其所有Cookie。 如果您的網站上目前同時有安全和非安全區段，則使用者識別可能會不準確。 當使用者從網站的安全區段導覽到不安全的區段時，Edge Network會使用請求產生新的`ECID`。
