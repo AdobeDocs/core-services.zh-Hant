@@ -40,7 +40,7 @@ Adobe CX Enterprise使用Cookie來追蹤不會維持在頁面檢視或瀏覽器�
 
 有些瀏覽器會封鎖第三方Cookie。 Adobe有方法可確保Cookie仍然有效，即使Cookie被封鎖也是如此。 此程式的運作方式取決於您是使用訪客ID服務(`VisitorAPI.js`)還是舊版Analytics Cookie （如`s_vi` Cookie）：
 
-* [訪客ID服務](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview)：訪客ID服務一律會設定第一方Cookie，無論您的資料收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
+* [訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/overview)：訪客ID服務一律會設定第一方Cookie，無論您的資料收集網域是否符合您網站的網域。 它會使用JavaScript將Cookie放在網站的網域上。
 
 * [Analytics舊型識別碼](analytics.md) （例如`s_vi` Cookie）： Cookie是第一方還是第三方取決於您的設定：
 
