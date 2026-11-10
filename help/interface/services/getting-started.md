@@ -147,7 +147,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 ### 行動 SDK
 
-如需在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*訪客ID服務™1}一節。*
+如需在[Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=zh-Hant)和[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)行動應用程式中設定其他客戶ID的語法範例，請參閱&#x200B;*訪客ID服務™1&rbrace;一節。*
 
 ### 啟用歷史資料的屬性
 
@@ -186,7 +186,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 包含ECID （也稱為`mid`或&#x200B;_訪客ID_）的Analytics影像要求：
 
-包含ECID ](../assets/mid.png)的![Analytics影像要求
+包含ECID ![&#128279;](../assets/mid.png)的Analytics影像要求
 
 mbox請求中的ECID：
 
