@@ -1,7 +1,7 @@
 ---
-description: 瞭解共用資料夾在CX Enterprise中移動、刪除和還原時的行為規則。
+description: 瞭解共用資料夾在CX Enterprise中遭到移動、刪除和還原時的行為規則。
 keywords: 資產共用;Creative Cloud;核心服務
-solution: Experience Cloud
+solution: CX Enterprise
 title: 共用資料夾的行為
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -77,7 +77,7 @@ ht-degree: 90%
 
 ## 擁有的共用內容放入非共用資料夾
 
-您可以將擁有的共用資料夾內容移至非共用資料夾。
+您可以將您擁有之共用資料夾中的內容移至非共用資料夾。
 
 ![將擁有的共用內容移至非共用資料夾](../../assets/05_assets_move.png)
 
@@ -91,7 +91,7 @@ ht-degree: 90%
 
 **結果：**&#x200B;內容會顯示在非共用資料夾中，並從共用資料夾中移除。 共用資料夾的共同作業人員無法再存取該內容。 系統會為共用資料夾的擁有者封存內容。
 
-擁有者和編輯者可以移動他們未擁有的內容，但檢視者無法。 如果擁有者和編輯者移動內容，就無法供任何使用者在共用資料夾中使用。
+擁有者和編輯者可以移動他們未擁有的內容，但檢視者無法。 如果擁有者和編輯者移動內容，任何使用者都無法在共用資料夾中取得該內容。
 
 ## 封存的或刪除的已擁有資料夾
 

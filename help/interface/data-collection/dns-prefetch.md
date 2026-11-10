@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何搭配CX Enterprise中不同的應用程式和服務實作DNS預先擷取，以縮短頁面載入時間。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 使用DNS預先擷取
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 77%
@@ -39,16 +39,16 @@ ht-degree: 77%
 
 ## 了解 DNS 預先擷取
 
-瀏覽器會使用 DNS 預先擷取功能，自動將網頁上連結的網域名稱解析為其對應的 IP 位址。 預先擷取程序會在瀏覽器載入網頁時開始執行。 例如，假設您的網頁含有連結至 `www.adobe.com` 的可選取連結。 瀏覽器載入此網頁時，會透過 _DNS 系統_&#x200B;來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。 DNS 預先擷取功能有助於改善頁面效能，因為網站訪客點按該連結或按鈕之前，網域名稱已解析為 IP 位址。 DNS 預先擷取程序向使用者公開呈現。
+瀏覽器會使用 DNS 預先擷取功能，自動將網頁上連結的網域名稱解析為其對應的 IP 位址。 預先擷取程序會在瀏覽器載入網頁時開始執行。 例如，假設您的網頁含有連結至 `www.adobe.com` 的可選取連結。 瀏覽器載入此網頁時，會透過 _DNS 系統_&#x200B;來尋找已連結的網域名稱，並將其解析為相應的數值 IP 位址。 DNS 預先擷取功能有助於改善頁面效能，因為網站訪客點按該連結或按鈕之前，網域名稱已解析為 IP 位址。 DNS 預先擷取程序對使用者而言是透明的。
 
-## DNS預先擷取和Adobe CX企業版應用程式
+## dns預先擷取和Adobe CX Enterprise應用程式
 
-DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於不同的[!UICONTROL CX Enterprise]應用程式和服務，原因如下：
+DNS 預先擷取可自動與頁面上的靜態嵌入式連結搭配使用。 這也表示自動DNS預先擷取不適用於其他[!UICONTROL CX Enterprise]應用程式和服務，原因如下：
 
 * 每個CX Enterprise應用程式或服務會在頁面載入時以動態方式產生DNS呼叫。
 * 發出這些呼叫之前，瀏覽器無法將網域名稱解析為 IP 位址。
 
-不過，您可以使用CX Enterprise應用程式手動實作DNS預先擷取。 做法是將 HTML `<dns-prefetch>` 標記新增至網頁代碼的 `<head>` 區段，如下所示。 若正確實作，DNS 預先擷取便有助於節省數毫秒的網頁載時間。
+不過，您可以使用CX Enterprise應用程式手動實作DNS預先擷取。 做法是將 HTML `<dns-prefetch>` 標記新增至網頁代碼的 `<head>` 區段，如下所示。 若正確實作，DNS 預先擷取便有助於節省數毫秒的頁面載入時間。
 
 ## DNS 預先擷取程式碼範例
 

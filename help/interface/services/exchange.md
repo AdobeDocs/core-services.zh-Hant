@@ -1,6 +1,6 @@
 ---
-description: 了解 Exchange Marketplace，這是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。
-solution: Experience Cloud
+description: 了解 Exchange Marketplace，這是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴充功能的多合一目的地。
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,20 +29,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
 ---
 # Adobe Exchange
 
-Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。 應用程式包括 Data Connectors、Adobe 核心產品的設定自訂設定、第三方應用程式及報告。
+Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載 Digital Marketing 擴充功能的多合一目的地。 應用程式包括 Data Connectors、Adobe 核心產品的自訂設定、第三方應用程式及報告。
 
 **[!UICONTROL CX Enterprise]** > **[!UICONTROL 說明]** > **[!UICONTROL Exchange]**
 
-* 下載 SDK、閱讀文件，以及將應用程式提交至 Digital Marketing 進行審核。
+* 下載 SDK、閱讀文件，以及將應用程式提交至數位行銷進行審核。
 
-* 客戶可以搜尋、選取和安裝 Digital Marketing 擴充功能。
+* 客戶可以搜尋、選取和安裝數位行銷擴充功能。
 
 * 管理員可以設定已下載的應用程式。
 

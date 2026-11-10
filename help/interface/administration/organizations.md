@@ -1,6 +1,6 @@
 ---
 description: 瞭解組織（IMS組織ID）、切換帳戶及連結解決方案帳戶。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 組織和帳戶
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 17%
@@ -62,7 +62,7 @@ ht-degree: 17%
 
 ## 同盟來賓帳戶
 
-您可以啟用[同盟訪客存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 啟用後，「組織」功能表會變更，讓這些使用者可以在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
+您可以啟用[同盟訪客存取](https://helpx.adobe.com/tw/business/enterprise/using/federated-guest-access.html)，在您自己的網域上安全地驗證訪客使用者。 啟用後，「組織」功能表會變更，以讓這些使用者能夠在任何CX Enterprise頁面上的現有組織內的帳戶之間切換。
 
 若要切換到同盟來賓帳戶，請在任何[CX Enterprise](https://experience.adobe.com)頁面上的&#x200B;**[!UICONTROL 組織]**&#x200B;功能表中找到&#x200B;**[!UICONTROL 其他帳戶]**。
 

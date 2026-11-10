@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何與Creative Cloud使用者共用CX Enterprise資產資料夾。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 共用CX Enterprise資產資料夾
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%

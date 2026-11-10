@@ -1,6 +1,6 @@
 ---
-description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console的使用者和產品管理說明，為CX企業服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
-title: Experience Cloud 介面文件
+description: 瞭解CX Enterprise的中央介面元件。 取得Admin Console中使用者和產品管理功能的說明，並為CX Enterprise服務啟用應用程式。 取得對象庫、客戶屬性、CX Enterprise Assets等的說明。
+title: CX Enterprise介面檔案
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
@@ -13,10 +13,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 60%
+ht-degree: 57%
 ---
 # CX Enterprise中央介面概觀
 

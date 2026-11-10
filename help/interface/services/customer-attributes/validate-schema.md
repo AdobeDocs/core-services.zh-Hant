@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何驗證Adobe CX Enterprise中的[!DNL Customer Attributes]結構描述。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 如何驗證[!DNL Customer Attributes]結構描述
 feature: Customer Attributes
 topic: Administration
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 39%
@@ -59,7 +59,7 @@ ht-degree: 39%
 
    在[!UICONTROL 編輯結構描述]頁面上，結構描述的每一列代表上傳之CSV檔案的一欄。
 
-   在CX Enterprise中![編輯結構描述頁面](assets/schema-edit.png)
+   ![在CX Enterprise中編輯結構描述頁面](assets/schema-edit.png)
 
 **動作**
 
@@ -71,8 +71,8 @@ ht-degree: 39%
 
 * **[!UICONTROL ID查閱：]**&#x200B;輸入您`.csv`中的客戶ID (CID)以查閱該ID的CX Enterprise資訊。 在疑難排解訪客的屬性資料為何沒有顯示時，此功能很實用：
 
-  * **[!UICONTROL ECID：]**&#x200B;在您使用訪客ID服務時顯示。 如果您使用訪客ID服務，但此處未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
+  * **[!UICONTROL ECID：]**&#x200B;在您使用訪客ID服務時顯示。 如果您使用訪客ID服務，但此處並未列出ID，表示CX Enterprise尚未收到該CID的別名。 這表示訪客還沒登入，或您的實作沒有傳遞該 ID。
 
-  * **[!UICONTROL CID （客戶識別碼）：]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網路。
+  * **[!UICONTROL CID （客戶識別碼）：]**&#x200B;與此CID關聯的屬性。 如果您使用 prop 或 eVar 上傳 CID (AVID)，有看到屬性顯示但沒有 AVID，這表示訪客尚未登入您的網站。
 
   * **[!UICONTROL AVID （Analytics訪客ID）：]**&#x200B;顯示您是否使用prop或eVar上傳CID。 如果這些ID正傳遞至CX Enterprise，則此處會顯示與您輸入的CID相關聯的任何訪客ID。
