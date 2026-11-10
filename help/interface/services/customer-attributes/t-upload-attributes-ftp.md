@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何透過FTP將客戶屬性資料上傳至CX Enterprise。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 透過FTP上傳客戶屬性資料檔案
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 51%
@@ -46,7 +46,7 @@ ht-degree: 51%
 您可透過FTP或SFTP將檔案上傳至客戶屬性FTP站台：
 
 * 您需要支援 SFTP 連線的用戶端。
-* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=zh-Hant)所說明。
+* 您可以使用使用者名稱/密碼或不使用密碼來與 SFTP 連線，如[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)所說明。
 
 **透過 FTP 上傳資料檔案**
 

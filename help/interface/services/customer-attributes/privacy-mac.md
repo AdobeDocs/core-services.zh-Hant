@@ -1,6 +1,6 @@
 ---
-description: 瞭解CX Enterprise中已上傳及使用之個人識別資訊(PII)的相關考量事項和最佳作法。
-solution: Experience Cloud
+description: 瞭解CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳作法。
+solution: CX Enterprise
 title: '[!DNL Customer Attributes]的隱私權考量事項'
 feature: Customer Attributes
 topic: Administration
@@ -34,14 +34,14 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
 ---
 # [!DNL Customer Attributes] 的隱私權考量事項
 
-Adobe CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳作法。
+Adobe CX Enterprise中已上傳及使用之個人身分資訊(PII)的相關考量事項和最佳做法。
 
 * 名字和姓氏
 * 住家或其他實體地址
@@ -64,8 +64,8 @@ Adobe 建議廣告商仔細考慮哪些資訊適合用於行銷目的，以及�
 
 由於消費者隱私權法不斷變動，Adobe 建議廣告商遵守三個通用原則：
 
-1. 說到做到 (在您的隱私權政策中)。
-1. 據實以告 (在您的隱私權政策中)。
+1. 說到做到 (在您的隱私政策中)。
+1. 據實以告 (在您的隱私政策中)。
 1. 不要讓消費者感到驚訝。
 
-考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化內容，指出消費者已通過驗證。 此情況的範例是在網站標題中包含問候語。 Adobe 也建議廣告商在其隱私權政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。 最後，Adobe 強烈建議廣告商檢閱自己提供給消費者的選擇退出選項，瞭解是否可以以及如何在選擇退出後使用未經驗證的輪廓資訊。
+考慮到這些期望，Adobe 建議廣告商在將瀏覽活動與 PII 建立關聯時，提供通知或個人化，指出消費者已通過驗證。 此情況的範例是在網站標題中包含問候語。 Adobe 也建議廣告商在其隱私政策中說明會與 PII 建立關聯的瀏覽資訊類型，以及何種情況下瀏覽資訊會與 PII 建立關聯。 最後，Adobe 強烈建議廣告商檢閱自己提供給消費者的選擇退出選項，瞭解是否可以以及如何在選擇退出後使用未經驗證的輪廓資訊。

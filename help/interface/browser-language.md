@@ -1,7 +1,7 @@
 ---
 title: 瀏覽器和語言支援
-description: 瞭解CX企業應用程式的瀏覽器和語言支援。 在您的帳戶設定檔中選取主要和次要語言。
-solution: Experience Cloud
+description: 瞭解CX Enterprise應用程式的瀏覽器和語言支援。 在您的帳戶設定檔中選取主要和次要語言。
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
@@ -82,7 +82,7 @@ CX Enterprise使用者介面提供下列語言版本：
 
 1. 在&#x200B;**[!UICONTROL 選取語言]**&#x200B;上，從&#x200B;**[!UICONTROL 第一語言]**&#x200B;功能表選取語言。
 
-   雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以介面中列出的所有語言提供。 如果CX Enterprise應用程式不支援您的主要語言，您可以視情況設定次要預設語言。
+   雖然所有應用程式團隊都致力於提供全球語言支援，但並非所有應用程式都以介面中列出的所有語言提供。 如果CX Enterprise應用程式不支援您的主要語言，您可以設定次要預設語言（如適用）。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 

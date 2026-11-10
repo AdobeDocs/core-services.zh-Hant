@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何登入以及CX Enterprise中的中央介面元件。 了解全域搜尋、您的帳戶偏好設定，以及如何瀏覽介面及取得說明。
-solution: Experience Cloud
+solution: CX Enterprise
 title: CX Enterprise中央UI元件
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%
@@ -90,7 +90,7 @@ CX Enterprise支援每位使用者偏好的語言，如同您的Adobe使用者�
 
 ## CX Enterprise中的搜尋和支援
 
-CX Enterprise搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/zh-hant#home)的說明（檔案、教學課程和其他課程）。
+CX Enterprise搜尋可讓您搜尋[Experience League](https://experienceleague.adobe.com/#home)的說明（檔案、教學課程和其他課程）。
 
 ![在CX Enterprise中搜尋和支援](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ CX Enterprise搜尋可讓您搜尋[Experience League](https://experienceleague.a
 
 * **[!UICONTROL 支援]：**&#x200B;建立支援票證或使用Twitter聯絡[!UICONTROL 支援]。
 * **[!UICONTROL 意見反應]：**&#x200B;使用意見反應聯絡Adobe，告訴我們您的想法。
-* **[!UICONTROL 狀態]：**&#x200B;瀏覽至`https://status.adobe.com/zh-tw/experience_cloud`並檢查產品操作狀態和[!UICONTROL 管理訂閱]。
+* **[!UICONTROL 狀態]：**&#x200B;瀏覽至`https://status.adobe.com/experience_cloud`並檢查產品操作狀態和[!UICONTROL 管理訂閱]。
 * **[!UICONTROL Developer Connection]：**&#x200B;瀏覽至`adobe.io`並尋找開發人員檔案。
 
 ## 帳戶偏好設定

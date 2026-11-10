@@ -1,7 +1,7 @@
 ---
 title: 帳戶偏好設定和通知
 description: 瞭解CX Enterprise中的使用者設定檔、帳戶偏好設定和產品使用資料。 訂閱電子郵件和[!DNL Slack]的產品通知，並設定產品警示。
-solution: Experience Cloud
+solution: CX Enterprise
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
@@ -37,7 +37,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 4%
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶服務為您提供支援，以及個人化您的體驗和我們之間的通訊。 深入瞭解[個人化體驗](personalized-learning.md)。
 
-## 訂閱CX Enterprise中的通知
+## 在CX Enterprise中訂閱通知
 
 您可以選取要訂閱的產品和類別。 通知會顯示在[!UICONTROL 通知]彈出視窗（應用程式內）、電子郵件或[Slack](#slack-notifications) （視您的訂閱而定）中。
 
@@ -86,7 +86,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 ### 訂閱[!DNL Slack]個通知
 
-您可以設定帳戶偏好設定，將CX Enterprise通知傳送至[!DNL Slack]頻道。
+您可以設定帳戶偏好設定，以將CX Enterprise通知傳送至[!DNL Slack]頻道。
 
 **先決條件**
 
@@ -126,7 +126,7 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 
 1. 在應用程式要求核准後，您將在[!DNL Slack]中收到通知。
 
-1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟訂閱Slack[&#128279;](#slack-notifications) （如上所述）。
+1. 收到[!DNL Slack]核准後，請返回CX Enterprise **[!UICONTROL 通知]**，然後依照步驟進行[訂閱Slack](#slack-notifications) （如上所述）。
 
 ### 您將在[!DNL Slack]中看到的內容
 
@@ -135,9 +135,9 @@ Adobe使用這些資訊來協助改善我們的產品、透過產品內和客戶
 * 將會從應用程式名稱&#x200B;_Adobe[!DNL CX Enterprise]_&#x200B;接收個人訊息。
 * 訊息包含特定應用程式的產品標誌，例如Adobe [!DNL Experience Platform]、Adobe [!DNL Experience Manager]等。
 * 檢視CX Enterprise上所有通知的連結。
-* 管理CX Enterprise通知偏好設定的連結。
+* 管理CX Enterprise上通知偏好設定的連結。
 
-## 檢視CX Enterprise中的[!UICONTROL 通知]和公告
+## 在CX Enterprise中檢視[!UICONTROL 通知]和公告
 
 在[!DNL CX Enterprise]標題中，您可以檢視您[已訂閱](#notifications)的通知，以及檢視公告。
 

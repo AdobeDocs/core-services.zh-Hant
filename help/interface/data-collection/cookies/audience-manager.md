@@ -1,7 +1,7 @@
 ---
-description: 瞭解Adobe CX企業版中的Audience Manager Cookie。
+description: 瞭解Adobe CX Enterprise中的Audience Manager Cookie。
 keywords: Cookie
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Audience Manager Cookie
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%
@@ -69,13 +69,13 @@ Audience Manager 仰賴一些簡單的 Cookie 執行不同功能。 這些功能
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=zh-Hant" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">demdex</span> Cookie 包含「唯一使用者 ID」(UUID)，如下列範例所示: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>也請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Audience Manager 內的 ID 索引</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>其他屬性</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
-      <li id="li_40C30A06A12449A4A8748621223CA71B">存留期︰<span class="wintitle">demdex</span> Cookie 具有 180 天的存留時間 (TTL) 間隔。 每位使用者與合作夥伴網站互動時，TTL 都會重設為 180天。 如果使用者沒有在 TTL 間隔內回訪您的網站，Cookie 便會過期。 </li> 
+      <li id="li_40C30A06A12449A4A8748621223CA71B">存留期︰<span class="wintitle">demdex</span> Cookie 具有 180 天的存留時間 (TTL) 間隔。 每次與合作夥伴網站互動時，TTL 都會重設為 180 天。 如果使用者沒有在 TTL 間隔內回訪您的網站，Cookie 便會過期。 </li> 
       <li id="li_A589EDA2198249829207A183872EF1FF">選擇退出：如果使用者許選擇退出資料收集，則 <span class="keyword">Audience Manager</span> 會重新設定附有 <span class="codeph">Do Not Adobe Target</span> 字串的 Cookie。 在此情況下，Cookie TTL 會設定為 10 年。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ dextp Cookie 資料語法：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>上次</b> </p> </td> 
-   <td colname="col2"> <p>上次位置包含 UNIX UTC 時間戳記。 </p> </td> 
+   <td colname="col2"> <p>最後一個位置包含 UNIX UTC 時間戳記。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -162,7 +162,7 @@ dextp Cookie 資料語法：
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>用途</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=zh-Hant" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> 在有傳送資料至<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">目的地</a>的錯誤發生時設定此 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>內容</b> </p> </td> 

@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何建立[!DNL Customer Attributes]資料來源並將其上傳至CX Enterprise。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 建立及上傳[!DNL Customer Attributes]資料Source檔案
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -56,7 +56,7 @@ ht-degree: 41%
 
 * 若要使用客戶屬性，需先安裝 **Adobe Target** `at.js` (任何版本) 或 `mbox.js` 58 版或更新版本。
 
-  參閱「[如何部署 at.js](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/overview)」。
+  參閱「[如何部署 at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview)」。
 
 ## 建立資料檔案
 
@@ -105,9 +105,9 @@ ht-degree: 41%
 
      別名ID會對應至您設定其他客戶ID值的特定區域。 例如：
 
-     * **標籤：**&#x200B;別名ID對應至[[!UICONTROL Experience Cloud ID服務]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)標籤擴充功能中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
+     * **標籤：**&#x200B;別名ID對應至[[!UICONTROL Experience Cloud ID服務]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)標籤擴充功能中[!UICONTROL 客戶設定]底下的&#x200B;*整合代碼*&#x200B;值。
 
-     * **訪客ID服務：**&#x200B;別名ID會對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。
+     * **訪客ID服務：**&#x200B;別名ID會對應至您可與每個訪客建立關聯的其他[客戶ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。
 
        例如，下列位置中的&#x200B;*「crm_id」*：
 
@@ -129,7 +129,7 @@ ht-degree: 41%
 
        請參閱[運用多個資料來源](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB)，以瞭解別名ID欄位和客戶ID的資料處理相關資訊。
 
-   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
+   * **[!UICONTROL 名稱空間程式碼：]**&#x200B;在使用[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview)做為AEP WebSDK實作的一部分時，使用此值來識別客戶屬性來源。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 
@@ -197,4 +197,4 @@ ht-degree: 41%
 
 ![在 Adobe Target 中使用客戶屬性](assets/crs-add-attribute-target.png)
 
-請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=zh-Hant&?lang=zh-Hant)。
+請參閱[!DNL Target]說明中的[建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html??lang=zh-Hant)。

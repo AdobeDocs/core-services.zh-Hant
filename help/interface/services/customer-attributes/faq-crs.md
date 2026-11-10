@@ -1,6 +1,6 @@
 ---
-description: 取得有關Adobe CX Enterprise （適用於Adobe Analytics和Adobe Target）中[!DNL Customer Attributes]的常見問題解答。
-solution: Experience Cloud
+description: 取得有關Adobe CX Enterprise、Adobe Analytics和Adobe Target中[!DNL Customer Attributes]常見問題的解答。
+solution: CX Enterprise
 title: 有關[!DNL Customer Attributes]的常見問題
 feature: Customer Attributes
 topic: Administration
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 59%
@@ -64,15 +64,15 @@ ht-degree: 59%
 | 問題 | 回答 |
 | --- | --- |
 | 我是否可以收到關於 [!DNL Customer Attributes] 上傳狀態的通知？ | 可以。 |
-| 我要如何開始使用 [!DNL Customer Attributes]？ | <ol><li>完成佈建程序。 如果您是Adobe Analytics客戶，Adobe正在布建您[!DNL Customer Attributes]。 如果您只使用Adobe Target而沒有使用Analytics，請聯絡客戶服務，申請布建核心服務。</li> <li>與您的 CRM 團隊溝通。 瞭解您可在Analytics和整個CX Enterprise中使用的客戶資料型別。</li><li>實作核心服務。</li></ol> 在上傳資料之前，請先參閱[必要條件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)，瞭解如何讓使用者使用此功能。 |
-| 我可以使用多少個客戶屬性？ | 您可以將數百個 `.csv` 欄上傳至客戶屬性服務。 但是在設定訂閱及選取屬性時，系統會根據您擁有的應用程式套用以下限制 (針對每個報表套裝)：  <ul><li>Foundation：0 個</li><li>Select：3 個</li><li>Prime：15 個</li><li>Ultimate：200 個</li><li>Standard：共 3 個</li><li>Premium：200 個</li><li>Adobe Target Standard：5 個</li><li>Adobe Target Premium：200 個</li></ul> |
-| 是否需要移轉至訪客ID服務？ | 是否需移轉取決於您使用的應用程式。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必須移轉。 </li></ul>使用訪客ID服務會啟用最新的CX Enterprise功能，包括即時受眾、Adobe Target現代化、Analytics整合和視訊活動訊號追蹤。 |
-| 客戶屬性功能與 Adobe Audience Manager 有何關係？ | 雖然 Audience Manager 可接收資料以辨識受眾，但無法執行將屬性與過往行為資料關聯的分析功能， 亦無法提供 Adobe Analytics 中可使用的報表、分析和分段功能。 [!DNL Customer Attributes]可讓不同應用程式的豐富資料繫結在一起，並與單一ID建立關聯，以便在CX Enterprise中使用。 <br>在 Adobe Target 中，客戶屬性會顯示為個別屬性，可與其他規則結合以建立客群。 共用給[!UICONTROL People]服務的對象是無法修改的完整對象。 |
+| 我要如何開始使用 [!DNL Customer Attributes]？ | <ol><li>完成佈建程序。 如果您是Adobe Analytics客戶，Adobe正在布建您[!DNL Customer Attributes]。 如果您只使用Adobe Target而沒有使用Analytics，請聯絡客戶服務，申請布建核心服務。</li> <li>與您的 CRM 團隊溝通。 瞭解您可以在Analytics和整個CX Enterprise中使用哪些可用的客戶資料。</li><li>實作核心服務。</li></ol> 在上傳資料之前，請先參閱[必要條件](t-crs-usecase.md#prerequisites-for-using-customer-attributes)，瞭解如何讓使用者使用此功能。 |
+| 我可以使用多少個客戶屬性？ | 您可以將數百個 `.csv` 欄上傳至客戶屬性服務。 但是在設定訂閱及選取屬性時，系統會根據您擁有的應用程式套用以下限制 (針對每個報告套裝)：  <ul><li>Foundation：0 個</li><li>Select：3 個</li><li>Prime：15 個</li><li>Ultimate：200 個</li><li>Standard：共 3 個</li><li>Premium：200 個</li><li>Adobe Target Standard：5 個</li><li>Adobe Target Premium：200 個</li></ul> |
+| 是否需要移轉至訪客ID服務？ | 是否需移轉取決於您使用的應用程式。 <ul><li>Adobe Analytics：強烈建議 </li><li>Adobe Target：必要。 </li></ul>使用訪客ID服務會啟用最新的CX Enterprise功能，包括即時受眾、Adobe Target現代化、Analytics整合和視訊活動訊號追蹤。 |
+| 客戶屬性功能與 Adobe Audience Manager 有何關係？ | 雖然 Audience Manager 可接收資料以辨識受眾，但無法執行將屬性與過往行為資料關聯的分析功能。 亦無法提供 Adobe Analytics 中可使用的報表、分析和分段功能。 [!DNL Customer Attributes]可讓不同應用程式的豐富資料繫結在一起，並與單一ID建立關聯，以便在CX Enterprise中使用。 <br>在 Adobe Target 中，客戶屬性會顯示為個別屬性，可與其他規則結合以建立客群。 共用給[!UICONTROL People]服務的對象是無法修改的完整對象。 |
 | **（僅限Adobe Analytics）**&#x200B;此功能與Analytics Premium中提供的功能有何不同？ | 過去，有意將客戶屬性資料與Analytics資料結合的客戶，為了這項功能對Data Workbench的依賴程度很高。 [!DNL Customer Attributes]在Report Builder中提供客戶屬性作為維度和量度，因此可讓更廣大的受眾運用此功能。 Analytics Standard 客戶可存取 [!DNL Customer Attributes]，但可用的功能受限。 Analytics Premium 客戶可使用完整功能。 |
 | **(僅限 Adobe Target)** 我是否可以預先載入或上傳 Adobe Target 從未看過的客戶資料？ | 可以。 訪客第一次向 Adobe Target 提出請求時，系統會從 [!DNL Customer Attributes] 擷取與 Adobe 有關的現有資訊，並使用這些資料進行目標鎖定。 **注意：**&#x200B;如果訪客是第一次與 Adobe Target 互動，則擷取此資料可能需花費最長達 20 分鐘。 |
 | **(僅限 Adobe Target)** 我是否可藉由結合客戶屬性資料和共用的客群資料來建立超級客群？ | 不會。 共用的客群資料是已完成的客群。 |
 | **（僅限Adobe Target）** [!DNL Customer Attributes]與Adobe Target的大量設定檔API有何不同？ | 大量輪廓 API 可以透過 API 以個別或大量的方式直接更新 Adobe Target 輪廓。 此功能與 [!DNL Customer Attributes] 類似，主要差異如下：<ul><li>輪廓 API 是一種 REST API 呼叫，而 [!DNL Customer Attributes] 會使用 FTP。</li><li>Adobe Target的設定檔API只會將資料傳送至Adobe Target，而非整個CX Enterprise。</li><li>[!DNL Customer Attributes] 提供簡單的介面，用於建立和管理這些外部資料。</li></ul> |
-| **(僅限 Adobe Target)** 以 [!DNL Customer Attributes] 將資料上傳至 Adobe Target 是否會延長 Adobe Target 訪客的輪廓存留期限？ | 是。 請參閱 Adobe Target 說明中的[訪客輪廓存留期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=zh-Hant)。 |
+| **(僅限 Adobe Target)** 以 [!DNL Customer Attributes] 將資料上傳至 Adobe Target 是否會延長 Adobe Target 訪客的輪廓存留期限？ | 是。 請參閱 Adobe Target 說明中的[訪客輪廓存留期](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html)。 |
 | **(僅限 Adobe Target)** 我是否可在透過客戶 ID 識別訪客後，立即鎖定 [!DNL Customer Attributes] 所上傳的資料？ | 可以。 對Adobe Target發出伺服器呼叫時（包括mbox第三方ID），所有客戶屬性資料都可供使用。 |
 | **（僅限Adobe Target）**&#x200B;對於已上傳至客戶屬性來源的檔案而言，**[!UICONTROL 同步狀態]**&#x200B;欄代表什麼？ | 對特定屬性檔案選取「同步狀態」圖示，即可檢視 Adobe Target 所發佈和同步的記錄數。 `Sync %` 是即時量度，可指明 Adobe Target 中已同步的輪廓百分比。<br> **注意：**&#x200B;與 Adobe Target 同步屬性可能需花費最多 24 小時。 |
 | 「[!DNL Customer Attributes] 來源」中的檔案上傳量度代表什麼？ | 在下列量度的協助下，您可以檢查已上傳至 [!DNL Customer Attributes] 的屬性之狀態： <ul><li>記錄數：屬性檔案中的記錄數。</li><li>**新記錄數：**&#x200B;屬性檔案中存在的新記錄數。</li> <li>**更新記錄數：** N存在於 [!DNL Customer Attributes] 中且檔案中有更新值的記錄數。</li><li>**所有資料 (記錄) 數：**&#x200B;已成功上傳至 [!DNL Customer Attributes] 的記錄總數。</li></ul> |

@@ -1,6 +1,6 @@
 ---
 description: 瞭解在[!DNL Customer Attributes]中上傳資料至CX Enterprise的資料檔案需求和多個資料來源。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 客戶屬性資料檔案和資料來源
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 59%
@@ -37,7 +37,7 @@ ht-degree: 59%
 
 上傳客戶屬性資料至CX Enterprise的資料檔案需求和多個資料來源。
 
-您需要存取企業的 CRM 或類似資料。 上傳至CX Enterprise的資料必須是`.csv`檔案。 如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
+您需要存取企業的 CRM 或類似資料。 您上傳至CX Enterprise的資料必須是`.csv`檔案。 如果透過 FTP 或 sFTP 上傳，也要上傳 `.fin` 檔案。
 
 [!DNL Customer Attributes]的設計每天處理一些檔案。 為減緩許多小型檔案延遲處理的問題，系統會將來自相同組織的上一批 30 分鐘內傳送的檔案轉送至優先順序較低的佇列。
 
@@ -77,7 +77,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>客戶識別碼欄 </p> </td> 
-   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。 使用的ID應該對應至傳遞至訪客ID服務的ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的不重複識別碼。 其餘欄是來自您 CRM 的屬性。 您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。 上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。 這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至CX Enterprise之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。 系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
+   <td colname="col2"> <p> 第一欄必須是不重複的客戶 ID。 使用的ID應該對應至傳遞至訪客ID服務的ID。 </p> <p>若使用 Analytics，ID 會儲存在 prop 或 eVar 中。 </p> <p>若為Target，則為setcustomerID值。 </p> <p> 此客戶 ID 是您的 CRM 針對資料庫中每個人使用的唯一識別碼。 其餘欄是來自您 CRM 的屬性。 您需選擇要上傳的屬性數量。 </p> <p>建議欄標題使用好記的可讀名稱，但並不強制要求。 上傳後驗證結構時，可以將易記名稱對應到已上傳的列和欄。 </p> <p> <b>關於客戶ID</b> </p> <p>企業一般會使用來自 CRM 系統的客戶 ID。 這個ID是在有人登入時使用<span class="codeph"> setcustomerIDs </span>呼叫設定的。 此ID也會當作上傳至CX Enterprise之CRM檔案的金鑰。 <a href="t-crs-usecase.md" format="dita" scope="local">別名 ID</a> 是 Audience Manager 中資料存放區的易記名稱，用於儲存別名資料。 系統會將別名傳送至此資料存放區（透過setcustomerIDs）。 CRM 檔案會套用至該資料存放區中的資料。 </p> <p>如需<span class="codeph"> setcustomerID </span>資訊，請參閱<a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external">個客戶ID和驗證狀態</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>後續標題和欄 </p> </td> 
@@ -106,7 +106,7 @@ CSV 檔案必須符合下列格式：
    <td colname="col2"> <p>建立 Analytics 訂閱時，會將已上傳檔案的欄位長度截斷為 255。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>FTP 准則和大小限制 </p> </td> 
+   <td colname="col1"> <p>FTP 準則和大小限制 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
       <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">FTP 的檔案大小上限為每次上傳 4 GB。 </li> 
@@ -117,7 +117,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>檔案需求 </p> </td> 
-   <td colname="col2"> <p> 每個屬性來源都應包含相同數目的逗號分隔欄位。 </p> <p> 包含分行符號、雙引號或逗號的欄位必須加上引號。 </p> <p> 欄位中的雙引號字元必須使用反斜線 (\) 逸出。 </p> <p> 空白欄會儲存為 <span class="term"> null </span>。 </p> </td> 
+   <td colname="col2"> <p> 每個屬性來源都應包含相同數目的逗號分隔欄位。 </p> <p> 包含換行符號、雙引號或逗號的欄位必須加上引號。 </p> <p> 欄位中的雙引號字元必須使用反斜線 (\) 逸出。 </p> <p> 空白欄會儲存為 <span class="term"> null </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>多個檔案 </p> </td> 
@@ -125,7 +125,7 @@ CSV 檔案必須符合下列格式：
   </tr> 
   <tr> 
    <td colname="col1"> <p>字元編碼 </p> </td> 
-   <td colname="col2"> <p>在日本，需強制使用 UTF-8。 </p> </td> 
+   <td colname="col2"> <p>在日本，必須使用 UTF-8。 </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p>歷史資料 </p> </td> 
@@ -155,7 +155,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=zh-Hant)。）
+（如需詳細資訊，請參閱[客戶ID與驗證狀態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)。）
 
 在&#x200B;**[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**&#x200B;中：
 

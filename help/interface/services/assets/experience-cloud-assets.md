@@ -1,6 +1,6 @@
 ---
 description: 了解您可在多個應用程式中共用的 CX Enterprise 資產。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 資產概觀
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,7 +43,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 資產服務包括：
 
 * 資產儲存空間、管理介面、嵌入式選擇介面 (需透過應用程式存取)。
-* 與Creative Cloud、CX Enterprise Collaboration和CX Enterprise應用程式整合。
+* 與Creative Cloud、CX Enterprise共同作業和CX Enterprise應用程式整合。
 
 使用資產可改善一致性和品牌合規性，且可縮短上市時間。 您可以簡化應用程式中的工作流程：
 
@@ -98,7 +98,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 ## 檢視資產屬性
 
-使用屬性、清單檢視及欄檢視在卡片檢視之間選擇，更輕鬆地找到您的資產。
+您可以在含有屬性的卡片視圖、清單視圖和欄視圖之間選擇，更輕鬆地找到您的資產。
 
 按一下&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 屬性]**&#x200B;以檢視資產屬性：
 

@@ -1,6 +1,6 @@
 ---
 description: 瞭解瀏覽器支援，並獲得Adobe CX Enterprise管理員的常見問題解答。
-solution: Experience Cloud
+solution: CX Enterprise
 title: 關於CX Enterprise的常見問題
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%
@@ -122,7 +122,7 @@ CX Enterprise中的布建意思是：
 
 * 您可以在 [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (產品連結) 中管理使用者權益和產品。
 
-* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
+* **重要：** Analytics 管理員請參閱[在 Admin Console 中管理 Analytics 使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html)，了解如何將使用者 ID 從 Analytics 管理工具移轉至 Admin Console。
 
 +++
 
@@ -130,7 +130,7 @@ CX Enterprise中的布建意思是：
 
 Admin Console 管理員可授予使用者存取權。 使用者會收到含有登入指示的電子郵件。
 
-您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/zh-hant?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
+您可能需要[聯絡 Adobe 支援](https://experienceleague.adobe.com/?lang=zh-Hant?support-solution=General#support)，確認貴公司已全面完成佈建作業。
 
 +++
 

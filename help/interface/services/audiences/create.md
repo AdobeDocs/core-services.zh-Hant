@@ -1,7 +1,7 @@
 ---
 title: 如何在對象庫中建立對象
 description: 瞭解如何使用屬性規則在對象庫中建立可共用的對象。 瞭解如何設定規則及定義複合對象。
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # 建立客群
 
-在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象，以便在CX Enterprise應用程式中共用。
+在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象以便在CX Enterprise應用程式中共用。
 
 本文可協助您了解如何：
 
@@ -56,7 +56,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->在指定期間的資料收集完成後，就能完全定義客群。
+>在指定期間的資料彙集完成後，就能完全定義客群。
 
 下列範例說明如何建立複合客群的規則。 此客群包括：
 
@@ -76,7 +76,7 @@ ht-degree: 56%
 1. 在[!UICONTROL 建立新對象]頁面上，完成&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;欄位。
 1. 在[!UICONTROL 規則]下，選取參考報表套裝，然後選取屬性來源：
 
-   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報表套裝，並定義要包含的維度或事件。 這個報表套裝選取項目提供了報表套裝所使用的變數結構。
+   * **[!UICONTROL Real-Time Analytics資料：]** （或原始資料）這是衍生自Real-Time Analytics影像要求的屬性資料。 其中包含eVar和事件。 使用此屬性來源時，您必須選取報告套裝，並定義要包含的維度或事件。 這個報告套裝選取項目提供了報告套裝所使用的變數結構。
 
      >[!NOTE]
      >
@@ -111,13 +111,13 @@ ht-degree: 56%
 
 ![適用於客群的 OR 規則](assets/audiences_rule_patio.png)
 
-產生的規則是已定義的客群，其中包括造訪過「家庭與花園」的 Chrome 與 Safari 使用者。 「中庭與家具」區段可洞察造訪該網站區域的所有訪客。
+產生的規則是已定義的客群，其中包括造訪過「家庭與花園」的 Chrome 與 Safari 使用者。 「中庭與家具」區段可針對所有造訪該網站區域的訪客提供額外洞察。
 
-CX Enterprise中的![已定義的對象](assets/defined_audience.png)
+在CX Enterprise中![已定義的對象](assets/defined_audience.png)
 
 * **歷史預估：**(虛線圓形) 代表根據 [!DNL Analytics] 資料建立的規則。
 * **實際對象：**(實線圓形) 任何已建立且具有來自 Audience Manager 的 30 天資料之規則。 Audience Manager 資料達到 30 天時，虛線就會變成實線，並呈現實際數字。
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-儲存對象後，便可用於其他CX Enterprise應用程式。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+對象儲存後就可供其他CX Enterprise應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
