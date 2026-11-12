@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# 建立客群
+# 建立客群 {#create-audience}
 
-在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象，並定義複合對象以便在CX Enterprise應用程式中共用。
+在[!UICONTROL 對象庫]中，您可以使用屬性規則來建立對象、建立個別規則，以及將規則合併成複合對象，以便跨CX Enterprise應用程式共用。
 
-本文可協助您了解如何：
-
-* 建立客群
-* 建立規則
-* 使用規則來定義複合客群
+## 複合對象 {#composite-audiences}
 
 下圖代表複合客群中的兩個規則。
 
@@ -58,14 +54,9 @@ ht-degree: 56%
 >
 >在指定期間的資料彙集完成後，就能完全定義客群。
 
-下列範例說明如何建立複合客群的規則。 此客群包括：
+## 建立對象規則 {#build-audience-rules}
 
-* 「家庭與花園」區域衍生自頁面資料或原始分析資料。
-* 衍生自[!DNL Adobe Analytics]區段[的Chrome和Safari使用者](overview.md)已發佈至[!DNL CX Enterprise]。
-
-  ![為複合客群建立規則](assets/audience_create.png)
-
-**若要建立客群**
+使用以下步驟來建立對象並在[!UICONTROL 對象庫]中定義其規則。
 
 1. 按一下[!DNL CX Enterprise]應用程式（![應用程式圖示](assets/apps-icon.png)），然後按一下&#x200B;**[!UICONTROL 人員]** > **[!UICONTROL 對象庫]。**
 
@@ -86,7 +77,14 @@ ht-degree: 56%
 
 1. 定義對象規則，然後按一下&#x200B;**[!UICONTROL 儲存].**
 
-**範例：定義複合對象的規則**
+## 複合對象範例 {#example-composite-audience}
+
+下列範例說明如何建立複合客群的規則。 此客群包括：
+
+* 「家庭與花園」區域衍生自頁面資料或原始分析資料。
+* 衍生自[!DNL Adobe Analytics]區段[的Chrome和Safari使用者](overview.md)已發佈至[!DNL CX Enterprise]。
+
+  ![為複合客群建立規則](assets/audience_create.png)
 
 >[!NOTE]
 >
@@ -120,4 +118,4 @@ ht-degree: 56%
 
 指定時段的資料收集完成後圓圈會結合，顯示已定義的客群。
 
-對象儲存後就可供其他CX Enterprise應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/zh-hant/docs/target/using/activities/activities)中包含共用對象。
+對象儲存後就可供其他CX Enterprise應用程式使用。 例如，您可以在Adobe Target [活動](https://experienceleague.adobe.com/en/docs/target/using/activities/activities)中包含共用對象。
