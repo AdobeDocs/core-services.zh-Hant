@@ -33,20 +33,18 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: efb723004203e57984a55ae4baa1cccc6564577a
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 41%
+source-wordcount: '1230'
+ht-degree: 33%
 ---
-# 建立及上傳客戶屬性資料
+# 建立及上傳客戶屬性資料 {#create-upload-customer-attribute-data}
 
-建立客戶屬性來源（`.csv`和`.fin`個檔案）並上傳資料。 您可以在準備就緒後啟動資料來源。 資料來源使用中後，將屬性資料共用至[!DNL Analytics]和[!DNL Target]。
+建立[!DNL Customer Attributes]資料來源、上傳您的企業客戶資料，並在您準備就緒時啟動來源。 在來源使用中之後，與[!DNL Analytics]和[!DNL Target]共用屬性資料。
 
-**[!DNL Customer Attributes]工作流程**
+## 開始之前 {#before-you-begin}
 
-![客戶屬性工作流程](assets/crs.png)
-
-## 使用[!DNL Customer Attributes]的必要條件 {#prerequisites}
+上傳客戶屬性資料之前，請確定您符合下列需求。
 
 * **群組成員資格：**&#x200B;若要上傳資料，使用者必須是[!DNL Customer Attributes]群組的成員。 您也必須先加入 Adobe Analytics 群組或 Adobe Target 群組。
 
@@ -58,7 +56,13 @@ ht-degree: 41%
 
   參閱「[如何部署 at.js](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/client-side/overview)」。
 
-## 建立資料檔案
+## 客戶屬性工作流程 {#workflow}
+
+下圖顯示建立、上傳和使用客戶屬性資料的端對端工作流程。
+
+![客戶屬性工作流程](assets/crs.png)
+
+## 建立資料檔案 {#create-data-file}
 
 此資料是來自您 CRM 的企業客戶資料。 資料可能包含產品的訂閱者資料，包括成員 ID、已授權產品、最常啟動的產品等。
 
@@ -72,10 +76,10 @@ ht-degree: 41%
 
    ![企業客戶資料檔案範例](assets/01_crs_usecase.png)
 
-1. 繼續進行之前，請先檢閱[資料檔案需求](crs-data-file.md)中的重要資訊，然後再上傳檔案。
-1. [建立客戶屬性來源及上傳資料](t-crs-usecase.md#create-source)，如下所述。
+1. 在上傳檔案之前，請先檢閱[資料檔案需求](crs-data-file.md)中的重要資訊。
+1. 繼續[建立屬性來源及上傳資料](t-crs-usecase.md#create-source)。
 
-## 建立屬性來源及上傳資料檔案
+## 建立屬性來源及上傳資料檔案 {#create-source}
 
 在CX Enterprise的&#x200B;_[!UICONTROL 建立客戶屬性Source]_&#x200B;頁面上執行這些步驟。
 
@@ -83,7 +87,7 @@ ht-degree: 41%
 >
 >建立、修改或刪除客戶屬性來源時，會有最長達一小時的延遲，之後 ID 就會開始與新資料來源同步。 您在 Audience Manager 中必須有管理權限，才能建立或修改客戶屬性來源。 聯絡Audience Manager客戶服務或洽詢如何取得管理許可權。
 
-1. 若要開啟[!UICONTROL 客戶屬性]，請按一下&#x200B;**[!UICONTROL 應用程式]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**。
+1. 按一下&#x200B;**[!UICONTROL 應用程式]** ![功能表](assets/menu-icon.png) > **[!DNL Customer Attributes]**&#x200B;以開啟[!UICONTROL 客戶屬性]。
 
    ![客戶屬性頁面](assets/cust-attr.png)
 
@@ -138,7 +142,6 @@ ht-degree: 41%
 客戶屬性記錄已建立，您可以編輯客戶屬性來上傳檔案。
 
 1. 在[!DNL Customer Attributes]頁面上，按一下屬性來源。
-
 1. 在[!UICONTROL 編輯客戶資料Source]頁面上按一下&#x200B;**[!UICONTROL 檔案上傳]**。
 
    ![檔案上傳和結構描述驗證](assets/file-upload-schema-validation.png)
@@ -153,6 +156,10 @@ ht-degree: 41%
 
    ![屬性](assets/file_upload_attributes.png)
 
+### 檢閱上傳結果 {#review-upload-results}
+
+上傳完成後，請檢閱下列計數，以確認資料如預期般載入。
+
 * **[!UICONTROL 唯一客戶ID：]**&#x200B;顯示您上傳多少個唯一ID至此屬性來源。
 
 * 已將別名傳送至Experience Cloud訪客ID的&#x200B;**[!UICONTROL 客戶提供的ID：]**&#x200B;顯示有多少個ID已將別名傳送至ECID。
@@ -163,25 +170,22 @@ ht-degree: 41%
 
 驗證程序可讓您將顯示名稱和說明對應至已上傳的屬性 (字串、整數、數字等)。 您也可以更新結構描述以刪除屬性。
 
-請參閱[驗證結構](validate-schema.md)。
+請參閱[驗證結構](validate-schema.md)。 若要刪除屬性，請參閱[從結構描述](#delete-attributes)刪除屬性。
 
-若要刪除屬性，請參閱 [(選用) 更新結構 (刪除屬性)](t-crs-usecase.md)。
+## 從結構中刪除屬性 {#delete-attributes}
 
-## (選用) 更新結構 (刪除屬性)
-
-如何在結構描述中刪除屬性及取代屬性。
+移除訂閱以刪除其提供的屬性，然後上傳替代檔案（如果您需要重新新增屬性）。
 
 1. 在[!UICONTROL 編輯客戶屬性Source]頁面上，移除&#x200B;**[!UICONTROL Target]**&#x200B;或&#x200B;**[!UICONTROL Analytics]**&#x200B;訂閱（位於&#x200B;**[!UICONTROL 設定訂閱]**&#x200B;下）。
+1. 上傳含有更新欄位的新資料檔案。
 
-1. [上傳含有更新欄位的新資料檔案](t-crs-usecase.md)。
-
-## 設定訂閱及啟動屬性來源
+## 設定和啟用訂閱 {#configure-subscriptions}
 
 設定訂閱可設定CX Enterprise和應用程式之間的資料流。 啟用屬性來源可讓資料流向已訂閱的應用程式。 您上傳的客戶記錄會與您網站或應用程式傳入的 ID 訊號相符。
 
 請參閱[設定訂閱及啟用資料來源](subscription.md)。
 
-## 在Adobe Analytics中使用[!DNL Customer Attributes]資料
+## 在[!DNL Analytics]中使用屬性資料 {#use-in-analytics}
 
 現在有了 Adobe Analytics 等應用程式所提供的資料，您就可以彙整資料報表、分析資料，並在行銷活動中採取適當的行動。
 
@@ -191,7 +195,7 @@ ht-degree: 41%
 
 您將區段發佈至CX Enterprise後，CX Enterprise Audiences和Audience Manager可隨即使用該區段。
 
-## 在Adobe Target中使用[!DNL Customer Attributes]資料
+## 在[!DNL Target]中使用屬性資料 {#use-in-target}
 
 在[!DNL Target]中，您可在建立對象時，從[!UICONTROL 訪客設定檔]區段選取客戶屬性。 清單中的所有客戶屬性都有前置詞`crs.`。 您可視需求將這些屬性與其他資料屬性結合，以建立客群。
 
