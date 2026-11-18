@@ -38,12 +38,12 @@ CX Enterprise會在客戶體驗生命週期的每個階段整合應用程式：
 | 功能 | 您可以做什麼 |
 | --- | --- |
 | 使用AI代理程式協調工作 | 使用[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)自動化客戶體驗和行銷工作流程，讓代理人在您設定的護欄內運作。 |
-| 即時與客戶互動 | 使用[Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started)統一客戶資料並協調個人化歷程，並使用[Adobe Target](https://experienceleague.adobe.com/docs/target.html)測試並個人化體驗。 |
-| 大規模建立和管理內容 | 透過[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)和[Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/home/home)規劃、製作及控管內容。 |
+| 即時與客戶互動 | 使用[Adobe Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=zh-Hant)和[Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/get-started)統一客戶資料並協調個人化歷程，並使用[Adobe Target](https://experienceleague.adobe.com/docs/target.html?lang=zh-Hant)測試並個人化體驗。 |
+| 大規模建立和管理內容 | 透過[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started)、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=zh-Hant)和[Adobe Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/home/home)規劃、製作及控管內容。 |
 | 測量和最佳化 | 使用[Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)跨應用程式分析體驗資料。 |
-| 線上銷售 | 使用[Adobe Commerce](https://experienceleague.adobe.com/docs/commerce.html)執行數位商務。 |
-| 保護並提升品牌可見度 | 監視並改善您的品牌在AI驅動搜尋和與[Adobe Brand Visibility](https://experienceleague.adobe.com/en/docs/brand-visibility/using/essentials/overview)交談中的顯示方式。 |
-| 管理資料與控管 | 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)上跨應用程式收集、控管和啟用資料。 |
+| 線上銷售 | 使用[Adobe Commerce](https://experienceleague.adobe.com/docs/commerce.html?lang=zh-Hant)執行數位商務。 |
+| 保護並提升品牌可見度 | 監視並改善您的品牌在AI驅動搜尋和與[Adobe Brand Visibility](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/essentials/overview)交談中的顯示方式。 |
+| 管理資料與控管 | 在[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=zh-Hant)上跨應用程式收集、控管和啟用資料。 |
 
 {style="table-layout:auto"}
 
