@@ -5,14 +5,16 @@ breadcrumb-title: CX Enterprise介面和管理
 title: CX Enterprise介面與管理指南
 description: 瞭解CX Enterprise介面和管理。 瀏覽有關AI、管理、共用服務、資料收集、Cookie、發行說明和常見問答集的主題。
 index: true
-source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
+source-git-commit: 8a12be4ae959319068585c1593d2ddfe24ffc0c3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 57%
 ---
 # CX Enterprise介面和管理 {#interface}
 
-+ [CX Enterprise介面和管理](/help/interface/experience-cloud.md)
++ [CX Enterprise介面和管理](/help/interface/home.md)
++ 開始使用 {#get-started}
+  + [開始使用CX Enterprise](/help/interface/get-started-using-cxe.md)
 + 管理 {#administration}
   + [帳戶偏好設定和通知](/help/interface/features/account-preferences.md)
   + [瀏覽器和語言支援](/help/interface/browser-language.md)
@@ -22,16 +24,16 @@ ht-degree: 57%
   + [整合](/help/interface/administration/integrations.md)
   + [整合式搜尋](/help/interface/features/search.md)
   + [個人化學習偏好設定](/help/interface/features/personalized-learning.md)
-+ 介面服務 {#services}
-  + [介面概觀](/help/interface/services/overview.md)
++ 資產 {#assets}
+  + [Assets概觀](/help/interface/services/assets/overview-assets.md)
+  + [管理 Creative Cloud 使用者](/help/interface/services/assets/manage-cc-users.md)
+  + [共用資產資料夾](/help/interface/services/assets/share.md)
+  + [將資產上傳到共用資料夾](/help/interface/services/assets/upload.md)
+  + [針對共用的資產檔案需求](/help/interface/services/assets/file-reqs.md)
+  + [共用資料夾的行為](/help/interface/services/assets/behavior.md)
++ 人員 {#services}
+  + [關於共用功能](/help/interface/services/overview.md)
   + [開始使用](/help/interface/services/getting-started.md)
-  + 資產 {#assets}
-    + [Assets概觀](/help/interface/services/assets/experience-cloud-assets.md)
-    + [管理 Creative Cloud 使用者](/help/interface/services/assets/manage-cc-users.md)
-    + [共用資產資料夾](/help/interface/services/assets/share.md)
-    + [將資產上傳到共用資料夾](/help/interface/services/assets/upload.md)
-    + [針對共用的資產檔案需求](/help/interface/services/assets/file-reqs.md)
-    + [共用資料夾的行為](/help/interface/services/assets/behavior.md)
   + 客群庫 {#audiences}
     + [客群概觀](/help/interface/services/audiences/overview.md)
     + [建立客群](/help/interface/services/audiences/create.md)
