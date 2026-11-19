@@ -1,5 +1,5 @@
 ---
-description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 瞭解如何開始使用CX Enterprise服務。
+description: 將您的 Adobe Analytics 和 Adobe Target 應用程式現代化，提供跨應用程式服務。 瞭解如何開始使用CX Enterprise People服務。
 solution: CX Enterprise
 title: 開始使用CX Enterprise
 index: true
@@ -22,14 +22,16 @@ subfeature_v2:
     internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
     internal-label: Organizations
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-    internal-label: Assets
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
     internal-label: Admin tools
   - id: ecb4a972-6786-444c-a014-abc528b9407a
     internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
     internal-label: Getting started
+  - id: e8b6b7ca-4f3c-4275-9b65-e43912bf78bf
+    internal-label: People Audience Library
+  - id: fe560ac6-1b84-42b7-9eee-bb033a8850d6
+    internal-label: People Customer Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -51,16 +53,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 41%
+source-wordcount: '2055'
+ht-degree: 39%
 ---
-# 開始使用CX Enterprise
+# 開始使用People服務
 
-如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)實作CX Enterprise，則您已為[客戶屬性](../services/overview.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
+如果您最近使用[Experience Platform標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/home)實作CX Enterprise，則您已為[客戶屬性](../services/customer-attributes/attributes.md)和CX Enterprise [對象](../services/audiences/overview.md)完成設定。 您也可以在[Admin Console](../administration/admin-console.md)中管理使用者和產品。
 
-現有客戶可匯入最新的應用程式實作並實施CX Enterprise。 如此一來，您就可以橫跨Adobe Analytics、Audience Manager和Adobe Target使用客戶屬性和受眾功能。
+現有客戶可匯入最新的應用程式實作並實施CX Enterprise。 如此一來，您就可以橫跨Adobe Analytics、Audience Manager和Adobe Target使用[!UICONTROL 客戶屬性]和[!UICONTROL 對象]功能。
 
 ## 以管理員身分登入 {#admin-sign-in}
 
@@ -74,7 +76,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 將這些群組對應至CX Enterprise企業群組時，這些使用者必須手動將其應用程式帳戶認證連結至其Adobe ID。
 
-檢視CX Enterprise中的[連結帳戶](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)
+檢視CX Enterprise中的[連結帳戶](../administration/organizations.md)
 
 >[!NOTE]
 >
@@ -141,7 +143,7 @@ CX Enterprise功能表導覽中提供&#x200B;**[!UICONTROL Admin Console]**&#x20
 
 在每個已知客戶 ID 的 [!DNL Analytics] 伺服器呼叫上皆必須設定客戶 ID。
 
-#### Analytics：將客戶 ID 與 Data Warehouse 回填方法同步
+#### [!DNL Analytics]：將客戶ID與Data Warehouse回填方法同步
 
 客戶屬性首次開放使用時，有些客戶尚未實作訪客ID服務，因此無法輕鬆使用客戶屬性。 為了協助緩解此問題，Adobe 建立使用 Adobe Analytics Data Warehouse 進行 ID 同步回填的方法。 此功能稱為 Data Warehouse 回填。 現在通常都不需要 Data Warehouse 回填，因此從 2022 年 10 月開始將不提供。
 
@@ -206,7 +208,7 @@ mbox要求中的![ECID](../assets/mbox_request.png)
 
 ![存取 Admin Console](../assets/menu-administration-shell.png)
 
-### 客戶屬性
+### 客戶屬性群組
 
 已新增至[!DNL Customer Attributes]群組的使用者可在CX Enterprise左側看到[!DNL Customer Attributes]功能表專案。
 
@@ -214,17 +216,17 @@ mbox要求中的![ECID](../assets/mbox_request.png)
 
 善用以下核心服務功能。
 
-### [!UICONTROL 客戶屬性]
+### [!UICONTROL 人員] > [!UICONTROL 客戶屬性]
 
 如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，您可將該資料上傳至CX Enterprise的客戶屬性資料來源。 上傳後，即可在 [!DNL Adobe Analytics] 和 [!DNL Adobe Target] 中運用這些資料。
 
-如需詳細資訊，請參閱[客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes)。
+如需詳細資訊，請參閱[客戶屬性](../services/customer-attributes/attributes.md)。
 
 ### [!UICONTROL 人員] > [!UICONTROL 對象庫]
 
 CX Enterprise [!UICONTROL 受眾]介面可讓您建立受眾、組合現有受眾以建立複合受眾，以及檢視所有共用受眾。
 
-如需詳細資訊，請參閱[對象](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/overview)。
+如需詳細資訊，請參閱[對象](../services/audiences/overview.md)。
 
 ## 資料儲存和隱私洩露
 

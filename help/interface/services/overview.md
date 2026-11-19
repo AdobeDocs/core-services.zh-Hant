@@ -36,36 +36,29 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 41%
+source-wordcount: '261'
+ht-degree: 24%
 ---
-# CX Enterprise介面概觀
+# 關於共用功能與服務
 
-CX Enterprise的介面功能有時稱為&#x200B;_核心服務_。 它們是統一的標頭功能，包括[!DNL People]服務（[!DNL Audience Library]和[!DNL Customer Attributes]）。
+CX Enterprise中的某些共用功能也稱為&#x200B;_核心服務_。 這些功能包括[!DNL People]服務（[!DNL Audience Library]和[!DNL Customer Attributes]）和[!DNL Assets]。
 
-其他共用功能包括CX Enterprise、Cookie、帳戶偏好設定、通知等的管理（使用者和產品管理）。
+>[!NOTE]
+>
+>使用People服務可能會要求您遵循特定的實作步驟。 如需詳細資訊，請參閱[開始使用People服務](getting-started.md)。
 
 若要存取CX Enterprise中的共用服務和應用程式，請按一下&#x200B;**[!UICONTROL 應用程式選擇器]**
 ![服務選擇器](../assets/apps-icon.png)。
 
-**應用程式選擇器**
-
-![CX Enterprise服務](../assets/platform-core-services.png)
-
-本指南中的「服務」頁面說明下列產品和服務：
-
 | 核心服務 | 說明 |
 | --- | --- |
-| [中央介面元件](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud) | 存取帳戶偏好設定、搜尋產品說明，以及存取應用程式和服務。 |
-| [客群庫](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/audiences/overview) | 客群是訪客的集合 (訪客 ID 的清單)。 Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
-| [客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration]是與Experience Platform整合的應用程式服務。 |
-| [資產](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
-| [觸發器](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/triggers) | CX Enterprise中的觸發器能讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在進行即時決策和個人化時使用觸發器。 |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/exchange) | Exchange Marketplace 是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載數位行銷擴充功能的多合一目的地。 應用程式包括 Data Connectors、Adobe 核心產品的自訂設定、第三方應用程式及報告。 |
-
-{style="table-layout:auto"}
+| [人員>對象庫](audiences/overview.md) | 客群是訪客的集合 (訪客 ID 的清單)。 Adobe的[!DNL Audience Library]可讓您管理將訪客資料轉譯為受眾細分的過程。 |
+| [人員>客戶屬性](customer-attributes/attributes.md) | 使用儲存在事件或資料來源中的情境式資料，建立即時協調使用案例。 [!UICONTROL Journey Orchestration]是與Experience Platform整合的應用程式服務。 |
+| [資產](assets/overview-assets.md) | CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 |
+| [觸發器](triggers.md) | CX Enterprise中的觸發器能讓您識別、定義及監控重要的客戶行為，然後產生跨應用程式的交流，重新與訪客互動。 您可以在進行即時決策和個人化時使用觸發器。 |
+| [Adobe Exchange](exchange.md) | Adobe Exchange是可讓您透過應用程式來搜尋、瀏覽、選擇、支付及下載Digital Marketing擴展元件的多合一路徑。 應用程式包括 Data Connectors、Adobe 核心產品的自訂設定、第三方應用程式及報告。 |
 
 >[!NOTE]
 >

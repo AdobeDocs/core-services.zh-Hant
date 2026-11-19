@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# CX Enterprise Assets概觀
+# CX Enterprise [!DNL Assets]概觀
 
-CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
+CX Enterprise [!DNL Assets]提供單一集中存放庫，內含您可跨應用程式共用的行銷資產。 資產是數位文件、影像、視訊或音訊 (或其中一部分)，可以多次轉譯也可以有子資產 (例如 [!DNL Photoshop] 檔案中的圖層、[!DNL PowerPoint] 檔案中的投影片、PDF 中的頁面、ZIP 中的檔案)。
 
-資產服務包括：
+[!DNL Assets]服務包括：
 
 * 資產儲存空間、管理介面、嵌入式選擇介面 (需透過應用程式存取)。
 * 與Creative Cloud、CX Enterprise共同作業和CX Enterprise應用程式整合。
@@ -48,9 +48,8 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 使用資產可改善一致性和品牌合規性，且可縮短上市時間。 您可以簡化應用程式中的工作流程：
 
 * **[!DNL Adobe Target]**：建立 A/B 測試和多變數測試的體驗。
-* **[!DNL Ad Cloud]**：開發跨不同管道和行銷活動的廣告單位
+* **[!DNL Adobe Advertising]**：開發跨不同管道和行銷活動的廣告單位
 * **[!DNL Adobe Campaign]**：將資產放入電子郵件電子報和行銷活動中。
-
 
 ## 導覽至CX Enterprise Assets
 
@@ -60,7 +59,7 @@ CX Enterprise Assets提供單一集中存放庫，內含您可跨應用程式共
 
 導覽至資產（或資產目錄），然後按一下&#x200B;**[!UICONTROL 選取]**。
 
-工具列可讓您快速存取功能，包括搜尋、時間軸、轉譯、編輯、注釋和下載。
+工具列可讓您快速存取功能，包括[!UICONTROL 搜尋]、[!UICONTROL 時間表]、[!UICONTROL 轉譯]、[!UICONTROL 編輯]、[!UICONTROL 註釋]和[!UICONTROL 下載]。
 
 ![存取工具列](../../assets/asset-tools.png)
 

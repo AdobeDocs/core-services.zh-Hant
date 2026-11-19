@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7
 | **客戶屬性** | 您可透過People服務上傳及對應，用於Analytics、Target及相關工作流程的CRM或企業屬性。 請參閱[客戶屬性](../services/customer-attributes/attributes.md)主題。 | 在未檢查產品界限的情況下，不要單獨等同於&#x200B;**Audience Manager特徵**，或等同於每個&#x200B;**Real-Time CDP**&#x200B;設定檔欄位。 |
 | **客群庫** | CX Enterprise UI，可在整合的應用程式間撰寫和共用對象。 | **Audience Manager**&#x200B;和&#x200B;**Target**&#x200B;也使用「對象」，但區段規則和目的地會依產品而有所不同。 |
 | **區段** （分析） | 規則型對象定義，您可以在Adobe Analytics中建立，並在支援時發佈至共用對象。 | 在&#x200B;**Audience Manager**&#x200B;中，區段結合&#x200B;**特徵**；命名重疊，但實作不相同。 在&#x200B;**Target**&#x200B;中，「對象」在許多位置取代舊版的「區段」標籤。 |
-| **Assets (Experience Cloud Assets)** | 共用資料夾和檔案，供CX Enterprise行銷工作流程與已核准的&#x200B;**Creative Cloud**&#x200B;使用者之間共同作業。 請參閱[Assets概觀](../services/assets/experience-cloud-assets.md)。 | 在&#x200B;**Creative Cloud**&#x200B;中，「資產」通常是指設計檔案(PSD、AI、INDD)。 相同的字詞、不同的共用和治理模式。 |
+| **Assets (Experience Cloud Assets)** | 共用資料夾和檔案，供CX Enterprise行銷工作流程與已核准的&#x200B;**Creative Cloud**&#x200B;使用者之間共同作業。 請參閱[Assets概觀](../services/assets/overview-assets.md)。 | 在&#x200B;**Creative Cloud**&#x200B;中，「資產」通常是指設計檔案(PSD、AI、INDD)。 相同的字詞、不同的共用和治理模式。 |
 
 {style="table-layout:auto"}
 

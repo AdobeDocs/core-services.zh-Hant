@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 35%
@@ -73,7 +73,7 @@ CX Enterprise中央介面指南的4月和5月更新：
 
 ## 2025 年 10 月
 
-更新[如果管理員依IP位址限制對Adobe產品的存取，請用錯誤訊息的附註驗證您的組織](../experience-cloud.md)。
+更新[如果管理員依IP位址限制對Adobe產品的存取，請用錯誤訊息的附註驗證您的組織](../home.md)。
 
 ## 2025 年 8 月
 
@@ -130,7 +130,7 @@ CX Enterprise中央介面指南的4月和5月更新：
 
 ## 2021年8月24日
 
-已更新[中央元件](../experience-cloud.md)頁面 (本指南的登陸頁面)。 已新增瀏覽器和語言支援、對組織和登入的更新，並已新增有關網域的資訊。
+已更新[中央元件](../home.md)頁面 (本指南的登陸頁面)。 已新增瀏覽器和語言支援、對組織和登入的更新，並已新增有關網域的資訊。
 
 ## 2021年8月6日
 
@@ -142,7 +142,7 @@ CX Enterprise中央介面指南的4月和5月更新：
 
 ## 2021年6月1日
 
-已更新[登陸頁面](../experience-cloud.md)，以及存取CX Enterprise、全域搜尋、偏好設定和通知的相關新說明。
+已更新[登陸頁面](../home.md)，以及存取CX Enterprise、全域搜尋、偏好設定和通知的相關新說明。
 
 ## 2020年8月19日
 
@@ -197,7 +197,7 @@ CX Enterprise中央介面指南的4月和5月更新：
 
 ## 2016年2月11日
 
-已新增[CX Enterprise Assets](../services/assets/experience-cloud-assets.md)。
+已新增[CX Enterprise Assets](../services/assets/overview-assets.md)。
 
 ## 2015年1月15
 
